@@ -88,7 +88,10 @@ public. **The Phase 1 build waits for this upload.**
 - **Phase 2:** `/play` (context-pane playground over `lintSource`, live
   validation, autocomplete on command and entity names, signature strip,
   explain panel) and `/data` (ID browser over `vanilla.json`). Try-it buttons
-  appear on command pages when `/play` ships.
+  appear on command pages when `/play` ships. `/data` was built (commit
+  `a16811c`) but is HELD pending Illwinter's permission answer, since its
+  name tables derive from the game-data extraction — restore by reverting
+  commit `84e5089`.
 - **Phase 3:** `/tools/sprite`, `/tools/package`, `/tools/format`,
   `/tools/scaffold`. Folder-drop on `/check` (needs the `lintMod` browser
   core) fits here.
