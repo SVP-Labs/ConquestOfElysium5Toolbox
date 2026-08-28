@@ -1,0 +1,84 @@
+---
+import Base from "../layouts/Base.astro";
+---
+
+<Base>
+  <h1>Conquest of Elysium 5 Toolbox</h1>
+
+  <p>
+    Browser tools for CoE5 modders — validate your mod files and browse the
+    complete command reference, straight from a browser tab. No install, no
+    upload.
+  </p>
+
+  <p class="privacy-note">Every check runs in your browser tab. Nothing is ever uploaded.</p>
+
+  <div class="cards">
+    <a class="card" href="/check">
+      <h2>Check a mod</h2>
+      <p>
+        Paste or drop a <code>.c5m</code> file and get every problem listed
+        with its line, an underline, and a hint — the same diagnostics as the
+        coe5-modcheck CLI.
+      </p>
+    </a>
+    <a class="card" href="/commands">
+      <h2>Command reference</h2>
+      <p>
+        All 853 mod commands, searchable and filterable — including the 314
+        commands the base game never uses and the 3 the manual doesn't
+        document.
+      </p>
+    </a>
+  </div>
+
+  <p class="dim more-coming">
+    More coming: a playground, an ID browser, and sprite, package and format
+    tools are planned.
+  </p>
+</Base>
+
+<style>
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  @media (max-width: 40rem) {
+    .cards { grid-template-columns: 1fr; }
+  }
+
+  .card {
+    display: block;
+    background: var(--bg-raised);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    color: var(--text);
+  }
+
+  .card:hover {
+    text-decoration: none;
+    border-color: var(--accent-dim);
+  }
+
+  .card h2 {
+    margin: 0 0 0.5rem;
+    color: var(--link);
+  }
+
+  .card:hover h2 { text-decoration: underline; }
+
+  .card p {
+    margin: 0;
+    color: var(--text-dim);
+    font-size: 0.92rem;
+  }
+
+  .more-coming {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+  }
+</style>

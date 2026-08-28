@@ -1,0 +1,163 @@
+/* Conquest of Elysium 5 Toolbox — dark by default, severity never colour-only. */
+
+:root {
+  --bg: #14161a;
+  --bg-raised: #1c1f25;
+  --bg-inset: #101216;
+  --border: #2b2f37;
+  --text: #d6d3cd;
+  --text-dim: #8b8b84;
+  --accent: #c9a227;
+  --accent-dim: #8a7220;
+  --link: #7fb4e0;
+  --error: #ff7369;
+  --warning: #e6b450;
+  --info: #6cb6ff;
+  --ok: #7ec699;
+  --mono: "JetBrains Mono", "Cascadia Code", Consolas, Menlo, monospace;
+}
+
+* { box-sizing: border-box; }
+
+html { color-scheme: dark; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+code, pre, kbd, textarea.source {
+  font-family: var(--mono);
+  font-size: 0.9em;
+}
+
+pre {
+  background: var(--bg-inset);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  overflow-x: auto;
+}
+
+code {
+  background: var(--bg-inset);
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+}
+
+pre code { background: none; padding: 0; }
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-raised);
+}
+
+.site-header .inner {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 0.75rem 1rem;
+  display: flex;
+  align-items: baseline;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.site-title {
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 1.05rem;
+  white-space: nowrap;
+}
+
+.site-nav { display: flex; gap: 1.1rem; }
+.site-nav a { color: var(--text); }
+.site-nav a[aria-current="page"] { color: var(--accent); }
+
+main {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 4rem;
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  color: var(--text-dim);
+  font-size: 0.85rem;
+}
+
+.site-footer .inner {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+h1 { font-size: 1.6rem; margin: 0.5rem 0 1rem; }
+h2 { font-size: 1.2rem; margin: 2rem 0 0.75rem; }
+
+.dim { color: var(--text-dim); }
+
+.privacy-note {
+  color: var(--ok);
+  font-size: 0.9rem;
+}
+
+.badge {
+  display: inline-block;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0 0.6em;
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  background: var(--bg-raised);
+}
+
+.badge.accent { color: var(--accent); border-color: var(--accent-dim); }
+
+/* Diagnostics — the severity word is always printed; colour is reinforcement. */
+.severity-error { color: var(--error); }
+.severity-warning { color: var(--warning); }
+.severity-info { color: var(--info); }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.92rem;
+}
+
+th, td {
+  text-align: left;
+  padding: 0.4rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+th { color: var(--text-dim); font-weight: 600; }
+
+button, select, input[type="text"], input[type="search"] {
+  background: var(--bg-raised);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.35rem 0.7rem;
+  font: inherit;
+}
+
+button:hover { border-color: var(--accent-dim); cursor: pointer; }
+
+input[type="search"]:focus, input[type="text"]:focus, textarea:focus, select:focus {
+  outline: 2px solid var(--accent-dim);
+  outline-offset: 0;
+}
+
+@media (max-width: 40rem) {
+  body { font-size: 15px; }
+  th, td { padding: 0.35rem 0.4rem; }
+}

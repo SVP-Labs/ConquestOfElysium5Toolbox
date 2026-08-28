@@ -1,0 +1,231 @@
+---
+import Base from "../../layouts/Base.astro";
+import data from "../../../modcheck/data/commands.json";
+import allExamples from "../../data/examples.json";
+import { distance } from "../../../modcheck/src/suggest.js";
+
+export function getStaticPaths() {
+  return Object.keys(data.commands).map((name) => ({ params: { name } }));
+}
+
+const { name } = Astro.params;
+const cmd = data.commands[name];
+
+const examples = allExamples[name] ?? [];
+const notes = cmd.notes ? (Array.isArray(cmd.notes) ? cmd.notes : [cmd.notes]) : [];
+
+const signatureLine = cmd.signature ? `${name} ${cmd.signature}` : name;
+
+let description = cmd.signature
+  ? `CoE5 mod command ${name} — ${cmd.signature}`
+  : `CoE5 mod command ${name}`;
+if (description.length > 150) description = description.slice(0, 149) + "…";
+
+const stem = (n) => n.replace(/^\+/, "").replace(/\d+$/, "");
+const myStem = stem(name);
+const related = Object.keys(data.commands)
+  .filter((other) => {
+    if (other === name) return false;
+    if (myStem.length >= 2 && stem(other) === myStem) return true;
+    const sharesSection = data.commands[other].sections.some((s) =>
+      cmd.sections.includes(s)
+    );
+    return sharesSection && distance(name, other, 2) <= 2;
+  })
+  .sort()
+  .slice(0, 8);
+
+const pagesLabel =
+  cmd.pages.length === 0
+    ? null
+    : cmd.pages.length === 1
+      ? `manual page ${cmd.pages[0]}`
+      : `pages ${cmd.pages.join(", ")}`;
+---
+
+<Base title={name} description={description}>
+  <h1 class="cmd-title">{name}</h1>
+
+  <p class="badges">
+    {cmd.sections.map((s) => <span class="badge">{s}</span>)}
+    {pagesLabel && <span class="dim pages">{pagesLabel}</span>}
+    {!cmd.documented && <span class="badge accent">not in the manual</span>}
+  </p>
+
+  <pre class="signature">{signatureLine}</pre>
+
+  {
+    cmd.attested > 0 ? (
+      <p class="attested">
+        Used {cmd.attested} time{cmd.attested === 1 ? "" : "s"} in the base game
+        data.
+      </p>
+    ) : (
+      <p class="unattested">
+        Never used by the base game data — behaviour unverified.
+      </p>
+    )
+  }
+
+  {
+    notes.length > 0 && (
+      <aside class="callout">
+        <strong>Manual vs. game data</strong>
+        {notes.map((n) => (
+          <p>{n}</p>
+        ))}
+      </aside>
+    )
+  }
+
+  <h2>Arguments</h2>
+  {
+    cmd.args.length === 0 ? (
+      <p class="dim">Takes no arguments.</p>
+    ) : (
+      <>
+        <table>
+          <thead>
+            <tr>
+              <th>Argument</th>
+              <th>Type</th>
+              <th>Required</th>
+              <th>References</th>
+            </tr>
+          </thead>
+          <tbody>
+            {cmd.args.map((a) => (
+              <tr>
+                <td>{a.name}</td>
+                <td class="type">{a.types.join(" or ")}</td>
+                <td>{a.optional ? "optional" : "yes"}</td>
+                <td>{a.ref ?? "—"}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <p class="dim arity">
+          {cmd.arity.min === cmd.arity.max
+            ? `Takes ${cmd.arity.min} argument${cmd.arity.min === 1 ? "" : "s"}.`
+            : `Takes ${cmd.arity.min}–${cmd.arity.max} arguments.`}
+        </p>
+      </>
+    )
+  }
+
+  {
+    examples.length > 0 && (
+      <>
+        <h2>From the base game data</h2>
+        {examples.map((ex) => (
+          <div class="example">
+            <span class="dim kind">{ex.kind} data</span>
+            <pre>{ex.text}</pre>
+          </div>
+        ))}
+      </>
+    )
+  }
+
+  {
+    related.length > 0 && (
+      <>
+        <h2>Related</h2>
+        <p class="related">
+          {related.map((r) => (
+            <a href={`/commands/${r}`}>{r}</a>
+          ))}
+        </p>
+      </>
+    )
+  }
+
+  <p class="back">
+    <a href="/commands">← All commands</a>
+  </p>
+</Base>
+
+<style>
+  .cmd-title {
+    font-family: var(--mono);
+  }
+
+  .badges {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: -0.5rem;
+  }
+
+  .pages {
+    font-size: 0.85rem;
+  }
+
+  .signature {
+    font-size: 0.95rem;
+  }
+
+  .unattested {
+    color: var(--warning);
+    font-size: 0.92rem;
+  }
+
+  .attested {
+    color: var(--text-dim);
+    font-size: 0.92rem;
+  }
+
+  .callout {
+    border: 1px solid var(--accent-dim);
+    border-left: 3px solid var(--accent);
+    border-radius: 6px;
+    background: var(--bg-raised);
+    padding: 0.6rem 1rem;
+    margin: 1rem 0;
+    font-size: 0.92rem;
+  }
+
+  .callout strong {
+    color: var(--accent);
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+
+  .callout p {
+    margin: 0.25rem 0;
+  }
+
+  .type {
+    font-family: var(--mono);
+    font-size: 0.85rem;
+  }
+
+  .arity {
+    font-size: 0.88rem;
+  }
+
+  .example {
+    margin: 0.75rem 0;
+  }
+
+  .example .kind {
+    font-size: 0.8rem;
+  }
+
+  .example pre {
+    margin: 0.2rem 0 0;
+  }
+
+  .related {
+    display: flex;
+    gap: 0.5rem 1.25rem;
+    flex-wrap: wrap;
+    font-family: var(--mono);
+    font-size: 0.92rem;
+  }
+
+  .back {
+    margin-top: 2.5rem;
+  }
+</style>
