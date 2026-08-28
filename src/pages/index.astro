@@ -54,14 +54,21 @@ import Base from "../layouts/Base.astro";
     display: block;
     background: var(--bg-raised);
     border: 1px solid var(--border);
-    border-radius: 8px;
+    border-top: 3px solid var(--accent-dim);
+    border-radius: var(--radius);
     padding: 1rem 1.25rem;
     color: var(--text);
+    box-shadow: var(--shadow);
+    transition: transform 150ms ease, box-shadow 150ms ease,
+      border-color 150ms ease;
   }
 
   .card:hover {
     text-decoration: none;
     border-color: var(--accent-dim);
+    border-top-color: var(--accent);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lift);
   }
 
   .card h2 {

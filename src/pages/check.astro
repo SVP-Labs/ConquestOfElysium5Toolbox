@@ -10,7 +10,7 @@ import Base from "../layouts/Base.astro";
 
   <p>
     Validate a single <code>.c5m</code> mod file as you type — the same
-    diagnostics as the coe5-modcheck CLI.
+    diagnostics as the coe5-modcheck CLI.&#32;
     <span class="privacy-note">Every check runs in your browser tab. Nothing is ever uploaded.</span>
   </p>
 
@@ -40,12 +40,14 @@ import Base from "../layouts/Base.astro";
   .dropzone {
     display: block;
     border: 2px dashed var(--border);
-    border-radius: 8px;
+    border-radius: var(--radius);
     padding: 1.5rem 1rem;
     text-align: center;
     color: var(--text-dim);
     cursor: pointer;
     margin: 1.5rem 0 1rem;
+    transition: border-color 150ms ease, background-color 150ms ease,
+      color 150ms ease;
   }
 
   .dropzone:hover,
@@ -56,7 +58,8 @@ import Base from "../layouts/Base.astro";
   }
 
   .dropzone:focus-within {
-    outline: 2px solid var(--accent-dim);
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
   }
 
   .dropzone input {
@@ -74,8 +77,9 @@ import Base from "../layouts/Base.astro";
     background: var(--bg-inset);
     color: var(--text);
     border: 1px solid var(--border);
-    border-radius: 6px;
+    border-radius: var(--radius-sm);
     padding: 0.75rem 1rem;
+    transition: border-color 150ms ease;
   }
 
   .filter-row {
@@ -101,7 +105,7 @@ import Base from "../layouts/Base.astro";
   :global(.diag) {
     background: var(--bg-inset);
     border: 1px solid var(--border);
-    border-radius: 6px;
+    border-radius: var(--radius-sm);
     padding: 0.6rem 0.9rem;
     margin-bottom: 0.6rem;
     font-family: var(--mono);
