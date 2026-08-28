@@ -1,0 +1,236 @@
+---
+import Base from "../layouts/Base.astro";
+---
+
+<Base
+  title="Check a mod"
+  description="Single-file .c5m validator running entirely in the browser."
+>
+  <h1>Check a mod</h1>
+
+  <p>
+    Validate a single <code>.c5m</code> mod file as you type — the same
+    diagnostics as the coe5-modcheck CLI.
+    <span class="privacy-note">Every check runs in your browser tab. Nothing is ever uploaded.</span>
+  </p>
+
+  <label class="dropzone" id="dropzone">
+    Drop a <code>.c5m</code> file here, or click to pick one — or paste below.
+    <input type="file" id="filepick" accept=".c5m,.txt" />
+  </label>
+
+  <textarea
+    class="source"
+    id="source"
+    spellcheck="false"
+    placeholder={'newmonster "My Monster"\nhp 14'}
+    aria-label="Mod source"></textarea>
+
+  <div class="filter-row">
+    <label><input type="checkbox" id="show-error" checked /> <span class="severity-error">error</span></label>
+    <label><input type="checkbox" id="show-warning" checked /> <span class="severity-warning">warning</span></label>
+    <label><input type="checkbox" id="show-info" checked /> <span class="severity-info">info</span></label>
+    <span id="summary" aria-live="polite"></span>
+  </div>
+
+  <div id="results" aria-live="polite"></div>
+</Base>
+
+<style>
+  .dropzone {
+    display: block;
+    border: 2px dashed var(--border);
+    border-radius: 8px;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    color: var(--text-dim);
+    cursor: pointer;
+    margin: 1.5rem 0 1rem;
+  }
+
+  .dropzone:hover,
+  .dropzone.dragover {
+    border-color: var(--accent-dim);
+    color: var(--text);
+    background: var(--bg-raised);
+  }
+
+  .dropzone:focus-within {
+    outline: 2px solid var(--accent-dim);
+  }
+
+  .dropzone input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    overflow: hidden;
+  }
+
+  textarea.source {
+    width: 100%;
+    min-height: 16rem;
+    resize: vertical;
+    background: var(--bg-inset);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+  }
+
+  .filter-row {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    margin: 0.75rem 0 1rem;
+  }
+
+  .filter-row label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    cursor: pointer;
+  }
+
+  #summary { color: var(--text-dim); }
+  #summary.ok { color: var(--ok); }
+
+  .diag {
+    background: var(--bg-inset);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.6rem 0.9rem;
+    margin-bottom: 0.6rem;
+    font-family: var(--mono);
+    font-size: 0.85rem;
+    line-height: 1.5;
+    overflow-x: auto;
+    white-space: pre;
+  }
+
+  .diag .dim-part { color: var(--text-dim); }
+</style>
+
+<script>
+  import { lintSource } from "../../modcheck/src/linter.js";
+
+  const source = document.getElementById("source");
+  const dropzone = document.getElementById("dropzone");
+  const filepick = document.getElementById("filepick");
+  const results = document.getElementById("results");
+  const summary = document.getElementById("summary");
+  const boxes = {
+    error: document.getElementById("show-error"),
+    warning: document.getElementById("show-warning"),
+    info: document.getElementById("show-info"),
+  };
+
+  let fileName; // set when the source came from a dropped/picked file
+  let lastDiagnostics = [];
+  let lastLines = [];
+
+  function lint() {
+    const text = source.value;
+    lastLines = text.split("\n");
+    lastDiagnostics = text.trim() === "" ? [] : lintSource(text, { file: fileName });
+    renderSummary(text);
+    renderResults();
+  }
+
+  function renderSummary(text) {
+    summary.classList.remove("ok");
+    if (text.trim() === "") {
+      summary.textContent = "";
+      return;
+    }
+    if (lastDiagnostics.length === 0) {
+      summary.textContent = "no problems found";
+      summary.classList.add("ok");
+      return;
+    }
+    const count = (sev) => lastDiagnostics.filter((d) => d.severity === sev).length;
+    summary.textContent = `${count("error")} error(s), ${count("warning")} warning(s), ${count("info")} info`;
+  }
+
+  function renderResults() {
+    results.textContent = "";
+    for (const d of lastDiagnostics) {
+      if (!boxes[d.severity]?.checked) continue;
+      results.appendChild(renderDiagnostic(d));
+    }
+  }
+
+  function renderDiagnostic(d) {
+    const block = document.createElement("div");
+    block.className = "diag";
+
+    const span = (text, cls) => {
+      const el = document.createElement("span");
+      if (cls) el.className = cls;
+      el.textContent = text;
+      return el;
+    };
+
+    // line:col  severity  message  rule
+    block.appendChild(span(`${d.line}:${d.col + 1}  `));
+    block.appendChild(span(d.severity, `severity-${d.severity}`));
+    block.appendChild(span(`  ${d.message}  `));
+    block.appendChild(span(d.rule, "dim-part"));
+
+    // │ source line (tabs replaced by a space)
+    const lineText = lastLines[d.line - 1];
+    if (lineText !== undefined) {
+      block.appendChild(span("\n  "));
+      block.appendChild(span("│ ", "dim-part"));
+      block.appendChild(span(lineText.replace(/\t/g, " ")));
+
+      // │ underline
+      const end = Math.max(d.end ?? d.col + 1, d.col + 1);
+      block.appendChild(span("\n  "));
+      block.appendChild(span("│ ", "dim-part"));
+      block.appendChild(span(" ".repeat(d.col)));
+      block.appendChild(span("~".repeat(end - d.col), `severity-${d.severity}`));
+    }
+
+    // └ hint
+    if (d.hint) {
+      block.appendChild(span("\n  "));
+      block.appendChild(span(`└ ${d.hint}`, "dim-part"));
+    }
+
+    return block;
+  }
+
+  let debounceTimer;
+  source.addEventListener("input", () => {
+    fileName = undefined;
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(lint, 150);
+  });
+
+  for (const box of Object.values(boxes)) {
+    box.addEventListener("change", renderResults);
+  }
+
+  async function loadFile(file) {
+    if (!file) return;
+    clearTimeout(debounceTimer);
+    source.value = await file.text();
+    fileName = file.name;
+    lint();
+  }
+
+  filepick.addEventListener("change", () => loadFile(filepick.files[0]));
+
+  dropzone.addEventListener("dragover", (e) => {
+    e.preventDefault();
+    dropzone.classList.add("dragover");
+  });
+  dropzone.addEventListener("dragleave", () => dropzone.classList.remove("dragover"));
+  dropzone.addEventListener("drop", (e) => {
+    e.preventDefault();
+    dropzone.classList.remove("dragover");
+    loadFile(e.dataTransfer.files[0]);
+  });
+</script>
