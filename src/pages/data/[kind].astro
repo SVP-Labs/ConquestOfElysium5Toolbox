@@ -1,0 +1,160 @@
+---
+import Base from "../../layouts/Base.astro";
+import data from "../../../modcheck/data/vanilla.json";
+
+export function getStaticPaths() {
+  const record = (kind) =>
+    Object.entries(data[kind])
+      .map(([idx, name]) => [Number(idx), name])
+      .sort((a, b) => a[0] - b[0]);
+
+  const kinds = [
+    { kind: "monsters", title: "Monsters", singular: "monster", plural: "monsters", entries: record("monsters") },
+    { kind: "weapons", title: "Weapons", singular: "weapon", plural: "weapons", entries: record("weapons") },
+    { kind: "items", title: "Items", singular: "item", plural: "items", entries: record("items") },
+    { kind: "rituals", title: "Rituals", singular: "ritual", plural: "rituals", entries: record("rituals") },
+    { kind: "terrains", title: "Terrains", singular: "terrain", plural: "terrains", entries: record("terrains") },
+    { kind: "classes", title: "Classes", singular: "class", plural: "classes", entries: record("classes") },
+    {
+      kind: "resources",
+      title: "Resources",
+      singular: "resource",
+      plural: "resources",
+      entries: data.resources.map((name, idx) => [idx, name]),
+    },
+  ];
+
+  return kinds.map(({ kind, ...props }) => ({ params: { kind }, props }));
+}
+
+const { title, singular, plural, entries } = Astro.props;
+const total = entries.length;
+---
+
+<Base
+  title={title}
+  description={`All ${total} Conquest of Elysium 5 ${singular} IDs and names, searchable.`}
+>
+  <h1>{title} <span class="dim entry-count">{total} entries</span></h1>
+  <p class="back"><a href="/data">&larr; All ID tables</a></p>
+
+  <div class="controls">
+    <input
+      type="search"
+      id="q"
+      placeholder={`Search ${plural}…`}
+      aria-label={`Search ${plural} by name or number`}
+      autocomplete="off"
+    />
+    <p class="dim count" id="count" aria-live="polite">
+      showing {total} of {total}
+    </p>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+      </tr>
+    </thead>
+    <tbody id="list">
+      {
+        entries.map(([idx, name]) => (
+          <tr id={`n${idx}`} data-idx={idx} data-name={name}>
+            <td class="idx">{idx}</td>
+            <td>{name}</td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</Base>
+
+<script>
+  import { distance } from "../../../modcheck/src/suggest.js";
+
+  const rows = [...document.querySelectorAll("#list > tr")].map((el) => ({
+    el,
+    idx: el.dataset.idx,
+    name: el.dataset.name.toLowerCase(),
+  }));
+
+  const q = document.getElementById("q");
+  const count = document.getElementById("count");
+  const total = rows.length;
+
+  function apply() {
+    const query = q.value.trim().toLowerCase();
+    const fuzzy = query.length >= 3;
+    let shown = 0;
+
+    for (const row of rows) {
+      const ok =
+        !query ||
+        row.name.includes(query) ||
+        row.idx === query ||
+        (fuzzy && distance(query, row.name, 2) <= 2);
+      row.el.hidden = !ok;
+      if (ok) shown++;
+    }
+
+    count.textContent = `showing ${shown} of ${total}`;
+  }
+
+  q.addEventListener("input", apply);
+</script>
+
+<style>
+  .entry-count {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 0.35em;
+  }
+
+  .back {
+    margin-top: -0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .controls {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: var(--bg);
+    padding: 0.5rem 0 0.25rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 0.5rem;
+  }
+
+  #q {
+    width: 100%;
+    max-width: 24rem;
+  }
+
+  .count {
+    margin: 0.5rem 0 0;
+    font-size: 0.85rem;
+  }
+
+  .idx {
+    font-family: var(--mono);
+    color: var(--text-dim);
+    font-size: 0.88rem;
+    width: 4.5rem;
+    white-space: nowrap;
+  }
+
+  tbody tr[hidden] {
+    display: none;
+  }
+
+  tbody tr {
+    /* Keep a deep-linked row clear of the sticky search bar. */
+    scroll-margin-top: 5.5rem;
+  }
+
+  tbody tr:target td {
+    background: color-mix(in srgb, var(--accent) 16%, transparent);
+  }
+</style>

@@ -1,0 +1,149 @@
+---
+import Base from "../../layouts/Base.astro";
+import data from "../../../modcheck/data/vanilla.json";
+
+const tables = [
+  {
+    kind: "monsters",
+    title: "Monsters",
+    count: Object.keys(data.monsters).length,
+    desc: "Every unit and commander in the base game, numbered from 0.",
+  },
+  {
+    kind: "weapons",
+    title: "Weapons",
+    count: Object.keys(data.weapons).length,
+    desc: "Weapon and attack numbers, from Fist upwards.",
+  },
+  {
+    kind: "items",
+    title: "Items",
+    count: Object.keys(data.items).length,
+    desc: "Magic item numbers used by item and reward commands.",
+  },
+  {
+    kind: "rituals",
+    title: "Rituals",
+    count: Object.keys(data.rituals).length,
+    desc: "Ritual numbers — numbering starts at 1, not 0.",
+  },
+  {
+    kind: "terrains",
+    title: "Terrains",
+    count: Object.keys(data.terrains).length,
+    desc: "Terrain and location numbers used by map and event commands.",
+  },
+  {
+    kind: "classes",
+    title: "Classes",
+    count: Object.keys(data.classes).length,
+    desc: "The playable classes — numbering starts at 1, not 0.",
+  },
+  {
+    kind: "resources",
+    title: "Resources",
+    count: data.resources.length,
+    desc: "Resource numbers — the number is the position in the game's resource list.",
+  },
+];
+
+const ritpows = data.ritpows;
+---
+
+<Base
+  title="Data"
+  description="Searchable ID tables for Conquest of Elysium 5 modding: every monster, weapon, item, ritual, terrain, class and resource number with the name it refers to."
+>
+  <h1>ID tables</h1>
+
+  <p>
+    The mod format refers to game content by number. These tables list every
+    numeric ID the base game defines, with the name each number refers to — so
+    a line like <code>power 6 2</code> can be read without digging through the
+    PDF.
+  </p>
+
+  <div class="cards">
+    {
+      tables.map((t) => (
+        <a class="card" href={`/data/${t.kind}`}>
+          <h2>{t.title}</h2>
+          <p class="dim card-count">{t.count} entries</p>
+          <p>{t.desc}</p>
+        </a>
+      ))
+    }
+  </div>
+
+  <h2>Ritual school numbers</h2>
+  <p>
+    These are the ritual school numbers the base game defines. School names
+    aren't part of the extracted data, so only the numbers can be listed —
+    but any <code>school</code> argument outside this set is not a base-game
+    school.
+  </p>
+  <div class="ritpow-row">
+    {ritpows.map((n) => <span class="badge ritpow">{n}</span>)}
+  </div>
+</Base>
+
+<style>
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .card {
+    display: block;
+    background: var(--bg-raised);
+    border: 1px solid var(--border);
+    border-top: 3px solid var(--accent-dim);
+    border-radius: var(--radius);
+    padding: 1rem 1.25rem;
+    color: var(--text);
+    box-shadow: var(--shadow);
+    transition: transform 150ms ease, box-shadow 150ms ease,
+      border-color 150ms ease;
+  }
+
+  .card:hover {
+    text-decoration: none;
+    border-color: var(--accent-dim);
+    border-top-color: var(--accent);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lift);
+  }
+
+  .card h2 {
+    margin: 0 0 0.25rem;
+    font-size: 1.1rem;
+    color: var(--link);
+  }
+
+  .card:hover h2 { text-decoration: underline; }
+
+  .card p {
+    margin: 0;
+    color: var(--text-dim);
+    font-size: 0.92rem;
+  }
+
+  .card-count {
+    font-size: 0.82rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .ritpow-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: 0.75rem;
+  }
+
+  .ritpow {
+    font-family: var(--mono);
+    font-size: 0.82rem;
+  }
+</style>

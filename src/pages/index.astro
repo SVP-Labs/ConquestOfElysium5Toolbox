@@ -30,23 +30,30 @@ import Base from "../layouts/Base.astro";
         document.
       </p>
     </a>
+    <a class="card" href="/data">
+      <h2>ID tables</h2>
+      <p>
+        Every numeric ID in the mod format — terrains, classes, resources and
+        more — with the name each number means.
+      </p>
+    </a>
   </div>
 
   <p class="dim more-coming">
-    More coming: a playground, an ID browser, and sprite, package and format
-    tools are planned.
+    More coming: a playground and sprite, package and format tools are
+    planned.
   </p>
 </Base>
 
 <style>
   .cards {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     margin-top: 1.5rem;
   }
 
-  @media (max-width: 40rem) {
+  @media (max-width: 48rem) {
     .cards { grid-template-columns: 1fr; }
   }
 
