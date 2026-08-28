@@ -10,7 +10,7 @@
     "extract:examples": "node tools/extract-examples.mjs"
   },
   "devDependencies": {
-    "astro": "^5.18.2",
+    "astro": "^7.1.1",
     "playwright-core": "^1.62.1"
   }
 }
