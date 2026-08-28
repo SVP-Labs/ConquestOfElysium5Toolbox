@@ -96,7 +96,9 @@ import Base from "../layouts/Base.astro";
   #summary { color: var(--text-dim); }
   #summary.ok { color: var(--ok); }
 
-  .diag {
+  /* .diag blocks are created by the client script, so Astro's style scoping
+     never sees them — these rules must be global. */
+  :global(.diag) {
     background: var(--bg-inset);
     border: 1px solid var(--border);
     border-radius: 6px;
@@ -109,7 +111,7 @@ import Base from "../layouts/Base.astro";
     white-space: pre;
   }
 
-  .diag .dim-part { color: var(--text-dim); }
+  :global(.diag .dim-part) { color: var(--text-dim); }
 </style>
 
 <script>

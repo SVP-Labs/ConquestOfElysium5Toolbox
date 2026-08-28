@@ -1,0 +1,203 @@
+---
+import Base from "../../layouts/Base.astro";
+import data from "../../../modcheck/data/commands.json";
+
+const { meta, commands } = data;
+const names = Object.keys(commands).sort();
+const total = names.length;
+const sections = [...new Set(Object.values(commands).flatMap((c) => c.sections))].sort();
+---
+
+<Base
+  title="Commands"
+  description={`Full reference for all ${total} Conquest of Elysium 5 mod commands: signatures, arguments, manual pages and base-game usage.`}
+>
+  <h1>Command reference</h1>
+  <p class="dim subtitle">
+    {total} commands · from {meta.manual} and {meta.rips}
+  </p>
+
+  <div class="controls">
+    <div class="controls-row">
+      <input type="search" id="q" placeholder="Search commands…" autocomplete="off" />
+      <select id="section">
+        <option value="all">all sections</option>
+        {sections.map((s) => <option value={s}>{s}</option>)}
+      </select>
+    </div>
+    <div class="controls-row filters">
+      <label><input type="checkbox" id="f-unused" /> never used by the base game</label>
+      <label><input type="checkbox" id="f-undocumented" /> undocumented in the manual</label>
+      <label><input type="checkbox" id="f-notes" /> manual and data disagree</label>
+    </div>
+    <p class="dim count" id="count">showing {total} of {total}</p>
+  </div>
+
+  <ul class="cmd-list" id="list">
+    {
+      names.map((name) => {
+        const c = commands[name];
+        return (
+          <li
+            data-name={name}
+            data-sections={c.sections.join(",")}
+            data-attested={c.attested}
+            data-documented={c.documented ? "1" : "0"}
+            data-notes={c.notes ? "1" : "0"}
+          >
+            <a class="cmd-name" href={`/commands/${name}`}>
+              {name}
+            </a>
+            <span class="row-badges">
+              {c.sections.map((s) => (
+                <span class="badge">{s}</span>
+              ))}
+              {!c.documented && <span class="badge accent">undocumented</span>}
+              {c.notes && <span class="badge accent">disagrees</span>}
+            </span>
+            <span class="dim attest">{c.attested > 0 ? `×${c.attested}` : "unused"}</span>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Base>
+
+<script>
+  import { distance } from "../../../modcheck/src/suggest.js";
+
+  const rows = [...document.querySelectorAll("#list > li")].map((el) => ({
+    el,
+    name: el.dataset.name,
+    sections: el.dataset.sections.split(","),
+    attested: Number(el.dataset.attested),
+    documented: el.dataset.documented === "1",
+    notes: el.dataset.notes === "1",
+  }));
+
+  const q = document.getElementById("q");
+  const sectionSel = document.getElementById("section");
+  const fUnused = document.getElementById("f-unused");
+  const fUndoc = document.getElementById("f-undocumented");
+  const fNotes = document.getElementById("f-notes");
+  const count = document.getElementById("count");
+  const total = rows.length;
+
+  function apply() {
+    const query = q.value.trim().toLowerCase();
+    const section = sectionSel.value;
+    const fuzzy = query.length >= 3;
+    let shown = 0;
+
+    for (const row of rows) {
+      let ok = true;
+      if (query) {
+        ok =
+          row.name.includes(query) ||
+          (fuzzy && distance(query, row.name, 2) <= 2);
+      }
+      if (ok && section !== "all") ok = row.sections.includes(section);
+      if (ok && fUnused.checked) ok = row.attested === 0;
+      if (ok && fUndoc.checked) ok = !row.documented;
+      if (ok && fNotes.checked) ok = row.notes;
+      row.el.hidden = !ok;
+      if (ok) shown++;
+    }
+
+    count.textContent = `showing ${shown} of ${total}`;
+  }
+
+  q.addEventListener("input", apply);
+  for (const el of [sectionSel, fUnused, fUndoc, fNotes]) {
+    el.addEventListener("change", apply);
+  }
+</script>
+
+<style>
+  .subtitle {
+    margin-top: -0.5rem;
+  }
+
+  .controls {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: var(--bg);
+    padding: 0.5rem 0 0.25rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 0.5rem;
+  }
+
+  .controls-row {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+
+  #q {
+    flex: 1 1 14rem;
+    min-width: 10rem;
+  }
+
+  .filters {
+    font-size: 0.9rem;
+    color: var(--text-dim);
+    gap: 1.25rem;
+  }
+
+  .filters label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    cursor: pointer;
+  }
+
+  .count {
+    margin: 0;
+    font-size: 0.85rem;
+  }
+
+  .cmd-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .cmd-list li {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    padding: 0.3rem 0.25rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .cmd-list li[hidden] {
+    display: none;
+  }
+
+  .cmd-name {
+    font-family: var(--mono);
+    font-size: 0.92rem;
+    min-width: 12rem;
+  }
+
+  .row-badges {
+    display: inline-flex;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+  }
+
+  .attest {
+    margin-left: auto;
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 40rem) {
+    .cmd-name {
+      min-width: 0;
+    }
+  }
+</style>
