@@ -1,0 +1,3 @@
+[submodule "modcheck"]
+	path = modcheck
+	url = https://github.com/SvenPGH/ConquestOfElysium5ModValidator

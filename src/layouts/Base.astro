@@ -1,0 +1,42 @@
+---
+import "../styles/global.css";
+
+const { title, description = "Browser tools for Conquest of Elysium 5 modders: validate mod files and browse the full command reference." } = Astro.props;
+
+const SITE_NAME = "Conquest of Elysium 5 Toolbox";
+const path = Astro.url.pathname;
+const current = (prefix) =>
+  (prefix === "/" ? path === "/" : path.startsWith(prefix)) ? "page" : undefined;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title ? `${title} — ${SITE_NAME}` : SITE_NAME}</title>
+    <meta name="description" content={description} />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="inner">
+        <a class="site-title" href="/">{SITE_NAME}</a>
+        <nav class="site-nav">
+          <a href="/check" aria-current={current("/check")}>Check a mod</a>
+          <a href="/commands" aria-current={current("/commands")}>Commands</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="inner">
+        <span>Every check runs in your browser — nothing is ever uploaded.</span>
+        <a href="https://github.com/SvenPGH/ConquestOfElysium5ModValidator">Validator (CLI)</a>
+        <a href="https://github.com/SvenPGH/ConquestOfElysium5Toolbox">Site source</a>
+        <span>Unaffiliated with Illwinter Game Design.</span>
+      </div>
+    </footer>
+  </body>
+</html>

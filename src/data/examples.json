@@ -1,0 +1,5052 @@
+{
+  "acidres": [
+    {
+      "text": "acidres                      100 # Acid immunity.",
+      "kind": "monster"
+    },
+    {
+      "text": "acidres                       50 # 50 Acid Resistance.",
+      "kind": "monster"
+    },
+    {
+      "text": "acidres                                     50 # +50 Acid Resistance.",
+      "kind": "item"
+    }
+  ],
+  "acutesenses": [
+    {
+      "text": "acutesenses                      # Can see units with Stealth or Forest Stealth.",
+      "kind": "monster"
+    },
+    {
+      "text": "acutesenses                                    # Can see units with Stealth or Forest Stealth.",
+      "kind": "item"
+    }
+  ],
+  "addcomrec": [
+    {
+      "text": "addcomrec   \"Ghost Captain\"                     5     100   0    0 # once per offer.",
+      "kind": "recruitment"
+    },
+    {
+      "text": "addcomrec   \"Ogre Chief\"                        3      35  20    0 # once per offer; extra.",
+      "kind": "recruitment"
+    },
+    {
+      "text": "addcomrec   \"Cloudfolk Elder\"                   1      75  25    0 # once per offer; not for Kobo…",
+      "kind": "recruitment"
+    }
+  ],
+  "addmercrec": [
+    {
+      "text": "addmercrec  \"Scout\"                            10  1   15  10    0 # once per offer; extra.",
+      "kind": "recruitment"
+    },
+    {
+      "text": "addmercrec  \"Goblin Murderer\"                   3  1   10  40    0 # once per offer; extra.",
+      "kind": "recruitment"
+    },
+    {
+      "text": "addmercrec  \"Storm Drake\"                      10  1   20   0    0 # once per offer; extra; only …",
+      "kind": "recruitment"
+    }
+  ],
+  "addstartcom": [
+    {
+      "text": "addstartcom            \"Bishop\"",
+      "kind": "class"
+    },
+    {
+      "text": "addstartcom            \"Scourge Herald\"",
+      "kind": "class"
+    },
+    {
+      "text": "addstartcom            \"Illusionist's Apprentice\"",
+      "kind": "class"
+    }
+  ],
+  "addstartterr": [
+    {
+      "text": "addstartterr        5 # Farm",
+      "kind": "class"
+    },
+    {
+      "text": "addstartterr      105 # Coal Mine",
+      "kind": "class"
+    },
+    {
+      "text": "addstartterr      187 # Deep Earth Iron Deposit",
+      "kind": "class"
+    }
+  ],
+  "addstartunits": [
+    {
+      "text": "addstartunits          \"Spearman\"                  6",
+      "kind": "class"
+    },
+    {
+      "text": "addstartunits          \"Goblin\"                   10",
+      "kind": "class"
+    },
+    {
+      "text": "addstartunits          \"Atavi Warrior\"             5",
+      "kind": "class"
+    }
+  ],
+  "addstring": [
+    {
+      "text": "addstring     \"Ent\"",
+      "kind": "ritual"
+    },
+    {
+      "text": "addstring     \"2d4*Giant Spider\"",
+      "kind": "ritual"
+    },
+    {
+      "text": "addstring     \"(-)Vassal Unicorn Knight\"     # This string will only be used by nomon[...] commands.",
+      "kind": "ritual"
+    }
+  ],
+  "addunitrec": [
+    {
+      "text": "addunitrec  \"Spearman\"                        100  5   50   0    0",
+      "kind": "recruitment"
+    },
+    {
+      "text": "addunitrec  \"Sinner\"                          100 10   50   0    0",
+      "kind": "recruitment"
+    },
+    {
+      "text": "addunitrec  \"Cloudfolk Lady\"                    4  2   75   0    0 # once per offer; not for Kobo…",
+      "kind": "recruitment"
+    }
+  ],
+  "affectanimal": [
+    {
+      "text": "affectanimal           # Only affects animals.",
+      "kind": "weapon"
+    }
+  ],
+  "affecthuman": [
+    {
+      "text": "affecthuman            # Only affects humans.",
+      "kind": "weapon"
+    }
+  ],
+  "affectundead": [
+    {
+      "text": "affectundead           # Only affects undead units.",
+      "kind": "weapon"
+    }
+  ],
+  "afterprev": [
+    {
+      "text": "afterprev                # Cannot learn this ritual until the preceding ritual is known.",
+      "kind": "ritual"
+    }
+  ],
+  "aggressive": [
+    {
+      "text": "aggressive                       # Likes to move to attack enemies in range on world map.",
+      "kind": "monster"
+    }
+  ],
+  "aialways": [
+    {
+      "text": "aialways              25 # Extra 25% chance that AI will try to cast this ritual if it currently …",
+      "kind": "ritual"
+    },
+    {
+      "text": "aialways              90 # Extra 90% chance that AI will try to cast this ritual if it currently …",
+      "kind": "ritual"
+    },
+    {
+      "text": "aialways              70 # Extra 70% chance that AI will try to cast this ritual if it currently …",
+      "kind": "ritual"
+    }
+  ],
+  "aiapprspam": [
+    {
+      "text": "aiapprspam           100 # 100% chance that AI will dedicate apprentices to stay at home and only…",
+      "kind": "ritual"
+    }
+  ],
+  "aiclass": [
+    {
+      "text": "aiclass             1 # This class is hidden and can only be played by AI players (and only by ra…",
+      "kind": "class"
+    }
+  ],
+  "aimaxcast": [
+    {
+      "text": "aimaxcast              3 # An AI player will never cast this ritual more than 3 times in a game.",
+      "kind": "ritual"
+    }
+  ],
+  "ainofollower": [
+    {
+      "text": "ainofollower                   1 # AI hint to always use this commander as a leader (not a subcom…",
+      "kind": "monster"
+    }
+  ],
+  "ainosimul": [
+    {
+      "text": "ainosimul              1 # An AI player may not have more than one commander plan to cast this ri…",
+      "kind": "ritual"
+    }
+  ],
+  "ainotclose1": [
+    {
+      "text": "ainotclose1         -109 # AI will not cast ritual within a 1 square radius of this terrain: buil…",
+      "kind": "ritual"
+    }
+  ],
+  "ainotclose3": [
+    {
+      "text": "ainotclose3         -109 # AI will not cast ritual within a 3 square radius of this terrain: buil…",
+      "kind": "ritual"
+    }
+  ],
+  "ainothere": [
+    {
+      "text": "ainothere            117 # AI will not cast ritual on this terrain: Desert.",
+      "kind": "ritual"
+    },
+    {
+      "text": "ainothere             97 # AI will not cast ritual on this terrain: Iron Bog.",
+      "kind": "ritual"
+    }
+  ],
+  "ainotnearhome": [
+    {
+      "text": "ainotnearhome          7 # AI should not cast this ritual less than 7 squares from player's home …",
+      "kind": "ritual"
+    },
+    {
+      "text": "ainotnearhome          8 # AI should not cast this ritual less than 8 squares from player's home …",
+      "kind": "ritual"
+    },
+    {
+      "text": "ainotnearhome          5 # AI should not cast this ritual less than 5 squares from player's home …",
+      "kind": "ritual"
+    }
+  ],
+  "aionlyplane": [
+    {
+      "text": "aionlyplane            5 # AI will only cast ritual when on this plane: Hades.",
+      "kind": "ritual"
+    }
+  ],
+  "airare": [
+    {
+      "text": "airare                -1 # AI will never cast this ritual.",
+      "kind": "ritual"
+    },
+    {
+      "text": "airare                 2 # Only 2% of normal chance that AI will cast this ritual.",
+      "kind": "ritual"
+    },
+    {
+      "text": "airare                10 # Only 10% of normal chance that AI will cast this ritual.",
+      "kind": "ritual"
+    }
+  ],
+  "airestrig": [
+    {
+      "text": "airestrig            300 # AI will always try to cast this ritual if it has at least 300 of the p…",
+      "kind": "ritual"
+    }
+  ],
+  "airshield": [
+    {
+      "text": "airshield                                   75 # Air Shield (75): 75% chance of negating certain …",
+      "kind": "item"
+    },
+    {
+      "text": "airshield                     50 # Air Shield (50): 50% chance of negating certain incoming missi…",
+      "kind": "monster"
+    },
+    {
+      "text": "airshield                     75 # Air Shield (75): 75% chance of negating certain incoming missi…",
+      "kind": "monster"
+    }
+  ],
+  "aitarg": [
+    {
+      "text": "aitarg                 1 # An AI caster will try to target a square with enemy commanders.",
+      "kind": "ritual"
+    },
+    {
+      "text": "aitarg                 2 # An AI caster will try to target a valuable square with corpses in it.",
+      "kind": "ritual"
+    }
+  ],
+  "aiweakonly": [
+    {
+      "text": "aiweakonly           400 # AI commander will only cast this ritual if his troop strength is below…",
+      "kind": "ritual"
+    },
+    {
+      "text": "aiweakonly          1500 # AI commander will only cast this ritual if his troop strength is below…",
+      "kind": "ritual"
+    },
+    {
+      "text": "aiweakonly           500 # AI commander will only cast this ritual if his troop strength is below…",
+      "kind": "ritual"
+    }
+  ],
+  "allitemslots": [
+    {
+      "text": "allitemslots                     # Has the full set of item slots.",
+      "kind": "monster"
+    }
+  ],
+  "alterloc": [
+    {
+      "text": "alterloc               5 # Change target location's terrain to: Farm.",
+      "kind": "ritual"
+    },
+    {
+      "text": "alterloc             238 # Change target location's terrain to: Primal Forest.",
+      "kind": "ritual"
+    },
+    {
+      "text": "alterloc             314 # Change target location's terrain to: Recuperating Ancient Forest.",
+      "kind": "ritual"
+    }
+  ],
+  "an": [
+    {
+      "text": "an                     # Armor negating.",
+      "kind": "weapon"
+    }
+  ],
+  "ancforest1": [
+    {
+      "text": "ancforest1                       # Loves ancient forests (if an independent or stupid commander, …",
+      "kind": "monster"
+    }
+  ],
+  "animal": [
+    {
+      "text": "animal                           # Vulnerable to weapons and spells that only affect animals; lea…",
+      "kind": "monster"
+    }
+  ],
+  "aoe": [
+    {
+      "text": "aoe                  1 # Area: burst 1.",
+      "kind": "weapon"
+    },
+    {
+      "text": "aoe                  0 # Area: single target.",
+      "kind": "weapon"
+    },
+    {
+      "text": "aoe               9210 # Area: chain lightning, 10 targets, with max distance of 2 between targets.",
+      "kind": "weapon"
+    }
+  ],
+  "apcost": [
+    {
+      "text": "apcost                 2 # Actual AP cost: 3.",
+      "kind": "ritual"
+    },
+    {
+      "text": "apcost                 7 # Actual AP cost: 8.",
+      "kind": "ritual"
+    },
+    {
+      "text": "apcost           99 # Action Point cost for moving through the terrain: 99",
+      "kind": "terrain"
+    }
+  ],
+  "ape": [
+    {
+      "text": "ape                            2 # Becomes a vanara sized ape corpse when killed. Also sets Namet…",
+      "kind": "monster"
+    },
+    {
+      "text": "ape                            1 # Becomes a markata sized ape corpse when killed. Also sets Name…",
+      "kind": "monster"
+    },
+    {
+      "text": "ape                            3 # Becomes a bandar sized ape corpse when killed. Also sets Namet…",
+      "kind": "monster"
+    }
+  ],
+  "armor": [
+    {
+      "text": "armor                          3 # Armor.",
+      "kind": "monster"
+    },
+    {
+      "text": "armor                          5 # Armor.",
+      "kind": "monster"
+    },
+    {
+      "text": "armor                                        5 # Bearer's Armor value becomes 5 if it was less.",
+      "kind": "item"
+    }
+  ],
+  "armytrainer": [
+    {
+      "text": "armytrainer                    1 # +1 XP per month to all other units in the same square.",
+      "kind": "monster"
+    }
+  ],
+  "arrow": [
+    {
+      "text": "arrow                  # Can be negated by air shield.",
+      "kind": "weapon"
+    }
+  ],
+  "assassinweapon": [
+    {
+      "text": "assassinweapon             1  52 # Charm: Charm.",
+      "kind": "monster"
+    },
+    {
+      "text": "assassinweapon             2 377 # Shortsword: d7 Slash damage.",
+      "kind": "monster"
+    },
+    {
+      "text": "assassinweapon    4294967296 813 # Entrap and Bite: Special damage: Stuck in Net.",
+      "kind": "monster"
+    }
+  ],
+  "atavirec": [
+    {
+      "text": "atavirec                                      # +2% to chance per Atavi Tribe Village owned.",
+      "kind": "recruitment"
+    }
+  ],
+  "autoastrology": [
+    {
+      "text": "autoastrology                  1 # This monster's owner will have an up to date reading of the st…",
+      "kind": "monster"
+    }
+  ],
+  "awe": [
+    {
+      "text": "awe                                          1 # Each time a non-mindless unit tries to attack th…",
+      "kind": "item"
+    },
+    {
+      "text": "awe                            3 # Each time a non-mindless unit tries to attack this unit in mel…",
+      "kind": "monster"
+    },
+    {
+      "text": "awe                            4 # Each time a non-mindless unit tries to attack this unit in mel…",
+      "kind": "monster"
+    }
+  ],
+  "badsight": [
+    {
+      "text": "badsight                         # 20% chance to miss each attack.",
+      "kind": "monster"
+    }
+  ],
+  "banishsurv": [
+    {
+      "text": "banishsurv                       # Banished to Hades/Inferno/home instead of being destroyed.",
+      "kind": "monster"
+    }
+  ],
+  "barricade": [
+    {
+      "text": "barricade           # The gate of the fort is a Wooden Barricade.",
+      "kind": "terrain"
+    }
+  ],
+  "batmap": [
+    {
+      "text": "batmap           39 # Battle map: city.",
+      "kind": "terrain"
+    },
+    {
+      "text": "batmap           30 # Battle map: jerusalem.",
+      "kind": "terrain"
+    },
+    {
+      "text": "batmap           27 # Battle map: corkscrewtowers.",
+      "kind": "terrain"
+    }
+  ],
+  "battlefast": [
+    {
+      "text": "battlefast                       # Can move 2 squares per turn in combat.",
+      "kind": "monster"
+    }
+  ],
+  "battleslow": [
+    {
+      "text": "battleslow                       # Moves only 1 square per 2 turns in combat.",
+      "kind": "monster"
+    }
+  ],
+  "battleslow2": [
+    {
+      "text": "battleslow2                      # Moves only 1 square per 4 turns in combat.",
+      "kind": "monster"
+    }
+  ],
+  "benrestrict": [
+    {
+      "text": "benrestrict     67108864 # Caster cannot have this benefit: Twiceborn.",
+      "kind": "ritual"
+    },
+    {
+      "text": "benrestrict      8388608 # Caster cannot have this benefit: Swamp Soul.",
+      "kind": "ritual"
+    }
+  ],
+  "bentarg": [
+    {
+      "text": "bentarg         67108864 # Gives the target this benefit: Twiceborn.",
+      "kind": "ritual"
+    },
+    {
+      "text": "bentarg          8388608 # Gives the target this benefit: Swamp Soul.",
+      "kind": "ritual"
+    },
+    {
+      "text": "bentarg         16777216 # Gives the target this benefit: Non-Magical Invulnerability if troll; e…",
+      "kind": "ritual"
+    }
+  ],
+  "bentargall": [
+    {
+      "text": "bentargall      33554432 # Gives the target and all its followers this benefit: rapid movement fo…",
+      "kind": "ritual"
+    }
+  ],
+  "bentargvar": [
+    {
+      "text": "bentargvar     134217728 # Gives the target this benefit: Twiceborn (graveyard), but only if cast…",
+      "kind": "ritual"
+    }
+  ],
+  "berserker": [
+    {
+      "text": "berserker                                      # Can go berserk if hit in combat.  Berserk: +1 St…",
+      "kind": "item"
+    },
+    {
+      "text": "berserker                        # Can go berserk if hit in combat.  Berserk: +1 Strength, +10 Mo…",
+      "kind": "monster"
+    }
+  ],
+  "blue": [
+    {
+      "text": "blue                   # Set color of damage numbers.",
+      "kind": "weapon"
+    }
+  ],
+  "bluntres": [
+    {
+      "text": "bluntres                         # Blunt resistance (half damage).",
+      "kind": "monster"
+    },
+    {
+      "text": "bluntres                                       # Blunt resistance (half damage).",
+      "kind": "item"
+    }
+  ],
+  "bonusrelics": [
+    {
+      "text": "bonusrelics      -1 # Get -1 extra relics from this location. By default the amount of relics equ…",
+      "kind": "terrain"
+    },
+    {
+      "text": "bonusrelics       1 # Get 1 extra relics from this location. By default the amount of relics equa…",
+      "kind": "terrain"
+    },
+    {
+      "text": "bonusrelics       2 # Get 2 extra relics from this location. By default the amount of relics equa…",
+      "kind": "terrain"
+    }
+  ],
+  "burnable": [
+    {
+      "text": "burnable            # The terran can be burned like forest.",
+      "kind": "terrain"
+    }
+  ],
+  "burnforest": [
+    {
+      "text": "burnforest                   100 # Set forests on fire automatically.",
+      "kind": "monster"
+    },
+    {
+      "text": "burnforest                                   1 # Can choose to burn a forest for 1 AP. The differ…",
+      "kind": "item"
+    },
+    {
+      "text": "burnforest                     2 # Can choose to burn a forest for 1 AP. The difference between a…",
+      "kind": "monster"
+    }
+  ],
+  "castertarg": [
+    {
+      "text": "castertarg               # Set target unit to ritual caster.",
+      "kind": "ritual"
+    }
+  ],
+  "cave": [
+    {
+      "text": "cave                # The terrain counts as a cave.",
+      "kind": "terrain"
+    }
+  ],
+  "centercaster": [
+    {
+      "text": "centercaster             # Center screen on caster.",
+      "kind": "ritual"
+    }
+  ],
+  "centerloc": [
+    {
+      "text": "centerloc                # Center screen on target location.",
+      "kind": "ritual"
+    }
+  ],
+  "changetemp": [
+    {
+      "text": "changetemp                    35 # Makes square 35 degrees hotter.",
+      "kind": "monster"
+    },
+    {
+      "text": "changetemp                    25 # Makes square 25 degrees hotter.",
+      "kind": "monster"
+    },
+    {
+      "text": "changetemp                    50 # Makes square 50 degrees hotter.",
+      "kind": "monster"
+    }
+  ],
+  "charmres": [
+    {
+      "text": "charmres                         # Charm immunity.",
+      "kind": "monster"
+    },
+    {
+      "text": "charmres                                       # Charm immunity.",
+      "kind": "item"
+    }
+  ],
+  "choosefxtarg": [
+    {
+      "text": "choosefxtarg           0 # Player chooses a target, which must have this feature: [none required;…",
+      "kind": "ritual"
+    }
+  ],
+  "chooseloc": [
+    {
+      "text": "chooseloc              1 # Player chooses the target location.",
+      "kind": "ritual"
+    },
+    {
+      "text": "chooseloc              2 # Player chooses the target location, which may deviate to a location wi…",
+      "kind": "ritual"
+    },
+    {
+      "text": "chooseloc              5 # Player chooses the target location, which may deviate to a location wi…",
+      "kind": "ritual"
+    }
+  ],
+  "chooseterrloc": [
+    {
+      "text": "chooseterrloc          4 # Player chooses the target location, which must have this terrain: Anci…",
+      "kind": "ritual"
+    },
+    {
+      "text": "chooseterrloc        -20 # Player chooses the target location, which must have this terrain: swam…",
+      "kind": "ritual"
+    },
+    {
+      "text": "chooseterrloc        255 # Player chooses the target location, which must have this terrain: Pill…",
+      "kind": "ritual"
+    }
+  ],
+  "chopforest": [
+    {
+      "text": "chopforest                                   1 # Can choose to chop a Forest for 2 AP (3 AP for J…",
+      "kind": "item"
+    },
+    {
+      "text": "chopforest                     2 # Can choose to chop a Forest for 4 AP (6 AP for Jungle or Ancie…",
+      "kind": "monster"
+    },
+    {
+      "text": "chopforest                   100 # Claims to chop forests automatically, but didn't in my tests. …",
+      "kind": "monster"
+    }
+  ],
+  "citadel": [
+    {
+      "text": "citadel             # The terrain functions as a citadel when owned.",
+      "kind": "terrain"
+    }
+  ],
+  "classabdescr": [
+    {
+      "text": "classabdescr \"Priests collect relics.",
+      "kind": "class"
+    },
+    {
+      "text": "classabdescr \"Starts in a very well fortified crystal palace.",
+      "kind": "class"
+    },
+    {
+      "text": "classabdescr \"Bakemono Sorcerors collect sacrifices from hamlets, villages and larger settlements.",
+      "kind": "class"
+    }
+  ],
+  "classcost": [
+    {
+      "text": "classcost                     50 # Costs of all rituals + 50% of normal.",
+      "kind": "monster"
+    },
+    {
+      "text": "classcost                    100 # Costs of all rituals + 100% of normal.",
+      "kind": "monster"
+    }
+  ],
+  "classdescr": [
+    {
+      "text": "classdescr \"The frontiers of the human realm were defended by landowners known as Barons.  Some B…",
+      "kind": "class"
+    },
+    {
+      "text": "classdescr \"The Priest Kings of Aztlan have only recently discovered Elysium and arrived there to…",
+      "kind": "class"
+    },
+    {
+      "text": "classdescr \"In the jungles of southern Elysium lives strange breeds of monkey-men gifted with cun…",
+      "kind": "class"
+    }
+  ],
+  "classforestcit": [
+    {
+      "text": "classforestcit      1 # Can use all kinds of ancient forests and sacred groves as citadels.",
+      "kind": "class"
+    }
+  ],
+  "classminecit": [
+    {
+      "text": "classminecit        1 # Can use greater mines as citadels.",
+      "kind": "class"
+    }
+  ],
+  "classwoodencit": [
+    {
+      "text": "classwoodencit      1 # Can use Watch Towers and Motte and Baileys as citadels.",
+      "kind": "class"
+    }
+  ],
+  "closewin": [
+    {
+      "text": "closewin                 # Closes cast ritual window.",
+      "kind": "ritual"
+    }
+  ],
+  "cloudgate": [
+    {
+      "text": "cloudgate           # The gate of the fort is a Cloud Gate.",
+      "kind": "terrain"
+    }
+  ],
+  "clumsy": [
+    {
+      "text": "clumsy                           # 50% chance to miss each attack.",
+      "kind": "monster"
+    }
+  ],
+  "coastal": [
+    {
+      "text": "coastal                          # Always stays within 1 square (including diagonals) of both lan…",
+      "kind": "monster"
+    }
+  ],
+  "coldaura": [
+    {
+      "text": "coldaura                                     2 # Frost Shield (2): Any enemy attacking this unit …",
+      "kind": "item"
+    },
+    {
+      "text": "coldaura                       3 # Frost Shield (3): Any enemy attacking this unit in melee will …",
+      "kind": "monster"
+    },
+    {
+      "text": "coldaura                       6 # Frost Shield (6): Any enemy attacking this unit in melee will …",
+      "kind": "monster"
+    }
+  ],
+  "coldblood": [
+    {
+      "text": "coldblood                        # Coldblooded: -1 Strength in snow.",
+      "kind": "monster"
+    }
+  ],
+  "coldres": [
+    {
+      "text": "coldres                      100 # Cold immunity.",
+      "kind": "monster"
+    },
+    {
+      "text": "coldres                      -50 # 50 Cold Vulnerability.",
+      "kind": "monster"
+    },
+    {
+      "text": "coldres                                    100 # +100 Cold Resistance.",
+      "kind": "item"
+    }
+  ],
+  "combatspell": [
+    {
+      "text": "combatspell                     1 \"Dark Cloud\" # Can cast in place of normal attacks.",
+      "kind": "item"
+    },
+    {
+      "text": "combatspell                           1 \"Fear\" # Can cast in place of normal attacks.",
+      "kind": "item"
+    },
+    {
+      "text": "combatspell                           2 \"Fear\" # Cast automatically every round starting on Battl…",
+      "kind": "item"
+    }
+  ],
+  "combatsum": [
+    {
+      "text": "combatsum                       -1 \"Dire Wolf\" # Summon on Battle Round 0.",
+      "kind": "item"
+    },
+    {
+      "text": "combatsum -1 \"1d2*Moose & 2d4*Deer & 1d6*Boar\" # Summon on Battle Round 0.",
+      "kind": "item"
+    },
+    {
+      "text": "combatsum                      4 \"Shade Beast\" # Summon with undocumented timing and frequency.",
+      "kind": "item"
+    }
+  ],
+  "combustionaura": [
+    {
+      "text": "combustionaura                 3 # Combustion Aura (3): All units within 3 squares will catch fire.",
+      "kind": "monster"
+    },
+    {
+      "text": "combustionaura                 5 # Combustion Aura (5): All units within 5 squares will catch fire.",
+      "kind": "monster"
+    }
+  ],
+  "cost": [
+    {
+      "text": "cost              1    1 # 1 Iron",
+      "kind": "ritual"
+    },
+    {
+      "text": "cost              3  600 # 600 Fungus",
+      "kind": "ritual"
+    },
+    {
+      "text": "cost             14   25 # 25 Corpses (humanoid)",
+      "kind": "ritual"
+    }
+  ],
+  "createcit": [
+    {
+      "text": "createcit         265 # Other-planar home citadel: Cloud Palace.",
+      "kind": "class"
+    },
+    {
+      "text": "createcit         121 # Other-planar home citadel: Pale One Lair.",
+      "kind": "class"
+    }
+  ],
+  "ctrlchance": [
+    {
+      "text": "ctrlchance                    70 # 70% chance to control this monster when summoned.  Overrides d…",
+      "kind": "monster"
+    },
+    {
+      "text": "ctrlchance                    20 # 20% chance to control this monster when summoned.  Overrides d…",
+      "kind": "monster"
+    },
+    {
+      "text": "ctrlchance                    80 # 80% chance to control this monster when summoned.  Overrides d…",
+      "kind": "monster"
+    }
+  ],
+  "curseditem": [
+    {
+      "text": "curseditem                                     # Item is cursed and cannot be removed.",
+      "kind": "item"
+    }
+  ],
+  "darkbless": [
+    {
+      "text": "darkbless                      1 # Has the dark blessing of a scourge lord.",
+      "kind": "monster"
+    }
+  ],
+  "dead": [
+    {
+      "text": "dead              1 # The location starts with 1 * d6 corpses in it.",
+      "kind": "terrain"
+    },
+    {
+      "text": "dead              7 # The location starts with 7 * d6 corpses in it.",
+      "kind": "terrain"
+    },
+    {
+      "text": "dead             21 # The location starts with 21 * d6 corpses in it.",
+      "kind": "terrain"
+    }
+  ],
+  "deepspawn": [
+    {
+      "text": "deepspawn           # Insane peasants and hybrids can appear in these terrain locations for the H…",
+      "kind": "terrain"
+    }
+  ],
+  "defctrl": [
+    {
+      "text": "defctrl              997 # Control of summonings cannot fail; log text is \"raised\" instead of \"su…",
+      "kind": "ritual"
+    },
+    {
+      "text": "defctrl               25 # % default control chance for summonings. Can be overridden by monster'…",
+      "kind": "ritual"
+    },
+    {
+      "text": "defctrl               66 # % default control chance for summonings. Can be overridden by monster'…",
+      "kind": "ritual"
+    }
+  ],
+  "defiler": [
+    {
+      "text": "defiler                        6 # Lifeforce Spellcasting (range 6): Needs to drain lifeforce to …",
+      "kind": "monster"
+    },
+    {
+      "text": "defiler                        4 # Lifeforce Spellcasting (range 4): Needs to drain lifeforce to …",
+      "kind": "monster"
+    },
+    {
+      "text": "defiler                        2 # Lifeforce Spellcasting (range 2): Needs to drain lifeforce to …",
+      "kind": "monster"
+    }
+  ],
+  "demonic": [
+    {
+      "text": "demonic                          # Demonic; affected by banishment.",
+      "kind": "monster"
+    }
+  ],
+  "descr": [
+    {
+      "text": "descr \"Not Used\"",
+      "kind": "monster"
+    },
+    {
+      "text": "descr \"King of all the Goblins, that is a title of dubious value.  Maybe it will add up to someth…",
+      "kind": "monster"
+    },
+    {
+      "text": "descr \"This ritual summons and takes control over some beings that can be found deep under Elysium.\"",
+      "kind": "ritual"
+    }
+  ],
+  "desert": [
+    {
+      "text": "desert                           # Desert Move: AP cost to enter a desert square is reduced by 1.",
+      "kind": "monster"
+    },
+    {
+      "text": "desert              # The terrain counts as a desert for the purposes of abilities like Desert Move.",
+      "kind": "terrain"
+    }
+  ],
+  "desert1": [
+    {
+      "text": "desert1                          # Loves deserts (if an independent or stupid commander, will not…",
+      "kind": "monster"
+    }
+  ],
+  "desert2": [
+    {
+      "text": "desert2                          # Likes deserts (if an independent or stupid commander, will not…",
+      "kind": "monster"
+    }
+  ],
+  "desert3": [
+    {
+      "text": "desert3                          # Hates deserts.",
+      "kind": "monster"
+    }
+  ],
+  "desertok": [
+    {
+      "text": "desertok            # The terrain can appear in the southern portion of the map.",
+      "kind": "terrain"
+    }
+  ],
+  "desertstealth": [
+    {
+      "text": "desertstealth                    # When in a Desert or Gem Deposit, can only be seen by units wit…",
+      "kind": "monster"
+    }
+  ],
+  "desolator": [
+    {
+      "text": "desolator                     40 # Drains 40 Lifeforce from current square each month.",
+      "kind": "monster"
+    },
+    {
+      "text": "desolator                     30 # Drains 30 Lifeforce from current square each month.",
+      "kind": "monster"
+    },
+    {
+      "text": "desolator                     50 # Drains 50 Lifeforce from current square each month.",
+      "kind": "monster"
+    }
+  ],
+  "desolcloud": [
+    {
+      "text": "desolcloud                     5 # Aura of Desolation (5): Any unit within 5 squares will get exh…",
+      "kind": "monster"
+    },
+    {
+      "text": "desolcloud                     4 # Aura of Desolation (4): Any unit within 4 squares will get exh…",
+      "kind": "monster"
+    }
+  ],
+  "destroyterr": [
+    {
+      "text": "destroyterr          100 # % chance of destroying the terrain.",
+      "kind": "ritual"
+    },
+    {
+      "text": "destroyterr            8 # % chance of destroying the terrain.",
+      "kind": "ritual"
+    },
+    {
+      "text": "destroyterr           20 # % chance of destroying the terrain.",
+      "kind": "ritual"
+    }
+  ],
+  "diseaseres": [
+    {
+      "text": "diseaseres                       # Disease immunity.",
+      "kind": "monster"
+    },
+    {
+      "text": "diseaseres                                     # Disease immunity.",
+      "kind": "item"
+    }
+  ],
+  "diseaseshield": [
+    {
+      "text": "diseaseshield                                1 # Any enemy attacking this unit in melee will be d…",
+      "kind": "item"
+    },
+    {
+      "text": "diseaseshield                  1 # Any enemy attacking this unit in melee will be diseased unless…",
+      "kind": "monster"
+    }
+  ],
+  "displaced": [
+    {
+      "text": "displaced                      1 # 25% chance of being missed per rank away from attacker.",
+      "kind": "monster"
+    },
+    {
+      "text": "displaced                                      # Displaced: 25% chance of being missed per rank a…",
+      "kind": "item"
+    }
+  ],
+  "dispossess": [
+    {
+      "text": "dispossess             # If killed by this weapon, target becomes a Dispossessed Spirit controlle…",
+      "kind": "weapon"
+    }
+  ],
+  "dmg": [
+    {
+      "text": "dmg                  1 # Base damage (added to dmg value where this weapon is used).",
+      "kind": "weapon"
+    },
+    {
+      "text": "dmg                  8 # Base damage (added to dmg value where this weapon is used).",
+      "kind": "weapon"
+    },
+    {
+      "text": "dmg                 20 # Base damage (added to dmg value where this weapon is used).",
+      "kind": "weapon"
+    }
+  ],
+  "dmgtype": [
+    {
+      "text": "dmgtype              8 # Fear.",
+      "kind": "weapon"
+    },
+    {
+      "text": "dmgtype              9 # Poison.",
+      "kind": "weapon"
+    },
+    {
+      "text": "dmgtype             18 # Summon (the monster specified in the weapon's name, after \"Summon \").",
+      "kind": "weapon"
+    }
+  ],
+  "dragon": [
+    {
+      "text": "dragon                         2 # Elder dragon.",
+      "kind": "monster"
+    },
+    {
+      "text": "dragon                         1 # Non-elder dragon.",
+      "kind": "monster"
+    }
+  ],
+  "drain": [
+    {
+      "text": "drain                  # Inflicted damage added to attacker's hit points.",
+      "kind": "weapon"
+    }
+  ],
+  "drawsize": [
+    {
+      "text": "drawsize                      50 # Draw the unit 50% larger when shown on its unit token.",
+      "kind": "monster"
+    },
+    {
+      "text": "drawsize                      30 # Draw the unit 30% larger when shown on its unit token.",
+      "kind": "monster"
+    },
+    {
+      "text": "drawsize                     -80 # Draw the unit 80% smaller when shown on its unit token.",
+      "kind": "monster"
+    }
+  ],
+  "drown": [
+    {
+      "text": "drown                  # Doesn't affect beings able to survive in water.",
+      "kind": "weapon"
+    }
+  ],
+  "earthbarricade": [
+    {
+      "text": "earthbarricade      # The gate of the fort is an Earth Barricade.",
+      "kind": "terrain"
+    }
+  ],
+  "eastcoast": [
+    {
+      "text": "eastcoast           # The terrain can only be located on a coast. Despite the name of the command…",
+      "kind": "terrain"
+    }
+  ],
+  "easymr": [
+    {
+      "text": "easymr                 # Resisted by rolling 1d5 < Magic Resistance.",
+      "kind": "weapon"
+    }
+  ],
+  "el": [
+    {
+      "text": "el                  # Terrain starts as converted to the worship of El.",
+      "kind": "terrain"
+    }
+  ],
+  "enchantedgate": [
+    {
+      "text": "enchantedgate       # The gate of the fort is enchanted to be more durable.",
+      "kind": "terrain"
+    }
+  ],
+  "enchherereq": [
+    {
+      "text": "enchherereq           19 # Ritual can only be cast if this type of enchantment is already active …",
+      "kind": "ritual"
+    }
+  ],
+  "enchreqterr": [
+    {
+      "text": "enchreqterr            4 # Enchantment will be auto dispelled if and when location ceases to be t…",
+      "kind": "ritual"
+    },
+    {
+      "text": "enchreqterr          -62 # Enchantment will be auto dispelled if and when location ceases to be t…",
+      "kind": "ritual"
+    }
+  ],
+  "ethereal": [
+    {
+      "text": "ethereal               # Doesn't affect ethereal units.",
+      "kind": "weapon"
+    },
+    {
+      "text": "ethereal                                       # 75% chance to be unaffected by mundane weapons; …",
+      "kind": "item"
+    },
+    {
+      "text": "ethereal                         # 75% chance to be unaffected by mundane weapons; can pass throu…",
+      "kind": "monster"
+    }
+  ],
+  "evasion": [
+    {
+      "text": "evasion                        1 # 25% chance to evade attacks.",
+      "kind": "monster"
+    },
+    {
+      "text": "evasion                                      1 # 25% chance to evade attacks.",
+      "kind": "item"
+    }
+  ],
+  "extracost": [
+    {
+      "text": "extracost                                   25 # Changes the price merchants ask for this item, v…",
+      "kind": "item"
+    },
+    {
+      "text": "extracost                                  100 # Changes the price merchants ask for this item, v…",
+      "kind": "item"
+    },
+    {
+      "text": "extracost                                  -25 # Changes the price merchants ask for this item, v…",
+      "kind": "item"
+    }
+  ],
+  "failplayer": [
+    {
+      "text": "failplayer            28 # Failed summons will be owned by this player: Inferno.",
+      "kind": "ritual"
+    }
+  ],
+  "falselife": [
+    {
+      "text": "falselife                                    1 # False Life: gives life to an inanimate creature …",
+      "kind": "item"
+    }
+  ],
+  "farsight": [
+    {
+      "text": "farsight                                     1 # Farsight: can see 1 square further than usual on…",
+      "kind": "item"
+    },
+    {
+      "text": "farsight                       1 # Farsight: can see 1 square further than usual on the world map.",
+      "kind": "monster"
+    },
+    {
+      "text": "farsight            # The terrain gives increased vision range when there are units present there.",
+      "kind": "terrain"
+    }
+  ],
+  "farsummon": [
+    {
+      "text": "farsummon                # The ritual will summon the monsters specified in a random string at ta…",
+      "kind": "ritual"
+    }
+  ],
+  "farvis": [
+    {
+      "text": "farvis              # Can be seen from far away (3 squares?).",
+      "kind": "terrain"
+    }
+  ],
+  "fast": [
+    {
+      "text": "fast                                           # The monster has 4 AP and also moves twice on the…",
+      "kind": "item"
+    },
+    {
+      "text": "fast                             # The monster has 4 AP and also moves twice on the battlefield p…",
+      "kind": "monster"
+    }
+  ],
+  "fastheal": [
+    {
+      "text": "fastheal                                       # Heals all wounds in two months at most. Also hea…",
+      "kind": "item"
+    },
+    {
+      "text": "fastheal                         # Heals all wounds in two months at most. Also heals permanent a…",
+      "kind": "monster"
+    }
+  ],
+  "fear": [
+    {
+      "text": "fear                           1 # Causes Fear (1d7 vs morale) within 1 square.",
+      "kind": "monster"
+    },
+    {
+      "text": "fear                           3 # Causes Terror (1d9 vs morale) within 3 squares.",
+      "kind": "monster"
+    },
+    {
+      "text": "fear                                           # Causes Fear (1d7 vs morale) in adjacent squares.",
+      "kind": "item"
+    }
+  ],
+  "female": [
+    {
+      "text": "female                           # Female.",
+      "kind": "monster"
+    }
+  ],
+  "fillmirror": [
+    {
+      "text": "fillmirror            20 # Puts this many images into a mirror: 20.",
+      "kind": "ritual"
+    },
+    {
+      "text": "fillmirror           100 # Puts this many images into a mirror: 100.",
+      "kind": "ritual"
+    },
+    {
+      "text": "fillmirror            -1 # Puts this many images into a mirror: [mirrorammo].",
+      "kind": "ritual"
+    }
+  ],
+  "fireaura": [
+    {
+      "text": "fireaura                                     5 # Fire Shield (5): Any enemy attacking this unit i…",
+      "kind": "item"
+    },
+    {
+      "text": "fireaura                       7 # Fire Shield (7): Any enemy attacking this unit in melee will t…",
+      "kind": "monster"
+    },
+    {
+      "text": "fireaura                       8 # Fire Shield (8): Any enemy attacking this unit in melee will t…",
+      "kind": "monster"
+    }
+  ],
+  "fireres": [
+    {
+      "text": "fireres                      100 # Fire immunity.",
+      "kind": "monster"
+    },
+    {
+      "text": "fireres                      -50 # 50 Fire Vulnerability.",
+      "kind": "monster"
+    },
+    {
+      "text": "fireres                                    100 # +100 Fire Resistance.",
+      "kind": "item"
+    }
+  ],
+  "float": [
+    {
+      "text": "float                                          # -1 AP to enter terrain (min 1), can float in sky…",
+      "kind": "item"
+    },
+    {
+      "text": "float                            # -1 AP to enter terrain (min 1), can float in sky or over water…",
+      "kind": "monster"
+    }
+  ],
+  "flying": [
+    {
+      "text": "flying",
+      "kind": "item"
+    },
+    {
+      "text": "flying                 # Doesn't affect flying or floating units.",
+      "kind": "weapon"
+    }
+  ],
+  "flying2": [
+    {
+      "text": "flying2                # Flying units have a 75% chance to evade this attack.",
+      "kind": "weapon"
+    }
+  ],
+  "flylook": [
+    {
+      "text": "flylook             14",
+      "kind": "weapon"
+    },
+    {
+      "text": "flylook            212",
+      "kind": "weapon"
+    },
+    {
+      "text": "flylook            235",
+      "kind": "weapon"
+    }
+  ],
+  "flymode": [
+    {
+      "text": "flymode             11 # Undocumented flymode 11.",
+      "kind": "weapon"
+    },
+    {
+      "text": "flymode              8 # Slow line, one for each strike or square hit.",
+      "kind": "weapon"
+    },
+    {
+      "text": "flymode              6 # Single standard particle effect, even if multiple squares are hit.",
+      "kind": "weapon"
+    }
+  ],
+  "flysound": [
+    {
+      "text": "flysound            94 #",
+      "kind": "weapon"
+    },
+    {
+      "text": "flysound           107 # megabless.sw",
+      "kind": "weapon"
+    },
+    {
+      "text": "flysound            31 # magic.smp (Magic Enchantment)",
+      "kind": "weapon"
+    }
+  ],
+  "followstupid": [
+    {
+      "text": "followstupid                     # Doesn’t move independently, but follows other stupid units.",
+      "kind": "monster"
+    }
+  ],
+  "forest": [
+    {
+      "text": "forest              # The terrain counts as forest for the purposes of abilities like Forest Stea…",
+      "kind": "terrain"
+    }
+  ],
+  "forest1": [
+    {
+      "text": "forest1                          # Loves forests (including ancient forests) (if an independent o…",
+      "kind": "monster"
+    }
+  ],
+  "forest2": [
+    {
+      "text": "forest2                          # Likes forests (including ancient forests) (if an independent o…",
+      "kind": "monster"
+    }
+  ],
+  "forestcitadel": [
+    {
+      "text": "forestcitadel       # Can be used as a citadel by the Troll King and Dryad Queen.",
+      "kind": "terrain"
+    }
+  ],
+  "foreststealth": [
+    {
+      "text": "foreststealth                                  # When in a forest or jungle, can only be seen by …",
+      "kind": "item"
+    },
+    {
+      "text": "foreststealth                    # When in a forest or jungle, can only be seen by units with Acu…",
+      "kind": "monster"
+    }
+  ],
+  "forgetcurrit": [
+    {
+      "text": "forgetcurrit             # Caster will forget this ritual after casting it.",
+      "kind": "ritual"
+    }
+  ],
+  "forgetrits": [
+    {
+      "text": "forgetrits               # Forget all rituals.",
+      "kind": "ritual"
+    }
+  ],
+  "fortreq": [
+    {
+      "text": "fortreq             2048 # Caster's location must have this fort part: iron gate.",
+      "kind": "ritual"
+    }
+  ],
+  "free": [
+    {
+      "text": "free                     # Always start with this ritual in addition to the others.",
+      "kind": "ritual"
+    }
+  ],
+  "fullsweep": [
+    {
+      "text": "fullsweep              # Hits all adjacent units.  Cumulative -1 to damage to each consecutive ta…",
+      "kind": "weapon"
+    }
+  ],
+  "fungus": [
+    {
+      "text": "fungus            1 # Fungus:  1",
+      "kind": "terrain"
+    },
+    {
+      "text": "fungus            7 # Fungus:  7",
+      "kind": "terrain"
+    },
+    {
+      "text": "fungus            5 # Fungus:  5",
+      "kind": "terrain"
+    }
+  ],
+  "fxreq": [
+    {
+      "text": "fxreq                453 # A monster cannot learn or use this ritual unless it has this feature: …",
+      "kind": "ritual"
+    },
+    {
+      "text": "fxreq                  3 # A monster cannot learn or use this ritual unless it has this feature: …",
+      "kind": "ritual"
+    },
+    {
+      "text": "fxreq               1267 # A monster cannot learn or use this ritual unless it has this feature: …",
+      "kind": "ritual"
+    }
+  ],
+  "gainbless": [
+    {
+      "text": "gainbless            100 # % chance of gaining a bless effect.",
+      "kind": "ritual"
+    }
+  ],
+  "gaindarkbless": [
+    {
+      "text": "gaindarkbless        100 # % chance of gaining a dark bless effect.",
+      "kind": "ritual"
+    }
+  ],
+  "gainrit": [
+    {
+      "text": "gainrit                1 # Caster learns the next ritual.",
+      "kind": "ritual"
+    }
+  ],
+  "gates1": [
+    {
+      "text": "gates1                           # Loves gateways (if an independent or stupid commander, will no…",
+      "kind": "monster"
+    }
+  ],
+  "gathergems": [
+    {
+      "text": "gathergems               # Will start gathering gems when knowing this ritual.",
+      "kind": "ritual"
+    },
+    {
+      "text": "gathergems                     1 # A commander with this ability will enable the player to gather…",
+      "kind": "monster"
+    }
+  ],
+  "gatherherbs": [
+    {
+      "text": "gatherherbs                    1 # A commander with this ability will enable the player to gather…",
+      "kind": "monster"
+    }
+  ],
+  "gathersacr": [
+    {
+      "text": "gathersacr                     1 # A commander with this ability will enable the player to gather…",
+      "kind": "monster"
+    }
+  ],
+  "gems": [
+    {
+      "text": "gems          36864 # Gems: see comments below.",
+      "kind": "terrain"
+    },
+    {
+      "text": "gems              4 # Gems: see comments below.",
+      "kind": "terrain"
+    },
+    {
+      "text": "gems            128 # Gems: see comments below.",
+      "kind": "terrain"
+    }
+  ],
+  "ghoulify": [
+    {
+      "text": "ghoulify               # Humanoids killed by this weapon will become ghouls controlled by the kil…",
+      "kind": "weapon"
+    }
+  ],
+  "gold": [
+    {
+      "text": "gold              2 # Gold:  2",
+      "kind": "terrain"
+    },
+    {
+      "text": "gold             15 # Gold: 15",
+      "kind": "terrain"
+    },
+    {
+      "text": "gold                                         1 # Gold Bonus: +1 Gold income per turn.",
+      "kind": "item"
+    }
+  ],
+  "goldbonus": [
+    {
+      "text": "goldbonus                     25 # 25% bonus to all gold income for the player that owns this uni…",
+      "kind": "monster"
+    },
+    {
+      "text": "goldbonus                     35 # 35% bonus to all gold income for the player that owns this uni…",
+      "kind": "monster"
+    },
+    {
+      "text": "goldbonus                     65 # 65% bonus to all gold income for the player that owns this uni…",
+      "kind": "monster"
+    }
+  ],
+  "goldboost": [
+    {
+      "text": "goldboost           # The terrain provides a global boost to gold income when owned.",
+      "kind": "terrain"
+    }
+  ],
+  "goldcarrier": [
+    {
+      "text": "goldcarrier                   50 # Defeating this unit gives 50 Gold as spoils of war.",
+      "kind": "monster"
+    },
+    {
+      "text": "goldcarrier                   75 # Defeating this unit gives 75 Gold as spoils of war.",
+      "kind": "monster"
+    },
+    {
+      "text": "goldcarrier                  250 # Defeating this unit gives 250 Gold as spoils of war.",
+      "kind": "monster"
+    }
+  ],
+  "greedy": [
+    {
+      "text": "greedy                         1 # This unit will never give away its magic items voluntarily.",
+      "kind": "monster"
+    }
+  ],
+  "growhp": [
+    {
+      "text": "growhp                         9 # When HP >= 9, change form to the previous monster type.",
+      "kind": "monster"
+    },
+    {
+      "text": "growhp                        21 # When HP >= 21, change form to the previous monster type.",
+      "kind": "monster"
+    },
+    {
+      "text": "growhp                                       0 # When HP >= 0, change form to the previous monste…",
+      "kind": "item"
+    }
+  ],
+  "hadesres": [
+    {
+      "text": "hadesres                                     1 # Hades Immunity: Immunity to the damaging effect …",
+      "kind": "item"
+    },
+    {
+      "text": "hadesres                                   100 # Hades Immunity: Immunity to the damaging effect …",
+      "kind": "item"
+    },
+    {
+      "text": "hadesres                       1 # Hades Immunity: Immunity to the damaging effect of being on th…",
+      "kind": "monster"
+    }
+  ],
+  "hands": [
+    {
+      "text": "hands             2 # Hands:  2",
+      "kind": "terrain"
+    },
+    {
+      "text": "hands             1 # Hands:  1",
+      "kind": "terrain"
+    },
+    {
+      "text": "hands             5 # Hands:  5",
+      "kind": "terrain"
+    }
+  ],
+  "hardfly": [
+    {
+      "text": "hardfly             # Difficult to fly here, costs 2 AP.",
+      "kind": "terrain"
+    }
+  ],
+  "hardmorale": [
+    {
+      "text": "hardmorale             # Resisted by rolling 1d20 < Morale.",
+      "kind": "weapon"
+    }
+  ],
+  "hardmr": [
+    {
+      "text": "hardmr                 # Resisted by rolling 2d6 < Magic Resistance.",
+      "kind": "weapon"
+    }
+  ],
+  "harvest": [
+    {
+      "text": "harvest             # Double gold income during bumper harvest events.",
+      "kind": "terrain"
+    }
+  ],
+  "hasportalreq": [
+    {
+      "text": "hasportalreq           2 # Must own a portal with this number: 2.",
+      "kind": "ritual"
+    }
+  ],
+  "herbs": [
+    {
+      "text": "herbs             1 # Herbs:  1",
+      "kind": "terrain"
+    },
+    {
+      "text": "herbs             2 # Herbs:  2",
+      "kind": "terrain"
+    },
+    {
+      "text": "herbs             4 # Herbs:  4",
+      "kind": "terrain"
+    }
+  ],
+  "hoburg": [
+    {
+      "text": "hoburg              # All starting corpses here will be small size.",
+      "kind": "terrain"
+    }
+  ],
+  "holy": [
+    {
+      "text": "holy                             # Always receives Bless effects.",
+      "kind": "monster"
+    }
+  ],
+  "holykill": [
+    {
+      "text": "holykill               # Double damage against undead and demons.",
+      "kind": "weapon"
+    }
+  ],
+  "homecitreq": [
+    {
+      "text": "homecitreq            -1 # Cannot cast this in the player’s home citadel.",
+      "kind": "ritual"
+    }
+  ],
+  "homeplane": [
+    {
+      "text": "homeplane                      5 # Hades.  Will return to this plane if slain outside it and be i…",
+      "kind": "monster"
+    },
+    {
+      "text": "homeplane                      4 # Inferno.  Will return to this plane if slain outside it and be…",
+      "kind": "monster"
+    },
+    {
+      "text": "homeplane                      6 # Aztlan.  Will return to this plane if slain outside it and be …",
+      "kind": "monster"
+    }
+  ],
+  "hometerr": [
+    {
+      "text": "hometerr           28 # Hut",
+      "kind": "class"
+    },
+    {
+      "text": "hometerr          106 # Beholder Cave",
+      "kind": "class"
+    },
+    {
+      "text": "hometerr          253 # Portal terrain on Elysium will be: Mountain Spire. Actual home citadel wi…",
+      "kind": "class"
+    }
+  ],
+  "horror": [
+    {
+      "text": "horror                           # Likes to kill sentient people, also isn’t scared of the void.",
+      "kind": "monster"
+    }
+  ],
+  "hp": [
+    {
+      "text": "hp                            17 # Hit Points.",
+      "kind": "monster"
+    },
+    {
+      "text": "hp                           101 # Hit Points.",
+      "kind": "monster"
+    },
+    {
+      "text": "hp                                          20 # +20 Hit Points.",
+      "kind": "item"
+    }
+  ],
+  "huge": [
+    {
+      "text": "huge                   # Doesn't affect huge (size 3x3) units.",
+      "kind": "weapon"
+    },
+    {
+      "text": "huge                             # The monster is Huge (3x3 squares in size), can step over walls…",
+      "kind": "monster"
+    }
+  ],
+  "human": [
+    {
+      "text": "human                            # Vulnerable to weapons and spells that only affect humans; leav…",
+      "kind": "monster"
+    }
+  ],
+  "humancost": [
+    {
+      "text": "humancost         999 # Cannot recruit humans at special locations (castles, desert palaces).",
+      "kind": "class"
+    },
+    {
+      "text": "humancost         200 # 200% normal cost for human recruitment at special locations (castles, des…",
+      "kind": "class"
+    },
+    {
+      "text": "humancost         150 # 150% normal cost for human recruitment at special locations (castles, des…",
+      "kind": "class"
+    }
+  ],
+  "iceprot": [
+    {
+      "text": "iceprot                        1 # +1 armor in cold climate.",
+      "kind": "monster"
+    },
+    {
+      "text": "iceprot                                      1 # +1 armor in cold climate.",
+      "kind": "item"
+    },
+    {
+      "text": "iceprot                                      2 # +2 armor in cold climate.",
+      "kind": "item"
+    }
+  ],
+  "immobile": [
+    {
+      "text": "immobile                         # Immobile (cannot move in battle).",
+      "kind": "monster"
+    }
+  ],
+  "immortal": [
+    {
+      "text": "immortal",
+      "kind": "monster"
+    }
+  ],
+  "immortalap": [
+    {
+      "text": "immortalap                     2 # When the monster dies, it costs 2 AP to respawn.",
+      "kind": "monster"
+    },
+    {
+      "text": "immortalap                     1 # When the monster dies, it costs 1 AP to respawn.",
+      "kind": "monster"
+    },
+    {
+      "text": "immortalap                     3 # When the monster dies, it costs 3 AP to respawn.",
+      "kind": "monster"
+    }
+  ],
+  "inanimate": [
+    {
+      "text": "inanimate              # Doesn't affect Lifeless units.",
+      "kind": "weapon"
+    },
+    {
+      "text": "inanimate                        # Unaffected by life drain, pain, death, bleeding, healing, rege…",
+      "kind": "monster"
+    }
+  ],
+  "indepitem": [
+    {
+      "text": "indepitem                    100 # 100% chance to spawn with a random magic item, but only if own…",
+      "kind": "monster"
+    },
+    {
+      "text": "indepitem                     50 # 50% chance to spawn with a random magic item, but only if owne…",
+      "kind": "monster"
+    },
+    {
+      "text": "indepitem                     20 # 20% chance to spawn with a random magic item, but only if owne…",
+      "kind": "monster"
+    }
+  ],
+  "indwander": [
+    {
+      "text": "indwander                     16 # Will try to fulfill this objective if it is owned by Independe…",
+      "kind": "monster"
+    },
+    {
+      "text": "indwander                     12 # Will try to fulfill this objective if it is owned by Independe…",
+      "kind": "monster"
+    }
+  ],
+  "infwander": [
+    {
+      "text": "infwander                      6 # Will try to fulfill this objective if it is owned by Inferno: …",
+      "kind": "monster"
+    },
+    {
+      "text": "infwander                     18 # Will try to fulfill this objective if it is owned by Inferno: …",
+      "kind": "monster"
+    }
+  ],
+  "init": [
+    {
+      "text": "init                 2",
+      "kind": "weapon"
+    },
+    {
+      "text": "init                 5",
+      "kind": "weapon"
+    },
+    {
+      "text": "init                 0",
+      "kind": "weapon"
+    }
+  ],
+  "invisible": [
+    {
+      "text": "invisible                        # Can only be seen by units with Spirit Sight.",
+      "kind": "monster"
+    },
+    {
+      "text": "invisible                                      # Can only be seen by units with Spirit Sight.",
+      "kind": "item"
+    },
+    {
+      "text": "invisible           # Terrain on top of the background is not drawn, but the grass will still be …",
+      "kind": "terrain"
+    }
+  ],
+  "invseason": [
+    {
+      "text": "invseason           # Seasons are reversed in this terrain.",
+      "kind": "terrain"
+    }
+  ],
+  "invul": [
+    {
+      "text": "invul                                          # Invulnerability: cannot be harmed by Slash, Pier…",
+      "kind": "item"
+    },
+    {
+      "text": "invul                            # Invulnerability: cannot be harmed by Slash, Pierce, or Blunt d…",
+      "kind": "monster"
+    }
+  ],
+  "iron": [
+    {
+      "text": "iron              2 # Iron:  2",
+      "kind": "terrain"
+    },
+    {
+      "text": "iron              3 # Iron:  3",
+      "kind": "terrain"
+    },
+    {
+      "text": "iron             10 # Iron: 10",
+      "kind": "terrain"
+    }
+  ],
+  "ironbonus": [
+    {
+      "text": "ironbonus                     25 # 25% bonus to all iron income for the player that owns this uni…",
+      "kind": "monster"
+    },
+    {
+      "text": "ironbonus                     35 # 35% bonus to all iron income for the player that owns this uni…",
+      "kind": "monster"
+    }
+  ],
+  "ironboost": [
+    {
+      "text": "ironboost           # The terrain provides a global boost to iron income when owned.",
+      "kind": "terrain"
+    }
+  ],
+  "ironcarrier": [
+    {
+      "text": "ironcarrier                   25 # Defeating this unit gives 25 Iron as spoils of war.",
+      "kind": "monster"
+    },
+    {
+      "text": "ironcarrier                   10 # Defeating this unit gives 10 Iron as spoils of war.",
+      "kind": "monster"
+    },
+    {
+      "text": "ironcarrier                   50 # Defeating this unit gives 50 Iron as spoils of war.",
+      "kind": "monster"
+    }
+  ],
+  "irongate": [
+    {
+      "text": "irongate            # The gate of the fort is iron",
+      "kind": "terrain"
+    }
+  ],
+  "itemwep": [
+    {
+      "text": "itemwep                          \"Frost Brand\" # nbr 172.",
+      "kind": "item"
+    },
+    {
+      "text": "itemwep                        \"Burning Sword\" # nbr 884.",
+      "kind": "item"
+    },
+    {
+      "text": "itemwep                          \"Flame Spear\" # nbr 903.",
+      "kind": "item"
+    }
+  ],
+  "jungle1": [
+    {
+      "text": "jungle1                          # Loves jungles (if an independent or stupid commander, will not…",
+      "kind": "monster"
+    }
+  ],
+  "jungle2": [
+    {
+      "text": "jungle2                          # Likes jungles (if an independent or stupid commander, will not…",
+      "kind": "monster"
+    }
+  ],
+  "killtarg": [
+    {
+      "text": "killtarg            9999 # Automatically kills target unit (caster).",
+      "kind": "ritual"
+    }
+  ],
+  "kobold": [
+    {
+      "text": "kobold                         1 # This unit is an expendable kobold.",
+      "kind": "monster"
+    }
+  ],
+  "lairgoldpen": [
+    {
+      "text": "lairgoldpen                   50 # 50% Gold income penalty for this monster's home square.",
+      "kind": "monster"
+    },
+    {
+      "text": "lairgoldpen                   25 # 25% Gold income penalty for this monster's home square.",
+      "kind": "monster"
+    }
+  ],
+  "large": [
+    {
+      "text": "large                  # Doesn't affect size 2x2 or larger units.",
+      "kind": "weapon"
+    }
+  ],
+  "largeshield": [
+    {
+      "text": "largeshield                      # Reduces damage from most weapons by 0-2; 0-4 against ranged we…",
+      "kind": "monster"
+    }
+  ],
+  "leadership": [
+    {
+      "text": "leadership                     2 # +2 Morale for units commanded by this unit.",
+      "kind": "monster"
+    },
+    {
+      "text": "leadership                     1 # +1 Morale for units commanded by this unit.",
+      "kind": "monster"
+    },
+    {
+      "text": "leadership                                   1 # +1 Morale for units commanded by this unit.",
+      "kind": "item"
+    }
+  ],
+  "level": [
+    {
+      "text": "level                  1",
+      "kind": "ritual"
+    },
+    {
+      "text": "level                  2",
+      "kind": "ritual"
+    },
+    {
+      "text": "level                  3",
+      "kind": "ritual"
+    }
+  ],
+  "levelreq": [
+    {
+      "text": "levelreq               1 # To access this ritual, caster must be exactly level 1 and cannot have …",
+      "kind": "ritual"
+    }
+  ],
+  "levelup": [
+    {
+      "text": "levelup                2 # Level up to new monster (determined by mastery command on monster) if …",
+      "kind": "ritual"
+    },
+    {
+      "text": "levelup                3 # Level up to new monster (determined by mastery command on monster) if …",
+      "kind": "ritual"
+    }
+  ],
+  "levelupmon": [
+    {
+      "text": "levelupmon             2 # Level up to the monster in string if below level 2.",
+      "kind": "ritual"
+    },
+    {
+      "text": "levelupmon             3 # Level up to the monster in string if below level 3.",
+      "kind": "ritual"
+    }
+  ],
+  "libbonusdescr": [
+    {
+      "text": "libbonusdescr          \"wizards\"",
+      "kind": "class"
+    },
+    {
+      "text": "libbonusdescr          \"sorcerors and human wizards\"",
+      "kind": "class"
+    },
+    {
+      "text": "libbonusdescr          \"centaur sages and human wizards\"",
+      "kind": "class"
+    }
+  ],
+  "libmastery": [
+    {
+      "text": "libmastery                     3 # Can level up for 600 Gold in a level 3 library.",
+      "kind": "monster"
+    },
+    {
+      "text": "libmastery                     2 # Can level up for 150 Gold in a level 2+ library.",
+      "kind": "monster"
+    },
+    {
+      "text": "libmastery                     3 # Can level up for 2000 Gold in a level 3 library.",
+      "kind": "monster"
+    }
+  ],
+  "library1": [
+    {
+      "text": "library1            # Library level +1.",
+      "kind": "terrain"
+    }
+  ],
+  "library2": [
+    {
+      "text": "library2            # Library level +2.",
+      "kind": "terrain"
+    }
+  ],
+  "libraryrec": [
+    {
+      "text": "libraryrec                                    # +2% to chance per library point owned, to a max o…",
+      "kind": "recruitment"
+    },
+    {
+      "text": "libraryrec                                    # +1% to chance per library point owned, to a max o…",
+      "kind": "recruitment"
+    }
+  ],
+  "lifeforce": [
+    {
+      "text": "lifeforce        -1 # Drains Lifeforce from all squares within radius: 1.",
+      "kind": "terrain"
+    },
+    {
+      "text": "lifeforce        40 # 4 Lifeforce can be drained from this square per turn.",
+      "kind": "terrain"
+    },
+    {
+      "text": "lifeforce         1 # 0.1 Lifeforce can be drained from this square per turn.",
+      "kind": "terrain"
+    }
+  ],
+  "likescoast": [
+    {
+      "text": "likescoast         10 # 10: Willingness to start near a coast, on a scale from -10 to 10.",
+      "kind": "class"
+    }
+  ],
+  "likesnorth": [
+    {
+      "text": "likesnorth          1 # 1: Willingness to start in the north, on a scale from -10 to 10.",
+      "kind": "class"
+    },
+    {
+      "text": "likesnorth         -2 # -2: Willingness to start in the north, on a scale from -10 to 10.",
+      "kind": "class"
+    },
+    {
+      "text": "likesnorth         -1 # -1: Willingness to start in the north, on a scale from -10 to 10.",
+      "kind": "class"
+    }
+  ],
+  "likessouth": [
+    {
+      "text": "likessouth          2 # 2: Willingness to start in the south, on a scale from -10 to 10.",
+      "kind": "class"
+    },
+    {
+      "text": "likessouth          1 # 1: Willingness to start in the south, on a scale from -10 to 10.",
+      "kind": "class"
+    },
+    {
+      "text": "likessouth         -2 # -2: Willingness to start in the south, on a scale from -10 to 10.",
+      "kind": "class"
+    }
+  ],
+  "limitgold": [
+    {
+      "text": "limitgold                      1 # +1 gold income, limited to an amount equal to the normal gold …",
+      "kind": "monster"
+    },
+    {
+      "text": "limitgold                      3 # +3 gold income, limited to an amount equal to the normal gold …",
+      "kind": "monster"
+    }
+  ],
+  "limitiron": [
+    {
+      "text": "limitiron                      1 # +1 iron income, limited to an amount equal to the normal iron …",
+      "kind": "monster"
+    },
+    {
+      "text": "limitiron                      3 # +3 iron income, limited to an amount equal to the normal iron …",
+      "kind": "monster"
+    }
+  ],
+  "lob": [
+    {
+      "text": "lob                    # Arcing trajectory.",
+      "kind": "weapon"
+    }
+  ],
+  "localleadership": [
+    {
+      "text": "localleadership                1 # +1 Morale for allied units within two squares of this unit.",
+      "kind": "monster"
+    },
+    {
+      "text": "localleadership                2 # +2 Morale for allied units within two squares of this unit.",
+      "kind": "monster"
+    },
+    {
+      "text": "localleadership                              1 # +1 Morale for allied units within two squares of…",
+      "kind": "item"
+    }
+  ],
+  "look": [
+    {
+      "text": "look                 1",
+      "kind": "weapon"
+    },
+    {
+      "text": "look               171",
+      "kind": "weapon"
+    },
+    {
+      "text": "look               236",
+      "kind": "weapon"
+    }
+  ],
+  "lookslike": [
+    {
+      "text": "lookslike                      1 # To opposing players, this monster will appear to be the type d…",
+      "kind": "monster"
+    },
+    {
+      "text": "lookslike                      2 # To opposing players, this monster will appear to be the type d…",
+      "kind": "monster"
+    }
+  ],
+  "lucky": [
+    {
+      "text": "lucky                            # 50% chance to evade each attack.",
+      "kind": "monster"
+    },
+    {
+      "text": "lucky                                          # 50% chance to evade each attack.",
+      "kind": "item"
+    },
+    {
+      "text": "lucky                                          # Luck: 50% chance to evade each attack. # From ben7.",
+      "kind": "item"
+    }
+  ],
+  "madcultist": [
+    {
+      "text": "madcultist                                   1 # If this unit is owned by Independents, they migh…",
+      "kind": "item"
+    },
+    {
+      "text": "madcultist                     1 # If this unit is owned by Independents, they might decide to op…",
+      "kind": "monster"
+    }
+  ],
+  "magicboost": [
+    {
+      "text": "magicboost                                   1 # Magic Boost: + 1 (all Paths).",
+      "kind": "item"
+    }
+  ],
+  "magicshield": [
+    {
+      "text": "magicshield                      # Reduces damage from most weapons by 0-3; 0-6 against ranged we…",
+      "kind": "monster"
+    }
+  ],
+  "magicwalls": [
+    {
+      "text": "magicwalls          # Ethereal units cannot pass through walls at this fort.",
+      "kind": "terrain"
+    }
+  ],
+  "makeportal": [
+    {
+      "text": "makeportal             2 # Makes a portal at target location with the portal number 2. Portals wi…",
+      "kind": "ritual"
+    },
+    {
+      "text": "makeportal          1000 # Makes a portal at target location with a unique portal number each tim…",
+      "kind": "ritual"
+    }
+  ],
+  "makeruin": [
+    {
+      "text": "makeruin                      10 # 10% chance of turning current square into a ruin if possible.",
+      "kind": "monster"
+    },
+    {
+      "text": "makeruin                     100 # 100% chance of turning current square into a ruin if possible.",
+      "kind": "monster"
+    }
+  ],
+  "mastery": [
+    {
+      "text": "mastery                        3 # A mastery effect will change this monster to the type defined …",
+      "kind": "monster"
+    },
+    {
+      "text": "mastery                        1 # A mastery effect will change this monster to the type defined …",
+      "kind": "monster"
+    },
+    {
+      "text": "mastery                        2 # A mastery effect will change this monster to the type defined …",
+      "kind": "monster"
+    }
+  ],
+  "maxcast": [
+    {
+      "text": "maxcast                1 # Ritual cannot be cast more than 1 time(s) by a given player.",
+      "kind": "ritual"
+    },
+    {
+      "text": "maxcast               20 # Ritual cannot be cast more than 20 time(s) by a given player.",
+      "kind": "ritual"
+    }
+  ],
+  "maxsinners": [
+    {
+      "text": "maxsinners                    10 # When owned by Inferno, will gather 10 sinners before returning.",
+      "kind": "monster"
+    },
+    {
+      "text": "maxsinners                    30 # When owned by Inferno, will gather 30 sinners before returning.",
+      "kind": "monster"
+    },
+    {
+      "text": "maxsinners                    50 # When owned by Inferno, will gather 50 sinners before returning.",
+      "kind": "monster"
+    }
+  ],
+  "maxsum": [
+    {
+      "text": "maxsum                         5 # No more than 5 can be summoned in a single battle.",
+      "kind": "monster"
+    },
+    {
+      "text": "maxsum                        40 # No more than 40 can be summoned in a single battle.",
+      "kind": "monster"
+    },
+    {
+      "text": "maxsum                      1000 # No more than 1000 can be summoned in a single battle.",
+      "kind": "monster"
+    }
+  ],
+  "meleeweapon": [
+    {
+      "text": "meleeweapon               10 447 # Engulf: Swallow.",
+      "kind": "monster"
+    },
+    {
+      "text": "meleeweapon                1 719 # Moon Lance: d8 Pierce damage.",
+      "kind": "monster"
+    },
+    {
+      "text": "meleeweapon                4 573 # Strong Venomous Phase Bite: d4 Slash damage.",
+      "kind": "monster"
+    }
+  ],
+  "meleeweapon50s": [
+    {
+      "text": "meleeweapon50s            10 594 # Illusory Flames: d10 Magic damage.",
+      "kind": "monster"
+    }
+  ],
+  "meleeweaponbonus": [
+    {
+      "text": "meleeweaponbonus           4  95 # Hoof: d4 Blunt damage.",
+      "kind": "monster"
+    },
+    {
+      "text": "meleeweaponbonus          12  11 # Bite: d12 Slash damage.",
+      "kind": "monster"
+    },
+    {
+      "text": "meleeweaponbonus           3 565 # Phantasmal Blast: d3 Magic damage.",
+      "kind": "monster"
+    }
+  ],
+  "meleeweaponspec": [
+    {
+      "text": "meleeweaponspec            8  13 # Lance Charge: d8 Pierce damage.",
+      "kind": "monster"
+    },
+    {
+      "text": "meleeweaponspec           13  13 # Lance Charge: d13 Pierce damage.",
+      "kind": "monster"
+    },
+    {
+      "text": "meleeweaponspec           15 834 # Golden Lance Charge: d15 Pierce damage.",
+      "kind": "monster"
+    }
+  ],
+  "melts": [
+    {
+      "text": "melts               # A hint to the AI that the terrain melts after the winter.",
+      "kind": "terrain"
+    }
+  ],
+  "mercboost": [
+    {
+      "text": "mercboost         -50 # -50% to frequency of mercenary offers.",
+      "kind": "class"
+    },
+    {
+      "text": "mercboost         100 # +100% to frequency of mercenary offers.",
+      "kind": "class"
+    }
+  ],
+  "mercpricemult": [
+    {
+      "text": "mercpricemult       2 # 2 times normal cost for mercenary offers.",
+      "kind": "class"
+    }
+  ],
+  "mind": [
+    {
+      "text": "mind                   # Doesn't affect mindless units.",
+      "kind": "weapon"
+    }
+  ],
+  "mine": [
+    {
+      "text": "mine                # The terrain counts as a mine.",
+      "kind": "terrain"
+    }
+  ],
+  "mines1": [
+    {
+      "text": "mines1                           # Loves mines (if an independent or stupid commander, will not l…",
+      "kind": "monster"
+    }
+  ],
+  "minorstartaff": [
+    {
+      "text": "minorstartaff                 75 # 75% chance to start with a minor affliction. Chances > 100 can…",
+      "kind": "monster"
+    }
+  ],
+  "mirrorimages": [
+    {
+      "text": "mirrorimages                                 4 # Constant Mirror Images (4): start each battle wi…",
+      "kind": "item"
+    },
+    {
+      "text": "mirrorimages                   1 # Constant Mirror Images (1): start each battle with 1 mirror im…",
+      "kind": "monster"
+    },
+    {
+      "text": "mirrorimages                   4 # Constant Mirror Images (4): start each battle with 4 mirror im…",
+      "kind": "monster"
+    }
+  ],
+  "mirrortarg": [
+    {
+      "text": "mirrortarg             1 # Set target monster to an empty mirror unit of type: Mirror.",
+      "kind": "ritual"
+    },
+    {
+      "text": "mirrortarg             2 # Set target monster to an empty mirror unit of type: Large Mirror.",
+      "kind": "ritual"
+    },
+    {
+      "text": "mirrortarg             4 # Set target monster to an empty mirror unit of type: Golden Mirror.",
+      "kind": "ritual"
+    }
+  ],
+  "money1": [
+    {
+      "text": "money1                           # Loves gold income squares (if an independent or stupid command…",
+      "kind": "monster"
+    }
+  ],
+  "money2": [
+    {
+      "text": "money2                           # Likes gold income squares (if an independent or stupid command…",
+      "kind": "monster"
+    }
+  ],
+  "monplayerreq": [
+    {
+      "text": "monplayerreq           1 # At least 1 monster from strings beginning with \"(&)\" must be in the wo…",
+      "kind": "ritual"
+    }
+  ],
+  "montarg": [
+    {
+      "text": "montarg                1 # Sets target unit to a random unit at target location of the type speci…",
+      "kind": "ritual"
+    }
+  ],
+  "mor": [
+    {
+      "text": "mor                            7 # Morale.",
+      "kind": "monster"
+    },
+    {
+      "text": "mor                           15 # Morale.",
+      "kind": "monster"
+    },
+    {
+      "text": "mor                            1 # Morale.",
+      "kind": "monster"
+    }
+  ],
+  "morale": [
+    {
+      "text": "morale                                       2 # +2 Morale.",
+      "kind": "item"
+    },
+    {
+      "text": "morale                 # Resisted by rolling 1d10 < Morale.",
+      "kind": "weapon"
+    }
+  ],
+  "more1spells": [
+    {
+      "text": "more1spells                   -1 # Starts with 1 less level 1 spell of each known school.",
+      "kind": "monster"
+    },
+    {
+      "text": "more1spells                    1 # Starts with 1 extra level 1 spell of each known school.",
+      "kind": "monster"
+    }
+  ],
+  "more2spells": [
+    {
+      "text": "more2spells                   -1 # Starts with 1 less level 2 spell of each known school.",
+      "kind": "monster"
+    },
+    {
+      "text": "more2spells                    1 # Starts with 1 extra level 2 spell of each known school.",
+      "kind": "monster"
+    }
+  ],
+  "more3spells": [
+    {
+      "text": "more3spells                   -1 # Starts with 1 less level 3 spell of each known school.",
+      "kind": "monster"
+    }
+  ],
+  "mountain": [
+    {
+      "text": "mountain                                       # Mountain Move: AP cost to enter a mountain squar…",
+      "kind": "item"
+    },
+    {
+      "text": "mountain                         # Mountain Move: AP cost to enter a mountain square is reduced b…",
+      "kind": "monster"
+    },
+    {
+      "text": "mountain            # The terrain counts as a mountain for the purposes of abilities like Mountai…",
+      "kind": "terrain"
+    }
+  ],
+  "mountain2": [
+    {
+      "text": "mountain2                        # Likes mountains (if an independent or stupid commander, will n…",
+      "kind": "monster"
+    }
+  ],
+  "movehome": [
+    {
+      "text": "movehome               1 # Moves home citadel location to target square.",
+      "kind": "ritual"
+    }
+  ],
+  "mr": [
+    {
+      "text": "mr                             6 # Magic Resistance.",
+      "kind": "monster"
+    },
+    {
+      "text": "mr                             2 # Magic Resistance.",
+      "kind": "monster"
+    },
+    {
+      "text": "mr                                           4 # +4 Magic Resistance.",
+      "kind": "item"
+    }
+  ],
+  "multiplane": [
+    {
+      "text": "multiplane             2 # chooseloc and similar can select locations on: all planes.",
+      "kind": "ritual"
+    }
+  ],
+  "mundane": [
+    {
+      "text": "mundane                # Non-magic. Ethereal units have a 75% chance to be unaffected.",
+      "kind": "weapon"
+    }
+  ],
+  "mutate": [
+    {
+      "text": "mutate                 # If killed by this weapon, target becomes a monster of the type defined n…",
+      "kind": "weapon"
+    }
+  ],
+  "name": [
+    {
+      "text": "name                 \"?\"",
+      "kind": "terrain"
+    },
+    {
+      "text": "name                 \"Crystal Tower\"",
+      "kind": "terrain"
+    },
+    {
+      "text": "name                 \"Gateway to the Realm of the Dead\"",
+      "kind": "terrain"
+    }
+  ],
+  "nametype": [
+    {
+      "text": "nametype                      35 # Amazon.",
+      "kind": "monster"
+    },
+    {
+      "text": "nametype                      34 # Japanese male.",
+      "kind": "monster"
+    },
+    {
+      "text": "nametype                      50 # Middle Eastern female.",
+      "kind": "monster"
+    }
+  ],
+  "nevercold": [
+    {
+      "text": "nevercold           # This square will never get cold.",
+      "kind": "terrain"
+    }
+  ],
+  "newclass": [
+    {
+      "text": "newclass  #  1",
+      "kind": "class"
+    },
+    {
+      "text": "newclass  # 15",
+      "kind": "class"
+    },
+    {
+      "text": "newclass  # 29",
+      "kind": "class"
+    }
+  ],
+  "newitem": [
+    {
+      "text": "newitem    \"Frost Brand\"                                                  #   0",
+      "kind": "item"
+    },
+    {
+      "text": "newitem    \"Divine Mantle\"                                                # 136",
+      "kind": "item"
+    },
+    {
+      "text": "newitem    \"Pythian Headdress\"                                            # 273",
+      "kind": "item"
+    }
+  ],
+  "newlocplanes": [
+    {
+      "text": "newlocplanes         -20 # Sets target location to a random terrain of this type, trying to find …",
+      "kind": "ritual"
+    },
+    {
+      "text": "newlocplanes          -1 # Sets target location to a random terrain of this type, trying to find …",
+      "kind": "ritual"
+    }
+  ],
+  "newmonster": [
+    {
+      "text": "newmonster    \"Baron\"                                                    #    0",
+      "kind": "monster"
+    },
+    {
+      "text": "newmonster    \"Tree of Tainted Fruits\"                                   #  889",
+      "kind": "monster"
+    },
+    {
+      "text": "newmonster    \"Debug Sensei III\"                                         # 1778",
+      "kind": "monster"
+    }
+  ],
+  "newrit": [
+    {
+      "text": "newrit                 1 # Caster will learn a new ritual of level 1.",
+      "kind": "ritual"
+    },
+    {
+      "text": "newrit                 2 # Caster will learn a new ritual of level 2.",
+      "kind": "ritual"
+    },
+    {
+      "text": "newrit                 3 # Caster will learn a new ritual of level 3.",
+      "kind": "ritual"
+    }
+  ],
+  "newritual": [
+    {
+      "text": "newritual     \"Lesser Ritual of Mastery\"                                  #   1",
+      "kind": "ritual"
+    },
+    {
+      "text": "newritual     \"Great Animal Summoning\"                                    # 276",
+      "kind": "ritual"
+    },
+    {
+      "text": "newritual     \"Mirror Blink\"                                              # 552",
+      "kind": "ritual"
+    }
+  ],
+  "newspell1": [
+    {
+      "text": "newspell1             45 # Learn a new level 1 combat spell of this path: Dwarf Magic.",
+      "kind": "ritual"
+    }
+  ],
+  "newspell2": [
+    {
+      "text": "newspell2             45 # Learn a new level 2 combat spell of this path: Dwarf Magic.",
+      "kind": "ritual"
+    }
+  ],
+  "newspell3": [
+    {
+      "text": "newspell3             45 # Learn a new level 3 combat spell of this path: Dwarf Magic.",
+      "kind": "ritual"
+    }
+  ],
+  "newweapon": [
+    {
+      "text": "newweapon     \"Fist\"                                                      #   0",
+      "kind": "weapon"
+    },
+    {
+      "text": "newweapon     \"Acid Breath\"                                               # 462",
+      "kind": "weapon"
+    },
+    {
+      "text": "newweapon     \"Wall of Darkness (fear)\"                                   # 925",
+      "kind": "weapon"
+    }
+  ],
+  "nextalwayswep": [
+    {
+      "text": "nextalwayswep      853 # Extra effect if target is hit: 853: Web.",
+      "kind": "weapon"
+    },
+    {
+      "text": "nextalwayswep      540 # Extra effect if target is hit: 540: Cold Blast.",
+      "kind": "weapon"
+    },
+    {
+      "text": "nextalwayswep      167 # Extra effect if target is hit: 167: aff (unresistable + mundane + fly).",
+      "kind": "weapon"
+    }
+  ],
+  "nextdmg": [
+    {
+      "text": "nextdmg             64 # Stun",
+      "kind": "weapon"
+    },
+    {
+      "text": "nextdmg              2 # d2 Cold damage.",
+      "kind": "weapon"
+    },
+    {
+      "text": "nextdmg   274877906944 # Undocumented special damage 38",
+      "kind": "weapon"
+    }
+  ],
+  "nexttoo": [
+    {
+      "text": "nexttoo                  # Learn the next ritual too when learning this one.",
+      "kind": "ritual"
+    }
+  ],
+  "nextwep": [
+    {
+      "text": "nextwep            175 # Extra effect if target is affected: 175: Cold.",
+      "kind": "weapon"
+    },
+    {
+      "text": "nextwep            247 # Extra effect if target is affected: 247: Tangle Vines.",
+      "kind": "weapon"
+    },
+    {
+      "text": "nextwep            344 # Extra effect if target is affected: 344: Soul Slay (+mr-paralyze).",
+      "kind": "weapon"
+    }
+  ],
+  "nobootslots": [
+    {
+      "text": "nobootslots                      # Has no boot slots.",
+      "kind": "monster"
+    }
+  ],
+  "nocombat": [
+    {
+      "text": "nocombat                         # Non combatant, will not participate in combats.",
+      "kind": "monster"
+    }
+  ],
+  "nodemon": [
+    {
+      "text": "nodemon                  # Demons cannot learn this ritual.",
+      "kind": "ritual"
+    }
+  ],
+  "nodrown": [
+    {
+      "text": "nodrown             # No one will drown in this terrain. Fish can be on land and vice versa here.",
+      "kind": "terrain"
+    }
+  ],
+  "nofemale": [
+    {
+      "text": "nofemale                 # Females cannot learn this ritual.",
+      "kind": "ritual"
+    }
+  ],
+  "nofortreq": [
+    {
+      "text": "nofortreq           6144 # Caster's location must not have these fort parts: iron gate, enchanted…",
+      "kind": "ritual"
+    }
+  ],
+  "nofxherereq": [
+    {
+      "text": "nofxherereq          528 # There must not be a monster here with the following feature: Dvala rit…",
+      "kind": "ritual"
+    }
+  ],
+  "noheal": [
+    {
+      "text": "noheal                           # Does not heal naturally.",
+      "kind": "monster"
+    }
+  ],
+  "noland": [
+    {
+      "text": "noland                           # Aquatic: The monster cannot move onto land.",
+      "kind": "monster"
+    }
+  ],
+  "noleader": [
+    {
+      "text": "noleader                         # Even if this monster is a commander, it cannot lead other units.",
+      "kind": "monster"
+    }
+  ],
+  "nomonelysiumreq": [
+    {
+      "text": "nomonelysiumreq          # Monsters in strings beginning with \"(-)\" must not be in Elysium/Sky/Ag…",
+      "kind": "ritual"
+    }
+  ],
+  "nomonhomereq": [
+    {
+      "text": "nomonhomereq             # Monsters in strings beginning with \"(-)\" must not have their home at t…",
+      "kind": "ritual"
+    }
+  ],
+  "nomonmasteryreq": [
+    {
+      "text": "nomonmasteryreq          # If a monster in a string beginning with \"(-)\" is in the world and owne…",
+      "kind": "ritual"
+    }
+  ],
+  "nomonreq": [
+    {
+      "text": "nomonreq                 # Monsters in strings beginning with \"(-)\" must not be here.",
+      "kind": "ritual"
+    }
+  ],
+  "nomonworldreq": [
+    {
+      "text": "nomonworldreq          1 # Monsters in strings beginning with \"(-)\" in the world must be fewer th…",
+      "kind": "ritual"
+    }
+  ],
+  "nonmaginvul": [
+    {
+      "text": "nonmaginvul                      # Invulnerable to non-magical weapons.",
+      "kind": "monster"
+    },
+    {
+      "text": "nonmaginvul                                    # Invulnerable to non-magical weapons.",
+      "kind": "item"
+    }
+  ],
+  "noportalreq": [
+    {
+      "text": "noportalreq            1 # Ritual cannot be cast if the location already contains a portal.",
+      "kind": "ritual"
+    }
+  ],
+  "nosight": [
+    {
+      "text": "nosight             # The terrain does not provide vision into adjacent squares when owned.",
+      "kind": "terrain"
+    }
+  ],
+  "noslots": [
+    {
+      "text": "noslots                          # Has no item slots at all.",
+      "kind": "monster"
+    }
+  ],
+  "nostart": [
+    {
+      "text": "nostart                  # Never start with this ritual, and it cannot be learned by mastery ritu…",
+      "kind": "ritual"
+    },
+    {
+      "text": "nostart             # This type of terrain cannot be overwritten by a start citadel from a player.",
+      "kind": "terrain"
+    }
+  ],
+  "nostr": [
+    {
+      "text": "nostr                  # Unaffected by damage bonuses from any source.",
+      "kind": "weapon"
+    }
+  ],
+  "notforpoor": [
+    {
+      "text": "notforpoor               # Ritual casters that have a negative rebate cannot learn this ritual.",
+      "kind": "ritual"
+    }
+  ],
+  "noundead": [
+    {
+      "text": "noundead                 # Undead beings cannot learn this ritual.",
+      "kind": "ritual"
+    }
+  ],
+  "nozoc": [
+    {
+      "text": "nozoc                            # No Zone of Control.",
+      "kind": "monster"
+    }
+  ],
+  "oneshot": [
+    {
+      "text": "oneshot                # Can only be used once per battle.",
+      "kind": "weapon"
+    }
+  ],
+  "onlyenemy": [
+    {
+      "text": "onlyenemy              # Only affects enemy units.",
+      "kind": "weapon"
+    }
+  ],
+  "onlyfriend": [
+    {
+      "text": "onlyfriend             # Only affects friendly units.",
+      "kind": "weapon"
+    }
+  ],
+  "ornext2": [
+    {
+      "text": "ornext2               25 # %. Success means next two commands are executed and then skip the rest…",
+      "kind": "ritual"
+    }
+  ],
+  "ownable": [
+    {
+      "text": "ownable             # The terrain can be claimed for ownership even if it provides no income the …",
+      "kind": "terrain"
+    }
+  ],
+  "passwall": [
+    {
+      "text": "passwall                         # Monster can move through walls on both combat and world maps, …",
+      "kind": "monster"
+    }
+  ],
+  "pathboost": [
+    {
+      "text": "pathboost                                   32 # Path Boost: Night + 1.",
+      "kind": "item"
+    },
+    {
+      "text": "pathboost                                   44 # Path Boost: Sage Magic + 1.",
+      "kind": "item"
+    },
+    {
+      "text": "pathboost                                   68 # Path Boost: Maya Manipulation + 1.",
+      "kind": "item"
+    }
+  ],
+  "petriaura": [
+    {
+      "text": "petriaura                      3 # Attackers within 3 spaces must pass a magic resistance roll or…",
+      "kind": "monster"
+    },
+    {
+      "text": "petriaura                      4 # Attackers within 4 spaces must pass a magic resistance roll or…",
+      "kind": "monster"
+    }
+  ],
+  "pierceres": [
+    {
+      "text": "pierceres                        # Pierce resistance (half damage).",
+      "kind": "monster"
+    },
+    {
+      "text": "pierceres                                      # Pierce resistance (half damage).",
+      "kind": "item"
+    }
+  ],
+  "planeloc": [
+    {
+      "text": "planeloc               5 # Shift target location to same position but on this plane: Hades.",
+      "kind": "ritual"
+    }
+  ],
+  "planereq": [
+    {
+      "text": "planereq               5 # Can only be cast on this plane: Hades.",
+      "kind": "ritual"
+    },
+    {
+      "text": "planereq               0 # Can only be cast on this plane: Elysium.",
+      "kind": "ritual"
+    },
+    {
+      "text": "planereq               8 # Can only be cast on this plane: Elemental Planes.",
+      "kind": "ritual"
+    }
+  ],
+  "planeshift": [
+    {
+      "text": "planeshift                                   2 # Plane Shift: Inferno. Can shift from Elysium to …",
+      "kind": "item"
+    },
+    {
+      "text": "planeshift                                   3 # Plane Shift: Hades. Can shift from Elysium to Ha…",
+      "kind": "item"
+    },
+    {
+      "text": "planeshift                     1 # Plane Shift: Hades. Can shift from Elysium to Hades or vice-ve…",
+      "kind": "monster"
+    }
+  ],
+  "planeswap": [
+    {
+      "text": "planeswap              5 # Swaps all units at target location between Hades and Elysium.",
+      "kind": "ritual"
+    }
+  ],
+  "poison": [
+    {
+      "text": "poison                 # Poison resistance helps against it, even if dmgtype isn't poison.",
+      "kind": "weapon"
+    }
+  ],
+  "poisoncloud": [
+    {
+      "text": "poisoncloud                                  2 # Poison Aura (2): This unit is surrounded by a ra…",
+      "kind": "item"
+    },
+    {
+      "text": "poisoncloud                    3 # Poison Aura (3): This unit is surrounded by a radius 2 cloud w…",
+      "kind": "monster"
+    },
+    {
+      "text": "poisoncloud                    1 # Poison Aura (1): This unit is surrounded by a radius 0 cloud w…",
+      "kind": "monster"
+    }
+  ],
+  "poisonres": [
+    {
+      "text": "poisonres                    100 # Poison immunity.",
+      "kind": "monster"
+    },
+    {
+      "text": "poisonres                                  100 # Poison immunity.",
+      "kind": "item"
+    },
+    {
+      "text": "poisonres                                  100 # +100 Poison Resistance.",
+      "kind": "item"
+    }
+  ],
+  "poisonspikes": [
+    {
+      "text": "poisonspikes                                 4 # Poison (4): Any enemy attacking this unit in mel…",
+      "kind": "item"
+    },
+    {
+      "text": "poisonspikes                   5 # Poison (5): Any enemy attacking this unit in melee will take s…",
+      "kind": "monster"
+    },
+    {
+      "text": "poisonspikes                   3 # Poison (3): Any enemy attacking this unit in melee will take s…",
+      "kind": "monster"
+    }
+  ],
+  "pop": [
+    {
+      "text": "pop              50 # Population level: 50",
+      "kind": "terrain"
+    },
+    {
+      "text": "pop               2 # Population level:  2",
+      "kind": "terrain"
+    },
+    {
+      "text": "pop              25 # Population level: 25",
+      "kind": "terrain"
+    }
+  ],
+  "port": [
+    {
+      "text": "port                # Partly Water (ships can enter this terrain).",
+      "kind": "terrain"
+    }
+  ],
+  "portalroom": [
+    {
+      "text": "portalroom           233 # Makes a portal here and another on one of the 8 tiles adjacent to an i…",
+      "kind": "ritual"
+    }
+  ],
+  "power": [
+    {
+      "text": "power                      27  1 # Monk, level 1.",
+      "kind": "monster"
+    },
+    {
+      "text": "power                      36  3 # Rain Priest, level 3.",
+      "kind": "monster"
+    },
+    {
+      "text": "power                      46  3 # God Emperor of the Underworld, level 3.",
+      "kind": "monster"
+    }
+  ],
+  "prebatweapon": [
+    {
+      "text": "prebatweapon               5 728 # Dreamless Sleep: Sleep.",
+      "kind": "monster"
+    },
+    {
+      "text": "prebatweapon               8 420 # Mass Corruption: Corrupt: d8 vs morale.",
+      "kind": "monster"
+    },
+    {
+      "text": "prebatweapon              30 548 # Release Phantasm: Release (d30 + releaserate) phantasms. (Resu…",
+      "kind": "monster"
+    }
+  ],
+  "primable": [
+    {
+      "text": "primable                      -1 # Unit cannot be turned into a primal variant, even if it is an …",
+      "kind": "monster"
+    }
+  ],
+  "primal": [
+    {
+      "text": "primal                         1 # Is one of the monsters that can be summoned by the Druid ritua…",
+      "kind": "monster"
+    }
+  ],
+  "primalcult": [
+    {
+      "text": "primalcult                     1 # If this unit is owned by Independents, they might decide to op…",
+      "kind": "monster"
+    }
+  ],
+  "primifier": [
+    {
+      "text": "primifier                      1 # Will turn 1 animal into a primal animal each month.",
+      "kind": "monster"
+    }
+  ],
+  "promotion": [
+    {
+      "text": "promotion              1 # Promote 1 unit and make it the target unit. Valid promotions are in pa…",
+      "kind": "ritual"
+    },
+    {
+      "text": "promotion             -1 # Promote 1 unit to a commander and make it the target unit. Valid promo…",
+      "kind": "ritual"
+    },
+    {
+      "text": "promotion              5 # Promote 5 units and set target unit to a promoted unit. Valid promotio…",
+      "kind": "ritual"
+    }
+  ],
+  "promplayer": [
+    {
+      "text": "promplayer            26 # Promoted units will be owned by this player instead: Horrors.",
+      "kind": "ritual"
+    }
+  ],
+  "protection": [
+    {
+      "text": "protection                                   1 # +1 Armor.",
+      "kind": "item"
+    },
+    {
+      "text": "protection                                   2 # +2 Armor.",
+      "kind": "item"
+    }
+  ],
+  "purple": [
+    {
+      "text": "purple                 # Set color of damage numbers.",
+      "kind": "weapon"
+    }
+  ],
+  "raiseanimals": [
+    {
+      "text": "raiseanimals             # Raises animal corpses from the dead.",
+      "kind": "ritual"
+    }
+  ],
+  "raisedead": [
+    {
+      "text": "raisedead                # Raises humanoid corpses from the dead.",
+      "kind": "ritual"
+    }
+  ],
+  "randnewloc": [
+    {
+      "text": "randnewloc           -19 # Sets target location to a random terrain of this type on the active pl…",
+      "kind": "ritual"
+    },
+    {
+      "text": "randnewloc           -12 # Sets target location to a random terrain of this type on the active pl…",
+      "kind": "ritual"
+    }
+  ],
+  "randomitem": [
+    {
+      "text": "randomitem                     5 # 5% chance to spawn with a random magic item of any type.",
+      "kind": "monster"
+    },
+    {
+      "text": "randomitem                    75 # 75% chance to spawn with a random magic item of any type.",
+      "kind": "monster"
+    },
+    {
+      "text": "randomitem                   250 # 250% chance to spawn with a random magic item of any type.",
+      "kind": "monster"
+    }
+  ],
+  "randomloc": [
+    {
+      "text": "randomloc              2 # Sets target location to a random place on the map as follows: location…",
+      "kind": "ritual"
+    },
+    {
+      "text": "randomloc              1 # Sets target location to a random place on the map as follows: random l…",
+      "kind": "ritual"
+    },
+    {
+      "text": "randomloc              3 # Sets target location to a random place on the map as follows: location…",
+      "kind": "ritual"
+    }
+  ],
+  "randommisc": [
+    {
+      "text": "randommisc                    50 # 50% chance to spawn with a random misc magic item.",
+      "kind": "monster"
+    },
+    {
+      "text": "randommisc                    75 # 75% chance to spawn with a random misc magic item.",
+      "kind": "monster"
+    },
+    {
+      "text": "randommisc                   100 # 100% chance to spawn with a random misc magic item.",
+      "kind": "monster"
+    }
+  ],
+  "randomrare": [
+    {
+      "text": "randomrare                    10 # 10% chance to spawn with a random rare magic item.",
+      "kind": "monster"
+    },
+    {
+      "text": "randomrare                    20 # 20% chance to spawn with a random rare magic item.",
+      "kind": "monster"
+    },
+    {
+      "text": "randomrare                   100 # 100% chance to spawn with a random rare magic item.",
+      "kind": "monster"
+    }
+  ],
+  "randomweapon": [
+    {
+      "text": "randomweapon                  50 # 50% chance to spawn with a random magic weapon.",
+      "kind": "monster"
+    },
+    {
+      "text": "randomweapon                 100 # 100% chance to spawn with a random magic weapon.",
+      "kind": "monster"
+    }
+  ],
+  "randterrloc": [
+    {
+      "text": "randterrloc          -80 # Sets target location to a random terrain of this type on the active pl…",
+      "kind": "ritual"
+    },
+    {
+      "text": "randterrloc           68 # Sets target location to a random terrain of this type on the active pl…",
+      "kind": "ritual"
+    }
+  ],
+  "range": [
+    {
+      "text": "range                1",
+      "kind": "weapon"
+    },
+    {
+      "text": "range                4",
+      "kind": "weapon"
+    },
+    {
+      "text": "range                7",
+      "kind": "weapon"
+    }
+  ],
+  "rangedweapon": [
+    {
+      "text": "rangedweapon               1  52 # Charm: Charm.",
+      "kind": "monster"
+    },
+    {
+      "text": "rangedweapon              10 923 # Golden Bow: d16 Pierce damage.",
+      "kind": "monster"
+    },
+    {
+      "text": "rangedweapon          262144 603 # Words of Sacrilege: Special damage: Confusion.",
+      "kind": "monster"
+    }
+  ],
+  "rangedweapon25": [
+    {
+      "text": "rangedweapon25             5 702 # Throw Flames: d5 Fire damage.",
+      "kind": "monster"
+    },
+    {
+      "text": "rangedweapon25             6  49 # Putrid Cloud: d6 Magic damage.",
+      "kind": "monster"
+    }
+  ],
+  "rangedweapon50": [
+    {
+      "text": "rangedweapon50             1 512 # War Rally: Charm.",
+      "kind": "monster"
+    },
+    {
+      "text": "rangedweapon50             2 678 # Acid Spray: d2 Acid damage.",
+      "kind": "monster"
+    },
+    {
+      "text": "rangedweapon50        262144 547 # Mesmerize: Special damage: Confusion.",
+      "kind": "monster"
+    }
+  ],
+  "rangedweapon50s": [
+    {
+      "text": "rangedweapon50s            9 275 # Icy Breath: d9 Cold damage.",
+      "kind": "monster"
+    },
+    {
+      "text": "rangedweapon50s            5  38 # Poison Breath: d5 Poison damage.",
+      "kind": "monster"
+    },
+    {
+      "text": "rangedweapon50s           10 566 # Phantasmal Flames: d10 Magic damage.",
+      "kind": "monster"
+    }
+  ],
+  "rangedweapon50x": [
+    {
+      "text": "rangedweapon50x       262144 685 # Mesmerize: Special damage: Confusion.",
+      "kind": "monster"
+    }
+  ],
+  "rangedweaponbonus": [
+    {
+      "text": "rangedweaponbonus          1 407 # Enslave: Enslave.",
+      "kind": "monster"
+    },
+    {
+      "text": "rangedweaponbonus         12 593 # Illusory Blast: d12 Magic damage.",
+      "kind": "monster"
+    },
+    {
+      "text": "rangedweaponbonus         30 548 # Release Phantasm: Release (d30 + releaserate) phantasms. (Resu…",
+      "kind": "monster"
+    }
+  ],
+  "rangepen": [
+    {
+      "text": "rangepen               # Does half damage if distance >= half range.",
+      "kind": "weapon"
+    }
+  ],
+  "rank": [
+    {
+      "text": "rank                           0 # Mid rank.",
+      "kind": "monster"
+    },
+    {
+      "text": "rank                           1 # Front rank.",
+      "kind": "monster"
+    },
+    {
+      "text": "rank                                         2 # Deploys 2 ranks further forward than normal.",
+      "kind": "item"
+    }
+  ],
+  "rare": [
+    {
+      "text": "rare                # The terrain is rare and is sometimes deployed at a random place on the map …",
+      "kind": "terrain"
+    }
+  ],
+  "rarestart": [
+    {
+      "text": "rarestart                # Reduced chance of starting with this ritual.",
+      "kind": "ritual"
+    }
+  ],
+  "rarity": [
+    {
+      "text": "rarity                                       1 # Rare.",
+      "kind": "item"
+    },
+    {
+      "text": "rarity                                       0 # Common.",
+      "kind": "item"
+    },
+    {
+      "text": "rarity                                       3 # Not a random item (only available via commands l…",
+      "kind": "item"
+    }
+  ],
+  "realport": [
+    {
+      "text": "realport            # Ships can be recruited here.",
+      "kind": "terrain"
+    }
+  ],
+  "reanimate": [
+    {
+      "text": "reanimate                      1 # Automatically reanimate up to 1 corpse per month.",
+      "kind": "monster"
+    },
+    {
+      "text": "reanimate                     20 # Automatically reanimate up to 20 corpses per month.",
+      "kind": "monster"
+    },
+    {
+      "text": "reanimate              # If killed by this weapon, target becomes a Soulless controlled by the ki…",
+      "kind": "weapon"
+    }
+  ],
+  "rearpos": [
+    {
+      "text": "rearpos                          # Rank-, deploys further back.",
+      "kind": "monster"
+    }
+  ],
+  "rebatefx25": [
+    {
+      "text": "rebatefx25             2 # Units with rebate 2 get 25% rebate on the cost of the ritual.",
+      "kind": "ritual"
+    },
+    {
+      "text": "rebatefx25             1 # Units with rebate 1 get 25% rebate on the cost of the ritual.",
+      "kind": "ritual"
+    },
+    {
+      "text": "rebatefx25             3 # Units with rebate 3 get 25% rebate on the cost of the ritual.",
+      "kind": "ritual"
+    }
+  ],
+  "rebatelvl": [
+    {
+      "text": "rebatelvl              2 # Ritual can be cast for half price if caster's power level is greater t…",
+      "kind": "ritual"
+    },
+    {
+      "text": "rebatelvl              3 # Ritual can be cast for half price if caster's power level is greater t…",
+      "kind": "ritual"
+    }
+  ],
+  "rebateterr20": [
+    {
+      "text": "rebateterr20         -53 # Ritual is 25% (NOT 20%!) cheaper in this terrain: void gateways.",
+      "kind": "ritual"
+    },
+    {
+      "text": "rebateterr20         -50 # Ritual is 25% (NOT 20%!) cheaper in this terrain: air plane citadel.",
+      "kind": "ritual"
+    },
+    {
+      "text": "rebateterr20         -51 # Ritual is 25% (NOT 20%!) cheaper in this terrain: earth plane citadel.",
+      "kind": "ritual"
+    }
+  ],
+  "rebateterr50": [
+    {
+      "text": "rebateterr50         -46 # Ritual is 50% cheaper in this terrain: air plane.",
+      "kind": "ritual"
+    },
+    {
+      "text": "rebateterr50         -45 # Ritual is 50% cheaper in this terrain: water plane.",
+      "kind": "ritual"
+    },
+    {
+      "text": "rebateterr50         227 # Ritual is 50% cheaper in this terrain: Floating Cube.",
+      "kind": "ritual"
+    }
+  ],
+  "recasschance": [
+    {
+      "text": "recasschance        2 # Chance for recruitment offers from human assassins.",
+      "kind": "class"
+    },
+    {
+      "text": "recasschance        0 # Chance for recruitment offers from human assassins.",
+      "kind": "class"
+    },
+    {
+      "text": "recasschance        6 # Chance for recruitment offers from human assassins.",
+      "kind": "class"
+    }
+  ],
+  "recherochance": [
+    {
+      "text": "recherochance       1 # Chance for recruitment offers from human heroes.",
+      "kind": "class"
+    },
+    {
+      "text": "recherochance       0 # Chance for recruitment offers from human heroes.",
+      "kind": "class"
+    },
+    {
+      "text": "recherochance       2 # Chance for recruitment offers from human heroes.",
+      "kind": "class"
+    }
+  ],
+  "reclimiter": [
+    {
+      "text": "reclimiter  \"$Fire Dragon\"                    # +2% chance per Fire Dragon owned.",
+      "kind": "recruitment"
+    },
+    {
+      "text": "reclimiter  \"+High Priest of the Sun\"         # Owning a High Priest of the Sun enables the prece…",
+      "kind": "recruitment"
+    },
+    {
+      "text": "reclimiter  \"+Onyx Priestess\"                 # Owning a Onyx Priestess enables the preceding offer.",
+      "kind": "recruitment"
+    }
+  ],
+  "recterr": [
+    {
+      "text": "recterr     -102                              # The preceding offer can only be recruited in terr…",
+      "kind": "recruitment"
+    },
+    {
+      "text": "recterr      -52                              # The preceding offer can only be recruited in terr…",
+      "kind": "recruitment"
+    },
+    {
+      "text": "recterr     -106                              # The preceding offer can only be recruited in terr…",
+      "kind": "recruitment"
+    }
+  ],
+  "recwizchance": [
+    {
+      "text": "recwizchance        1 # Bonus to recruitment offers for human library wizards.",
+      "kind": "class"
+    },
+    {
+      "text": "recwizchance        4 # Bonus to recruitment offers for human library wizards.",
+      "kind": "class"
+    }
+  ],
+  "recxcost": [
+    {
+      "text": "recxcost    15  10                            # 10 Gems additional cost.",
+      "kind": "recruitment"
+    },
+    {
+      "text": "recxcost    16  10                            # 10 Kobolds additional cost.",
+      "kind": "recruitment"
+    },
+    {
+      "text": "recxcost     8  10                            # 10 Sapphires additional cost.",
+      "kind": "recruitment"
+    }
+  ],
+  "reducetown": [
+    {
+      "text": "reducetown               # Reduces size of settlement at target location by one step.",
+      "kind": "ritual"
+    }
+  ],
+  "reformdestroy": [
+    {
+      "text": "reformdestroy                100 # 100% chance to destroy location on immortality respawn.",
+      "kind": "monster"
+    }
+  ],
+  "reformloc": [
+    {
+      "text": "reformloc                   1000 # If killed, the monster will reform in its home square.",
+      "kind": "monster"
+    },
+    {
+      "text": "reformloc                    194 # If killed, the monster will reform in a random instance of thi…",
+      "kind": "monster"
+    },
+    {
+      "text": "reformloc                    238 # If killed, the monster will reform in a random instance of thi…",
+      "kind": "monster"
+    }
+  ],
+  "regeneration": [
+    {
+      "text": "regeneration                     # Heals ~5% HP every combat round in battle. May rise from the d…",
+      "kind": "monster"
+    }
+  ],
+  "releaserate": [
+    {
+      "text": "releaserate                   -2 # -2 to result of die rolled to determine number of phantasms re…",
+      "kind": "monster"
+    },
+    {
+      "text": "releaserate                   -5 # -5 to result of die rolled to determine number of phantasms re…",
+      "kind": "monster"
+    },
+    {
+      "text": "releaserate                  -10 # -10 to result of die rolled to determine number of phantasms r…",
+      "kind": "monster"
+    }
+  ],
+  "reload1": [
+    {
+      "text": "reload1                # Takes 1 round to reload.",
+      "kind": "weapon"
+    }
+  ],
+  "reload2": [
+    {
+      "text": "reload2                # Takes 2 rounds to reload.",
+      "kind": "weapon"
+    }
+  ],
+  "reload3": [
+    {
+      "text": "reload3                # Takes 3 rounds to reload.",
+      "kind": "weapon"
+    }
+  ],
+  "reqterr": [
+    {
+      "text": "reqterr           107 # Re-rolls the map until there is at least one square of the following terr…",
+      "kind": "class"
+    },
+    {
+      "text": "reqterr             4 # Re-rolls the map until there is at least one square of the following terr…",
+      "kind": "class"
+    },
+    {
+      "text": "reqterr            -2 # Re-rolls the map until there is at least one square of the following terr…",
+      "kind": "class"
+    }
+  ],
+  "resrestrict": [
+    {
+      "text": "resrestrict           16 # Caster must not be undead.",
+      "kind": "ritual"
+    },
+    {
+      "text": "resrestrict      1048576 # Caster must not be immortal.",
+      "kind": "ritual"
+    }
+  ],
+  "revertowner": [
+    {
+      "text": "revertowner                   28 # Player 28: Inferno.",
+      "kind": "monster"
+    },
+    {
+      "text": "revertowner                   24 # Player 24: Independents.",
+      "kind": "monster"
+    },
+    {
+      "text": "revertowner                   30 # Player 30: Kingdom/Empire.",
+      "kind": "monster"
+    }
+  ],
+  "ritequipall": [
+    {
+      "text": "ritequipall            1 # Gives all items in strings beginning with \"|\" to the target unit.",
+      "kind": "ritual"
+    }
+  ],
+  "ritmaxrange": [
+    {
+      "text": "ritmaxrange            2 # Limits the maximum range of any following choose[x] commands to 2 squa…",
+      "kind": "ritual"
+    }
+  ],
+  "ritpow": [
+    {
+      "text": "ritpow                27 # Monk",
+      "kind": "ritual"
+    },
+    {
+      "text": "ritpow                57 # Magistratus",
+      "kind": "ritual"
+    },
+    {
+      "text": "ritpow                46 # God Emperor of the Underworld",
+      "kind": "ritual"
+    }
+  ],
+  "ritrebate": [
+    {
+      "text": "ritrebate        10 # All rituals cast on this location will be 10% cheaper.",
+      "kind": "terrain"
+    },
+    {
+      "text": "ritrebate        25 # All rituals cast on this location will be 25% cheaper.",
+      "kind": "terrain"
+    }
+  ],
+  "sacr": [
+    {
+      "text": "sacr              3 # Sacrifices:  3",
+      "kind": "terrain"
+    },
+    {
+      "text": "sacr              4 # Sacrifices:  4",
+      "kind": "terrain"
+    },
+    {
+      "text": "sacr              5 # Sacrifices:  5",
+      "kind": "terrain"
+    }
+  ],
+  "sacrscale": [
+    {
+      "text": "sacrscale                # Summoning amount scales with sacrifice income of target square.",
+      "kind": "ritual"
+    }
+  ],
+  "saner": [
+    {
+      "text": "saner                          1 # Regains 1 sanity per month.",
+      "kind": "monster"
+    },
+    {
+      "text": "saner                          3 # Regains 3 sanity per month.",
+      "kind": "monster"
+    },
+    {
+      "text": "saner                                        1 # Regains 1 sanity per month.",
+      "kind": "item"
+    }
+  ],
+  "scatter": [
+    {
+      "text": "scatter                # May deviate one square from intended target.",
+      "kind": "weapon"
+    }
+  ],
+  "scatterscry": [
+    {
+      "text": "scatterscry           60 # Scry (broken up) at target location, totaling 60 squares.",
+      "kind": "ritual"
+    }
+  ],
+  "scourgedefiler": [
+    {
+      "text": "scourgedefiler                 8 # Lifeforce Spellcasting (Scourge Magic only) (range 8): Needs t…",
+      "kind": "monster"
+    }
+  ],
+  "scryloc": [
+    {
+      "text": "scryloc               15 # Scry radius 1.5 around target location.",
+      "kind": "ritual"
+    },
+    {
+      "text": "scryloc                5 # Scry radius 0.5 around target location.",
+      "kind": "ritual"
+    }
+  ],
+  "secondshape": [
+    {
+      "text": "secondshape                    1 # When fully healed, change form to the previous monster type.",
+      "kind": "monster"
+    }
+  ],
+  "seduceaura": [
+    {
+      "text": "seduceaura                     5 # An attacker within 5 spaces of this unit might get seduced ins…",
+      "kind": "monster"
+    }
+  ],
+  "seepast": [
+    {
+      "text": "seepast             # Remote Horizon (can see 1 square past this one when adjacent to it).",
+      "kind": "terrain"
+    }
+  ],
+  "selectclass": [
+    {
+      "text": "selectclass  1 # Baron",
+      "kind": "recruitment"
+    },
+    {
+      "text": "selectclass 29 # Raksharaja",
+      "kind": "recruitment"
+    },
+    {
+      "text": "selectclass  -1 # -1 is not a real class. This is a fake command and I put it here only as an ind…",
+      "kind": "recruitment"
+    }
+  ],
+  "selectritual": [
+    {
+      "text": "selectritual \"Start Crusade\"",
+      "kind": "ritual"
+    },
+    {
+      "text": "selectritual \"Break the Sixth Seal\"",
+      "kind": "ritual"
+    },
+    {
+      "text": "selectritual \"Summon Champion of Air\"",
+      "kind": "ritual"
+    }
+  ],
+  "selectterr": [
+    {
+      "text": "selectterr       35 # ?",
+      "kind": "terrain"
+    },
+    {
+      "text": "selectterr      313 # Cloud Castle",
+      "kind": "terrain"
+    },
+    {
+      "text": "selectterr      202 # Gateway to the Realm of the Dead",
+      "kind": "terrain"
+    }
+  ],
+  "semistupid": [
+    {
+      "text": "semistupid                       # Will move automatically like an independent unit unless it is …",
+      "kind": "monster"
+    }
+  ],
+  "sensedead": [
+    {
+      "text": "sensedead                                    1 # Can sense the number of corpses of all types in …",
+      "kind": "item"
+    },
+    {
+      "text": "sensedead                      1 # Can sense the number of corpses of all types in current square.",
+      "kind": "monster"
+    }
+  ],
+  "setclassname": [
+    {
+      "text": "setclassname \"Baron\"",
+      "kind": "class"
+    },
+    {
+      "text": "setclassname \"Raksharaja\"",
+      "kind": "class"
+    },
+    {
+      "text": "setclassname \"Monkey Maharaja\"",
+      "kind": "class"
+    }
+  ],
+  "setmaincom": [
+    {
+      "text": "setmaincom             \"Baron\"",
+      "kind": "class"
+    },
+    {
+      "text": "setmaincom             \"Goblin King\"",
+      "kind": "class"
+    },
+    {
+      "text": "setmaincom             \"Red Kobold Shaman\"",
+      "kind": "class"
+    }
+  ],
+  "setplane": [
+    {
+      "text": "setplane               5 # Randomloc etc. will use this plane: Hades.",
+      "kind": "ritual"
+    },
+    {
+      "text": "setplane               4 # Randomloc etc. will use this plane: Inferno.",
+      "kind": "ritual"
+    },
+    {
+      "text": "setplane               8 # Randomloc etc. will use this plane: Elemental Planes.",
+      "kind": "ritual"
+    }
+  ],
+  "setplayer": [
+    {
+      "text": "setplayer             26 # Summonings will be owned by this player: Horrors.",
+      "kind": "ritual"
+    }
+  ],
+  "settlement": [
+    {
+      "text": "settlement          # Defines the terrain as a human settlement.",
+      "kind": "terrain"
+    }
+  ],
+  "setvar": [
+    {
+      "text": "setvar               -70 # Set the generic modding variable to this value: -70",
+      "kind": "ritual"
+    }
+  ],
+  "shield": [
+    {
+      "text": "shield                           # Reduces damage from most weapons by 0-1; 0-2 against ranged we…",
+      "kind": "monster"
+    }
+  ],
+  "shieldneg": [
+    {
+      "text": "shieldneg              # Ignores shields.",
+      "kind": "weapon"
+    }
+  ],
+  "shipmove": [
+    {
+      "text": "shipmove                         # Monster is a ship. Movement will cost 1 AP for everyone in the…",
+      "kind": "monster"
+    }
+  ],
+  "shockaura": [
+    {
+      "text": "shockaura                                    3 # Shock Shield (3): Any enemy attacking this unit …",
+      "kind": "item"
+    },
+    {
+      "text": "shockaura                      5 # Shock Shield (5): Any enemy attacking this unit in melee will …",
+      "kind": "monster"
+    },
+    {
+      "text": "shockaura                      3 # Shock Shield (3): Any enemy attacking this unit in melee will …",
+      "kind": "monster"
+    }
+  ],
+  "shockres": [
+    {
+      "text": "shockres                     100 # Shock immunity.",
+      "kind": "monster"
+    },
+    {
+      "text": "shockres                      50 # 50 Shock Resistance.",
+      "kind": "monster"
+    },
+    {
+      "text": "shockres                                   100 # +100 Shock Resistance.",
+      "kind": "item"
+    }
+  ],
+  "shrinkhp": [
+    {
+      "text": "shrinkhp                       8 # When HP <= 8, change form to the next monster type.",
+      "kind": "monster"
+    },
+    {
+      "text": "shrinkhp                      40 # When HP <= 40, change form to the next monster type.",
+      "kind": "monster"
+    },
+    {
+      "text": "shrinkhp                     100 # When HP <= 100, change form to the next monster type.",
+      "kind": "monster"
+    }
+  ],
+  "siegeable": [
+    {
+      "text": "siegeable           # Siege weapons can be used in battles fought in this terrain square.",
+      "kind": "terrain"
+    }
+  ],
+  "siegeweapon": [
+    {
+      "text": "siegeweapon               12 237 # Boulder: d12 Blunt damage.",
+      "kind": "monster"
+    },
+    {
+      "text": "siegeweapon               40  98 # Drop Boulder: d40 Blunt damage.",
+      "kind": "monster"
+    },
+    {
+      "text": "siegeweapon               25 544 # Giant Earth Branded Arrow: d25 Pierce damage.",
+      "kind": "monster"
+    }
+  ],
+  "simulacrum": [
+    {
+      "text": "simulacrum               # Creates a simulacrum.",
+      "kind": "ritual"
+    }
+  ],
+  "size1x1": [
+    {
+      "text": "size1x1                          # Only takes up a single square on the battlefield (overrides sp…",
+      "kind": "monster"
+    }
+  ],
+  "size2x2": [
+    {
+      "text": "size2x2                          # Takes up 2x2 squares on the battlefield (overrides sprite size).",
+      "kind": "monster"
+    }
+  ],
+  "slashres": [
+    {
+      "text": "slashres                         # Slash resistance (half damage).",
+      "kind": "monster"
+    },
+    {
+      "text": "slashres                                       # Slash resistance (half damage).",
+      "kind": "item"
+    }
+  ],
+  "slavehunt": [
+    {
+      "text": "slavehunt                      5 # Can hunt for slaves at settlements. Costs 3 AP; gets d5*Slave.",
+      "kind": "monster"
+    },
+    {
+      "text": "slavehunt                      4 # Can hunt for slaves at settlements. Costs 3 AP; gets d4*Slave.",
+      "kind": "monster"
+    }
+  ],
+  "sleepres": [
+    {
+      "text": "sleepres                         # Sleep immunity.",
+      "kind": "monster"
+    },
+    {
+      "text": "sleepres                                       # Sleep immunity.",
+      "kind": "item"
+    }
+  ],
+  "slow": [
+    {
+      "text": "slow                             # The monster only has 2 AP.",
+      "kind": "monster"
+    },
+    {
+      "text": "slow                                           # The monster only has 2 AP.",
+      "kind": "item"
+    }
+  ],
+  "smoke": [
+    {
+      "text": "smoke               # Pixels with a certain pink color (245,0,255) will produce smoke. Pixels wit…",
+      "kind": "terrain"
+    }
+  ],
+  "snow": [
+    {
+      "text": "snow                             # -1 AP to enter snow-covered squares.",
+      "kind": "monster"
+    },
+    {
+      "text": "snow                                           # -1 AP to enter snow-covered squares.",
+      "kind": "item"
+    }
+  ],
+  "snowok": [
+    {
+      "text": "snowok              # Income in this terrain is not affected by snow.",
+      "kind": "terrain"
+    }
+  ],
+  "snowstealth": [
+    {
+      "text": "snowstealth                                    # When in snow, can only be seen by units with Acu…",
+      "kind": "item"
+    },
+    {
+      "text": "snowstealth                      # When in snow, can only be seen by units with Acute Senses or S…",
+      "kind": "monster"
+    }
+  ],
+  "soft": [
+    {
+      "text": "soft                   # Armor is doubled vs this weapon.",
+      "kind": "weapon"
+    }
+  ],
+  "sound": [
+    {
+      "text": "sound               92 #",
+      "kind": "weapon"
+    },
+    {
+      "text": "sound               84 # hit_impact.sw",
+      "kind": "weapon"
+    },
+    {
+      "text": "sound               31 # magic.smp (Magic Enchantment)",
+      "kind": "weapon"
+    }
+  ],
+  "soundfx": [
+    {
+      "text": "soundfx               97 # Sound effect when the ritual is cast: (Sleep).",
+      "kind": "ritual"
+    },
+    {
+      "text": "soundfx               53 # Sound effect when the ritual is cast: muller.smp.",
+      "kind": "ritual"
+    },
+    {
+      "text": "soundfx               57 # Sound effect when the ritual is cast: orchhit.smp (Summoning).",
+      "kind": "ritual"
+    }
+  ],
+  "south2": [
+    {
+      "text": "south2                           # Likes the south (if an independent or stupid commander, will n…",
+      "kind": "monster"
+    }
+  ],
+  "spawnmon": [
+    {
+      "text": "spawnmon                      20 # 20% chance per month to spawn the monster type defined 11 befo…",
+      "kind": "monster"
+    },
+    {
+      "text": "spawnmon                     200 # Each month, spawns 2 of the monster type defined 2 after this …",
+      "kind": "monster"
+    },
+    {
+      "text": "spawnmon                     100 # Each month, spawns 1 of the monster type defined 1 after this …",
+      "kind": "monster"
+    }
+  ],
+  "spawnmonaway": [
+    {
+      "text": "spawnmonaway                  40 # When not located on home plane, has a 40% chance per month to …",
+      "kind": "monster"
+    },
+    {
+      "text": "spawnmonaway                  50 # When not located on home plane, has a 50% chance per month to …",
+      "kind": "monster"
+    },
+    {
+      "text": "spawnmonaway                 100 # When not located on home plane, has a 100% chance per month to…",
+      "kind": "monster"
+    }
+  ],
+  "spawnoffs": [
+    {
+      "text": "spawnoffs                    -11 # Specifies the offset to the monster type to spawn with the abo…",
+      "kind": "monster"
+    },
+    {
+      "text": "spawnoffs                      3 # Specifies the offset to the monster type to spawn with the abo…",
+      "kind": "monster"
+    },
+    {
+      "text": "spawnoffs                      2 # Specifies the offset to the monster type to spawn with the abo…",
+      "kind": "monster"
+    }
+  ],
+  "specpow": [
+    {
+      "text": "specpow                1 # Somehow determines the monsters to be summoned, without using addstrin…",
+      "kind": "ritual"
+    },
+    {
+      "text": "specpow                2 # Somehow determines the monsters to be summoned, without using addstrin…",
+      "kind": "ritual"
+    }
+  ],
+  "spellrange": [
+    {
+      "text": "spellrange                                   1 # +1 range for all combat spells.",
+      "kind": "item"
+    },
+    {
+      "text": "spellrange                                   2 # +2 range for all combat spells.",
+      "kind": "item"
+    }
+  ],
+  "spellweapon": [
+    {
+      "text": "spellweapon               58   1 # Sky at level 1.",
+      "kind": "monster"
+    },
+    {
+      "text": "spellweapon               37   2 # Black Magic at level 2.",
+      "kind": "monster"
+    },
+    {
+      "text": "spellweapon               68   3 # Maya Manipulation at level 3.",
+      "kind": "monster"
+    }
+  ],
+  "spellweapon50": [
+    {
+      "text": "spellweapon50             54   2 # Forest Magic at level 2.",
+      "kind": "monster"
+    }
+  ],
+  "spellweapon50s": [
+    {
+      "text": "spellweapon50s             9   2 # Dark Magic at level 2.",
+      "kind": "monster"
+    },
+    {
+      "text": "spellweapon50s            43   3 # Illusionism at level 3.",
+      "kind": "monster"
+    }
+  ],
+  "spellweaponbonus": [
+    {
+      "text": "spellweaponbonus          58   3 # Sky at level 3.",
+      "kind": "monster"
+    },
+    {
+      "text": "spellweaponbonus          56   3 # Gold Arcana at level 3.",
+      "kind": "monster"
+    },
+    {
+      "text": "spellweaponbonus          68   3 # Maya Manipulation at level 3.",
+      "kind": "monster"
+    }
+  ],
+  "spellweaponsingle": [
+    {
+      "text": "spellweaponsingle         21   1 # Serpent Magic at level 1.",
+      "kind": "monster"
+    },
+    {
+      "text": "spellweaponsingle         13   1 # Garnet Sorcery at level 1.",
+      "kind": "monster"
+    }
+  ],
+  "spiritsight": [
+    {
+      "text": "spiritsight                      # Can see units with Stealth, Forest Stealth, or Invisible.",
+      "kind": "monster"
+    },
+    {
+      "text": "spiritsight                                    # Can see units with Stealth, Forest Stealth, or I…",
+      "kind": "item"
+    }
+  ],
+  "spread": [
+    {
+      "text": "spread                         4 # Unit will attempt not to stand too close to other units sharin…",
+      "kind": "monster"
+    },
+    {
+      "text": "spread                         1 # Unit will attempt not to stand too close to other units sharin…",
+      "kind": "monster"
+    }
+  ],
+  "spreadcold": [
+    {
+      "text": "spreadcold          # The terrain square spreads cold around it, turning nearby squares snowy.",
+      "kind": "terrain"
+    }
+  ],
+  "squareench": [
+    {
+      "text": "squareench             3 # Create enchantment on target location.",
+      "kind": "ritual"
+    },
+    {
+      "text": "squareench            17 # Create enchantment on target location.",
+      "kind": "ritual"
+    },
+    {
+      "text": "squareench            30 # Create enchantment on target location.",
+      "kind": "ritual"
+    }
+  ],
+  "start": [
+    {
+      "text": "start                    # Start with this ritual instead of the others.",
+      "kind": "ritual"
+    }
+  ],
+  "startitem": [
+    {
+      "text": "startitem  \"Death\"",
+      "kind": "monster"
+    },
+    {
+      "text": "startitem  \"Hell's Reign\"",
+      "kind": "monster"
+    },
+    {
+      "text": "startitem  \"Scepter of the Goblin King\"",
+      "kind": "monster"
+    }
+  ],
+  "startplane": [
+    {
+      "text": "startplane          2 # Starting citadel will be on this plane: Sky.",
+      "kind": "class"
+    },
+    {
+      "text": "startplane          3 # Starting citadel will be on this plane: Agartha.",
+      "kind": "class"
+    }
+  ],
+  "stationary": [
+    {
+      "text": "stationary                       # Cannot move on world map.",
+      "kind": "monster"
+    }
+  ],
+  "stdtroops": [
+    {
+      "text": "stdtroops           1 # Adds standard troops to recruitment list: spearmen, swordsmen, archers, c…",
+      "kind": "class"
+    }
+  ],
+  "stealth": [
+    {
+      "text": "stealth                          # Can only be seen by units with Acute Senses or Spirit Sight.",
+      "kind": "monster"
+    },
+    {
+      "text": "stealth                                        # Can only be seen by units with Acute Senses or S…",
+      "kind": "item"
+    }
+  ],
+  "stone": [
+    {
+      "text": "stone                  # Doesn't affect stone units.",
+      "kind": "weapon"
+    }
+  ],
+  "stonekill": [
+    {
+      "text": "stonekill              # x2 dmg vs stone beings and stone walls.",
+      "kind": "weapon"
+    }
+  ],
+  "str": [
+    {
+      "text": "str                            6 # Strength.",
+      "kind": "monster"
+    },
+    {
+      "text": "str                            9 # Strength.",
+      "kind": "monster"
+    },
+    {
+      "text": "str                                          4 # +4 Strength.",
+      "kind": "item"
+    }
+  ],
+  "strresist": [
+    {
+      "text": "strresist              # Resisted by rolling 2d4 < Strength.",
+      "kind": "weapon"
+    }
+  ],
+  "stupid": [
+    {
+      "text": "stupid                           # Cannot be controlled by players and will move automatically li…",
+      "kind": "monster"
+    }
+  ],
+  "sum0chance": [
+    {
+      "text": "sum0chance            66 # % chance to summon first string instead of a random string among the o…",
+      "kind": "ritual"
+    },
+    {
+      "text": "sum0chance            75 # % chance to summon first string instead of a random string among the o…",
+      "kind": "ritual"
+    },
+    {
+      "text": "sum0chance             8 # % chance to summon first string instead of a random string among the o…",
+      "kind": "ritual"
+    }
+  ],
+  "sum0snow": [
+    {
+      "text": "sum0snow              50 # % chance to summon first string instead of a random string among the o…",
+      "kind": "ritual"
+    }
+  ],
+  "sum1chance": [
+    {
+      "text": "sum1chance             5 # % chance to summon second string instead of a random string among the …",
+      "kind": "ritual"
+    },
+    {
+      "text": "sum1chance            10 # % chance to summon second string instead of a random string among the …",
+      "kind": "ritual"
+    }
+  ],
+  "sum2chance": [
+    {
+      "text": "sum2chance            10 # % chance to summon third string instead of a random string among the f…",
+      "kind": "ritual"
+    }
+  ],
+  "summoning": [
+    {
+      "text": "summoning                # The ritual will summon the monsters specified in a random string.",
+      "kind": "ritual"
+    }
+  ],
+  "swallowres": [
+    {
+      "text": "swallowres                       # Immune to swallow attacks.",
+      "kind": "monster"
+    }
+  ],
+  "swamp": [
+    {
+      "text": "swamp                            # Swamp Move: only requires 1 AP to move to a swamp square.",
+      "kind": "monster"
+    },
+    {
+      "text": "swamp                                          # Swamp Move: only requires 1 AP to move to a swam…",
+      "kind": "item"
+    }
+  ],
+  "swamp1": [
+    {
+      "text": "swamp1                           # Loves swamps (if an independent or stupid commander, will not …",
+      "kind": "monster"
+    }
+  ],
+  "swamp2": [
+    {
+      "text": "swamp2                           # Likes swamps (if an independent or stupid commander, will not …",
+      "kind": "monster"
+    }
+  ],
+  "sweep": [
+    {
+      "text": "sweep                  # Can continue to kill multiple targets.",
+      "kind": "weapon"
+    }
+  ],
+  "tangleres": [
+    {
+      "text": "tangleres                      1 # Immunity to tangle vines.",
+      "kind": "monster"
+    },
+    {
+      "text": "tangleres                                    1 # Immunity to tangle vines.",
+      "kind": "item"
+    }
+  ],
+  "targterr": [
+    {
+      "text": "targterr               # Can target terrain objects.",
+      "kind": "weapon"
+    }
+  ],
+  "teleport": [
+    {
+      "text": "teleport                         # Moves like a flyer on the world map; teleports to a random loc…",
+      "kind": "monster"
+    }
+  ],
+  "teleportloc": [
+    {
+      "text": "teleportloc            1 # Teleport caster alone to target location.",
+      "kind": "ritual"
+    },
+    {
+      "text": "teleportloc            2 # Teleport caster's entire army to target location.",
+      "kind": "ritual"
+    }
+  ],
+  "tempimmune": [
+    {
+      "text": "tempimmune          # The terrain will not be transformed into a wasteland when it gets too hot.",
+      "kind": "terrain"
+    }
+  ],
+  "temple": [
+    {
+      "text": "temple              # The terrain counts as a temple.  Also guarantees a minimum Relic income of …",
+      "kind": "terrain"
+    }
+  ],
+  "temple2": [
+    {
+      "text": "temple2                          # Likes temples (if an independent or stupid commander, will not…",
+      "kind": "monster"
+    }
+  ],
+  "templebonusdescr": [
+    {
+      "text": "templebonusdescr       \"\"",
+      "kind": "class"
+    },
+    {
+      "text": "templebonusdescr       \"apprentices\"",
+      "kind": "class"
+    },
+    {
+      "text": "templebonusdescr       \"temple attendants, priests and nahuallis\"",
+      "kind": "class"
+    }
+  ],
+  "templerec": [
+    {
+      "text": "templerec                                     # +3% to chance per temple owned, to a max of +15% …",
+      "kind": "recruitment"
+    },
+    {
+      "text": "templerec                                     # +2% to chance per temple owned, to a max of +10% …",
+      "kind": "recruitment"
+    },
+    {
+      "text": "templerec                                     # +4% to chance per temple owned, to a max of +20% …",
+      "kind": "recruitment"
+    }
+  ],
+  "terr": [
+    {
+      "text": "terr                 251 # Required terrain: Sky.",
+      "kind": "ritual"
+    },
+    {
+      "text": "terr                 237 # Required terrain: Grove of Gaia.",
+      "kind": "ritual"
+    },
+    {
+      "text": "terr                 -67 # Required terrain: all ancient forests, and forests which are at least …",
+      "kind": "ritual"
+    }
+  ],
+  "terraformfrom": [
+    {
+      "text": "terraformfrom                 18 # Village: Changes this terrain into the one specified by terraf…",
+      "kind": "monster"
+    },
+    {
+      "text": "terraformfrom                -38 # forest/jungle (not ancient forest): Changes this terrain into …",
+      "kind": "monster"
+    }
+  ],
+  "terraformto": [
+    {
+      "text": "terraformto                  206 # Market Village: Changes the terrain specified in terraformfrom…",
+      "kind": "monster"
+    },
+    {
+      "text": "terraformto                  234 # Giant Ant Hills: Changes the terrain specified in terraformfro…",
+      "kind": "monster"
+    },
+    {
+      "text": "terraformto                  283 # Spider Thicket: Changes the terrain specified in terraformfrom…",
+      "kind": "monster"
+    }
+  ],
+  "terrboost": [
+    {
+      "text": "terrboost            165 # Adds 1 to the number of monsters summoned in this terrain: Pyramids.",
+      "kind": "ritual"
+    },
+    {
+      "text": "terrboost             19 # Adds 1 to the number of monsters summoned in this terrain: Old Battlef…",
+      "kind": "ritual"
+    },
+    {
+      "text": "terrboost              4 # Adds 1 to the number of monsters summoned in this terrain: Ancient For…",
+      "kind": "ritual"
+    }
+  ],
+  "terrscale50": [
+    {
+      "text": "terrscale50           19 # 50% more monsters summoned in this terrain: Old Battlefield.",
+      "kind": "ritual"
+    }
+  ],
+  "tiny": [
+    {
+      "text": "tiny                             # Tiny: 50% chance to be missed by each single-target attack aga…",
+      "kind": "monster"
+    }
+  ],
+  "town1": [
+    {
+      "text": "town1               # One town point for the purpose of mercenary and merchant offers.",
+      "kind": "terrain"
+    }
+  ],
+  "town2": [
+    {
+      "text": "town2               # Two town points for the purpose of mercenary and merchant offers.",
+      "kind": "terrain"
+    }
+  ],
+  "townbonusdescr": [
+    {
+      "text": "townbonusdescr         \"mercenaries and magic items\"",
+      "kind": "class"
+    },
+    {
+      "text": "townbonusdescr         \"human mercenaries and magic items\"",
+      "kind": "class"
+    }
+  ],
+  "trade": [
+    {
+      "text": "trade             1 # Trade:  1",
+      "kind": "terrain"
+    },
+    {
+      "text": "trade             2 # Trade:  2",
+      "kind": "terrain"
+    },
+    {
+      "text": "trade                                        2 # Trade Bonus: +2 Trade per turn.",
+      "kind": "item"
+    }
+  ],
+  "tradebonus": [
+    {
+      "text": "tradebonus                    50 # 50% bonus to all trade income for the player that owns this un…",
+      "kind": "monster"
+    },
+    {
+      "text": "tradebonus                    65 # 65% bonus to all trade income for the player that owns this un…",
+      "kind": "monster"
+    },
+    {
+      "text": "tradebonus                    75 # 75% bonus to all trade income for the player that owns this un…",
+      "kind": "monster"
+    }
+  ],
+  "trample": [
+    {
+      "text": "trample                        4 # Can trample smaller units for this amount of damage.",
+      "kind": "monster"
+    },
+    {
+      "text": "trample                        8 # Can trample smaller units for this amount of damage.",
+      "kind": "monster"
+    },
+    {
+      "text": "trample                        3 # Can trample smaller units for this amount of damage.",
+      "kind": "monster"
+    }
+  ],
+  "tramplexsize": [
+    {
+      "text": "tramplexsize                   1 # Can also trample units the same size as itself.",
+      "kind": "monster"
+    }
+  ],
+  "transformtarg": [
+    {
+      "text": "transformtarg          1 # Target is transformed into the monster specified in a random string.",
+      "kind": "ritual"
+    },
+    {
+      "text": "transformtarg          2 # Target is transformed into the monster specified in a random string. I…",
+      "kind": "ritual"
+    }
+  ],
+  "tree": [
+    {
+      "text": "tree                   # Trees/bushes/fungi are immune to this weapon.",
+      "kind": "weapon"
+    }
+  ],
+  "treelook": [
+    {
+      "text": "treelook                         # Sprite will be rotated and scaled randomly.",
+      "kind": "monster"
+    }
+  ],
+  "trgrank": [
+    {
+      "text": "trgrank              0 # Target: self.",
+      "kind": "weapon"
+    },
+    {
+      "text": "trgrank              6 # Target: any border square, but not behind walls.",
+      "kind": "weapon"
+    },
+    {
+      "text": "trgrank              4 # Target: a square next to a rear enemy (any enemy, preferring rear-most)?.",
+      "kind": "weapon"
+    }
+  ],
+  "trollifyloc": [
+    {
+      "text": "trollifyloc              # Turns a[n] [ancient] forest into a[n] [ancient] troll forest.",
+      "kind": "ritual"
+    }
+  ],
+  "tunnel": [
+    {
+      "text": "tunnel                                         # Can remove walls on world map and dig through ea…",
+      "kind": "item"
+    },
+    {
+      "text": "tunnel                           # Can remove walls on world map and dig through earth to create …",
+      "kind": "monster"
+    }
+  ],
+  "twistfate": [
+    {
+      "text": "twistfate                                    1 # Starts each battle with a Twist Fate effect, whi…",
+      "kind": "item"
+    }
+  ],
+  "type": [
+    {
+      "text": "type                                         6 # Boots.",
+      "kind": "item"
+    },
+    {
+      "text": "type                                         5 # Gloves.",
+      "kind": "item"
+    },
+    {
+      "text": "type                                         4 # Body Armor.",
+      "kind": "item"
+    }
+  ],
+  "ug": [
+    {
+      "text": "ug                  # This is an underground terrain.",
+      "kind": "terrain"
+    }
+  ],
+  "unaging": [
+    {
+      "text": "unaging                          # Immune to aging effects like decay.",
+      "kind": "monster"
+    }
+  ],
+  "undead": [
+    {
+      "text": "undead",
+      "kind": "monster"
+    },
+    {
+      "text": "undead                 # Doesn't affect undead units.",
+      "kind": "weapon"
+    }
+  ],
+  "undkill": [
+    {
+      "text": "undkill                # Double damage against undead.",
+      "kind": "weapon"
+    }
+  ],
+  "unfollowtarg": [
+    {
+      "text": "unfollowtarg             # If the target is a follower in any commander's army, it stops followin…",
+      "kind": "ritual"
+    }
+  ],
+  "unimportant": [
+    {
+      "text": "unimportant                      # Battles can be won without killing this unit.",
+      "kind": "monster"
+    }
+  ],
+  "unique": [
+    {
+      "text": "unique                         1",
+      "kind": "monster"
+    }
+  ],
+  "updatehome": [
+    {
+      "text": "updatehome               # Updates home (immortal resurrection location) for target unit to where…",
+      "kind": "ritual"
+    }
+  ],
+  "updhomeifterr": [
+    {
+      "text": "updhomeifterr        -23 # Updates home (immortal resurrection location) for target unit to where…",
+      "kind": "ritual"
+    }
+  ],
+  "useable": [
+    {
+      "text": "useable             # There is a special power inherent to the terrain that can be activated by c…",
+      "kind": "terrain"
+    }
+  ],
+  "varcost": [
+    {
+      "text": "varcost              100 # Can set Sacrifice Level anywhere from 0 to 200. Multiplies cost and co…",
+      "kind": "ritual"
+    },
+    {
+      "text": "varcost               50 # Can set Sacrifice Level anywhere from 50 to 150. Multiplies cost and c…",
+      "kind": "ritual"
+    }
+  ],
+  "varregen": [
+    {
+      "text": "varregen                                     5 # +5(%) Regeneration.",
+      "kind": "item"
+    },
+    {
+      "text": "varregen                                    10 # +10(%) Regeneration.",
+      "kind": "item"
+    }
+  ],
+  "vassal": [
+    {
+      "text": "vassal                         1 #  Receives 1 Knight, 2 Spearmen, and 2 Archers in yearly conscr…",
+      "kind": "monster"
+    }
+  ],
+  "vengeance": [
+    {
+      "text": "vengeance                                    1 # Blood Vengeance (+0): anyone harming this unit m…",
+      "kind": "item"
+    },
+    {
+      "text": "vengeance                      2 # Blood Vengeance (+1): anyone harming this unit must make a Mag…",
+      "kind": "monster"
+    },
+    {
+      "text": "vengeance                      3 # Blood Vengeance (+2): anyone harming this unit must make a Mag…",
+      "kind": "monster"
+    }
+  ],
+  "void": [
+    {
+      "text": "void                # The terrain is part of the void. It is possible to walk, swim, and sail here.",
+      "kind": "terrain"
+    }
+  ],
+  "void2": [
+    {
+      "text": "void2                            # Likes the void (if an independent or stupid commander, will no…",
+      "kind": "monster"
+    }
+  ],
+  "voidret": [
+    {
+      "text": "voidret             # If placed when the map is generated, this terrain will have a one-way porta…",
+      "kind": "terrain"
+    }
+  ],
+  "voidsanity": [
+    {
+      "text": "voidsanity                     5 # Void Sanity: 5: reduces insanity gains (like armor).",
+      "kind": "monster"
+    },
+    {
+      "text": "voidsanity                    20 # Void Sanity: 20: reduces insanity gains (like armor).",
+      "kind": "monster"
+    },
+    {
+      "text": "voidsanity                    30 # Void Sanity: 30: reduces insanity gains (like armor).",
+      "kind": "monster"
+    }
+  ],
+  "wall": [
+    {
+      "text": "wall                             # Can climb walls.",
+      "kind": "monster"
+    }
+  ],
+  "wallkill": [
+    {
+      "text": "wallkill               # x5 dmg vs walls and boats.",
+      "kind": "weapon"
+    }
+  ],
+  "wander": [
+    {
+      "text": "wander                        10 # Will try to fulfill this objective if it is a commander: Merch…",
+      "kind": "monster"
+    },
+    {
+      "text": "wander                        13 # Will try to fulfill this objective if it is a commander: Wild …",
+      "kind": "monster"
+    },
+    {
+      "text": "wander                         2 # Will try to fulfill this objective if it is a commander: Crusade.",
+      "kind": "monster"
+    }
+  ],
+  "wanderattack": [
+    {
+      "text": "wanderattack                  -2 # Pause wander to attack this player if adjacent: any player, no…",
+      "kind": "monster"
+    }
+  ],
+  "wandermaxdist": [
+    {
+      "text": "wandermaxdist                  3 # Maximum distance for raid missions for wanderers.",
+      "kind": "monster"
+    },
+    {
+      "text": "wandermaxdist                  7 # Maximum distance for raid missions for wanderers.",
+      "kind": "monster"
+    },
+    {
+      "text": "wandermaxdist                  5 # Maximum distance for raid missions for wanderers.",
+      "kind": "monster"
+    }
+  ],
+  "wanderrest": [
+    {
+      "text": "wanderrest                    80 # 80% chance for wandering monster to rest a turn instead of goi…",
+      "kind": "monster"
+    },
+    {
+      "text": "wanderrest                    90 # 90% chance for wandering monster to rest a turn instead of goi…",
+      "kind": "monster"
+    },
+    {
+      "text": "wanderrest                    85 # 85% chance for wandering monster to rest a turn instead of goi…",
+      "kind": "monster"
+    }
+  ],
+  "water": [
+    {
+      "text": "water                                          # Amphibian: The monster can enter water squares a…",
+      "kind": "item"
+    },
+    {
+      "text": "water                            # Amphibian: The monster can enter water squares and is immune t…",
+      "kind": "monster"
+    },
+    {
+      "text": "water               # The terrain is water and cannot be passed, unless it is frozen or the monst…",
+      "kind": "terrain"
+    }
+  ],
+  "weaponslots": [
+    {
+      "text": "weaponslots                      # Only has 1 weapon and 2 misc slots.",
+      "kind": "monster"
+    }
+  ],
+  "weed": [
+    {
+      "text": "weed              1 # Weed:  1",
+      "kind": "terrain"
+    },
+    {
+      "text": "weed              2 # Weed:  2",
+      "kind": "terrain"
+    },
+    {
+      "text": "weed              5 # Weed:  5",
+      "kind": "terrain"
+    }
+  ],
+  "winteridle": [
+    {
+      "text": "winteridle                       # Will not move in the winter if in a cold part of the map.",
+      "kind": "monster"
+    }
+  ],
+  "woodencitadel": [
+    {
+      "text": "woodencitadel       # Can be used as a citadel by the Senator.",
+      "kind": "terrain"
+    }
+  ],
+  "woodengate": [
+    {
+      "text": "woodengate          # The gate of the fort is wood.",
+      "kind": "terrain"
+    }
+  ],
+  "yellow": [
+    {
+      "text": "yellow                 # Set color of damage numbers.",
+      "kind": "weapon"
+    }
+  ]
+}

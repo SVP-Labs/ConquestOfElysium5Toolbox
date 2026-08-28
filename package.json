@@ -1,0 +1,15 @@
+{
+  "name": "coe5-toolbox",
+  "private": true,
+  "type": "module",
+  "description": "Conquest of Elysium 5 Toolbox — browser tools for CoE5 modders",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "extract:examples": "node tools/extract-examples.mjs"
+  },
+  "devDependencies": {
+    "astro": "^5.18.2"
+  }
+}
