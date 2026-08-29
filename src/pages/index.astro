@@ -1,5 +1,11 @@
 ---
 import Base from "../layouts/Base.astro";
+import table from "../../modcheck/data/commands.json";
+
+const commands = Object.values(table.commands);
+const total = commands.length;
+const neverUsed = commands.filter((c) => c.attested === 0).length;
+const undocumented = commands.filter((c) => !c.documented).length;
 ---
 
 <Base>
@@ -25,28 +31,35 @@ import Base from "../layouts/Base.astro";
     <a class="card" href="/commands">
       <h2>Command reference</h2>
       <p>
-        All 853 mod commands, searchable and filterable — including the 314
-        commands the base game never uses and the 3 the manual doesn't
-        document.
+        All {total} mod commands, searchable and filterable — including the
+        {neverUsed} commands the base game never uses and the {undocumented}
+        the manual doesn't document.
+      </p>
+    </a>
+    <a class="card" href="/data">
+      <h2>ID tables</h2>
+      <p>
+        Every numeric ID in the mod format — terrains, classes, resources and
+        more — with the name each number means.
       </p>
     </a>
   </div>
 
   <p class="dim more-coming">
-    More coming: a playground, an ID browser, and sprite, package and format
-    tools are planned.
+    More coming: a playground and sprite, package and format tools are
+    planned.
   </p>
 </Base>
 
 <style>
   .cards {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     margin-top: 1.5rem;
   }
 
-  @media (max-width: 40rem) {
+  @media (max-width: 48rem) {
     .cards { grid-template-columns: 1fr; }
   }
 

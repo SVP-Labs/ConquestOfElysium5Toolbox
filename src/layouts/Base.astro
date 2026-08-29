@@ -33,6 +33,7 @@ const current = (prefix) =>
         <nav class="site-nav">
           <a href="/check" aria-current={current("/check")}>Check a mod</a>
           <a href="/commands" aria-current={current("/commands")}>Commands</a>
+          <a href="/data" aria-current={current("/data")}>Data</a>
           <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch to light theme">
             <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
               <circle cx="12" cy="12" r="4.5" />
@@ -52,7 +53,6 @@ const current = (prefix) =>
       <div class="inner">
         <span>Every check runs in your browser — nothing is ever uploaded.</span>
         <a href="https://github.com/SvenPGH/ConquestOfElysium5ModValidator">Validator (CLI)</a>
-        <a href="https://github.com/SvenPGH/ConquestOfElysium5Toolbox">Site source</a>
         <a href="/impressum">Impressum</a>
         <a href="/privacy">Privacy</a>
         <span>Unaffiliated with Illwinter Game Design.</span>

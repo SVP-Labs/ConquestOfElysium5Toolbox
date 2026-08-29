@@ -74,29 +74,36 @@ public. **The Phase 1 build waits for this upload.**
 
 ## Licensing position
 
-- Names and index numbers are treated as facts (and already ship publicly in
-  the validator's MIT-licensed `vanilla.json`): low risk, no permission gate.
-- Full stat blocks (`/source`) are Illwinter's content; a publicly
-  downloadable extraction is not a license to republish. `/source` stays
-  unbuilt until Illwinter (and Colonel Dracula, for the extraction) say yes.
-- Short per-command example excerpts are a smaller-scale version of the same
-  question; the owner accepts shipping them in Phase 1 while the permission
-  ask is made in parallel.
+**PERMISSION GRANTED (2026-08-29).** Johan (Illwinter) replied to the owner's
+permission mail: "I don't mind any of those things" — covering (1) the
+per-command example lines and name/index tables already shown, (2) a future
+`/source` view reproducing full record definitions from the game data, and
+(3) showing unit sprites as thumbnails. The email is archived by the owner
+and serves as the license record. Colonel Dracula's answer (for the
+extraction itself) is still outstanding.
+
+Bonus from the same reply: of the 3 undocumented commands the site surfaced,
+`siegeable` is NOT a real CoE5 command (a mixup in the extraction — the real
+command for that effect is `walls`); the other two are correct and Johan is
+adding them to the manual. The `siegeable` fix belongs in the validator
+repo's data (`commands.json` is generated), not in this repo.
 
 ## Later phases (agreed dispositions, not scoped)
 
 - **Phase 2:** `/play` (context-pane playground over `lintSource`, live
   validation, autocomplete on command and entity names, signature strip,
   explain panel) and `/data` (ID browser over `vanilla.json`). Try-it buttons
-  appear on command pages when `/play` ships.
+  appear on command pages when `/play` ships. `/data` shipped once Illwinter's
+  permission arrived (built in `a16811c`, briefly held, restored in the
+  reapply commit).
 - **Phase 3:** `/tools/sprite`, `/tools/package`, `/tools/format`,
   `/tools/scaffold`. Folder-drop on `/check` (needs the `lintMod` browser
   core) fits here.
 - **Phase 4:** `/known` (markdown-in-repo verified-mechanics registry, seeded
   from the 314 never-used commands) and `/tools/collisions`. Ask the Steam
   modding community whether `/known` is wanted before building it.
-- **`/source`:** blocked on permission and on the rips; if permission is
-  denied, fallback is local-only rendering of the user's own extraction.
+- **`/source`:** permission granted (see Licensing position); no longer
+  blocked. Needs the rips as a build input when it gets scoped and built.
 - **VS Code extension:** separate future project wrapping the same validator;
   the site links to it and its hover cards link back to `/commands/:name`.
   Not part of any site phase.
