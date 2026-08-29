@@ -1,5 +1,11 @@
 ---
 import Base from "../layouts/Base.astro";
+import table from "../../modcheck/data/commands.json";
+
+const commands = Object.values(table.commands);
+const total = commands.length;
+const neverUsed = commands.filter((c) => c.attested === 0).length;
+const undocumented = commands.filter((c) => !c.documented).length;
 ---
 
 <Base>
@@ -25,9 +31,9 @@ import Base from "../layouts/Base.astro";
     <a class="card" href="/commands">
       <h2>Command reference</h2>
       <p>
-        All 853 mod commands, searchable and filterable — including the 314
-        commands the base game never uses and the 3 the manual doesn't
-        document.
+        All {total} mod commands, searchable and filterable — including the
+        {neverUsed} commands the base game never uses and the {undocumented}
+        the manual doesn't document.
       </p>
     </a>
     <a class="card" href="/data">

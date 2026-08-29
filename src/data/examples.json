@@ -1145,7 +1145,7 @@
   ],
   "eastcoast": [
     {
-      "text": "eastcoast           # The terrain can only be located on a coast. Despite the name of the command…",
+      "text": "eastcoast  # terrain can only be located on a coast — any coast, despite the name",
       "kind": "terrain"
     }
   ],
@@ -4037,12 +4037,6 @@
     {
       "text": "shrinkhp                     100 # When HP <= 100, change form to the next monster type.",
       "kind": "monster"
-    }
-  ],
-  "siegeable": [
-    {
-      "text": "siegeable           # Siege weapons can be used in battles fought in this terrain square.",
-      "kind": "terrain"
     }
   ],
   "siegeweapon": [
