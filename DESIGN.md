@@ -127,3 +127,23 @@ repo's data (`commands.json` is generated), not in this repo.
 
 The Phase 1 build happens **after the owner reviews this brief** and provides
 the rips. Development on branch `claude/coe5-tools-static-site-or6dfo`.
+
+## Verified engine rules (pending /known)
+
+Collected evidence for unit-card derivations; each rule ships only with its
+source attached (see the rules table in play.astro).
+
+- **mor 99 = Mindless** — modding manual, `mor` entry. Implemented.
+- **Displayed weapon damage = 1d(monster weapon-line dmg + weapon record
+  dmg)** — extraction annotations ("Base damage (added to dmg value where
+  this weapon is used)"; per-line comments like "Gore: d7 Slash damage"),
+  confirmed against the in-game unit tab (Bow 0+3 → "1–3", Gore 7+0 →
+  "1–7"), corroborated by the gameplay.tips CoE5 guide ("displayed as
+  1dX(+Y), in actual fact 1d(X+Y)"). Rolls are open-ended: a max result
+  adds another die at −1 (same guide). Needs stats.json to implement.
+- **Init and Range come from the weapon record** (Bow init 2 / range 5
+  match the in-game tab). Needs stats.json.
+- **Unverified:** the `*(+1)` suffix on displayed range (lob/elevation?),
+  strength's role in combat resolution.
+- **Sprite mapping is free:** the monster rip carries `# sprite number NNNN`
+  per monster — the extraction only needs images named by those numbers.
