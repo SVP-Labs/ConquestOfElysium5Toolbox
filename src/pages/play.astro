@@ -326,6 +326,12 @@ const starter = [
   :global(.stat-grid .stat-label) { color: #e6e2d4; }
   :global(.stat-grid .stat-value) { color: #e6e2d4; text-align: left; }
 
+  :global(.stat-grid .stat-value.derived) {
+    text-decoration: underline dotted #9a9d87;
+    text-underline-offset: 0.2em;
+    cursor: help;
+  }
+
   /* Parchment weapons band, full bleed across the panel. */
   :global(.ucard table) {
     font-size: 0.92rem;
@@ -867,6 +873,22 @@ const starter = [
     head.appendChild(slot);
     card.appendChild(head);
 
+    // ---- Engine rules with provenance -------------------------------------
+    // The card never guesses engine behaviour. A derivation is applied only
+    // when its source is the manual or a verified /known-style claim, and the
+    // rendered value carries that source as a tooltip. Add rules here as they
+    // are documented or verified — never speculatively.
+
+    function deriveStat(label, raw) {
+      // Manual, `mor` entry: "Setting the morale to 99 makes the monster
+      // Mindless and it will be completely unaffected by fear or any other
+      // effects that influence morale."
+      if (label === "Morale" && raw === "99") {
+        return { text: "Mindless", source: "mor 99 — the modding manual: makes the monster Mindless, unaffected by fear or morale effects" };
+      }
+      return null;
+    }
+
     // Stat grid — two visual columns; row order interleaves them.
     const stats = [
       ["Hit Points", first("hp")],
@@ -880,7 +902,14 @@ const starter = [
     for (const [label, statement] of stats) {
       const stat = div("stat");
       stat.appendChild(span(label, "stat-label"));
-      stat.appendChild(span(statValue(statement), "stat-value"));
+      const derived = statement && deriveStat(label, statValue(statement));
+      if (derived) {
+        const value = span(derived.text, "stat-value derived");
+        value.title = derived.source;
+        stat.appendChild(value);
+      } else {
+        stat.appendChild(span(statValue(statement), "stat-value"));
+      }
       grid.appendChild(stat);
     }
     card.appendChild(grid);
