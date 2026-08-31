@@ -1,17 +1,20 @@
 ---
 import Base from "../layouts/Base.astro";
+
+// Section icon — matches the Validator nav link in Base.astro.
+const validatorIcon =
+  '<svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="m8.5 12.3 2.4 2.4 4.6-5.2" /></svg>';
 ---
 
 <Base
-  title="Check a mod"
+  title="Validator"
   description="Single-file .c5m validator running entirely in the browser."
 >
-  <h1>Check a mod</h1>
+  <h1><Fragment set:html={validatorIcon} /> Validator</h1>
 
   <p>
     Validate a single <code>.c5m</code> mod file as you type — the same
-    diagnostics as the coe5-modcheck CLI.&#32;
-    <span class="privacy-note">Every check runs in your browser tab. Nothing is ever uploaded.</span>
+    diagnostics as the coe5-modcheck CLI.
   </p>
 
   <label class="dropzone" id="dropzone">
