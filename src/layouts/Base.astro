@@ -1,7 +1,7 @@
 ---
 import "../styles/global.css";
 
-const { title, description = "Browser tools for Conquest of Elysium 5 modders: validate mod files and browse the full command reference." } = Astro.props;
+const { title, description = "Browser tools for Conquest of Elysium 5 modders: validate mod files and browse the full command reference.", noindex = false } = Astro.props;
 
 const SITE_NAME = "Conquest of Elysium 5 Toolbox";
 const path = Astro.url.pathname;
@@ -13,6 +13,7 @@ const iconAttrs =
   'class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"';
 const icons = {
   validator: `<svg ${iconAttrs}><circle cx="12" cy="12" r="9" /><path d="m8.5 12.3 2.4 2.4 4.6-5.2" /></svg>`,
+  play: `<svg ${iconAttrs}><circle cx="12" cy="12" r="9" /><path d="m10 8.5 6 3.5-6 3.5z" /></svg>`,
   commands: `<svg ${iconAttrs}><path d="M2 4h6a4 4 0 0 1 4 4v13a3 3 0 0 0-3-3H2z" /><path d="M22 4h-6a4 4 0 0 0-4 4v13a3 3 0 0 1 3-3h7z" /></svg>`,
   data: `<svg ${iconAttrs}><rect x="3" y="4" width="18" height="16" rx="2" /><path d="M3 10h18M9 10v10M15 10v10" /></svg>`,
 };
@@ -34,6 +35,7 @@ const icons = {
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title ? `${title} — ${SITE_NAME}` : SITE_NAME}</title>
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex" />}
   </head>
   <body>
     <header class="site-header">

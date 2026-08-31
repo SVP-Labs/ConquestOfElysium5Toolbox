@@ -1,0 +1,1018 @@
+---
+import Base from "../layouts/Base.astro";
+
+// Section icon — matches the Play nav link in Base.astro.
+const playIcon =
+  '<svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="m10 8.5 6 3.5-6 3.5z" /></svg>';
+
+const starter = [
+  'newmonster "War Elephant"',
+  "hp 58",
+  "str 8",
+  "mr 2",
+  "armor 2",
+  "mor 4",
+  'meleeweapon 8 "Gore"',
+  'descr "Being wiser than any other animal the Elephant will not go to war unless provoked into a rage."',
+].join("\n");
+---
+
+<Base
+  title="Play"
+  description="Write a monster block and watch it come to life — live validation, autocomplete, and a game-style unit preview."
+  noindex
+>
+  <h1><Fragment set:html={playIcon} /> Play</h1>
+
+  <p>
+    Write a block of mod commands and see it validated and previewed live —
+    everything runs in the browser.
+  </p>
+
+  <div class="playground">
+    <div class="pg-left">
+      <div class="sigstrip" id="sigstrip" aria-live="polite"></div>
+
+      <div class="editor-wrap" id="editor-wrap">
+        <textarea
+          class="source"
+          id="source"
+          spellcheck="false"
+          autocapitalize="off"
+          autocorrect="off"
+          aria-label="Mod source">{starter}</textarea>
+      </div>
+
+      <div class="filter-row">
+        <label><input type="checkbox" id="play-show-error" checked /> <span class="severity-error">error</span></label>
+        <label><input type="checkbox" id="play-show-warning" checked /> <span class="severity-warning">warning</span></label>
+        <label><input type="checkbox" id="play-show-info" checked /> <span class="severity-info">info</span></label>
+        <span id="play-summary" aria-live="polite"></span>
+      </div>
+
+      <div id="results" aria-live="polite"></div>
+
+      <div id="explain" class="explain" hidden></div>
+    </div>
+
+    <div class="pg-right">
+      <div id="unit-card" aria-live="polite"></div>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .playground {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    align-items: start;
+  }
+
+  /* Editor above, unit card below — the card replicates the in-game panel. */
+  .pg-right {
+    max-width: 46rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  @font-face {
+    font-family: "MedievalSharp";
+    src: url("/fonts/medievalsharp.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  .sigstrip {
+    font-family: var(--mono);
+    font-size: 0.85rem;
+    min-height: 1.5rem;
+    line-height: 1.5rem;
+    margin-bottom: 0.4rem;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  /* Children of the strip, dropdown, explain panel and unit card are created
+     by the client script, so Astro's style scoping never sees them — these
+     rules must be global. */
+  :global(.sigstrip .sig-dim) { color: var(--text-dim); }
+  :global(.sigstrip .sig-name) { font-weight: 600; }
+  :global(.sigstrip .sig-arg) { color: var(--text-dim); }
+  :global(.sigstrip .sig-arg.active) {
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+  }
+
+  .editor-wrap { position: relative; }
+
+  textarea.source {
+    width: 100%;
+    min-height: 20rem;
+    resize: vertical;
+    background: var(--bg-inset);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 0.75rem 1rem;
+    transition: border-color 150ms ease;
+  }
+
+  /* Hidden replica of the textarea used to measure the caret position. */
+  :global(.play-mirror) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: hidden;
+    pointer-events: none;
+  }
+
+  :global(.play-ac) {
+    position: absolute;
+    z-index: 20;
+    min-width: 12rem;
+    max-width: 26rem;
+    max-height: 15rem;
+    overflow-y: auto;
+    background: var(--bg-raised);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-lift);
+    font-family: var(--mono);
+    font-size: 0.85rem;
+  }
+
+  :global(.play-ac .ac-row) {
+    padding: 0.3rem 0.65rem;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  :global(.play-ac .ac-row.selected) {
+    background: var(--bg-inset);
+    color: var(--accent);
+  }
+
+  :global(.play-ac .ac-detail) { color: var(--text-dim); }
+
+  .filter-row {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    margin: 0.75rem 0 1rem;
+  }
+
+  .filter-row label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    cursor: pointer;
+  }
+
+  #play-summary { color: var(--text-dim); }
+  #play-summary.ok { color: var(--ok); }
+
+  /* Same diagnostic blocks as /check — created by the client script. */
+  :global(.diag) {
+    background: var(--bg-inset);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 0.6rem 0.9rem;
+    margin-bottom: 0.6rem;
+    font-family: var(--mono);
+    font-size: 0.85rem;
+    line-height: 1.5;
+    overflow-x: auto;
+    white-space: pre;
+  }
+
+  :global(.diag .dim-part) { color: var(--text-dim); }
+
+  .explain {
+    background: var(--bg-raised);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 0.6rem 0.9rem;
+    font-size: 0.88rem;
+    margin-top: 0.25rem;
+  }
+
+  :global(.explain .explain-head) {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.25rem;
+  }
+
+  :global(.explain .explain-ref) { margin-left: auto; white-space: nowrap; }
+  :global(.explain .explain-meta) { color: var(--text-dim); }
+  :global(.explain .explain-note) {
+    color: var(--text-dim);
+    font-size: 0.82rem;
+    margin-top: 0.25rem;
+  }
+
+  /* ---- Unit card ------------------------------------------------------- */
+
+  /* The card replicates the in-game unit panel, so it keeps its own fixed
+     materials in both site themes: dark olive panel, beveled frame, parchment
+     title tab and weapons band. */
+  :global(.ucard) {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#3b403a, #2c312c);
+    border: 1px solid #060704;
+    border-radius: 12px;
+    box-shadow:
+      inset 0 0 0 3px #857a5c,
+      inset 0 0 0 5px #20241d,
+      inset 0 0 60px rgba(0, 0, 0, 0.45),
+      0 10px 30px rgba(0, 0, 0, 0.55);
+    padding: 2.1rem 1.75rem 1.4rem;
+    margin-top: 1.6rem;
+    color: #e6e2d4;
+  }
+
+  :global(.ucard-head) { display: block; order: 0; }
+  :global(.ucard .stat-grid) { order: 1; }
+  :global(.ucard-abilities) { order: 2; }
+  :global(.ucard table) { order: 3; }
+  :global(.ucard .wfootnote) { order: 4; }
+  :global(.ucard .flavor) { order: 5; }
+
+  :global(.ucard-name) {
+    position: absolute;
+    top: -1.05rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "MedievalSharp", Georgia, serif;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.02em;
+    color: #241c0e;
+    background: linear-gradient(#cdb98d, #b19c72);
+    border: 1px solid #4d4028;
+    clip-path: polygon(11% 0, 89% 0, 100% 100%, 0 100%);
+    padding: 0.28rem 2.4rem 0.32rem;
+    margin: 0;
+    white-space: nowrap;
+    max-width: 85%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  :global(.sprite-slot) {
+    position: absolute;
+    top: -1.1rem;
+    right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  :global(.sprite-box) {
+    width: 84px;
+    height: 84px;
+    border: 2px dashed #6a6d54;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.15rem;
+    color: #a9ac93;
+    font-size: 0.72rem;
+  }
+
+  :global(.sprite-box svg) { width: 1.4em; height: 1.4em; }
+
+  :global(.sprite-file) {
+    color: #a9ac93;
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    max-width: 9rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  :global(.stat-grid) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.45rem 2rem;
+    margin: 0 120px 1rem 0.25rem;
+    max-width: 34rem;
+  }
+
+  :global(.stat-grid .stat) {
+    display: grid;
+    grid-template-columns: 10.5rem 1fr;
+    gap: 0.5rem;
+    font-size: 1rem;
+    white-space: nowrap;
+  }
+
+  :global(.stat-grid .stat-label) { color: #e6e2d4; }
+  :global(.stat-grid .stat-value) { color: #e6e2d4; text-align: left; }
+
+  /* Parchment weapons band, full bleed across the panel. */
+  :global(.ucard table) {
+    font-size: 0.92rem;
+    margin: 0.9rem -2.1rem;
+    width: calc(100% + 4.2rem);
+    border-collapse: collapse;
+    background: linear-gradient(#d3bf94, #bda677);
+    color: #33291a;
+    border: 1px solid #171208;
+    border-radius: 3px;
+    box-shadow:
+      inset 0 1px 0 #e8dab2,
+      inset 0 -1px 0 #97815a,
+      0 4px 10px rgba(0, 0, 0, 0.45);
+    table-layout: fixed;
+  }
+  :global(.ucard table th) {
+    font-family: "MedievalSharp", Georgia, serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #241c0e;
+    border-bottom: none;
+  }
+  :global(.ucard table th),
+  :global(.ucard table td) {
+    padding: 0.35rem 0.6rem;
+    border-bottom: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  :global(.ucard table th:first-child),
+  :global(.ucard table td:first-child) { padding-left: 2.1rem; }
+
+  :global(.ucard .wfootnote) {
+    color: #a9ac93;
+    font-size: 0.78rem;
+    margin: 0.25rem 0 0.75rem;
+  }
+
+  :global(.ucard-abilities) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin: 0.5rem 0 0.75rem;
+  }
+
+  :global(.ucard-abilities .badge) {
+    background: #262a1e;
+    border-color: #4b4f3a;
+    color: #cfcbb6;
+  }
+
+  :global(.ucard .flavor) {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #ded9c6;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.7;
+    margin: 0.75rem 0.25rem 0;
+  }
+
+  :global(.card-empty) {
+    border: 2px dashed var(--border);
+    border-radius: var(--radius);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 0.9rem;
+  }
+</style>
+
+<script>
+  import { lintSource } from "../../modcheck/src/linter.js";
+  import { readStatements } from "../../modcheck/src/statements.js";
+  import { tokenizeLine } from "../../modcheck/src/tokenizer.js";
+  import { commands, vanilla } from "../../modcheck/src/catalog.js";
+  import { distance } from "../../modcheck/src/suggest.js";
+
+  const source = document.getElementById("source");
+  const wrap = document.getElementById("editor-wrap");
+  const strip = document.getElementById("sigstrip");
+  const explain = document.getElementById("explain");
+  const results = document.getElementById("results");
+  const summary = document.getElementById("play-summary");
+  const cardArea = document.getElementById("unit-card");
+  const boxes = {
+    error: document.getElementById("play-show-error"),
+    warning: document.getElementById("play-show-warning"),
+    info: document.getElementById("play-show-info"),
+  };
+
+  const commandNames = Object.keys(commands);
+
+  /* ---- tiny DOM helpers (textContent only, never innerHTML) ------------ */
+
+  function span(text, cls) {
+    const el = document.createElement("span");
+    if (cls) el.className = cls;
+    el.textContent = text;
+    return el;
+  }
+
+  function div(cls, text) {
+    const el = document.createElement("div");
+    if (cls) el.className = cls;
+    if (text !== undefined) el.textContent = text;
+    return el;
+  }
+
+  /* ---- caret bookkeeping ----------------------------------------------- */
+
+  function caretInfo() {
+    const pos = source.selectionStart;
+    const value = source.value;
+    const lineStart = value.lastIndexOf("\n", pos - 1) + 1;
+    let lineEnd = value.indexOf("\n", pos);
+    if (lineEnd === -1) lineEnd = value.length;
+    let lineNo = 1;
+    for (let i = 0; i < lineStart; i++) if (value[i] === "\n") lineNo++;
+    return {
+      pos,
+      col: pos - lineStart,
+      lineStart,
+      lineNo,
+      lineText: value.slice(lineStart, lineEnd),
+    };
+  }
+
+  /* ---- signature strip -------------------------------------------------- */
+
+  function renderSignature(info) {
+    strip.textContent = "";
+    const { tokens } = tokenizeLine(info.lineText);
+    if (tokens.length === 0) {
+      strip.appendChild(span("type a command…", "sig-dim"));
+      return;
+    }
+    const head = tokens[0];
+    const spec = head.type === "word" ? commands[head.value] : undefined;
+    if (!spec) {
+      strip.appendChild(span("unknown command", "sig-dim"));
+      return;
+    }
+    // Active argument: count arg tokens the caret sits inside or after.
+    const argTokens = tokens.slice(1);
+    let active = -1;
+    for (const t of argTokens) if (t.col <= info.col) active++;
+    if (active >= spec.args.length) active = spec.args.length - 1;
+
+    strip.appendChild(span(head.value, "sig-name"));
+    spec.args.forEach((arg, i) => {
+      strip.appendChild(span(" "));
+      const label = arg.optional ? `[<${arg.name}>]` : `<${arg.name}>`;
+      strip.appendChild(span(label, i === active ? "sig-arg active" : "sig-arg"));
+    });
+  }
+
+  /* ---- explain panel ---------------------------------------------------- */
+
+  function renderExplain(info) {
+    const { tokens } = tokenizeLine(info.lineText);
+    const head = tokens[0];
+    const spec = head && head.type === "word" ? commands[head.value] : undefined;
+    if (!spec) {
+      explain.hidden = true;
+      return;
+    }
+    explain.hidden = false;
+    explain.textContent = "";
+
+    const headRow = div("explain-head");
+    const code = document.createElement("code");
+    code.textContent = head.value;
+    headRow.appendChild(code);
+    for (const section of spec.sections) {
+      const badge = span(section, "badge");
+      headRow.appendChild(badge);
+    }
+    const ref = document.createElement("a");
+    ref.className = "explain-ref";
+    ref.href = `/commands/${encodeURIComponent(head.value)}`;
+    ref.textContent = "reference →";
+    headRow.appendChild(ref);
+    explain.appendChild(headRow);
+
+    const pages =
+      spec.pages.length > 1
+        ? `manual pages ${spec.pages.join(", ")}`
+        : spec.pages.length === 1
+          ? `manual page ${spec.pages[0]}`
+          : "not in the manual";
+    const { min, max } = spec.arity;
+    const arity =
+      min === max
+        ? min === 0
+          ? "takes no arguments"
+          : `takes ${min} argument${min === 1 ? "" : "s"}`
+        : `takes ${min}–${max} arguments`;
+    explain.appendChild(div("explain-meta", `${pages} · ${arity}`));
+
+    if (spec.notes && spec.notes.length > 0) {
+      explain.appendChild(div("explain-note", spec.notes[0]));
+    }
+  }
+
+  /* ---- autocomplete ----------------------------------------------------- */
+
+  // Hidden mirror of the textarea: same font/padding/width, text up to the
+  // caret, then a marker span whose offset is the caret's pixel position.
+  const mirror = div("play-mirror");
+  wrap.appendChild(mirror);
+
+  const dropdown = div("play-ac");
+  dropdown.setAttribute("role", "listbox");
+  dropdown.hidden = true;
+  wrap.appendChild(dropdown);
+
+  let acItems = [];
+  let acSelected = 0;
+
+  function caretCoords() {
+    const cs = getComputedStyle(source);
+    for (const p of [
+      "fontFamily", "fontSize", "fontWeight", "lineHeight", "letterSpacing",
+      "tabSize", "paddingTop", "paddingRight", "paddingBottom", "paddingLeft",
+      "borderTopWidth", "borderRightWidth", "borderBottomWidth",
+      "borderLeftWidth", "boxSizing",
+    ]) {
+      mirror.style[p] = cs[p];
+    }
+    mirror.style.width = cs.width;
+    mirror.textContent = source.value.slice(0, source.selectionStart);
+    const marker = span("​");
+    mirror.appendChild(marker);
+    const lineHeight = marker.offsetHeight || parseFloat(cs.lineHeight) || 20;
+    return {
+      x: marker.offsetLeft - source.scrollLeft,
+      y: marker.offsetTop - source.scrollTop + lineHeight,
+    };
+  }
+
+  function truncate(text, len) {
+    return text.length > len ? text.slice(0, len - 1) + "…" : text;
+  }
+
+  function commandCompletion(info, head) {
+    const prefix = info.lineText.slice(head.col, info.col);
+    if (!prefix) return null;
+    const lower = prefix.toLowerCase();
+    const list = commandNames.filter((n) => n.startsWith(lower));
+    if (list.length < 8 && prefix.length >= 3) {
+      for (const n of commandNames) {
+        if (list.length >= 8) break;
+        if (!list.includes(n) && distance(lower, n, 2) <= 2) list.push(n);
+      }
+    }
+    const capped = list.slice(0, 8);
+    if (capped.length === 0) return null;
+    if (capped.length === 1 && capped[0] === lower) return null; // already typed
+    return capped.map((n) => ({
+      label: n,
+      detail: commands[n].signature ? truncate(commands[n].signature, 40) : "",
+      start: info.lineStart + head.col,
+      end: info.lineStart + head.end,
+      insert: n + " ",
+    }));
+  }
+
+  const REF_TABLE = {
+    monster: "monsters",
+    weapon: "weapons",
+    item: "items",
+    ritual: "rituals",
+  };
+
+  function nameCompletion(info, tokens, token, argIndex) {
+    const head = tokens[0];
+    if (!head || head.type !== "word") return null;
+    const spec = commands[head.value];
+    const arg = spec?.args[argIndex];
+    if (!arg || !arg.ref) return null;
+
+    let kind = arg.ref;
+    if (kind === "self") {
+      // Resolve via the section the statement runs in.
+      const { statements } = readStatements(source.value);
+      const st = statements.find((s) => s.line === info.lineNo);
+      kind = st?.section;
+    }
+    const table = REF_TABLE[kind] ? vanilla[REF_TABLE[kind]] : undefined;
+    if (!table) return null;
+
+    const partial = info.lineText.slice(token.col + 1, info.col);
+    const lower = partial.toLowerCase();
+    const starts = [];
+    const contains = [];
+    const seen = new Set();
+    for (const name of Object.values(table)) {
+      if (seen.has(name)) continue;
+      seen.add(name);
+      const ln = name.toLowerCase();
+      if (ln.startsWith(lower)) {
+        if (starts.length < 8) starts.push(name);
+      } else if (lower && ln.includes(lower)) {
+        if (contains.length < 8) contains.push(name);
+      }
+    }
+    const capped = starts.concat(contains).slice(0, 8);
+    if (capped.length === 0) return null;
+    if (capped.length === 1 && capped[0].toLowerCase() === lower) return null;
+
+    const terminated = token.type === "string";
+    return capped.map((name) => ({
+      label: name,
+      detail: "",
+      start: info.lineStart + token.col + 1,
+      end: info.lineStart + (terminated ? token.end - 1 : token.end),
+      insert: name + (terminated ? "" : '"'),
+      caretBack: terminated ? 0 : 1, // land inside the quotes we just closed
+    }));
+  }
+
+  function computeCompletion(info) {
+    const { tokens } = tokenizeLine(info.lineText);
+    // Inside a string argument? (caret strictly after the opening quote)
+    for (let i = 1; i < tokens.length; i++) {
+      const t = tokens[i];
+      if (t.type !== "string" && t.type !== "unterminated") continue;
+      const innerEnd = t.type === "string" ? t.end - 1 : t.end;
+      if (info.col > t.col && info.col <= innerEnd) {
+        return nameCompletion(info, tokens, t, i - 1);
+      }
+    }
+    // In the first word of the line?
+    const head = tokens[0];
+    if (head && head.type === "word" && info.col >= head.col && info.col <= head.end) {
+      return commandCompletion(info, head);
+    }
+    return null;
+  }
+
+  function selectRow(index) {
+    if (acItems.length === 0) return;
+    acSelected = (index + acItems.length) % acItems.length;
+    dropdown.querySelectorAll(".ac-row").forEach((row, i) => {
+      row.classList.toggle("selected", i === acSelected);
+      row.setAttribute("aria-selected", i === acSelected ? "true" : "false");
+      if (i === acSelected) row.scrollIntoView({ block: "nearest" });
+    });
+  }
+
+  function closeDropdown() {
+    dropdown.hidden = true;
+    acItems = [];
+  }
+
+  function openDropdown(items) {
+    acItems = items;
+    dropdown.textContent = "";
+    items.forEach((item, i) => {
+      const row = div("ac-row");
+      row.setAttribute("role", "option");
+      row.id = `play-ac-${i}`;
+      row.appendChild(span(item.label));
+      if (item.detail) row.appendChild(span(" " + item.detail, "ac-detail"));
+      row.addEventListener("mousedown", (e) => {
+        e.preventDefault(); // keep the textarea focused
+        acceptItem(item);
+      });
+      dropdown.appendChild(row);
+    });
+    dropdown.hidden = false;
+    const { x, y } = caretCoords();
+    const maxLeft = Math.max(0, wrap.clientWidth - dropdown.offsetWidth - 4);
+    dropdown.style.left = `${Math.min(Math.max(0, x), maxLeft)}px`;
+    dropdown.style.top = `${y + 2}px`;
+    selectRow(0);
+  }
+
+  function acceptItem(item) {
+    const v = source.value;
+    source.value = v.slice(0, item.start) + item.insert + v.slice(item.end);
+    const caret = item.start + item.insert.length - (item.caretBack ?? 0);
+    source.setSelectionRange(caret, caret);
+    closeDropdown();
+    scheduleLint();
+    refreshUI();
+  }
+
+  /* ---- diagnostics (same rendering as /check) --------------------------- */
+
+  let lastDiagnostics = [];
+  let lastLines = [];
+
+  function lint() {
+    const text = source.value;
+    lastLines = text.split("\n");
+    lastDiagnostics = text.trim() === "" ? [] : lintSource(text);
+    renderSummary(text);
+    renderResults();
+    renderCard();
+  }
+
+  function renderSummary(text) {
+    summary.classList.remove("ok");
+    if (text.trim() === "") {
+      summary.textContent = "";
+      return;
+    }
+    if (lastDiagnostics.length === 0) {
+      summary.textContent = "no problems found";
+      summary.classList.add("ok");
+      return;
+    }
+    const count = (sev) => lastDiagnostics.filter((d) => d.severity === sev).length;
+    summary.textContent = `${count("error")} error(s), ${count("warning")} warning(s), ${count("info")} info`;
+  }
+
+  function renderResults() {
+    results.textContent = "";
+    for (const d of lastDiagnostics) {
+      if (!boxes[d.severity]?.checked) continue;
+      results.appendChild(renderDiagnostic(d));
+    }
+  }
+
+  function renderDiagnostic(d) {
+    const block = div("diag");
+
+    // line:col  severity  message  rule
+    block.appendChild(span(`${d.line}:${d.col + 1}  `));
+    block.appendChild(span(d.severity, `severity-${d.severity}`));
+    block.appendChild(span(`  ${d.message}  `));
+    block.appendChild(span(d.rule, "dim-part"));
+
+    // │ source line (tabs replaced by a space)
+    const lineText = lastLines[d.line - 1];
+    if (lineText !== undefined) {
+      block.appendChild(span("\n  "));
+      block.appendChild(span("│ ", "dim-part"));
+      block.appendChild(span(lineText.replace(/\t/g, " ")));
+
+      // │ underline
+      const end = Math.max(d.end ?? d.col + 1, d.col + 1);
+      block.appendChild(span("\n  "));
+      block.appendChild(span("│ ", "dim-part"));
+      block.appendChild(span(" ".repeat(d.col)));
+      block.appendChild(span("~".repeat(end - d.col), `severity-${d.severity}`));
+    }
+
+    // └ hint
+    if (d.hint) {
+      block.appendChild(span("\n  "));
+      block.appendChild(span(`└ ${d.hint}`, "dim-part"));
+    }
+
+    return block;
+  }
+
+  /* ---- unit card -------------------------------------------------------- */
+
+  function spriteIcon() {
+    const NS = "http://www.w3.org/2000/svg";
+    const svg = document.createElementNS(NS, "svg");
+    svg.setAttribute("viewBox", "0 0 24 24");
+    svg.setAttribute("fill", "none");
+    svg.setAttribute("stroke", "currentColor");
+    svg.setAttribute("stroke-width", "2");
+    svg.setAttribute("stroke-linecap", "round");
+    svg.setAttribute("stroke-linejoin", "round");
+    svg.setAttribute("aria-hidden", "true");
+    const rect = document.createElementNS(NS, "rect");
+    rect.setAttribute("x", "3");
+    rect.setAttribute("y", "3");
+    rect.setAttribute("width", "18");
+    rect.setAttribute("height", "18");
+    rect.setAttribute("rx", "2");
+    const circle = document.createElementNS(NS, "circle");
+    circle.setAttribute("cx", "9");
+    circle.setAttribute("cy", "9");
+    circle.setAttribute("r", "2");
+    const path = document.createElementNS(NS, "path");
+    path.setAttribute("d", "m21 15-4-4-9 9");
+    svg.append(rect, circle, path);
+    return svg;
+  }
+
+  function firstStringArg(statement) {
+    const token = statement.args.find((t) => t.type === "string" || t.type === "unterminated");
+    return token ? String(token.value) : undefined;
+  }
+
+  function statValue(statement) {
+    if (!statement) return "—";
+    const num = statement.args.find((t) => t.type === "number");
+    if (num) return String(num.value);
+    const first = statement.args[0];
+    return first ? String(first.raw ?? first.value) : "—";
+  }
+
+  function renderCard() {
+    cardArea.textContent = "";
+    const { statements } = readStatements(source.value);
+    const startIdx = statements.findIndex((s) => s.name === "newmonster");
+    if (startIdx === -1) {
+      cardArea.appendChild(
+        div("card-empty", 'Define a monster with newmonster "Name" to see the preview.'),
+      );
+      return;
+    }
+
+    const opener = statements[startIdx];
+    // The block runs until the next statement that opens (or closes) another
+    // object — new*/select* openers and endevent all carry the flag.
+    const block = [];
+    for (let i = startIdx + 1; i < statements.length; i++) {
+      const s = statements[i];
+      if (s.opens || s.closes) break;
+      block.push(s);
+    }
+    const first = (name) => block.find((s) => s.name === name);
+
+    const card = div("ucard");
+
+    // Header: name + sprite placeholder.
+    const head = div("ucard-head");
+    head.appendChild(div("ucard-name", firstStringArg(opener) ?? "(unnamed)"));
+    const slot = div("sprite-slot");
+    const box = div("sprite-box");
+    box.title = "sprite preview arrives with the icon extraction";
+    box.appendChild(spriteIcon());
+    box.appendChild(span("sprite"));
+    slot.appendChild(box);
+    const spr = first("spr");
+    if (spr) {
+      const file = firstStringArg(spr);
+      if (file) slot.appendChild(div("sprite-file", file));
+    }
+    head.appendChild(slot);
+    card.appendChild(head);
+
+    // Stat grid — two visual columns; row order interleaves them.
+    const stats = [
+      ["Hit Points", first("hp")],
+      ["Magic Resistance", first("mr")],
+      ["Strength", first("str")],
+      ["Armor", first("armor")],
+      ["Morale", first("mor")],
+      ["Rank", first("rank")],
+    ];
+    const grid = div("stat-grid");
+    for (const [label, statement] of stats) {
+      const stat = div("stat");
+      stat.appendChild(span(label, "stat-label"));
+      stat.appendChild(span(statValue(statement), "stat-value"));
+      grid.appendChild(stat);
+    }
+    card.appendChild(grid);
+
+    // Weapons.
+    const weapons = block.filter(
+      (s) => s.name === "meleeweapon" || s.name === "rangedweapon",
+    );
+    if (weapons.length > 0) {
+      const table = document.createElement("table");
+      const thead = document.createElement("thead");
+      const headRow = document.createElement("tr");
+      for (const label of ["Weapon", "Init", "Range", "Damage", "Special"]) {
+        const th = document.createElement("th");
+        th.textContent = label;
+        headRow.appendChild(th);
+      }
+      thead.appendChild(headRow);
+      table.appendChild(thead);
+      const tbody = document.createElement("tbody");
+      for (const s of weapons) {
+        const tr = document.createElement("tr");
+        const nameToken = s.args.find((t) => t.type === "string" || t.type === "unterminated");
+        const numbers = s.args.filter((t) => t.type === "number");
+        // <dmg> is the numeric arg; the weapon may itself be given as a number.
+        const dmg = numbers[0];
+        const weaponName =
+          nameToken?.value ?? (numbers[1] !== undefined ? String(numbers[1].value) : "—");
+        const cells = [
+          `${weaponName}${s.name === "rangedweapon" ? " (ranged)" : ""}`,
+          "—",
+          "—",
+          dmg ? String(dmg.value) : "—",
+          "—",
+        ];
+        for (const text of cells) {
+          const td = document.createElement("td");
+          td.textContent = text;
+          tr.appendChild(td);
+        }
+        tbody.appendChild(tr);
+      }
+      table.appendChild(tbody);
+      card.appendChild(table);
+      card.appendChild(div("wfootnote", "Full weapon stats arrive with the data extraction."));
+    }
+
+    // Bare-flag abilities.
+    const abilities = [];
+    for (const s of block) {
+      if (s.args.length === 0 && commands[s.name] && !abilities.includes(s.name)) {
+        abilities.push(s.name);
+      }
+    }
+    if (abilities.length > 0) {
+      const row = div("ucard-abilities");
+      for (const name of abilities) row.appendChild(span(name, "badge"));
+      card.appendChild(row);
+    }
+
+    // Description.
+    const descr = first("descr");
+    if (descr) {
+      const text = firstStringArg(descr);
+      if (text) {
+        const p = document.createElement("p");
+        p.className = "flavor";
+        p.textContent = text.replace(/\^/g, " ");
+        card.appendChild(p);
+      }
+    }
+
+    cardArea.appendChild(card);
+  }
+
+  /* ---- wiring ----------------------------------------------------------- */
+
+  function refreshUI() {
+    const info = caretInfo();
+    renderSignature(info);
+    renderExplain(info);
+    const items = computeCompletion(info);
+    if (items) openDropdown(items);
+    else closeDropdown();
+  }
+
+  let debounceTimer;
+  function scheduleLint() {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(lint, 150);
+  }
+
+  source.addEventListener("input", () => {
+    scheduleLint();
+    refreshUI();
+  });
+
+  const NAV_KEYS = ["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight", "Home", "End", "PageUp", "PageDown"];
+  source.addEventListener("keyup", (e) => {
+    if (!NAV_KEYS.includes(e.key)) return;
+    // Up/down move the dropdown selection, not the caret context.
+    if (!dropdown.hidden && (e.key === "ArrowUp" || e.key === "ArrowDown")) return;
+    refreshUI();
+  });
+
+  source.addEventListener("keydown", (e) => {
+    if (dropdown.hidden) return; // never trap Tab when closed
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      selectRow(acSelected + 1);
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      selectRow(acSelected - 1);
+    } else if (e.key === "Enter" || e.key === "Tab") {
+      e.preventDefault();
+      acceptItem(acItems[acSelected]);
+    } else if (e.key === "Escape") {
+      e.preventDefault();
+      closeDropdown();
+    }
+  });
+
+  source.addEventListener("click", refreshUI);
+  source.addEventListener("focus", refreshUI);
+  source.addEventListener("blur", closeDropdown);
+  source.addEventListener("scroll", closeDropdown);
+
+  for (const box of Object.values(boxes)) {
+    box.addEventListener("change", renderResults);
+  }
+
+  lint();
+  refreshUI();
+  closeDropdown(); // no dropdown on page load, even though the caret is at 0
+</script>
