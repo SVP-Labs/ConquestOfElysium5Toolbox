@@ -135,12 +135,16 @@ source attached (see the rules table in play.astro).
 
 - **mor 99 = Mindless** — modding manual, `mor` entry. Implemented.
 - **Displayed weapon damage = 1d(monster weapon-line dmg + weapon record
-  dmg)** — extraction annotations ("Base damage (added to dmg value where
-  this weapon is used)"; per-line comments like "Gore: d7 Slash damage"),
-  confirmed against the in-game unit tab (Bow 0+3 → "1–3", Gore 7+0 →
-  "1–7"), corroborated by the gameplay.tips CoE5 guide ("displayed as
-  1dX(+Y), in actual fact 1d(X+Y)"). Rolls are open-ended: a max result
-  adds another die at −1 (same guide). Needs stats.json to implement.
+  dmg)** — verified against all 2,421 annotated weapon lines in the monster
+  rip (12 weapon command families, zero mismatches) plus the in-game unit
+  tab (Bow 0+3 → "1–3", Gore 7+0 → "1–7") and the Troll King cross-check
+  (str 10, line 25 + Great Club 7 → d32 — proving strength is NOT part of
+  the die; the str-added hypothesis fits 0 of 2,421 lines). Corroborated by
+  the gameplay.tips guide ("displayed as 1dX(+Y), in actual fact 1d(X+Y)");
+  rolls are open-ended: a max result adds another die at −1. Implemented:
+  weapons.json (tools/extract-weapons.mjs) carries per-weapon dmg/init/
+  range/type, and the card computes the die for base-game weapons and for
+  weapons the source itself defines.
 - **Init and Range come from the weapon record** (Bow init 2 / range 5
   match the in-game tab). Needs stats.json.
 - **Unverified:** the `*(+1)` suffix on displayed range (lob/elevation?),

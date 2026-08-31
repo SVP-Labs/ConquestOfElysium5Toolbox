@@ -12,7 +12,7 @@ const starter = [
   "mr 2",
   "armor 2",
   "mor 4",
-  'meleeweapon 8 "Gore"',
+  'meleeweapon 7 "Gore"',
   'descr "Being wiser than any other animal the Elephant will not go to war unless provoked into a rage."',
 ].join("\n");
 ---
@@ -405,6 +405,7 @@ const starter = [
 
 <script>
   import { lintSource } from "../../modcheck/src/linter.js";
+  import baseWeapons from "../data/weapons.json";
   import { readStatements } from "../../modcheck/src/statements.js";
   import { tokenizeLine } from "../../modcheck/src/tokenizer.js";
   import { commands, vanilla } from "../../modcheck/src/catalog.js";
@@ -914,7 +915,28 @@ const starter = [
     }
     card.appendChild(grid);
 
-    // Weapons.
+    // Weapons. Base-game records resolve from weapons.json; weapons the mod
+    // defines earlier in this source resolve from their own newweapon block.
+    // Displayed damage die = weapon-line dmg + weapon record dmg — verified
+    // against 2,421 annotated base-game lines and the in-game unit tab.
+    const localWeapons = {};
+    {
+      let w = null;
+      for (const s of statements) {
+        if (s.name === "newweapon") {
+          const n = s.args.find((t) => t.type === "string")?.value;
+          w = n ? (localWeapons[n.trim().toLowerCase()] ??= { name: n }) : null;
+          continue;
+        }
+        if (s.opens || /^(?:new|select)/.test(s.name)) { if (s.name !== "newweapon") w = null; }
+        if (!w) continue;
+        const v = s.args[0];
+        if (["dmg", "init", "range"].includes(s.name) && v?.type === "number") w[s.name] = v.value;
+      }
+    }
+    const resolveWeapon = (name) =>
+      localWeapons[name.trim().toLowerCase()] ?? baseWeapons[name.trim().toLowerCase()];
+
     const weapons = block.filter(
       (s) => s.name === "meleeweapon" || s.name === "rangedweapon",
     );
@@ -930,31 +952,40 @@ const starter = [
       thead.appendChild(headRow);
       table.appendChild(thead);
       const tbody = document.createElement("tbody");
+      let unresolved = false;
       for (const s of weapons) {
         const tr = document.createElement("tr");
         const nameToken = s.args.find((t) => t.type === "string" || t.type === "unterminated");
         const numbers = s.args.filter((t) => t.type === "number");
         // <dmg> is the numeric arg; the weapon may itself be given as a number.
-        const dmg = numbers[0];
+        const lineDmg = numbers[0];
         const weaponName =
           nameToken?.value ?? (numbers[1] !== undefined ? String(numbers[1].value) : "—");
+        const rec = nameToken ? resolveWeapon(nameToken.value) : undefined;
+        if (!rec) unresolved = true;
+        const die = rec && lineDmg ? Number(lineDmg.value) + (rec.dmg ?? 0) : null;
         const cells = [
           `${weaponName}${s.name === "rangedweapon" ? " (ranged)" : ""}`,
-          "—",
-          "—",
-          dmg ? String(dmg.value) : "—",
-          "—",
+          rec?.init !== undefined ? String(rec.init) : "—",
+          rec?.range !== undefined ? String(rec.range) : "—",
+          die !== null ? `1-${die}` : lineDmg ? String(lineDmg.value) : "—",
+          rec?.type ?? "—",
         ];
-        for (const text of cells) {
+        for (const [i, text] of cells.entries()) {
           const td = document.createElement("td");
           td.textContent = text;
+          if (i === 3 && die !== null) {
+            td.title = `d${die} = weapon line ${lineDmg.value} + weapon record ${rec.dmg ?? 0}; rolls are open-ended (a max result adds another die at -1)`;
+          }
           tr.appendChild(td);
         }
         tbody.appendChild(tr);
       }
       table.appendChild(tbody);
       card.appendChild(table);
-      card.appendChild(div("wfootnote", "Full weapon stats arrive with the data extraction."));
+      if (unresolved) {
+        card.appendChild(div("wfootnote", "Weapons not in the base game and not defined above show dashes."));
+      }
     }
 
     // Bare-flag abilities.
