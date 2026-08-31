@@ -9,10 +9,12 @@
  *   --bg / --bg-raised / --bg-inset   page, card and code-block surfaces
  *   --border                          hairline borders
  *   --text / --text-dim               ink and secondary ink
- *   --accent / --accent-dim           gold identity colour + muted variant
- *   --link                            hyperlinks
- *   --error / --warning / --info / --ok  severity colours (>= 4.5:1 as text
- *                                     on --bg and --bg-inset in both themes)
+ *   --accent / --accent-dim           blue identity colour + muted variant
+ *   --link                            hyperlinks (same blue as --accent)
+ *   --error / --warning / --info / --ok  severity colours — info=blue,
+ *                                     warning=orange, error=red (>= 4.5:1 as
+ *                                     text on --bg and --bg-inset in both
+ *                                     themes)
  *   --mono                            monospace stack
  *   --shadow / --shadow-lift          resting and hover shadows for surfaces
  *   --header-bg                       translucent header fill (solid-ish
@@ -28,16 +30,16 @@
   --border: #2b2f37;
   --text: #d6d3cd;
   --text-dim: #8b8b84;
-  --accent: #c9a227;
-  --accent-dim: #8a7220;
-  --link: #7fb4e0;
+  --accent: #6cb0f0;
+  --accent-dim: #3d6f9e;
+  --link: #6cb0f0;
   --error: #ff7369;
-  --warning: #e6b450;
+  --warning: #f0883e;
   --info: #6cb6ff;
   --ok: #7ec699;
   --mono: "JetBrains Mono", "Cascadia Code", Consolas, Menlo, monospace;
-  --shadow: 0 1px 2px rgba(0, 0, 0, 0.35), 0 4px 14px rgba(0, 0, 0, 0.22);
-  --shadow-lift: 0 2px 4px rgba(0, 0, 0, 0.4), 0 12px 28px rgba(0, 0, 0, 0.32);
+  --shadow: 0 2px 4px rgba(0, 0, 0, 0.4), 0 10px 24px rgba(0, 0, 0, 0.35);
+  --shadow-lift: 0 4px 8px rgba(0, 0, 0, 0.45), 0 18px 40px rgba(0, 0, 0, 0.4);
   --header-bg: rgba(28, 31, 37, 0.88);
   --radius: 10px;
   --radius-sm: 6px;
@@ -45,21 +47,21 @@
 
 :root[data-theme="light"] {
   color-scheme: light;
-  --bg: #faf7f0;
+  --bg: #f6f8fa;
   --bg-raised: #ffffff;
-  --bg-inset: #f2eee3;
-  --border: #ddd6c6;
-  --text: #26241f;
-  --text-dim: #635f53;
-  --accent: #7d621c;
-  --accent-dim: #a8894a;
+  --bg-inset: #eaeef2;
+  --border: #d0d7de;
+  --text: #1f2328;
+  --text-dim: #59636e;
+  --accent: #155d99;
+  --accent-dim: #6a95bb;
   --link: #155d99;
   --error: #b3261e;
-  --warning: #8f5a00;
+  --warning: #9a4a00;
   --info: #155d99;
   --ok: #1a6b3c;
-  --shadow: 0 1px 2px rgba(64, 54, 24, 0.06), 0 4px 14px rgba(64, 54, 24, 0.08);
-  --shadow-lift: 0 2px 6px rgba(64, 54, 24, 0.1), 0 12px 28px rgba(64, 54, 24, 0.13);
+  --shadow: 0 2px 4px rgba(27, 31, 36, 0.07), 0 10px 24px rgba(27, 31, 36, 0.09);
+  --shadow-lift: 0 4px 8px rgba(27, 31, 36, 0.1), 0 18px 40px rgba(27, 31, 36, 0.13);
   --header-bg: rgba(255, 255, 255, 0.82);
 }
 
@@ -143,8 +145,21 @@ pre code { background: none; padding: 0; }
   margin-left: auto;
 }
 
-.site-nav a { color: var(--text); }
+.site-nav a {
+  color: var(--text);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
 .site-nav a[aria-current="page"] { color: var(--accent); }
+
+/* Small inline section icons (nav links, headings). */
+.ui-icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+  flex-shrink: 0;
+}
 
 .theme-toggle {
   display: inline-flex;
@@ -274,7 +289,7 @@ select {
 }
 
 :root[data-theme="light"] select {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 6l4 4 4-4' fill='none' stroke='%23635f53' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 6l4 4 4-4' fill='none' stroke='%2359636e' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
 }
 
 input[type="search"]:focus, input[type="text"]:focus, textarea:focus, select:focus {

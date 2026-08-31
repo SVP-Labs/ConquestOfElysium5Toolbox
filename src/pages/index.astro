@@ -6,6 +6,15 @@ const commands = Object.values(table.commands);
 const total = commands.length;
 const neverUsed = commands.filter((c) => c.attested === 0).length;
 const undocumented = commands.filter((c) => !c.documented).length;
+
+// Section icons — same trio as the nav in Base.astro.
+const iconAttrs =
+  'class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"';
+const icons = {
+  validator: `<svg ${iconAttrs}><circle cx="12" cy="12" r="9" /><path d="m8.5 12.3 2.4 2.4 4.6-5.2" /></svg>`,
+  commands: `<svg ${iconAttrs}><path d="M2 4h6a4 4 0 0 1 4 4v13a3 3 0 0 0-3-3H2z" /><path d="M22 4h-6a4 4 0 0 0-4 4v13a3 3 0 0 1 3-3h7z" /></svg>`,
+  data: `<svg ${iconAttrs}><rect x="3" y="4" width="18" height="16" rx="2" /><path d="M3 10h18M9 10v10M15 10v10" /></svg>`,
+};
 ---
 
 <Base>
@@ -19,7 +28,7 @@ const undocumented = commands.filter((c) => !c.documented).length;
 
   <div class="cards">
     <a class="card" href="/check">
-      <h2>Check a mod</h2>
+      <h2><Fragment set:html={icons.validator} /> Validator</h2>
       <p>
         Paste or drop a <code>.c5m</code> file and get every problem listed
         with its line, an underline, and a hint — the same diagnostics as the
@@ -27,7 +36,7 @@ const undocumented = commands.filter((c) => !c.documented).length;
       </p>
     </a>
     <a class="card" href="/commands">
-      <h2>Command reference</h2>
+      <h2><Fragment set:html={icons.commands} /> Command reference</h2>
       <p>
         All {total} mod commands, searchable and filterable — including
         the {neverUsed} commands the base game never uses and
@@ -35,7 +44,7 @@ const undocumented = commands.filter((c) => !c.documented).length;
       </p>
     </a>
     <a class="card" href="/data">
-      <h2>ID tables</h2>
+      <h2><Fragment set:html={icons.data} /> ID tables</h2>
       <p>
         Every numeric ID in the mod format — terrains, classes, resources and
         more — with the name each number means.
@@ -65,7 +74,6 @@ const undocumented = commands.filter((c) => !c.documented).length;
     display: block;
     background: var(--bg-raised);
     border: 1px solid var(--border);
-    border-top: 3px solid var(--accent-dim);
     border-radius: var(--radius);
     padding: 1rem 1.25rem;
     color: var(--text);
@@ -77,7 +85,6 @@ const undocumented = commands.filter((c) => !c.documented).length;
   .card:hover {
     text-decoration: none;
     border-color: var(--accent-dim);
-    border-top-color: var(--accent);
     transform: translateY(-2px);
     box-shadow: var(--shadow-lift);
   }

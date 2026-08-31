@@ -96,6 +96,21 @@ repo's data (`commands.json` is generated), not in this repo.
   appear on command pages when `/play` ships. `/data` shipped once Illwinter's
   permission arrived (built in `a16811c`, briefly held, restored in the
   reapply commit).
+
+  **Agreed additions to `/play` (2026-08-31):**
+  - **Unit-card preview**: typing a `newmonster` block renders a live
+    game-style unit panel, modelled on the in-game unit tab (reference: the
+    War Elephant screenshot) — two-column stat grid (HP, Strength, Morale,
+    XP | MR, Armor, Rank, Kills), ability/item icon strip, weapons table
+    (Weapon / Init / Range / Damage / Special), flavor description below,
+    sprite top-right. Tier 1 shows only what the block states (names
+    resolved via `vanilla.json`); tier 2 resolves `copystats`/`copyspr`
+    via a `stats.json` built from the rips (permission granted — the same
+    pipeline unlocks `/source`); engine defaults are never guessed — a
+    stat not written shows as "not set" until verified via `/known`.
+  - **Sprite thumbnails** in `/data` and the preview: permission granted;
+    blocked only on an asset handoff (sprite dump mapped to indices — the
+    text rips contain no images). Lazy-loaded per row once provided.
 - **Phase 3:** `/tools/sprite`, `/tools/package`, `/tools/format`,
   `/tools/scaffold`. Folder-drop on `/check` (needs the `lintMod` browser
   core) fits here.
