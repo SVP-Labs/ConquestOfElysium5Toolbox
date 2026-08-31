@@ -99,7 +99,7 @@ const pagesLabel =
                 <td>{a.name}</td>
                 <td class="type">{a.types.join(" or ")}</td>
                 <td>{a.optional ? "optional" : "yes"}</td>
-                <td>{a.ref ?? "—"}</td>
+                <td>{a.ref === "self" ? "the kind the block defines" : (a.ref ?? "—")}</td>
               </tr>
             ))}
           </tbody>
