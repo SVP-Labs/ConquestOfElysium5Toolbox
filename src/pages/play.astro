@@ -423,6 +423,12 @@ const starter = [
   }
 
   :global(.rituals-panel .ritual-name) { color: #e6e2d4; }
+
+  :global(.spells-credit) {
+    color: var(--text-dim);
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+  }
   :global(.rituals-panel .ritual-meta) { color: #a9ac93; white-space: nowrap; }
 
   :global(.ucard-abilities .badge.magic) {
@@ -509,6 +515,8 @@ const starter = [
   import ritualSchools from "../data/ritual-schools.json";
   import ritualsBySchool from "../data/rituals.json";
   import spellPaths from "../data/spell-paths.json";
+  import spellsBySchool from "../data/spells.json";
+  import weaponsByIndex from "../data/weapons-index.json";
   import { readStatements } from "../../modcheck/src/statements.js";
   import { tokenizeLine } from "../../modcheck/src/tokenizer.js";
   import { commands, vanilla } from "../../modcheck/src/catalog.js";
@@ -1242,6 +1250,50 @@ const starter = [
         sec.appendChild(rowEl);
       }
       cardArea.appendChild(sec);
+    }
+
+    // Combat spells — per spellweapon path, from the community wiki's
+    // path->spell mapping (CC BY-SA) joined with the game's weapon records.
+    const AOE_TEXT = (aoe) =>
+      aoe === undefined || aoe === 0 ? "single target" : aoe > 0 ? `burst ${aoe}` : `${-aoe} strikes`;
+    let creditSpells = false;
+    for (const c of combatMagic) {
+      const pathName = spellPaths[c.args[0].value];
+      const list = pathName
+        ? (spellsBySchool[pathName.toLowerCase()] ?? []).filter((sp) => sp.level <= c.args[1].value)
+        : [];
+      if (list.length === 0) continue;
+      creditSpells = true;
+      const sec = div("rituals-panel");
+      const head = div("rituals-head");
+      head.textContent = `${pathName} combat spells (level ≤ ${c.args[1].value})`;
+      sec.appendChild(head);
+      for (const sp of list) {
+        const rec = weaponsByIndex[sp.weapon] ?? {};
+        const rowEl = div("ritual-row");
+        rowEl.appendChild(span(sp.name, "ritual-name"));
+        const bits = [`level ${sp.level}`];
+        // Large dmg values are effect encodings (2048 = drain, 999 = death
+        // effect), not dice — the game shows those as special effects.
+        bits.push(
+          sp.dmg !== undefined && sp.dmg <= 99
+            ? `1-${sp.dmg}${rec.type ? " " + rec.type : ""}`
+            : (rec.type ? `${rec.type} special` : "special"),
+        );
+        if (rec.init !== undefined) bits.push(`init ${rec.init}`);
+        if (rec.range !== undefined) bits.push(`range ${rec.range}`);
+        bits.push(AOE_TEXT(rec.aoe));
+        if (rec.an) bits.push("AN");
+        rowEl.appendChild(span(bits.join(" · "), "ritual-meta"));
+        sec.appendChild(rowEl);
+      }
+      cardArea.appendChild(sec);
+    }
+    if (creditSpells) {
+      const credit = div("spells-credit");
+      credit.textContent =
+        "Spell lists from the CoE5 community wiki (CC BY-SA); other stats from the game data's weapon records.";
+      cardArea.appendChild(credit);
     }
 
   }

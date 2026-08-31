@@ -4,5336 +4,6401 @@
   "range": 1,
   "init": 2,
   "type": "Blunt",
-  "dmg": 1
+  "dmg": 1,
+  "aoe": 0
  },
  "dagger": {
   "name": "Dagger",
   "range": 1,
   "init": 2,
   "type": "Pierce",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "broadsword": {
   "name": "Broadsword",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 6
+  "dmg": 6,
+  "aoe": 0
  },
  "axe": {
   "name": "Axe",
   "range": 1,
   "init": 3,
   "type": "Slash",
-  "dmg": 7
+  "dmg": 7,
+  "aoe": 0
  },
  "spear": {
   "name": "Spear",
   "range": 1,
   "init": 6,
   "type": "Pierce",
-  "dmg": 4
+  "dmg": 4,
+  "aoe": 0
  },
  "staff": {
   "name": "Staff",
   "range": 1,
   "init": 5,
   "type": "Blunt",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "hammer": {
   "name": "Hammer",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 4
+  "dmg": 4,
+  "aoe": 0
  },
  "bow": {
   "name": "Bow",
   "range": 5,
   "init": 2,
   "type": "Pierce",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "shortsword": {
   "name": "Shortsword",
   "range": 1,
   "init": 3,
   "type": "Slash",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 0
  },
  "crossbow": {
   "name": "Crossbow",
   "range": 5,
   "init": 2,
   "type": "Pierce",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 0
  },
  "life drain": {
   "name": "Life Drain",
   "range": 1,
   "init": 2,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "bite": {
   "name": "Bite",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "claw": {
   "name": "Claw",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "lance charge": {
   "name": "Lance Charge",
   "range": 1,
   "init": 5,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "antlers": {
   "name": "Antlers",
   "range": 1,
   "init": 3,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "aff (mr)": {
   "name": "aff (mr)",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "pain": {
   "name": "Pain",
   "range": 6,
   "init": 1,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "gaze of fear": {
   "name": "Gaze of Fear",
   "range": 10,
   "init": 10,
   "type": "Fear",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
  },
  "drain life": {
   "name": "Drain Life",
   "range": 5,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "club": {
   "name": "Club",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "mace": {
   "name": "Mace",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 0
  },
  "greatsword": {
   "name": "Greatsword",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 9
+  "dmg": 9,
+  "aoe": 0
  },
  "pike": {
   "name": "Pike",
   "range": 2,
   "init": 2,
   "type": "Pierce",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 0
  },
  "halberd": {
   "name": "Halberd",
   "range": 1,
   "init": 5,
   "type": "Slash",
-  "dmg": 8
+  "dmg": 8,
+  "aoe": 0
  },
  "javelin": {
   "name": "Javelin",
   "range": 3,
   "init": 1,
   "type": "Pierce",
-  "dmg": 4
+  "dmg": 4,
+  "aoe": 0
  },
  "flail": {
   "name": "Flail",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 6
+  "dmg": 6,
+  "aoe": 0
  },
  "trident": {
   "name": "Trident",
   "range": 1,
   "init": 5,
   "type": "Pierce",
-  "dmg": 7
+  "dmg": 7,
+  "aoe": 0
  },
  "sling": {
   "name": "Sling",
   "range": 4,
   "init": 2,
   "type": "Blunt",
-  "dmg": 2
+  "dmg": 2,
+  "aoe": 0
  },
  "longbow": {
   "name": "Longbow",
   "range": 6,
   "init": 2,
   "type": "Pierce",
-  "dmg": 4
+  "dmg": 4,
+  "aoe": 0
  },
  "ben (self)": {
   "name": "ben (self)",
   "range": 0,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "fear": {
   "name": "Fear",
   "range": 8,
   "init": 4,
   "type": "Fear",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "cloud of death": {
   "name": "Cloud of Death",
   "range": 10,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "bane fire": {
   "name": "Bane Fire",
   "range": 8,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "foul claw": {
   "name": "Foul Claw",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "poison bow": {
   "name": "Poison Bow",
   "range": 5,
   "init": 2,
   "type": "Pierce",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "poison": {
   "name": "Poison",
   "range": 1,
   "init": 4,
   "type": "Poison",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "curse": {
   "name": "Curse",
   "range": 16,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "gore": {
   "name": "Gore",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "poison breath": {
   "name": "Poison Breath",
   "range": 5,
   "init": 7,
   "type": "Poison",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 3015,
+  "an": true
  },
  "tail slap": {
   "name": "Tail Slap",
   "range": 1,
   "init": 1,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "death gaze": {
   "name": "Death Gaze",
   "range": 10,
   "init": 10,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 4025,
+  "an": true
  },
  "strong venomous bite": {
   "name": "Strong Venomous Bite",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "venomous bite": {
   "name": "Venomous Bite",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "weak venomous bite": {
   "name": "Weak Venomous Bite",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "tentacle": {
   "name": "Tentacle",
   "range": 1,
   "init": 2,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "poison cloud": {
   "name": "Poison Cloud",
   "range": 1,
   "init": 4,
   "type": "Poison",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "poison spit": {
   "name": "Poison Spit",
   "range": 3,
   "init": 2,
   "type": "Poison",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "incorporate": {
   "name": "Incorporate",
   "range": 1,
   "init": 4,
   "type": "Swallow",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "death wail": {
   "name": "Death Wail",
   "range": 1,
   "init": 8,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
  },
  "putrid cloud": {
   "name": "Putrid Cloud",
   "range": 4,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 4010,
+  "an": true
  },
  "disease": {
   "name": "Disease",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "sting": {
   "name": "Sting",
   "range": 1,
   "init": 3,
   "type": "Poison",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "charm": {
   "name": "Charm",
   "range": 5,
   "init": 4,
   "type": "Charm",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "flame burst": {
   "name": "Flame Burst",
   "range": 6,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "fireball": {
   "name": "Fireball",
   "range": 6,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "fire cloud": {
   "name": "Fire Cloud",
   "range": 8,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9
  },
  "falling fires": {
   "name": "Falling Fires",
   "range": 10,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "flame storm": {
   "name": "Flame Storm",
   "range": 10,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 50
  },
  "hellfire": {
   "name": "Hellfire",
   "range": 0,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9999
  },
  "meteor": {
   "name": "Meteor",
   "range": 15,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "meteor showers": {
   "name": "Meteor Showers",
   "range": 0,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9997
  },
  "freeze": {
   "name": "Freeze",
   "range": 6,
   "init": 4,
   "type": "Cold",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "frost": {
   "name": "Frost",
   "range": 6,
   "init": 4,
   "type": "Cold",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 3,
+  "an": true
  },
  "dmg (cold)": {
   "name": "dmg (cold)",
   "range": 6,
   "init": 4,
   "type": "Cold",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
  },
  "falling frost": {
   "name": "Falling Frost",
   "range": 10,
   "init": 4,
   "type": "Cold",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
  },
  "blizzard": {
   "name": "Blizzard",
   "range": 0,
   "init": 4,
   "type": "Cold",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9999,
+  "an": true
  },
  "blood boil": {
   "name": "Blood Boil",
   "range": 6,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "frozen heart": {
   "name": "Frozen Heart",
   "range": 8,
   "init": 4,
   "type": "Cold",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "icicle": {
   "name": "Icicle",
   "range": 6,
   "init": 4,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "ice shards": {
   "name": "Ice Shards",
   "range": 6,
   "init": 4,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -3
  },
  "army of gold": {
   "name": "Army of Gold",
   "range": 0,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 998
  },
  "legion of ice": {
   "name": "Legion of Ice",
   "range": 0,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 998
  },
  "true charm": {
   "name": "True Charm",
   "range": 8,
   "init": 4,
   "type": "Charm",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "venom": {
   "name": "Venom",
   "range": 6,
   "init": 4,
   "type": "Poison",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "polymorph into frog": {
   "name": "Polymorph into Frog",
   "range": 4,
   "init": 4,
   "type": "Polymorph",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "sleep": {
   "name": "Sleep",
   "range": 8,
   "init": 4,
   "type": "Sleep",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -2,
+  "an": true
  },
  "enchanted sleep": {
   "name": "Enchanted Sleep",
   "range": 10,
   "init": 4,
   "type": "Sleep",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
  },
  "mass charm": {
   "name": "Mass Charm",
   "range": 5,
   "init": 4,
   "type": "Charm",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 15,
+  "an": true
  },
  "enchanting voice": {
   "name": "Enchanting Voice",
   "range": 10,
   "init": 4,
   "type": "Sleep",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 100,
+  "an": true
  },
  "flame strike": {
   "name": "Flame Strike",
   "range": 1,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "soul drain": {
   "name": "Soul Drain",
   "range": 0,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9998
  },
  "fiery breath": {
   "name": "Fiery Breath",
   "range": 1,
   "init": 7,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "plague": {
   "name": "Plague",
   "range": 10,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "black death": {
   "name": "Black Death",
   "range": 0,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9999
  },
  "pitchfork": {
   "name": "Pitchfork",
   "range": 1,
   "init": 5,
   "type": "Pierce",
-  "dmg": 4
+  "dmg": 4,
+  "aoe": 0
  },
  "polymorph": {
   "name": "Polymorph",
   "range": 4,
   "init": 4,
   "type": "Polymorph",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
  },
  "heat aura": {
   "name": "Heat Aura",
   "range": 1,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "cold aura": {
   "name": "Cold Aura",
   "range": 1,
   "init": 4,
   "type": "Cold",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "poison aura": {
   "name": "Poison Aura",
   "range": 1,
   "init": 4,
   "type": "Poison",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "beak": {
   "name": "Beak",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "talon": {
   "name": "Talon",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "hoof": {
   "name": "Hoof",
   "range": 1,
   "init": 2,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "trample": {
   "name": "Trample",
   "range": 1,
   "init": 1,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "throw rock": {
   "name": "Throw Rock",
   "range": 2,
   "init": 2,
   "type": "Blunt",
-  "dmg": 1
+  "dmg": 1,
+  "aoe": 0
  },
  "drop boulder": {
   "name": "Drop Boulder",
   "range": 50,
   "init": 1,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "sickle": {
   "name": "Sickle",
   "range": 1,
   "init": 3,
   "type": "Slash",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "scythe": {
   "name": "Scythe",
   "range": 1,
   "init": 5,
   "type": "Slash",
-  "dmg": 6
+  "dmg": 6,
+  "aoe": 0
  },
  "death to friend (mr)": {
   "name": "death to friend (mr)",
   "range": 1,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "death to foe (no mr)": {
   "name": "death to foe (no mr)",
   "range": 1,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "luck": {
   "name": "Luck",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "death spell": {
   "name": "Death Spell",
   "range": 10,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
  },
  "dark power": {
   "name": "Dark Power",
   "range": 8,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -3,
+  "an": true
  },
  "shock": {
   "name": "Shock",
   "range": 6,
   "init": 1,
   "type": "Shock",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "shock damage": {
   "name": "Shock Damage",
   "range": 1,
   "init": 4,
   "type": "Shock",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 3,
+  "an": true
  },
  "chain lightning": {
   "name": "Chain Lightning",
   "range": 6,
   "init": 4,
   "type": "Shock",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9208,
+  "an": true
  },
  "gust of wind": {
   "name": "Gust of Wind",
   "range": 8,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "winds": {
   "name": "Winds",
   "range": 8,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9
  },
  "storm wind": {
   "name": "Storm Wind",
   "range": 10,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "arcane tempest": {
   "name": "Arcane Tempest",
   "range": 0,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 999
  },
  "gale": {
   "name": "Gale",
   "range": 0,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9999
  },
  "aff (str-resistable)": {
   "name": "aff (str-resistable)",
   "range": 1,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "summon imp": {
   "name": "Summon Imp",
   "range": 3,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "summon fiend of darkness": {
   "name": "Summon Fiend of Darkness",
   "range": 3,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "summon lesser demon": {
   "name": "Summon Lesser Demon",
   "range": 3,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "net": {
   "name": "Net",
   "range": 1,
   "init": 7,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "sunlight": {
   "name": "Sunlight",
   "range": 8,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "sunbeam": {
   "name": "Sunbeam",
   "range": 8,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5,
+  "an": true
  },
  "solar rays": {
   "name": "Solar Rays",
   "range": 10,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
  },
  "solar brilliance": {
   "name": "Solar Brilliance",
   "range": 0,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9999,
+  "an": true
  },
  "cleansing water": {
   "name": "Cleansing Water",
   "range": 6,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "dmg (holy water+knockback)": {
   "name": "dmg (holy water+knockback)",
   "range": 6,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "torrent of the sacred river": {
   "name": "Torrent of the Sacred River",
   "range": 10,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "finger of death": {
   "name": "Finger of Death",
   "range": 8,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "serpent staff": {
   "name": "Serpent Staff",
   "range": 1,
   "init": 5,
   "type": "Pierce",
-  "dmg": 4
+  "dmg": 4,
+  "aoe": 0
  },
  "summon snake": {
   "name": "Summon Snake",
   "range": 3,
   "init": 8,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "summon serpent": {
   "name": "Summon Serpent",
   "range": 0,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "lesser banishment": {
   "name": "Lesser Banishment",
   "range": 6,
   "init": 1,
   "type": "Banish",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "banishment": {
   "name": "Banishment",
   "range": 6,
   "init": 1,
   "type": "Banish",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "greater banishment": {
   "name": "Greater Banishment",
   "range": 6,
   "init": 1,
   "type": "Banish",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -3,
+  "an": true
  },
  "divine utterings": {
   "name": "Divine Utterings",
   "range": 8,
   "init": 1,
   "type": "Banish",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
  },
  "great maul": {
   "name": "Great Maul",
   "range": 1,
   "init": 4,
   "type": "Blunt",
-  "dmg": 8
+  "dmg": 8,
+  "aoe": 0
  },
  "stinger": {
   "name": "Stinger",
   "range": 1,
   "init": 3,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "flick barb": {
   "name": "Flick Barb",
   "range": 3,
   "init": 2,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "thunder fist": {
   "name": "Thunder Fist",
   "range": 1,
   "init": 2,
   "type": "Blunt",
-  "dmg": 1
+  "dmg": 1,
+  "aoe": 0
  },
  "poison dagger": {
   "name": "Poison Dagger",
   "range": 1,
   "init": 2,
   "type": "Pierce",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "wrestle": {
   "name": "Wrestle",
   "range": 1,
   "init": 1,
   "type": "Blunt",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "summon wolf": {
   "name": "Summon Wolf",
   "range": 0,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "thunderhead": {
   "name": "Thunderhead",
   "range": 15,
   "init": 4,
   "type": "Shock",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -3,
+  "an": true
  },
  "orb lightning": {
   "name": "Orb lightning",
   "range": 6,
   "init": 4,
   "type": "Shock",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 15,
+  "an": true
  },
  "agony (dmg,mr)": {
   "name": "agony (dmg,mr)",
   "range": 6,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
  },
  "agony": {
   "name": "Agony",
   "range": 10,
   "init": 1,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
  },
  "rupture": {
   "name": "Rupture",
   "range": 10,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 100,
+  "an": true
  },
  "petrifying gaze": {
   "name": "Petrifying Gaze",
   "range": 10,
   "init": 10,
   "type": "Petrify",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1010,
+  "an": true
  },
  "obsidian glaive": {
   "name": "Obsidian Glaive",
   "range": 1,
   "init": 5,
   "type": "Slash",
-  "dmg": 8
+  "dmg": 8,
+  "aoe": 0
  },
  "stone glaive": {
   "name": "Stone Glaive",
   "range": 1,
   "init": 5,
   "type": "Blunt",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 0
  },
  "spectral club": {
   "name": "Spectral Club",
   "range": 1,
   "init": 3,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "spectral sword": {
   "name": "Spectral Sword",
   "range": 1,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "blindness (easymr)": {
   "name": "blindness (easymr)",
   "range": 9,
   "init": 1,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "plague bow": {
   "name": "Plague Bow",
   "range": 6,
   "init": 2,
   "type": "Pierce",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "summon longdead": {
   "name": "Summon Longdead",
   "range": 3,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "seduction aura": {
   "name": "Seduction Aura",
   "range": 1,
   "init": 4,
   "type": "Charm",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "deadly sting": {
   "name": "Deadly Sting",
   "range": 1,
   "init": 3,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "shock stun": {
   "name": "Shock Stun",
   "range": 1,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "demon whip": {
   "name": "Demon Whip",
   "range": 1,
   "init": 5,
   "type": "Slash",
-  "dmg": 1
+  "dmg": 1,
+  "aoe": 0
  },
  "aff (unresistable + mundane + fly)": {
   "name": "aff (unresistable + mundane + fly)",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "project fire": {
   "name": "Project Fire",
   "range": 4,
   "init": 8,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 3
  },
  "project lightning": {
   "name": "Project Lightning",
   "range": 8,
   "init": 8,
   "type": "Shock",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "coil spring gun": {
   "name": "Coil Spring Gun",
   "range": 4,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "paralyze": {
   "name": "Paralyze",
   "range": 5,
   "init": 8,
   "type": "Paralyze",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "frost brand": {
   "name": "Frost Brand",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 7
+  "dmg": 7,
+  "aoe": 0
  },
  "fire brand": {
   "name": "Fire Brand",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 7
+  "dmg": 7,
+  "aoe": 0
  },
  "fire": {
   "name": "Fire",
   "range": 1,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "cold": {
   "name": "Cold",
   "range": 1,
   "init": 4,
   "type": "Cold",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "golden claw": {
   "name": "Golden Claw",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "gusts of winds": {
   "name": "Gusts of Winds",
   "range": 1,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9
  },
  "wave strike": {
   "name": "Wave Strike",
   "range": 2,
   "init": 8,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 4006
  },
  "wave strike stun": {
   "name": "Wave Strike Stun",
   "range": 6,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "rumble earth": {
   "name": "Rumble Earth",
   "range": 1,
   "init": 8,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 3003,
+  "an": true
  },
  "serpent kryss": {
   "name": "Serpent Kryss",
   "range": 1,
   "init": 2,
   "type": "Pierce",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "burning hoof": {
   "name": "Burning Hoof",
   "range": 1,
   "init": 2,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "burning lance": {
   "name": "Burning Lance",
   "range": 1,
   "init": 5,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "lightning hoof": {
   "name": "Lightning Hoof",
   "range": 1,
   "init": 2,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "lightning lance": {
   "name": "Lightning Lance",
   "range": 1,
   "init": 5,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "torrent of water": {
   "name": "Torrent of Water",
   "range": 6,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "stone shard": {
   "name": "Stone Shard",
   "range": 1,
   "init": 4,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "briar cage": {
   "name": "Briar Cage",
   "range": 6,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9
  },
  "chasm": {
   "name": "Chasm",
   "range": 6,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 7015,
+  "an": true
  },
  "meteor flame burst": {
   "name": "Meteor Flame Burst",
   "range": 1,
   "init": 1,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "drown": {
   "name": "Drown",
   "range": 1,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "summon lesser fire": {
   "name": "Summon Lesser Fire",
   "range": 3,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "summon cloud elemental": {
   "name": "Summon Cloud Elemental",
   "range": 1,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "summon lesser water": {
   "name": "Summon Lesser Water",
   "range": 3,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "summon lesser earth": {
   "name": "Summon Lesser Earth",
   "range": 3,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "iron storm": {
   "name": "Iron Storm",
   "range": 0,
   "init": 4,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 999
  },
  "iron darts": {
   "name": "Iron Darts",
   "range": 6,
   "init": 4,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -7
  },
  "seeking arrow": {
   "name": "Seeking Arrow",
   "range": 6,
   "init": 4,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "staff of power": {
   "name": "Staff of Power",
   "range": 1,
   "init": 5,
   "type": "Blunt",
-  "dmg": 6
+  "dmg": 6,
+  "aoe": 0
  },
  "terrain fire": {
   "name": "Terrain Fire",
   "range": 1,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "summon shade": {
   "name": "Summon Shade",
   "range": 6,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "touch of the dead": {
   "name": "Touch of the Dead",
   "range": 1,
   "init": 3,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "battle fatigue": {
   "name": "Battle Fatigue",
   "range": 1,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "aura of the sun": {
   "name": "Aura of the Sun",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "army of the sun": {
   "name": "Army of the Sun",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "dmg (fire)": {
   "name": "dmg (fire)",
   "range": 6,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -3
  },
  "lashes of fire": {
   "name": "Lashes of Fire",
   "range": 6,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -3
  },
  "bane fire vortex": {
   "name": "Bane Fire Vortex",
   "range": 8,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
  },
  "ben (five)": {
   "name": "ben (five)",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -5
  },
  "poison vines": {
   "name": "Poison Vines",
   "range": 6,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 3
  },
  "wild growth": {
   "name": "Wild Growth",
   "range": 10,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 100,
+  "an": true
  },
  "charm animal": {
   "name": "Charm Animal",
   "range": 5,
   "init": 4,
   "type": "Charm",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "polymorph into boar": {
   "name": "Polymorph into Boar",
   "range": 10,
   "init": 4,
   "type": "Polymorph",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 100,
+  "an": true
  },
  "polymorph into woodman": {
   "name": "Polymorph into Woodman",
   "range": 6,
   "init": 4,
   "type": "Polymorph",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "spectral weapons": {
   "name": "Spectral Weapons",
   "range": 1,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "spectral bow": {
   "name": "Spectral Bow",
   "range": 5,
   "init": 2,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "spectral lance": {
   "name": "Spectral Lance",
   "range": 1,
   "init": 5,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "slumber": {
   "name": "Slumber",
   "range": 6,
   "init": 4,
   "type": "Sleep",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "touch of the moon": {
   "name": "Touch of the Moon",
   "range": 6,
   "init": 4,
   "type": "Sleep",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5,
+  "an": true
  },
  "obsidian clubsword": {
   "name": "Obsidian Clubsword",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 7
+  "dmg": 7,
+  "aoe": 0
  },
  "poison arrow": {
   "name": "Poison Arrow",
   "range": 5,
   "init": 4,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "disintegrate": {
   "name": "Disintegrate",
   "range": 8,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "mass command": {
   "name": "Mass Command",
   "range": 0,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 999
  },
  "enslave": {
   "name": "Enslave",
   "range": 10,
   "init": 4,
   "type": "Enslave",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
  },
  "bolt of unlife": {
   "name": "Bolt of Unlife",
   "range": 6,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "stellar bolt": {
   "name": "Stellar Bolt",
   "range": 12,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "boulder": {
   "name": "Boulder",
   "range": 16,
   "init": 1,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "boulders": {
   "name": "Boulders",
   "range": 20,
   "init": 1,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 3
  },
  "giant arrow": {
   "name": "Giant Arrow",
   "range": 12,
   "init": 1,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "encase in ice": {
   "name": "Encase in Ice",
   "range": 6,
   "init": 4,
   "type": "Cold",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5,
+  "an": true
  },
  "ice prison": {
   "name": "Ice Prison",
   "range": 6,
   "init": 4,
   "type": "Cold",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
  },
  "combustion": {
   "name": "Combustion",
   "range": 6,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -3
  },
  "lashes of pain": {
   "name": "Lashes of Pain",
   "range": 6,
   "init": 4,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -3
  },
  "black cloud": {
   "name": "Black Cloud",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "tendrils of death": {
   "name": "Tendrils of Death",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -7
  },
  "tangle vines": {
   "name": "Tangle Vines",
   "range": 6,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "spiked arm": {
   "name": "Spiked Arm",
   "range": 1,
   "init": 7,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "strength sap": {
   "name": "Strength Sap",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 3
  },
  "weakness": {
   "name": "Weakness",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "chill of the dead": {
   "name": "Chill of the Dead",
   "range": 10,
   "init": 4,
   "type": "Cold",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
  },
  "shade of death": {
   "name": "Shade of Death",
   "range": 0,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9999
  },
  "club of the ogre king": {
   "name": "Club of the Ogre King",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 10
+  "dmg": 10,
+  "aoe": 0
  },
  "sword of the damned": {
   "name": "Sword of the Damned",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 8
+  "dmg": 8,
+  "aoe": 0
  },
  "wind of silence": {
   "name": "Wind of Silence",
   "range": 6,
   "init": 1,
   "type": "Banish",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
  },
  "call spirits of the dead": {
   "name": "Call Spirits of the Dead",
   "range": 6,
   "init": 1,
   "type": "Banish",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
  },
  "row greater banishment": {
   "name": "Row Greater Banishment",
   "range": 6,
   "init": 1,
   "type": "Banish",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
  },
  "battle axe": {
   "name": "Battle Axe",
   "range": 1,
   "init": 3,
   "type": "Slash",
-  "dmg": 8
+  "dmg": 8,
+  "aoe": 0
  },
  "sickle sword": {
   "name": "Sickle Sword",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 0
  },
  "bane blade": {
   "name": "Bane Blade",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 10
+  "dmg": 10,
+  "aoe": 0
  },
  "stone sword": {
   "name": "Stone Sword",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 4
+  "dmg": 4,
+  "aoe": 0
  },
  "summon ancestor spirit": {
   "name": "Summon Ancestor Spirit",
   "range": 3,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "summon ancestral warrior": {
   "name": "Summon Ancestral Warrior",
   "range": 3,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "summon soulless": {
   "name": "Summon Soulless",
   "range": 3,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "call lightning": {
   "name": "Call Lightning",
   "range": 10,
   "init": 4,
   "type": "Shock",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -12,
+  "an": true
  },
  "poison bolts": {
   "name": "Poison Bolts",
   "range": 6,
   "init": 4,
   "type": "Poison",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -3,
+  "an": true
  },
  "water strike": {
   "name": "Water Strike",
   "range": 1,
   "init": 8,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "icy breath": {
   "name": "Icy Breath",
   "range": 1,
   "init": 7,
   "type": "Cold",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "poison spear": {
   "name": "Poison Spear",
   "range": 1,
   "init": 4,
   "type": "Pierce",
-  "dmg": 4
+  "dmg": 4,
+  "aoe": 0
  },
  "poison glaive": {
   "name": "Poison Glaive",
   "range": 1,
   "init": 5,
   "type": "Slash",
-  "dmg": 8
+  "dmg": 8,
+  "aoe": 0
  },
  "lightning strike": {
   "name": "Lightning Strike",
   "range": 10,
   "init": 8,
   "type": "Shock",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "wither": {
   "name": "Wither",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "curse of wood": {
   "name": "Curse of Wood",
   "range": 10,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
  },
  "poison explosion": {
   "name": "Poison Explosion",
   "range": 0,
   "init": 4,
   "type": "Poison",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
  },
  "fire explosion": {
   "name": "Fire Explosion",
   "range": 0,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "shard explosion": {
   "name": "Shard Explosion",
   "range": 0,
   "init": 4,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "putrid explosion": {
   "name": "Putrid Explosion",
   "range": 0,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "flail of pain": {
   "name": "Flail of Pain",
   "range": 1,
   "init": 4,
   "type": "Blunt",
-  "dmg": 10
+  "dmg": 10,
+  "aoe": 0
  },
  "snake": {
   "name": "Snake",
   "range": 1,
   "init": 5,
   "type": "Pierce",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "aff (morale resist)": {
   "name": "aff (morale resist)",
   "range": 1,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "snake hair": {
   "name": "Snake Hair",
   "range": 1,
   "init": 1,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "petrification": {
   "name": "Petrification",
   "range": 1,
   "init": 4,
   "type": "Petrify",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "granite spear": {
   "name": "Granite Spear",
   "range": 1,
   "init": 6,
   "type": "Blunt",
-  "dmg": 2
+  "dmg": 2,
+  "aoe": 0
  },
  "cloud of decay": {
   "name": "Cloud of Decay",
   "range": 2,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "infernal torch": {
   "name": "Infernal Torch",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 1
  },
  "mutation tentacle": {
   "name": "Mutation Tentacle",
   "range": 1,
   "init": 2,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "ghoul claw": {
   "name": "Ghoul Claw",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "mace of order": {
   "name": "Mace of Order",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 0
  },
  "strike of order": {
   "name": "Strike of Order",
   "range": 1,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 3
  },
  "hold": {
   "name": "Hold",
   "range": 6,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -3,
+  "an": true
  },
  "astral claw": {
   "name": "Astral Claw",
   "range": 1,
   "init": 5,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "astral hooks": {
   "name": "Astral Hooks",
   "range": 1,
   "init": 7,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "aff (mark - hardresist)": {
   "name": "aff (mark - hardresist)",
   "range": 10,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "slumbering army": {
   "name": "Slumbering Army",
   "range": 0,
   "init": 4,
   "type": "Sleep",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9998,
+  "an": true
  },
  "throw boulder": {
   "name": "Throw Boulder",
   "range": 6,
   "init": 1,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "mind blast": {
   "name": "Mind Blast",
   "range": 10,
   "init": 8,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "slumber of the stones": {
   "name": "Slumber of the Stones",
   "range": 10,
   "init": 4,
   "type": "Sleep",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 100,
+  "an": true
  },
  "summon monster toad": {
   "name": "Summon Monster Toad",
   "range": 0,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "summon frog": {
   "name": "Summon Frog",
   "range": 3,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "aff (earth, unresistable)": {
   "name": "aff (earth, unresistable)",
   "range": 6,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "dmg (earth, blunt+knockback)": {
   "name": "dmg (earth, blunt+knockback)",
   "range": 6,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "eruption": {
   "name": "Eruption",
   "range": 6,
   "init": 1,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "earthquake": {
   "name": "Earthquake",
   "range": 0,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9999
  },
  "earth meld": {
   "name": "Earth Meld",
   "range": 6,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9
  },
  "deluge": {
   "name": "Deluge",
   "range": 6,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "watery doom": {
   "name": "Watery Doom",
   "range": 10,
   "init": 1,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 100,
+  "an": true
  },
  "ben (one)": {
   "name": "ben (one)",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "ben (row)": {
   "name": "ben (row)",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "scepter": {
   "name": "Scepter",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 4
+  "dmg": 4,
+  "aoe": 0
  },
  "summon devil": {
   "name": "Summon Devil",
   "range": 3,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "branch": {
   "name": "Branch",
   "range": 1,
   "init": 1,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "rain of stones": {
   "name": "Rain of Stones",
   "range": 0,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9999
  },
  "hail storm": {
   "name": "Hail Storm",
   "range": 0,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9999
  },
  "poison vine": {
   "name": "Poison Vine",
   "range": 6,
   "init": 3,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "dmg (pierce iron)": {
   "name": "dmg (pierce iron)",
   "range": 6,
   "init": 4,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -7
  },
  "stone shards": {
   "name": "Stone Shards",
   "range": 6,
   "init": 0,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -3
  },
  "brass claw": {
   "name": "Brass Claw",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "black death (only enemies)": {
   "name": "Black Death (only enemies)",
   "range": 0,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 999
  },
  "promise for life": {
   "name": "Promise for Life",
   "range": 10,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "sleep cloud": {
   "name": "Sleep Cloud",
   "range": 6,
   "init": 4,
   "type": "Sleep",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5,
+  "an": true
  },
  "dread spell": {
   "name": "Dread Spell",
   "range": 10,
   "init": 4,
   "type": "Fear",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 100,
+  "an": true
  },
  "horns": {
   "name": "Horns",
   "range": 1,
   "init": 2,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "hypnotizing dance": {
   "name": "Hypnotizing Dance",
   "range": 5,
   "init": 1,
   "type": "Enslave",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "summon giant toad": {
   "name": "Summon Giant Toad",
   "range": 0,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "scepter of the goblin king": {
   "name": "Scepter of the Goblin King",
   "range": 1,
   "init": 4,
   "type": "Blunt",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 0
  },
  "strange hymn": {
   "name": "Strange Hymn",
   "range": 6,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "soul slay (+mr-paralyze)": {
   "name": "Soul Slay (+mr-paralyze)",
   "range": 10,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "star showers": {
   "name": "Star Showers",
   "range": 10,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -5,
+  "an": true
  },
  "mind vortex": {
   "name": "Mind Vortex",
   "range": 0,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9999
  },
  "summon mind slime horror": {
   "name": "Summon Mind Slime Horror",
   "range": 3,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "summon spine membrane horror": {
   "name": "Summon Spine Membrane Horror",
   "range": 3,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "summon float cat horror": {
   "name": "Summon Float Cat Horror",
   "range": 3,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "mind burn": {
   "name": "Mind Burn",
   "range": 10,
   "init": 8,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "star light": {
   "name": "Star Light",
   "range": 10,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "aff (easymr)": {
   "name": "aff (easymr)",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "words of the void": {
   "name": "Words of the Void",
   "range": 4,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -3
  },
  "a new way": {
   "name": "A New Way",
   "range": 10,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -7
  },
  "strange dimensions": {
   "name": "Strange Dimensions",
   "range": 0,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 998
  },
  "basalt pillar": {
   "name": "Basalt Pillar",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 18
+  "dmg": 18,
+  "aoe": 0
  },
  "icicle fist": {
   "name": "Icicle Fist",
   "range": 1,
   "init": 2,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "shard fist": {
   "name": "Shard Fist",
   "range": 1,
   "init": 2,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "massive boulder": {
   "name": "Massive Boulder",
   "range": 12,
   "init": 1,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "lashes of death": {
   "name": "Lashes of Death",
   "range": 6,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -3
  },
  "death (mr)": {
   "name": "death (mr)",
   "range": 6,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "summon small spider": {
   "name": "Summon Small Spider",
   "range": 10,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "vengeance": {
   "name": "Vengeance",
   "range": 8,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -2
  },
  "aff (unresistable)": {
   "name": "aff (unresistable)",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "blood burst": {
   "name": "Blood Burst",
   "range": 6,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "pillar of fire": {
   "name": "Pillar of Fire",
   "range": 8,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "shooting thorns": {
   "name": "Shooting Thorns",
   "range": 6,
   "init": 4,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -7
  },
  "summon fiery imp": {
   "name": "Summon Fiery Imp",
   "range": 3,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "summon succubus": {
   "name": "Summon Succubus",
   "range": 3,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "charm animal (easymr)": {
   "name": "Charm animal (easymr)",
   "range": 5,
   "init": 4,
   "type": "Charm",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -3,
+  "an": true
  },
  "deadly fumes": {
   "name": "Deadly Fumes",
   "range": 10,
   "init": 4,
   "type": "Poison",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 100,
+  "an": true
  },
  "vengeance of the sun": {
   "name": "Vengeance of the Sun",
   "range": 6,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "poison blowgun": {
   "name": "Poison Blowgun",
   "range": 3,
   "init": 2,
   "type": "Pierce",
-  "dmg": 1
+  "dmg": 1,
+  "aoe": 0
  },
  "shuriken": {
   "name": "Shuriken",
   "range": 3,
   "init": 7,
   "type": "Pierce",
-  "dmg": 2
+  "dmg": 2,
+  "aoe": -2
  },
  "armor": {
   "name": "armor",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "barkskin": {
   "name": "Barkskin",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "oak army": {
   "name": "Oak Army",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "tempest": {
   "name": "Tempest",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 10
+  "dmg": 10,
+  "aoe": 1
  },
  "magic staff": {
   "name": "Magic Staff",
   "range": 1,
   "init": 5,
   "type": "Blunt",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 0
  },
  "magic rod": {
   "name": "Magic Rod",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "chain": {
   "name": "Chain",
   "range": 1,
   "init": 5,
   "type": "Blunt",
-  "dmg": 4
+  "dmg": 4,
+  "aoe": 0
  },
  "tartarian chain": {
   "name": "Tartarian Chain",
   "range": 1,
   "init": 5,
   "type": "Blunt",
-  "dmg": 7
+  "dmg": 7,
+  "aoe": 0
  },
  "command": {
   "name": "Command",
   "range": 4,
   "init": 4,
   "type": "Enslave",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "syllable of death": {
   "name": "Syllable of Death",
   "range": 5,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "rising tide": {
   "name": "Rising Tide",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "minor water damage": {
   "name": "minor water damage",
   "range": 6,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "stream of water": {
   "name": "Stream of Water",
   "range": 6,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 3
  },
  "purify": {
   "name": "Purify",
   "range": 6,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -2
  },
  "tendril of darkness": {
   "name": "Tendril of Darkness",
   "range": 6,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "symbol of death": {
   "name": "Symbol of Death",
   "range": 10,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 100,
+  "an": true
  },
  "symbol of dread": {
   "name": "Symbol of Dread",
   "range": 10,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 100,
+  "an": true
  },
  "symbol of unlife": {
   "name": "Symbol of Unlife",
   "range": 10,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 100,
+  "an": true
  },
  "symbol of light": {
   "name": "Symbol of Light",
   "range": 10,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 100,
+  "an": true
  },
  "smite": {
   "name": "Smite",
   "range": 5,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "water stun": {
   "name": "water stun",
   "range": 6,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "iron shower": {
   "name": "Iron Shower",
   "range": 10,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "dagger of filth": {
   "name": "Dagger of Filth",
   "range": 1,
   "init": 2,
   "type": "Pierce",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "venom sword": {
   "name": "Venom Sword",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 7
+  "dmg": 7,
+  "aoe": 0
  },
  "morningstar of flames": {
   "name": "Morningstar of Flames",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 8
+  "dmg": 8,
+  "aoe": 0
  },
  "swallow": {
   "name": "Swallow",
   "range": 1,
   "init": 1,
   "type": "Acid",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "withering gaze": {
   "name": "Withering Gaze",
   "range": 10,
   "init": 10,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "enormous bite": {
   "name": "Enormous Bite",
   "range": 1,
   "init": 1,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "death scepter": {
   "name": "Death Scepter",
   "range": 1,
   "init": 2,
   "type": "Blunt",
-  "dmg": 35
+  "dmg": 35,
+  "aoe": 0,
+  "an": true
  },
  "hell's reign": {
   "name": "Hell's Reign",
   "range": 1,
   "init": 2,
   "type": "Blunt",
-  "dmg": 13
+  "dmg": 13,
+  "aoe": 0
  },
  "iron stinger": {
   "name": "Iron Stinger",
   "range": 1,
   "init": 3,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "mass corruption": {
   "name": "Mass Corruption",
   "range": 0,
   "init": 4,
   "type": "Corrupt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 999,
+  "an": true
  },
  "desert storm": {
   "name": "Desert Storm",
   "range": 0,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9999,
+  "an": true
  },
  "dehydration": {
   "name": "Dehydration",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "cause disease": {
   "name": "Cause Disease",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "obsidian club": {
   "name": "Obsidian Club",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 4
+  "dmg": 4,
+  "aoe": 0
  },
  "glaive": {
   "name": "Glaive",
   "range": 1,
   "init": 5,
   "type": "Slash",
-  "dmg": 7
+  "dmg": 7,
+  "aoe": 0
  },
  "magma bolt": {
   "name": "Magma Bolt",
   "range": 3,
   "init": 2,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "horror tentacle": {
   "name": "Horror Tentacle",
   "range": 1,
   "init": 3,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "mirror image": {
   "name": "Mirror Image",
   "range": 0,
   "init": 4,
   "type": "Mirrorimage",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "legion of stone": {
   "name": "Legion of Stone",
   "range": 0,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 998
  },
  "army of stone": {
   "name": "Army of Stone",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "fortitude": {
   "name": "Fortitude",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "ironskin": {
   "name": "Ironskin",
   "range": 0,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 998
  },
  "legion of steel": {
   "name": "Legion of Steel",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "soldiers of steel": {
   "name": "Soldiers of Steel",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "aff (mind+mr)": {
   "name": "aff (mind+mr)",
   "range": 6,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "sparks": {
   "name": "Sparks",
   "range": 8,
   "init": 4,
   "type": "Shock",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -2,
+  "an": true
  },
  "shooting shard": {
   "name": "Shooting Shard",
   "range": 4,
   "init": 2,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "killing sleep spores": {
   "name": "Killing Sleep Spores",
   "range": 3,
   "init": 1,
   "type": "Poison",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5,
+  "an": true
  },
  "sleep spores": {
   "name": "Sleep Spores",
   "range": 2,
   "init": 1,
   "type": "Sleep",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "pick axe": {
   "name": "Pick Axe",
   "range": 1,
   "init": 3,
   "type": "Pierce",
-  "dmg": 7
+  "dmg": 7,
+  "aoe": 0
  },
  "arbalest": {
   "name": "Arbalest",
   "range": 7,
   "init": 1,
   "type": "Pierce",
-  "dmg": 10
+  "dmg": 10,
+  "aoe": 0
  },
  "strength, aoe 3": {
   "name": "strength, aoe 3",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 3
  },
  "strength, row": {
   "name": "strength, row",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "nightmares": {
   "name": "Nightmares",
   "range": 10,
   "init": 4,
   "type": "Fear",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 100,
+  "an": true
  },
  "scourging wind": {
   "name": "Scourging Wind",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
  },
  "engulf": {
   "name": "Engulf",
   "range": 1,
   "init": 1,
   "type": "Swallow",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "smokeless flame": {
   "name": "Smokeless Flame",
   "range": 8,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "incinerate": {
   "name": "Incinerate",
   "range": 6,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "flame pillars": {
   "name": "Flame Pillars",
   "range": 6,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -3
  },
  "confusion": {
   "name": "Confusion",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "cloud of confusion": {
   "name": "Cloud of Confusion",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9
  },
  "mist of confusion": {
   "name": "Mist of Confusion",
   "range": 10,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "mental overload": {
   "name": "Mental Overload",
   "range": 8,
   "init": 1,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -4
  },
  "lunar brilliance": {
   "name": "Lunar Brilliance",
   "range": 10,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
  },
  "moonlight": {
   "name": "Moonlight",
   "range": 10,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "moonbeams": {
   "name": "Moonbeams",
   "range": 10,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
  },
  "acid breath": {
   "name": "Acid Breath",
   "range": 1,
   "init": 4,
   "type": "Acid",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "stone axe": {
   "name": "Stone Axe",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 0
  },
  "decay": {
   "name": "Decay",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "gift of death": {
   "name": "Gift of Death",
   "range": 10,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "rain of blood": {
   "name": "Rain of Blood",
   "range": 0,
   "init": 4,
   "type": "Fear",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9999,
+  "an": true
  },
  "divine aura": {
   "name": "Divine Aura",
   "range": 6,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9
  },
  "summon murder of crows": {
   "name": "Summon Murder Of Crows",
   "range": 10,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "summon great boar": {
   "name": "Summon Great Boar",
   "range": 0,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "summon scorpion": {
   "name": "Summon Scorpion",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "summon large spider": {
   "name": "Summon Large Spider",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "magic sword": {
   "name": "Magic Sword",
   "range": 1,
   "init": 5,
   "type": "Slash",
-  "dmg": 7
+  "dmg": 7,
+  "aoe": 0
  },
  "soul vortex": {
   "name": "Soul Vortex",
   "range": 5,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
  },
  "mortal terror": {
   "name": "Mortal Terror",
   "range": 0,
   "init": 10,
   "type": "Fear",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 999,
+  "an": true
  },
  "cold touch": {
   "name": "Cold Touch",
   "range": 1,
   "init": 3,
   "type": "Cold",
-  "dmg": 4
+  "dmg": 4,
+  "aoe": 0,
+  "an": true
  },
  "shock aura": {
   "name": "Shock Aura",
   "range": 1,
   "init": 4,
   "type": "Shock",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "gaze of midas": {
   "name": "Gaze of Midas",
   "range": 10,
   "init": 10,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 3
  },
  "harm": {
   "name": "Harm",
   "range": 8,
   "init": 1,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "tail sweep": {
   "name": "Tail Sweep",
   "range": 1,
   "init": 1,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "dragon terror": {
   "name": "Dragon Terror",
   "range": 0,
   "init": 10,
   "type": "Fear",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9999,
+  "an": true
  },
  "color spray": {
   "name": "Color Spray",
   "range": 8,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5,
+  "an": true
  },
  "aff (mr+huge)": {
   "name": "aff (mr+huge)",
   "range": 1,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "rune axe": {
   "name": "Rune Axe",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 13
+  "dmg": 13,
+  "aoe": 0
  },
  "rune sword": {
   "name": "Rune Sword",
   "range": 1,
   "init": 5,
   "type": "Slash",
-  "dmg": 8
+  "dmg": 8,
+  "aoe": 0
  },
  "wave of pus": {
   "name": "Wave of Pus",
   "range": 1,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "curses": {
   "name": "Curses",
   "range": 16,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -15
  },
  "crush": {
   "name": "Crush",
   "range": 1,
   "init": 7,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "total confusion": {
   "name": "Total Confusion",
   "range": 0,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9999
  },
  "conversion": {
   "name": "Conversion",
   "range": 5,
   "init": 4,
   "type": "Charm",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "mass conversion": {
   "name": "Mass Conversion",
   "range": 5,
   "init": 4,
   "type": "Charm",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
  },
  "true faith": {
   "name": "True Faith",
   "range": 5,
   "init": 4,
   "type": "Charm",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
  },
  "heavenly horn": {
   "name": "Heavenly Horn",
   "range": 5,
   "init": 2,
   "type": "Blunt",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 5,
+  "an": true
  },
  "poison mist": {
   "name": "Poison Mist",
   "range": 8,
   "init": 4,
   "type": "Poison",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
  },
  "mass combustion": {
   "name": "Mass Combustion",
   "range": 10,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 50
  },
  "iron spear": {
   "name": "Iron Spear",
   "range": 6,
   "init": 4,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "iron shard": {
   "name": "Iron Shard",
   "range": 6,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -3
  },
  "large sword": {
   "name": "Large Sword",
   "range": 1,
   "init": 5,
   "type": "Slash",
-  "dmg": 10
+  "dmg": 10,
+  "aoe": 0
  },
  "bolts of unlife": {
   "name": "Bolts of Unlife",
   "range": 6,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -9,
+  "an": true
  },
  "summon giant locust": {
   "name": "Summon Giant Locust",
   "range": 0,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "starvation": {
   "name": "Starvation",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
  },
  "soul scythe": {
   "name": "Soul Scythe",
   "range": 1,
   "init": 5,
   "type": "Slash",
-  "dmg": 9
+  "dmg": 9,
+  "aoe": 0
  },
  "war rally": {
   "name": "War Rally",
   "range": 6,
   "init": 1,
   "type": "Charm",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
  },
  "mist of disease": {
   "name": "Mist of Disease",
   "range": 0,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9999,
+  "an": true
  },
  "lesser smite": {
   "name": "Lesser Smite",
   "range": 5,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "god flesh": {
   "name": "God Flesh",
   "range": 0,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "divine flames": {
   "name": "Divine Flames",
   "range": 5,
   "init": 8,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -2,
+  "an": true
  },
  "sleep touch": {
   "name": "Sleep Touch",
   "range": 1,
   "init": 3,
   "type": "Sleep",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "lesser flame strike": {
   "name": "Lesser Flame Strike",
   "range": 1,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "alicorn": {
   "name": "Alicorn",
   "range": 1,
   "init": 5,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "pincer": {
   "name": "Pincer",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "frost branded battle axe": {
   "name": "Frost Branded Battle Axe",
   "range": 1,
   "init": 3,
   "type": "Slash",
-  "dmg": 9
+  "dmg": 9,
+  "aoe": 0
  },
  "frost branded sword": {
   "name": "Frost Branded Sword",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 6
+  "dmg": 6,
+  "aoe": 0
  },
  "flame branded battle axe": {
   "name": "Flame Branded Battle Axe",
   "range": 1,
   "init": 3,
   "type": "Slash",
-  "dmg": 9
+  "dmg": 9,
+  "aoe": 0
  },
  "flame branded sword": {
   "name": "Flame Branded Sword",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 6
+  "dmg": 6,
+  "aoe": 0
  },
  "earth branded battle axe": {
   "name": "Earth Branded Battle Axe",
   "range": 1,
   "init": 3,
   "type": "Slash",
-  "dmg": 9
+  "dmg": 9,
+  "aoe": 0
  },
  "earth branded sword": {
   "name": "Earth Branded Sword",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 6
+  "dmg": 6,
+  "aoe": 0
  },
  "rime branded arbalest": {
   "name": "Rime Branded Arbalest",
   "range": 7,
   "init": 1,
   "type": "Pierce",
-  "dmg": 10
+  "dmg": 10,
+  "aoe": 0
  },
  "flame branded arbalest": {
   "name": "Flame Branded Arbalest",
   "range": 7,
   "init": 1,
   "type": "Pierce",
-  "dmg": 10
+  "dmg": 10,
+  "aoe": 0
  },
  "earth branded arbalest": {
   "name": "Earth Branded Arbalest",
   "range": 7,
   "init": 1,
   "type": "Pierce",
-  "dmg": 10
+  "dmg": 10,
+  "aoe": 0
  },
  "aff (mr-resistable)": {
   "name": "aff (mr-resistable)",
   "range": 1,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "entangle": {
   "name": "Entangle",
   "range": 1,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 3
  },
  "reanimating bite": {
   "name": "Reanimating Bite",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 0
  },
  "poison claw": {
   "name": "Poison Claw",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "barbed tail": {
   "name": "Barbed Tail",
   "range": 1,
   "init": 1,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "serpent skirt": {
   "name": "Serpent Skirt",
   "range": 1,
   "init": 1,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "giant rime branded arrow": {
   "name": "Giant Rime Branded Arrow",
   "range": 12,
   "init": 1,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "cold blast": {
   "name": "Cold Blast",
   "range": 1,
   "init": 4,
   "type": "Cold",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 3,
+  "an": true
  },
  "giant flame branded arrow": {
   "name": "Giant Flame Branded Arrow",
   "range": 12,
   "init": 1,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "fire blast": {
   "name": "Fire Blast",
   "range": 1,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 3
  },
  "giant earth branded arrow": {
   "name": "Giant Earth Branded Arrow",
   "range": 12,
   "init": 1,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "earth blast": {
   "name": "Earth Blast",
   "range": 1,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "mesmerize": {
   "name": "Mesmerize",
   "range": 4,
   "init": 1,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "release phantasm": {
   "name": "Release Phantasm",
   "range": 4,
   "init": 1,
   "type": "Phantasm",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "phantasmal bow": {
   "name": "Phantasmal Bow",
   "range": 5,
   "init": 2,
   "type": "Pierce",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "phantasmal dagger": {
   "name": "Phantasmal Dagger",
   "range": 1,
   "init": 2,
   "type": "Pierce",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "phantasmal sword": {
   "name": "Phantasmal Sword",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 6
+  "dmg": 6,
+  "aoe": 0
  },
  "phantasmal spear": {
   "name": "Phantasmal Spear",
   "range": 1,
   "init": 6,
   "type": "Pierce",
-  "dmg": 4
+  "dmg": 4,
+  "aoe": 0
  },
  "phantasmal halberd": {
   "name": "Phantasmal Halberd",
   "range": 1,
   "init": 5,
   "type": "Slash",
-  "dmg": 8
+  "dmg": 8,
+  "aoe": 0
  },
  "phantasmal greatsword": {
   "name": "Phantasmal Greatsword",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 9
+  "dmg": 9,
+  "aoe": 0
  },
  "phantasmal pike": {
   "name": "Phantasmal Pike",
   "range": 2,
   "init": 2,
   "type": "Pierce",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 0
  },
  "phantasmal lance": {
   "name": "Phantasmal Lance",
   "range": 1,
   "init": 5,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "phantasmal hoof": {
   "name": "Phantasmal Hoof",
   "range": 1,
   "init": 2,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "phantasmal bite": {
   "name": "Phantasmal Bite",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "phantasmal claw": {
   "name": "Phantasmal Claw",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "phantasmal gore": {
   "name": "Phantasmal Gore",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "phantasmal horns": {
   "name": "Phantasmal Horns",
   "range": 1,
   "init": 2,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "phantasmal antlers": {
   "name": "Phantasmal Antlers",
   "range": 1,
   "init": 3,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "phantasmal tentacle": {
   "name": "Phantasmal Tentacle",
   "range": 1,
   "init": 2,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "phantasmal burst": {
   "name": "Phantasmal Burst",
   "range": 6,
   "init": 8,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "phantasmal blast": {
   "name": "Phantasmal Blast",
   "range": 6,
   "init": 8,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 3
  },
  "phantasmal flames": {
   "name": "Phantasmal Flames",
   "range": 6,
   "init": 8,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "phantasmal great club": {
   "name": "Phantasmal Great Club",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "phantasmal axe": {
   "name": "Phantasmal Axe",
   "range": 1,
   "init": 3,
   "type": "Slash",
-  "dmg": 7
+  "dmg": 7,
+  "aoe": 0
  },
  "phantasmal missile": {
   "name": "Phantasmal Missile",
   "range": 5,
   "init": 2,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "phantasmal sting": {
   "name": "Phantasmal Sting",
   "range": 1,
   "init": 3,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "beam of light": {
   "name": "Beam of Light",
   "range": 8,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "serpent club": {
   "name": "Serpent Club",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 7
+  "dmg": 7,
+  "aoe": 0
  },
  "strong venomous phase bite": {
   "name": "Strong Venomous Phase Bite",
   "range": 2,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "phantasmal death": {
   "name": "Phantasmal Death",
   "range": 8,
   "init": 10,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "lashes of darkness": {
   "name": "Lashes of Darkness",
   "range": 6,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -5,
+  "an": true
  },
  "illusory bow": {
   "name": "Illusory Bow",
   "range": 5,
   "init": 2,
   "type": "Pierce",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "illusory dagger": {
   "name": "Illusory Dagger",
   "range": 1,
   "init": 2,
   "type": "Pierce",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "illusory sword": {
   "name": "Illusory Sword",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 6
+  "dmg": 6,
+  "aoe": 0
  },
  "illusory spear": {
   "name": "Illusory Spear",
   "range": 1,
   "init": 6,
   "type": "Pierce",
-  "dmg": 4
+  "dmg": 4,
+  "aoe": 0
  },
  "illusory halberd": {
   "name": "Illusory Halberd",
   "range": 1,
   "init": 5,
   "type": "Slash",
-  "dmg": 8
+  "dmg": 8,
+  "aoe": 0
  },
  "illusory greatsword": {
   "name": "Illusory Greatsword",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 9
+  "dmg": 9,
+  "aoe": 0
  },
  "illusory pike": {
   "name": "Illusory Pike",
   "range": 2,
   "init": 2,
   "type": "Pierce",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 0
  },
  "illusory lance": {
   "name": "Illusory Lance",
   "range": 1,
   "init": 5,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "illusory hoof": {
   "name": "Illusory Hoof",
   "range": 1,
   "init": 2,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "illusory bite": {
   "name": "Illusory Bite",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "illusory claw": {
   "name": "Illusory Claw",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "illusory gore": {
   "name": "Illusory Gore",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "illusory horns": {
   "name": "Illusory Horns",
   "range": 1,
   "init": 2,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "illusory antlers": {
   "name": "Illusory Antlers",
   "range": 1,
   "init": 3,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "illusory tentacle": {
   "name": "Illusory Tentacle",
   "range": 1,
   "init": 2,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "illusory burst": {
   "name": "Illusory Burst",
   "range": 6,
   "init": 8,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "illusory blast": {
   "name": "Illusory Blast",
   "range": 6,
   "init": 8,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 3
  },
  "illusory flames": {
   "name": "Illusory Flames",
   "range": 6,
   "init": 8,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "illusory great club": {
   "name": "Illusory Great Club",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "illusory axe": {
   "name": "Illusory Axe",
   "range": 1,
   "init": 3,
   "type": "Slash",
-  "dmg": 7
+  "dmg": 7,
+  "aoe": 0
  },
  "illusory missile": {
   "name": "Illusory Missile",
   "range": 5,
   "init": 2,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "illusory sting": {
   "name": "Illusory Sting",
   "range": 1,
   "init": 3,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "illusory death": {
   "name": "Illusory Death",
   "range": 8,
   "init": 10,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "ghost rending claw": {
   "name": "Ghost Rending Claw",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "mancatcher": {
   "name": "Mancatcher",
   "range": 1,
   "init": 5,
   "type": "Pierce",
-  "dmg": 2
+  "dmg": 2,
+  "aoe": 0
  },
  "ghost shackles": {
   "name": "Ghost Shackles",
   "range": 1,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "words of sacrilege": {
   "name": "Words of Sacrilege",
   "range": 3,
   "init": 1,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "golden torc": {
   "name": "Golden Torc",
   "range": 1,
   "init": 4,
   "type": "Blunt",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "magic spear": {
   "name": "Magic Spear",
   "range": 1,
   "init": 7,
   "type": "Pierce",
-  "dmg": 6
+  "dmg": 6,
+  "aoe": 0
  },
  "horn of the hunt": {
   "name": "Horn of the Hunt",
   "range": 4,
   "init": 2,
   "type": "Fear",
-  "dmg": 8
+  "dmg": 8,
+  "aoe": 25,
+  "an": true
  },
  "prismatic light": {
   "name": "Prismatic Light",
   "range": 8,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -10,
+  "an": true
  },
  "disease spell": {
   "name": "Disease Spell",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "word of power": {
   "name": "Word of Power",
   "range": 4,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "terror": {
   "name": "Terror",
   "range": 10,
   "init": 4,
   "type": "Fear",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
  },
  "acid blood": {
   "name": "Acid Blood",
   "range": 1,
   "init": 4,
   "type": "Acid",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "bane fire decay": {
   "name": "Bane Fire Decay",
   "range": 1,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9
  },
  "bane vortex decay": {
   "name": "Bane Vortex Decay",
   "range": 1,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 3
  },
  "invulnerability": {
   "name": "Invulnerability",
   "range": 0,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "acid": {
   "name": "Acid",
   "range": 1,
   "init": 4,
   "type": "Acid",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "acid dart": {
   "name": "Acid Dart",
   "range": 6,
   "init": 4,
   "type": "Acid",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -2,
+  "an": true
  },
  "acid spray": {
   "name": "Acid Spray",
   "range": 5,
   "init": 4,
   "type": "Acid",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 2010,
+  "an": true
  },
  "acid cloud": {
   "name": "Acid Cloud",
   "range": 6,
   "init": 4,
   "type": "Acid",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
  },
  "acid mist": {
   "name": "Acid Mist",
   "range": 8,
   "init": 4,
   "type": "Acid",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
  },
  "acid rain": {
   "name": "Acid Rain",
   "range": 8,
   "init": 4,
   "type": "Acid",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
  },
  "acid storm": {
   "name": "Acid Storm",
   "range": 0,
   "init": 4,
   "type": "Acid",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9999,
+  "an": true
  },
  "shock field": {
   "name": "Shock Field",
   "range": 4,
   "init": 4,
   "type": "Shock",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 3,
+  "an": true
  },
  "lightning bolt": {
   "name": "Lightning Bolt",
   "range": 6,
   "init": 4,
   "type": "Shock",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5005,
+  "an": true
  },
  "thunder strike": {
   "name": "Thunder Strike",
   "range": 15,
   "init": 4,
   "type": "Shock",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "small poison bow": {
   "name": "Small Poison Bow",
   "range": 4,
   "init": 2,
   "type": "Pierce",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "regeneration": {
   "name": "Regeneration",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "hydra's blessing": {
   "name": "Hydra's Blessing",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "mass regeneration": {
   "name": "Mass Regeneration",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "army of antaeus": {
   "name": "Army of Antaeus",
   "range": 0,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 998
  },
  "great club": {
   "name": "Great Club",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 7
+  "dmg": 7,
+  "aoe": 0
  },
  "shadow form": {
   "name": "Shadow Form",
   "range": 6,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "shade warriors": {
   "name": "Shade Warriors",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "army of darkness": {
   "name": "Army of Darkness",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "fire shield": {
   "name": "Fire Shield",
   "range": 6,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "soldiers of flame": {
   "name": "Soldiers of Flame",
   "range": 6,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "army of flames": {
   "name": "Army of Flames",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "resist magic": {
   "name": "Resist Magic",
   "range": 6,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "antimagic": {
   "name": "Antimagic",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "hellbind heart": {
   "name": "Hellbind Heart",
   "range": 6,
   "init": 8,
   "type": "Enslave",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "invade mind": {
   "name": "Invade Mind",
   "range": 10,
   "init": 8,
   "type": "Enslave",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "bloodletting": {
   "name": "Bloodletting",
   "range": 0,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9999
  },
  "bones of stone": {
   "name": "Bones of Stone",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "stygian skin": {
   "name": "Stygian Skin",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "air shield": {
   "name": "Air Shield",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "iron bolts": {
   "name": "Iron Bolts",
   "range": 6,
   "init": 0,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -5
  },
  "maws of the earth": {
   "name": "Maws of the Earth",
   "range": 6,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 7005,
+  "an": true
  },
  "maws of the earth (grip)": {
   "name": "Maws of the Earth (grip)",
   "range": 6,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "maws of the earth (fire)": {
   "name": "Maws of the Earth (fire)",
   "range": 6,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "protective winds": {
   "name": "Protective Winds",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 20
  },
  "friendly storm": {
   "name": "Friendly Storm",
   "range": 0,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 998
  },
  "strength of the earth": {
   "name": "Strength of the Earth",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "venomous death bite": {
   "name": "Venomous Death Bite",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "flames": {
   "name": "Flames",
   "range": 6,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 3
  },
  "vine arrow": {
   "name": "Vine Arrow",
   "range": 5,
   "init": 4,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "poison darts": {
   "name": "Poison Darts",
   "range": 6,
   "init": 4,
   "type": "Poison",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -9,
+  "an": true
  },
  "bewilderment": {
   "name": "Bewilderment",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -6
  },
  "web": {
   "name": "Web",
   "range": 3,
   "init": 2,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "corrosive bite": {
   "name": "Corrosive Bite",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "acid spit": {
   "name": "Acid Spit",
   "range": 3,
   "init": 2,
   "type": "Acid",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "elemental resistance": {
   "name": "Elemental Resistance",
   "range": 6,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 3
  },
  "golden bow": {
   "name": "Golden Bow",
   "range": 8,
   "init": 2,
   "type": "Pierce",
-  "dmg": 6
+  "dmg": 6,
+  "aoe": 0
  },
  "magic scepter": {
   "name": "Magic Scepter",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 4
+  "dmg": 4,
+  "aoe": 0
  },
  "call the dead": {
   "name": "Call the Dead",
   "range": 0,
   "init": 1,
   "type": "Banish",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9999,
+  "an": true
  },
  "divine names": {
   "name": "Divine Names",
   "range": 10,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -7
  },
  "flesh is stronger": {
   "name": "Flesh is Stronger",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "blessing": {
   "name": "Blessing",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9
  },
  "carnyx horn": {
   "name": "Carnyx Horn",
   "range": 3,
   "init": 2,
   "type": "Fear",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 3006,
+  "an": true
  },
  "hoburg pike": {
   "name": "Hoburg Pike",
   "range": 1,
   "init": 7,
   "type": "Pierce",
-  "dmg": 4
+  "dmg": 4,
+  "aoe": 0
  },
  "lucerne hammer": {
   "name": "Lucerne Hammer",
   "range": 1,
   "init": 5,
   "type": "Pierce",
-  "dmg": 7
+  "dmg": 7,
+  "aoe": 0
  },
  "horrible howl": {
   "name": "Horrible Howl",
   "range": 3,
   "init": 2,
   "type": "Fear",
-  "dmg": 7
+  "dmg": 7,
+  "aoe": 3006,
+  "an": true
  },
  "pillar": {
   "name": "Pillar",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 18
+  "dmg": 18,
+  "aoe": 1
  },
  "death blade": {
   "name": "Death Blade",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 12
+  "dmg": 12,
+  "aoe": 0
  },
  "petrifying fist": {
   "name": "Petrifying Fist",
   "range": 1,
   "init": 2,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "bane fire bow": {
   "name": "Bane Fire Bow",
   "range": 5,
   "init": 2,
   "type": "Pierce",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "ghoul hammer": {
   "name": "Ghoul Hammer",
   "range": 1,
   "init": 5,
   "type": "Pierce",
-  "dmg": 7
+  "dmg": 7,
+  "aoe": 0
  },
  "throw flames": {
   "name": "Throw Flames",
   "range": 3,
   "init": 2,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "throw frost": {
   "name": "Throw Frost",
   "range": 3,
   "init": 2,
   "type": "Cold",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "frost strike": {
   "name": "Frost Strike",
   "range": 1,
   "init": 4,
   "type": "Cold",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "wall of torment": {
   "name": "Wall of Torment",
   "range": 1,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "aff (mr+living only)": {
   "name": "aff (mr+living only)",
   "range": 8,
   "init": 3,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "fool's laughter": {
   "name": "Fool's Laughter",
   "range": 4,
   "init": 8,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "summon dragonfly": {
   "name": "Summon Dragonfly",
   "range": 10,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "axe of sharpness": {
   "name": "Axe of Sharpness",
   "range": 1,
   "init": 3,
   "type": "Slash",
-  "dmg": 12
+  "dmg": 12,
+  "aoe": 0,
+  "an": true
  },
  "club of dreams": {
   "name": "Club of Dreams",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 0
  },
  "golden sickle": {
   "name": "Golden Sickle",
   "range": 1,
   "init": 6,
   "type": "Slash",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "terrain poison": {
   "name": "Terrain Poison",
   "range": 1,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "wraithsword": {
   "name": "Wraithsword",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 10
+  "dmg": 10,
+  "aoe": 0
  },
  "moon blade": {
   "name": "Moon Blade",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 10
+  "dmg": 10,
+  "aoe": 0
  },
  "moon lance": {
   "name": "Moon Lance",
   "range": 1,
   "init": 6,
   "type": "Pierce",
-  "dmg": 7
+  "dmg": 7,
+  "aoe": 0
  },
  "soul rend": {
   "name": "Soul Rend",
   "range": 1,
   "init": 1,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "mind tentacles": {
   "name": "Mind Tentacles",
   "range": 4,
   "init": 1,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 3010,
+  "an": true
  },
  "mind tentacles paralyze": {
   "name": "Mind Tentacles Paralyze",
   "range": 1,
   "init": 1,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "life drain tentacle": {
   "name": "Life Drain Tentacle",
   "range": 1,
   "init": 7,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "coral glaive": {
   "name": "Coral Glaive",
   "range": 1,
   "init": 5,
   "type": "Slash",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 0
  },
  "lightning storm": {
   "name": "Lightning Storm",
   "range": 10,
   "init": 4,
   "type": "Shock",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9212,
+  "an": true
  },
  "area shock": {
   "name": "Area Shock",
   "range": 1,
   "init": 4,
   "type": "Shock",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 6,
+  "an": true
  },
  "dreamless sleep": {
   "name": "Dreamless Sleep",
   "range": 0,
   "init": 4,
   "type": "Sleep",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9998,
+  "an": true
  },
  "dream seduction": {
   "name": "Dream Seduction",
   "range": 1,
   "init": 4,
   "type": "Charm",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "magic greatsword": {
   "name": "Magic Greatsword",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 12
+  "dmg": 12,
+  "aoe": 0
  },
  "athame": {
   "name": "Athame",
   "range": 1,
   "init": 2,
   "type": "Pierce",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 0
  },
  "sword of war": {
   "name": "Sword of War",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 14
+  "dmg": 14,
+  "aoe": 0
  },
  "massive hammer": {
   "name": "Massive Hammer",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 8
+  "dmg": 8,
+  "aoe": 0
  },
  "minor earthquake": {
   "name": "Minor Earthquake",
   "range": 0,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 8
  },
  "iron claw": {
   "name": "Iron Claw",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "magic bident": {
   "name": "Magic Bident",
   "range": 1,
   "init": 7,
   "type": "Pierce",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 0
  },
  "disease cloud": {
   "name": "Disease Cloud",
   "range": 1,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "mind explosion": {
   "name": "Mind Explosion",
   "range": 0,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "energy beam": {
   "name": "Energy Beam",
   "range": 5,
   "init": 8,
   "type": "Shock",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1005,
+  "an": true
  },
  "pseudopod strike": {
   "name": "Pseudopod Strike",
   "range": 1,
   "init": 8,
   "type": "Acid",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "paralyzing scream": {
   "name": "Paralyzing Scream",
   "range": 3,
   "init": 8,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 4006,
+  "an": true
  },
  "shovel": {
   "name": "Shovel",
   "range": 1,
   "init": 5,
   "type": "Blunt",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "sledge hammer": {
   "name": "Sledge Hammer",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 7
+  "dmg": 7,
+  "aoe": 0
  },
  "broom": {
   "name": "Broom",
   "range": 1,
   "init": 5,
   "type": "Blunt",
-  "dmg": 1
+  "dmg": 1,
+  "aoe": 0
  },
  "bucket of water": {
   "name": "Bucket of Water",
   "range": 1,
   "init": 1,
   "type": "Blunt",
-  "dmg": 1
+  "dmg": 1,
+  "aoe": 0
  },
  "shove": {
   "name": "Shove",
   "range": 1,
   "init": 2,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "stellar maw": {
   "name": "Stellar Maw",
   "range": 1,
   "init": 2,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "magic trident": {
   "name": "Magic Trident",
   "range": 1,
   "init": 6,
   "type": "Pierce",
-  "dmg": 9
+  "dmg": 9,
+  "aoe": 0
  },
  "foul bite": {
   "name": "Foul Bite",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "pearl trident": {
   "name": "Pearl Trident",
   "range": 1,
   "init": 5,
   "type": "Pierce",
-  "dmg": 8
+  "dmg": 8,
+  "aoe": 0
  },
  "cudgel": {
   "name": "Cudgel",
   "range": 1,
   "init": 2,
   "type": "Blunt",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 0
  },
  "magma axe": {
   "name": "Magma Axe",
   "range": 1,
   "init": 3,
   "type": "Slash",
-  "dmg": 7
+  "dmg": 7,
+  "aoe": 0
  },
  "mist dagger": {
   "name": "Mist Dagger",
   "range": 1,
   "init": 2,
   "type": "Pierce",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "mist bow": {
   "name": "Mist Bow",
   "range": 6,
   "init": 2,
   "type": "Pierce",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "ember dagger": {
   "name": "Ember Dagger",
   "range": 1,
   "init": 2,
   "type": "Pierce",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "ember crossbow": {
   "name": "Ember Crossbow",
   "range": 6,
   "init": 2,
   "type": "Pierce",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 0
  },
  "copper feathers": {
   "name": "Copper Feathers",
   "range": 1,
   "init": 8,
   "type": "Pierce",
-  "dmg": 4
+  "dmg": 4,
+  "aoe": 3
  },
  "poison vine growth": {
   "name": "Poison Vine Growth",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "mace of pain": {
   "name": "Mace of Pain",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 6
+  "dmg": 6,
+  "aoe": 0
  },
  "extra pain": {
   "name": "Extra Pain",
   "range": 1,
   "init": 1,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "soldiers of gold": {
   "name": "Soldiers of Gold",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 10
  },
  "scourge sword": {
   "name": "Scourge Sword",
   "range": 1,
   "init": 5,
   "type": "Slash",
-  "dmg": 7
+  "dmg": 7,
+  "aoe": 0
  },
  "head-butt": {
   "name": "Head-Butt",
   "range": 1,
   "init": 1,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "ice lance": {
   "name": "Ice Lance",
   "range": 1,
   "init": 6,
   "type": "Pierce",
-  "dmg": 4
+  "dmg": 4,
+  "aoe": 0
  },
  "dawn blade": {
   "name": "Dawn Blade",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 6
+  "dmg": 6,
+  "aoe": 0
  },
  "ice blade": {
   "name": "Ice Blade",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 6
+  "dmg": 6,
+  "aoe": 0
  },
  "shatter soul": {
   "name": "Shatter Soul",
   "range": 1,
   "init": 2,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "unmake soul": {
   "name": "Unmake Soul",
   "range": 1,
   "init": 2,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "depetrification": {
   "name": "Depetrification",
   "range": 1,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "immolation aura": {
   "name": "Immolation Aura",
   "range": 6,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "flaming sword": {
   "name": "Flaming Sword",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 10
+  "dmg": 10,
+  "aoe": 0
  },
  "scourge flames": {
   "name": "Scourge Flames",
   "range": 1,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "scourge aura": {
   "name": "Scourge Aura",
   "range": 1,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "scourge flame decay": {
   "name": "Scourge Flame Decay",
   "range": 1,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "whip": {
   "name": "Whip",
   "range": 1,
   "init": 5,
   "type": "Slash",
-  "dmg": 1
+  "dmg": 1,
+  "aoe": 0
  },
  "confusion aura": {
   "name": "Confusion Aura",
   "range": 6,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "dark cloud": {
   "name": "Dark Cloud",
   "range": 6,
   "init": 4,
   "type": "Magic",
-  "dmg": 4
+  "dmg": 4,
+  "aoe": 4,
+  "an": true
  },
  "swiftness": {
   "name": "Swiftness",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "quickening": {
   "name": "Quickening",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9
  },
  "haste": {
   "name": "Haste",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "quicken army": {
   "name": "Quicken Army",
   "range": 0,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 998
  },
  "oakbane axe": {
   "name": "Oakbane Axe",
   "range": 1,
   "init": 3,
   "type": "Slash",
-  "dmg": 15
+  "dmg": 15,
+  "aoe": 0,
+  "an": true
  },
  "animate tree": {
   "name": "Animate Tree",
   "range": 6,
   "init": 4,
   "type": "Animate",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "animate forest": {
   "name": "Animate Forest",
   "range": 0,
   "init": 4,
   "type": "Animate",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9996,
+  "an": true
  },
  "animate mushroom": {
   "name": "Animate Mushroom",
   "range": 6,
   "init": 4,
   "type": "Animate",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "animate swamp": {
   "name": "Animate Swamp",
   "range": 0,
   "init": 4,
   "type": "Animate",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9996,
+  "an": true
  },
  "magic stones": {
   "name": "Magic Stones",
   "range": 6,
   "init": 4,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -2
  },
  "lightning spear": {
   "name": "Lightning Spear",
   "range": 1,
   "init": 6,
   "type": "Pierce",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 0
  },
  "indomitability": {
   "name": "Indomitability",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "ink pot": {
   "name": "Ink Pot",
   "range": 1,
   "init": 1,
   "type": "Blunt",
-  "dmg": 1
+  "dmg": 1,
+  "aoe": 0
  },
  "flapping scroll": {
   "name": "Flapping Scroll",
   "range": 1,
   "init": 1,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "sharp quill": {
   "name": "Sharp Quill",
   "range": 1,
   "init": 1,
   "type": "Pierce",
-  "dmg": 1
+  "dmg": 1,
+  "aoe": 0
  },
  "sharp pencil": {
   "name": "Sharp Pencil",
   "range": 1,
   "init": 1,
   "type": "Pierce",
-  "dmg": 1
+  "dmg": 1,
+  "aoe": 0
  },
  "toughness": {
   "name": "Toughness",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "sailor's death": {
   "name": "Sailor's Death",
   "range": 6,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "flaming fist": {
   "name": "Flaming Fist",
   "range": 1,
   "init": 2,
   "type": "Blunt",
-  "dmg": 1
+  "dmg": 1,
+  "aoe": 0
  },
  "wheel of changing seasons": {
   "name": "Wheel of Changing Seasons",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 0
  },
  "sword of enfeeblement": {
   "name": "Sword of Enfeeblement",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 7
+  "dmg": 7,
+  "aoe": 0
  },
  "axe of lords": {
   "name": "Axe of Lords",
   "range": 1,
   "init": 3,
   "type": "Slash",
-  "dmg": 20
+  "dmg": 20,
+  "aoe": 0,
+  "an": true
  },
  "slime aura": {
   "name": "Slime Aura",
   "range": 1,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "poison goo": {
   "name": "Poison Goo",
   "range": 6,
   "init": 4,
   "type": "Poison",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -2,
+  "an": true
  },
  "terrain shock": {
   "name": "Terrain Shock",
   "range": 1,
   "init": 4,
   "type": "Shock",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "frost branded axe": {
   "name": "Frost Branded Axe",
   "range": 1,
   "init": 3,
   "type": "Slash",
-  "dmg": 8
+  "dmg": 8,
+  "aoe": 0
  },
  "flame branded axe": {
   "name": "Flame Branded Axe",
   "range": 1,
   "init": 3,
   "type": "Slash",
-  "dmg": 8
+  "dmg": 8,
+  "aoe": 0
  },
  "earth branded axe": {
   "name": "Earth Branded Axe",
   "range": 1,
   "init": 3,
   "type": "Slash",
-  "dmg": 8
+  "dmg": 8,
+  "aoe": 0
  },
  "earth branded crossbow": {
   "name": "Earth Branded Crossbow",
   "range": 5,
   "init": 2,
   "type": "Pierce",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 0
  },
  "earth branded pick axe": {
   "name": "Earth Branded Pick Axe",
   "range": 1,
   "init": 3,
   "type": "Pierce",
-  "dmg": 8
+  "dmg": 8,
+  "aoe": 0
  },
  "entrap and bite": {
   "name": "Entrap and Bite",
   "range": 3,
   "init": 2,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "strong poisonous bite": {
   "name": "Strong Poisonous Bite",
   "range": 1,
   "init": 2,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "summon tainted soul": {
   "name": "Summon Tainted Soul",
   "range": 3,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "great tetsubo of the oni king": {
   "name": "Great Tetsubo of the Oni King",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 12
+  "dmg": 12,
+  "aoe": 0
  },
  "killing hallucinogenic spores": {
   "name": "Killing Hallucinogenic Spores",
   "range": 3,
   "init": 1,
   "type": "Poison",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5,
+  "an": true
  },
  "hallucinogenic spores": {
   "name": "Hallucinogenic Spores",
   "range": 2,
   "init": 1,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "divine word": {
   "name": "Divine Word",
   "range": 8,
   "init": 1,
   "type": "Banish",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
  },
  "heavenly strike": {
   "name": "Heavenly Strike",
   "range": 10,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "desolation cloud": {
   "name": "Desolation Cloud",
   "range": 1,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "ghost rending bite": {
   "name": "Ghost Rending Bite",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "serpent mane": {
   "name": "Serpent Mane",
   "range": 1,
   "init": 2,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "serpent tail": {
   "name": "Serpent Tail",
   "range": 1,
   "init": 3,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "save": {
   "name": "Save",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "poison javelin": {
   "name": "Poison Javelin",
   "range": 3,
   "init": 1,
   "type": "Pierce",
-  "dmg": 4
+  "dmg": 4,
+  "aoe": 0
  },
  "vine whip": {
   "name": "Vine Whip",
   "range": 1,
   "init": 5,
   "type": "Slash",
-  "dmg": 1
+  "dmg": 1,
+  "aoe": 0
  },
  "golden lance charge": {
   "name": "Golden Lance Charge",
   "range": 1,
   "init": 5,
   "type": "Pierce",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "flail of guidance": {
   "name": "Flail of Guidance",
   "range": 1,
   "init": 5,
   "type": "Blunt",
-  "dmg": 15
+  "dmg": 15,
+  "aoe": 0
  },
  "serpent of knowledge": {
   "name": "Serpent of Knowledge",
   "range": 1,
   "init": 3,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "serpent of wisdom": {
   "name": "Serpent of Wisdom",
   "range": 1,
   "init": 3,
   "type": "Slash",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "solar mace": {
   "name": "Solar Mace",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 6
+  "dmg": 6,
+  "aoe": 0
  },
  "solar strike": {
   "name": "Solar Strike",
   "range": 1,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5,
+  "an": true
  },
  "sword of no weight": {
   "name": "Sword of No Weight",
   "range": 1,
   "init": 7,
   "type": "Slash",
-  "dmg": 9
+  "dmg": 9,
+  "aoe": 0
  },
  "snake staff": {
   "name": "Snake Staff",
   "range": 1,
   "init": 5,
   "type": "Blunt",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "ice spear": {
   "name": "Ice Spear",
   "range": 1,
   "init": 6,
   "type": "Pierce",
-  "dmg": 6
+  "dmg": 6,
+  "aoe": 0
  },
  "pummeling winds": {
   "name": "Pummeling Winds",
   "range": 1,
   "init": 5,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "lightning breath": {
   "name": "Lightning Breath",
   "range": 2,
   "init": 7,
   "type": "Shock",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9205,
+  "an": true
  },
  "words of corruption": {
   "name": "Words of Corruption",
   "range": 1,
   "init": 4,
   "type": "Charm",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5,
+  "an": true
  },
  "touch of the fallen": {
   "name": "Touch of the Fallen",
   "range": 1,
   "init": 3,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "wall of death (mr)": {
   "name": "Wall of Death (mr)",
   "range": 1,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "wall of death (aff,mr)": {
   "name": "Wall of Death (aff,mr)",
   "range": 1,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "poison web": {
   "name": "Poison Web",
   "range": 6,
   "init": 1,
   "type": "Poison",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "dread projection": {
   "name": "Dread Projection",
   "range": 20,
   "init": 5,
   "type": "Fear",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 10,
+  "an": true
  },
  "astral tendril": {
   "name": "Astral Tendril",
   "range": 8,
   "init": 1,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "dragon bow": {
   "name": "Dragon Bow",
   "range": 7,
   "init": 2,
   "type": "Pierce",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 0
  },
  "guide arrows": {
   "name": "Guide Arrows",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "wind guide": {
   "name": "Wind Guide",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25
  },
  "divine fist": {
   "name": "Divine Fist",
   "range": 1,
   "init": 2,
   "type": "Blunt",
-  "dmg": 1
+  "dmg": 1,
+  "aoe": 0
  },
  "stone fist": {
   "name": "Stone Fist",
   "range": 1,
   "init": 2,
   "type": "Blunt",
-  "dmg": 1
+  "dmg": 1,
+  "aoe": 0
  },
  "wooden fist": {
   "name": "Wooden Fist",
   "range": 1,
   "init": 2,
   "type": "Blunt",
-  "dmg": 1
+  "dmg": 1,
+  "aoe": 0
  },
  "enchanted shovel": {
   "name": "Enchanted Shovel",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 6
+  "dmg": 6,
+  "aoe": 0
  },
  "alchemical boulder": {
   "name": "Alchemical Boulder",
   "range": 16,
   "init": 1,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "flame blast": {
   "name": "Flame Blast",
   "range": 1,
   "init": 4,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 5
  },
  "alchemical boulders": {
   "name": "Alchemical Boulders",
   "range": 20,
   "init": 1,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 3
  },
  "fling boulder": {
   "name": "Fling Boulder",
   "range": 12,
   "init": 1,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "bane fire crossbow": {
   "name": "Bane Fire Crossbow",
   "range": 5,
   "init": 2,
   "type": "Pierce",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 0
  },
  "laying on hands": {
   "name": "Laying on Hands",
   "range": 1,
   "init": 4,
   "type": "Heal",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "healing words": {
   "name": "Healing Words",
   "range": 8,
   "init": 4,
   "type": "Heal",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "healing prayer": {
   "name": "Healing Prayer",
   "range": 8,
   "init": 4,
   "type": "Heal",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
  },
  "healing miracle": {
   "name": "Healing Miracle",
   "range": 8,
   "init": 4,
   "type": "Heal",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
  },
  "heal": {
   "name": "Heal",
   "range": 8,
   "init": 4,
   "type": "Heal",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "greater healing": {
   "name": "Greater Healing",
   "range": 8,
   "init": 4,
   "type": "Heal",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
  },
  "metal fist": {
   "name": "Metal Fist",
   "range": 1,
   "init": 2,
   "type": "Blunt",
-  "dmg": 1
+  "dmg": 1,
+  "aoe": 0
  },
  "wither all": {
   "name": "Wither All",
   "range": 10,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 100
  },
  "summon phase spider": {
   "name": "Summon Phase Spider",
   "range": 15,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "burning sword": {
   "name": "Burning Sword",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 6
+  "dmg": 6,
+  "aoe": 0
  },
  "banestar": {
   "name": "Banestar",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 7
+  "dmg": 7,
+  "aoe": 0
  },
  "morningstar of strength": {
   "name": "Morningstar of Strength",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 10
+  "dmg": 10,
+  "aoe": 0
  },
  "mace of unlife": {
   "name": "Mace of Unlife",
   "range": 1,
   "init": 3,
   "type": "Blunt",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 0
  },
  "cane": {
   "name": "Cane",
   "range": 1,
   "init": 4,
   "type": "Blunt",
-  "dmg": 2
+  "dmg": 2,
+  "aoe": 0
  },
  "bleed": {
   "name": "Bleed",
   "range": 6,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -3
  },
  "lashes of blood": {
   "name": "Lashes of Blood",
   "range": 8,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": -3
  },
  "extra bleed": {
   "name": "extra bleed",
   "range": 8,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
  },
  "thorn staff": {
   "name": "Thorn Staff",
   "range": 1,
   "init": 5,
   "type": "Blunt",
-  "dmg": 4
+  "dmg": 4,
+  "aoe": 0
  },
  "spear of justice": {
   "name": "Spear of Justice",
   "range": 1,
   "init": 6,
   "type": "Pierce",
-  "dmg": 7
+  "dmg": 7,
+  "aoe": 0
  },
  "solar lance": {
   "name": "Solar Lance",
   "range": 1,
   "init": 6,
   "type": "Pierce",
-  "dmg": 6
+  "dmg": 6,
+  "aoe": 0
  },
  "fisherman's trident": {
   "name": "Fisherman's Trident",
   "range": 1,
   "init": 5,
   "type": "Pierce",
-  "dmg": 8
+  "dmg": 8,
+  "aoe": 0
  },
  "trident of the sea": {
   "name": "Trident of the Sea",
   "range": 1,
   "init": 5,
   "type": "Pierce",
-  "dmg": 9
+  "dmg": 9,
+  "aoe": 0
  },
  "emperor's hope": {
   "name": "Emperor's Hope",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 12
+  "dmg": 12,
+  "aoe": 0
  },
  "flame spear": {
   "name": "Flame Spear",
   "range": 1,
   "init": 6,
   "type": "Pierce",
-  "dmg": 5
+  "dmg": 5,
+  "aoe": 0
  },
  "kick": {
   "name": "Kick",
   "range": 1,
   "init": 2,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0
  },
  "magic bow": {
   "name": "Magic Bow",
   "range": 6,
   "init": 2,
   "type": "Pierce",
-  "dmg": 4
+  "dmg": 4,
+  "aoe": 0
  },
  "magic dagger": {
   "name": "Magic Dagger",
   "range": 1,
   "init": 2,
   "type": "Pierce",
-  "dmg": 4
+  "dmg": 4,
+  "aoe": 0
  },
  "magic axe": {
   "name": "Magic Axe",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 8
+  "dmg": 8,
+  "aoe": 0
  },
  "blood athame": {
   "name": "Blood Athame",
   "range": 1,
   "init": 2,
   "type": "Pierce",
-  "dmg": 3
+  "dmg": 3,
+  "aoe": 0
  },
  "aura of unlife": {
   "name": "Aura of Unlife",
   "range": 0,
   "init": 1,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 997
  },
  "ring of flames": {
   "name": "Ring of Flames",
   "range": 0,
   "init": 1,
   "type": "Fire",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 997
  },
  "summon manifestation of maya": {
   "name": "Summon Manifestation of Maya",
   "range": 6,
   "init": 4,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "seduction": {
   "name": "Seduction",
   "range": 1,
   "init": 4,
   "type": "Charm",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "draining touch": {
   "name": "Draining Touch",
   "range": 1,
   "init": 3,
   "type": "Magic",
-  "dmg": 6
+  "dmg": 6,
+  "aoe": 0,
+  "an": true
  },
  "trishula": {
   "name": "Trishula",
   "range": 1,
   "init": 5,
   "type": "Pierce",
-  "dmg": 15
+  "dmg": 15,
+  "aoe": 0
  },
  "dance of delight": {
   "name": "Dance of Delight",
   "range": 0,
   "init": 1,
   "type": "Sleep",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 999,
+  "an": true
  },
  "dance of destruction": {
   "name": "Dance of Destruction",
   "range": 0,
   "init": 1,
   "type": "Blunt",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 999,
+  "an": true
  },
  "apotropaic sword": {
   "name": "Apotropaic Sword",
   "range": 1,
   "init": 5,
   "type": "Slash",
-  "dmg": 7
+  "dmg": 7,
+  "aoe": 0
  },
  "blindness": {
   "name": "Blindness",
   "range": 5,
   "init": 1,
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 1
  },
  "magic battle axe": {
   "name": "Magic Battle Axe",
   "range": 1,
   "init": 4,
   "type": "Slash",
-  "dmg": 10
+  "dmg": 10,
+  "aoe": 0
  },
  "dreadful eclipse": {
   "name": "Dreadful Eclipse",
   "range": 0,
   "init": 10,
   "type": "Fear",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 9999,
+  "an": true
  },
  "wall of darkness (dmg)": {
   "name": "Wall of Darkness (dmg)",
   "range": 1,
   "init": 4,
   "type": "Magic",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  },
  "wall of darkness (fear)": {
   "name": "Wall of Darkness (fear)",
   "range": 1,
   "init": 4,
   "type": "Fear",
-  "dmg": 0
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
  }
 }

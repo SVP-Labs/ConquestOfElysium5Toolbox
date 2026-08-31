@@ -1,0 +1,6212 @@
+{
+ "akashic magic": [
+  {
+   "name": "Luck",
+   "level": 1,
+   "weapon": 103,
+   "dmg": 128
+  },
+  {
+   "name": "Lure of Maya",
+   "level": 1,
+   "weapon": 451,
+   "dmg": 262144
+  },
+  {
+   "name": "Mind Burn",
+   "level": 1,
+   "weapon": 350,
+   "dmg": 11
+  },
+  {
+   "name": "Paralyzation",
+   "level": 1,
+   "weapon": 232,
+   "dmg": 16
+  },
+  {
+   "name": "Resist Magic",
+   "level": 1,
+   "weapon": 103
+  },
+  {
+   "name": "Toughness",
+   "level": 1,
+   "weapon": 798,
+   "dmg": 1835008
+  },
+  {
+   "name": "Twist Fate",
+   "level": 1,
+   "weapon": 828,
+   "dmg": 4294967296
+  },
+  {
+   "name": "Antimagic",
+   "level": 2,
+   "weapon": 641,
+   "dmg": 64
+  },
+  {
+   "name": "Fortune",
+   "level": 2,
+   "weapon": 120,
+   "dmg": 128
+  },
+  {
+   "name": "Indomitability",
+   "level": 2,
+   "weapon": 793,
+   "dmg": 1835008
+  },
+  {
+   "name": "Invade Mind",
+   "level": 2,
+   "weapon": 644,
+   "dmg": 1
+  },
+  {
+   "name": "Manifest Maya",
+   "level": 2,
+   "weapon": 911,
+   "dmg": 1
+  },
+  {
+   "name": "Rewrite Fate",
+   "level": 2,
+   "weapon": 829,
+   "dmg": 4294967296
+  },
+  {
+   "name": "Veil of Maya",
+   "level": 2,
+   "weapon": 452,
+   "dmg": 262144
+  },
+  {
+   "name": "Akashic Prediction",
+   "level": 3,
+   "weapon": 104,
+   "dmg": 128
+  },
+  {
+   "name": "Invulnerability",
+   "level": 3,
+   "weapon": 615,
+   "dmg": 4194304
+  },
+  {
+   "name": "Vortex of Stillness",
+   "level": 3,
+   "weapon": 346,
+   "dmg": 16
+  },
+  {
+   "name": "World of Lies",
+   "level": 3,
+   "weapon": 456,
+   "dmg": 262144
+  }
+ ],
+ "alchemy": [
+  {
+   "name": "Cold Resistance",
+   "level": 1,
+   "weapon": 671,
+   "dmg": 8
+  },
+  {
+   "name": "Fire Resistance",
+   "level": 1,
+   "weapon": 671,
+   "dmg": 4
+  },
+  {
+   "name": "Strength",
+   "level": 1,
+   "weapon": 443,
+   "dmg": 512
+  },
+  {
+   "name": "Acid Cloud",
+   "level": 2,
+   "weapon": 619,
+   "dmg": 2
+  },
+  {
+   "name": "Ironskin",
+   "level": 2,
+   "weapon": 435,
+   "dmg": 131072
+  },
+  {
+   "name": "Regeneration",
+   "level": 2,
+   "weapon": 627,
+   "dmg": 4096
+  },
+  {
+   "name": "Toughness",
+   "level": 2,
+   "weapon": 798,
+   "dmg": 1835008
+  },
+  {
+   "name": "Acid Mist",
+   "level": 3,
+   "weapon": 620,
+   "dmg": 2
+  },
+  {
+   "name": "Flesh is Stronger",
+   "level": 3,
+   "weapon": 435,
+   "dmg": 1970180
+  }
+ ],
+ "apothecary": [
+  {
+   "name": "Acid Cloud",
+   "level": 1,
+   "weapon": 619,
+   "dmg": 2
+  },
+  {
+   "name": "Confusion",
+   "level": 1,
+   "weapon": 451,
+   "dmg": 262144
+  },
+  {
+   "name": "Disease",
+   "level": 1,
+   "weapon": 609,
+   "dmg": 1
+  },
+  {
+   "name": "Enfeeblement",
+   "level": 1,
+   "weapon": 249,
+   "dmg": 2048
+  },
+  {
+   "name": "Heal",
+   "level": 1,
+   "weapon": 878,
+   "dmg": 5
+  },
+  {
+   "name": "Poison Cloud",
+   "level": 1,
+   "weapon": 272,
+   "dmg": 4
+  },
+  {
+   "name": "Poison Resistance",
+   "level": 1,
+   "weapon": 670,
+   "dmg": 16
+  },
+  {
+   "name": "Acid Mist",
+   "level": 2,
+   "weapon": 620,
+   "dmg": 2
+  },
+  {
+   "name": "Greater Healing",
+   "level": 2,
+   "weapon": 879,
+   "dmg": 3
+  },
+  {
+   "name": "Plague",
+   "level": 2,
+   "weapon": 86,
+   "dmg": 1
+  },
+  {
+   "name": "Poison Mist",
+   "level": 2,
+   "weapon": 503,
+   "dmg": 8
+  },
+  {
+   "name": "Spores of Confusion",
+   "level": 2,
+   "weapon": 452,
+   "dmg": 262144
+  },
+  {
+   "name": "Venom Ward",
+   "level": 2,
+   "weapon": 673,
+   "dmg": 16
+  },
+  {
+   "name": "Weakness",
+   "level": 2,
+   "weapon": 250,
+   "dmg": 2048
+  }
+ ],
+ "astrology": [
+  {
+   "name": "Confusion",
+   "level": 1,
+   "weapon": 451,
+   "dmg": 262144
+  },
+  {
+   "name": "Mind Burn",
+   "level": 1,
+   "weapon": 350,
+   "dmg": 11
+  },
+  {
+   "name": "Moonlight",
+   "level": 1,
+   "weapon": 458,
+   "dmg": 3
+  },
+  {
+   "name": "Paralyze",
+   "level": 1,
+   "weapon": 232,
+   "dmg": 16
+  },
+  {
+   "name": "Reading the Stars",
+   "level": 1,
+   "weapon": 355,
+   "dmg": 128
+  },
+  {
+   "name": "Starlight",
+   "level": 1,
+   "weapon": 351,
+   "dmg": 5
+  },
+  {
+   "name": "Twist Fate",
+   "level": 1,
+   "weapon": 828,
+   "dmg": 4294967296
+  },
+  {
+   "name": "Words of the Void",
+   "level": 1,
+   "weapon": 353,
+   "dmg": 64
+  },
+  {
+   "name": "Foresight",
+   "level": 2,
+   "weapon": 356,
+   "dmg": 128
+  },
+  {
+   "name": "Invade Mind",
+   "level": 2,
+   "weapon": 644,
+   "dmg": 1
+  },
+  {
+   "name": "Mental Overload",
+   "level": 2,
+   "weapon": 455,
+   "dmg": 262144
+  },
+  {
+   "name": "Meteor",
+   "level": 2,
+   "weapon": 59,
+   "dmg": 50
+  },
+  {
+   "name": "Moonbeams",
+   "level": 2,
+   "weapon": 459,
+   "dmg": 3
+  },
+  {
+   "name": "Rewrite Fate",
+   "level": 2,
+   "weapon": 829,
+   "dmg": 4294967296
+  },
+  {
+   "name": "Soul Slay",
+   "level": 2,
+   "weapon": 344,
+   "dmg": 999
+  },
+  {
+   "name": "Star Showers",
+   "level": 2,
+   "weapon": 345,
+   "dmg": 10
+  },
+  {
+   "name": "Great Foretelling",
+   "level": 3,
+   "weapon": 104,
+   "dmg": 128
+  },
+  {
+   "name": "Lunar Brilliance",
+   "level": 3,
+   "weapon": 457,
+   "dmg": 3
+  },
+  {
+   "name": "Mental Hold",
+   "level": 3,
+   "weapon": 343,
+   "dmg": 16
+  },
+  {
+   "name": "Meteor Showers",
+   "level": 3,
+   "weapon": 60,
+   "dmg": 40
+  },
+  {
+   "name": "Mind Vortex",
+   "level": 3,
+   "weapon": 346,
+   "dmg": 16
+  }
+ ],
+ "beast wards": [
+  {
+   "name": "Befriend Animal",
+   "level": 1,
+   "weapon": 217,
+   "dmg": 1
+  },
+  {
+   "name": "Summon Crows",
+   "level": 1,
+   "weapon": 470,
+   "dmg": 1
+  },
+  {
+   "name": "Summon Snake",
+   "level": 1,
+   "weapon": 136,
+   "dmg": 1
+  },
+  {
+   "name": "Summon Wolf",
+   "level": 1,
+   "weapon": 148,
+   "dmg": 1
+  },
+  {
+   "name": "Command Beasts",
+   "level": 2,
+   "weapon": 218,
+   "dmg": 1
+  },
+  {
+   "name": "Summon Great Boar",
+   "level": 2,
+   "weapon": 471,
+   "dmg": 1
+  },
+  {
+   "name": "Summon Murder of Crows",
+   "level": 2,
+   "weapon": 470,
+   "dmg": 3
+  },
+  {
+   "name": "Summon Serpent",
+   "level": 2,
+   "weapon": 137,
+   "dmg": 1
+  },
+  {
+   "name": "Summon Wolves",
+   "level": 2,
+   "weapon": 148,
+   "dmg": 3
+  },
+  {
+   "name": "Army of Boars",
+   "level": 3,
+   "weapon": 471,
+   "dmg": 4
+  },
+  {
+   "name": "Army of Crows",
+   "level": 3,
+   "weapon": 470,
+   "dmg": 13
+  },
+  {
+   "name": "Army of Wolves",
+   "level": 3,
+   "weapon": 148,
+   "dmg": 10
+  }
+ ],
+ "bile magic": [
+  {
+   "name": "Animate Mushroom",
+   "level": 1,
+   "weapon": 789,
+   "dmg": 2
+  },
+  {
+   "name": "Poison Bolts",
+   "level": 1,
+   "weapon": 271,
+   "dmg": 8
+  },
+  {
+   "name": "Poison Cloud",
+   "level": 1,
+   "weapon": 272,
+   "dmg": 5
+  },
+  {
+   "name": "Poison Goo",
+   "level": 1,
+   "weapon": 806,
+   "dmg": 6
+  },
+  {
+   "name": "Summon Frogs",
+   "level": 1,
+   "weapon": 309,
+   "dmg": 3
+  },
+  {
+   "name": "Summon Snake",
+   "level": 1,
+   "weapon": 136,
+   "dmg": 1
+  },
+  {
+   "name": "Venom",
+   "level": 1,
+   "weapon": 75,
+   "dmg": 26
+  },
+  {
+   "name": "Pit of Snakes",
+   "level": 2,
+   "weapon": 136,
+   "dmg": 3
+  },
+  {
+   "name": "Poison Darts",
+   "level": 2,
+   "weapon": 664,
+   "dmg": 6
+  },
+  {
+   "name": "Poison Mist",
+   "level": 2,
+   "weapon": 503,
+   "dmg": 8
+  },
+  {
+   "name": "Summon Giant Toad",
+   "level": 2,
+   "weapon": 340,
+   "dmg": 1
+  },
+  {
+   "name": "Summon Serpent",
+   "level": 2,
+   "weapon": 137,
+   "dmg": 1
+  },
+  {
+   "name": "Venomous Death",
+   "level": 2,
+   "weapon": 75,
+   "dmg": 60
+  },
+  {
+   "name": "Animate Swamp",
+   "level": 3,
+   "weapon": 790,
+   "dmg": 2
+  },
+  {
+   "name": "Deadly Fumes",
+   "level": 3,
+   "weapon": 373,
+   "dmg": 6
+  },
+  {
+   "name": "Green Death",
+   "level": 3,
+   "weapon": 503,
+   "dmg": 22
+  },
+  {
+   "name": "Summon Giant Toads",
+   "level": 3,
+   "weapon": 340,
+   "dmg": 6
+  },
+  {
+   "name": "Summon Serpents",
+   "level": 3,
+   "weapon": 137,
+   "dmg": 5
+  }
+ ],
+ "black magic": [
+  {
+   "name": "Confusion",
+   "level": 1,
+   "weapon": 451,
+   "dmg": 262144
+  },
+  {
+   "name": "Decay",
+   "level": 1,
+   "weapon": 466,
+   "dmg": 4
+  },
+  {
+   "name": "Paralyze",
+   "level": 1,
+   "weapon": 232,
+   "dmg": 16
+  },
+  {
+   "name": "Cloud of Death",
+   "level": 2,
+   "weapon": 31,
+   "dmg": 4
+  },
+  {
+   "name": "Disintegrate",
+   "level": 2,
+   "weapon": 230,
+   "dmg": 999
+  },
+  {
+   "name": "Terror",
+   "level": 2,
+   "weapon": 611,
+   "dmg": 8
+  },
+  {
+   "name": "Arcane Tempest",
+   "level": 3,
+   "weapon": 116,
+   "dmg": 3
+  },
+  {
+   "name": "Death Spell",
+   "level": 3,
+   "weapon": 105,
+   "dmg": 20
+  },
+  {
+   "name": "Wind of Death",
+   "level": 3,
+   "weapon": 882,
+   "dmg": 4
+  }
+ ],
+ "blood magic": [
+  {
+   "name": "Blood Boil",
+   "level": 1,
+   "weapon": 67,
+   "dmg": 15
+  },
+  {
+   "name": "Leech",
+   "level": 1,
+   "weapon": 18,
+   "dmg": 6
+  },
+  {
+   "name": "Strength",
+   "level": 1,
+   "weapon": 443,
+   "dmg": 512
+  },
+  {
+   "name": "Blood Burst",
+   "level": 2,
+   "weapon": 367,
+   "dmg": 20
+  },
+  {
+   "name": "Blood Rush",
+   "level": 2,
+   "weapon": 444,
+   "dmg": 512
+  },
+  {
+   "name": "Harm",
+   "level": 2,
+   "weapon": 484,
+   "dmg": 33
+  },
+  {
+   "name": "Hellbind Heart",
+   "level": 2,
+   "weapon": 642,
+   "dmg": 1
+  },
+  {
+   "name": "Lashes of Blood",
+   "level": 2,
+   "weapon": 895,
+   "dmg": 11
+  },
+  {
+   "name": "Bloodletting",
+   "level": 3,
+   "weapon": 82,
+   "dmg": 6
+  },
+  {
+   "name": "Rain of Blood",
+   "level": 3,
+   "weapon": 468,
+   "dmg": 7
+  },
+  {
+   "name": "Rupture",
+   "level": 3,
+   "weapon": 153,
+   "dmg": 7
+  }
+ ],
+ "bloody mother": [
+  {
+   "name": "Blessing",
+   "level": 1,
+   "weapon": 682,
+   "dmg": 65536
+  },
+  {
+   "name": "Leech",
+   "level": 1,
+   "weapon": 18,
+   "dmg": 6
+  },
+  {
+   "name": "Regeneration",
+   "level": 1,
+   "weapon": 103,
+   "dmg": 4096
+  },
+  {
+   "name": "Strength",
+   "level": 1,
+   "weapon": 443,
+   "dmg": 512
+  },
+  {
+   "name": "Blood Burst",
+   "level": 2,
+   "weapon": 367,
+   "dmg": 20
+  },
+  {
+   "name": "Blood Rush",
+   "level": 2,
+   "weapon": 444,
+   "dmg": 512
+  },
+  {
+   "name": "Greater Blessing",
+   "level": 2,
+   "weapon": 683,
+   "dmg": 65536
+  },
+  {
+   "name": "Harm",
+   "level": 2,
+   "weapon": 484,
+   "dmg": 33
+  },
+  {
+   "name": "Word of Power",
+   "level": 2,
+   "weapon": 610,
+   "dmg": 16
+  },
+  {
+   "name": "Army of Jaguars",
+   "level": 3,
+   "weapon": 630,
+   "dmg": 4096
+  },
+  {
+   "name": "Rain of Blood",
+   "level": 3,
+   "weapon": 468,
+   "dmg": 7
+  },
+  {
+   "name": "Smite",
+   "level": 3,
+   "weapon": 400,
+   "dmg": 50
+  }
+ ],
+ "command": [
+  {
+   "name": "Confusion",
+   "level": 1,
+   "weapon": 451,
+   "dmg": 262144
+  },
+  {
+   "name": "Hold",
+   "level": 1,
+   "weapon": 300,
+   "dmg": 64
+  },
+  {
+   "name": "Sleep",
+   "level": 1,
+   "weapon": 77,
+   "dmg": 1
+  },
+  {
+   "name": "Bewilderment",
+   "level": 2,
+   "weapon": 665,
+   "dmg": 262144
+  },
+  {
+   "name": "Enchanted Sleep",
+   "level": 2,
+   "weapon": 78,
+   "dmg": 1
+  },
+  {
+   "name": "Enslave",
+   "level": 2,
+   "weapon": 643,
+   "dmg": 1
+  },
+  {
+   "name": "Mass Command",
+   "level": 3,
+   "weapon": 233,
+   "dmg": 64
+  },
+  {
+   "name": "Mass Confusion",
+   "level": 3,
+   "weapon": 454,
+   "dmg": 262144
+  },
+  {
+   "name": "Mass Control",
+   "level": 3,
+   "weapon": 234,
+   "dmg": 1
+  }
+ ],
+ "crystal sorcery": [
+  {
+   "name": "Guide Arrows",
+   "level": 1,
+   "weapon": 860,
+   "dmg": 8589934592
+  },
+  {
+   "name": "Gust of Wind",
+   "level": 1,
+   "weapon": 113,
+   "dmg": 3
+  },
+  {
+   "name": "Luck",
+   "level": 1,
+   "weapon": 103,
+   "dmg": 128
+  },
+  {
+   "name": "Seeking Arrow",
+   "level": 1,
+   "weapon": 200,
+   "dmg": 7
+  },
+  {
+   "name": "Swiftness",
+   "level": 1,
+   "weapon": 782,
+   "dmg": 1073741824
+  },
+  {
+   "name": "Air Shield",
+   "level": 2,
+   "weapon": 648,
+   "dmg": 2048
+  },
+  {
+   "name": "Fortune",
+   "level": 2,
+   "weapon": 119,
+   "dmg": 128
+  },
+  {
+   "name": "Quickening",
+   "level": 2,
+   "weapon": 783,
+   "dmg": 1073741824
+  },
+  {
+   "name": "Wind Guide",
+   "level": 2,
+   "weapon": 861,
+   "dmg": 8589934592
+  },
+  {
+   "name": "Winds",
+   "level": 2,
+   "weapon": 114,
+   "dmg": 3
+  },
+  {
+   "name": "Chain Lightning",
+   "level": 3,
+   "weapon": 110,
+   "dmg": 7
+  },
+  {
+   "name": "Haste",
+   "level": 3,
+   "weapon": 784,
+   "dmg": 1073741824
+  },
+  {
+   "name": "Protective Winds",
+   "level": 3,
+   "weapon": 653,
+   "dmg": 2048
+  }
+ ],
+ "dark magic": [
+  {
+   "name": "Dark Cloud",
+   "level": 1,
+   "weapon": 781,
+   "dmg": 1
+  },
+  {
+   "name": "Fear",
+   "level": 1,
+   "weapon": 30,
+   "dmg": 12
+  },
+  {
+   "name": "Shadowform",
+   "level": 1,
+   "weapon": 633,
+   "dmg": 256
+  },
+  {
+   "name": "Summon Shade",
+   "level": 1,
+   "weapon": 203,
+   "dmg": 1
+  },
+  {
+   "name": "Tendril of Darkness",
+   "level": 1,
+   "weapon": 395,
+   "dmg": 5
+  },
+  {
+   "name": "Lashes of Darkness",
+   "level": 2,
+   "weapon": 576,
+   "dmg": 5
+  },
+  {
+   "name": "Shade Warriors",
+   "level": 2,
+   "weapon": 635,
+   "dmg": 256
+  },
+  {
+   "name": "Summon Shade Assassin",
+   "level": 2,
+   "weapon": 881,
+   "dmg": 1
+  },
+  {
+   "name": "Summon Shades",
+   "level": 2,
+   "weapon": 203,
+   "dmg": 3
+  },
+  {
+   "name": "Terror",
+   "level": 2,
+   "weapon": 611,
+   "dmg": 8
+  },
+  {
+   "name": "Weakness",
+   "level": 2,
+   "weapon": 250,
+   "dmg": 2048
+  },
+  {
+   "name": "Army of Darkness",
+   "level": 3,
+   "weapon": 104
+  },
+  {
+   "name": "Horde of the Night",
+   "level": 3,
+   "weapon": 203,
+   "dmg": 8
+  },
+  {
+   "name": "Shade of Death",
+   "level": 3,
+   "weapon": 252,
+   "dmg": 2048
+  },
+  {
+   "name": "Symbol of Dread",
+   "level": 3,
+   "weapon": 397,
+   "dmg": 2
+  }
+ ],
+ "dark prayers": [
+  {
+   "name": "Bleed",
+   "level": 1,
+   "weapon": 894,
+   "dmg": 128
+  },
+  {
+   "name": "Blood Boil",
+   "level": 1,
+   "weapon": 67,
+   "dmg": 15
+  },
+  {
+   "name": "Call Scorpion",
+   "level": 1,
+   "weapon": 472,
+   "dmg": 1
+  },
+  {
+   "name": "Call Spider",
+   "level": 1,
+   "weapon": 364,
+   "dmg": 1
+  },
+  {
+   "name": "Leech",
+   "level": 1,
+   "weapon": 18,
+   "dmg": 6
+  },
+  {
+   "name": "Pain",
+   "level": 1,
+   "weapon": 16,
+   "dmg": 10
+  },
+  {
+   "name": "Poison Web",
+   "level": 1,
+   "weapon": 852,
+   "dmg": 5
+  },
+  {
+   "name": "Call Large Spiders",
+   "level": 2,
+   "weapon": 473,
+   "dmg": 2
+  },
+  {
+   "name": "Hellbind Heart",
+   "level": 2,
+   "weapon": 642,
+   "dmg": 1
+  },
+  {
+   "name": "Lashes of Fire",
+   "level": 2,
+   "weapon": 211,
+   "dmg": 11
+  },
+  {
+   "name": "Terror",
+   "level": 2,
+   "weapon": 611,
+   "dmg": 8
+  },
+  {
+   "name": "Vengeance",
+   "level": 2,
+   "weapon": 365,
+   "dmg": 13
+  },
+  {
+   "name": "Word of Power",
+   "level": 2,
+   "weapon": 610,
+   "dmg": 16
+  },
+  {
+   "name": "Bloodletting",
+   "level": 3,
+   "weapon": 82,
+   "dmg": 6
+  },
+  {
+   "name": "Lashes of Death",
+   "level": 3,
+   "weapon": 362,
+   "dmg": 15
+  },
+  {
+   "name": "Rupture",
+   "level": 3,
+   "weapon": 153,
+   "dmg": 7
+  },
+  {
+   "name": "Spider Swarm",
+   "level": 3,
+   "weapon": 473,
+   "dmg": 11
+  }
+ ],
+ "dawn magic": [
+  {
+   "name": "Fire Resistance",
+   "level": 1,
+   "weapon": 671,
+   "dmg": 4
+  },
+  {
+   "name": "Flames",
+   "level": 1,
+   "weapon": 660,
+   "dmg": 3
+  },
+  {
+   "name": "Sleep",
+   "level": 1,
+   "weapon": 77,
+   "dmg": 1
+  },
+  {
+   "name": "Sunbeam",
+   "level": 1,
+   "weapon": 127,
+   "dmg": 2
+  },
+  {
+   "name": "Enchanted Sleep",
+   "level": 2,
+   "weapon": 78,
+   "dmg": 1
+  },
+  {
+   "name": "Fire Ward",
+   "level": 2,
+   "weapon": 673,
+   "dmg": 4
+  },
+  {
+   "name": "Fireball",
+   "level": 2,
+   "weapon": 54,
+   "dmg": 15
+  },
+  {
+   "name": "Solar Flare",
+   "level": 2,
+   "weapon": 127,
+   "dmg": 8
+  },
+  {
+   "name": "Army of Gold",
+   "level": 3,
+   "weapon": 71,
+   "dmg": 131076
+  },
+  {
+   "name": "Army of the Sun",
+   "level": 3,
+   "weapon": 207,
+   "dmg": 8192
+  },
+  {
+   "name": "Flame Storm",
+   "level": 3,
+   "weapon": 57,
+   "dmg": 9
+  },
+  {
+   "name": "Slumbering Army",
+   "level": 3,
+   "weapon": 304,
+   "dmg": 1
+  }
+ ],
+ "death": [
+  {
+   "name": "Blessing",
+   "level": 1,
+   "weapon": 682,
+   "dmg": 65536
+  },
+  {
+   "name": "Decay",
+   "level": 1,
+   "weapon": 466,
+   "dmg": 4
+  },
+  {
+   "name": "Disease",
+   "level": 1,
+   "weapon": 609,
+   "dmg": 1
+  },
+  {
+   "name": "Strength Sap",
+   "level": 1,
+   "weapon": 249,
+   "dmg": 2048
+  },
+  {
+   "name": "Greater Blessing",
+   "level": 2,
+   "weapon": 683,
+   "dmg": 65536
+  },
+  {
+   "name": "Plague",
+   "level": 2,
+   "weapon": 86,
+   "dmg": 1
+  },
+  {
+   "name": "Weakness",
+   "level": 2,
+   "weapon": 250,
+   "dmg": 2048
+  },
+  {
+   "name": "Wither",
+   "level": 2,
+   "weapon": 281,
+   "dmg": 4
+  },
+  {
+   "name": "Word of Power",
+   "level": 2,
+   "weapon": 610,
+   "dmg": 16
+  },
+  {
+   "name": "Dance Macabre",
+   "level": 3,
+   "weapon": 265,
+   "dmg": 5
+  },
+  {
+   "name": "Shade of Death",
+   "level": 3,
+   "weapon": 252,
+   "dmg": 2048
+  },
+  {
+   "name": "Smite",
+   "level": 3,
+   "weapon": 400,
+   "dmg": 50
+  }
+ ],
+ "defilement": [
+  {
+   "name": "Bolt of Unlife",
+   "level": 1,
+   "weapon": 235,
+   "dmg": 6
+  },
+  {
+   "name": "Dehydration",
+   "level": 1,
+   "weapon": 422,
+   "dmg": 34359738368
+  },
+  {
+   "name": "Fear",
+   "level": 1,
+   "weapon": 30,
+   "dmg": 12
+  },
+  {
+   "name": "Shadowform",
+   "level": 1,
+   "weapon": 633,
+   "dmg": 256
+  },
+  {
+   "name": "Strength Sap",
+   "level": 1,
+   "weapon": 249,
+   "dmg": 2048
+  },
+  {
+   "name": "Finger of Death",
+   "level": 2,
+   "weapon": 134,
+   "dmg": 999
+  },
+  {
+   "name": "Lashes of Darkness",
+   "level": 2,
+   "weapon": 576,
+   "dmg": 5
+  },
+  {
+   "name": "Scourging Wind",
+   "level": 2,
+   "weapon": 446,
+   "dmg": 34359738368
+  },
+  {
+   "name": "Terror",
+   "level": 2,
+   "weapon": 611,
+   "dmg": 8
+  },
+  {
+   "name": "Weakness",
+   "level": 2,
+   "weapon": 250,
+   "dmg": 2048
+  },
+  {
+   "name": "Chill of the Dead",
+   "level": 3,
+   "weapon": 251,
+   "dmg": 13
+  },
+  {
+   "name": "Desert Storm",
+   "level": 3,
+   "weapon": 421,
+   "dmg": 34359738368
+  },
+  {
+   "name": "Symbol of Dread",
+   "level": 3,
+   "weapon": 397,
+   "dmg": 2
+  },
+  {
+   "name": "Symbol of Unlife",
+   "level": 3,
+   "weapon": 398,
+   "dmg": 2
+  }
+ ],
+ "divine magic": [
+  {
+   "name": "Banish",
+   "level": 1,
+   "weapon": 139,
+   "dmg": 99
+  },
+  {
+   "name": "Conversion",
+   "level": 1,
+   "weapon": 498,
+   "dmg": 1
+  },
+  {
+   "name": "Lesser Smite",
+   "level": 1,
+   "weapon": 514,
+   "dmg": 13
+  },
+  {
+   "name": "Resist Magic",
+   "level": 1,
+   "weapon": 103
+  },
+  {
+   "name": "Saving Grace",
+   "level": 1,
+   "weapon": 828,
+   "dmg": 4294967296
+  },
+  {
+   "name": "Greater Banishment",
+   "level": 2,
+   "weapon": 140,
+   "dmg": 99
+  },
+  {
+   "name": "Mass Conversion",
+   "level": 2,
+   "weapon": 499,
+   "dmg": 1
+  },
+  {
+   "name": "Mercy",
+   "level": 2,
+   "weapon": 829,
+   "dmg": 4294967296
+  },
+  {
+   "name": "Smite",
+   "level": 2,
+   "weapon": 400,
+   "dmg": 50
+  },
+  {
+   "name": "Divine Intervention",
+   "level": 3,
+   "weapon": 830,
+   "dmg": 4294967296
+  },
+  {
+   "name": "Divine Word",
+   "level": 3,
+   "weapon": 821,
+   "dmg": 999
+  },
+  {
+   "name": "Heavenly Strike",
+   "level": 3,
+   "weapon": 822,
+   "dmg": 999
+  },
+  {
+   "name": "True Faith",
+   "level": 3,
+   "weapon": 500,
+   "dmg": 1
+  }
+ ],
+ "druidism": [
+  {
+   "name": "Barkskin",
+   "level": 1,
+   "weapon": 380,
+   "dmg": 2
+  },
+  {
+   "name": "Befriend Animal",
+   "level": 1,
+   "weapon": 217,
+   "dmg": 1
+  },
+  {
+   "name": "Poison Arrow",
+   "level": 1,
+   "weapon": 229,
+   "dmg": 6
+  },
+  {
+   "name": "Poison Vine",
+   "level": 1,
+   "weapon": 329,
+   "dmg": 512
+  },
+  {
+   "name": "Tangle Vine",
+   "level": 1,
+   "weapon": 247,
+   "dmg": 512
+  },
+  {
+   "name": "Vine Arrow",
+   "level": 1,
+   "weapon": 661,
+   "dmg": 6
+  },
+  {
+   "name": "Animate Tree",
+   "level": 2,
+   "weapon": 787,
+   "dmg": 1
+  },
+  {
+   "name": "Briar Cage",
+   "level": 2,
+   "weapon": 189,
+   "dmg": 512
+  },
+  {
+   "name": "Command Beasts",
+   "level": 2,
+   "weapon": 218,
+   "dmg": 1
+  },
+  {
+   "name": "Curse of Wood",
+   "level": 2,
+   "weapon": 282,
+   "dmg": 4096
+  },
+  {
+   "name": "Domestication",
+   "level": 2,
+   "weapon": 372,
+   "dmg": 1
+  },
+  {
+   "name": "Oak Army",
+   "level": 2,
+   "weapon": 381,
+   "dmg": 2
+  },
+  {
+   "name": "Poison Vines",
+   "level": 2,
+   "weapon": 215,
+   "dmg": 512
+  },
+  {
+   "name": "Shooting Thorns",
+   "level": 2,
+   "weapon": 369,
+   "dmg": 2
+  },
+  {
+   "name": "Animate Forest",
+   "level": 3,
+   "weapon": 788,
+   "dmg": 1
+  },
+  {
+   "name": "Earthquake",
+   "level": 3,
+   "weapon": 316,
+   "dmg": 5
+  },
+  {
+   "name": "Lord of the Wild",
+   "level": 3,
+   "weapon": 219,
+   "dmg": 1
+  },
+  {
+   "name": "Poison Vine Growth",
+   "level": 3,
+   "weapon": 762,
+   "dmg": 512
+  },
+  {
+   "name": "Wild Growth",
+   "level": 3,
+   "weapon": 216,
+   "dmg": 512
+  }
+ ],
+ "dwarf magic": [
+  {
+   "name": "Cold Resistance",
+   "level": 1,
+   "weapon": 671,
+   "dmg": 8
+  },
+  {
+   "name": "Confusion",
+   "level": 1,
+   "weapon": 451,
+   "dmg": 262144
+  },
+  {
+   "name": "Earth Grip",
+   "level": 1,
+   "weapon": 310,
+   "dmg": 256
+  },
+  {
+   "name": "Fire Resistance",
+   "level": 1,
+   "weapon": 671,
+   "dmg": 4
+  },
+  {
+   "name": "Flame Burst",
+   "level": 1,
+   "weapon": 53,
+   "dmg": 8
+  },
+  {
+   "name": "Fortitude",
+   "level": 1,
+   "weapon": 431,
+   "dmg": 2
+  },
+  {
+   "name": "Iron Skin",
+   "level": 1,
+   "weapon": 435,
+   "dmg": 131072
+  },
+  {
+   "name": "Magic Stones",
+   "level": 1,
+   "weapon": 791,
+   "dmg": 6
+  },
+  {
+   "name": "Tremor",
+   "level": 1,
+   "weapon": 313,
+   "dmg": 2
+  },
+  {
+   "name": "Army of Stone",
+   "level": 2,
+   "weapon": 430,
+   "dmg": 2
+  },
+  {
+   "name": "Earth Meld",
+   "level": 2,
+   "weapon": 317,
+   "dmg": 256
+  },
+  {
+   "name": "Eruption",
+   "level": 2,
+   "weapon": 313,
+   "dmg": 9
+  },
+  {
+   "name": "Fire Ward",
+   "level": 2,
+   "weapon": 673,
+   "dmg": 4
+  },
+  {
+   "name": "Runes of Confusion",
+   "level": 2,
+   "weapon": 452,
+   "dmg": 262144
+  },
+  {
+   "name": "Smokeless Flame",
+   "level": 2,
+   "weapon": 448,
+   "dmg": 25
+  },
+  {
+   "name": "Soldiers of Steel",
+   "level": 2,
+   "weapon": 434,
+   "dmg": 131072
+  },
+  {
+   "name": "Winter Ward",
+   "level": 2,
+   "weapon": 673,
+   "dmg": 8
+  },
+  {
+   "name": "Army of Steel",
+   "level": 3,
+   "weapon": 433,
+   "dmg": 131072
+  },
+  {
+   "name": "Chasm",
+   "level": 3,
+   "weapon": 190,
+   "dmg": 100
+  },
+  {
+   "name": "Earthquake",
+   "level": 3,
+   "weapon": 316,
+   "dmg": 5
+  },
+  {
+   "name": "Flame Pillars",
+   "level": 3,
+   "weapon": 450,
+   "dmg": 25
+  },
+  {
+   "name": "Legion of Stone",
+   "level": 3,
+   "weapon": 429,
+   "dmg": 2
+  },
+  {
+   "name": "Maws of the Earth",
+   "level": 3,
+   "weapon": 650,
+   "dmg": 100
+  },
+  {
+   "name": "Soldiers of Gold",
+   "level": 3,
+   "weapon": 765,
+   "dmg": 131076
+  }
+ ],
+ "elemental magic": [
+  {
+   "name": "Combustion",
+   "level": 1,
+   "weapon": 243,
+   "dmg": 32
+  },
+  {
+   "name": "Dehydration",
+   "level": 1,
+   "weapon": 422,
+   "dmg": 34359738368
+  },
+  {
+   "name": "Earth Grip",
+   "level": 1,
+   "weapon": 310,
+   "dmg": 256
+  },
+  {
+   "name": "Gust of Wind",
+   "level": 1,
+   "weapon": 113,
+   "dmg": 3
+  },
+  {
+   "name": "Earth Meld",
+   "level": 2,
+   "weapon": 317,
+   "dmg": 256
+  },
+  {
+   "name": "Fireball",
+   "level": 2,
+   "weapon": 54,
+   "dmg": 15
+  },
+  {
+   "name": "Orb Lightning",
+   "level": 2,
+   "weapon": 150,
+   "dmg": 8
+  },
+  {
+   "name": "Sailor's Death",
+   "level": 2,
+   "weapon": 799,
+   "dmg": 64
+  },
+  {
+   "name": "Storm Wind",
+   "level": 2,
+   "weapon": 115,
+   "dmg": 4
+  },
+  {
+   "name": "Torrent of Water",
+   "level": 2,
+   "weapon": 187,
+   "dmg": 6
+  },
+  {
+   "name": "Army of Waves",
+   "level": 3,
+   "weapon": 195,
+   "dmg": 9
+  },
+  {
+   "name": "Call Lightning",
+   "level": 3,
+   "weapon": 267,
+   "dmg": 8
+  },
+  {
+   "name": "Earthquake",
+   "level": 3,
+   "weapon": 316,
+   "dmg": 5
+  },
+  {
+   "name": "Flame Storm",
+   "level": 3,
+   "weapon": 57,
+   "dmg": 7
+  }
+ ],
+ "enchantment": [
+  {
+   "name": "Fire Resistance",
+   "level": 1,
+   "weapon": 671,
+   "dmg": 4
+  },
+  {
+   "name": "Fire Shield",
+   "level": 1,
+   "weapon": 637,
+   "dmg": 1024
+  },
+  {
+   "name": "Fortitude",
+   "level": 1,
+   "weapon": 431,
+   "dmg": 2
+  },
+  {
+   "name": "Ironskin",
+   "level": 1,
+   "weapon": 435,
+   "dmg": 131072
+  },
+  {
+   "name": "Luck",
+   "level": 1,
+   "weapon": 103,
+   "dmg": 128
+  },
+  {
+   "name": "Sleep",
+   "level": 1,
+   "weapon": 77,
+   "dmg": 1
+  },
+  {
+   "name": "Strength",
+   "level": 1,
+   "weapon": 443,
+   "dmg": 512
+  },
+  {
+   "name": "Toughness",
+   "level": 1,
+   "weapon": 798,
+   "dmg": 1835008
+  },
+  {
+   "name": "Army of Stone",
+   "level": 2,
+   "weapon": 430,
+   "dmg": 2
+  },
+  {
+   "name": "Enchanted Sleep",
+   "level": 2,
+   "weapon": 78,
+   "dmg": 1
+  },
+  {
+   "name": "Fire Ward",
+   "level": 2,
+   "weapon": 673,
+   "dmg": 4
+  },
+  {
+   "name": "Fortune",
+   "level": 2,
+   "weapon": 120,
+   "dmg": 128
+  },
+  {
+   "name": "Herculean Soldiers",
+   "level": 2,
+   "weapon": 430,
+   "dmg": 512
+  },
+  {
+   "name": "Indomitability",
+   "level": 2,
+   "weapon": 793,
+   "dmg": 1835008
+  },
+  {
+   "name": "Soldiers of Flame",
+   "level": 2,
+   "weapon": 638,
+   "dmg": 1024
+  },
+  {
+   "name": "Soldiers of Steel",
+   "level": 2,
+   "weapon": 434,
+   "dmg": 131072
+  },
+  {
+   "name": "Thunder Ward",
+   "level": 2,
+   "weapon": 673,
+   "dmg": 32
+  },
+  {
+   "name": "Venom Ward",
+   "level": 2,
+   "weapon": 673,
+   "dmg": 16
+  },
+  {
+   "name": "Weakness",
+   "level": 2,
+   "weapon": 250,
+   "dmg": 2048
+  },
+  {
+   "name": "Winter Ward",
+   "level": 2,
+   "weapon": 673,
+   "dmg": 8
+  },
+  {
+   "name": "Army of Flames",
+   "level": 3,
+   "weapon": 639,
+   "dmg": 1024
+  },
+  {
+   "name": "Army of Steel",
+   "level": 3,
+   "weapon": 433,
+   "dmg": 131072
+  },
+  {
+   "name": "Battle Fortune",
+   "level": 3,
+   "weapon": 104,
+   "dmg": 128
+  },
+  {
+   "name": "Invulnerability",
+   "level": 3,
+   "weapon": 615,
+   "dmg": 4194304
+  },
+  {
+   "name": "Legion of Stone",
+   "level": 3,
+   "weapon": 429,
+   "dmg": 2
+  },
+  {
+   "name": "Slumbering Army",
+   "level": 3,
+   "weapon": 304,
+   "dmg": 1
+  }
+ ],
+ "famine magic": [
+  {
+   "name": "Summon Crows",
+   "level": 1,
+   "weapon": 470,
+   "dmg": 5
+  },
+  {
+   "name": "Summon Giant Locusts",
+   "level": 2,
+   "weapon": 509,
+   "dmg": 25
+  },
+  {
+   "name": "Starvation",
+   "level": 3,
+   "weapon": 510,
+   "dmg": 2052
+  }
+ ],
+ "forest magic": [
+  {
+   "name": "Befriend Animal",
+   "level": 1,
+   "weapon": 217,
+   "dmg": 1
+  },
+  {
+   "name": "Confusion",
+   "level": 1,
+   "weapon": 451,
+   "dmg": 262144
+  },
+  {
+   "name": "Fortitude",
+   "level": 1,
+   "weapon": 431,
+   "dmg": 2
+  },
+  {
+   "name": "Heal",
+   "level": 1,
+   "weapon": 878,
+   "dmg": 5
+  },
+  {
+   "name": "Magic Stones",
+   "level": 1,
+   "weapon": 791,
+   "dmg": 6
+  },
+  {
+   "name": "Sleep",
+   "level": 1,
+   "weapon": 77,
+   "dmg": 1
+  },
+  {
+   "name": "Strength",
+   "level": 1,
+   "weapon": 443,
+   "dmg": 512
+  },
+  {
+   "name": "Summon Wolf",
+   "level": 1,
+   "weapon": 148,
+   "dmg": 1
+  },
+  {
+   "name": "Tangle Vine",
+   "level": 1,
+   "weapon": 247,
+   "dmg": 512
+  },
+  {
+   "name": "Animate Tree",
+   "level": 2,
+   "weapon": 787,
+   "dmg": 1
+  },
+  {
+   "name": "Charm",
+   "level": 2,
+   "weapon": 52,
+   "dmg": 1
+  },
+  {
+   "name": "Cloud of Confusion",
+   "level": 2,
+   "weapon": 452,
+   "dmg": 262144
+  },
+  {
+   "name": "Command Beasts",
+   "level": 2,
+   "weapon": 218,
+   "dmg": 1
+  },
+  {
+   "name": "Curse of the Frog Prince",
+   "level": 2,
+   "weapon": 76,
+   "dmg": 1
+  },
+  {
+   "name": "Enchanted Sleep",
+   "level": 2,
+   "weapon": 78,
+   "dmg": 1
+  },
+  {
+   "name": "Greater Healing",
+   "level": 2,
+   "weapon": 879,
+   "dmg": 3
+  },
+  {
+   "name": "Summon Murder of Crows",
+   "level": 2,
+   "weapon": 470,
+   "dmg": 3
+  },
+  {
+   "name": "Summon Wolves",
+   "level": 2,
+   "weapon": 148,
+   "dmg": 3
+  },
+  {
+   "name": "Animate Forest",
+   "level": 3,
+   "weapon": 788,
+   "dmg": 1
+  },
+  {
+   "name": "Army of Crows",
+   "level": 3,
+   "weapon": 470,
+   "dmg": 13
+  },
+  {
+   "name": "Army of Wolves",
+   "level": 3,
+   "weapon": 148,
+   "dmg": 10
+  },
+  {
+   "name": "Enchanting Voice",
+   "level": 3,
+   "weapon": 80,
+   "dmg": 1
+  },
+  {
+   "name": "Mist of Confusion",
+   "level": 3,
+   "weapon": 453,
+   "dmg": 262144
+  },
+  {
+   "name": "Wild Growth",
+   "level": 3,
+   "weapon": 216,
+   "dmg": 512
+  }
+ ],
+ "fortune magic": [
+  {
+   "name": "Luck",
+   "level": 1,
+   "weapon": 103,
+   "dmg": 128
+  },
+  {
+   "name": "Lucky Strike",
+   "level": 1,
+   "weapon": 828,
+   "dmg": 17179869184
+  },
+  {
+   "name": "Promise of Luck",
+   "level": 1,
+   "weapon": 828,
+   "dmg": 4294967296
+  },
+  {
+   "name": "Fortune",
+   "level": 2,
+   "weapon": 120,
+   "dmg": 128
+  },
+  {
+   "name": "Promise of Fortune",
+   "level": 2,
+   "weapon": 829,
+   "dmg": 4294967296
+  },
+  {
+   "name": "True Strike",
+   "level": 2,
+   "weapon": 829,
+   "dmg": 17179869184
+  },
+  {
+   "name": "Battle Fortune",
+   "level": 3,
+   "weapon": 104,
+   "dmg": 128
+  },
+  {
+   "name": "Guided by Fate",
+   "level": 3,
+   "weapon": 830,
+   "dmg": 17179869184
+  },
+  {
+   "name": "Promise of Victory",
+   "level": 3,
+   "weapon": 830,
+   "dmg": 4294967296
+  }
+ ],
+ "foul magic": [
+  {
+   "name": "Black Cloud",
+   "level": 1,
+   "weapon": 245,
+   "dmg": 1
+  },
+  {
+   "name": "Blindness",
+   "level": 1,
+   "weapon": 918,
+   "dmg": 67108864
+  },
+  {
+   "name": "Decay",
+   "level": 1,
+   "weapon": 466,
+   "dmg": 4
+  },
+  {
+   "name": "Disease",
+   "level": 1,
+   "weapon": 609,
+   "dmg": 1
+  },
+  {
+   "name": "Gift of Death",
+   "level": 2,
+   "weapon": 467,
+   "dmg": 5
+  },
+  {
+   "name": "Plague",
+   "level": 2,
+   "weapon": 86,
+   "dmg": 1
+  },
+  {
+   "name": "Wither",
+   "level": 2,
+   "weapon": 281,
+   "dmg": 4
+  },
+  {
+   "name": "Black Death",
+   "level": 3,
+   "weapon": 87,
+   "dmg": 1
+  },
+  {
+   "name": "Symbol of Death",
+   "level": 3,
+   "weapon": 396,
+   "dmg": 2
+  },
+  {
+   "name": "Tendrils of Death",
+   "level": 3,
+   "weapon": 246,
+   "dmg": 2053
+  }
+ ],
+ "frost magic": [
+  {
+   "name": "Cold Resistance",
+   "level": 1,
+   "weapon": 671,
+   "dmg": 8
+  },
+  {
+   "name": "Freeze",
+   "level": 1,
+   "weapon": 61,
+   "dmg": 8
+  },
+  {
+   "name": "Frost",
+   "level": 1,
+   "weapon": 62,
+   "dmg": 3
+  },
+  {
+   "name": "Frozen Heart",
+   "level": 1,
+   "weapon": 68,
+   "dmg": 20
+  },
+  {
+   "name": "Icicle",
+   "level": 1,
+   "weapon": 69,
+   "dmg": 6
+  },
+  {
+   "name": "Blizzard",
+   "level": 2,
+   "weapon": 66,
+   "dmg": 3
+  },
+  {
+   "name": "Encase in Ice",
+   "level": 2,
+   "weapon": 240,
+   "dmg": 2
+  },
+  {
+   "name": "Falling Frost",
+   "level": 2,
+   "weapon": 64,
+   "dmg": 6
+  },
+  {
+   "name": "Hail Storm",
+   "level": 2,
+   "weapon": 328,
+   "dmg": 4
+  },
+  {
+   "name": "Ice Shards",
+   "level": 2,
+   "weapon": 70,
+   "dmg": 12
+  },
+  {
+   "name": "Winter Ward",
+   "level": 2,
+   "weapon": 673,
+   "dmg": 8
+  },
+  {
+   "name": "Frozen Flames",
+   "level": 3,
+   "weapon": 64,
+   "dmg": 17
+  },
+  {
+   "name": "Ice Prison",
+   "level": 3,
+   "weapon": 241,
+   "dmg": 6
+  },
+  {
+   "name": "Legion of Ice",
+   "level": 3,
+   "weapon": 72,
+   "dmg": 10
+  }
+ ],
+ "garnet sorcery": [
+  {
+   "name": "Blood Boil",
+   "level": 1,
+   "weapon": 67,
+   "dmg": 15
+  },
+  {
+   "name": "Fire Shield",
+   "level": 1,
+   "weapon": 637,
+   "dmg": 1024
+  },
+  {
+   "name": "Flames",
+   "level": 1,
+   "weapon": 660,
+   "dmg": 3
+  },
+  {
+   "name": "Pain",
+   "level": 1,
+   "weapon": 16,
+   "dmg": 10
+  },
+  {
+   "name": "Agony",
+   "level": 2,
+   "weapon": 152,
+   "dmg": 7
+  },
+  {
+   "name": "Blood Burst",
+   "level": 2,
+   "weapon": 367,
+   "dmg": 20
+  },
+  {
+   "name": "Flame Strike",
+   "level": 2,
+   "weapon": 663,
+   "dmg": 15
+  },
+  {
+   "name": "Soldiers of Flame",
+   "level": 2,
+   "weapon": 638,
+   "dmg": 1024
+  },
+  {
+   "name": "Falling Flames",
+   "level": 3,
+   "weapon": 56,
+   "dmg": 8
+  },
+  {
+   "name": "Flame Explosion",
+   "level": 3,
+   "weapon": 368,
+   "dmg": 25
+  }
+ ],
+ "geomancy": [
+  {
+   "name": "Earth Grip",
+   "level": 1,
+   "weapon": 310,
+   "dmg": 256
+  },
+  {
+   "name": "Iron Skin",
+   "level": 1,
+   "weapon": 435,
+   "dmg": 131072
+  },
+  {
+   "name": "Stone Shards",
+   "level": 1,
+   "weapon": 331,
+   "dmg": 4
+  },
+  {
+   "name": "Strength",
+   "level": 1,
+   "weapon": 443,
+   "dmg": 512
+  },
+  {
+   "name": "Tremor",
+   "level": 1,
+   "weapon": 313,
+   "dmg": 2
+  },
+  {
+   "name": "Earth Meld",
+   "level": 2,
+   "weapon": 317,
+   "dmg": 256
+  },
+  {
+   "name": "Eruption",
+   "level": 2,
+   "weapon": 313,
+   "dmg": 9
+  },
+  {
+   "name": "Iron Bolts",
+   "level": 2,
+   "weapon": 649,
+   "dmg": 10
+  },
+  {
+   "name": "Soldiers of Steel",
+   "level": 2,
+   "weapon": 434,
+   "dmg": 131072
+  },
+  {
+   "name": "Strength of the Earth",
+   "level": 2,
+   "weapon": 655,
+   "dmg": 4608
+  },
+  {
+   "name": "Summon Earth",
+   "level": 2,
+   "weapon": 196,
+   "dmg": 3
+  },
+  {
+   "name": "Army of Gold",
+   "level": 3,
+   "weapon": 71,
+   "dmg": 131076
+  },
+  {
+   "name": "Chasm",
+   "level": 3,
+   "weapon": 190,
+   "dmg": 100
+  },
+  {
+   "name": "Earthquake",
+   "level": 3,
+   "weapon": 316,
+   "dmg": 5
+  },
+  {
+   "name": "Maws of the Earth",
+   "level": 3,
+   "weapon": 650,
+   "dmg": 100
+  }
+ ],
+ "gold arcana": [
+  {
+   "name": "Fire Resistance",
+   "level": 1,
+   "weapon": 671,
+   "dmg": 4
+  },
+  {
+   "name": "Flames",
+   "level": 1,
+   "weapon": 660,
+   "dmg": 3
+  },
+  {
+   "name": "Luck",
+   "level": 1,
+   "weapon": 103,
+   "dmg": 128
+  },
+  {
+   "name": "Paralyze",
+   "level": 1,
+   "weapon": 232,
+   "dmg": 16
+  },
+  {
+   "name": "Sunbeam",
+   "level": 1,
+   "weapon": 127,
+   "dmg": 2
+  },
+  {
+   "name": "Antimagic",
+   "level": 2,
+   "weapon": 641,
+   "dmg": 64
+  },
+  {
+   "name": "Fire Ward",
+   "level": 2,
+   "weapon": 673,
+   "dmg": 4
+  },
+  {
+   "name": "Fireball",
+   "level": 2,
+   "weapon": 54,
+   "dmg": 15
+  },
+  {
+   "name": "Fortune",
+   "level": 2,
+   "weapon": 120,
+   "dmg": 128
+  },
+  {
+   "name": "Incinerate",
+   "level": 2,
+   "weapon": 449,
+   "dmg": 25
+  },
+  {
+   "name": "Solar Flare",
+   "level": 2,
+   "weapon": 127,
+   "dmg": 8
+  },
+  {
+   "name": "Soul Slay",
+   "level": 2,
+   "weapon": 344,
+   "dmg": 999
+  },
+  {
+   "name": "Summon Fire",
+   "level": 2,
+   "weapon": 193,
+   "dmg": 2
+  },
+  {
+   "name": "Army of Gold",
+   "level": 3,
+   "weapon": 71,
+   "dmg": 131076
+  },
+  {
+   "name": "Battle Fortune",
+   "level": 3,
+   "weapon": 104,
+   "dmg": 128
+  },
+  {
+   "name": "Flame Storm",
+   "level": 3,
+   "weapon": 57,
+   "dmg": 7
+  },
+  {
+   "name": "Pillar of Fire",
+   "level": 3,
+   "weapon": 368,
+   "dmg": 60
+  }
+ ],
+ "hedge magic": [
+  {
+   "name": "Blindness",
+   "level": 1,
+   "weapon": 918,
+   "dmg": 67108864
+  },
+  {
+   "name": "Curse",
+   "level": 1,
+   "weapon": 36,
+   "dmg": 2
+  },
+  {
+   "name": "Disease",
+   "level": 1,
+   "weapon": 609,
+   "dmg": 1
+  },
+  {
+   "name": "Flame Burst",
+   "level": 1,
+   "weapon": 53,
+   "dmg": 8
+  },
+  {
+   "name": "Fortitude",
+   "level": 1,
+   "weapon": 431,
+   "dmg": 2
+  },
+  {
+   "name": "Gust of Wind",
+   "level": 1,
+   "weapon": 113,
+   "dmg": 3
+  },
+  {
+   "name": "Magic Stones",
+   "level": 1,
+   "weapon": 791,
+   "dmg": 6
+  },
+  {
+   "name": "Poison Cloud",
+   "level": 1,
+   "weapon": 272,
+   "dmg": 4
+  },
+  {
+   "name": "Poison Web",
+   "level": 1,
+   "weapon": 852,
+   "dmg": 5
+  },
+  {
+   "name": "Sleep",
+   "level": 1,
+   "weapon": 77,
+   "dmg": 1
+  },
+  {
+   "name": "Strength",
+   "level": 1,
+   "weapon": 443,
+   "dmg": 512
+  },
+  {
+   "name": "Summon Wolf",
+   "level": 1,
+   "weapon": 148,
+   "dmg": 1
+  },
+  {
+   "name": "Vine Arrow",
+   "level": 1,
+   "weapon": 661,
+   "dmg": 6
+  },
+  {
+   "name": "Curse of the Frog Prince",
+   "level": 2,
+   "weapon": 76,
+   "dmg": 1
+  },
+  {
+   "name": "Enchanted Sleep",
+   "level": 2,
+   "weapon": 78,
+   "dmg": 1
+  },
+  {
+   "name": "Plague",
+   "level": 2,
+   "weapon": 86,
+   "dmg": 1
+  },
+  {
+   "name": "Poison Mist",
+   "level": 2,
+   "weapon": 503,
+   "dmg": 8
+  },
+  {
+   "name": "Storm Wind",
+   "level": 2,
+   "weapon": 115,
+   "dmg": 4
+  },
+  {
+   "name": "Summon Great Boar",
+   "level": 2,
+   "weapon": 471,
+   "dmg": 1
+  },
+  {
+   "name": "Summon Murder of Crows",
+   "level": 2,
+   "weapon": 470,
+   "dmg": 3
+  },
+  {
+   "name": "Summon Wolves",
+   "level": 2,
+   "weapon": 148,
+   "dmg": 3
+  },
+  {
+   "name": "Animate Tree",
+   "level": 3,
+   "weapon": 787,
+   "dmg": 1
+  },
+  {
+   "name": "Arcane Tempest",
+   "level": 3,
+   "weapon": 116,
+   "dmg": 3
+  },
+  {
+   "name": "Army of Wolves",
+   "level": 3,
+   "weapon": 148,
+   "dmg": 10
+  },
+  {
+   "name": "Black Death",
+   "level": 3,
+   "weapon": 87,
+   "dmg": 1
+  },
+  {
+   "name": "Call Lightning",
+   "level": 3,
+   "weapon": 267,
+   "dmg": 8
+  },
+  {
+   "name": "Deadly Fumes",
+   "level": 3,
+   "weapon": 373,
+   "dmg": 6
+  },
+  {
+   "name": "Earthquake",
+   "level": 3,
+   "weapon": 316,
+   "dmg": 5
+  },
+  {
+   "name": "Slumbering Army",
+   "level": 3,
+   "weapon": 304,
+   "dmg": 1
+  }
+ ],
+ "high arcana": [
+  {
+   "name": "Combustion",
+   "level": 1,
+   "weapon": 243,
+   "dmg": 32
+  },
+  {
+   "name": "Earth Grip",
+   "level": 1,
+   "weapon": 310,
+   "dmg": 256
+  },
+  {
+   "name": "Fire Resistance",
+   "level": 1,
+   "weapon": 671,
+   "dmg": 4
+  },
+  {
+   "name": "Fire Shield",
+   "level": 1,
+   "weapon": 637,
+   "dmg": 1024
+  },
+  {
+   "name": "Ironskin",
+   "level": 1,
+   "weapon": 435,
+   "dmg": 131072
+  },
+  {
+   "name": "Luck",
+   "level": 1,
+   "weapon": 103,
+   "dmg": 128
+  },
+  {
+   "name": "Paralyze",
+   "level": 1,
+   "weapon": 232,
+   "dmg": 16
+  },
+  {
+   "name": "Sleep",
+   "level": 1,
+   "weapon": 77,
+   "dmg": 1
+  },
+  {
+   "name": "Earth Meld",
+   "level": 2,
+   "weapon": 317,
+   "dmg": 256
+  },
+  {
+   "name": "Enchanted Sleep",
+   "level": 2,
+   "weapon": 78,
+   "dmg": 1
+  },
+  {
+   "name": "Fire Ward",
+   "level": 2,
+   "weapon": 673,
+   "dmg": 4
+  },
+  {
+   "name": "Fortune",
+   "level": 2,
+   "weapon": 120,
+   "dmg": 128
+  },
+  {
+   "name": "Mass Combustion",
+   "level": 2,
+   "weapon": 504,
+   "dmg": 32
+  },
+  {
+   "name": "Meteor",
+   "level": 2,
+   "weapon": 59,
+   "dmg": 50
+  },
+  {
+   "name": "Soldiers of Flame",
+   "level": 2,
+   "weapon": 638,
+   "dmg": 1024
+  },
+  {
+   "name": "Soldiers of Steel",
+   "level": 2,
+   "weapon": 434,
+   "dmg": 131072
+  },
+  {
+   "name": "Soul Slay",
+   "level": 2,
+   "weapon": 344,
+   "dmg": 999
+  },
+  {
+   "name": "Army of Gold",
+   "level": 3,
+   "weapon": 71,
+   "dmg": 131076
+  },
+  {
+   "name": "Battle Fortune",
+   "level": 3,
+   "weapon": 104,
+   "dmg": 128
+  },
+  {
+   "name": "Meteor Showers",
+   "level": 3,
+   "weapon": 60,
+   "dmg": 40
+  },
+  {
+   "name": "Slumbering Army",
+   "level": 3,
+   "weapon": 304,
+   "dmg": 1
+  }
+ ],
+ "hydromancy": [
+  {
+   "name": "Acid Darts",
+   "level": 1,
+   "weapon": 617,
+   "dmg": 5
+  },
+  {
+   "name": "Dehydration",
+   "level": 1,
+   "weapon": 422,
+   "dmg": 34359738368
+  },
+  {
+   "name": "Stream of Water",
+   "level": 1,
+   "weapon": 401,
+   "dmg": 64
+  },
+  {
+   "name": "Summon Water",
+   "level": 1,
+   "weapon": 195,
+   "dmg": 1
+  },
+  {
+   "name": "Acid Spray",
+   "level": 2,
+   "weapon": 618,
+   "dmg": 10
+  },
+  {
+   "name": "Call Water",
+   "level": 2,
+   "weapon": 195,
+   "dmg": 4
+  },
+  {
+   "name": "Rising Tide",
+   "level": 2,
+   "weapon": 391,
+   "dmg": 64
+  },
+  {
+   "name": "Sailor's Death",
+   "level": 2,
+   "weapon": 799,
+   "dmg": 64
+  },
+  {
+   "name": "Torrent of Water",
+   "level": 2,
+   "weapon": 187,
+   "dmg": 6
+  },
+  {
+   "name": "Acid Rain",
+   "level": 3,
+   "weapon": 621,
+   "dmg": 12
+  },
+  {
+   "name": "Army of Waves",
+   "level": 3,
+   "weapon": 195,
+   "dmg": 10
+  },
+  {
+   "name": "Deluge",
+   "level": 3,
+   "weapon": 318,
+   "dmg": 11
+  },
+  {
+   "name": "Watery Doom",
+   "level": 3,
+   "weapon": 319,
+   "dmg": 64
+  }
+ ],
+ "illusionism": [
+  {
+   "name": "Beam of Light",
+   "level": 1,
+   "weapon": 571,
+   "dmg": 3
+  },
+  {
+   "name": "Confusion",
+   "level": 1,
+   "weapon": 451,
+   "dmg": 262144
+  },
+  {
+   "name": "Displace Self",
+   "level": 1,
+   "weapon": 29,
+   "dmg": 2097152
+  },
+  {
+   "name": "Fear",
+   "level": 1,
+   "weapon": 30,
+   "dmg": 12
+  },
+  {
+   "name": "Mirror Image",
+   "level": 1,
+   "weapon": 428,
+   "dmg": 4
+  },
+  {
+   "name": "Sleep",
+   "level": 1,
+   "weapon": 77,
+   "dmg": 1
+  },
+  {
+   "name": "Bewilderment",
+   "level": 2,
+   "weapon": 452,
+   "dmg": 262144
+  },
+  {
+   "name": "Color Spray",
+   "level": 2,
+   "weapon": 487,
+   "dmg": 2
+  },
+  {
+   "name": "Enchanted Sleep",
+   "level": 2,
+   "weapon": 78,
+   "dmg": 1
+  },
+  {
+   "name": "Terror",
+   "level": 2,
+   "weapon": 611,
+   "dmg": 8
+  },
+  {
+   "name": "Displace Army",
+   "level": 3,
+   "weapon": 104,
+   "dmg": 2097152
+  },
+  {
+   "name": "Mist of Confusion",
+   "level": 3,
+   "weapon": 453,
+   "dmg": 262144
+  },
+  {
+   "name": "Slumbering Army",
+   "level": 3,
+   "weapon": 304,
+   "dmg": 1
+  },
+  {
+   "name": "Visions of Dread",
+   "level": 3,
+   "weapon": 337,
+   "dmg": 8
+  }
+ ],
+ "infernal magic": [
+  {
+   "name": "Blood Boil",
+   "level": 1,
+   "weapon": 67,
+   "dmg": 15
+  },
+  {
+   "name": "Flame Burst",
+   "level": 1,
+   "weapon": 53,
+   "dmg": 8
+  },
+  {
+   "name": "Pain",
+   "level": 1,
+   "weapon": 16,
+   "dmg": 10
+  },
+  {
+   "name": "Spontaneous Combustion",
+   "level": 1,
+   "weapon": 242,
+   "dmg": 32
+  },
+  {
+   "name": "Strength",
+   "level": 1,
+   "weapon": 443,
+   "dmg": 512
+  },
+  {
+   "name": "Summon Imp",
+   "level": 1,
+   "weapon": 121,
+   "dmg": 1
+  },
+  {
+   "name": "Agony",
+   "level": 2,
+   "weapon": 152,
+   "dmg": 9
+  },
+  {
+   "name": "Blood Burst",
+   "level": 2,
+   "weapon": 367,
+   "dmg": 20
+  },
+  {
+   "name": "Harm",
+   "level": 2,
+   "weapon": 484,
+   "dmg": 33
+  },
+  {
+   "name": "Hellbind Heart",
+   "level": 2,
+   "weapon": 642,
+   "dmg": 1
+  },
+  {
+   "name": "Infernal Strength",
+   "level": 2,
+   "weapon": 444,
+   "dmg": 512
+  },
+  {
+   "name": "Lashes of Pain",
+   "level": 2,
+   "weapon": 244,
+   "dmg": 9
+  },
+  {
+   "name": "Summon Imps",
+   "level": 2,
+   "weapon": 121,
+   "dmg": 3
+  },
+  {
+   "name": "Bloodletting",
+   "level": 3,
+   "weapon": 645,
+   "dmg": 6
+  },
+  {
+   "name": "Imp Horde",
+   "level": 3,
+   "weapon": 121,
+   "dmg": 12
+  },
+  {
+   "name": "Infernal Gate",
+   "level": 3,
+   "weapon": 323,
+   "dmg": 1
+  },
+  {
+   "name": "Rain of Blood",
+   "level": 3,
+   "weapon": 468,
+   "dmg": 7
+  },
+  {
+   "name": "Summon Demon",
+   "level": 3,
+   "weapon": 123,
+   "dmg": 3
+  },
+  {
+   "name": "Summon Fiend",
+   "level": 3,
+   "weapon": 122,
+   "dmg": 3
+  }
+ ],
+ "iron arcana": [
+  {
+   "name": "Iron Shard",
+   "level": 1,
+   "weapon": 506,
+   "dmg": 5
+  },
+  {
+   "name": "Iron Skin",
+   "level": 1,
+   "weapon": 435,
+   "dmg": 131072
+  },
+  {
+   "name": "Iron Spear",
+   "level": 1,
+   "weapon": 505,
+   "dmg": 12
+  },
+  {
+   "name": "Luck",
+   "level": 1,
+   "weapon": 103,
+   "dmg": 128
+  },
+  {
+   "name": "Paralyze",
+   "level": 1,
+   "weapon": 232,
+   "dmg": 16
+  },
+  {
+   "name": "Antimagic",
+   "level": 2,
+   "weapon": 641,
+   "dmg": 64
+  },
+  {
+   "name": "Fortune",
+   "level": 2,
+   "weapon": 120,
+   "dmg": 128
+  },
+  {
+   "name": "Iron Darts",
+   "level": 2,
+   "weapon": 199,
+   "dmg": 6
+  },
+  {
+   "name": "Iron Shower",
+   "level": 2,
+   "weapon": 403,
+   "dmg": 5
+  },
+  {
+   "name": "Soldiers of Steel",
+   "level": 2,
+   "weapon": 434,
+   "dmg": 131072
+  },
+  {
+   "name": "Soul Slay",
+   "level": 2,
+   "weapon": 344,
+   "dmg": 999
+  },
+  {
+   "name": "Summon Earth",
+   "level": 2,
+   "weapon": 196,
+   "dmg": 2
+  },
+  {
+   "name": "Battle Fortune",
+   "level": 3,
+   "weapon": 104,
+   "dmg": 128
+  },
+  {
+   "name": "Invulnerability",
+   "level": 3,
+   "weapon": 615,
+   "dmg": 4194304
+  },
+  {
+   "name": "Iron Globes",
+   "level": 3,
+   "weapon": 331,
+   "dmg": 50
+  },
+  {
+   "name": "Iron Storm",
+   "level": 3,
+   "weapon": 198,
+   "dmg": 6
+  },
+  {
+   "name": "Legion of Steel",
+   "level": 3,
+   "weapon": 433,
+   "dmg": 131072
+  }
+ ],
+ "jade sorcery": [
+  {
+   "name": "Poison Bolts",
+   "level": 1,
+   "weapon": 271,
+   "dmg": 8
+  },
+  {
+   "name": "Poison Resistance",
+   "level": 1,
+   "weapon": 670,
+   "dmg": 16
+  },
+  {
+   "name": "Regeneration",
+   "level": 1,
+   "weapon": 627,
+   "dmg": 4096
+  },
+  {
+   "name": "Venom",
+   "level": 1,
+   "weapon": 75,
+   "dmg": 20
+  },
+  {
+   "name": "Hydra's Blessing",
+   "level": 2,
+   "weapon": 628,
+   "dmg": 4096
+  },
+  {
+   "name": "Lungs of Watery Death",
+   "level": 2,
+   "weapon": 799,
+   "dmg": 64
+  },
+  {
+   "name": "Venom Ward",
+   "level": 2,
+   "weapon": 672,
+   "dmg": 16
+  },
+  {
+   "name": "Venomous Death",
+   "level": 2,
+   "weapon": 75,
+   "dmg": 40
+  },
+  {
+   "name": "Mass Regeneration",
+   "level": 3,
+   "weapon": 630,
+   "dmg": 4096
+  },
+  {
+   "name": "Poison Mist",
+   "level": 3,
+   "weapon": 503,
+   "dmg": 12
+  }
+ ],
+ "kuro do": [
+  {
+   "name": "Blindness",
+   "level": 1,
+   "weapon": 918,
+   "dmg": 67108864
+  },
+  {
+   "name": "Curse",
+   "level": 1,
+   "weapon": 36,
+   "dmg": 2
+  },
+  {
+   "name": "Disease",
+   "level": 1,
+   "weapon": 609,
+   "dmg": 1
+  },
+  {
+   "name": "Fear",
+   "level": 1,
+   "weapon": 30,
+   "dmg": 12
+  },
+  {
+   "name": "Gust of Wind",
+   "level": 1,
+   "weapon": 113,
+   "dmg": 3
+  },
+  {
+   "name": "Pain",
+   "level": 1,
+   "weapon": 16,
+   "dmg": 10
+  },
+  {
+   "name": "Blizzard",
+   "level": 2,
+   "weapon": 66,
+   "dmg": 3
+  },
+  {
+   "name": "Harm",
+   "level": 2,
+   "weapon": 484,
+   "dmg": 30
+  },
+  {
+   "name": "Plague",
+   "level": 2,
+   "weapon": 86,
+   "dmg": 1
+  },
+  {
+   "name": "Storm Wind",
+   "level": 2,
+   "weapon": 115,
+   "dmg": 4
+  },
+  {
+   "name": "Summon Wolves",
+   "level": 2,
+   "weapon": 148,
+   "dmg": 4
+  },
+  {
+   "name": "Terror",
+   "level": 2,
+   "weapon": 611,
+   "dmg": 8
+  },
+  {
+   "name": "Thunderhead",
+   "level": 2,
+   "weapon": 149,
+   "dmg": 12
+  },
+  {
+   "name": "Arcane Tempest",
+   "level": 3,
+   "weapon": 116,
+   "dmg": 3
+  },
+  {
+   "name": "Black Death",
+   "level": 3,
+   "weapon": 87,
+   "dmg": 1
+  },
+  {
+   "name": "Earthquake",
+   "level": 3,
+   "weapon": 316,
+   "dmg": 5
+  },
+  {
+   "name": "Rain of Stones",
+   "level": 3,
+   "weapon": 327,
+   "dmg": 7
+  }
+ ],
+ "maladies": [
+  {
+   "name": "Curse",
+   "level": 1,
+   "weapon": 36,
+   "dmg": 2
+  },
+  {
+   "name": "Disease",
+   "level": 1,
+   "weapon": 609,
+   "dmg": 1
+  },
+  {
+   "name": "Fear",
+   "level": 1,
+   "weapon": 30,
+   "dmg": 12
+  },
+  {
+   "name": "Gust of Wind",
+   "level": 1,
+   "weapon": 113,
+   "dmg": 3
+  },
+  {
+   "name": "Summon Crows",
+   "level": 1,
+   "weapon": 470,
+   "dmg": 1
+  },
+  {
+   "name": "Curse",
+   "level": 2,
+   "weapon": 497,
+   "dmg": 2
+  },
+  {
+   "name": "Plague",
+   "level": 2,
+   "weapon": 86,
+   "dmg": 1
+  },
+  {
+   "name": "Storm Wind",
+   "level": 2,
+   "weapon": 115,
+   "dmg": 4
+  },
+  {
+   "name": "Summon Murder of Crows",
+   "level": 2,
+   "weapon": 470,
+   "dmg": 3
+  },
+  {
+   "name": "Terror",
+   "level": 2,
+   "weapon": 611,
+   "dmg": 8
+  },
+  {
+   "name": "Arcane Tempest",
+   "level": 3,
+   "weapon": 116,
+   "dmg": 3
+  },
+  {
+   "name": "Army of Crows",
+   "level": 3,
+   "weapon": 470,
+   "dmg": 13
+  },
+  {
+   "name": "Black Death",
+   "level": 3,
+   "weapon": 87,
+   "dmg": 1
+  },
+  {
+   "name": "Curse",
+   "level": 3,
+   "weapon": 492,
+   "dmg": 2
+  }
+ ],
+ "maya manipulation": [
+  {
+   "name": "Displace Self",
+   "level": 1,
+   "weapon": 29,
+   "dmg": 2097152
+  },
+  {
+   "name": "Fear",
+   "level": 1,
+   "weapon": 30,
+   "dmg": 12
+  },
+  {
+   "name": "Lure of Maya",
+   "level": 1,
+   "weapon": 451,
+   "dmg": 262144
+  },
+  {
+   "name": "Mirror Image",
+   "level": 1,
+   "weapon": 428,
+   "dmg": 4
+  },
+  {
+   "name": "Pain",
+   "level": 1,
+   "weapon": 16,
+   "dmg": 10
+  },
+  {
+   "name": "Sleep",
+   "level": 1,
+   "weapon": 77,
+   "dmg": 1
+  },
+  {
+   "name": "Agony",
+   "level": 2,
+   "weapon": 152,
+   "dmg": 9
+  },
+  {
+   "name": "Enchanted Sleep",
+   "level": 2,
+   "weapon": 78,
+   "dmg": 1
+  },
+  {
+   "name": "Manifest Maya",
+   "level": 2,
+   "weapon": 911,
+   "dmg": 1
+  },
+  {
+   "name": "Terror",
+   "level": 2,
+   "weapon": 611,
+   "dmg": 8
+  },
+  {
+   "name": "Veil of Maya",
+   "level": 2,
+   "weapon": 452,
+   "dmg": 262144
+  },
+  {
+   "name": "Displace Army",
+   "level": 3,
+   "weapon": 104,
+   "dmg": 2097152
+  },
+  {
+   "name": "Slumbering Army",
+   "level": 3,
+   "weapon": 304,
+   "dmg": 1
+  },
+  {
+   "name": "Visions of Dread",
+   "level": 3,
+   "weapon": 337,
+   "dmg": 8
+  },
+  {
+   "name": "World of Lies",
+   "level": 3,
+   "weapon": 456,
+   "dmg": 262144
+  }
+ ],
+ "metal arcana": [
+  {
+   "name": "Air Shield",
+   "level": 1,
+   "weapon": 648,
+   "dmg": 2048
+  },
+  {
+   "name": "Iron Skin",
+   "level": 1,
+   "weapon": 435,
+   "dmg": 131072
+  },
+  {
+   "name": "Luck",
+   "level": 1,
+   "weapon": 103,
+   "dmg": 128
+  },
+  {
+   "name": "Paralyze",
+   "level": 1,
+   "weapon": 232,
+   "dmg": 16
+  }
+ ],
+ "moon magic": [
+  {
+   "name": "Fear",
+   "level": 1,
+   "weapon": 30,
+   "dmg": 12
+  },
+  {
+   "name": "Moonlight",
+   "level": 1,
+   "weapon": 458,
+   "dmg": 3
+  },
+  {
+   "name": "Shadowform",
+   "level": 1,
+   "weapon": 633,
+   "dmg": 256
+  },
+  {
+   "name": "Sleep",
+   "level": 1,
+   "weapon": 77,
+   "dmg": 1
+  },
+  {
+   "name": "Antimagic",
+   "level": 2,
+   "weapon": 641,
+   "dmg": 64
+  },
+  {
+   "name": "Moonbeams",
+   "level": 2,
+   "weapon": 459,
+   "dmg": 3
+  },
+  {
+   "name": "Shade Warriors",
+   "level": 2,
+   "weapon": 635,
+   "dmg": 256
+  },
+  {
+   "name": "Terror",
+   "level": 2,
+   "weapon": 611,
+   "dmg": 8
+  },
+  {
+   "name": "Touch of the Moon",
+   "level": 2,
+   "weapon": 226,
+   "dmg": 1
+  },
+  {
+   "name": "Army of Darkness",
+   "level": 3,
+   "weapon": 104
+  },
+  {
+   "name": "Lunar Brilliance",
+   "level": 3,
+   "weapon": 457,
+   "dmg": 3
+  },
+  {
+   "name": "Summon Phase Spider",
+   "level": 3,
+   "weapon": 883,
+   "dmg": 1
+  }
+ ],
+ "mysticism": [
+  {
+   "name": "Cleansing Water",
+   "level": 1,
+   "weapon": 130,
+   "dmg": 2
+  },
+  {
+   "name": "Dehydration",
+   "level": 1,
+   "weapon": 422,
+   "dmg": 34359738368
+  },
+  {
+   "name": "Purify",
+   "level": 1,
+   "weapon": 394,
+   "dmg": 10
+  },
+  {
+   "name": "Holy Word",
+   "level": 2,
+   "weapon": 610,
+   "dmg": 16
+  },
+  {
+   "name": "Rising Tide",
+   "level": 2,
+   "weapon": 391,
+   "dmg": 64
+  },
+  {
+   "name": "Syllable of Death",
+   "level": 2,
+   "weapon": 390,
+   "dmg": 999
+  },
+  {
+   "name": "Torrent of the Sacred River",
+   "level": 2,
+   "weapon": 132,
+   "dmg": 3
+  },
+  {
+   "name": "Divine Names",
+   "level": 3,
+   "weapon": 680,
+   "dmg": 16
+  },
+  {
+   "name": "Final Rest",
+   "level": 3,
+   "weapon": 679,
+   "dmg": 99
+  }
+ ],
+ "nahualli magic": [
+  {
+   "name": "Call Vengeful Spirit",
+   "level": 1,
+   "weapon": 30,
+   "dmg": 9
+  },
+  {
+   "name": "Curse",
+   "level": 1,
+   "weapon": 36,
+   "dmg": 2
+  },
+  {
+   "name": "Disease",
+   "level": 1,
+   "weapon": 609,
+   "dmg": 1
+  },
+  {
+   "name": "Gust of Wind",
+   "level": 1,
+   "weapon": 113,
+   "dmg": 3
+  },
+  {
+   "name": "Leech",
+   "level": 1,
+   "weapon": 18,
+   "dmg": 6
+  },
+  {
+   "name": "Sleep",
+   "level": 1,
+   "weapon": 77,
+   "dmg": 1
+  },
+  {
+   "name": "Harm",
+   "level": 2,
+   "weapon": 484,
+   "dmg": 30
+  },
+  {
+   "name": "Plague",
+   "level": 2,
+   "weapon": 86,
+   "dmg": 1
+  },
+  {
+   "name": "Storm Wind",
+   "level": 2,
+   "weapon": 115,
+   "dmg": 4
+  },
+  {
+   "name": "Black Death",
+   "level": 3,
+   "weapon": 87,
+   "dmg": 1
+  },
+  {
+   "name": "Great Curse",
+   "level": 3,
+   "weapon": 492,
+   "dmg": 2
+  },
+  {
+   "name": "Shade of Death",
+   "level": 3,
+   "weapon": 252,
+   "dmg": 2048
+  }
+ ],
+ "necromancy": [
+  {
+   "name": "Black Cloud",
+   "level": 1,
+   "weapon": 245,
+   "dmg": 1
+  },
+  {
+   "name": "Bolt of Unlife",
+   "level": 1,
+   "weapon": 235,
+   "dmg": 6
+  },
+  {
+   "name": "Decay",
+   "level": 1,
+   "weapon": 466,
+   "dmg": 4
+  },
+  {
+   "name": "Disease",
+   "level": 1,
+   "weapon": 609,
+   "dmg": 1
+  },
+  {
+   "name": "Drain Life",
+   "level": 1,
+   "weapon": 18,
+   "dmg": 6
+  },
+  {
+   "name": "Fear",
+   "level": 1,
+   "weapon": 30,
+   "dmg": 12
+  },
+  {
+   "name": "Raise Longdead",
+   "level": 1,
+   "weapon": 265,
+   "dmg": 1
+  },
+  {
+   "name": "Reanimation",
+   "level": 1,
+   "weapon": 266,
+   "dmg": 1
+  },
+  {
+   "name": "Strength Sap",
+   "level": 1,
+   "weapon": 249,
+   "dmg": 2048
+  },
+  {
+   "name": "Bane Fire",
+   "level": 2,
+   "weapon": 32,
+   "dmg": 20
+  },
+  {
+   "name": "Cloud of Death",
+   "level": 2,
+   "weapon": 31,
+   "dmg": 4
+  },
+  {
+   "name": "Dance Macabre",
+   "level": 2,
+   "weapon": 265,
+   "dmg": 5
+  },
+  {
+   "name": "Dark Power",
+   "level": 2,
+   "weapon": 106,
+   "dmg": 7
+  },
+  {
+   "name": "Finger of Death",
+   "level": 2,
+   "weapon": 134,
+   "dmg": 999
+  },
+  {
+   "name": "Plague",
+   "level": 2,
+   "weapon": 86,
+   "dmg": 1
+  },
+  {
+   "name": "Soul Vortex",
+   "level": 2,
+   "weapon": 478,
+   "dmg": 6
+  },
+  {
+   "name": "Terror",
+   "level": 2,
+   "weapon": 611,
+   "dmg": 8
+  },
+  {
+   "name": "Weakness",
+   "level": 2,
+   "weapon": 250,
+   "dmg": 2048
+  },
+  {
+   "name": "Wither",
+   "level": 2,
+   "weapon": 281,
+   "dmg": 4
+  },
+  {
+   "name": "Army of the Dead",
+   "level": 3,
+   "weapon": 265,
+   "dmg": 18
+  },
+  {
+   "name": "Bane Fire Vortex",
+   "level": 3,
+   "weapon": 213,
+   "dmg": 30
+  },
+  {
+   "name": "Black Death",
+   "level": 3,
+   "weapon": 87,
+   "dmg": 1
+  },
+  {
+   "name": "Chill of the Dead",
+   "level": 3,
+   "weapon": 251,
+   "dmg": 13
+  },
+  {
+   "name": "Death Spell",
+   "level": 3,
+   "weapon": 105,
+   "dmg": 20
+  },
+  {
+   "name": "Invulnerability",
+   "level": 3,
+   "weapon": 615,
+   "dmg": 4194304
+  },
+  {
+   "name": "Shade of Death",
+   "level": 3,
+   "weapon": 252,
+   "dmg": 2048
+  },
+  {
+   "name": "Soul Drain",
+   "level": 3,
+   "weapon": 82,
+   "dmg": 5
+  },
+  {
+   "name": "Tendrils of Death",
+   "level": 3,
+   "weapon": 246,
+   "dmg": 2053
+  }
+ ],
+ "night": [
+  {
+   "name": "Blessing",
+   "level": 1,
+   "weapon": 682,
+   "dmg": 65536
+  },
+  {
+   "name": "Moonlight",
+   "level": 1,
+   "weapon": 458,
+   "dmg": 3
+  },
+  {
+   "name": "Shadowform",
+   "level": 1,
+   "weapon": 633,
+   "dmg": 256
+  },
+  {
+   "name": "Slumber",
+   "level": 1,
+   "weapon": 225,
+   "dmg": 1
+  },
+  {
+   "name": "Greater Blessing",
+   "level": 2,
+   "weapon": 683,
+   "dmg": 65536
+  },
+  {
+   "name": "Moonbeams",
+   "level": 2,
+   "weapon": 459,
+   "dmg": 3
+  },
+  {
+   "name": "Terror",
+   "level": 2,
+   "weapon": 611,
+   "dmg": 8
+  },
+  {
+   "name": "Touch of the Moon",
+   "level": 2,
+   "weapon": 226,
+   "dmg": 1
+  },
+  {
+   "name": "Word of Power",
+   "level": 2,
+   "weapon": 610,
+   "dmg": 16
+  },
+  {
+   "name": "Army of Darkness",
+   "level": 3,
+   "weapon": 104
+  },
+  {
+   "name": "Lunar Brilliance",
+   "level": 3,
+   "weapon": 457,
+   "dmg": 3
+  },
+  {
+   "name": "Smite",
+   "level": 3,
+   "weapon": 400,
+   "dmg": 50
+  }
+ ],
+ "onyx sorcery": [
+  {
+   "name": "Bones of Stone",
+   "level": 1,
+   "weapon": 646,
+   "dmg": 1048576
+  },
+  {
+   "name": "Fear",
+   "level": 1,
+   "weapon": 30,
+   "dmg": 12
+  },
+  {
+   "name": "Raise Longdead",
+   "level": 1,
+   "weapon": 265,
+   "dmg": 1
+  },
+  {
+   "name": "Stoneskin",
+   "level": 1,
+   "weapon": 431,
+   "dmg": 2
+  },
+  {
+   "name": "Stygian Skin",
+   "level": 1,
+   "weapon": 647,
+   "dmg": 262144
+  },
+  {
+   "name": "Dance of Bones",
+   "level": 2,
+   "weapon": 265,
+   "dmg": 3
+  },
+  {
+   "name": "Granite Army",
+   "level": 2,
+   "weapon": 430,
+   "dmg": 2
+  },
+  {
+   "name": "Terror",
+   "level": 2,
+   "weapon": 611,
+   "dmg": 8
+  },
+  {
+   "name": "Army of Bones",
+   "level": 3,
+   "weapon": 265,
+   "dmg": 7
+  },
+  {
+   "name": "Nightmares",
+   "level": 3,
+   "weapon": 445,
+   "dmg": 7
+  }
+ ],
+ "paladin magic": [
+  {
+   "name": "Aura of God",
+   "level": 1,
+   "weapon": 515,
+   "dmg": 8192
+  },
+  {
+   "name": "Laying on Hands",
+   "level": 1,
+   "weapon": 874,
+   "dmg": 5
+  },
+  {
+   "name": "Lesser Banishment",
+   "level": 1,
+   "weapon": 138,
+   "dmg": 13
+  },
+  {
+   "name": "Lesser Smite",
+   "level": 1,
+   "weapon": 514,
+   "dmg": 13
+  },
+  {
+   "name": "Godflesh",
+   "level": 2,
+   "weapon": 515,
+   "dmg": 1966080
+  },
+  {
+   "name": "Resist Magic",
+   "level": 2,
+   "weapon": 103
+  },
+  {
+   "name": "Avatar",
+   "level": 3,
+   "weapon": 615,
+   "dmg": 4194304
+  },
+  {
+   "name": "Smite",
+   "level": 3,
+   "weapon": 400,
+   "dmg": 50
+  }
+ ],
+ "prayers": [
+  {
+   "name": "Banish",
+   "level": 1,
+   "weapon": 139,
+   "dmg": 99
+  },
+  {
+   "name": "Blessing",
+   "level": 1,
+   "weapon": 682,
+   "dmg": 65536
+  },
+  {
+   "name": "Conversion",
+   "level": 1,
+   "weapon": 498,
+   "dmg": 1
+  },
+  {
+   "name": "Healing Words",
+   "level": 1,
+   "weapon": 875,
+   "dmg": 5
+  },
+  {
+   "name": "Resist Magic",
+   "level": 1,
+   "weapon": 103
+  },
+  {
+   "name": "Saving Grace",
+   "level": 1,
+   "weapon": 828,
+   "dmg": 4294967296
+  },
+  {
+   "name": "Divine Utterings",
+   "level": 2,
+   "weapon": 141,
+   "dmg": 999
+  },
+  {
+   "name": "Greater Banishment",
+   "level": 2,
+   "weapon": 140,
+   "dmg": 99
+  },
+  {
+   "name": "Greater Blessing",
+   "level": 2,
+   "weapon": 683,
+   "dmg": 65536
+  },
+  {
+   "name": "Healing Prayer",
+   "level": 2,
+   "weapon": 876,
+   "dmg": 3
+  },
+  {
+   "name": "Mass Conversion",
+   "level": 2,
+   "weapon": 499,
+   "dmg": 1
+  },
+  {
+   "name": "Mercy",
+   "level": 2,
+   "weapon": 829,
+   "dmg": 4294967296
+  },
+  {
+   "name": "Bless Army",
+   "level": 3,
+   "weapon": 684,
+   "dmg": 65536
+  },
+  {
+   "name": "Divine Word",
+   "level": 3,
+   "weapon": 821,
+   "dmg": 999
+  },
+  {
+   "name": "Healing Miracle",
+   "level": 3,
+   "weapon": 877,
+   "dmg": 3
+  },
+  {
+   "name": "Heavenly Strike",
+   "level": 3,
+   "weapon": 822,
+   "dmg": 999
+  },
+  {
+   "name": "True Faith",
+   "level": 3,
+   "weapon": 500,
+   "dmg": 1
+  }
+ ],
+ "pyromancy": [
+  {
+   "name": "Blood Boil",
+   "level": 1,
+   "weapon": 67,
+   "dmg": 15
+  },
+  {
+   "name": "Combustion",
+   "level": 1,
+   "weapon": 243,
+   "dmg": 32
+  },
+  {
+   "name": "Fire Resistance",
+   "level": 1,
+   "weapon": 671,
+   "dmg": 4
+  },
+  {
+   "name": "Fire Shield",
+   "level": 1,
+   "weapon": 637,
+   "dmg": 1024
+  },
+  {
+   "name": "Flame Burst",
+   "level": 1,
+   "weapon": 53,
+   "dmg": 8
+  },
+  {
+   "name": "Flames",
+   "level": 1,
+   "weapon": 660,
+   "dmg": 3
+  },
+  {
+   "name": "Ring of Flames",
+   "level": 1,
+   "weapon": 910,
+   "dmg": 10
+  },
+  {
+   "name": "Falling Fires",
+   "level": 2,
+   "weapon": 56,
+   "dmg": 6
+  },
+  {
+   "name": "Fire Cloud",
+   "level": 2,
+   "weapon": 55,
+   "dmg": 10
+  },
+  {
+   "name": "Fire Ward",
+   "level": 2,
+   "weapon": 673,
+   "dmg": 4
+  },
+  {
+   "name": "Fireball",
+   "level": 2,
+   "weapon": 54,
+   "dmg": 15
+  },
+  {
+   "name": "Incinerate",
+   "level": 2,
+   "weapon": 449,
+   "dmg": 25
+  },
+  {
+   "name": "Mass Combustion",
+   "level": 2,
+   "weapon": 504,
+   "dmg": 32
+  },
+  {
+   "name": "Meteor",
+   "level": 2,
+   "weapon": 59,
+   "dmg": 50
+  },
+  {
+   "name": "Summon Fire",
+   "level": 2,
+   "weapon": 193,
+   "dmg": 3
+  },
+  {
+   "name": "Flame Eruption",
+   "level": 3,
+   "weapon": 56,
+   "dmg": 18
+  },
+  {
+   "name": "Flame Storm",
+   "level": 3,
+   "weapon": 57,
+   "dmg": 7
+  },
+  {
+   "name": "Hellfire",
+   "level": 3,
+   "weapon": 58,
+   "dmg": 10
+  },
+  {
+   "name": "Meteor Showers",
+   "level": 3,
+   "weapon": 60,
+   "dmg": 40
+  },
+  {
+   "name": "Pillar of Fire",
+   "level": 3,
+   "weapon": 368,
+   "dmg": 60
+  }
+ ],
+ "rain": [
+  {
+   "name": "Blessing",
+   "level": 1,
+   "weapon": 682,
+   "dmg": 65536
+  },
+  {
+   "name": "Dehydration",
+   "level": 1,
+   "weapon": 422,
+   "dmg": 34359738368
+  },
+  {
+   "name": "Leech",
+   "level": 1,
+   "weapon": 18,
+   "dmg": 6
+  },
+  {
+   "name": "Greater Blessing",
+   "level": 2,
+   "weapon": 683,
+   "dmg": 65536
+  },
+  {
+   "name": "Rising Tide",
+   "level": 2,
+   "weapon": 391,
+   "dmg": 64
+  },
+  {
+   "name": "Torrent of Water",
+   "level": 2,
+   "weapon": 187,
+   "dmg": 6
+  },
+  {
+   "name": "Word of Power",
+   "level": 2,
+   "weapon": 610,
+   "dmg": 16
+  },
+  {
+   "name": "Deluge",
+   "level": 3,
+   "weapon": 318,
+   "dmg": 11
+  },
+  {
+   "name": "Living Rain",
+   "level": 3,
+   "weapon": 195,
+   "dmg": 7
+  },
+  {
+   "name": "Smite",
+   "level": 3,
+   "weapon": 400,
+   "dmg": 50
+  }
+ ],
+ "sage magic": [
+  {
+   "name": "Confusion",
+   "level": 1,
+   "weapon": 451,
+   "dmg": 262144
+  },
+  {
+   "name": "Fire Resistance",
+   "level": 1,
+   "weapon": 670,
+   "dmg": 4
+  },
+  {
+   "name": "Mirror Image",
+   "level": 1,
+   "weapon": 428,
+   "dmg": 4
+  },
+  {
+   "name": "Poison Resistance",
+   "level": 1,
+   "weapon": 670,
+   "dmg": 16
+  },
+  {
+   "name": "Reading the Stars",
+   "level": 1,
+   "weapon": 355,
+   "dmg": 128
+  },
+  {
+   "name": "Sleep",
+   "level": 1,
+   "weapon": 77,
+   "dmg": 1
+  },
+  {
+   "name": "Bewilderment",
+   "level": 2,
+   "weapon": 452,
+   "dmg": 262144
+  },
+  {
+   "name": "Domestication",
+   "level": 2,
+   "weapon": 372,
+   "dmg": 1
+  },
+  {
+   "name": "Enchanted Sleep",
+   "level": 2,
+   "weapon": 78,
+   "dmg": 1
+  },
+  {
+   "name": "Foresight",
+   "level": 2,
+   "weapon": 356,
+   "dmg": 128
+  },
+  {
+   "name": "Fortune",
+   "level": 2,
+   "weapon": 120,
+   "dmg": 128
+  },
+  {
+   "name": "Enslave",
+   "level": 3,
+   "weapon": 643,
+   "dmg": 1
+  },
+  {
+   "name": "Great Foretelling",
+   "level": 3,
+   "weapon": 104,
+   "dmg": 128
+  },
+  {
+   "name": "Invulnerability",
+   "level": 3,
+   "weapon": 615,
+   "dmg": 4194304
+  },
+  {
+   "name": "Riddles of Insanity",
+   "level": 3,
+   "weapon": 456,
+   "dmg": 262144
+  },
+  {
+   "name": "Slumbering Army",
+   "level": 3,
+   "weapon": 304,
+   "dmg": 1
+  }
+ ],
+ "serpent magic": [
+  {
+   "name": "Poison Bolts",
+   "level": 1,
+   "weapon": 271,
+   "dmg": 8
+  },
+  {
+   "name": "Poison Cloud",
+   "level": 1,
+   "weapon": 272,
+   "dmg": 5
+  },
+  {
+   "name": "Poison Resistance",
+   "level": 1,
+   "weapon": 671,
+   "dmg": 16
+  },
+  {
+   "name": "Summon Snake",
+   "level": 1,
+   "weapon": 136,
+   "dmg": 1
+  },
+  {
+   "name": "Venom",
+   "level": 1,
+   "weapon": 75,
+   "dmg": 26
+  },
+  {
+   "name": "Hydra's Blessing",
+   "level": 2,
+   "weapon": 628,
+   "dmg": 4096
+  },
+  {
+   "name": "Pit of Snakes",
+   "level": 2,
+   "weapon": 136,
+   "dmg": 3
+  },
+  {
+   "name": "Poison Darts",
+   "level": 2,
+   "weapon": 664,
+   "dmg": 6
+  },
+  {
+   "name": "Poison Mist",
+   "level": 2,
+   "weapon": 503,
+   "dmg": 8
+  },
+  {
+   "name": "Summon Serpent",
+   "level": 2,
+   "weapon": 137,
+   "dmg": 1
+  },
+  {
+   "name": "Venom Ward",
+   "level": 2,
+   "weapon": 673,
+   "dmg": 16
+  },
+  {
+   "name": "Venomous Death",
+   "level": 2,
+   "weapon": 75,
+   "dmg": 60
+  },
+  {
+   "name": "Deadly Fumes",
+   "level": 3,
+   "weapon": 373,
+   "dmg": 6
+  },
+  {
+   "name": "Green Death",
+   "level": 3,
+   "weapon": 503,
+   "dmg": 22
+  },
+  {
+   "name": "Summon Serpents",
+   "level": 3,
+   "weapon": 137,
+   "dmg": 5
+  }
+ ],
+ "sidhe magic": [
+  {
+   "name": "Air Shield",
+   "level": 1,
+   "weapon": 648,
+   "dmg": 2048
+  },
+  {
+   "name": "Charm",
+   "level": 1,
+   "weapon": 73,
+   "dmg": 1
+  },
+  {
+   "name": "Confusion",
+   "level": 1,
+   "weapon": 451,
+   "dmg": 262144
+  },
+  {
+   "name": "Curse",
+   "level": 1,
+   "weapon": 36,
+   "dmg": 2
+  },
+  {
+   "name": "Fortitude",
+   "level": 1,
+   "weapon": 431,
+   "dmg": 2
+  },
+  {
+   "name": "Heal",
+   "level": 1,
+   "weapon": 878,
+   "dmg": 5
+  },
+  {
+   "name": "Luck",
+   "level": 1,
+   "weapon": 103,
+   "dmg": 128
+  },
+  {
+   "name": "Magic Stones",
+   "level": 1,
+   "weapon": 791,
+   "dmg": 6
+  },
+  {
+   "name": "Sleep",
+   "level": 1,
+   "weapon": 77,
+   "dmg": 1
+  },
+  {
+   "name": "Strength",
+   "level": 1,
+   "weapon": 443,
+   "dmg": 512
+  },
+  {
+   "name": "Charm",
+   "level": 2,
+   "weapon": 52,
+   "dmg": 1
+  },
+  {
+   "name": "Cloud of Confusion",
+   "level": 2,
+   "weapon": 452,
+   "dmg": 262144
+  },
+  {
+   "name": "Enchanted Sleep",
+   "level": 2,
+   "weapon": 78,
+   "dmg": 1
+  },
+  {
+   "name": "Fortune",
+   "level": 2,
+   "weapon": 120,
+   "dmg": 128
+  },
+  {
+   "name": "Greater Healing",
+   "level": 2,
+   "weapon": 879,
+   "dmg": 3
+  },
+  {
+   "name": "Herculean Soldiers",
+   "level": 2,
+   "weapon": 430,
+   "dmg": 512
+  },
+  {
+   "name": "Indomitability",
+   "level": 2,
+   "weapon": 793,
+   "dmg": 1835008
+  },
+  {
+   "name": "Protective Winds",
+   "level": 2,
+   "weapon": 653,
+   "dmg": 2048
+  },
+  {
+   "name": "Battle Fortune",
+   "level": 3,
+   "weapon": 104,
+   "dmg": 128
+  },
+  {
+   "name": "Enchanting Voice",
+   "level": 3,
+   "weapon": 80,
+   "dmg": 1
+  },
+  {
+   "name": "Mist of Confusion",
+   "level": 3,
+   "weapon": 453,
+   "dmg": 262144
+  },
+  {
+   "name": "True Charm",
+   "level": 3,
+   "weapon": 74,
+   "dmg": 1
+  }
+ ],
+ "silver arcana": [
+  {
+   "name": "Air Shield",
+   "level": 1,
+   "weapon": 648,
+   "dmg": 2048
+  },
+  {
+   "name": "Guide Arrows",
+   "level": 1,
+   "weapon": 860,
+   "dmg": 8589934592
+  },
+  {
+   "name": "Gust of Wind",
+   "level": 1,
+   "weapon": 113,
+   "dmg": 3
+  },
+  {
+   "name": "Luck",
+   "level": 1,
+   "weapon": 103,
+   "dmg": 128
+  },
+  {
+   "name": "Paralyze",
+   "level": 1,
+   "weapon": 232,
+   "dmg": 16
+  },
+  {
+   "name": "Shock",
+   "level": 1,
+   "weapon": 107,
+   "dmg": 6
+  },
+  {
+   "name": "Antimagic",
+   "level": 2,
+   "weapon": 641,
+   "dmg": 64
+  },
+  {
+   "name": "Chain Lightning",
+   "level": 2,
+   "weapon": 110,
+   "dmg": 5
+  },
+  {
+   "name": "Fortune",
+   "level": 2,
+   "weapon": 120,
+   "dmg": 128
+  },
+  {
+   "name": "Lightning Bolt",
+   "level": 2,
+   "weapon": 624,
+   "dmg": 10
+  },
+  {
+   "name": "Protective Winds",
+   "level": 2,
+   "weapon": 653,
+   "dmg": 2048
+  },
+  {
+   "name": "Soul Slay",
+   "level": 2,
+   "weapon": 344,
+   "dmg": 999
+  },
+  {
+   "name": "Storm Wind",
+   "level": 2,
+   "weapon": 115,
+   "dmg": 4
+  },
+  {
+   "name": "Summon Clouds",
+   "level": 2,
+   "weapon": 194,
+   "dmg": 2
+  },
+  {
+   "name": "Wind Guide",
+   "level": 2,
+   "weapon": 861,
+   "dmg": 8589934592
+  },
+  {
+   "name": "Arcane Tempest",
+   "level": 3,
+   "weapon": 116,
+   "dmg": 3
+  },
+  {
+   "name": "Battle Fortune",
+   "level": 3,
+   "weapon": 104,
+   "dmg": 128
+  },
+  {
+   "name": "Call Lightning",
+   "level": 3,
+   "weapon": 267,
+   "dmg": 8
+  },
+  {
+   "name": "Friendly Storm",
+   "level": 3,
+   "weapon": 654,
+   "dmg": 2048
+  }
+ ],
+ "sky": [
+  {
+   "name": "Blessing",
+   "level": 1,
+   "weapon": 682,
+   "dmg": 65536
+  },
+  {
+   "name": "Gust of Wind",
+   "level": 1,
+   "weapon": 113,
+   "dmg": 3
+  },
+  {
+   "name": "Shock",
+   "level": 1,
+   "weapon": 107,
+   "dmg": 6
+  },
+  {
+   "name": "Greater Blessing",
+   "level": 2,
+   "weapon": 683,
+   "dmg": 65536
+  },
+  {
+   "name": "Storm Wind",
+   "level": 2,
+   "weapon": 115,
+   "dmg": 4
+  },
+  {
+   "name": "Thunderhead",
+   "level": 2,
+   "weapon": 149,
+   "dmg": 12
+  },
+  {
+   "name": "Word of Power",
+   "level": 2,
+   "weapon": 610,
+   "dmg": 16
+  },
+  {
+   "name": "Gale",
+   "level": 3,
+   "weapon": 117,
+   "dmg": 5
+  },
+  {
+   "name": "Living Clouds",
+   "level": 3,
+   "weapon": 194,
+   "dmg": 2
+  },
+  {
+   "name": "Smite",
+   "level": 3,
+   "weapon": 400,
+   "dmg": 50
+  }
+ ],
+ "solar magic": [
+  {
+   "name": "Aura of the Sun",
+   "level": 1,
+   "weapon": 206,
+   "dmg": 8192
+  },
+  {
+   "name": "Sunbeam",
+   "level": 1,
+   "weapon": 127,
+   "dmg": 2
+  },
+  {
+   "name": "Sunlight",
+   "level": 1,
+   "weapon": 126,
+   "dmg": 3
+  },
+  {
+   "name": "Solar Flare",
+   "level": 2,
+   "weapon": 127,
+   "dmg": 8
+  },
+  {
+   "name": "Solar Rays",
+   "level": 2,
+   "weapon": 128,
+   "dmg": 2
+  },
+  {
+   "name": "Vengeance of the Sun",
+   "level": 2,
+   "weapon": 374,
+   "dmg": 1024
+  },
+  {
+   "name": "Army of the Sun",
+   "level": 3,
+   "weapon": 207,
+   "dmg": 8192
+  },
+  {
+   "name": "Godflesh",
+   "level": 3,
+   "weapon": 435,
+   "dmg": 1974276
+  },
+  {
+   "name": "Solar Brilliance",
+   "level": 3,
+   "weapon": 129,
+   "dmg": 2
+  }
+ ],
+ "spiritism": [
+  {
+   "name": "Banish Spirit",
+   "level": 1,
+   "weapon": 139,
+   "dmg": 99
+  },
+  {
+   "name": "Call Ancestor",
+   "level": 1,
+   "weapon": 264,
+   "dmg": 1
+  },
+  {
+   "name": "Call Spirit of the Western Wind",
+   "level": 1,
+   "weapon": 114,
+   "dmg": 3
+  },
+  {
+   "name": "Call Vengeful Spirit",
+   "level": 1,
+   "weapon": 30,
+   "dmg": 9
+  },
+  {
+   "name": "Curse",
+   "level": 1,
+   "weapon": 36,
+   "dmg": 2
+  },
+  {
+   "name": "Disease",
+   "level": 1,
+   "weapon": 609,
+   "dmg": 1
+  },
+  {
+   "name": "Call Spirits of the Night",
+   "level": 2,
+   "weapon": 611,
+   "dmg": 5
+  },
+  {
+   "name": "Call Storm Spirit",
+   "level": 2,
+   "weapon": 115,
+   "dmg": 3
+  },
+  {
+   "name": "Call the Spirits of Plague",
+   "level": 2,
+   "weapon": 86,
+   "dmg": 1
+  },
+  {
+   "name": "Call the Spirits of Thunder",
+   "level": 2,
+   "weapon": 149,
+   "dmg": 13
+  },
+  {
+   "name": "Fortune of the Ancestors",
+   "level": 2,
+   "weapon": 120,
+   "dmg": 128
+  },
+  {
+   "name": "Wind of Silence",
+   "level": 2,
+   "weapon": 255,
+   "dmg": 99
+  },
+  {
+   "name": "Wrath of the Ancestors",
+   "level": 2,
+   "weapon": 263,
+   "dmg": 4
+  },
+  {
+   "name": "Call Spirit Lord of the Sky",
+   "level": 3,
+   "weapon": 117,
+   "dmg": 5
+  },
+  {
+   "name": "Eternal Rest",
+   "level": 3,
+   "weapon": 256,
+   "dmg": 999
+  },
+  {
+   "name": "Spirit Gate",
+   "level": 3,
+   "weapon": 263,
+   "dmg": 9
+  }
+ ],
+ "storm magic": [
+  {
+   "name": "Air Shield",
+   "level": 1,
+   "weapon": 648,
+   "dmg": 2048
+  },
+  {
+   "name": "Guide Arrows",
+   "level": 1,
+   "weapon": 860,
+   "dmg": 8589934592
+  },
+  {
+   "name": "Gust of Wind",
+   "level": 1,
+   "weapon": 113,
+   "dmg": 3
+  },
+  {
+   "name": "Lightning Resistance",
+   "level": 1,
+   "weapon": 671,
+   "dmg": 32
+  },
+  {
+   "name": "Shock",
+   "level": 1,
+   "weapon": 107,
+   "dmg": 6
+  },
+  {
+   "name": "Shock Field",
+   "level": 1,
+   "weapon": 623,
+   "dmg": 2
+  },
+  {
+   "name": "Sparks",
+   "level": 1,
+   "weapon": 437,
+   "dmg": 3
+  },
+  {
+   "name": "Swiftness",
+   "level": 1,
+   "weapon": 782,
+   "dmg": 1073741824
+  },
+  {
+   "name": "Chain Lightning",
+   "level": 2,
+   "weapon": 110,
+   "dmg": 5
+  },
+  {
+   "name": "Haste",
+   "level": 2,
+   "weapon": 784,
+   "dmg": 1073741824
+  },
+  {
+   "name": "Lightning Bolt",
+   "level": 2,
+   "weapon": 624,
+   "dmg": 10
+  },
+  {
+   "name": "Orb Lightning",
+   "level": 2,
+   "weapon": 150,
+   "dmg": 8
+  },
+  {
+   "name": "Protective Winds",
+   "level": 2,
+   "weapon": 653,
+   "dmg": 2048
+  },
+  {
+   "name": "Storm Wind",
+   "level": 2,
+   "weapon": 115,
+   "dmg": 4
+  },
+  {
+   "name": "Summon Clouds",
+   "level": 2,
+   "weapon": 194,
+   "dmg": 2
+  },
+  {
+   "name": "Thunder Strike",
+   "level": 2,
+   "weapon": 625,
+   "dmg": 45
+  },
+  {
+   "name": "Thunder Ward",
+   "level": 2,
+   "weapon": 673,
+   "dmg": 32
+  },
+  {
+   "name": "Thunderhead",
+   "level": 2,
+   "weapon": 149,
+   "dmg": 12
+  },
+  {
+   "name": "Wind Guide",
+   "level": 2,
+   "weapon": 861,
+   "dmg": 8589934592
+  },
+  {
+   "name": "Arcane Tempest",
+   "level": 3,
+   "weapon": 116,
+   "dmg": 3
+  },
+  {
+   "name": "Call Lightning",
+   "level": 3,
+   "weapon": 267,
+   "dmg": 8
+  },
+  {
+   "name": "Friendly Storm",
+   "level": 3,
+   "weapon": 654,
+   "dmg": 2048
+  },
+  {
+   "name": "Gale",
+   "level": 3,
+   "weapon": 117,
+   "dmg": 5
+  },
+  {
+   "name": "Lightning Storm",
+   "level": 3,
+   "weapon": 726,
+   "dmg": 14
+  },
+  {
+   "name": "Quicken Army",
+   "level": 3,
+   "weapon": 785,
+   "dmg": 1073741824
+  }
+ ],
+ "tree magic": [
+  {
+   "name": "Confusion",
+   "level": 1,
+   "weapon": 451,
+   "dmg": 262144
+  },
+  {
+   "name": "Poison Arrow",
+   "level": 1,
+   "weapon": 229,
+   "dmg": 6
+  },
+  {
+   "name": "Poison Vine",
+   "level": 1,
+   "weapon": 329,
+   "dmg": 512
+  },
+  {
+   "name": "Sleep",
+   "level": 1,
+   "weapon": 77,
+   "dmg": 1
+  },
+  {
+   "name": "Strength",
+   "level": 1,
+   "weapon": 443,
+   "dmg": 512
+  },
+  {
+   "name": "Tangle Vine",
+   "level": 1,
+   "weapon": 247,
+   "dmg": 512
+  },
+  {
+   "name": "Vine Arrow",
+   "level": 1,
+   "weapon": 661,
+   "dmg": 6
+  },
+  {
+   "name": "Animate Tree",
+   "level": 2,
+   "weapon": 787,
+   "dmg": 1
+  },
+  {
+   "name": "Briar Cage",
+   "level": 2,
+   "weapon": 189,
+   "dmg": 512
+  },
+  {
+   "name": "Curse of Wood",
+   "level": 2,
+   "weapon": 282,
+   "dmg": 4096
+  },
+  {
+   "name": "Enchanted Sleep",
+   "level": 2,
+   "weapon": 78,
+   "dmg": 1
+  },
+  {
+   "name": "Poison Vines",
+   "level": 2,
+   "weapon": 215,
+   "dmg": 512
+  },
+  {
+   "name": "Shooting Thorns",
+   "level": 2,
+   "weapon": 369,
+   "dmg": 2
+  },
+  {
+   "name": "Summon Dragonflies",
+   "level": 2,
+   "weapon": 709,
+   "dmg": 4
+  },
+  {
+   "name": "Animate Forest",
+   "level": 3,
+   "weapon": 788,
+   "dmg": 1
+  },
+  {
+   "name": "Earthquake",
+   "level": 3,
+   "weapon": 316,
+   "dmg": 5
+  },
+  {
+   "name": "Wild Growth",
+   "level": 3,
+   "weapon": 216,
+   "dmg": 512
+  }
+ ],
+ "troll magic": [
+  {
+   "name": "Curse",
+   "level": 1,
+   "weapon": 36,
+   "dmg": 2
+  },
+  {
+   "name": "Disease",
+   "level": 1,
+   "weapon": 609,
+   "dmg": 1
+  },
+  {
+   "name": "Fear",
+   "level": 1,
+   "weapon": 30,
+   "dmg": 12
+  },
+  {
+   "name": "Fortitude",
+   "level": 1,
+   "weapon": 431,
+   "dmg": 2
+  },
+  {
+   "name": "Sleep Cloud",
+   "level": 1,
+   "weapon": 336,
+   "dmg": 1
+  },
+  {
+   "name": "Summon Frogs",
+   "level": 1,
+   "weapon": 309,
+   "dmg": 3
+  },
+  {
+   "name": "Summon Wolf",
+   "level": 1,
+   "weapon": 148,
+   "dmg": 1
+  },
+  {
+   "name": "A Promise for Life",
+   "level": 2,
+   "weapon": 335,
+   "dmg": 2
+  },
+  {
+   "name": "Bucket of Frogs",
+   "level": 2,
+   "weapon": 309,
+   "dmg": 8
+  },
+  {
+   "name": "Curse of the Frog Prince",
+   "level": 2,
+   "weapon": 76,
+   "dmg": 1
+  },
+  {
+   "name": "Enchanted Sleep",
+   "level": 2,
+   "weapon": 78,
+   "dmg": 1
+  },
+  {
+   "name": "Plague",
+   "level": 2,
+   "weapon": 86,
+   "dmg": 1
+  },
+  {
+   "name": "Summon Giant Toad",
+   "level": 2,
+   "weapon": 340,
+   "dmg": 1
+  },
+  {
+   "name": "Summon Monster Toad",
+   "level": 2,
+   "weapon": 308,
+   "dmg": 1
+  },
+  {
+   "name": "Summon Wolves",
+   "level": 2,
+   "weapon": 148,
+   "dmg": 6
+  },
+  {
+   "name": "Terror",
+   "level": 2,
+   "weapon": 611,
+   "dmg": 8
+  },
+  {
+   "name": "Black Death",
+   "level": 3,
+   "weapon": 334,
+   "dmg": 1
+  },
+  {
+   "name": "Dread of Monsters",
+   "level": 3,
+   "weapon": 337,
+   "dmg": 8
+  },
+  {
+   "name": "Slumber of the Stones",
+   "level": 3,
+   "weapon": 307,
+   "dmg": 1
+  },
+  {
+   "name": "Summon Giant Toads",
+   "level": 3,
+   "weapon": 340,
+   "dmg": 6
+  },
+  {
+   "name": "Summon Wolf Pack",
+   "level": 3,
+   "weapon": 148,
+   "dmg": 16
+  }
+ ],
+ "unlife": [
+  {
+   "name": "Aura of Unlife",
+   "level": 1,
+   "weapon": 909,
+   "dmg": 6
+  },
+  {
+   "name": "Bolt of Unlife",
+   "level": 1,
+   "weapon": 235,
+   "dmg": 6
+  },
+  {
+   "name": "Drain Life",
+   "level": 1,
+   "weapon": 18,
+   "dmg": 8
+  },
+  {
+   "name": "Strength Sap",
+   "level": 1,
+   "weapon": 249,
+   "dmg": 2048
+  },
+  {
+   "name": "Dark Power",
+   "level": 2,
+   "weapon": 106,
+   "dmg": 7
+  },
+  {
+   "name": "Finger of Death",
+   "level": 2,
+   "weapon": 134,
+   "dmg": 999
+  },
+  {
+   "name": "Soul Vortex",
+   "level": 2,
+   "weapon": 478,
+   "dmg": 6
+  },
+  {
+   "name": "Weakness",
+   "level": 2,
+   "weapon": 250,
+   "dmg": 2048
+  },
+  {
+   "name": "Chill of the Dead",
+   "level": 3,
+   "weapon": 251,
+   "dmg": 13
+  },
+  {
+   "name": "Soul Drain",
+   "level": 3,
+   "weapon": 82,
+   "dmg": 6
+  },
+  {
+   "name": "Symbol of Unlife",
+   "level": 3,
+   "weapon": 398,
+   "dmg": 2
+  }
+ ],
+ "void magic": [
+  {
+   "name": "Confusion",
+   "level": 1,
+   "weapon": 451,
+   "dmg": 262144
+  },
+  {
+   "name": "Mind Burn",
+   "level": 1,
+   "weapon": 350,
+   "dmg": 11
+  },
+  {
+   "name": "Paralyze",
+   "level": 1,
+   "weapon": 232,
+   "dmg": 16
+  },
+  {
+   "name": "Reading the Stars",
+   "level": 1,
+   "weapon": 355,
+   "dmg": 128
+  },
+  {
+   "name": "Starlight",
+   "level": 1,
+   "weapon": 351,
+   "dmg": 5
+  },
+  {
+   "name": "Words of the Void",
+   "level": 1,
+   "weapon": 353,
+   "dmg": 64
+  },
+  {
+   "name": "Foresight",
+   "level": 2,
+   "weapon": 356,
+   "dmg": 128
+  },
+  {
+   "name": "Invade Mind",
+   "level": 2,
+   "weapon": 644,
+   "dmg": 1
+  },
+  {
+   "name": "Mental Overload",
+   "level": 2,
+   "weapon": 455,
+   "dmg": 262144
+  },
+  {
+   "name": "Meteor",
+   "level": 2,
+   "weapon": 59,
+   "dmg": 50
+  },
+  {
+   "name": "Soul Slay",
+   "level": 2,
+   "weapon": 344,
+   "dmg": 999
+  },
+  {
+   "name": "Star Showers",
+   "level": 2,
+   "weapon": 345,
+   "dmg": 10
+  },
+  {
+   "name": "Strange Hymn",
+   "level": 2,
+   "weapon": 343,
+   "dmg": 16
+  },
+  {
+   "name": "Summon Lesser Horror",
+   "level": 2,
+   "weapon": 348,
+   "dmg": 1
+  },
+  {
+   "name": "A New Way",
+   "level": 3,
+   "weapon": 354,
+   "dmg": 16
+  },
+  {
+   "name": "Meteor Showers",
+   "level": 3,
+   "weapon": 60,
+   "dmg": 40
+  },
+  {
+   "name": "Mind Vortex",
+   "level": 3,
+   "weapon": 346,
+   "dmg": 16
+  },
+  {
+   "name": "Strange Dimensions",
+   "level": 3,
+   "weapon": 357,
+   "dmg": 256
+  },
+  {
+   "name": "Summon Float Cat Horrors",
+   "level": 3,
+   "weapon": 349,
+   "dmg": 4
+  },
+  {
+   "name": "Summon Spine Membranes",
+   "level": 3,
+   "weapon": 348,
+   "dmg": 4
+  },
+  {
+   "name": "Symbols of Insanity",
+   "level": 3,
+   "weapon": 454,
+   "dmg": 262144
+  },
+  {
+   "name": "Void Gate",
+   "level": 3,
+   "weapon": 347,
+   "dmg": 4
+  }
+ ],
+ "war and the sun": [
+  {
+   "name": "Aura of the Sun",
+   "level": 1,
+   "weapon": 206,
+   "dmg": 8192
+  },
+  {
+   "name": "Blessing",
+   "level": 1,
+   "weapon": 682,
+   "dmg": 65536
+  },
+  {
+   "name": "Blood Boil",
+   "level": 1,
+   "weapon": 67,
+   "dmg": 15
+  },
+  {
+   "name": "Regeneration",
+   "level": 1,
+   "weapon": 103,
+   "dmg": 4096
+  },
+  {
+   "name": "Strength",
+   "level": 1,
+   "weapon": 443,
+   "dmg": 512
+  },
+  {
+   "name": "Sunlight",
+   "level": 1,
+   "weapon": 126,
+   "dmg": 3
+  },
+  {
+   "name": "Greater Blessing",
+   "level": 2,
+   "weapon": 683,
+   "dmg": 65536
+  },
+  {
+   "name": "Incinerate",
+   "level": 2,
+   "weapon": 449,
+   "dmg": 25
+  },
+  {
+   "name": "Ring of Flames",
+   "level": 2,
+   "weapon": 910,
+   "dmg": 12
+  },
+  {
+   "name": "Solar Rays",
+   "level": 2,
+   "weapon": 128,
+   "dmg": 2
+  },
+  {
+   "name": "Word of Power",
+   "level": 2,
+   "weapon": 610,
+   "dmg": 16
+  },
+  {
+   "name": "Army of Jaguars",
+   "level": 3,
+   "weapon": 630,
+   "dmg": 4096
+  },
+  {
+   "name": "Army of the Sun",
+   "level": 3,
+   "weapon": 207,
+   "dmg": 8192
+  },
+  {
+   "name": "Smite",
+   "level": 3,
+   "weapon": 400,
+   "dmg": 50
+  },
+  {
+   "name": "Solar Brilliance",
+   "level": 3,
+   "weapon": 129,
+   "dmg": 2
+  }
+ ],
+ "warrior wards": [
+  {
+   "name": "Fortitude",
+   "level": 1,
+   "weapon": 431,
+   "dmg": 2
+  },
+  {
+   "name": "Luck",
+   "level": 1,
+   "weapon": 103,
+   "dmg": 128
+  },
+  {
+   "name": "Strength",
+   "level": 1,
+   "weapon": 443,
+   "dmg": 512
+  },
+  {
+   "name": "Toughness",
+   "level": 1,
+   "weapon": 798,
+   "dmg": 1835008
+  },
+  {
+   "name": "Spirit of Fortitude",
+   "level": 2,
+   "weapon": 430,
+   "dmg": 2
+  },
+  {
+   "name": "Spirit of Luck",
+   "level": 2,
+   "weapon": 120,
+   "dmg": 128
+  },
+  {
+   "name": "Spirit of Strength",
+   "level": 2,
+   "weapon": 444,
+   "dmg": 512
+  },
+  {
+   "name": "Spirit of Toughness",
+   "level": 2,
+   "weapon": 434,
+   "dmg": 1835008
+  },
+  {
+   "name": "Battle Fortune",
+   "level": 3,
+   "weapon": 104,
+   "dmg": 128
+  },
+  {
+   "name": "Legion of Stone",
+   "level": 3,
+   "weapon": 429,
+   "dmg": 2
+  }
+ ],
+ "white magic": [
+  {
+   "name": "Air Shield",
+   "level": 1,
+   "weapon": 648,
+   "dmg": 2048
+  },
+  {
+   "name": "Aura of Awe",
+   "level": 1,
+   "weapon": 206,
+   "dmg": 8192
+  },
+  {
+   "name": "Banish",
+   "level": 1,
+   "weapon": 139,
+   "dmg": 99
+  },
+  {
+   "name": "Heal",
+   "level": 1,
+   "weapon": 878,
+   "dmg": 5
+  },
+  {
+   "name": "Luck",
+   "level": 1,
+   "weapon": 103,
+   "dmg": 128
+  },
+  {
+   "name": "Resist Magic",
+   "level": 1,
+   "weapon": 103
+  },
+  {
+   "name": "Sunlight",
+   "level": 1,
+   "weapon": 126,
+   "dmg": 3
+  },
+  {
+   "name": "Antimagic",
+   "level": 2,
+   "weapon": 641,
+   "dmg": 64
+  },
+  {
+   "name": "Divine Aura",
+   "level": 2,
+   "weapon": 469,
+   "dmg": 8192
+  },
+  {
+   "name": "Divine Utterings",
+   "level": 2,
+   "weapon": 141,
+   "dmg": 999
+  },
+  {
+   "name": "Fortune",
+   "level": 2,
+   "weapon": 120,
+   "dmg": 128
+  },
+  {
+   "name": "Greater Banishment",
+   "level": 2,
+   "weapon": 140,
+   "dmg": 99
+  },
+  {
+   "name": "Greater Healing",
+   "level": 2,
+   "weapon": 879,
+   "dmg": 3
+  },
+  {
+   "name": "Solar Rays",
+   "level": 2,
+   "weapon": 128,
+   "dmg": 2
+  },
+  {
+   "name": "Storm Wind",
+   "level": 2,
+   "weapon": 115,
+   "dmg": 4
+  },
+  {
+   "name": "Alter Reality",
+   "level": 3,
+   "weapon": 124,
+   "dmg": 128
+  },
+  {
+   "name": "Divine Word",
+   "level": 3,
+   "weapon": 821,
+   "dmg": 999
+  },
+  {
+   "name": "Symbol of Light",
+   "level": 3,
+   "weapon": 399,
+   "dmg": 4
+  }
+ ],
+ "witchery": [
+  {
+   "name": "Acid Cloud",
+   "level": 1,
+   "weapon": 619,
+   "dmg": 2
+  },
+  {
+   "name": "Blindness",
+   "level": 1,
+   "weapon": 918,
+   "dmg": 67108864
+  },
+  {
+   "name": "Charm",
+   "level": 1,
+   "weapon": 73,
+   "dmg": 1
+  },
+  {
+   "name": "Confusion",
+   "level": 1,
+   "weapon": 451,
+   "dmg": 262144
+  },
+  {
+   "name": "Curse",
+   "level": 1,
+   "weapon": 36,
+   "dmg": 2
+  },
+  {
+   "name": "Poison Cloud",
+   "level": 1,
+   "weapon": 272,
+   "dmg": 4
+  },
+  {
+   "name": "Poison Resistance",
+   "level": 1,
+   "weapon": 670,
+   "dmg": 16
+  },
+  {
+   "name": "Sleep",
+   "level": 1,
+   "weapon": 77,
+   "dmg": 1
+  },
+  {
+   "name": "Venom",
+   "level": 1,
+   "weapon": 75,
+   "dmg": 20
+  },
+  {
+   "name": "Acid Mist",
+   "level": 2,
+   "weapon": 620,
+   "dmg": 2
+  },
+  {
+   "name": "Charm",
+   "level": 2,
+   "weapon": 52,
+   "dmg": 1
+  },
+  {
+   "name": "Cloud of Confusion",
+   "level": 2,
+   "weapon": 452,
+   "dmg": 262144
+  },
+  {
+   "name": "Curse of the Frog Prince",
+   "level": 2,
+   "weapon": 76,
+   "dmg": 1
+  },
+  {
+   "name": "Enchanted Sleep",
+   "level": 2,
+   "weapon": 78,
+   "dmg": 1
+  },
+  {
+   "name": "Poison Mist",
+   "level": 2,
+   "weapon": 503,
+   "dmg": 8
+  },
+  {
+   "name": "Venom Ward",
+   "level": 2,
+   "weapon": 672,
+   "dmg": 16
+  },
+  {
+   "name": "Venomous Death",
+   "level": 2,
+   "weapon": 75,
+   "dmg": 60
+  },
+  {
+   "name": "Curse of Pigs",
+   "level": 3,
+   "weapon": 220,
+   "dmg": 1
+  },
+  {
+   "name": "Enchanting Voice",
+   "level": 3,
+   "weapon": 80,
+   "dmg": 1
+  },
+  {
+   "name": "Mass Charm",
+   "level": 3,
+   "weapon": 79,
+   "dmg": 1
+  },
+  {
+   "name": "Mist of Confusion",
+   "level": 3,
+   "weapon": 453,
+   "dmg": 262144
+  },
+  {
+   "name": "True Charm",
+   "level": 3,
+   "weapon": 74,
+   "dmg": 1
+  }
+ ],
+ "wizardry": [
+  {
+   "name": "Acid Darts",
+   "level": 1,
+   "weapon": 617,
+   "dmg": 5
+  },
+  {
+   "name": "Air Shield",
+   "level": 1,
+   "weapon": 648,
+   "dmg": 2048
+  },
+  {
+   "name": "Combustion",
+   "level": 1,
+   "weapon": 243,
+   "dmg": 32
+  },
+  {
+   "name": "Confusion",
+   "level": 1,
+   "weapon": 451,
+   "dmg": 262144
+  },
+  {
+   "name": "Flames",
+   "level": 1,
+   "weapon": 660,
+   "dmg": 3
+  },
+  {
+   "name": "Frozen Heart",
+   "level": 1,
+   "weapon": 68,
+   "dmg": 20
+  },
+  {
+   "name": "Stone Shards",
+   "level": 1,
+   "weapon": 331,
+   "dmg": 4
+  },
+  {
+   "name": "Venom",
+   "level": 1,
+   "weapon": 75,
+   "dmg": 20
+  },
+  {
+   "name": "Acid Spray",
+   "level": 2,
+   "weapon": 618,
+   "dmg": 10
+  },
+  {
+   "name": "Chain Lightning",
+   "level": 2,
+   "weapon": 110,
+   "dmg": 5
+  },
+  {
+   "name": "Eruption",
+   "level": 2,
+   "weapon": 313,
+   "dmg": 9
+  },
+  {
+   "name": "Fireball",
+   "level": 2,
+   "weapon": 54,
+   "dmg": 15
+  },
+  {
+   "name": "Oak Army",
+   "level": 2,
+   "weapon": 381,
+   "dmg": 2
+  },
+  {
+   "name": "Poison Mist",
+   "level": 2,
+   "weapon": 503,
+   "dmg": 8
+  },
+  {
+   "name": "Protective Winds",
+   "level": 2,
+   "weapon": 653,
+   "dmg": 2048
+  },
+  {
+   "name": "Acid Rain",
+   "level": 3,
+   "weapon": 621,
+   "dmg": 12
+  },
+  {
+   "name": "Call Lightning",
+   "level": 3,
+   "weapon": 267,
+   "dmg": 8
+  },
+  {
+   "name": "Flame Storm",
+   "level": 3,
+   "weapon": 57,
+   "dmg": 7
+  },
+  {
+   "name": "Invulnerability",
+   "level": 3,
+   "weapon": 615,
+   "dmg": 4194304
+  },
+  {
+   "name": "Maws of the Earth",
+   "level": 3,
+   "weapon": 650,
+   "dmg": 100
+  },
+  {
+   "name": "Wild Growth",
+   "level": 3,
+   "weapon": 216,
+   "dmg": 512
+  }
+ ]
+}

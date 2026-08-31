@@ -19,26 +19,34 @@ const lines = fs
   .split(/\r?\n/);
 
 const byName = {};
+const byIndex = {};
 let cur = null;
 let count = 0;
 
 for (const line of lines) {
-  const nw = /^(?:newweapon|selectweapon)\s+"([^"]+)"/.exec(line);
+  const nw = /^(?:newweapon|selectweapon)\s+"([^"]+)"\s*#\s*(\d+)/.exec(line);
   if (nw) {
     count++;
     const key = nw[1].trim().toLowerCase();
-    cur = byName[key] ? null : (byName[key] = { name: nw[1] });
+    cur = { name: nw[1] };
+    byIndex[+nw[2]] = cur;
+    if (!byName[key]) byName[key] = cur;
     continue;
   }
   if (!cur) continue;
-  const kv = /^(dmg|init|range)\s+(-?\d+)/.exec(line.trim());
+  const kv = /^(dmg|init|range|aoe)\s+(-?\d+)/.exec(line.trim());
   if (kv) cur[kv[1]] = +kv[2];
   const dt = /^dmgtype\s+\d+\s*#\s*([A-Za-z ]+?)\./.exec(line.trim());
   if (dt) cur.type = dt[1].trim();
+  if (/^an(\s|$)/.test(line.trim())) cur.an = true;
 }
 
 fs.writeFileSync(
   path.join(import.meta.dirname, "..", "src", "data", "weapons.json"),
   JSON.stringify(byName, null, 1) + "\n",
 );
-console.log(`weapons: ${count} records, ${Object.keys(byName).length} unique names`);
+fs.writeFileSync(
+  path.join(import.meta.dirname, "..", "src", "data", "weapons-index.json"),
+  JSON.stringify(byIndex, null, 1) + "\n",
+);
+console.log(`weapons: ${count} records, ${Object.keys(byName).length} unique names, ${Object.keys(byIndex).length} by index`);
