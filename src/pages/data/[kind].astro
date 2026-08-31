@@ -1,6 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import data from "../../../modcheck/data/vanilla.json";
+import schools from "../../data/ritual-schools.json";
 
 export function getStaticPaths() {
   const record = (kind) =>
@@ -21,6 +22,15 @@ export function getStaticPaths() {
       singular: "resource",
       plural: "resources",
       entries: data.resources.map((name, idx) => [idx, name]),
+    },
+    {
+      kind: "schools",
+      title: "Ritual schools",
+      singular: "ritual school",
+      plural: "ritual schools",
+      entries: Object.entries(schools)
+        .map(([idx, name]) => [Number(idx), name])
+        .sort((a, b) => a[0] - b[0]),
     },
   ];
 

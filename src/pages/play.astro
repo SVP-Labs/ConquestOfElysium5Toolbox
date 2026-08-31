@@ -395,6 +395,43 @@ const starter = [
     color: #cfcbb6;
   }
 
+  :global(.rituals-panel) {
+    margin: 1.25rem 0 0;
+    padding: 0.9rem 1.2rem 1rem;
+    font-size: 0.88rem;
+    background: linear-gradient(#34382f, #2a2e26);
+    border: 1px solid #0a0b07;
+    border-radius: 10px;
+    box-shadow:
+      inset 0 0 0 2px #6d654c,
+      0 6px 18px rgba(0, 0, 0, 0.45);
+    color: #e6e2d4;
+  }
+
+  :global(.rituals-panel .rituals-head) {
+    font-family: "MedievalSharp", Georgia, serif;
+    color: #cdb98d;
+    margin-bottom: 0.35rem;
+  }
+
+  :global(.rituals-panel .ritual-row) {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.12rem 0;
+    border-bottom: 1px solid rgba(133, 122, 92, 0.25);
+  }
+
+  :global(.rituals-panel .ritual-name) { color: #e6e2d4; }
+
+  :global(.rituals-panel .ritual-meta) { color: #a9ac93; white-space: nowrap; }
+
+  :global(.ucard-abilities .badge.magic) {
+    background: #2b2438;
+    border-color: #5c4d7a;
+    color: #d6c9ef;
+  }
+
   /* Game-style parchment tooltips for anything on the card with data-tip. */
   :global(.ucard [data-tip]) {
     position: relative;
@@ -470,6 +507,11 @@ const starter = [
   import { lintSource } from "../../modcheck/src/linter.js";
   import baseWeapons from "../data/weapons.json";
   import flagGlossary from "../data/monster-flags.json";
+  import ritualSchools from "../data/ritual-schools.json";
+  import ritualsBySchool from "../data/rituals.json";
+  import spellPaths from "../data/spell-paths.json";
+  import spellsBySchool from "../data/spells.json";
+  import weaponsByIndex from "../data/weapons-index.json";
   import { readStatements } from "../../modcheck/src/statements.js";
   import { tokenizeLine } from "../../modcheck/src/tokenizer.js";
   import { commands, vanilla } from "../../modcheck/src/catalog.js";
@@ -1020,7 +1062,12 @@ const starter = [
       "rangedweaponbonus", "siegeweapon", "assassinweapon", "prebatweapon",
     ]);
     const weapons = block.filter((s) => WEAPON_COMMANDS.has(s.name));
-    if (weapons.length > 0) {
+    // Combat casting: spellweapon <path> <level> — paths are a separate
+    // numbering from ritual schools, named via the data source's annotations.
+    const combatMagic = block.filter(
+      (s) => s.name === "spellweapon" && s.args[0]?.type === "number" && s.args[1]?.type === "number",
+    );
+    if (weapons.length > 0 || combatMagic.length > 0) {
       const table = document.createElement("table");
       const thead = document.createElement("thead");
       const headRow = document.createElement("tr");
@@ -1033,6 +1080,19 @@ const starter = [
       table.appendChild(thead);
       const tbody = document.createElement("tbody");
       let unresolved = false;
+      // The game lists casting as a weapon row first: "Cast spell 1 ? ?" with
+      // the path and level under Special (see the in-game unit tab).
+      for (const c of combatMagic) {
+        const pathName = spellPaths[c.args[0].value];
+        const tr = document.createElement("tr");
+        for (const text of ["Cast spell", "1", "?", "?",
+          `${pathName ?? `path ${c.args[0].value}`} level ${c.args[1].value}`]) {
+          const td = document.createElement("td");
+          td.textContent = text;
+          tr.appendChild(td);
+        }
+        tbody.appendChild(tr);
+      }
       for (const s of weapons) {
         const tr = document.createElement("tr");
         const nameToken = s.args.find((t) => t.type === "string" || t.type === "unterminated");
@@ -1094,6 +1154,93 @@ const starter = [
       }
     }
 
+    // Known combat spells — a second parchment band under the weapons, like
+    // the game's own "Known X Spells" table. Spell lists come from the
+    // community wiki's path->spell mapping (CC BY-SA) joined with the game
+    // data's weapon records (range, area, damage type).
+    // aoe values over 100 are encodings; each mapping below is read from the
+    // community wiki's "Area of Effect" wording for the spells that carry
+    // that value (e.g. Hellfire 9999 = entire battlefield, Ring of Flames
+    // 997 = circle, Chain Lightning 9208 = 8 bounces, Chasm 7015 = crack 15).
+    const AOE_TEXT = (aoe) => {
+      if (aoe === undefined || aoe === 0) return "single target";
+      if (aoe < 0) return `${-aoe} strikes`;
+      if (aoe <= 100) return `burst ${aoe}`;
+      if (aoe === 997) return "circle";
+      if (aoe === 998) return "all friends";
+      if (aoe === 999) return "all enemies";
+      if (aoe === 9997) return "15% of battlefield";
+      if (aoe === 9996 || aoe === 9998 || aoe === 9999) return "entire battlefield";
+      if (aoe >= 9200 && aoe <= 9299) return `${aoe - 9200} bounces`;
+      if (aoe >= 7000 && aoe <= 7099) return `crack ${aoe - 7000}`;
+      if (aoe >= 5000 && aoe <= 5099) return `line ${aoe - 5000}`;
+      return "special area";
+    };
+    let creditSpells = false;
+    for (const c of combatMagic) {
+      const pathName = spellPaths[c.args[0].value];
+      const list = pathName
+        ? (spellsBySchool[pathName.toLowerCase()] ?? []).filter((sp) => sp.level <= c.args[1].value)
+        : [];
+      if (list.length === 0) continue;
+      creditSpells = true;
+      const table = document.createElement("table");
+      const thead = document.createElement("thead");
+      const headRow = document.createElement("tr");
+      for (const label of [`Known ${pathName} Spells`, "Level", "Range", "Damage", "Special"]) {
+        const th = document.createElement("th");
+        th.textContent = label;
+        headRow.appendChild(th);
+      }
+      headRow.firstChild.style.whiteSpace = "nowrap";
+      thead.appendChild(headRow);
+      table.appendChild(thead);
+      const tbody = document.createElement("tbody");
+      for (const sp of list) {
+        const rec = weaponsByIndex[sp.weapon] ?? {};
+        const tr = document.createElement("tr");
+        for (const text of [
+          sp.name,
+          String(sp.level),
+          rec.range !== undefined ? String(rec.range) : "—",
+        ]) {
+          const td = document.createElement("td");
+          td.textContent = text;
+          tr.appendChild(td);
+        }
+        // Damage — same glyph-plus-range cell as the weapons band. Large dmg
+        // values are effect encodings, not dice — the game shows "special".
+        const dmgTd = document.createElement("td");
+        if (rec.type && DMG_GLYPHS[rec.type]) {
+          const icon = document.createElement("span");
+          icon.className = "dmg-glyph";
+          icon.innerHTML = DMG_GLYPHS[rec.type]; // constant trusted SVG strings
+          dmgTd.appendChild(icon);
+        } else if (rec.type) {
+          dmgTd.appendChild(document.createTextNode(rec.type + " "));
+        }
+        const plainDie = sp.dmg !== undefined && sp.dmg > 0 && sp.dmg <= 99;
+        dmgTd.appendChild(document.createTextNode(plainDie ? `1-${sp.dmg}` : "special"));
+        if (rec.type) dmgTd.title = rec.type;
+        tr.appendChild(dmgTd);
+        const specTd = document.createElement("td");
+        specTd.textContent = AOE_TEXT(rec.aoe) + (rec.an ? ", AN" : "");
+        if (rec.aoe !== undefined && rec.aoe > 100) {
+          specTd.title = `aoe ${rec.aoe} in the weapon record — wording from the community wiki`;
+        } else if (rec.an) {
+          specTd.title = "AN — armor negating";
+        }
+        tr.appendChild(specTd);
+        tbody.appendChild(tr);
+      }
+      table.appendChild(tbody);
+      card.appendChild(table);
+    }
+    if (creditSpells) {
+      card.appendChild(div("wfootnote",
+        "Spell lists from the CoE5 community wiki (CC BY-SA); range and damage from the game data's weapon records."));
+    }
+
     // Bare-flag abilities.
     const abilities = [];
     for (const s of block) {
@@ -1101,14 +1248,44 @@ const starter = [
         abilities.push(s.name);
       }
     }
+    // Magic skills: power <school> <level>, decoded via the ritual schools
+    // table ("power 1 2" reads as Necromancy 2, matching the data source's
+    // own annotations).
+    const magic = block.filter(
+      (s) => s.name === "power" && s.args[0]?.type === "number" && s.args[1]?.type === "number",
+    );
     // Valued resistances appear alongside the abilities, like the game's own
     // icon strip. Data source convention: >=100 immunity, positive N = "N X
     // Resistance", negative = vulnerability.
     const resistances = block.filter(
       (s) => /res$/.test(s.name) && commands[s.name] && s.args[0]?.type === "number",
     );
-    if (abilities.length > 0 || resistances.length > 0) {
+    if (abilities.length > 0 || resistances.length > 0 || magic.length > 0 || combatMagic.length > 0) {
       const row = div("ucard-abilities");
+      for (const s of magic) {
+        const school = ritualSchools[s.args[0].value];
+        const badge = span(
+          `${school ?? `school ${s.args[0].value}`} ${s.args[1].value}`,
+          "badge magic",
+        );
+        badge.dataset.tip = school
+          ? `power ${s.args[0].value} ${s.args[1].value} — ${school} rituals at level ${s.args[1].value}`
+          : `power ${s.args[0].value} ${s.args[1].value} — school ${s.args[0].value} is not in the base-game table (older game version, or a mod school)`;
+        badge.tabIndex = 0;
+        row.appendChild(badge);
+      }
+      for (const s of combatMagic) {
+        const path = spellPaths[s.args[0].value];
+        const badge = span(
+          `${path ?? `path ${s.args[0].value}`} ${s.args[1].value} (combat)`,
+          "badge magic",
+        );
+        badge.dataset.tip = path
+          ? `spellweapon ${s.args[0].value} ${s.args[1].value} — casts ${path} combat spells at level ${s.args[1].value}; known spells are listed under the weapons`
+          : `spellweapon ${s.args[0].value} ${s.args[1].value} — path ${s.args[0].value} is not in the base-game table (older game version, or a mod path)`;
+        badge.tabIndex = 0;
+        row.appendChild(badge);
+      }
       for (const name of abilities) {
         const badge = span(name, "badge");
         if (flagGlossary[name]) {
@@ -1146,6 +1323,30 @@ const starter = [
     }
 
     cardArea.appendChild(card);
+
+    // Rituals the mage can perform — their own panel beneath the card,
+    // since the game's unit tab does not list rituals. Each power line
+    // unlocks its school's rituals up to the given level (1-3 per manual).
+    for (const m of magic) {
+      const school = ritualSchools[m.args[0].value];
+      const list = (ritualsBySchool[m.args[0].value] ?? []).filter((r) => r.level <= m.args[1].value);
+      if (!school || list.length === 0) continue;
+      const sec = div("rituals-panel");
+      const head = div("rituals-head");
+      head.textContent = `${school} rituals (level ≤ ${m.args[1].value})`;
+      sec.appendChild(head);
+      for (const r of list) {
+        const rowEl = div("ritual-row");
+        rowEl.appendChild(span(r.name, "ritual-name"));
+        const bits = [`level ${r.level}`];
+        if (r.ap) bits.push(`${r.ap} AP`);
+        for (const [res, amt] of r.costs ?? []) bits.push(`${amt} ${res}`);
+        rowEl.appendChild(span(bits.join(" · "), "ritual-meta"));
+        sec.appendChild(rowEl);
+      }
+      cardArea.appendChild(sec);
+    }
+
   }
 
   /* ---- wiring ----------------------------------------------------------- */

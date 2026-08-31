@@ -1,0 +1,7523 @@
+{
+ "0": {
+  "name": "Fist",
+  "range": 1,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 1,
+  "aoe": 0
+ },
+ "1": {
+  "name": "Dagger",
+  "range": 1,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "2": {
+  "name": "Broadsword",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 6,
+  "aoe": 0
+ },
+ "3": {
+  "name": "Axe",
+  "range": 1,
+  "init": 3,
+  "type": "Slash",
+  "dmg": 7,
+  "aoe": 0
+ },
+ "4": {
+  "name": "Spear",
+  "range": 1,
+  "init": 6,
+  "type": "Pierce",
+  "dmg": 4,
+  "aoe": 0
+ },
+ "5": {
+  "name": "Staff",
+  "range": 1,
+  "init": 5,
+  "type": "Blunt",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "6": {
+  "name": "Hammer",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 4,
+  "aoe": 0
+ },
+ "7": {
+  "name": "Bow",
+  "range": 5,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "8": {
+  "name": "Shortsword",
+  "range": 1,
+  "init": 3,
+  "type": "Slash",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "9": {
+  "name": "Crossbow",
+  "range": 5,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "10": {
+  "name": "Life Drain",
+  "range": 1,
+  "init": 2,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "11": {
+  "name": "Bite",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "12": {
+  "name": "Claw",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "13": {
+  "name": "Lance Charge",
+  "range": 1,
+  "init": 5,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "14": {
+  "name": "Antlers",
+  "range": 1,
+  "init": 3,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "15": {
+  "name": "aff (mr)",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "16": {
+  "name": "Pain",
+  "range": 6,
+  "init": 1,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "17": {
+  "name": "Gaze of Fear",
+  "range": 10,
+  "init": 10,
+  "type": "Fear",
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
+ },
+ "18": {
+  "name": "Drain Life",
+  "range": 5,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "19": {
+  "name": "Club",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "20": {
+  "name": "Mace",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "21": {
+  "name": "Greatsword",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 9,
+  "aoe": 0
+ },
+ "22": {
+  "name": "Pike",
+  "range": 2,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "23": {
+  "name": "Halberd",
+  "range": 1,
+  "init": 5,
+  "type": "Slash",
+  "dmg": 8,
+  "aoe": 0
+ },
+ "24": {
+  "name": "Javelin",
+  "range": 3,
+  "init": 1,
+  "type": "Pierce",
+  "dmg": 4,
+  "aoe": 0
+ },
+ "25": {
+  "name": "Flail",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 6,
+  "aoe": 0
+ },
+ "26": {
+  "name": "Trident",
+  "range": 1,
+  "init": 5,
+  "type": "Pierce",
+  "dmg": 7,
+  "aoe": 0
+ },
+ "27": {
+  "name": "Sling",
+  "range": 4,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 2,
+  "aoe": 0
+ },
+ "28": {
+  "name": "Longbow",
+  "range": 6,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 4,
+  "aoe": 0
+ },
+ "29": {
+  "name": "ben (self)",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "30": {
+  "name": "Fear",
+  "range": 8,
+  "init": 4,
+  "type": "Fear",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "31": {
+  "name": "Cloud of Death",
+  "range": 10,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25
+ },
+ "32": {
+  "name": "Bane Fire",
+  "range": 8,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "33": {
+  "name": "Foul Claw",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "34": {
+  "name": "Poison Bow",
+  "range": 5,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "35": {
+  "name": "Poison",
+  "range": 1,
+  "init": 4,
+  "type": "Poison",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "36": {
+  "name": "Curse",
+  "range": 16,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "37": {
+  "name": "Gore",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "38": {
+  "name": "Poison Breath",
+  "range": 5,
+  "init": 7,
+  "type": "Poison",
+  "dmg": 0,
+  "aoe": 3015,
+  "an": true
+ },
+ "39": {
+  "name": "Tail Slap",
+  "range": 1,
+  "init": 1,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "40": {
+  "name": "Death Gaze",
+  "range": 10,
+  "init": 10,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 4025,
+  "an": true
+ },
+ "41": {
+  "name": "Strong Venomous Bite",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "42": {
+  "name": "Venomous Bite",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "43": {
+  "name": "Weak Venomous Bite",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "44": {
+  "name": "Tentacle",
+  "range": 1,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "45": {
+  "name": "Poison Cloud",
+  "range": 1,
+  "init": 4,
+  "type": "Poison",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "46": {
+  "name": "Poison Spit",
+  "range": 3,
+  "init": 2,
+  "type": "Poison",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "47": {
+  "name": "Incorporate",
+  "range": 1,
+  "init": 4,
+  "type": "Swallow",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "48": {
+  "name": "Death Wail",
+  "range": 1,
+  "init": 8,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
+ },
+ "49": {
+  "name": "Putrid Cloud",
+  "range": 4,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 4010,
+  "an": true
+ },
+ "50": {
+  "name": "Disease",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "51": {
+  "name": "Sting",
+  "range": 1,
+  "init": 3,
+  "type": "Poison",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "52": {
+  "name": "Charm",
+  "range": 5,
+  "init": 4,
+  "type": "Charm",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "53": {
+  "name": "Flame Burst",
+  "range": 6,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "54": {
+  "name": "Fireball",
+  "range": 6,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 5
+ },
+ "55": {
+  "name": "Fire Cloud",
+  "range": 8,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 9
+ },
+ "56": {
+  "name": "Falling Fires",
+  "range": 10,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 25
+ },
+ "57": {
+  "name": "Flame Storm",
+  "range": 10,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 50
+ },
+ "58": {
+  "name": "Hellfire",
+  "range": 0,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 9999
+ },
+ "59": {
+  "name": "Meteor",
+  "range": 15,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "60": {
+  "name": "Meteor Showers",
+  "range": 0,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 9997
+ },
+ "61": {
+  "name": "Freeze",
+  "range": 6,
+  "init": 4,
+  "type": "Cold",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "62": {
+  "name": "Frost",
+  "range": 6,
+  "init": 4,
+  "type": "Cold",
+  "dmg": 0,
+  "aoe": 3,
+  "an": true
+ },
+ "63": {
+  "name": "dmg (cold)",
+  "range": 6,
+  "init": 4,
+  "type": "Cold",
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
+ },
+ "64": {
+  "name": "Falling Frost",
+  "range": 10,
+  "init": 4,
+  "type": "Cold",
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
+ },
+ "65": {
+  "name": "dmg (cold)",
+  "range": 0,
+  "init": 4,
+  "type": "Cold",
+  "dmg": 0,
+  "aoe": 999,
+  "an": true
+ },
+ "66": {
+  "name": "Blizzard",
+  "range": 0,
+  "init": 4,
+  "type": "Cold",
+  "dmg": 0,
+  "aoe": 9999,
+  "an": true
+ },
+ "67": {
+  "name": "Blood Boil",
+  "range": 6,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "68": {
+  "name": "Frozen Heart",
+  "range": 8,
+  "init": 4,
+  "type": "Cold",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "69": {
+  "name": "Icicle",
+  "range": 6,
+  "init": 4,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "70": {
+  "name": "Ice Shards",
+  "range": 6,
+  "init": 4,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": -3
+ },
+ "71": {
+  "name": "Army of Gold",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 998
+ },
+ "72": {
+  "name": "Legion of Ice",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 998
+ },
+ "73": {
+  "name": "Charm",
+  "range": 5,
+  "init": 4,
+  "type": "Charm",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "74": {
+  "name": "True Charm",
+  "range": 8,
+  "init": 4,
+  "type": "Charm",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "75": {
+  "name": "Venom",
+  "range": 6,
+  "init": 4,
+  "type": "Poison",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "76": {
+  "name": "Polymorph into Frog",
+  "range": 4,
+  "init": 4,
+  "type": "Polymorph",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "77": {
+  "name": "Sleep",
+  "range": 8,
+  "init": 4,
+  "type": "Sleep",
+  "dmg": 0,
+  "aoe": -2,
+  "an": true
+ },
+ "78": {
+  "name": "Enchanted Sleep",
+  "range": 10,
+  "init": 4,
+  "type": "Sleep",
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
+ },
+ "79": {
+  "name": "Mass Charm",
+  "range": 5,
+  "init": 4,
+  "type": "Charm",
+  "dmg": 0,
+  "aoe": 15,
+  "an": true
+ },
+ "80": {
+  "name": "Enchanting Voice",
+  "range": 10,
+  "init": 4,
+  "type": "Sleep",
+  "dmg": 0,
+  "aoe": 100,
+  "an": true
+ },
+ "81": {
+  "name": "Flame Strike",
+  "range": 1,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "82": {
+  "name": "Soul Drain",
+  "range": 0,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 9998
+ },
+ "83": {
+  "name": "Fiery Breath",
+  "range": 1,
+  "init": 7,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "84": {
+  "name": "Fiery Breath",
+  "range": 3,
+  "init": 7,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 2005
+ },
+ "85": {
+  "name": "Fiery Breath",
+  "range": 5,
+  "init": 7,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 2010
+ },
+ "86": {
+  "name": "Plague",
+  "range": 10,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25
+ },
+ "87": {
+  "name": "Black Death",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 9999
+ },
+ "88": {
+  "name": "Pitchfork",
+  "range": 1,
+  "init": 5,
+  "type": "Pierce",
+  "dmg": 4,
+  "aoe": 0
+ },
+ "89": {
+  "name": "Polymorph",
+  "range": 4,
+  "init": 4,
+  "type": "Polymorph",
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
+ },
+ "90": {
+  "name": "Heat Aura",
+  "range": 1,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "91": {
+  "name": "Cold Aura",
+  "range": 1,
+  "init": 4,
+  "type": "Cold",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "92": {
+  "name": "Poison Aura",
+  "range": 1,
+  "init": 4,
+  "type": "Poison",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "93": {
+  "name": "Beak",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "94": {
+  "name": "Talon",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "95": {
+  "name": "Hoof",
+  "range": 1,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "96": {
+  "name": "Trample",
+  "range": 1,
+  "init": 1,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "97": {
+  "name": "Throw Rock",
+  "range": 2,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 1,
+  "aoe": 0
+ },
+ "98": {
+  "name": "Drop Boulder",
+  "range": 50,
+  "init": 1,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "99": {
+  "name": "Sickle",
+  "range": 1,
+  "init": 3,
+  "type": "Slash",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "100": {
+  "name": "Scythe",
+  "range": 1,
+  "init": 5,
+  "type": "Slash",
+  "dmg": 6,
+  "aoe": 0
+ },
+ "101": {
+  "name": "death to friend (mr)",
+  "range": 1,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "102": {
+  "name": "death to foe (no mr)",
+  "range": 1,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "103": {
+  "name": "Luck",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "104": {
+  "name": "Luck",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25
+ },
+ "105": {
+  "name": "Death Spell",
+  "range": 10,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
+ },
+ "106": {
+  "name": "Dark Power",
+  "range": 8,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": -3,
+  "an": true
+ },
+ "107": {
+  "name": "Shock",
+  "range": 6,
+  "init": 1,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "108": {
+  "name": "Shock Damage",
+  "range": 1,
+  "init": 4,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": 3,
+  "an": true
+ },
+ "109": {
+  "name": "Shock Damage",
+  "range": 1,
+  "init": 4,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": 5,
+  "an": true
+ },
+ "110": {
+  "name": "Chain Lightning",
+  "range": 6,
+  "init": 4,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": 9208,
+  "an": true
+ },
+ "111": {
+  "name": "Shock Damage",
+  "range": 0,
+  "init": 4,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": 999,
+  "an": true
+ },
+ "112": {
+  "name": "Shock Damage",
+  "range": 0,
+  "init": 4,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": 9999,
+  "an": true
+ },
+ "113": {
+  "name": "Gust of Wind",
+  "range": 8,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 5
+ },
+ "114": {
+  "name": "Winds",
+  "range": 8,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 9
+ },
+ "115": {
+  "name": "Storm Wind",
+  "range": 10,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 25
+ },
+ "116": {
+  "name": "Arcane Tempest",
+  "range": 0,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 999
+ },
+ "117": {
+  "name": "Gale",
+  "range": 0,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 9999
+ },
+ "118": {
+  "name": "aff (str-resistable)",
+  "range": 1,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "119": {
+  "name": "Luck",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 5
+ },
+ "120": {
+  "name": "Luck",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 9
+ },
+ "121": {
+  "name": "Summon Imp",
+  "range": 3,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "122": {
+  "name": "Summon Fiend of Darkness",
+  "range": 3,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "123": {
+  "name": "Summon Lesser Demon",
+  "range": 3,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "124": {
+  "name": "Luck",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 998
+ },
+ "125": {
+  "name": "Net",
+  "range": 1,
+  "init": 7,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "126": {
+  "name": "Sunlight",
+  "range": 8,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "127": {
+  "name": "Sunbeam",
+  "range": 8,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 5,
+  "an": true
+ },
+ "128": {
+  "name": "Solar Rays",
+  "range": 10,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
+ },
+ "129": {
+  "name": "Solar Brilliance",
+  "range": 0,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 9999,
+  "an": true
+ },
+ "130": {
+  "name": "Cleansing Water",
+  "range": 6,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "131": {
+  "name": "dmg (holy water+knockback)",
+  "range": 6,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 5
+ },
+ "132": {
+  "name": "Torrent of the Sacred River",
+  "range": 10,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 25
+ },
+ "133": {
+  "name": "dmg (holy water+knockback)",
+  "range": 0,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 999
+ },
+ "134": {
+  "name": "Finger of Death",
+  "range": 8,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "135": {
+  "name": "Serpent Staff",
+  "range": 1,
+  "init": 5,
+  "type": "Pierce",
+  "dmg": 4,
+  "aoe": 0
+ },
+ "136": {
+  "name": "Summon Snake",
+  "range": 3,
+  "init": 8,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "137": {
+  "name": "Summon Serpent",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "138": {
+  "name": "Lesser Banishment",
+  "range": 6,
+  "init": 1,
+  "type": "Banish",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "139": {
+  "name": "Banishment",
+  "range": 6,
+  "init": 1,
+  "type": "Banish",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "140": {
+  "name": "Greater Banishment",
+  "range": 6,
+  "init": 1,
+  "type": "Banish",
+  "dmg": 0,
+  "aoe": -3,
+  "an": true
+ },
+ "141": {
+  "name": "Divine Utterings",
+  "range": 8,
+  "init": 1,
+  "type": "Banish",
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
+ },
+ "142": {
+  "name": "Great Maul",
+  "range": 1,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 8,
+  "aoe": 0
+ },
+ "143": {
+  "name": "Stinger",
+  "range": 1,
+  "init": 3,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "144": {
+  "name": "Flick Barb",
+  "range": 3,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "145": {
+  "name": "Thunder Fist",
+  "range": 1,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 1,
+  "aoe": 0
+ },
+ "146": {
+  "name": "Poison Dagger",
+  "range": 1,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "147": {
+  "name": "Wrestle",
+  "range": 1,
+  "init": 1,
+  "type": "Blunt",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "148": {
+  "name": "Summon Wolf",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "149": {
+  "name": "Thunderhead",
+  "range": 15,
+  "init": 4,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": -3,
+  "an": true
+ },
+ "150": {
+  "name": "Orb lightning",
+  "range": 6,
+  "init": 4,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": 15,
+  "an": true
+ },
+ "151": {
+  "name": "agony (dmg,mr)",
+  "range": 6,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
+ },
+ "152": {
+  "name": "Agony",
+  "range": 10,
+  "init": 1,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
+ },
+ "153": {
+  "name": "Rupture",
+  "range": 10,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 100,
+  "an": true
+ },
+ "154": {
+  "name": "Petrifying Gaze",
+  "range": 10,
+  "init": 10,
+  "type": "Petrify",
+  "dmg": 0,
+  "aoe": 1010,
+  "an": true
+ },
+ "155": {
+  "name": "Obsidian Glaive",
+  "range": 1,
+  "init": 5,
+  "type": "Slash",
+  "dmg": 8,
+  "aoe": 0
+ },
+ "156": {
+  "name": "Stone Glaive",
+  "range": 1,
+  "init": 5,
+  "type": "Blunt",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "157": {
+  "name": "Spectral Club",
+  "range": 1,
+  "init": 3,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "158": {
+  "name": "Spectral Sword",
+  "range": 1,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "159": {
+  "name": "blindness (easymr)",
+  "range": 9,
+  "init": 1,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "160": {
+  "name": "Greatsword",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 10,
+  "aoe": 0
+ },
+ "161": {
+  "name": "Plague Bow",
+  "range": 6,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "162": {
+  "name": "Summon Longdead",
+  "range": 3,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "163": {
+  "name": "Seduction Aura",
+  "range": 1,
+  "init": 4,
+  "type": "Charm",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "164": {
+  "name": "Deadly Sting",
+  "range": 1,
+  "init": 3,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "165": {
+  "name": "Shock Stun",
+  "range": 1,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "166": {
+  "name": "Demon Whip",
+  "range": 1,
+  "init": 5,
+  "type": "Slash",
+  "dmg": 1,
+  "aoe": 0
+ },
+ "167": {
+  "name": "aff (unresistable + mundane + fly)",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "168": {
+  "name": "Project Fire",
+  "range": 4,
+  "init": 8,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 3
+ },
+ "169": {
+  "name": "Project Lightning",
+  "range": 8,
+  "init": 8,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "170": {
+  "name": "Coil Spring Gun",
+  "range": 4,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "171": {
+  "name": "Paralyze",
+  "range": 5,
+  "init": 8,
+  "type": "Paralyze",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "172": {
+  "name": "Frost Brand",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 7,
+  "aoe": 0
+ },
+ "173": {
+  "name": "Fire Brand",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 7,
+  "aoe": 0
+ },
+ "174": {
+  "name": "Fire",
+  "range": 1,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "175": {
+  "name": "Cold",
+  "range": 1,
+  "init": 4,
+  "type": "Cold",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "176": {
+  "name": "Golden Claw",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "177": {
+  "name": "Gusts of Winds",
+  "range": 1,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 9
+ },
+ "178": {
+  "name": "Wave Strike",
+  "range": 2,
+  "init": 8,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 4006
+ },
+ "179": {
+  "name": "Wave Strike Stun",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "180": {
+  "name": "Rumble Earth",
+  "range": 1,
+  "init": 8,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 3003,
+  "an": true
+ },
+ "181": {
+  "name": "Serpent Kryss",
+  "range": 1,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "182": {
+  "name": "Poison Dagger",
+  "range": 1,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 3,
+  "aoe": 0,
+  "an": true
+ },
+ "183": {
+  "name": "Burning Hoof",
+  "range": 1,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "184": {
+  "name": "Burning Lance",
+  "range": 1,
+  "init": 5,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "185": {
+  "name": "Lightning Hoof",
+  "range": 1,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "186": {
+  "name": "Lightning Lance",
+  "range": 1,
+  "init": 5,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "187": {
+  "name": "Torrent of Water",
+  "range": 6,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 5
+ },
+ "188": {
+  "name": "Stone Shard",
+  "range": 1,
+  "init": 4,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "189": {
+  "name": "Briar Cage",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 9
+ },
+ "190": {
+  "name": "Chasm",
+  "range": 6,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 7015,
+  "an": true
+ },
+ "191": {
+  "name": "Meteor Flame Burst",
+  "range": 1,
+  "init": 1,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 5
+ },
+ "192": {
+  "name": "Drown",
+  "range": 1,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "193": {
+  "name": "Summon Lesser Fire",
+  "range": 3,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "194": {
+  "name": "Summon Cloud Elemental",
+  "range": 1,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "195": {
+  "name": "Summon Lesser Water",
+  "range": 3,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "196": {
+  "name": "Summon Lesser Earth",
+  "range": 3,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "197": {
+  "name": "ben (self)",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "198": {
+  "name": "Iron Storm",
+  "range": 0,
+  "init": 4,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 999
+ },
+ "199": {
+  "name": "Iron Darts",
+  "range": 6,
+  "init": 4,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": -7
+ },
+ "200": {
+  "name": "Seeking Arrow",
+  "range": 6,
+  "init": 4,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "201": {
+  "name": "Staff of Power",
+  "range": 1,
+  "init": 5,
+  "type": "Blunt",
+  "dmg": 6,
+  "aoe": 0
+ },
+ "202": {
+  "name": "Terrain Fire",
+  "range": 1,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "203": {
+  "name": "Summon Shade",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "204": {
+  "name": "Touch of the Dead",
+  "range": 1,
+  "init": 3,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "205": {
+  "name": "Battle Fatigue",
+  "range": 1,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "206": {
+  "name": "Aura of the Sun",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "207": {
+  "name": "Army of the Sun",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25
+ },
+ "208": {
+  "name": "dmg (fire)",
+  "range": 6,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": -3
+ },
+ "209": {
+  "name": "dmg (fire)",
+  "range": 6,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": -5
+ },
+ "210": {
+  "name": "dmg (fire)",
+  "range": 6,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": -7
+ },
+ "211": {
+  "name": "Lashes of Fire",
+  "range": 6,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": -3
+ },
+ "212": {
+  "name": "aff (mr)",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "213": {
+  "name": "Bane Fire Vortex",
+  "range": 8,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
+ },
+ "214": {
+  "name": "ben (five)",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": -5
+ },
+ "215": {
+  "name": "Poison Vines",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 3
+ },
+ "216": {
+  "name": "Wild Growth",
+  "range": 10,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 100,
+  "an": true
+ },
+ "217": {
+  "name": "Charm Animal",
+  "range": 5,
+  "init": 4,
+  "type": "Charm",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "218": {
+  "name": "Charm Animal",
+  "range": 6,
+  "init": 4,
+  "type": "Charm",
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
+ },
+ "219": {
+  "name": "Charm Animal",
+  "range": 10,
+  "init": 4,
+  "type": "Charm",
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
+ },
+ "220": {
+  "name": "Polymorph into Boar",
+  "range": 10,
+  "init": 4,
+  "type": "Polymorph",
+  "dmg": 0,
+  "aoe": 100,
+  "an": true
+ },
+ "221": {
+  "name": "Polymorph into Woodman",
+  "range": 6,
+  "init": 4,
+  "type": "Polymorph",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "222": {
+  "name": "Spectral Weapons",
+  "range": 1,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "223": {
+  "name": "Spectral Bow",
+  "range": 5,
+  "init": 2,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "224": {
+  "name": "Spectral Lance",
+  "range": 1,
+  "init": 5,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "225": {
+  "name": "Slumber",
+  "range": 6,
+  "init": 4,
+  "type": "Sleep",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "226": {
+  "name": "Touch of the Moon",
+  "range": 6,
+  "init": 4,
+  "type": "Sleep",
+  "dmg": 0,
+  "aoe": 5,
+  "an": true
+ },
+ "227": {
+  "name": "Obsidian Clubsword",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 7,
+  "aoe": 0
+ },
+ "228": {
+  "name": "Obsidian Clubsword",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "229": {
+  "name": "Poison Arrow",
+  "range": 5,
+  "init": 4,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "230": {
+  "name": "Disintegrate",
+  "range": 8,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "231": {
+  "name": "Disintegrate",
+  "range": 8,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "232": {
+  "name": "Paralyze",
+  "range": 10,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "233": {
+  "name": "Mass Command",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 999
+ },
+ "234": {
+  "name": "Enslave",
+  "range": 10,
+  "init": 4,
+  "type": "Enslave",
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
+ },
+ "235": {
+  "name": "Bolt of Unlife",
+  "range": 6,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "236": {
+  "name": "Stellar Bolt",
+  "range": 12,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "237": {
+  "name": "Boulder",
+  "range": 16,
+  "init": 1,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "238": {
+  "name": "Boulders",
+  "range": 20,
+  "init": 1,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 3
+ },
+ "239": {
+  "name": "Giant Arrow",
+  "range": 12,
+  "init": 1,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "240": {
+  "name": "Encase in Ice",
+  "range": 6,
+  "init": 4,
+  "type": "Cold",
+  "dmg": 0,
+  "aoe": 5,
+  "an": true
+ },
+ "241": {
+  "name": "Ice Prison",
+  "range": 6,
+  "init": 4,
+  "type": "Cold",
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
+ },
+ "242": {
+  "name": "Combustion",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": -3
+ },
+ "243": {
+  "name": "Combustion",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": -4
+ },
+ "244": {
+  "name": "Lashes of Pain",
+  "range": 6,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": -3
+ },
+ "245": {
+  "name": "Black Cloud",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 5
+ },
+ "246": {
+  "name": "Tendrils of Death",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": -7
+ },
+ "247": {
+  "name": "Tangle Vines",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "248": {
+  "name": "Spiked Arm",
+  "range": 1,
+  "init": 7,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "249": {
+  "name": "Strength Sap",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 3
+ },
+ "250": {
+  "name": "Weakness",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25
+ },
+ "251": {
+  "name": "Chill of the Dead",
+  "range": 10,
+  "init": 4,
+  "type": "Cold",
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
+ },
+ "252": {
+  "name": "Shade of Death",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 9999
+ },
+ "253": {
+  "name": "Club of the Ogre King",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 10,
+  "aoe": 0
+ },
+ "254": {
+  "name": "Sword of the Damned",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 8,
+  "aoe": 0
+ },
+ "255": {
+  "name": "Wind of Silence",
+  "range": 6,
+  "init": 1,
+  "type": "Banish",
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
+ },
+ "256": {
+  "name": "Call Spirits of the Dead",
+  "range": 6,
+  "init": 1,
+  "type": "Banish",
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
+ },
+ "257": {
+  "name": "Row Greater Banishment",
+  "range": 6,
+  "init": 1,
+  "type": "Banish",
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
+ },
+ "258": {
+  "name": "Battle Axe",
+  "range": 1,
+  "init": 3,
+  "type": "Slash",
+  "dmg": 8,
+  "aoe": 0
+ },
+ "259": {
+  "name": "Fist",
+  "range": 1,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "260": {
+  "name": "Sickle Sword",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "261": {
+  "name": "Bane Blade",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 10,
+  "aoe": 0
+ },
+ "262": {
+  "name": "Stone Sword",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 4,
+  "aoe": 0
+ },
+ "263": {
+  "name": "Summon Ancestor Spirit",
+  "range": 3,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "264": {
+  "name": "Summon Ancestral Warrior",
+  "range": 3,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "265": {
+  "name": "Summon Longdead",
+  "range": 3,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "266": {
+  "name": "Summon Soulless",
+  "range": 3,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "267": {
+  "name": "Call Lightning",
+  "range": 10,
+  "init": 4,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": -12,
+  "an": true
+ },
+ "268": {
+  "name": "Project Fire",
+  "range": 5,
+  "init": 8,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 3007
+ },
+ "269": {
+  "name": "Project Lightning",
+  "range": 8,
+  "init": 8,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": -3,
+  "an": true
+ },
+ "270": {
+  "name": "Paralyze",
+  "range": 5,
+  "init": 8,
+  "type": "Paralyze",
+  "dmg": 0,
+  "aoe": -3,
+  "an": true
+ },
+ "271": {
+  "name": "Poison Bolts",
+  "range": 6,
+  "init": 4,
+  "type": "Poison",
+  "dmg": 0,
+  "aoe": -3,
+  "an": true
+ },
+ "272": {
+  "name": "Poison Cloud",
+  "range": 6,
+  "init": 4,
+  "type": "Poison",
+  "dmg": 0,
+  "aoe": 5,
+  "an": true
+ },
+ "273": {
+  "name": "Water Strike",
+  "range": 1,
+  "init": 8,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "274": {
+  "name": "Icy Breath",
+  "range": 1,
+  "init": 7,
+  "type": "Cold",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "275": {
+  "name": "Icy Breath",
+  "range": 3,
+  "init": 7,
+  "type": "Cold",
+  "dmg": 0,
+  "aoe": 2005,
+  "an": true
+ },
+ "276": {
+  "name": "Icy Breath",
+  "range": 5,
+  "init": 7,
+  "type": "Cold",
+  "dmg": 0,
+  "aoe": 2010,
+  "an": true
+ },
+ "277": {
+  "name": "Poison Spear",
+  "range": 1,
+  "init": 4,
+  "type": "Pierce",
+  "dmg": 4,
+  "aoe": 0
+ },
+ "278": {
+  "name": "Poison Glaive",
+  "range": 1,
+  "init": 5,
+  "type": "Slash",
+  "dmg": 8,
+  "aoe": 0
+ },
+ "279": {
+  "name": "Lightning Strike",
+  "range": 10,
+  "init": 8,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "280": {
+  "name": "Winds",
+  "range": 8,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 3
+ },
+ "281": {
+  "name": "Wither",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 5
+ },
+ "282": {
+  "name": "Curse of Wood",
+  "range": 10,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
+ },
+ "283": {
+  "name": "Poison Explosion",
+  "range": 0,
+  "init": 4,
+  "type": "Poison",
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
+ },
+ "284": {
+  "name": "Fire Explosion",
+  "range": 0,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 25
+ },
+ "285": {
+  "name": "Shard Explosion",
+  "range": 0,
+  "init": 4,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 25
+ },
+ "286": {
+  "name": "Putrid Explosion",
+  "range": 0,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 25
+ },
+ "287": {
+  "name": "Flail of Pain",
+  "range": 1,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 10,
+  "aoe": 0
+ },
+ "288": {
+  "name": "Snake",
+  "range": 1,
+  "init": 5,
+  "type": "Pierce",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "289": {
+  "name": "aff (morale resist)",
+  "range": 1,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "290": {
+  "name": "Snake Hair",
+  "range": 1,
+  "init": 1,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "291": {
+  "name": "Petrification",
+  "range": 1,
+  "init": 4,
+  "type": "Petrify",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "292": {
+  "name": "Granite Spear",
+  "range": 1,
+  "init": 6,
+  "type": "Blunt",
+  "dmg": 2,
+  "aoe": 0
+ },
+ "293": {
+  "name": "Poison Cloud",
+  "range": 2,
+  "init": 4,
+  "type": "Poison",
+  "dmg": 0,
+  "aoe": 3,
+  "an": true
+ },
+ "294": {
+  "name": "Cloud of Decay",
+  "range": 2,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "295": {
+  "name": "Infernal Torch",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 5,
+  "aoe": 1
+ },
+ "296": {
+  "name": "Mutation Tentacle",
+  "range": 1,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "297": {
+  "name": "Ghoul Claw",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "298": {
+  "name": "Mace of Order",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "299": {
+  "name": "Strike of Order",
+  "range": 1,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 3
+ },
+ "300": {
+  "name": "Hold",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": -3,
+  "an": true
+ },
+ "301": {
+  "name": "Astral Claw",
+  "range": 1,
+  "init": 5,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "302": {
+  "name": "Astral Hooks",
+  "range": 1,
+  "init": 7,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "303": {
+  "name": "aff (mark - hardresist)",
+  "range": 10,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "304": {
+  "name": "Slumbering Army",
+  "range": 0,
+  "init": 4,
+  "type": "Sleep",
+  "dmg": 0,
+  "aoe": 9998,
+  "an": true
+ },
+ "305": {
+  "name": "Throw Boulder",
+  "range": 6,
+  "init": 1,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "306": {
+  "name": "Mind Blast",
+  "range": 10,
+  "init": 8,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "307": {
+  "name": "Slumber of the Stones",
+  "range": 10,
+  "init": 4,
+  "type": "Sleep",
+  "dmg": 0,
+  "aoe": 100,
+  "an": true
+ },
+ "308": {
+  "name": "Summon Monster Toad",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "309": {
+  "name": "Summon Frog",
+  "range": 3,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "310": {
+  "name": "aff (earth, unresistable)",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "311": {
+  "name": "dmg (earth, blunt+knockback)",
+  "range": 6,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "312": {
+  "name": "dmg (earth, blunt+knockback)",
+  "range": 6,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 3
+ },
+ "313": {
+  "name": "Eruption",
+  "range": 6,
+  "init": 1,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 5
+ },
+ "314": {
+  "name": "dmg (earth, blunt+knockback)",
+  "range": 6,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 25
+ },
+ "315": {
+  "name": "dmg (earth, blunt+knockback)",
+  "range": 0,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 999
+ },
+ "316": {
+  "name": "Earthquake",
+  "range": 0,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 9999
+ },
+ "317": {
+  "name": "Earth Meld",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 9
+ },
+ "318": {
+  "name": "Deluge",
+  "range": 6,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 25
+ },
+ "319": {
+  "name": "Watery Doom",
+  "range": 10,
+  "init": 1,
+  "dmg": 0,
+  "aoe": 100,
+  "an": true
+ },
+ "320": {
+  "name": "ben (one)",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "321": {
+  "name": "ben (row)",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25
+ },
+ "322": {
+  "name": "Scepter",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 4,
+  "aoe": 0
+ },
+ "323": {
+  "name": "Summon Fiend of Darkness",
+  "range": 3,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "324": {
+  "name": "Summon Lesser Demon",
+  "range": 3,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "325": {
+  "name": "Summon Devil",
+  "range": 3,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "326": {
+  "name": "Branch",
+  "range": 1,
+  "init": 1,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "327": {
+  "name": "Rain of Stones",
+  "range": 0,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 9999
+ },
+ "328": {
+  "name": "Hail Storm",
+  "range": 0,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 9999
+ },
+ "329": {
+  "name": "Poison Vine",
+  "range": 6,
+  "init": 3,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "330": {
+  "name": "dmg (pierce iron)",
+  "range": 6,
+  "init": 4,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": -7
+ },
+ "331": {
+  "name": "Stone Shards",
+  "range": 6,
+  "init": 0,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": -3
+ },
+ "332": {
+  "name": "Tangle Vines",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "333": {
+  "name": "Brass Claw",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "334": {
+  "name": "Black Death (only enemies)",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 999
+ },
+ "335": {
+  "name": "Promise for Life",
+  "range": 10,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25
+ },
+ "336": {
+  "name": "Sleep Cloud",
+  "range": 6,
+  "init": 4,
+  "type": "Sleep",
+  "dmg": 0,
+  "aoe": 5,
+  "an": true
+ },
+ "337": {
+  "name": "Dread Spell",
+  "range": 10,
+  "init": 4,
+  "type": "Fear",
+  "dmg": 0,
+  "aoe": 100,
+  "an": true
+ },
+ "338": {
+  "name": "Horns",
+  "range": 1,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "339": {
+  "name": "Hypnotizing Dance",
+  "range": 5,
+  "init": 1,
+  "type": "Enslave",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "340": {
+  "name": "Summon Giant Toad",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "341": {
+  "name": "Mutation Tentacle",
+  "range": 1,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "342": {
+  "name": "Scepter of the Goblin King",
+  "range": 1,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "343": {
+  "name": "Strange Hymn",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25
+ },
+ "344": {
+  "name": "Soul Slay (+mr-paralyze)",
+  "range": 10,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "345": {
+  "name": "Star Showers",
+  "range": 10,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": -5,
+  "an": true
+ },
+ "346": {
+  "name": "Mind Vortex",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 9999
+ },
+ "347": {
+  "name": "Summon Mind Slime Horror",
+  "range": 3,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "348": {
+  "name": "Summon Spine Membrane Horror",
+  "range": 3,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "349": {
+  "name": "Summon Float Cat Horror",
+  "range": 3,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "350": {
+  "name": "Mind Burn",
+  "range": 10,
+  "init": 8,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "351": {
+  "name": "Star Light",
+  "range": 10,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "352": {
+  "name": "aff (easymr)",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "353": {
+  "name": "Words of the Void",
+  "range": 4,
+  "init": 4,
+  "dmg": 0,
+  "aoe": -3
+ },
+ "354": {
+  "name": "A New Way",
+  "range": 10,
+  "init": 4,
+  "dmg": 0,
+  "aoe": -7
+ },
+ "355": {
+  "name": "Luck",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": -2
+ },
+ "356": {
+  "name": "Luck",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": -5
+ },
+ "357": {
+  "name": "Strange Dimensions",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 998
+ },
+ "358": {
+  "name": "Basalt Pillar",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 18,
+  "aoe": 0
+ },
+ "359": {
+  "name": "Icicle Fist",
+  "range": 1,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "360": {
+  "name": "Shard Fist",
+  "range": 1,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "361": {
+  "name": "Massive Boulder",
+  "range": 12,
+  "init": 1,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "362": {
+  "name": "Lashes of Death",
+  "range": 6,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": -3
+ },
+ "363": {
+  "name": "death (mr)",
+  "range": 6,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "364": {
+  "name": "Summon Small Spider",
+  "range": 10,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "365": {
+  "name": "Vengeance",
+  "range": 8,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": -2
+ },
+ "366": {
+  "name": "aff (unresistable)",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "367": {
+  "name": "Blood Burst",
+  "range": 6,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 5
+ },
+ "368": {
+  "name": "Pillar of Fire",
+  "range": 8,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "369": {
+  "name": "Shooting Thorns",
+  "range": 6,
+  "init": 4,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": -7
+ },
+ "370": {
+  "name": "Summon Fiery Imp",
+  "range": 3,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "371": {
+  "name": "Summon Succubus",
+  "range": 3,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "372": {
+  "name": "Charm animal (easymr)",
+  "range": 5,
+  "init": 4,
+  "type": "Charm",
+  "dmg": 0,
+  "aoe": -3,
+  "an": true
+ },
+ "373": {
+  "name": "Deadly Fumes",
+  "range": 10,
+  "init": 4,
+  "type": "Poison",
+  "dmg": 0,
+  "aoe": 100,
+  "an": true
+ },
+ "374": {
+  "name": "Vengeance of the Sun",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 5
+ },
+ "375": {
+  "name": "Poison Blowgun",
+  "range": 3,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 1,
+  "aoe": 0
+ },
+ "376": {
+  "name": "Shuriken",
+  "range": 3,
+  "init": 7,
+  "type": "Pierce",
+  "dmg": 2,
+  "aoe": -2
+ },
+ "377": {
+  "name": "Shortsword",
+  "range": 1,
+  "init": 3,
+  "type": "Slash",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "378": {
+  "name": "armor",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "379": {
+  "name": "armor",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 5
+ },
+ "380": {
+  "name": "Barkskin",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 5
+ },
+ "381": {
+  "name": "Oak Army",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25
+ },
+ "382": {
+  "name": "armor",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 998
+ },
+ "383": {
+  "name": "Tempest",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 10,
+  "aoe": 1
+ },
+ "384": {
+  "name": "Shock",
+  "range": 1,
+  "init": 4,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "385": {
+  "name": "Magic Staff",
+  "range": 1,
+  "init": 5,
+  "type": "Blunt",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "386": {
+  "name": "Magic Rod",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "387": {
+  "name": "Chain",
+  "range": 1,
+  "init": 5,
+  "type": "Blunt",
+  "dmg": 4,
+  "aoe": 0
+ },
+ "388": {
+  "name": "Tartarian Chain",
+  "range": 1,
+  "init": 5,
+  "type": "Blunt",
+  "dmg": 7,
+  "aoe": 0
+ },
+ "389": {
+  "name": "Command",
+  "range": 4,
+  "init": 4,
+  "type": "Enslave",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "390": {
+  "name": "Syllable of Death",
+  "range": 5,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "391": {
+  "name": "Rising Tide",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25
+ },
+ "392": {
+  "name": "minor water damage",
+  "range": 6,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "393": {
+  "name": "Stream of Water",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 3
+ },
+ "394": {
+  "name": "Purify",
+  "range": 6,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": -2
+ },
+ "395": {
+  "name": "Tendril of Darkness",
+  "range": 6,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "396": {
+  "name": "Symbol of Death",
+  "range": 10,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 100,
+  "an": true
+ },
+ "397": {
+  "name": "Symbol of Dread",
+  "range": 10,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 100,
+  "an": true
+ },
+ "398": {
+  "name": "Symbol of Unlife",
+  "range": 10,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 100,
+  "an": true
+ },
+ "399": {
+  "name": "Symbol of Light",
+  "range": 10,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 100,
+  "an": true
+ },
+ "400": {
+  "name": "Smite",
+  "range": 5,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "401": {
+  "name": "Stream of Water",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 3
+ },
+ "402": {
+  "name": "water stun",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "403": {
+  "name": "Iron Shower",
+  "range": 10,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 25
+ },
+ "404": {
+  "name": "Dagger of Filth",
+  "range": 1,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "405": {
+  "name": "Dagger of Filth",
+  "range": 1,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 3,
+  "aoe": 0,
+  "an": true
+ },
+ "406": {
+  "name": "Weakness",
+  "range": 10,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25
+ },
+ "407": {
+  "name": "Enslave",
+  "range": 4,
+  "init": 8,
+  "type": "Enslave",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "408": {
+  "name": "Venom Sword",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 7,
+  "aoe": 0
+ },
+ "409": {
+  "name": "Weakness",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "410": {
+  "name": "Morningstar of Flames",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 8,
+  "aoe": 0
+ },
+ "411": {
+  "name": "Fire",
+  "range": 1,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "412": {
+  "name": "Claw",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "413": {
+  "name": "Swallow",
+  "range": 1,
+  "init": 1,
+  "type": "Acid",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "414": {
+  "name": "Swallow",
+  "range": 1,
+  "init": 1,
+  "type": "Swallow",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "415": {
+  "name": "Withering Gaze",
+  "range": 10,
+  "init": 10,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "416": {
+  "name": "Enormous Bite",
+  "range": 1,
+  "init": 1,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "417": {
+  "name": "Death Scepter",
+  "range": 1,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 35,
+  "aoe": 0,
+  "an": true
+ },
+ "418": {
+  "name": "Hell's Reign",
+  "range": 1,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 13,
+  "aoe": 0
+ },
+ "419": {
+  "name": "Iron Stinger",
+  "range": 1,
+  "init": 3,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "420": {
+  "name": "Mass Corruption",
+  "range": 0,
+  "init": 4,
+  "type": "Corrupt",
+  "dmg": 0,
+  "aoe": 999,
+  "an": true
+ },
+ "421": {
+  "name": "Desert Storm",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 9999,
+  "an": true
+ },
+ "422": {
+  "name": "Dehydration",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "423": {
+  "name": "Cause Disease",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "424": {
+  "name": "Obsidian Club",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 4,
+  "aoe": 0
+ },
+ "425": {
+  "name": "Glaive",
+  "range": 1,
+  "init": 5,
+  "type": "Slash",
+  "dmg": 7,
+  "aoe": 0
+ },
+ "426": {
+  "name": "Magma Bolt",
+  "range": 3,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "427": {
+  "name": "Horror Tentacle",
+  "range": 1,
+  "init": 3,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "428": {
+  "name": "Mirror Image",
+  "range": 0,
+  "init": 4,
+  "type": "Mirrorimage",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "429": {
+  "name": "Legion of Stone",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 998
+ },
+ "430": {
+  "name": "Army of Stone",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25
+ },
+ "431": {
+  "name": "Fortitude",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 5
+ },
+ "432": {
+  "name": "Ironskin",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 998
+ },
+ "433": {
+  "name": "Legion of Steel",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25
+ },
+ "434": {
+  "name": "Soldiers of Steel",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 5
+ },
+ "435": {
+  "name": "Ironskin",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "436": {
+  "name": "aff (mind+mr)",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "437": {
+  "name": "Sparks",
+  "range": 8,
+  "init": 4,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": -2,
+  "an": true
+ },
+ "438": {
+  "name": "Shooting Shard",
+  "range": 4,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "439": {
+  "name": "Killing Sleep Spores",
+  "range": 3,
+  "init": 1,
+  "type": "Poison",
+  "dmg": 0,
+  "aoe": 5,
+  "an": true
+ },
+ "440": {
+  "name": "Sleep Spores",
+  "range": 2,
+  "init": 1,
+  "type": "Sleep",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "441": {
+  "name": "Pick Axe",
+  "range": 1,
+  "init": 3,
+  "type": "Pierce",
+  "dmg": 7,
+  "aoe": 0
+ },
+ "442": {
+  "name": "Arbalest",
+  "range": 7,
+  "init": 1,
+  "type": "Pierce",
+  "dmg": 10,
+  "aoe": 0
+ },
+ "443": {
+  "name": "strength, aoe 3",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 3
+ },
+ "444": {
+  "name": "strength, row",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25
+ },
+ "445": {
+  "name": "Nightmares",
+  "range": 10,
+  "init": 4,
+  "type": "Fear",
+  "dmg": 0,
+  "aoe": 100,
+  "an": true
+ },
+ "446": {
+  "name": "Scourging Wind",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
+ },
+ "447": {
+  "name": "Engulf",
+  "range": 1,
+  "init": 1,
+  "type": "Swallow",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "448": {
+  "name": "Smokeless Flame",
+  "range": 8,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "449": {
+  "name": "Incinerate",
+  "range": 6,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "450": {
+  "name": "Flame Pillars",
+  "range": 6,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": -3
+ },
+ "451": {
+  "name": "Confusion",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "452": {
+  "name": "Cloud of Confusion",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 9
+ },
+ "453": {
+  "name": "Mist of Confusion",
+  "range": 10,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25
+ },
+ "454": {
+  "name": "Confusion",
+  "range": 10,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 100
+ },
+ "455": {
+  "name": "Mental Overload",
+  "range": 8,
+  "init": 1,
+  "dmg": 0,
+  "aoe": -4
+ },
+ "456": {
+  "name": "Confusion",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": -8
+ },
+ "457": {
+  "name": "Lunar Brilliance",
+  "range": 10,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
+ },
+ "458": {
+  "name": "Moonlight",
+  "range": 10,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "459": {
+  "name": "Moonbeams",
+  "range": 10,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
+ },
+ "460": {
+  "name": "Acid Breath",
+  "range": 1,
+  "init": 4,
+  "type": "Acid",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "461": {
+  "name": "Acid Breath",
+  "range": 3,
+  "init": 4,
+  "type": "Acid",
+  "dmg": 0,
+  "aoe": 1003,
+  "an": true
+ },
+ "462": {
+  "name": "Acid Breath",
+  "range": 5,
+  "init": 4,
+  "type": "Acid",
+  "dmg": 0,
+  "aoe": 1005,
+  "an": true
+ },
+ "463": {
+  "name": "Acid Breath",
+  "range": 7,
+  "init": 4,
+  "type": "Acid",
+  "dmg": 0,
+  "aoe": 1007,
+  "an": true
+ },
+ "464": {
+  "name": "Acid Breath",
+  "range": 10,
+  "init": 4,
+  "type": "Acid",
+  "dmg": 0,
+  "aoe": 1010,
+  "an": true
+ },
+ "465": {
+  "name": "Stone Axe",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "466": {
+  "name": "Decay",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "467": {
+  "name": "Gift of Death",
+  "range": 10,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "468": {
+  "name": "Rain of Blood",
+  "range": 0,
+  "init": 4,
+  "type": "Fear",
+  "dmg": 0,
+  "aoe": 9999,
+  "an": true
+ },
+ "469": {
+  "name": "Divine Aura",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 9
+ },
+ "470": {
+  "name": "Summon Murder Of Crows",
+  "range": 10,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "471": {
+  "name": "Summon Great Boar",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "472": {
+  "name": "Summon Scorpion",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "473": {
+  "name": "Summon Large Spider",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "474": {
+  "name": "Magic Sword",
+  "range": 1,
+  "init": 5,
+  "type": "Slash",
+  "dmg": 7,
+  "aoe": 0
+ },
+ "475": {
+  "name": "Magic Sword",
+  "range": 1,
+  "init": 5,
+  "type": "Slash",
+  "dmg": 10,
+  "aoe": 0
+ },
+ "476": {
+  "name": "Incorporate",
+  "range": 1,
+  "init": 1,
+  "type": "Swallow",
+  "dmg": 0,
+  "aoe": 3,
+  "an": true
+ },
+ "477": {
+  "name": "Giant Arrow",
+  "range": 12,
+  "init": 1,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "478": {
+  "name": "Soul Vortex",
+  "range": 5,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
+ },
+ "479": {
+  "name": "Mortal Terror",
+  "range": 0,
+  "init": 10,
+  "type": "Fear",
+  "dmg": 0,
+  "aoe": 999,
+  "an": true
+ },
+ "480": {
+  "name": "Fire",
+  "range": 1,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 3
+ },
+ "481": {
+  "name": "Cold Touch",
+  "range": 1,
+  "init": 3,
+  "type": "Cold",
+  "dmg": 4,
+  "aoe": 0,
+  "an": true
+ },
+ "482": {
+  "name": "Shock Aura",
+  "range": 1,
+  "init": 4,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "483": {
+  "name": "Gaze of Midas",
+  "range": 10,
+  "init": 10,
+  "dmg": 0,
+  "aoe": 3
+ },
+ "484": {
+  "name": "Harm",
+  "range": 8,
+  "init": 1,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "485": {
+  "name": "Tail Sweep",
+  "range": 1,
+  "init": 1,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "486": {
+  "name": "Dragon Terror",
+  "range": 0,
+  "init": 10,
+  "type": "Fear",
+  "dmg": 0,
+  "aoe": 9999,
+  "an": true
+ },
+ "487": {
+  "name": "Color Spray",
+  "range": 8,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 5,
+  "an": true
+ },
+ "488": {
+  "name": "aff (mr+huge)",
+  "range": 1,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "489": {
+  "name": "Rune Axe",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 13,
+  "aoe": 0
+ },
+ "490": {
+  "name": "Rune Sword",
+  "range": 1,
+  "init": 5,
+  "type": "Slash",
+  "dmg": 8,
+  "aoe": 0
+ },
+ "491": {
+  "name": "Wave of Pus",
+  "range": 1,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 5
+ },
+ "492": {
+  "name": "Curses",
+  "range": 16,
+  "init": 4,
+  "dmg": 0,
+  "aoe": -15
+ },
+ "493": {
+  "name": "Crush",
+  "range": 1,
+  "init": 7,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 5
+ },
+ "494": {
+  "name": "Total Confusion",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 9999
+ },
+ "495": {
+  "name": "Astral Hooks",
+  "range": 3,
+  "init": 7,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "496": {
+  "name": "Club",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "497": {
+  "name": "Curses",
+  "range": 16,
+  "init": 4,
+  "dmg": 0,
+  "aoe": -5
+ },
+ "498": {
+  "name": "Conversion",
+  "range": 5,
+  "init": 4,
+  "type": "Charm",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "499": {
+  "name": "Mass Conversion",
+  "range": 5,
+  "init": 4,
+  "type": "Charm",
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
+ },
+ "500": {
+  "name": "True Faith",
+  "range": 5,
+  "init": 4,
+  "type": "Charm",
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
+ },
+ "501": {
+  "name": "Touch of the Dead",
+  "range": 1,
+  "init": 3,
+  "type": "Cold",
+  "dmg": 6,
+  "aoe": 0
+ },
+ "502": {
+  "name": "Heavenly Horn",
+  "range": 5,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 5,
+  "aoe": 5,
+  "an": true
+ },
+ "503": {
+  "name": "Poison Mist",
+  "range": 8,
+  "init": 4,
+  "type": "Poison",
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
+ },
+ "504": {
+  "name": "Mass Combustion",
+  "range": 10,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 50
+ },
+ "505": {
+  "name": "Iron Spear",
+  "range": 6,
+  "init": 4,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "506": {
+  "name": "Iron Shard",
+  "range": 6,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": -3
+ },
+ "507": {
+  "name": "Large Sword",
+  "range": 1,
+  "init": 5,
+  "type": "Slash",
+  "dmg": 10,
+  "aoe": 0
+ },
+ "508": {
+  "name": "Bolts of Unlife",
+  "range": 6,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": -9,
+  "an": true
+ },
+ "509": {
+  "name": "Summon Giant Locust",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "510": {
+  "name": "Starvation",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
+ },
+ "511": {
+  "name": "Soul Scythe",
+  "range": 1,
+  "init": 5,
+  "type": "Slash",
+  "dmg": 9,
+  "aoe": 0
+ },
+ "512": {
+  "name": "War Rally",
+  "range": 6,
+  "init": 1,
+  "type": "Charm",
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
+ },
+ "513": {
+  "name": "Mist of Disease",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 9999,
+  "an": true
+ },
+ "514": {
+  "name": "Lesser Smite",
+  "range": 5,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "515": {
+  "name": "God Flesh",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "516": {
+  "name": "Divine Flames",
+  "range": 5,
+  "init": 8,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": -2,
+  "an": true
+ },
+ "517": {
+  "name": "Sleep Touch",
+  "range": 1,
+  "init": 3,
+  "type": "Sleep",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "518": {
+  "name": "Lesser Flame Strike",
+  "range": 1,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "519": {
+  "name": "Alicorn",
+  "range": 1,
+  "init": 5,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "520": {
+  "name": "Pincer",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "521": {
+  "name": "Frost Branded Battle Axe",
+  "range": 1,
+  "init": 3,
+  "type": "Slash",
+  "dmg": 9,
+  "aoe": 0
+ },
+ "522": {
+  "name": "Frost Branded Sword",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 6,
+  "aoe": 0
+ },
+ "523": {
+  "name": "Flame Branded Battle Axe",
+  "range": 1,
+  "init": 3,
+  "type": "Slash",
+  "dmg": 9,
+  "aoe": 0
+ },
+ "524": {
+  "name": "Flame Branded Sword",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 6,
+  "aoe": 0
+ },
+ "525": {
+  "name": "Earth Branded Battle Axe",
+  "range": 1,
+  "init": 3,
+  "type": "Slash",
+  "dmg": 9,
+  "aoe": 0
+ },
+ "526": {
+  "name": "Earth Branded Sword",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 6,
+  "aoe": 0
+ },
+ "527": {
+  "name": "Rime Branded Arbalest",
+  "range": 7,
+  "init": 1,
+  "type": "Pierce",
+  "dmg": 10,
+  "aoe": 0
+ },
+ "528": {
+  "name": "Flame Branded Arbalest",
+  "range": 7,
+  "init": 1,
+  "type": "Pierce",
+  "dmg": 10,
+  "aoe": 0
+ },
+ "529": {
+  "name": "Earth Branded Arbalest",
+  "range": 7,
+  "init": 1,
+  "type": "Pierce",
+  "dmg": 10,
+  "aoe": 0
+ },
+ "530": {
+  "name": "aff (mr-resistable)",
+  "range": 1,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "531": {
+  "name": "Entangle",
+  "range": 1,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 3
+ },
+ "532": {
+  "name": "Reanimating Bite",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "533": {
+  "name": "Poison Breath",
+  "range": 5,
+  "init": 7,
+  "type": "Poison",
+  "dmg": 0,
+  "aoe": 3010,
+  "an": true
+ },
+ "534": {
+  "name": "Icy Breath",
+  "range": 5,
+  "init": 7,
+  "type": "Cold",
+  "dmg": 0,
+  "aoe": 2010,
+  "an": true
+ },
+ "535": {
+  "name": "Poison Claw",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "536": {
+  "name": "Barbed Tail",
+  "range": 1,
+  "init": 1,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "537": {
+  "name": "Serpent Skirt",
+  "range": 1,
+  "init": 1,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "538": {
+  "name": "Giant Rime Branded Arrow",
+  "range": 12,
+  "init": 1,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "539": {
+  "name": "Giant Rime Branded Arrow",
+  "range": 12,
+  "init": 1,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "540": {
+  "name": "Cold Blast",
+  "range": 1,
+  "init": 4,
+  "type": "Cold",
+  "dmg": 0,
+  "aoe": 3,
+  "an": true
+ },
+ "541": {
+  "name": "Giant Flame Branded Arrow",
+  "range": 12,
+  "init": 1,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "542": {
+  "name": "Giant Flame Branded Arrow",
+  "range": 12,
+  "init": 1,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "543": {
+  "name": "Fire Blast",
+  "range": 1,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 3
+ },
+ "544": {
+  "name": "Giant Earth Branded Arrow",
+  "range": 12,
+  "init": 1,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "545": {
+  "name": "Giant Earth Branded Arrow",
+  "range": 12,
+  "init": 1,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "546": {
+  "name": "Earth Blast",
+  "range": 1,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 5
+ },
+ "547": {
+  "name": "Mesmerize",
+  "range": 4,
+  "init": 1,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "548": {
+  "name": "Release Phantasm",
+  "range": 4,
+  "init": 1,
+  "type": "Phantasm",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "549": {
+  "name": "Phantasmal Bow",
+  "range": 5,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "550": {
+  "name": "Phantasmal Dagger",
+  "range": 1,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "551": {
+  "name": "Phantasmal Sword",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 6,
+  "aoe": 0
+ },
+ "552": {
+  "name": "Phantasmal Spear",
+  "range": 1,
+  "init": 6,
+  "type": "Pierce",
+  "dmg": 4,
+  "aoe": 0
+ },
+ "553": {
+  "name": "Phantasmal Halberd",
+  "range": 1,
+  "init": 5,
+  "type": "Slash",
+  "dmg": 8,
+  "aoe": 0
+ },
+ "554": {
+  "name": "Phantasmal Greatsword",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 9,
+  "aoe": 0
+ },
+ "555": {
+  "name": "Phantasmal Pike",
+  "range": 2,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "556": {
+  "name": "Phantasmal Lance",
+  "range": 1,
+  "init": 5,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "557": {
+  "name": "Phantasmal Hoof",
+  "range": 1,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "558": {
+  "name": "Phantasmal Bite",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "559": {
+  "name": "Phantasmal Claw",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "560": {
+  "name": "Phantasmal Gore",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "561": {
+  "name": "Phantasmal Horns",
+  "range": 1,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "562": {
+  "name": "Phantasmal Antlers",
+  "range": 1,
+  "init": 3,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "563": {
+  "name": "Phantasmal Tentacle",
+  "range": 1,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "564": {
+  "name": "Phantasmal Burst",
+  "range": 6,
+  "init": 8,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "565": {
+  "name": "Phantasmal Blast",
+  "range": 6,
+  "init": 8,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 3
+ },
+ "566": {
+  "name": "Phantasmal Flames",
+  "range": 6,
+  "init": 8,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 5
+ },
+ "567": {
+  "name": "Phantasmal Great Club",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "568": {
+  "name": "Phantasmal Axe",
+  "range": 1,
+  "init": 3,
+  "type": "Slash",
+  "dmg": 7,
+  "aoe": 0
+ },
+ "569": {
+  "name": "Phantasmal Missile",
+  "range": 5,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "570": {
+  "name": "Phantasmal Sting",
+  "range": 1,
+  "init": 3,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "571": {
+  "name": "Beam of Light",
+  "range": 8,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "572": {
+  "name": "Serpent Club",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 7,
+  "aoe": 0
+ },
+ "573": {
+  "name": "Strong Venomous Phase Bite",
+  "range": 2,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "574": {
+  "name": "Tentacle",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "575": {
+  "name": "Phantasmal Death",
+  "range": 8,
+  "init": 10,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "576": {
+  "name": "Lashes of Darkness",
+  "range": 6,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": -5,
+  "an": true
+ },
+ "577": {
+  "name": "Illusory Bow",
+  "range": 5,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "578": {
+  "name": "Illusory Dagger",
+  "range": 1,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "579": {
+  "name": "Illusory Sword",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 6,
+  "aoe": 0
+ },
+ "580": {
+  "name": "Illusory Spear",
+  "range": 1,
+  "init": 6,
+  "type": "Pierce",
+  "dmg": 4,
+  "aoe": 0
+ },
+ "581": {
+  "name": "Illusory Halberd",
+  "range": 1,
+  "init": 5,
+  "type": "Slash",
+  "dmg": 8,
+  "aoe": 0
+ },
+ "582": {
+  "name": "Illusory Greatsword",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 9,
+  "aoe": 0
+ },
+ "583": {
+  "name": "Illusory Pike",
+  "range": 2,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "584": {
+  "name": "Illusory Lance",
+  "range": 1,
+  "init": 5,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "585": {
+  "name": "Illusory Hoof",
+  "range": 1,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "586": {
+  "name": "Illusory Bite",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "587": {
+  "name": "Illusory Claw",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "588": {
+  "name": "Illusory Gore",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "589": {
+  "name": "Illusory Horns",
+  "range": 1,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "590": {
+  "name": "Illusory Antlers",
+  "range": 1,
+  "init": 3,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "591": {
+  "name": "Illusory Tentacle",
+  "range": 1,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "592": {
+  "name": "Illusory Burst",
+  "range": 6,
+  "init": 8,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "593": {
+  "name": "Illusory Blast",
+  "range": 6,
+  "init": 8,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 3
+ },
+ "594": {
+  "name": "Illusory Flames",
+  "range": 6,
+  "init": 8,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 5
+ },
+ "595": {
+  "name": "Illusory Great Club",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "596": {
+  "name": "Illusory Axe",
+  "range": 1,
+  "init": 3,
+  "type": "Slash",
+  "dmg": 7,
+  "aoe": 0
+ },
+ "597": {
+  "name": "Illusory Missile",
+  "range": 5,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "598": {
+  "name": "Illusory Sting",
+  "range": 1,
+  "init": 3,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "599": {
+  "name": "Illusory Death",
+  "range": 8,
+  "init": 10,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "600": {
+  "name": "Ghost Rending Claw",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "601": {
+  "name": "Mancatcher",
+  "range": 1,
+  "init": 5,
+  "type": "Pierce",
+  "dmg": 2,
+  "aoe": 0
+ },
+ "602": {
+  "name": "Ghost Shackles",
+  "range": 1,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "603": {
+  "name": "Words of Sacrilege",
+  "range": 3,
+  "init": 1,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "604": {
+  "name": "Golden Torc",
+  "range": 1,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "605": {
+  "name": "Snake",
+  "range": 1,
+  "init": 5,
+  "type": "Pierce",
+  "dmg": 4,
+  "aoe": 0
+ },
+ "606": {
+  "name": "Magic Spear",
+  "range": 1,
+  "init": 7,
+  "type": "Pierce",
+  "dmg": 6,
+  "aoe": 0
+ },
+ "607": {
+  "name": "Horn of the Hunt",
+  "range": 4,
+  "init": 2,
+  "type": "Fear",
+  "dmg": 8,
+  "aoe": 25,
+  "an": true
+ },
+ "608": {
+  "name": "Prismatic Light",
+  "range": 8,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": -10,
+  "an": true
+ },
+ "609": {
+  "name": "Disease Spell",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "610": {
+  "name": "Word of Power",
+  "range": 4,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "611": {
+  "name": "Terror",
+  "range": 10,
+  "init": 4,
+  "type": "Fear",
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
+ },
+ "612": {
+  "name": "Acid Blood",
+  "range": 1,
+  "init": 4,
+  "type": "Acid",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "613": {
+  "name": "Bane Fire Decay",
+  "range": 1,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 9
+ },
+ "614": {
+  "name": "Bane Vortex Decay",
+  "range": 1,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 3
+ },
+ "615": {
+  "name": "Invulnerability",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "616": {
+  "name": "Acid",
+  "range": 1,
+  "init": 4,
+  "type": "Acid",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "617": {
+  "name": "Acid Dart",
+  "range": 6,
+  "init": 4,
+  "type": "Acid",
+  "dmg": 0,
+  "aoe": -2,
+  "an": true
+ },
+ "618": {
+  "name": "Acid Spray",
+  "range": 5,
+  "init": 4,
+  "type": "Acid",
+  "dmg": 0,
+  "aoe": 2010,
+  "an": true
+ },
+ "619": {
+  "name": "Acid Cloud",
+  "range": 6,
+  "init": 4,
+  "type": "Acid",
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
+ },
+ "620": {
+  "name": "Acid Mist",
+  "range": 8,
+  "init": 4,
+  "type": "Acid",
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
+ },
+ "621": {
+  "name": "Acid Rain",
+  "range": 8,
+  "init": 4,
+  "type": "Acid",
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
+ },
+ "622": {
+  "name": "Acid Storm",
+  "range": 0,
+  "init": 4,
+  "type": "Acid",
+  "dmg": 0,
+  "aoe": 9999,
+  "an": true
+ },
+ "623": {
+  "name": "Shock Field",
+  "range": 4,
+  "init": 4,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": 3,
+  "an": true
+ },
+ "624": {
+  "name": "Lightning Bolt",
+  "range": 6,
+  "init": 4,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": 5005,
+  "an": true
+ },
+ "625": {
+  "name": "Thunder Strike",
+  "range": 15,
+  "init": 4,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "626": {
+  "name": "Small Poison Bow",
+  "range": 4,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "627": {
+  "name": "Regeneration",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "628": {
+  "name": "Hydra's Blessing",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 5
+ },
+ "629": {
+  "name": "Regeneration",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 9
+ },
+ "630": {
+  "name": "Mass Regeneration",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25
+ },
+ "631": {
+  "name": "Army of Antaeus",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 998
+ },
+ "632": {
+  "name": "Great Club",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 7,
+  "aoe": 0
+ },
+ "633": {
+  "name": "Shadow Form",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "634": {
+  "name": "Shade Warriors",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 5
+ },
+ "635": {
+  "name": "Shade Warriors",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 9
+ },
+ "636": {
+  "name": "Army of Darkness",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25
+ },
+ "637": {
+  "name": "Fire Shield",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "638": {
+  "name": "Soldiers of Flame",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 5
+ },
+ "639": {
+  "name": "Army of Flames",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25
+ },
+ "640": {
+  "name": "Resist Magic",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "641": {
+  "name": "Antimagic",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25
+ },
+ "642": {
+  "name": "Hellbind Heart",
+  "range": 6,
+  "init": 8,
+  "type": "Enslave",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "643": {
+  "name": "Enslave",
+  "range": 8,
+  "init": 8,
+  "type": "Enslave",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "644": {
+  "name": "Invade Mind",
+  "range": 10,
+  "init": 8,
+  "type": "Enslave",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "645": {
+  "name": "Bloodletting",
+  "range": 0,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 9999
+ },
+ "646": {
+  "name": "Bones of Stone",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 5
+ },
+ "647": {
+  "name": "Stygian Skin",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 5
+ },
+ "648": {
+  "name": "Air Shield",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 5
+ },
+ "649": {
+  "name": "Iron Bolts",
+  "range": 6,
+  "init": 0,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": -5
+ },
+ "650": {
+  "name": "Maws of the Earth",
+  "range": 6,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 7005,
+  "an": true
+ },
+ "651": {
+  "name": "Maws of the Earth (grip)",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "652": {
+  "name": "Maws of the Earth (fire)",
+  "range": 6,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "653": {
+  "name": "Protective Winds",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 20
+ },
+ "654": {
+  "name": "Friendly Storm",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 998
+ },
+ "655": {
+  "name": "Strength of the Earth",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 5
+ },
+ "656": {
+  "name": "Poison Breath",
+  "range": 5,
+  "init": 7,
+  "type": "Poison",
+  "dmg": 0,
+  "aoe": 2005,
+  "an": true
+ },
+ "657": {
+  "name": "Poison Spit",
+  "range": 3,
+  "init": 2,
+  "type": "Poison",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "658": {
+  "name": "Venomous Death Bite",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "659": {
+  "name": "Life Drain",
+  "range": 1,
+  "init": 2,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "660": {
+  "name": "Flames",
+  "range": 6,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 3
+ },
+ "661": {
+  "name": "Vine Arrow",
+  "range": 5,
+  "init": 4,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "662": {
+  "name": "Entangle",
+  "range": 1,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "663": {
+  "name": "Flame Strike",
+  "range": 6,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "664": {
+  "name": "Poison Darts",
+  "range": 6,
+  "init": 4,
+  "type": "Poison",
+  "dmg": 0,
+  "aoe": -9,
+  "an": true
+ },
+ "665": {
+  "name": "Bewilderment",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": -6
+ },
+ "666": {
+  "name": "Web",
+  "range": 3,
+  "init": 2,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "667": {
+  "name": "Corrosive Bite",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "668": {
+  "name": "Acid",
+  "range": 1,
+  "init": 4,
+  "type": "Acid",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "669": {
+  "name": "Acid Spit",
+  "range": 3,
+  "init": 2,
+  "type": "Acid",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "670": {
+  "name": "Elemental Resistance",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 3
+ },
+ "671": {
+  "name": "Elemental Resistance",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 5
+ },
+ "672": {
+  "name": "Elemental Resistance",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 15
+ },
+ "673": {
+  "name": "Elemental Resistance",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25
+ },
+ "674": {
+  "name": "Golden Bow",
+  "range": 8,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 6,
+  "aoe": 0
+ },
+ "675": {
+  "name": "Sunlight",
+  "range": 1,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "676": {
+  "name": "Magic Scepter",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 4,
+  "aoe": 0
+ },
+ "677": {
+  "name": "Poison Cloud",
+  "range": 6,
+  "init": 4,
+  "type": "Poison",
+  "dmg": 0,
+  "aoe": 5,
+  "an": true
+ },
+ "678": {
+  "name": "Acid Spray",
+  "range": 2,
+  "init": 7,
+  "type": "Acid",
+  "dmg": 0,
+  "aoe": 1002,
+  "an": true
+ },
+ "679": {
+  "name": "Call the Dead",
+  "range": 0,
+  "init": 1,
+  "type": "Banish",
+  "dmg": 0,
+  "aoe": 9999,
+  "an": true
+ },
+ "680": {
+  "name": "Divine Names",
+  "range": 10,
+  "init": 4,
+  "dmg": 0,
+  "aoe": -7
+ },
+ "681": {
+  "name": "Flesh is Stronger",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "682": {
+  "name": "Blessing",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 9
+ },
+ "683": {
+  "name": "Blessing",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25
+ },
+ "684": {
+  "name": "Blessing",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 998
+ },
+ "685": {
+  "name": "Mesmerize",
+  "range": 8,
+  "init": 1,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "686": {
+  "name": "Poison Cloud",
+  "range": 3,
+  "init": 4,
+  "type": "Poison",
+  "dmg": 0,
+  "aoe": 5,
+  "an": true
+ },
+ "687": {
+  "name": "Poison Cloud",
+  "range": 2,
+  "init": 4,
+  "type": "Poison",
+  "dmg": 0,
+  "aoe": 5,
+  "an": true
+ },
+ "688": {
+  "name": "Carnyx Horn",
+  "range": 3,
+  "init": 2,
+  "type": "Fear",
+  "dmg": 5,
+  "aoe": 3006,
+  "an": true
+ },
+ "689": {
+  "name": "Hoburg Pike",
+  "range": 1,
+  "init": 7,
+  "type": "Pierce",
+  "dmg": 4,
+  "aoe": 0
+ },
+ "690": {
+  "name": "Lucerne Hammer",
+  "range": 1,
+  "init": 5,
+  "type": "Pierce",
+  "dmg": 7,
+  "aoe": 0
+ },
+ "691": {
+  "name": "Horrible Howl",
+  "range": 3,
+  "init": 2,
+  "type": "Fear",
+  "dmg": 7,
+  "aoe": 3006,
+  "an": true
+ },
+ "692": {
+  "name": "Pillar",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 18,
+  "aoe": 1
+ },
+ "693": {
+  "name": "Death Blade",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 12,
+  "aoe": 0
+ },
+ "694": {
+  "name": "Petrifying Fist",
+  "range": 1,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "695": {
+  "name": "Petrification",
+  "range": 10,
+  "init": 10,
+  "type": "Petrify",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "696": {
+  "name": "Bane Fire Bow",
+  "range": 5,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "697": {
+  "name": "Bane Fire",
+  "range": 0,
+  "init": 0,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "698": {
+  "name": "Ghoul Hammer",
+  "range": 1,
+  "init": 5,
+  "type": "Pierce",
+  "dmg": 7,
+  "aoe": 0
+ },
+ "699": {
+  "name": "Poison Breath",
+  "range": 3,
+  "init": 7,
+  "type": "Poison",
+  "dmg": 0,
+  "aoe": 2003,
+  "an": true
+ },
+ "700": {
+  "name": "Bane Blade",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 7,
+  "aoe": 0
+ },
+ "701": {
+  "name": "Bane Fire Decay",
+  "range": 1,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "702": {
+  "name": "Throw Flames",
+  "range": 3,
+  "init": 2,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "703": {
+  "name": "Throw Frost",
+  "range": 3,
+  "init": 2,
+  "type": "Cold",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "704": {
+  "name": "Winds",
+  "range": 8,
+  "init": 1,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 3
+ },
+ "705": {
+  "name": "Frost Strike",
+  "range": 1,
+  "init": 4,
+  "type": "Cold",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "706": {
+  "name": "Wall of Torment",
+  "range": 1,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "707": {
+  "name": "aff (mr+living only)",
+  "range": 8,
+  "init": 3,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "708": {
+  "name": "Fool's Laughter",
+  "range": 4,
+  "init": 8,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "709": {
+  "name": "Summon Dragonfly",
+  "range": 10,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "710": {
+  "name": "Axe of Sharpness",
+  "range": 1,
+  "init": 3,
+  "type": "Slash",
+  "dmg": 12,
+  "aoe": 0,
+  "an": true
+ },
+ "711": {
+  "name": "Club of Dreams",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "712": {
+  "name": "Sleep",
+  "range": 1,
+  "init": 1,
+  "type": "Sleep",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "713": {
+  "name": "Poison Claw",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 1,
+  "aoe": 0
+ },
+ "714": {
+  "name": "Golden Sickle",
+  "range": 1,
+  "init": 6,
+  "type": "Slash",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "715": {
+  "name": "Terrain Poison",
+  "range": 1,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "716": {
+  "name": "Bewilderment",
+  "range": 10,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25
+ },
+ "717": {
+  "name": "Wraithsword",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 10,
+  "aoe": 0
+ },
+ "718": {
+  "name": "Moon Blade",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 10,
+  "aoe": 0
+ },
+ "719": {
+  "name": "Moon Lance",
+  "range": 1,
+  "init": 6,
+  "type": "Pierce",
+  "dmg": 7,
+  "aoe": 0
+ },
+ "720": {
+  "name": "Soul Rend",
+  "range": 1,
+  "init": 1,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "721": {
+  "name": "Mind Tentacles",
+  "range": 4,
+  "init": 1,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 3010,
+  "an": true
+ },
+ "722": {
+  "name": "Mind Tentacles Paralyze",
+  "range": 1,
+  "init": 1,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "723": {
+  "name": "Life Drain Tentacle",
+  "range": 1,
+  "init": 7,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "724": {
+  "name": "Coral Glaive",
+  "range": 1,
+  "init": 5,
+  "type": "Slash",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "725": {
+  "name": "Thunder Strike",
+  "range": 1,
+  "init": 4,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "726": {
+  "name": "Lightning Storm",
+  "range": 10,
+  "init": 4,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": 9212,
+  "an": true
+ },
+ "727": {
+  "name": "Area Shock",
+  "range": 1,
+  "init": 4,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": 6,
+  "an": true
+ },
+ "728": {
+  "name": "Dreamless Sleep",
+  "range": 0,
+  "init": 4,
+  "type": "Sleep",
+  "dmg": 0,
+  "aoe": 9998,
+  "an": true
+ },
+ "729": {
+  "name": "Dream Seduction",
+  "range": 1,
+  "init": 4,
+  "type": "Charm",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "730": {
+  "name": "Magic Greatsword",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 12,
+  "aoe": 0
+ },
+ "731": {
+  "name": "Athame",
+  "range": 1,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "732": {
+  "name": "Sword of War",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 14,
+  "aoe": 0
+ },
+ "733": {
+  "name": "Thunder Fist",
+  "range": 1,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 1,
+  "aoe": 0
+ },
+ "734": {
+  "name": "Massive Hammer",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 8,
+  "aoe": 0
+ },
+ "735": {
+  "name": "Minor Earthquake",
+  "range": 0,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 8
+ },
+ "736": {
+  "name": "Iron Claw",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "737": {
+  "name": "Magic Bident",
+  "range": 1,
+  "init": 7,
+  "type": "Pierce",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "738": {
+  "name": "Disease Cloud",
+  "range": 1,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "739": {
+  "name": "Mind Explosion",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25
+ },
+ "740": {
+  "name": "Energy Beam",
+  "range": 5,
+  "init": 8,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": 1005,
+  "an": true
+ },
+ "741": {
+  "name": "Pseudopod Strike",
+  "range": 1,
+  "init": 8,
+  "type": "Acid",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "742": {
+  "name": "Incorporate",
+  "range": 1,
+  "init": 4,
+  "type": "Swallow",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "743": {
+  "name": "Paralyzing Scream",
+  "range": 3,
+  "init": 8,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 4006,
+  "an": true
+ },
+ "744": {
+  "name": "Paralyzing Scream",
+  "range": 3,
+  "init": 8,
+  "type": "Paralyze",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "745": {
+  "name": "Shovel",
+  "range": 1,
+  "init": 5,
+  "type": "Blunt",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "746": {
+  "name": "Sledge Hammer",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 7,
+  "aoe": 0
+ },
+ "747": {
+  "name": "Broom",
+  "range": 1,
+  "init": 5,
+  "type": "Blunt",
+  "dmg": 1,
+  "aoe": 0
+ },
+ "748": {
+  "name": "Bucket of Water",
+  "range": 1,
+  "init": 1,
+  "type": "Blunt",
+  "dmg": 1,
+  "aoe": 0
+ },
+ "749": {
+  "name": "Giant Arrow",
+  "range": 12,
+  "init": 1,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "750": {
+  "name": "Shove",
+  "range": 1,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "751": {
+  "name": "Stellar Maw",
+  "range": 1,
+  "init": 2,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "752": {
+  "name": "Magic Trident",
+  "range": 1,
+  "init": 6,
+  "type": "Pierce",
+  "dmg": 9,
+  "aoe": 0
+ },
+ "753": {
+  "name": "Foul Bite",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "754": {
+  "name": "Pearl Trident",
+  "range": 1,
+  "init": 5,
+  "type": "Pierce",
+  "dmg": 8,
+  "aoe": 0
+ },
+ "755": {
+  "name": "Cudgel",
+  "range": 1,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "756": {
+  "name": "Magma Axe",
+  "range": 1,
+  "init": 3,
+  "type": "Slash",
+  "dmg": 7,
+  "aoe": 0
+ },
+ "757": {
+  "name": "Mist Dagger",
+  "range": 1,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "758": {
+  "name": "Mist Bow",
+  "range": 6,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "759": {
+  "name": "Ember Dagger",
+  "range": 1,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "760": {
+  "name": "Ember Crossbow",
+  "range": 6,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "761": {
+  "name": "Copper Feathers",
+  "range": 1,
+  "init": 8,
+  "type": "Pierce",
+  "dmg": 4,
+  "aoe": 3
+ },
+ "762": {
+  "name": "Poison Vine Growth",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25
+ },
+ "763": {
+  "name": "Mace of Pain",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 6,
+  "aoe": 0
+ },
+ "764": {
+  "name": "Extra Pain",
+  "range": 1,
+  "init": 1,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "765": {
+  "name": "Soldiers of Gold",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 10
+ },
+ "766": {
+  "name": "Scourge Sword",
+  "range": 1,
+  "init": 5,
+  "type": "Slash",
+  "dmg": 7,
+  "aoe": 0
+ },
+ "767": {
+  "name": "Head-Butt",
+  "range": 1,
+  "init": 1,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "768": {
+  "name": "Ice Lance",
+  "range": 1,
+  "init": 6,
+  "type": "Pierce",
+  "dmg": 4,
+  "aoe": 0
+ },
+ "769": {
+  "name": "Dawn Blade",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 6,
+  "aoe": 0
+ },
+ "770": {
+  "name": "Ice Blade",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 6,
+  "aoe": 0
+ },
+ "771": {
+  "name": "Shatter Soul",
+  "range": 1,
+  "init": 2,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "772": {
+  "name": "Unmake Soul",
+  "range": 1,
+  "init": 2,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "773": {
+  "name": "Depetrification",
+  "range": 1,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "774": {
+  "name": "Immolation Aura",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "775": {
+  "name": "Flaming Sword",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 10,
+  "aoe": 0
+ },
+ "776": {
+  "name": "Scourge Flames",
+  "range": 1,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "777": {
+  "name": "Scourge Aura",
+  "range": 1,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "778": {
+  "name": "Scourge Flame Decay",
+  "range": 1,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "779": {
+  "name": "Whip",
+  "range": 1,
+  "init": 5,
+  "type": "Slash",
+  "dmg": 1,
+  "aoe": 0
+ },
+ "780": {
+  "name": "Confusion Aura",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "781": {
+  "name": "Dark Cloud",
+  "range": 6,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 4,
+  "aoe": 4,
+  "an": true
+ },
+ "782": {
+  "name": "Swiftness",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "783": {
+  "name": "Quickening",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 9
+ },
+ "784": {
+  "name": "Haste",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25
+ },
+ "785": {
+  "name": "Quicken Army",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 998
+ },
+ "786": {
+  "name": "Oakbane Axe",
+  "range": 1,
+  "init": 3,
+  "type": "Slash",
+  "dmg": 15,
+  "aoe": 0,
+  "an": true
+ },
+ "787": {
+  "name": "Animate Tree",
+  "range": 6,
+  "init": 4,
+  "type": "Animate",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "788": {
+  "name": "Animate Forest",
+  "range": 0,
+  "init": 4,
+  "type": "Animate",
+  "dmg": 0,
+  "aoe": 9996,
+  "an": true
+ },
+ "789": {
+  "name": "Animate Mushroom",
+  "range": 6,
+  "init": 4,
+  "type": "Animate",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "790": {
+  "name": "Animate Swamp",
+  "range": 0,
+  "init": 4,
+  "type": "Animate",
+  "dmg": 0,
+  "aoe": 9996,
+  "an": true
+ },
+ "791": {
+  "name": "Magic Stones",
+  "range": 6,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": -2
+ },
+ "792": {
+  "name": "Lightning Spear",
+  "range": 1,
+  "init": 6,
+  "type": "Pierce",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "793": {
+  "name": "Indomitability",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 5
+ },
+ "794": {
+  "name": "Ink Pot",
+  "range": 1,
+  "init": 1,
+  "type": "Blunt",
+  "dmg": 1,
+  "aoe": 0
+ },
+ "795": {
+  "name": "Flapping Scroll",
+  "range": 1,
+  "init": 1,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "796": {
+  "name": "Sharp Quill",
+  "range": 1,
+  "init": 1,
+  "type": "Pierce",
+  "dmg": 1,
+  "aoe": 0
+ },
+ "797": {
+  "name": "Sharp Pencil",
+  "range": 1,
+  "init": 1,
+  "type": "Pierce",
+  "dmg": 1,
+  "aoe": 0
+ },
+ "798": {
+  "name": "Toughness",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0
+ },
+ "799": {
+  "name": "Sailor's Death",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "800": {
+  "name": "Flaming Fist",
+  "range": 1,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 1,
+  "aoe": 0
+ },
+ "801": {
+  "name": "Flames",
+  "range": 6,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 5
+ },
+ "802": {
+  "name": "Wheel of Changing Seasons",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "803": {
+  "name": "Sword of Enfeeblement",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 7,
+  "aoe": 0
+ },
+ "804": {
+  "name": "Axe of Lords",
+  "range": 1,
+  "init": 3,
+  "type": "Slash",
+  "dmg": 20,
+  "aoe": 0,
+  "an": true
+ },
+ "805": {
+  "name": "Slime Aura",
+  "range": 1,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "806": {
+  "name": "Poison Goo",
+  "range": 6,
+  "init": 4,
+  "type": "Poison",
+  "dmg": 0,
+  "aoe": -2,
+  "an": true
+ },
+ "807": {
+  "name": "Terrain Shock",
+  "range": 1,
+  "init": 4,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "808": {
+  "name": "Frost Branded Axe",
+  "range": 1,
+  "init": 3,
+  "type": "Slash",
+  "dmg": 8,
+  "aoe": 0
+ },
+ "809": {
+  "name": "Flame Branded Axe",
+  "range": 1,
+  "init": 3,
+  "type": "Slash",
+  "dmg": 8,
+  "aoe": 0
+ },
+ "810": {
+  "name": "Earth Branded Axe",
+  "range": 1,
+  "init": 3,
+  "type": "Slash",
+  "dmg": 8,
+  "aoe": 0
+ },
+ "811": {
+  "name": "Earth Branded Crossbow",
+  "range": 5,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "812": {
+  "name": "Earth Branded Pick Axe",
+  "range": 1,
+  "init": 3,
+  "type": "Pierce",
+  "dmg": 8,
+  "aoe": 0
+ },
+ "813": {
+  "name": "Entrap and Bite",
+  "range": 3,
+  "init": 2,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "814": {
+  "name": "Strong Poisonous Bite",
+  "range": 1,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "815": {
+  "name": "Web",
+  "range": 3,
+  "init": 2,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "816": {
+  "name": "Summon Tainted Soul",
+  "range": 3,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "817": {
+  "name": "Great Tetsubo of the Oni King",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 12,
+  "aoe": 0
+ },
+ "818": {
+  "name": "Killing Hallucinogenic Spores",
+  "range": 3,
+  "init": 1,
+  "type": "Poison",
+  "dmg": 0,
+  "aoe": 5,
+  "an": true
+ },
+ "819": {
+  "name": "Hallucinogenic Spores",
+  "range": 2,
+  "init": 1,
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "820": {
+  "name": "Pseudopod Strike",
+  "range": 1,
+  "init": 0,
+  "type": "Acid",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "821": {
+  "name": "Divine Word",
+  "range": 8,
+  "init": 1,
+  "type": "Banish",
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
+ },
+ "822": {
+  "name": "Heavenly Strike",
+  "range": 10,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "823": {
+  "name": "Fear",
+  "range": 8,
+  "init": 4,
+  "type": "Fear",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "824": {
+  "name": "Desolation Cloud",
+  "range": 1,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "825": {
+  "name": "Ghost Rending Bite",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "826": {
+  "name": "Serpent Mane",
+  "range": 1,
+  "init": 2,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "827": {
+  "name": "Serpent Tail",
+  "range": 1,
+  "init": 3,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "828": {
+  "name": "Save",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "829": {
+  "name": "Save",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 9
+ },
+ "830": {
+  "name": "Save",
+  "range": 0,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 998
+ },
+ "831": {
+  "name": "Poison Javelin",
+  "range": 3,
+  "init": 1,
+  "type": "Pierce",
+  "dmg": 4,
+  "aoe": 0
+ },
+ "832": {
+  "name": "Vine Whip",
+  "range": 1,
+  "init": 5,
+  "type": "Slash",
+  "dmg": 1,
+  "aoe": 0
+ },
+ "833": {
+  "name": "Tangle Vines",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "834": {
+  "name": "Golden Lance Charge",
+  "range": 1,
+  "init": 5,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "835": {
+  "name": "Flail of Guidance",
+  "range": 1,
+  "init": 5,
+  "type": "Blunt",
+  "dmg": 15,
+  "aoe": 0
+ },
+ "836": {
+  "name": "Serpent of Knowledge",
+  "range": 1,
+  "init": 3,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "837": {
+  "name": "Serpent of Wisdom",
+  "range": 1,
+  "init": 3,
+  "type": "Slash",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "838": {
+  "name": "Fiery Breath",
+  "range": 2,
+  "init": 7,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 1002,
+  "an": true
+ },
+ "839": {
+  "name": "Solar Mace",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 6,
+  "aoe": 0
+ },
+ "840": {
+  "name": "Solar Strike",
+  "range": 1,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 5,
+  "an": true
+ },
+ "841": {
+  "name": "Sword of No Weight",
+  "range": 1,
+  "init": 7,
+  "type": "Slash",
+  "dmg": 9,
+  "aoe": 0
+ },
+ "842": {
+  "name": "Snake Staff",
+  "range": 1,
+  "init": 5,
+  "type": "Blunt",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "843": {
+  "name": "Ice Spear",
+  "range": 1,
+  "init": 6,
+  "type": "Pierce",
+  "dmg": 6,
+  "aoe": 0
+ },
+ "844": {
+  "name": "Pummeling Winds",
+  "range": 1,
+  "init": 5,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "845": {
+  "name": "Lightning Breath",
+  "range": 2,
+  "init": 7,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": 9205,
+  "an": true
+ },
+ "846": {
+  "name": "Words of Corruption",
+  "range": 1,
+  "init": 4,
+  "type": "Charm",
+  "dmg": 0,
+  "aoe": 5,
+  "an": true
+ },
+ "847": {
+  "name": "Words of Corruption",
+  "range": 1,
+  "init": 4,
+  "type": "Charm",
+  "dmg": 0,
+  "aoe": 3,
+  "an": true
+ },
+ "848": {
+  "name": "Words of Corruption",
+  "range": 1,
+  "init": 4,
+  "type": "Charm",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "849": {
+  "name": "Touch of the Fallen",
+  "range": 1,
+  "init": 3,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "850": {
+  "name": "Wall of Death (mr)",
+  "range": 1,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "851": {
+  "name": "Wall of Death (aff,mr)",
+  "range": 1,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "852": {
+  "name": "Poison Web",
+  "range": 6,
+  "init": 1,
+  "type": "Poison",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "853": {
+  "name": "Web",
+  "range": 3,
+  "init": 1,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "854": {
+  "name": "Dread Projection",
+  "range": 20,
+  "init": 5,
+  "type": "Fear",
+  "dmg": 0,
+  "aoe": 10,
+  "an": true
+ },
+ "855": {
+  "name": "Dread Projection",
+  "range": 10,
+  "init": 5,
+  "type": "Fear",
+  "dmg": 0,
+  "aoe": 5,
+  "an": true
+ },
+ "856": {
+  "name": "Drain Life",
+  "range": 3,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "857": {
+  "name": "Astral Tendril",
+  "range": 8,
+  "init": 1,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "858": {
+  "name": "Lightning Breath",
+  "range": 2,
+  "init": 7,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": 9210,
+  "an": true
+ },
+ "859": {
+  "name": "Dragon Bow",
+  "range": 7,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "860": {
+  "name": "Guide Arrows",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 5
+ },
+ "861": {
+  "name": "Wind Guide",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 25
+ },
+ "862": {
+  "name": "Divine Fist",
+  "range": 1,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 1,
+  "aoe": 0
+ },
+ "863": {
+  "name": "Stone Fist",
+  "range": 1,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 1,
+  "aoe": 0
+ },
+ "864": {
+  "name": "Wooden Fist",
+  "range": 1,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 1,
+  "aoe": 0
+ },
+ "865": {
+  "name": "Enchanted Shovel",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 6,
+  "aoe": 0
+ },
+ "866": {
+  "name": "Alchemical Boulder",
+  "range": 16,
+  "init": 1,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "867": {
+  "name": "Flame Blast",
+  "range": 1,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 5
+ },
+ "868": {
+  "name": "Alchemical Boulders",
+  "range": 20,
+  "init": 1,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 3
+ },
+ "869": {
+  "name": "Flame Blast",
+  "range": 1,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 2
+ },
+ "870": {
+  "name": "Poison Spit",
+  "range": 5,
+  "init": 2,
+  "type": "Poison",
+  "dmg": 0,
+  "aoe": 1005,
+  "an": true
+ },
+ "871": {
+  "name": "Fling Boulder",
+  "range": 12,
+  "init": 1,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "872": {
+  "name": "Fling Boulder",
+  "range": 12,
+  "init": 1,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "873": {
+  "name": "Bane Fire Crossbow",
+  "range": 5,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "874": {
+  "name": "Laying on Hands",
+  "range": 1,
+  "init": 4,
+  "type": "Heal",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "875": {
+  "name": "Healing Words",
+  "range": 8,
+  "init": 4,
+  "type": "Heal",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "876": {
+  "name": "Healing Prayer",
+  "range": 8,
+  "init": 4,
+  "type": "Heal",
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
+ },
+ "877": {
+  "name": "Healing Miracle",
+  "range": 8,
+  "init": 4,
+  "type": "Heal",
+  "dmg": 0,
+  "aoe": 25,
+  "an": true
+ },
+ "878": {
+  "name": "Heal",
+  "range": 8,
+  "init": 4,
+  "type": "Heal",
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "879": {
+  "name": "Greater Healing",
+  "range": 8,
+  "init": 4,
+  "type": "Heal",
+  "dmg": 0,
+  "aoe": 9,
+  "an": true
+ },
+ "880": {
+  "name": "Metal Fist",
+  "range": 1,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 1,
+  "aoe": 0
+ },
+ "881": {
+  "name": "Summon Shade",
+  "range": 15,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "882": {
+  "name": "Wither All",
+  "range": 10,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 100
+ },
+ "883": {
+  "name": "Summon Phase Spider",
+  "range": 15,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "884": {
+  "name": "Burning Sword",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 6,
+  "aoe": 0
+ },
+ "885": {
+  "name": "Fire",
+  "range": 1,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "886": {
+  "name": "Banestar",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 7,
+  "aoe": 0
+ },
+ "887": {
+  "name": "Decay",
+  "range": 1,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "888": {
+  "name": "Morningstar of Strength",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 10,
+  "aoe": 0
+ },
+ "889": {
+  "name": "Mace of Unlife",
+  "range": 1,
+  "init": 3,
+  "type": "Blunt",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "890": {
+  "name": "Magma Bolt",
+  "range": 4,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "891": {
+  "name": "Alicorn",
+  "range": 1,
+  "init": 5,
+  "type": "Pierce",
+  "dmg": 6,
+  "aoe": 0
+ },
+ "892": {
+  "name": "Cane",
+  "range": 1,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 2,
+  "aoe": 0
+ },
+ "893": {
+  "name": "Flame Burst",
+  "range": 1,
+  "init": 4,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 5
+ },
+ "894": {
+  "name": "Bleed",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": -3
+ },
+ "895": {
+  "name": "Lashes of Blood",
+  "range": 8,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": -3
+ },
+ "896": {
+  "name": "extra bleed",
+  "range": 8,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 1,
+  "an": true
+ },
+ "897": {
+  "name": "Thorn Staff",
+  "range": 1,
+  "init": 5,
+  "type": "Blunt",
+  "dmg": 4,
+  "aoe": 0
+ },
+ "898": {
+  "name": "Spear of Justice",
+  "range": 1,
+  "init": 6,
+  "type": "Pierce",
+  "dmg": 7,
+  "aoe": 0
+ },
+ "899": {
+  "name": "Solar Lance",
+  "range": 1,
+  "init": 6,
+  "type": "Pierce",
+  "dmg": 6,
+  "aoe": 0
+ },
+ "900": {
+  "name": "Fisherman's Trident",
+  "range": 1,
+  "init": 5,
+  "type": "Pierce",
+  "dmg": 8,
+  "aoe": 0
+ },
+ "901": {
+  "name": "Trident of the Sea",
+  "range": 1,
+  "init": 5,
+  "type": "Pierce",
+  "dmg": 9,
+  "aoe": 0
+ },
+ "902": {
+  "name": "Emperor's Hope",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 12,
+  "aoe": 0
+ },
+ "903": {
+  "name": "Flame Spear",
+  "range": 1,
+  "init": 6,
+  "type": "Pierce",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "904": {
+  "name": "Kick",
+  "range": 1,
+  "init": 2,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 0
+ },
+ "905": {
+  "name": "Magic Bow",
+  "range": 6,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 4,
+  "aoe": 0
+ },
+ "906": {
+  "name": "Magic Dagger",
+  "range": 1,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 4,
+  "aoe": 0
+ },
+ "907": {
+  "name": "Magic Axe",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 8,
+  "aoe": 0
+ },
+ "908": {
+  "name": "Blood Athame",
+  "range": 1,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 3,
+  "aoe": 0
+ },
+ "909": {
+  "name": "Aura of Unlife",
+  "range": 0,
+  "init": 1,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 997
+ },
+ "910": {
+  "name": "Ring of Flames",
+  "range": 0,
+  "init": 1,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 997
+ },
+ "911": {
+  "name": "Summon Manifestation of Maya",
+  "range": 6,
+  "init": 4,
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "912": {
+  "name": "Seduction",
+  "range": 1,
+  "init": 4,
+  "type": "Charm",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "913": {
+  "name": "Draining Touch",
+  "range": 1,
+  "init": 3,
+  "type": "Magic",
+  "dmg": 6,
+  "aoe": 0,
+  "an": true
+ },
+ "914": {
+  "name": "Trishula",
+  "range": 1,
+  "init": 5,
+  "type": "Pierce",
+  "dmg": 15,
+  "aoe": 0
+ },
+ "915": {
+  "name": "Dance of Delight",
+  "range": 0,
+  "init": 1,
+  "type": "Sleep",
+  "dmg": 0,
+  "aoe": 999,
+  "an": true
+ },
+ "916": {
+  "name": "Dance of Destruction",
+  "range": 0,
+  "init": 1,
+  "type": "Blunt",
+  "dmg": 0,
+  "aoe": 999,
+  "an": true
+ },
+ "917": {
+  "name": "Apotropaic Sword",
+  "range": 1,
+  "init": 5,
+  "type": "Slash",
+  "dmg": 7,
+  "aoe": 0
+ },
+ "918": {
+  "name": "Blindness",
+  "range": 5,
+  "init": 1,
+  "dmg": 0,
+  "aoe": 1
+ },
+ "919": {
+  "name": "Magic Dagger",
+  "range": 1,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 3,
+  "aoe": 0,
+  "an": true
+ },
+ "920": {
+  "name": "Magic Sword",
+  "range": 1,
+  "init": 5,
+  "type": "Pierce",
+  "dmg": 7,
+  "aoe": 0,
+  "an": true
+ },
+ "921": {
+  "name": "Magic Battle Axe",
+  "range": 1,
+  "init": 4,
+  "type": "Slash",
+  "dmg": 10,
+  "aoe": 0
+ },
+ "922": {
+  "name": "Dreadful Eclipse",
+  "range": 0,
+  "init": 10,
+  "type": "Fear",
+  "dmg": 0,
+  "aoe": 9999,
+  "an": true
+ },
+ "923": {
+  "name": "Golden Bow",
+  "range": 8,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 6,
+  "aoe": 0
+ },
+ "924": {
+  "name": "Wall of Darkness (dmg)",
+  "range": 1,
+  "init": 4,
+  "type": "Magic",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ },
+ "925": {
+  "name": "Wall of Darkness (fear)",
+  "range": 1,
+  "init": 4,
+  "type": "Fear",
+  "dmg": 0,
+  "aoe": 0,
+  "an": true
+ }
+}

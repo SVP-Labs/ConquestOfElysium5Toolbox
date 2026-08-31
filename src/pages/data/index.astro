@@ -1,6 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import data from "../../../modcheck/data/vanilla.json";
+import schools from "../../data/ritual-schools.json";
 
 const tables = [
   {
@@ -45,9 +46,13 @@ const tables = [
     count: data.resources.length,
     desc: "Resource numbers — the number is the position in the game's resource list.",
   },
+  {
+    kind: "schools",
+    title: "Ritual schools",
+    count: Object.keys(schools).length,
+    desc: "Ritual school (pow) numbers with their names, from Necromancy to the Raksharaja.",
+  },
 ];
-
-const ritpows = data.ritpows;
 
 // Section icon — matches the Data nav link in Base.astro.
 const dataIcon =
@@ -79,17 +84,11 @@ const dataIcon =
     }
   </div>
 
-  <h2>Ritual school numbers</h2>
-  <p>
-    These are the ritual school numbers the base game defines. School names
-    aren't part of the extracted data, so only the numbers can be listed —
-    a <code>school</code> argument outside this set is most likely not a
-    base-game school (the data comes from an older game version, so newer
-    additions may be missing).
+  <p class="dim schools-note">
+    A <code>school</code> argument outside the ritual schools table is most
+    likely not a base-game school — the data comes from an older game version,
+    so newer additions may be missing.
   </p>
-  <div class="ritpow-row">
-    {ritpows.map((n) => <span class="badge ritpow">{n}</span>)}
-  </div>
 </Base>
 
 <style>
@@ -138,15 +137,5 @@ const dataIcon =
     margin-bottom: 0.5rem;
   }
 
-  .ritpow-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.35rem;
-    margin-top: 0.75rem;
-  }
 
-  .ritpow {
-    font-family: var(--mono);
-    font-size: 0.82rem;
-  }
 </style>
