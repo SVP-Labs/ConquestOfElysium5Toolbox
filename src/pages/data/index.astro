@@ -2,6 +2,7 @@
 import Base from "../../layouts/Base.astro";
 import data from "../../../modcheck/data/vanilla.json";
 import schools from "../../data/ritual-schools.json";
+import terrainGroups from "../../data/terrain-groups.json";
 
 const tables = [
   {
@@ -51,6 +52,12 @@ const tables = [
     title: "Ritual schools",
     count: Object.keys(schools).length,
     desc: "Ritual school (pow) numbers with their names, from Necromancy to the Raksharaja.",
+  },
+  {
+    kind: "terrain-groups",
+    title: "Terrain groups",
+    count: Object.keys(terrainGroups).length,
+    desc: "The negative terrain numbers — each stands for a whole set of terrains, from -1 (anywhere) down.",
   },
 ];
 

@@ -177,6 +177,14 @@ source attached (see the rules table in play.astro).
   spell counts exactly except the Destruction school, which the wiki
   lacks. The wiki (CC BY-SA) remains the source only for the aoe-encoding
   wording above.
+- **Standard terrain groups (-1 to -115)** — the manual's "Negative terrain
+  numbers" table (page 25), extracted by tools/extract-terrain-groups.mjs
+  into terrain-groups.json and shown at /data/terrain-groups. Corroborated:
+  59 of the 60 negative terrain numbers the v5.33 dumps use carry
+  annotations agreeing with the manual. The 60th, `terr -120` on the
+  Animate Tools ritual, is in neither the manual nor the extraction's own
+  notes ("Required terrain: ???") — an open question. Groups -1000 to
+  -1199 are mod-defined (`selectterrgroup`), so they have no fixed names.
 - **Unverified:** the `*(+1)` suffix on displayed range (lob/elevation?),
   strength's role in combat resolution; the negated event conditions
   (`-turnnbr`, `-player`, …) and gate/wall terrain commands that appear

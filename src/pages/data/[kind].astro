@@ -2,6 +2,7 @@
 import Base from "../../layouts/Base.astro";
 import data from "../../../modcheck/data/vanilla.json";
 import schools from "../../data/ritual-schools.json";
+import terrainGroups from "../../data/terrain-groups.json";
 
 export function getStaticPaths() {
   const record = (kind) =>
@@ -31,6 +32,16 @@ export function getStaticPaths() {
       entries: Object.entries(schools)
         .map(([idx, name]) => [Number(idx), name])
         .sort((a, b) => a[0] - b[0]),
+    },
+    {
+      kind: "terrain-groups",
+      title: "Terrain groups",
+      singular: "terrain group",
+      plural: "terrain groups",
+      // -1 (anywhere) reads first, then down the list.
+      entries: Object.entries(terrainGroups)
+        .map(([idx, name]) => [Number(idx), name])
+        .sort((a, b) => b[0] - a[0]),
     },
   ];
 
