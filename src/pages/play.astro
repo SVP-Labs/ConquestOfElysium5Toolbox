@@ -406,6 +406,7 @@ const starter = [
 <script>
   import { lintSource } from "../../modcheck/src/linter.js";
   import baseWeapons from "../data/weapons.json";
+  import flagGlossary from "../data/monster-flags.json";
   import { readStatements } from "../../modcheck/src/statements.js";
   import { tokenizeLine } from "../../modcheck/src/tokenizer.js";
   import { commands, vanilla } from "../../modcheck/src/catalog.js";
@@ -997,7 +998,11 @@ const starter = [
     }
     if (abilities.length > 0) {
       const row = div("ucard-abilities");
-      for (const name of abilities) row.appendChild(span(name, "badge"));
+      for (const name of abilities) {
+        const badge = span(name, "badge");
+        if (flagGlossary[name]) badge.title = flagGlossary[name];
+        row.appendChild(badge);
+      }
       card.appendChild(row);
     }
 
