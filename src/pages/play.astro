@@ -365,6 +365,17 @@ const starter = [
   :global(.ucard table th:first-child),
   :global(.ucard table td:first-child) { padding-left: 2.1rem; }
 
+  :global(.ucard .dmg-glyph) {
+    display: inline-block;
+    vertical-align: -0.15em;
+    margin-right: 0.3rem;
+  }
+
+  :global(.ucard .dmg-glyph svg) {
+    width: 1em;
+    height: 1em;
+  }
+
   :global(.ucard .wfootnote) {
     color: #a9ac93;
     font-size: 0.78rem;
@@ -973,6 +984,17 @@ const starter = [
     // defines earlier in this source resolve from their own newweapon block.
     // Displayed damage die = weapon-line dmg + weapon record dmg — verified
     // against 2,421 annotated base-game lines and the in-game unit tab.
+    // The game shows the physical damage type as a small weapon icon inside
+    // the Damage cell; other types are named in words.
+    const DMG_GLYPHS = {
+      Pierce:
+        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20 17 7" /><path d="M14 4h6v6" /><path d="M14 4 20 10" /></svg>',
+      Slash:
+        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 4 8 16" /><path d="M6 14l4 4" /><path d="M5 19l-1 1" /><path d="M8 20l-4-4" /></svg>',
+      Blunt:
+        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20l6-6" /><rect x="11" y="4" width="9" height="9" rx="2" /></svg>',
+    };
+
     const localWeapons = {};
     {
       let w = null;
@@ -991,9 +1013,13 @@ const starter = [
     const resolveWeapon = (name) =>
       localWeapons[name.trim().toLowerCase()] ?? baseWeapons[name.trim().toLowerCase()];
 
-    const weapons = block.filter(
-      (s) => s.name === "meleeweapon" || s.name === "rangedweapon",
-    );
+    // Every weapon-granting command family the base game data uses.
+    const WEAPON_COMMANDS = new Set([
+      "meleeweapon", "meleeweaponspec", "meleeweaponbonus", "meleeweapon50s",
+      "rangedweapon", "rangedweapon50", "rangedweapon50s", "rangedweapon25",
+      "rangedweaponbonus", "siegeweapon", "assassinweapon", "prebatweapon",
+    ]);
+    const weapons = block.filter((s) => WEAPON_COMMANDS.has(s.name));
     if (weapons.length > 0) {
       const table = document.createElement("table");
       const thead = document.createElement("thead");
@@ -1019,17 +1045,34 @@ const starter = [
         if (!rec) unresolved = true;
         const die = rec && lineDmg ? Number(lineDmg.value) + (rec.dmg ?? 0) : null;
         const cells = [
-          `${weaponName}${s.name === "rangedweapon" ? " (ranged)" : ""}`,
+          `${weaponName}${s.name.startsWith("ranged") ? " (ranged)" : ""}`,
           rec?.init !== undefined ? String(rec.init) : "—",
           rec?.range !== undefined ? String(rec.range) : "—",
-          die !== null ? `1-${die}` : lineDmg ? String(lineDmg.value) : "—",
-          rec?.type ?? "—",
+          null, // damage cell is assembled below: type glyph/word + die range
+          "—",
         ];
         for (const [i, text] of cells.entries()) {
           const td = document.createElement("td");
-          td.textContent = text;
-          if (i === 3 && die !== null) {
-            td.title = `d${die} = weapon line ${lineDmg.value} + weapon record ${rec.dmg ?? 0}; rolls are open-ended (a max result adds another die at -1)`;
+          if (i === 3) {
+            const type = rec?.type;
+            if (type && DMG_GLYPHS[type]) {
+              const icon = document.createElement("span");
+              icon.className = "dmg-glyph";
+              icon.innerHTML = DMG_GLYPHS[type]; // constant trusted SVG strings
+              td.appendChild(icon);
+            } else if (type) {
+              td.appendChild(document.createTextNode(type + " "));
+            }
+            td.appendChild(
+              document.createTextNode(die !== null ? `1-${die}` : lineDmg ? String(lineDmg.value) : "—"),
+            );
+            if (die !== null) {
+              td.title = `${type ?? ""} d${die} = weapon line ${lineDmg.value} + weapon record ${rec.dmg ?? 0}; rolls are open-ended (a max result adds another die at -1)`.trim();
+            } else if (type) {
+              td.title = type;
+            }
+          } else {
+            td.textContent = text;
           }
           tr.appendChild(td);
         }
