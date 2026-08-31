@@ -141,7 +141,11 @@ source attached (see the rules table in play.astro).
   (str 10, line 25 + Great Club 7 → d32 — proving strength is NOT part of
   the die; the str-added hypothesis fits 0 of 2,421 lines). Corroborated by
   the gameplay.tips guide ("displayed as 1dX(+Y), in actual fact 1d(X+Y)");
-  rolls are open-ended: a max result adds another die at −1. Implemented:
+  rolls are open-ended: a max result adds another die at −1. Display format
+  (owner's in-game observation, 2026-08-31): the range shown is the WEAPON's
+  own die with the monster's weapon-line dmg as a (+N) suffix — "1-4 (+5)" —
+  collapsing to a plain "1-N" when the weapon die is 0 (all damage from the
+  monster, e.g. Gore); the effective roll is always 1d(sum). Implemented:
   weapons.json (tools/extract-weapons.mjs) carries per-weapon dmg/init/
   range/type, and the card computes the die for base-game weapons and for
   weapons the source itself defines.
