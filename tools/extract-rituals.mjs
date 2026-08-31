@@ -1,9 +1,8 @@
 #!/usr/bin/env node
-// Builds src/data/rituals.json ({school: [{name, level, ap?, costs?}]}) and
-// src/data/spell-paths.json ({path: name}) from the rips. Ritual AP display
-// follows the data source's annotation ("apcost 2 # Actual AP cost: 3." —
-// shown AP is the value plus one). Spell path names come from the monster
-// rip's spellweapon annotations ("Necromancy at level 2").
+// Builds src/data/rituals.json ({school: [{name, level, ap?, costs?}]}) from
+// the rips. Ritual AP display follows the data source's annotation
+// ("apcost 2 # Actual AP cost: 3." — shown AP is the value plus one).
+// Spell paths come from the spell extraction (see extract-spells.mjs).
 //
 //   node tools/extract-rituals.mjs <rips-directory>
 
@@ -36,7 +35,7 @@ const rituals = {};
     }
     cur = null;
   };
-  for (const line of read("reference_ritual-data-v5_22_c5m.txt")) {
+  for (const line of read("Ritual_Data_v5.33.c5m")) {
     const t = line.trim();
     let m;
     if ((m = /^(?:newritual|selectritual)\s+"([^"]+)"/.exec(t))) {
@@ -56,13 +55,6 @@ const rituals = {};
 }
 out("rituals.json", rituals);
 
-const paths = {};
-for (const line of read("reference_monster-data-v5_22_c5m.txt")) {
-  const m = /^spellweapon\s+(\d+)\s+\d+\s*#\s*(.+?)\s+at level\s+\d+/.exec(line.trim());
-  if (m) paths[+m[1]] = m[2].trim();
-}
-out("spell-paths.json", paths);
-
 console.log(
-  `rituals: ${Object.values(rituals).reduce((a, l) => a + l.length, 0)} across ${Object.keys(rituals).length} schools; spell paths named: ${Object.keys(paths).length}`,
+  `rituals: ${Object.values(rituals).reduce((a, l) => a + l.length, 0)} across ${Object.keys(rituals).length} schools`,
 );

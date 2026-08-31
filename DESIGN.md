@@ -166,14 +166,36 @@ source attached (see the rules table in play.astro).
   values (breath/gaze families 1002–4025) display "special area". The wiki
   lists Combustion as "burst 4" against the record's aoe −4 — treated as a
   wiki slip, since five other negative-aoe spells confirm "strikes".
-- **Spell damage dies vs effect strengths** — the wiki's hidden
-  `<!-- weapon: N, dmg: M -->` comments carry a dmg for every spell, but it
-  is only a damage die when the visible entry has a "Damage" line;
-  buff/utility spells reuse the field (Fire Ward's dmg 4 is its resistance
-  amount). extract-spells.mjs keeps `dmg` only for damage-line spells; the
-  card shows "special" otherwise, matching the game (Fire Shield check
-  against the in-game Kobold Sorcerer screenshot).
+- **Spell data comes from the game data itself (v5.33)** — the
+  Spell_Data_v5.33 extraction carries every combat spell's path, level,
+  weapon record and dmg as first-party data (1,029 spells, 68 paths),
+  replacing the earlier wiki join. An annotated dmg
+  ("dmg 512 # Strength +2.") is an effect encoding, not a die — the card
+  shows "special" with the effect named on hover; a bare dmg is the die,
+  however large (Finger of Death really is 1-999 — the wiki shows the
+  same). Cross-check: the wiki join matched the extraction's per-path
+  spell counts exactly except the Destruction school, which the wiki
+  lacks. The wiki (CC BY-SA) remains the source only for the aoe-encoding
+  wording above.
+- **Standard terrain groups (-1 to -115)** — the manual's "Negative terrain
+  numbers" table (page 25), extracted by tools/extract-terrain-groups.mjs
+  into terrain-groups.json and shown at /data/terrain-groups. Corroborated:
+  59 of the 60 negative terrain numbers the v5.33 dumps use carry
+  annotations agreeing with the manual. The 60th, `terr -120` on the
+  Animate Tools ritual, is in neither the manual nor the extraction's own
+  notes ("Required terrain: ???") — an open question. Groups -1000 to
+  -1199 are mod-defined (`selectterrgroup`), so they have no fixed names.
 - **Unverified:** the `*(+1)` suffix on displayed range (lob/elevation?),
-  strength's role in combat resolution.
+  strength's role in combat resolution; the negated event conditions
+  (`-turnnbr`, `-player`, …) and gate/wall terrain commands that appear
+  only in the community Notepad++ syntax file — in neither the v5.36
+  manual nor any data extraction, so not yet in the validator's catalog.
+
+**Data source version:** Colonel Dracula's v5.33 extraction
+(2026-08-31 upload), which added the Spell and Nametype files and the
+Guildmasters class. The damage-die formula above was verified against the
+v5.22 monster rip's 2,421 annotated weapon lines; v5.33 is the same
+author and format. The rips live only in the session scratchpad and the
+validator's untracked reference dir — never in either repo.
 - **Sprite mapping is free:** the monster rip carries `# sprite number NNNN`
   per monster — the extraction only needs images named by those numbers.

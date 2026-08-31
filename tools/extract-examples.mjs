@@ -25,8 +25,9 @@ const KINDS = [
 ];
 
 function kindFor(filename) {
+  const folded = filename.toLowerCase().replaceAll("_", "-");
   for (const [needle, kind] of KINDS) {
-    if (filename.includes(needle)) return kind;
+    if (folded.includes(needle)) return kind;
   }
   return null;
 }

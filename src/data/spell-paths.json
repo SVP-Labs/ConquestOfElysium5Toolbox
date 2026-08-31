@@ -43,6 +43,9 @@
  "43": "Illusionism",
  "44": "Sage Magic",
  "45": "Dwarf Magic",
+ "46": "Maladies",
+ "47": "Beast Wards",
+ "48": "Warrior Wards",
  "49": "Paladin Magic",
  "50": "Famine Magic",
  "51": "High Arcana",
@@ -61,5 +64,7 @@
  "64": "Divine Magic",
  "65": "Sidhe Magic",
  "66": "Akashic Magic",
- "68": "Maya Manipulation"
+ "67": "Destruction",
+ "68": "Maya Manipulation",
+ "69": "Apothecary"
 }

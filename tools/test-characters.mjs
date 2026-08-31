@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // E2E check of the /play unit card against real base-game monsters: builds
 // each character's playground source from the rips, renders it through the
-// live preview (npx astro preview must be running on :4321), and verifies
+// live preview (npx astro preview must be running on :4322), and verifies
 // stats, weapon rows, damage display strings, flags and resistance badges.
 //
 //   node tools/test-characters.mjs <rips-dir> "Spearman" "Troll King" ...
@@ -13,7 +13,7 @@ const weaponsByName = JSON.parse(fs.readFileSync(new URL("../src/data/weapons.js
 
 // weapon index -> name
 const idx2name = {};
-for (const line of fs.readFileSync(`${R}/reference_weapon-data-v5_22_c5m.txt`, "utf8").split(/\r?\n/)) {
+for (const line of fs.readFileSync(`${R}/Weapon_Data_v5.33.c5m`, "utf8").split(/\r?\n/)) {
   const m = /^(?:newweapon|selectweapon)\s+"([^"]+)"\s*#\s*(\d+)/.exec(line);
   if (m) idx2name[+m[2]] = m[1];
 }
@@ -24,7 +24,7 @@ const WEAPON_CMDS = new Set(["meleeweapon","meleeweaponspec","meleeweaponbonus",
 const STATS = ["hp","str","mr","mor","armor","rank"];
 
 function parseMonster(name) {
-  const lines = fs.readFileSync(`${R}/reference_monster-data-v5_22_c5m.txt`, "utf8").split(/\r?\n/);
+  const lines = fs.readFileSync(`${R}/Monster_Data_v5.33.c5m`, "utf8").split(/\r?\n/);
   const start = lines.findIndex((l) => new RegExp(`^newmonster\\s+"${name}"`).test(l));
   if (start < 0) return null;
   const rec = { name, stats: {}, weapons: [], flags: [], res: [] };
@@ -60,7 +60,7 @@ function expectedDamage(w) {
 const NAMES = process.argv.slice(3);
 const browser = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium" });
 const page = await browser.newPage();
-await page.goto("http://localhost:4321/play");
+await page.goto("http://localhost:4322/play");
 await page.waitForTimeout(400);
 
 let fails = 0;

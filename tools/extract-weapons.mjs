@@ -15,7 +15,7 @@ if (!dir) {
 }
 
 const lines = fs
-  .readFileSync(path.join(dir, "reference_weapon-data-v5_22_c5m.txt"), "utf8")
+  .readFileSync(path.join(dir, "Weapon_Data_v5.33.c5m"), "utf8")
   .split(/\r?\n/);
 
 const byName = {};

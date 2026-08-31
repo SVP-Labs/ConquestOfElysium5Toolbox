@@ -2,6 +2,7 @@
 import Base from "../../layouts/Base.astro";
 import data from "../../../modcheck/data/vanilla.json";
 import schools from "../../data/ritual-schools.json";
+import terrainGroups from "../../data/terrain-groups.json";
 
 export function getStaticPaths() {
   const record = (kind) =>
@@ -32,12 +33,26 @@ export function getStaticPaths() {
         .map(([idx, name]) => [Number(idx), name])
         .sort((a, b) => a[0] - b[0]),
     },
+    {
+      kind: "terrain-groups",
+      title: "Terrain groups",
+      singular: "terrain group",
+      plural: "terrain groups",
+      note:
+        "A negative terrain number stands for a whole set of terrains. " +
+        "The numbers −1 to −999 are reserved for the game's own groups (the ones the base game defines are listed below); " +
+        "mods create their own groups in the range −1000 to −1199 with selectterrgroup, setname and addterr.",
+      // -1 (anywhere) reads first, then down the list.
+      entries: Object.entries(terrainGroups)
+        .map(([idx, name]) => [Number(idx), name])
+        .sort((a, b) => b[0] - a[0]),
+    },
   ];
 
   return kinds.map(({ kind, ...props }) => ({ params: { kind }, props }));
 }
 
-const { title, singular, plural, entries } = Astro.props;
+const { title, singular, plural, entries, note } = Astro.props;
 const total = entries.length;
 ---
 
@@ -47,6 +62,7 @@ const total = entries.length;
 >
   <h1>{title} <span class="dim entry-count">{total} entries</span></h1>
   <p class="back"><a href="/data">&larr; All ID tables</a></p>
+  {note && <p class="dim table-note">{note}</p>}
 
   <div class="controls">
     <input
@@ -125,6 +141,11 @@ const total = entries.length;
   .back {
     margin-top: -0.5rem;
     font-size: 0.9rem;
+  }
+
+  .table-note {
+    font-size: 0.9rem;
+    max-width: 44rem;
   }
 
   .controls {
