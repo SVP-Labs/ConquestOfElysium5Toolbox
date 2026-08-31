@@ -384,6 +384,58 @@ const starter = [
     color: #cfcbb6;
   }
 
+  /* Game-style parchment tooltips for anything on the card with data-tip. */
+  :global(.ucard [data-tip]) {
+    position: relative;
+    cursor: help;
+  }
+
+  :global(.ucard [data-tip]::after) {
+    content: attr(data-tip);
+    position: absolute;
+    bottom: calc(100% + 0.55rem);
+    left: 0;
+    z-index: 30;
+    width: max-content;
+    max-width: 21rem;
+    white-space: normal;
+    background: linear-gradient(#e0d2a9, #c8b385);
+    color: #2a2114;
+    border: 1px solid #4d4028;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    padding: 0.4rem 0.6rem;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 0.82rem;
+    line-height: 1.45;
+    text-align: left;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 120ms ease;
+    pointer-events: none;
+  }
+
+  :global(.ucard [data-tip]::before) {
+    content: "";
+    position: absolute;
+    bottom: calc(100% + 0.2rem);
+    left: 0.9rem;
+    border: 0.35rem solid transparent;
+    border-top-color: #4d4028;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 120ms ease;
+    pointer-events: none;
+  }
+
+  :global(.ucard [data-tip]:hover::after),
+  :global(.ucard [data-tip]:focus-visible::after),
+  :global(.ucard [data-tip]:hover::before),
+  :global(.ucard [data-tip]:focus-visible::before) {
+    opacity: 1;
+    visibility: visible;
+  }
+
   :global(.ucard .flavor) {
     font-family: Georgia, "Times New Roman", serif;
     color: #ded9c6;
@@ -406,6 +458,7 @@ const starter = [
 <script>
   import { lintSource } from "../../modcheck/src/linter.js";
   import baseWeapons from "../data/weapons.json";
+  import flagGlossary from "../data/monster-flags.json";
   import { readStatements } from "../../modcheck/src/statements.js";
   import { tokenizeLine } from "../../modcheck/src/tokenizer.js";
   import { commands, vanilla } from "../../modcheck/src/catalog.js";
@@ -906,7 +959,8 @@ const starter = [
       const derived = statement && deriveStat(label, statValue(statement));
       if (derived) {
         const value = span(derived.text, "stat-value derived");
-        value.title = derived.source;
+        value.dataset.tip = derived.source;
+        value.tabIndex = 0;
         stat.appendChild(value);
       } else {
         stat.appendChild(span(statValue(statement), "stat-value"));
@@ -997,7 +1051,14 @@ const starter = [
     }
     if (abilities.length > 0) {
       const row = div("ucard-abilities");
-      for (const name of abilities) row.appendChild(span(name, "badge"));
+      for (const name of abilities) {
+        const badge = span(name, "badge");
+        if (flagGlossary[name]) {
+          badge.dataset.tip = flagGlossary[name];
+          badge.tabIndex = 0;
+        }
+        row.appendChild(badge);
+      }
       card.appendChild(row);
     }
 
