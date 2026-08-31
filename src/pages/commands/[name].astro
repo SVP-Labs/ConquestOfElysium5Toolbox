@@ -49,31 +49,23 @@ const pagesLabel =
   <p class="badges">
     {cmd.sections.map((s) => <span class="badge">{s}</span>)}
     {pagesLabel && <span class="dim pages">{pagesLabel}</span>}
-    {!cmd.documented && <span class="badge accent">not in the manual</span>}
+    {!cmd.documented && <span class="badge accent">to be documented</span>}
   </p>
 
   <pre class="signature">{signatureLine}</pre>
 
   {
-    cmd.attested > 0 ? (
-      <p class="attested">
-        Used {cmd.attested} time{cmd.attested === 1 ? "" : "s"} in the base game
-        data.
-      </p>
-    ) : (
-      <p class="unattested">
-        Never used by the base game data — behaviour unverified.
-      </p>
-    )
-  }
-
-  {
     notes.length > 0 && (
       <aside class="callout">
-        <strong>Manual vs. game data</strong>
+        <strong>Data note</strong>
         {notes.map((n) => (
           <p>{n}</p>
         ))}
+        <p class="dim caveat">
+          From comparing {data.meta.manual} against a community data
+          extraction of game version 5.22 — an older version, so treat this
+          as a hint rather than a definitive statement of what the game does.
+        </p>
       </aside>
     )
   }
@@ -166,16 +158,6 @@ const pagesLabel =
     font-size: 0.95rem;
   }
 
-  .unattested {
-    color: var(--warning);
-    font-size: 0.92rem;
-  }
-
-  .attested {
-    color: var(--text-dim);
-    font-size: 0.92rem;
-  }
-
   .callout {
     border: 1px solid var(--accent-dim);
     border-left: 3px solid var(--accent);
@@ -195,6 +177,11 @@ const pagesLabel =
 
   .callout p {
     margin: 0.25rem 0;
+  }
+
+  .callout .caveat {
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
   }
 
   .type {

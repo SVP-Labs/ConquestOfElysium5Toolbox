@@ -27,8 +27,8 @@ const sections = [...new Set(Object.values(commands).flatMap((c) => c.sections))
     </div>
     <div class="controls-row filters">
       <label><input type="checkbox" id="f-unused" /> never used by the base game</label>
-      <label><input type="checkbox" id="f-undocumented" /> undocumented in the manual</label>
-      <label><input type="checkbox" id="f-notes" /> manual and data disagree</label>
+      <label><input type="checkbox" id="f-undocumented" /> to be documented</label>
+      <label><input type="checkbox" id="f-notes" /> has data notes</label>
     </div>
     <p class="dim count" id="count">showing {total} of {total}</p>
   </div>
@@ -52,10 +52,9 @@ const sections = [...new Set(Object.values(commands).flatMap((c) => c.sections))
               {c.sections.map((s) => (
                 <span class="badge">{s}</span>
               ))}
-              {!c.documented && <span class="badge accent">undocumented</span>}
-              {c.notes && <span class="badge accent">disagrees</span>}
+              {!c.documented && <span class="badge accent">to be documented</span>}
+              {c.notes && <span class="badge accent">data note</span>}
             </span>
-            <span class="dim attest">{c.attested > 0 ? `×${c.attested}` : "unused"}</span>
           </li>
         );
       })
@@ -189,11 +188,6 @@ const sections = [...new Set(Object.values(commands).flatMap((c) => c.sections))
     flex-wrap: wrap;
   }
 
-  .attest {
-    margin-left: auto;
-    font-size: 0.85rem;
-    white-space: nowrap;
-  }
 
   @media (max-width: 40rem) {
     .cmd-name {

@@ -79,8 +79,9 @@ const ritpows = data.ritpows;
   <p>
     These are the ritual school numbers the base game defines. School names
     aren't part of the extracted data, so only the numbers can be listed —
-    but any <code>school</code> argument outside this set is not a base-game
-    school.
+    a <code>school</code> argument outside this set is most likely not a
+    base-game school (the data comes from an older game version, so newer
+    additions may be missing).
   </p>
   <div class="ritpow-row">
     {ritpows.map((n) => <span class="badge ritpow">{n}</span>)}
