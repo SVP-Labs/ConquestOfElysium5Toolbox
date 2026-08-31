@@ -151,6 +151,28 @@ source attached (see the rules table in play.astro).
   weapons the source itself defines.
 - **Init and Range come from the weapon record** (Bow init 2 / range 5
   match the in-game tab). Needs stats.json.
+- **Weapon-record `aoe` encodings** — decoded by matching each value against
+  the community wiki's "Area of Effect" wording (CC BY-SA) for the spells
+  that carry it: negative N = "N strikes" (Ice Shards −3, Iron Darts −7,
+  Poison Bolts −3, Lashes of Fire −3, Tendrils of Death −7 all match);
+  1–100 = "burst N" (Falling Fires burst 25 also confirmed in-game);
+  997 = circle (Ring of Flames, Aura of Unlife); 998 = all friends (Army of
+  Gold, Legion of Ice/Stone, Strange Dimensions); 999 = all enemies (Arcane
+  Tempest, Iron Storm, Mass Command); 9996/9998/9999 = entire battlefield
+  (Animate Forest/Swamp, Slumbering Army, Hellfire/Blizzard/Gale/Solar
+  Brilliance); 9997 = 15% of battlefield (Meteor Showers); 92NN = NN bounces
+  (Chain Lightning 9208, Lightning Storm 9212); 70NN = crack NN (Maws of the
+  Earth 7005, Chasm 7015); 50NN = line NN (Lightning Bolt 5005). Unmapped
+  values (breath/gaze families 1002–4025) display "special area". The wiki
+  lists Combustion as "burst 4" against the record's aoe −4 — treated as a
+  wiki slip, since five other negative-aoe spells confirm "strikes".
+- **Spell damage dies vs effect strengths** — the wiki's hidden
+  `<!-- weapon: N, dmg: M -->` comments carry a dmg for every spell, but it
+  is only a damage die when the visible entry has a "Damage" line;
+  buff/utility spells reuse the field (Fire Ward's dmg 4 is its resistance
+  amount). extract-spells.mjs keeps `dmg` only for damage-line spells; the
+  card shows "special" otherwise, matching the game (Fire Shield check
+  against the in-game Kobold Sorcerer screenshot).
 - **Unverified:** the `*(+1)` suffix on displayed range (lob/elevation?),
   strength's role in combat resolution.
 - **Sprite mapping is free:** the monster rip carries `# sprite number NNNN`

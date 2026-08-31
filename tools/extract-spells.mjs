@@ -25,7 +25,15 @@ for (const level of [1, 2, 3]) {
   for (let i = 1; i < sections.length; i += 2) {
     const ref = sections[i].trim();
     const m = /<!--\s*weapon:\s*(\d+)(?:,\s*dmg:\s*(\d+))?/.exec(sections[i + 1]);
-    if (m) weaponBySection[`Level ${level} Spells|${ref}`] = { weapon: +m[1], dmg: m[2] !== undefined ? +m[2] : undefined };
+    // The dmg in the comment is only a damage die when the visible entry has
+    // a "Damage" line — buff/utility spells reuse the field for effect
+    // strength (e.g. Fire Ward's dmg 4 is the resistance amount).
+    const dealsDamage = /^\s*\*+\s*Damage\b/m.test(sections[i + 1]);
+    if (m)
+      weaponBySection[`Level ${level} Spells|${ref}`] = {
+        weapon: +m[1],
+        dmg: dealsDamage && m[2] !== undefined ? +m[2] : undefined,
+      };
   }
 }
 
