@@ -395,6 +395,12 @@ const starter = [
     color: #cfcbb6;
   }
 
+  :global(.ucard-abilities .badge.magic) {
+    background: #2b2438;
+    border-color: #5c4d7a;
+    color: #d6c9ef;
+  }
+
   /* Game-style parchment tooltips for anything on the card with data-tip. */
   :global(.ucard [data-tip]) {
     position: relative;
@@ -470,6 +476,7 @@ const starter = [
   import { lintSource } from "../../modcheck/src/linter.js";
   import baseWeapons from "../data/weapons.json";
   import flagGlossary from "../data/monster-flags.json";
+  import ritualSchools from "../data/ritual-schools.json";
   import { readStatements } from "../../modcheck/src/statements.js";
   import { tokenizeLine } from "../../modcheck/src/tokenizer.js";
   import { commands, vanilla } from "../../modcheck/src/catalog.js";
@@ -1101,14 +1108,32 @@ const starter = [
         abilities.push(s.name);
       }
     }
+    // Magic skills: power <school> <level>, decoded via the ritual schools
+    // table ("power 1 2" reads as Necromancy 2, matching the data source's
+    // own annotations).
+    const magic = block.filter(
+      (s) => s.name === "power" && s.args[0]?.type === "number" && s.args[1]?.type === "number",
+    );
     // Valued resistances appear alongside the abilities, like the game's own
     // icon strip. Data source convention: >=100 immunity, positive N = "N X
     // Resistance", negative = vulnerability.
     const resistances = block.filter(
       (s) => /res$/.test(s.name) && commands[s.name] && s.args[0]?.type === "number",
     );
-    if (abilities.length > 0 || resistances.length > 0) {
+    if (abilities.length > 0 || resistances.length > 0 || magic.length > 0) {
       const row = div("ucard-abilities");
+      for (const s of magic) {
+        const school = ritualSchools[s.args[0].value];
+        const badge = span(
+          `${school ?? `school ${s.args[0].value}`} ${s.args[1].value}`,
+          "badge magic",
+        );
+        badge.dataset.tip = school
+          ? `power ${s.args[0].value} ${s.args[1].value} — ${school} rituals at level ${s.args[1].value}`
+          : `power ${s.args[0].value} ${s.args[1].value} — school ${s.args[0].value} is not in the base-game table (older game version, or a mod school)`;
+        badge.tabIndex = 0;
+        row.appendChild(badge);
+      }
       for (const name of abilities) {
         const badge = span(name, "badge");
         if (flagGlossary[name]) {
