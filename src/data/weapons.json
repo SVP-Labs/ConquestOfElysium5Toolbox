@@ -821,7 +821,7 @@
   "range": 8,
   "init": 4,
   "dmg": 0,
-  "aoe": 1
+  "aoe": 0
  },
  "death spell": {
   "name": "Death Spell",
@@ -2654,7 +2654,8 @@
   "init": 4,
   "type": "Magic",
   "dmg": 0,
-  "aoe": 5
+  "aoe": 5,
+  "an": true
  },
  "pillar of fire": {
   "name": "Pillar of Fire",
@@ -6399,6 +6400,71 @@
   "type": "Fear",
   "dmg": 0,
   "aoe": 0,
+  "an": true
+ },
+ "blood sickle": {
+  "name": "Blood Sickle",
+  "range": 1,
+  "init": 3,
+  "type": "Slash",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "main gauche": {
+  "name": "Main Gauche",
+  "range": 1,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "wooden sword": {
+  "name": "Wooden Sword",
+  "range": 1,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 10,
+  "aoe": 0
+ },
+ "spear of the forest": {
+  "name": "Spear of the Forest",
+  "range": 1,
+  "init": 6,
+  "type": "Pierce",
+  "dmg": 6,
+  "aoe": 0
+ },
+ "golden crossbow": {
+  "name": "Golden Crossbow",
+  "range": 10,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 6,
+  "aoe": 0
+ },
+ "liquid flames": {
+  "name": "Liquid Flames",
+  "range": 5,
+  "init": 7,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 2010
+ },
+ "storm spool bolt": {
+  "name": "Storm Spool Bolt",
+  "range": 12,
+  "init": 1,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "chain shock": {
+  "name": "Chain Shock",
+  "range": 1,
+  "init": 4,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": 9204,
   "an": true
  }
 }

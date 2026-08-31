@@ -855,7 +855,7 @@
   "range": 8,
   "init": 4,
   "dmg": 0,
-  "aoe": 1
+  "aoe": 0
  },
  "104": {
   "name": "Luck",
@@ -3006,7 +3006,8 @@
   "init": 4,
   "type": "Magic",
   "dmg": 0,
-  "aoe": 5
+  "aoe": 5,
+  "an": true
  },
  "368": {
   "name": "Pillar of Fire",
@@ -7518,6 +7519,79 @@
   "type": "Fear",
   "dmg": 0,
   "aoe": 0,
+  "an": true
+ },
+ "926": {
+  "name": "Blood Sickle",
+  "range": 1,
+  "init": 3,
+  "type": "Slash",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "927": {
+  "name": "Main Gauche",
+  "range": 1,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 5,
+  "aoe": 0
+ },
+ "928": {
+  "name": "Wooden Sword",
+  "range": 1,
+  "init": 4,
+  "type": "Blunt",
+  "dmg": 10,
+  "aoe": 0
+ },
+ "929": {
+  "name": "Spear of the Forest",
+  "range": 1,
+  "init": 6,
+  "type": "Pierce",
+  "dmg": 6,
+  "aoe": 0
+ },
+ "930": {
+  "name": "Golden Crossbow",
+  "range": 10,
+  "init": 2,
+  "type": "Pierce",
+  "dmg": 6,
+  "aoe": 0
+ },
+ "931": {
+  "name": "Liquid Flames",
+  "range": 5,
+  "init": 7,
+  "type": "Fire",
+  "dmg": 0,
+  "aoe": 2010
+ },
+ "932": {
+  "name": "Storm Spool Bolt",
+  "range": 12,
+  "init": 1,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "933": {
+  "name": "Storm Spool Bolt",
+  "range": 12,
+  "init": 1,
+  "type": "Pierce",
+  "dmg": 0,
+  "aoe": 1
+ },
+ "934": {
+  "name": "Chain Shock",
+  "range": 1,
+  "init": 4,
+  "type": "Shock",
+  "dmg": 0,
+  "aoe": 9204,
   "an": true
  }
 }

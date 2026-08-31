@@ -332,6 +332,13 @@ const starter = [
     cursor: help;
   }
 
+  /* An effect spell's "special" damage cell names the effect on hover. */
+  :global(.ucard td.derived) {
+    text-decoration: underline dotted #6b5d33;
+    text-underline-offset: 0.2em;
+    cursor: help;
+  }
+
   /* Parchment weapons band, full bleed across the panel. */
   :global(.ucard table) {
     font-size: 0.92rem;
@@ -510,7 +517,7 @@ const starter = [
   import ritualSchools from "../data/ritual-schools.json";
   import ritualsBySchool from "../data/rituals.json";
   import spellPaths from "../data/spell-paths.json";
-  import spellsBySchool from "../data/spells.json";
+  import spellsByPath from "../data/spells.json";
   import weaponsByIndex from "../data/weapons-index.json";
   import { readStatements } from "../../modcheck/src/statements.js";
   import { tokenizeLine } from "../../modcheck/src/tokenizer.js";
@@ -1179,9 +1186,9 @@ const starter = [
     let creditSpells = false;
     for (const c of combatMagic) {
       const pathName = spellPaths[c.args[0].value];
-      const list = pathName
-        ? (spellsBySchool[pathName.toLowerCase()] ?? []).filter((sp) => sp.level <= c.args[1].value)
-        : [];
+      const list = (spellsByPath[c.args[0].value] ?? [])
+        .filter((sp) => sp.level <= c.args[1].value)
+        .sort((a, b) => a.level - b.level || a.name.localeCompare(b.name));
       if (list.length === 0) continue;
       creditSpells = true;
       const table = document.createElement("table");
@@ -1208,20 +1215,29 @@ const starter = [
           td.textContent = text;
           tr.appendChild(td);
         }
-        // Damage — same glyph-plus-range cell as the weapons band. Large dmg
-        // values are effect encodings, not dice — the game shows "special".
+        // Damage — same glyph-plus-range cell as the weapons band. An effect
+        // spell has no die; it shows "special" and names the effect on hover
+        // (both straight from the data source's annotations).
         const dmgTd = document.createElement("td");
-        if (rec.type && DMG_GLYPHS[rec.type]) {
-          const icon = document.createElement("span");
-          icon.className = "dmg-glyph";
-          icon.innerHTML = DMG_GLYPHS[rec.type]; // constant trusted SVG strings
-          dmgTd.appendChild(icon);
-        } else if (rec.type) {
-          dmgTd.appendChild(document.createTextNode(rec.type + " "));
+        if (sp.dmg !== undefined) {
+          if (rec.type && DMG_GLYPHS[rec.type]) {
+            const icon = document.createElement("span");
+            icon.className = "dmg-glyph";
+            icon.innerHTML = DMG_GLYPHS[rec.type]; // constant trusted SVG strings
+            dmgTd.appendChild(icon);
+          } else if (rec.type) {
+            dmgTd.appendChild(document.createTextNode(rec.type + " "));
+          }
+          dmgTd.appendChild(document.createTextNode(`1-${sp.dmg}`));
+          if (rec.type) dmgTd.title = rec.type;
+        } else {
+          dmgTd.textContent = "special";
+          if (sp.effect) {
+            dmgTd.title = sp.effect;
+            dmgTd.classList.add("derived");
+            dmgTd.tabIndex = 0;
+          }
         }
-        const plainDie = sp.dmg !== undefined && sp.dmg > 0 && sp.dmg <= 99;
-        dmgTd.appendChild(document.createTextNode(plainDie ? `1-${sp.dmg}` : "special"));
-        if (rec.type) dmgTd.title = rec.type;
         tr.appendChild(dmgTd);
         const specTd = document.createElement("td");
         specTd.textContent = AOE_TEXT(rec.aoe) + (rec.an ? ", AN" : "");
@@ -1238,7 +1254,7 @@ const starter = [
     }
     if (creditSpells) {
       card.appendChild(div("wfootnote",
-        "Spell lists from the CoE5 community wiki (CC BY-SA); range and damage from the game data's weapon records."));
+        "Spell data from the game data's spell records; area-of-effect wording per the CoE5 community wiki (CC BY-SA)."));
     }
 
     // Bare-flag abilities.

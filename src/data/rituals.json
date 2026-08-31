@@ -244,6 +244,16 @@
    ]
   },
   {
+   "name": "Enter Soul Contract",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     20
+    ]
+   ]
+  },
+  {
    "name": "Imp Summoning",
    "level": 1,
    "costs": [
@@ -5679,6 +5689,20 @@
      1
     ]
    ]
+  },
+  {
+   "name": "Liquid Fire Dispenser",
+   "level": 3,
+   "costs": [
+    [
+     "gold",
+     25
+    ],
+    [
+     "iron",
+     25
+    ]
+   ]
   }
  ],
  "57": [
@@ -6143,6 +6167,401 @@
     [
      "gold",
      25
+    ]
+   ]
+  }
+ ],
+ "68": [
+  {
+   "name": "Apothecaries Guild",
+   "level": 1,
+   "costs": [
+    [
+     "gold",
+     15
+    ],
+    [
+     "gems",
+     15
+    ]
+   ]
+  },
+  {
+   "name": "Establish Market Village",
+   "level": 1,
+   "ap": 3,
+   "costs": [
+    [
+     "gold",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "gold",
+     10
+    ],
+    [
+     "gems",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Mercenaries Guild",
+   "level": 1,
+   "costs": [
+    [
+     "gold",
+     15
+    ],
+    [
+     "gems",
+     15
+    ]
+   ]
+  },
+  {
+   "name": "Miners Guild",
+   "level": 1,
+   "costs": [
+    [
+     "gold",
+     15
+    ],
+    [
+     "gems",
+     15
+    ]
+   ]
+  },
+  {
+   "name": "Purge Guilds",
+   "level": 1,
+   "costs": [
+    [
+     "gold",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "gold",
+     40
+    ],
+    [
+     "gems",
+     40
+    ]
+   ]
+  },
+  {
+   "name": "Sages Guild",
+   "level": 1,
+   "costs": [
+    [
+     "gold",
+     15
+    ],
+    [
+     "gems",
+     15
+    ]
+   ]
+  },
+  {
+   "name": "Shipwrights Guild",
+   "level": 1,
+   "costs": [
+    [
+     "gold",
+     15
+    ],
+    [
+     "gems",
+     15
+    ]
+   ]
+  },
+  {
+   "name": "Thieves Guild",
+   "level": 1,
+   "costs": [
+    [
+     "gold",
+     15
+    ],
+    [
+     "gems",
+     15
+    ]
+   ]
+  },
+  {
+   "name": "Traders Guild",
+   "level": 1,
+   "costs": [
+    [
+     "gold",
+     15
+    ],
+    [
+     "gems",
+     15
+    ]
+   ]
+  },
+  {
+   "name": "Adventurers Guild",
+   "level": 2,
+   "costs": [
+    [
+     "gold",
+     30
+    ],
+    [
+     "gems",
+     30
+    ]
+   ]
+  },
+  {
+   "name": "Alchemists Guild",
+   "level": 2,
+   "costs": [
+    [
+     "gold",
+     30
+    ],
+    [
+     "gems",
+     30
+    ]
+   ]
+  },
+  {
+   "name": "Assassination Contract",
+   "level": 2,
+   "costs": [
+    [
+     "gold",
+     20
+    ],
+    [
+     "gems",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Assassins Guild",
+   "level": 2,
+   "costs": [
+    [
+     "gold",
+     30
+    ],
+    [
+     "gems",
+     30
+    ]
+   ]
+  },
+  {
+   "name": "Cartographers Guild",
+   "level": 2,
+   "costs": [
+    [
+     "gold",
+     30
+    ],
+    [
+     "gems",
+     30
+    ]
+   ]
+  },
+  {
+   "name": "Mages Guild",
+   "level": 2,
+   "costs": [
+    [
+     "gold",
+     30
+    ],
+    [
+     "gems",
+     30
+    ]
+   ]
+  },
+  {
+   "name": "Masons Guild",
+   "level": 2,
+   "costs": [
+    [
+     "gold",
+     30
+    ],
+    [
+     "gems",
+     30
+    ]
+   ]
+  },
+  {
+   "name": "Merchants Guild",
+   "level": 2,
+   "costs": [
+    [
+     "gold",
+     30
+    ],
+    [
+     "gems",
+     30
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "gold",
+     80
+    ],
+    [
+     "gems",
+     80
+    ]
+   ]
+  },
+  {
+   "name": "Alchemist Magus Guild",
+   "level": 3,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "gems",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Arcane Guild",
+   "level": 3,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "gems",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Bankers Guild",
+   "level": 3,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "gems",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Beastmasters Guild",
+   "level": 3,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "gems",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Engineers Guild",
+   "level": 3,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "gems",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Shadow Stalkers Guild",
+   "level": 3,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "gems",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Void Pilots Guild",
+   "level": 3,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "gems",
+     50
+    ]
+   ]
+  }
+ ],
+ "69": [
+  {
+   "name": "Guild Portal",
+   "level": 2,
+   "costs": [
+    [
+     "gems",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Storm Spool Ballista",
+   "level": 2,
+   "costs": [
+    [
+     "gems",
+     50
     ]
    ]
   }

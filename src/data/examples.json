@@ -1,4 +1,16 @@
 {
+  "absorbdead": [
+    {
+      "text": "absorbdead                     3 # Can absorb up to 3 corpses per month, gaining 3 HP from each.",
+      "kind": "monster"
+    }
+  ],
+  "acidblood": [
+    {
+      "text": "acidblood                     50 # Anyone damaging this unit in melee will take acid damage of a …",
+      "kind": "monster"
+    }
+  ],
   "acidres": [
     {
       "text": "acidres                      100 # Acid immunity.",
@@ -85,11 +97,11 @@
       "kind": "class"
     },
     {
-      "text": "addstartunits          \"Goblin\"                   10",
+      "text": "addstartunits          \"Swordsman\"                10",
       "kind": "class"
     },
     {
-      "text": "addstartunits          \"Atavi Warrior\"             5",
+      "text": "addstartunits          \"Ship\"                      1",
       "kind": "class"
     }
   ],
@@ -99,7 +111,7 @@
       "kind": "ritual"
     },
     {
-      "text": "addstring     \"2d4*Giant Spider\"",
+      "text": "addstring     \"2d4+1*Salamander\"",
       "kind": "ritual"
     },
     {
@@ -137,6 +149,16 @@
     {
       "text": "affectundead           # Only affects undead units.",
       "kind": "weapon"
+    }
+  ],
+  "affres": [
+    {
+      "text": "affres                        75 # 75% chance to not receive battle afflictions.",
+      "kind": "monster"
+    },
+    {
+      "text": "affres                       100 # 100% chance to not receive battle afflictions.",
+      "kind": "monster"
     }
   ],
   "afterprev": [
@@ -177,10 +199,36 @@
       "kind": "class"
     }
   ],
+  "aigoldrally": [
+    {
+      "text": "aigoldrally                    1 # AI hint to send this unit to a recruitment location when they …",
+      "kind": "monster"
+    }
+  ],
+  "aihold": [
+    {
+      "text": "aihold                         1 # AI will hold these units in siegable locations and only recrui…",
+      "kind": "monster"
+    }
+  ],
   "aimaxcast": [
     {
       "text": "aimaxcast              3 # An AI player will never cast this ritual more than 3 times in a game.",
       "kind": "ritual"
+    }
+  ],
+  "aimaxshop": [
+    {
+      "text": "aimaxshop                      8 # AI won't buy more than 8 of this unit at the same place.",
+      "kind": "monster"
+    },
+    {
+      "text": "aimaxshop                     16 # AI won't buy more than 16 of this unit at the same place.",
+      "kind": "monster"
+    },
+    {
+      "text": "aimaxshop                     20 # AI won't buy more than 20 of this unit at the same place.",
+      "kind": "monster"
     }
   ],
   "ainofollower": [
@@ -237,6 +285,24 @@
       "kind": "ritual"
     }
   ],
+  "aipowcom1": [
+    {
+      "text": "aipowcom1                    526 # AI hint to have this unit be led by a commander with at least …",
+      "kind": "monster"
+    }
+  ],
+  "aipowcom2": [
+    {
+      "text": "aipowcom2                    526 # AI hint to have this unit be led by a commander with at least …",
+      "kind": "monster"
+    }
+  ],
+  "aipowcom3": [
+    {
+      "text": "aipowcom3                    526 # AI hint to have this unit be led by a commander with at least …",
+      "kind": "monster"
+    }
+  ],
   "airare": [
     {
       "text": "airare                -1 # AI will never cast this ritual.",
@@ -249,6 +315,12 @@
     {
       "text": "airare                10 # Only 10% of normal chance that AI will cast this ritual.",
       "kind": "ritual"
+    }
+  ],
+  "airbreather": [
+    {
+      "text": "airbreather                    1 # This water-only unit will not drown on land.",
+      "kind": "monster"
     }
   ],
   "airestrig": [
@@ -295,9 +367,21 @@
       "kind": "ritual"
     }
   ],
+  "aiwhere": [
+    {
+      "text": "aiwhere                2 # AI will only cast this ritual in squares it should defend.",
+      "kind": "ritual"
+    }
+  ],
   "allitemslots": [
     {
       "text": "allitemslots                     # Has the full set of item slots.",
+      "kind": "monster"
+    }
+  ],
+  "allrit": [
+    {
+      "text": "allrit                        -1 # Knows all rituals of all powers this unit can use.",
       "kind": "monster"
     }
   ],
@@ -339,7 +423,7 @@
       "kind": "weapon"
     },
     {
-      "text": "aoe                  0 # Area: single target.",
+      "text": "aoe                999 # Area: all enemy units.",
       "kind": "weapon"
     },
     {
@@ -407,7 +491,7 @@
       "kind": "monster"
     },
     {
-      "text": "assassinweapon             2 377 # Shortsword: d7 Slash damage.",
+      "text": "assassinweapon             2 700 # Bane Blade: d9 Slash damage.",
       "kind": "monster"
     },
     {
@@ -424,6 +508,18 @@
   "autoastrology": [
     {
       "text": "autoastrology                  1 # This monster's owner will have an up to date reading of the st…",
+      "kind": "monster"
+    }
+  ],
+  "awakenfungus": [
+    {
+      "text": "awakenfungus                   4 # Awakens mushrooms within a radius of 4 squares in combat.",
+      "kind": "monster"
+    }
+  ],
+  "awakentrees": [
+    {
+      "text": "awakentrees                    3 # Awakens trees and bushes within a radius of 3 squares in combat.",
       "kind": "monster"
     }
   ],
@@ -461,11 +557,11 @@
   ],
   "batmap": [
     {
-      "text": "batmap           39 # Battle map: city.",
+      "text": "batmap           52 # Battle map: ???.",
       "kind": "terrain"
     },
     {
-      "text": "batmap           30 # Battle map: jerusalem.",
+      "text": "batmap            4 # Battle map: highwalln.",
       "kind": "terrain"
     },
     {
@@ -555,21 +651,21 @@
   ],
   "bonusrelics": [
     {
-      "text": "bonusrelics      -1 # Get -1 extra relics from this location. By default the amount of relics equ…",
+      "text": "bonusrelics      -1 # Get -1 extra relic(s) from this location. By default the amount of relics e…",
       "kind": "terrain"
     },
     {
-      "text": "bonusrelics       1 # Get 1 extra relics from this location. By default the amount of relics equa…",
+      "text": "bonusrelics       1 # Get 1 extra relic(s) from this location. By default the amount of relics eq…",
       "kind": "terrain"
     },
     {
-      "text": "bonusrelics       2 # Get 2 extra relics from this location. By default the amount of relics equa…",
+      "text": "bonusrelics       2 # Get 2 extra relic(s) from this location. By default the amount of relics eq…",
       "kind": "terrain"
     }
   ],
   "burnable": [
     {
-      "text": "burnable            # The terran can be burned like forest.",
+      "text": "burnable            # The terrain can be burned like forest.",
       "kind": "terrain"
     }
   ],
@@ -587,6 +683,12 @@
       "kind": "monster"
     }
   ],
+  "castcount": [
+    {
+      "text": "castcount              5 # When cast, add 5 extra (so, 6 total) to the count of how many times th…",
+      "kind": "ritual"
+    }
+  ],
   "castertarg": [
     {
       "text": "castertarg               # Set target unit to ritual caster.",
@@ -599,6 +701,12 @@
       "kind": "terrain"
     }
   ],
+  "celwander": [
+    {
+      "text": "celwander                     11 # Will try to fulfill this objective if it is owned by Celestial…",
+      "kind": "monster"
+    }
+  ],
   "centercaster": [
     {
       "text": "centercaster             # Center screen on caster.",
@@ -609,6 +717,20 @@
     {
       "text": "centerloc                # Center screen on target location.",
       "kind": "ritual"
+    }
+  ],
+  "centspawn": [
+    {
+      "text": "centspawn                      2 # Centaur Spawn Boost (+2). Allows and boosts Dryad Queen centau…",
+      "kind": "monster"
+    },
+    {
+      "text": "centspawn                      1 # Centaur Spawn Boost (+1). Allows and boosts Dryad Queen centau…",
+      "kind": "monster"
+    },
+    {
+      "text": "centspawn                      4 # Centaur Spawn Boost (+4). Allows and boosts Dryad Queen centau…",
+      "kind": "monster"
     }
   ],
   "changetemp": [
@@ -723,7 +845,7 @@
       "kind": "class"
     },
     {
-      "text": "classdescr \"In the jungles of southern Elysium lives strange breeds of monkey-men gifted with cun…",
+      "text": "classdescr \"When men came to Elysium there were individuals who realized that there was profit to…",
       "kind": "class"
     }
   ],
@@ -789,6 +911,12 @@
       "kind": "monster"
     }
   ],
+  "coldheal": [
+    {
+      "text": "coldheal                       4 # Cold Heal: heals 4 HP per month when in a cold place.",
+      "kind": "monster"
+    }
+  ],
   "coldres": [
     {
       "text": "coldres                      100 # Cold immunity.",
@@ -801,6 +929,22 @@
     {
       "text": "coldres                                    100 # +100 Cold Resistance.",
       "kind": "item"
+    }
+  ],
+  "colonymsg": [
+    {
+      "text": "colonymsg                      1 # All players will get a message when this unit's terraforming o…",
+      "kind": "monster"
+    }
+  ],
+  "colonyterr": [
+    {
+      "text": "colonyterr                    18 # Village: Changes this terrain into the one specified by makeco…",
+      "kind": "monster"
+    },
+    {
+      "text": "colonyterr                   -38 # forest/jungle (not ancient forest): Changes this terrain into …",
+      "kind": "monster"
     }
   ],
   "combatspell": [
@@ -823,7 +967,7 @@
       "kind": "item"
     },
     {
-      "text": "combatsum -1 \"1d2*Moose & 2d4*Deer & 1d6*Boar\" # Summon on Battle Round 0.",
+      "text": "combatsum              -1 \"2d4*Giant Scorpion\" # Summon on Battle Round 0.",
       "kind": "item"
     },
     {
@@ -841,13 +985,23 @@
       "kind": "monster"
     }
   ],
+  "confusionaura": [
+    {
+      "text": "confusionaura                  3 # Confuses units within 3 squares (easy MR negates).",
+      "kind": "monster"
+    },
+    {
+      "text": "confusionaura                  2 # Confuses units within 2 squares (easy MR negates).",
+      "kind": "monster"
+    }
+  ],
   "cost": [
     {
       "text": "cost              1    1 # 1 Iron",
       "kind": "ritual"
     },
     {
-      "text": "cost              3  600 # 600 Fungus",
+      "text": "cost              3  150 # 150 Fungus",
       "kind": "ritual"
     },
     {
@@ -897,12 +1051,22 @@
       "kind": "terrain"
     },
     {
-      "text": "dead              7 # The location starts with 7 * d6 corpses in it.",
+      "text": "dead              8 # The location starts with 8 * d6 corpses in it.",
       "kind": "terrain"
     },
     {
-      "text": "dead             21 # The location starts with 21 * d6 corpses in it.",
+      "text": "dead             14 # The location starts with 14 * d6 corpses in it.",
       "kind": "terrain"
+    }
+  ],
+  "deepsleeper": [
+    {
+      "text": "deepsleeper                    5 # To wake when hit, a d5 must roll less than the damage taken fr…",
+      "kind": "monster"
+    },
+    {
+      "text": "deepsleeper                   10 # To wake when hit, a d10 must roll less than the damage taken f…",
+      "kind": "monster"
     }
   ],
   "deepspawn": [
@@ -945,13 +1109,19 @@
       "kind": "monster"
     }
   ],
+  "deployoutside": [
+    {
+      "text": "deployoutside                  1 # When defending a fortified location, this unit will start the …",
+      "kind": "monster"
+    }
+  ],
   "descr": [
     {
       "text": "descr \"Not Used\"",
       "kind": "monster"
     },
     {
-      "text": "descr \"King of all the Goblins, that is a title of dubious value.  Maybe it will add up to someth…",
+      "text": "descr \"According to Dwarven lore, there is a sealed chamber somewhere in the deeper reaches of th…",
       "kind": "monster"
     },
     {
@@ -1035,6 +1205,30 @@
     {
       "text": "destroyterr           20 # % chance of destroying the terrain.",
       "kind": "ritual"
+    }
+  ],
+  "digest": [
+    {
+      "text": "digest                         3 # Does 3 damage per round to swallowed units.",
+      "kind": "monster"
+    },
+    {
+      "text": "digest                         2 # Does 2 damage per round to swallowed units.",
+      "kind": "monster"
+    },
+    {
+      "text": "digest                         1 # Does 1 damage per round to swallowed units.",
+      "kind": "monster"
+    }
+  ],
+  "diseasecloud": [
+    {
+      "text": "diseasecloud                   5 # Disease Aura, radius 4. Everyone in the aura must succeed on a…",
+      "kind": "monster"
+    },
+    {
+      "text": "diseasecloud                   2 # Disease Aura, radius 1. Everyone in the aura must succeed on a…",
+      "kind": "monster"
     }
   ],
   "diseaseres": [
@@ -1145,7 +1339,7 @@
   ],
   "eastcoast": [
     {
-      "text": "eastcoast  # terrain can only be located on a coast — any coast, despite the name",
+      "text": "eastcoast           # The terrain can only be located on a coast. Despite the name of the command…",
       "kind": "terrain"
     }
   ],
@@ -1153,6 +1347,18 @@
     {
       "text": "easymr                 # Resisted by rolling 1d5 < Magic Resistance.",
       "kind": "weapon"
+    }
+  ],
+  "eatdeadcap": [
+    {
+      "text": "eatdeadcap                    10 # 10% chance to eat a corpse and reproduce. Capped at once per s…",
+      "kind": "monster"
+    }
+  ],
+  "eatvillage": [
+    {
+      "text": "eatvillage                     1 # Can eat a village to restore sanity.",
+      "kind": "monster"
     }
   ],
   "el": [
@@ -1171,6 +1377,14 @@
     {
       "text": "enchherereq           19 # Ritual can only be cast if this type of enchantment is already active …",
       "kind": "ritual"
+    },
+    {
+      "text": "enchherereq           37 # Ritual can only be cast if this type of enchantment is already active …",
+      "kind": "ritual"
+    },
+    {
+      "text": "enchherereq           49 # Ritual can only be cast if this type of enchantment is already active …",
+      "kind": "ritual"
     }
   ],
   "enchreqterr": [
@@ -1180,6 +1394,10 @@
     },
     {
       "text": "enchreqterr          -62 # Enchantment will be auto dispelled if and when location ceases to be t…",
+      "kind": "ritual"
+    },
+    {
+      "text": "enchreqterr          -92 # Enchantment will be auto dispelled if and when location ceases to be t…",
       "kind": "ritual"
     }
   ],
@@ -1209,16 +1427,30 @@
   ],
   "extracost": [
     {
-      "text": "extracost                                   25 # Changes the price merchants ask for this item, v…",
+      "text": "extracost                                   25 # Increases the base price of this item by 25 Gold.",
       "kind": "item"
     },
     {
-      "text": "extracost                                  100 # Changes the price merchants ask for this item, v…",
+      "text": "extracost                                  -25 # Decreases the base price of this item by 25 Gold.",
       "kind": "item"
     },
     {
-      "text": "extracost                                  -25 # Changes the price merchants ask for this item, v…",
+      "text": "extracost                                  150 # Increases the base price of this item by 150 Gold.",
       "kind": "item"
+    }
+  ],
+  "extraeyes": [
+    {
+      "text": "extraeyes                     -1 # Has 1 eye.",
+      "kind": "monster"
+    },
+    {
+      "text": "extraeyes                      7 # Has 9 eyes.",
+      "kind": "monster"
+    },
+    {
+      "text": "extraeyes                    100 # Has 102 eyes.",
+      "kind": "monster"
     }
   ],
   "failplayer": [
@@ -1245,6 +1477,12 @@
     {
       "text": "farsight            # The terrain gives increased vision range when there are units present there.",
       "kind": "terrain"
+    }
+  ],
+  "farsightsea": [
+    {
+      "text": "farsightsea                    3 # Can see up to 3 squares away over sea tiles.",
+      "kind": "monster"
     }
   ],
   "farsummon": [
@@ -1289,13 +1527,13 @@
       "kind": "monster"
     },
     {
-      "text": "fear                                           # Causes Fear (1d7 vs morale) in adjacent squares.",
+      "text": "fear                                         1 # Causes Fear (1d7 vs morale) in adjacent squares.",
       "kind": "item"
     }
   ],
   "female": [
     {
-      "text": "female                           # Female.",
+      "text": "female                           # Female; immune to weapons with affectmale (of which there are …",
       "kind": "monster"
     }
   ],
@@ -1327,6 +1565,12 @@
       "kind": "monster"
     }
   ],
+  "fireexpl": [
+    {
+      "text": "fireexpl                      12 # Fire Explosion on Death: d12 fire damage to everyone nearby, b…",
+      "kind": "monster"
+    }
+  ],
   "fireres": [
     {
       "text": "fireres                      100 # Fire immunity.",
@@ -1353,12 +1597,16 @@
   ],
   "flying": [
     {
-      "text": "flying",
+      "text": "flying                 # Doesn't affect flying or floating units.",
+      "kind": "weapon"
+    },
+    {
+      "text": "flying                                         # Can enter almost any terrain for 1 AP. In battle…",
       "kind": "item"
     },
     {
-      "text": "flying                 # Doesn't affect flying or floating units.",
-      "kind": "weapon"
+      "text": "flying                           # Can enter almost any terrain for 1 AP. In battle, can move up …",
+      "kind": "monster"
     }
   ],
   "flying2": [
@@ -1439,6 +1687,12 @@
       "kind": "terrain"
     }
   ],
+  "forestheart": [
+    {
+      "text": "forestheart                    1 # Takes control of nearby forests.",
+      "kind": "monster"
+    }
+  ],
   "foreststealth": [
     {
       "text": "foreststealth                                  # When in a forest or jungle, can only be seen by …",
@@ -1473,6 +1727,12 @@
       "kind": "ritual"
     }
   ],
+  "frontpos": [
+    {
+      "text": "frontpos                         # Rank+; deploys further towards the front.",
+      "kind": "monster"
+    }
+  ],
   "fullsweep": [
     {
       "text": "fullsweep              # Hits all adjacent units.  Cumulative -1 to damage to each consecutive ta…",
@@ -1485,12 +1745,12 @@
       "kind": "terrain"
     },
     {
-      "text": "fungus            7 # Fungus:  7",
+      "text": "fungus            6 # Fungus:  6",
       "kind": "terrain"
     },
     {
-      "text": "fungus            5 # Fungus:  5",
-      "kind": "terrain"
+      "text": "fungus                         2 # Is one of the monster types that can result when a fungus is a…",
+      "kind": "monster"
     }
   ],
   "fxreq": [
@@ -1573,6 +1833,12 @@
       "kind": "weapon"
     }
   ],
+  "goblin": [
+    {
+      "text": "goblin                         1 # This unit is an expendable goblin (it can be used as payment f…",
+      "kind": "monster"
+    }
+  ],
   "gold": [
     {
       "text": "gold              2 # Gold:  2",
@@ -1641,6 +1907,16 @@
       "kind": "item"
     }
   ],
+  "growtime": [
+    {
+      "text": "growtime                      18 # After about 18 turns, will become the monster type defined aft…",
+      "kind": "monster"
+    },
+    {
+      "text": "growtime                      20 # After about 20 turns, will become the monster type defined aft…",
+      "kind": "monster"
+    }
+  ],
   "hadesres": [
     {
       "text": "hadesres                                     1 # Hades Immunity: Immunity to the damaging effect …",
@@ -1652,6 +1928,12 @@
     },
     {
       "text": "hadesres                       1 # Hades Immunity: Immunity to the damaging effect of being on th…",
+      "kind": "monster"
+    }
+  ],
+  "hadeswander": [
+    {
+      "text": "hadeswander                    7 # Will try to fulfill this objective if it is owned by Hades: Gh…",
       "kind": "monster"
     }
   ],
@@ -1687,6 +1969,20 @@
       "kind": "weapon"
     }
   ],
+  "harpyspawn": [
+    {
+      "text": "harpyspawn                     3 # Harpy Spawn Boost (+3). Boosts Dryad Queen harpy spawn. Only t…",
+      "kind": "monster"
+    },
+    {
+      "text": "harpyspawn                     1 # Harpy Spawn Boost (+1). Boosts Dryad Queen harpy spawn. Only t…",
+      "kind": "monster"
+    },
+    {
+      "text": "harpyspawn                     4 # Harpy Spawn Boost (+4). Boosts Dryad Queen harpy spawn. Only t…",
+      "kind": "monster"
+    }
+  ],
   "harvest": [
     {
       "text": "harvest             # Double gold income during bumper harvest events.",
@@ -1697,6 +1993,20 @@
     {
       "text": "hasportalreq           2 # Must own a portal with this number: 2.",
       "kind": "ritual"
+    }
+  ],
+  "healonterr": [
+    {
+      "text": "healonterr                   -44 # fire plane. Will heal faster when located on this terrain; wil…",
+      "kind": "monster"
+    },
+    {
+      "text": "healonterr                   -46 # air plane. Will heal faster when located on this terrain; will…",
+      "kind": "monster"
+    },
+    {
+      "text": "healonterr                   -47 # earth plane. Will heal faster when located on this terrain; wi…",
+      "kind": "monster"
     }
   ],
   "herbs": [
@@ -1711,6 +2021,12 @@
     {
       "text": "herbs             4 # Herbs:  4",
       "kind": "terrain"
+    }
+  ],
+  "hideanimals": [
+    {
+      "text": "hideanimals                    1 # Animal Forest Stealth: animals following this commander gain F…",
+      "kind": "monster"
     }
   ],
   "hoburg": [
@@ -1757,7 +2073,7 @@
       "kind": "class"
     },
     {
-      "text": "hometerr          106 # Beholder Cave",
+      "text": "hometerr          110 # Crystal Tower",
       "kind": "class"
     },
     {
@@ -1777,12 +2093,18 @@
       "kind": "monster"
     },
     {
-      "text": "hp                           101 # Hit Points.",
+      "text": "hp                           132 # Hit Points.",
       "kind": "monster"
     },
     {
       "text": "hp                                          20 # +20 Hit Points.",
       "kind": "item"
+    }
+  ],
+  "hpoverflow": [
+    {
+      "text": "hpoverflow                     1 # This unit's current HP is allowed to exceed their max HP even …",
+      "kind": "monster"
     }
   ],
   "huge": [
@@ -1837,7 +2159,7 @@
   ],
   "immortal": [
     {
-      "text": "immortal",
+      "text": "immortal                         # When killed on or near its home plane, reforms in its home squ…",
       "kind": "monster"
     }
   ],
@@ -1861,7 +2183,21 @@
       "kind": "weapon"
     },
     {
-      "text": "inanimate                        # Unaffected by life drain, pain, death, bleeding, healing, rege…",
+      "text": "inanimate                        # Unaffected by life drain, pain, death, bleeding, healing magic…",
+      "kind": "monster"
+    }
+  ],
+  "incorporate": [
+    {
+      "text": "incorporate                    1 # Steals 1 HP per round from swallowed units.",
+      "kind": "monster"
+    },
+    {
+      "text": "incorporate                    2 # Steals 2 HP per round from swallowed units.",
+      "kind": "monster"
+    },
+    {
+      "text": "incorporate                    5 # Steals 5 HP per round from swallowed units.",
       "kind": "monster"
     }
   ],
@@ -1881,10 +2217,6 @@
   ],
   "indwander": [
     {
-      "text": "indwander                     16 # Will try to fulfill this objective if it is owned by Independe…",
-      "kind": "monster"
-    },
-    {
       "text": "indwander                     12 # Will try to fulfill this objective if it is owned by Independe…",
       "kind": "monster"
     }
@@ -1896,6 +2228,12 @@
     },
     {
       "text": "infwander                     18 # Will try to fulfill this objective if it is owned by Inferno: …",
+      "kind": "monster"
+    }
+  ],
+  "infwander2": [
+    {
+      "text": "infwander2                    18 # If owned by Inferno and the infwander objective isn't possible…",
       "kind": "monster"
     }
   ],
@@ -1999,11 +2337,11 @@
       "kind": "item"
     },
     {
-      "text": "itemwep                        \"Burning Sword\" # nbr 884.",
+      "text": "itemwep              \"Morningstar of Strength\" # nbr 888.",
       "kind": "item"
     },
     {
-      "text": "itemwep                          \"Flame Spear\" # nbr 903.",
+      "text": "itemwep                  \"Spear of the Forest\" # nbr 929.",
       "kind": "item"
     }
   ],
@@ -2027,7 +2365,7 @@
   ],
   "kobold": [
     {
-      "text": "kobold                         1 # This unit is an expendable kobold.",
+      "text": "kobold                         1 # This unit is an expendable kobold (it can be used as payment f…",
       "kind": "monster"
     }
   ],
@@ -2038,6 +2376,12 @@
     },
     {
       "text": "lairgoldpen                   25 # 25% Gold income penalty for this monster's home square.",
+      "kind": "monster"
+    }
+  ],
+  "landshape": [
+    {
+      "text": "landshape                      1 # When on land, this monster will become the type defined 1 afte…",
       "kind": "monster"
     }
   ],
@@ -2117,7 +2461,7 @@
       "kind": "class"
     },
     {
-      "text": "libbonusdescr          \"centaur sages and human wizards\"",
+      "text": "libbonusdescr          \"wizards as well as cartographers/navigators/mage pilots if the proper gui…",
       "kind": "class"
     }
   ],
@@ -2163,7 +2507,7 @@
       "kind": "terrain"
     },
     {
-      "text": "lifeforce        40 # 4 Lifeforce can be drained from this square per turn.",
+      "text": "lifeforce        80 # 8 Lifeforce can be drained from this square per turn.",
       "kind": "terrain"
     },
     {
@@ -2205,6 +2549,16 @@
       "kind": "class"
     }
   ],
+  "likestoburn": [
+    {
+      "text": "likestoburn                  100 # 100% chance of wanting to burn a forest (wandering indep comma…",
+      "kind": "monster"
+    },
+    {
+      "text": "likestoburn                   50 # 50% chance of wanting to burn a forest (wandering indep comman…",
+      "kind": "monster"
+    }
+  ],
   "limitgold": [
     {
       "text": "limitgold                      1 # +1 gold income, limited to an amount equal to the normal gold …",
@@ -2225,10 +2579,44 @@
       "kind": "monster"
     }
   ],
+  "limittrade": [
+    {
+      "text": "limittrade                     1 # +1 Trade. A square's total limittrade benefit cannot exceed it…",
+      "kind": "monster"
+    }
+  ],
   "lob": [
     {
       "text": "lob                    # Arcing trajectory.",
       "kind": "weapon"
+    }
+  ],
+  "localgoldbonus": [
+    {
+      "text": "localgoldbonus               100 # This unit increases the Gold income of their square by 100% (t…",
+      "kind": "monster"
+    },
+    {
+      "text": "localgoldbonus               150 # This unit increases the Gold income of their square by 150% (t…",
+      "kind": "monster"
+    },
+    {
+      "text": "localgoldbonus               200 # This unit increases the Gold income of their square by 200% (t…",
+      "kind": "monster"
+    }
+  ],
+  "localironbonus": [
+    {
+      "text": "localironbonus               100 # This unit increases the Iron income of their square by 100% (t…",
+      "kind": "monster"
+    },
+    {
+      "text": "localironbonus               250 # This unit increases the Iron income of their square by 250% (t…",
+      "kind": "monster"
+    },
+    {
+      "text": "localironbonus               400 # This unit increases the Iron income of their square by 400% (t…",
+      "kind": "monster"
     }
   ],
   "localleadership": [
@@ -2251,12 +2639,12 @@
       "kind": "weapon"
     },
     {
-      "text": "look               171",
+      "text": "look               133",
       "kind": "weapon"
     },
     {
-      "text": "look               236",
-      "kind": "weapon"
+      "text": "look                           9 # This unit's battle token looks like it's part of a larger icy …",
+      "kind": "monster"
     }
   ],
   "lookslike": [
@@ -2279,7 +2667,7 @@
       "kind": "item"
     },
     {
-      "text": "lucky                                          # Luck: 50% chance to evade each attack. # From ben7.",
+      "text": "lucky                                          # Luck: 50% chance to evade each attack..",
       "kind": "item"
     }
   ],
@@ -2311,6 +2699,20 @@
       "kind": "terrain"
     }
   ],
+  "makecolony": [
+    {
+      "text": "makecolony                   206 # Has a chance to turn the terrain specified in colonyterr (defa…",
+      "kind": "monster"
+    },
+    {
+      "text": "makecolony                   234 # Has a chance to turn the terrain specified in colonyterr (defa…",
+      "kind": "monster"
+    },
+    {
+      "text": "makecolony                   283 # Has a chance to turn the terrain specified in colonyterr (defa…",
+      "kind": "monster"
+    }
+  ],
   "makeportal": [
     {
       "text": "makeportal             2 # Makes a portal at target location with the portal number 2. Portals wi…",
@@ -2318,6 +2720,10 @@
     },
     {
       "text": "makeportal          1000 # Makes a portal at target location with a unique portal number each tim…",
+      "kind": "ritual"
+    },
+    {
+      "text": "makeportal            37 # Makes a portal at target location with the portal number 37. Portals w…",
       "kind": "ritual"
     }
   ],
@@ -2328,6 +2734,12 @@
     },
     {
       "text": "makeruin                     100 # 100% chance of turning current square into a ruin if possible.",
+      "kind": "monster"
+    }
+  ],
+  "maptele": [
+    {
+      "text": "maptele                        1 # Can teleport on world map when it is a wandering monster.",
       "kind": "monster"
     }
   ],
@@ -2383,6 +2795,16 @@
       "kind": "monster"
     }
   ],
+  "meleeambush": [
+    {
+      "text": "meleeambush                    2 # Will start in melee combat when ambushing. The difference betw…",
+      "kind": "monster"
+    },
+    {
+      "text": "meleeambush                    1 # Will start in melee combat when ambushing. The difference betw…",
+      "kind": "monster"
+    }
+  ],
   "meleeweapon": [
     {
       "text": "meleeweapon               10 447 # Engulf: Swallow.",
@@ -2409,7 +2831,7 @@
       "kind": "monster"
     },
     {
-      "text": "meleeweaponbonus          12  11 # Bite: d12 Slash damage.",
+      "text": "meleeweaponbonus           7  94 # Talon: d7 Slash damage.",
       "kind": "monster"
     },
     {
@@ -2428,6 +2850,12 @@
     },
     {
       "text": "meleeweaponspec           15 834 # Golden Lance Charge: d15 Pierce damage.",
+      "kind": "monster"
+    }
+  ],
+  "melt": [
+    {
+      "text": "melt                           2 # Melts: takes 2 damage per month when not in a cold place.",
       "kind": "monster"
     }
   ],
@@ -2459,6 +2887,12 @@
       "kind": "weapon"
     }
   ],
+  "mindexpl": [
+    {
+      "text": "mindexpl                       1 # Mental Agony on Death: attempts to paralyze everyone nearby, b…",
+      "kind": "monster"
+    }
+  ],
   "mine": [
     {
       "text": "mine                # The terrain counts as a mine.",
@@ -2474,6 +2908,48 @@
   "minorstartaff": [
     {
       "text": "minorstartaff                 75 # 75% chance to start with a minor affliction. Chances > 100 can…",
+      "kind": "monster"
+    }
+  ],
+  "minospawn": [
+    {
+      "text": "minospawn                      2 # Minotaur Spawn Boost (+2). Allows and boosts Dryad Queen minot…",
+      "kind": "monster"
+    },
+    {
+      "text": "minospawn                      1 # Minotaur Spawn Boost (+1). Allows and boosts Dryad Queen minot…",
+      "kind": "monster"
+    },
+    {
+      "text": "minospawn                      3 # Minotaur Spawn Boost (+3). Allows and boosts Dryad Queen minot…",
+      "kind": "monster"
+    }
+  ],
+  "mirror": [
+    {
+      "text": "mirror                         1 # Is a small Mirror.",
+      "kind": "monster"
+    },
+    {
+      "text": "mirror                         2 # Is a Large Mirror.",
+      "kind": "monster"
+    },
+    {
+      "text": "mirror                         4 # Is a Golden Mirror.",
+      "kind": "monster"
+    }
+  ],
+  "mirrorammo": [
+    {
+      "text": "mirrorammo                    10 # When full, this mirror contains 10 illusions or phantasms. Ign…",
+      "kind": "monster"
+    },
+    {
+      "text": "mirrorammo                    50 # When full, this mirror contains 50 illusions or phantasms. Ign…",
+      "kind": "monster"
+    },
+    {
+      "text": "mirrorammo                   200 # When full, this mirror contains 200 illusions or phantasms. Ig…",
       "kind": "monster"
     }
   ],
@@ -2521,6 +2997,20 @@
     {
       "text": "monplayerreq           1 # At least 1 monster from strings beginning with \"(&)\" must be in the wo…",
       "kind": "ritual"
+    }
+  ],
+  "montag": [
+    {
+      "text": "montag                        10 # Gives montag 10 to this monster type. Other traits can referen…",
+      "kind": "monster"
+    },
+    {
+      "text": "montag                        11 # Gives montag 11 to this monster type. Other traits can referen…",
+      "kind": "monster"
+    },
+    {
+      "text": "montag                        12 # Gives montag 12 to this monster type. Other traits can referen…",
+      "kind": "monster"
     }
   ],
   "montarg": [
@@ -2576,6 +3066,20 @@
   "more3spells": [
     {
       "text": "more3spells                   -1 # Starts with 1 less level 3 spell of each known school.",
+      "kind": "monster"
+    }
+  ],
+  "motherspawn": [
+    {
+      "text": "motherspawn                    1 # Each month, spawns 1 Hydra Hatchling, 1 Marsh Worm, 1 Doppel S…",
+      "kind": "monster"
+    },
+    {
+      "text": "motherspawn                    7 # Each month, spawns d3 Beast Bats or d3 Eagle Warriors (equal c…",
+      "kind": "monster"
+    },
+    {
+      "text": "motherspawn                    6 # Each month, spawns d3 Longdead (not 2d3, as the v5.33 modding …",
       "kind": "monster"
     }
   ],
@@ -2643,7 +3147,7 @@
       "kind": "terrain"
     },
     {
-      "text": "name                 \"Crystal Tower\"",
+      "text": "name                 \"Mountain Lair\"",
       "kind": "terrain"
     },
     {
@@ -2671,6 +3175,12 @@
       "kind": "terrain"
     }
   ],
+  "neverturn": [
+    {
+      "text": "neverturn                      1 # Never draw this unit facing the other way.",
+      "kind": "monster"
+    }
+  ],
   "newclass": [
     {
       "text": "newclass  #  1",
@@ -2681,7 +3191,7 @@
       "kind": "class"
     },
     {
-      "text": "newclass  # 29",
+      "text": "newclass  # 30",
       "kind": "class"
     }
   ],
@@ -2691,11 +3201,11 @@
       "kind": "item"
     },
     {
-      "text": "newitem    \"Divine Mantle\"                                                # 136",
+      "text": "newitem    \"Necklace of the Winter Queen\"                                 # 143",
       "kind": "item"
     },
     {
-      "text": "newitem    \"Pythian Headdress\"                                            # 273",
+      "text": "newitem    \"Thousand Medicine Bowl\"                                       # 286",
       "kind": "item"
     }
   ],
@@ -2715,11 +3225,11 @@
       "kind": "monster"
     },
     {
-      "text": "newmonster    \"Tree of Tainted Fruits\"                                   #  889",
+      "text": "newmonster    \"Council Guard\"                                            #  925",
       "kind": "monster"
     },
     {
-      "text": "newmonster    \"Debug Sensei III\"                                         # 1778",
+      "text": "newmonster    \"Debug Sensei III\"                                         # 1850",
       "kind": "monster"
     }
   ],
@@ -2743,11 +3253,11 @@
       "kind": "ritual"
     },
     {
-      "text": "newritual     \"Great Animal Summoning\"                                    # 276",
+      "text": "newritual     \"Reanimate Animals\"                                         # 292",
       "kind": "ritual"
     },
     {
-      "text": "newritual     \"Mirror Blink\"                                              # 552",
+      "text": "newritual     \"Enter Soul Contract\"                                       # 583",
       "kind": "ritual"
     }
   ],
@@ -2775,11 +3285,11 @@
       "kind": "weapon"
     },
     {
-      "text": "newweapon     \"Acid Breath\"                                               # 462",
+      "text": "newweapon     \"Gift of Death\"                                             # 467",
       "kind": "weapon"
     },
     {
-      "text": "newweapon     \"Wall of Darkness (fear)\"                                   # 925",
+      "text": "newweapon     \"Chain Shock\"                                               # 934",
       "kind": "weapon"
     }
   ],
@@ -2803,7 +3313,7 @@
       "kind": "weapon"
     },
     {
-      "text": "nextdmg              2 # d2 Cold damage.",
+      "text": "nextdmg              2 # d2 Fire damage.",
       "kind": "weapon"
     },
     {
@@ -2849,10 +3359,22 @@
       "kind": "ritual"
     }
   ],
+  "nodrop": [
+    {
+      "text": "nodrop                                       1 # The item is destroyed when its bearer is killed,…",
+      "kind": "item"
+    }
+  ],
   "nodrown": [
     {
       "text": "nodrown             # No one will drown in this terrain. Fish can be on land and vice versa here.",
       "kind": "terrain"
+    }
+  ],
+  "noeyes": [
+    {
+      "text": "noeyes                         1 # This unit has no eyes and doesn't need eyes to be effective.",
+      "kind": "monster"
     }
   ],
   "nofemale": [
@@ -2929,6 +3451,12 @@
     {
       "text": "nonmaginvul                                    # Invulnerable to non-magical weapons.",
       "kind": "item"
+    }
+  ],
+  "noplanecamo": [
+    {
+      "text": "noplanecamo                    4 # Disables lookslike when on this plane: Inferno.",
+      "kind": "monster"
     }
   ],
   "noportalreq": [
@@ -3043,6 +3571,26 @@
       "kind": "monster"
     }
   ],
+  "phantasm": [
+    {
+      "text": "phantasm                      11 # Is one of the monster types that can be released from a Soldie…",
+      "kind": "monster"
+    },
+    {
+      "text": "phantasm                      15 # Is one of the monster types that can be released from a Large …",
+      "kind": "monster"
+    },
+    {
+      "text": "phantasm                       5 # Is one of the monster types that can be released from a Golden…",
+      "kind": "monster"
+    }
+  ],
+  "pickupanimals": [
+    {
+      "text": "pickupanimals                  1 # This unit will take command of any unassigned units with the a…",
+      "kind": "monster"
+    }
+  ],
   "pierceres": [
     {
       "text": "pierceres                        # Pierce resistance (half damage).",
@@ -3113,6 +3661,12 @@
       "kind": "monster"
     }
   ],
+  "poisonexpl": [
+    {
+      "text": "poisonexpl                    10 # Poison Explosion on Death: d10 poison damage to everyone nearb…",
+      "kind": "monster"
+    }
+  ],
   "poisonres": [
     {
       "text": "poisonres                    100 # Poison immunity.",
@@ -3173,7 +3727,7 @@
       "kind": "monster"
     },
     {
-      "text": "power                      36  3 # Rain Priest, level 3.",
+      "text": "power                      47  2 # Dryad Queen, level 2.",
       "kind": "monster"
     },
     {
@@ -3255,6 +3809,16 @@
       "kind": "weapon"
     }
   ],
+  "putridexpl": [
+    {
+      "text": "putridexpl                     3 # Putrid Explosion on Death: d3 magic damage + disease(MR).",
+      "kind": "monster"
+    },
+    {
+      "text": "putridexpl                     5 # Putrid Explosion on Death: d5 magic damage + disease(MR).",
+      "kind": "monster"
+    }
+  ],
   "raiseanimals": [
     {
       "text": "raiseanimals             # Raises animal corpses from the dead.",
@@ -3321,7 +3885,7 @@
   ],
   "randomrare": [
     {
-      "text": "randomrare                    10 # 10% chance to spawn with a random rare magic item.",
+      "text": "randomrare                     5 # 5% chance to spawn with a random rare magic item.",
       "kind": "monster"
     },
     {
@@ -3373,7 +3937,7 @@
       "kind": "monster"
     },
     {
-      "text": "rangedweapon              10 923 # Golden Bow: d16 Pierce damage.",
+      "text": "rangedweapon              15 923 # Golden Bow: d21 Pierce damage.",
       "kind": "monster"
     },
     {
@@ -3507,7 +4071,21 @@
   ],
   "rearpos": [
     {
-      "text": "rearpos                          # Rank-, deploys further back.",
+      "text": "rearpos                          # Rank-; deploys further back.",
+      "kind": "monster"
+    }
+  ],
+  "rebate": [
+    {
+      "text": "rebate                         1 # Reduced cost for this unit to cast rituals with rebatefx25 or …",
+      "kind": "monster"
+    },
+    {
+      "text": "rebate                         2 # Reduced cost for this unit to cast rituals with rebatefx25 or …",
+      "kind": "monster"
+    },
+    {
+      "text": "rebate                         3 # Reduced cost for this unit to cast rituals with rebatefx25 or …",
       "kind": "monster"
     }
   ],
@@ -3597,7 +4175,7 @@
       "kind": "recruitment"
     },
     {
-      "text": "reclimiter  \"+High Priest of the Sun\"         # Owning a High Priest of the Sun enables the prece…",
+      "text": "reclimiter  \"+God Emperor of the Underworld\"  # Owning a God Emperor of the Underworld enables th…",
       "kind": "recruitment"
     },
     {
@@ -3649,6 +4227,12 @@
       "kind": "ritual"
     }
   ],
+  "reform": [
+    {
+      "text": "reform                        25 # 25% chance per month of reforming to the monster type defined …",
+      "kind": "monster"
+    }
+  ],
   "reformdestroy": [
     {
       "text": "reformdestroy                100 # 100% chance to destroy location on immortality respawn.",
@@ -3671,7 +4255,21 @@
   ],
   "regeneration": [
     {
-      "text": "regeneration                     # Heals ~5% HP every combat round in battle. May rise from the d…",
+      "text": "regeneration                     # Heals ~5% HP every combat round. May rise from the dead if uni…",
+      "kind": "monster"
+    }
+  ],
+  "releasephant": [
+    {
+      "text": "releasephant                  11 # Each phantasm released will be randomly chosen from among all …",
+      "kind": "monster"
+    },
+    {
+      "text": "releasephant                  13 # Each phantasm released will be randomly chosen from among all …",
+      "kind": "monster"
+    },
+    {
+      "text": "releasephant                   5 # Each phantasm released will be randomly chosen from among all …",
       "kind": "monster"
     }
   ],
@@ -3686,6 +4284,12 @@
     },
     {
       "text": "releaserate                  -10 # -10 to result of die rolled to determine number of phantasms r…",
+      "kind": "monster"
+    }
+  ],
+  "releasespell": [
+    {
+      "text": "releasespell                   1 # Making an attack drains 1 mirror charge.",
       "kind": "monster"
     }
   ],
@@ -3713,11 +4317,11 @@
       "kind": "class"
     },
     {
-      "text": "reqterr             4 # Re-rolls the map until there is at least one square of the following terr…",
+      "text": "reqterr            38 # Re-rolls the map until there is at least one square of the following terr…",
       "kind": "class"
     },
     {
-      "text": "reqterr            -2 # Re-rolls the map until there is at least one square of the following terr…",
+      "text": "reqterr           -93 # Re-rolls the map until there is at least one square of the following terr…",
       "kind": "class"
     }
   ],
@@ -3729,6 +4333,20 @@
     {
       "text": "resrestrict      1048576 # Caster must not be immortal.",
       "kind": "ritual"
+    }
+  ],
+  "revertmirror": [
+    {
+      "text": "revertmirror                   1 # When empty, revert to a small Mirror.",
+      "kind": "monster"
+    },
+    {
+      "text": "revertmirror                   2 # When empty, revert to a Large Mirror.",
+      "kind": "monster"
+    },
+    {
+      "text": "revertmirror                   4 # When empty, revert to a Golden Mirror.",
+      "kind": "monster"
     }
   ],
   "revertowner": [
@@ -3763,7 +4381,7 @@
       "kind": "ritual"
     },
     {
-      "text": "ritpow                57 # Magistratus",
+      "text": "ritpow                60 # Jade Amazon",
       "kind": "ritual"
     },
     {
@@ -3779,6 +4397,12 @@
     {
       "text": "ritrebate        25 # All rituals cast on this location will be 25% cheaper.",
       "kind": "terrain"
+    }
+  ],
+  "riverdmg": [
+    {
+      "text": "riverdmg                      40 # Cannot Pass Rivers: takes 40 armor-negating damage when passin…",
+      "kind": "monster"
     }
   ],
   "sacr": [
@@ -3815,6 +4439,20 @@
       "kind": "item"
     }
   ],
+  "satyrspawn": [
+    {
+      "text": "satyrspawn                     3 # Satyr Spawn Boost (+3). Boosts Dryad Queen satyr spawn. Only t…",
+      "kind": "monster"
+    },
+    {
+      "text": "satyrspawn                     5 # Satyr Spawn Boost (+5). Boosts Dryad Queen satyr spawn. Only t…",
+      "kind": "monster"
+    },
+    {
+      "text": "satyrspawn                     1 # Satyr Spawn Boost (+1). Boosts Dryad Queen satyr spawn. Only t…",
+      "kind": "monster"
+    }
+  ],
   "scatter": [
     {
       "text": "scatter                # May deviate one square from intended target.",
@@ -3830,6 +4468,30 @@
   "scourgedefiler": [
     {
       "text": "scourgedefiler                 8 # Lifeforce Spellcasting (Scourge Magic only) (range 8): Needs t…",
+      "kind": "monster"
+    }
+  ],
+  "scry": [
+    {
+      "text": "scry                          15 # Can scry for 3 AP, with a radius of 1.5 squares.",
+      "kind": "monster"
+    },
+    {
+      "text": "scry                          25 # Can scry for 3 AP, with a radius of 2.5 squares.",
+      "kind": "monster"
+    }
+  ],
+  "scrycost": [
+    {
+      "text": "scrycost                       3 # Scrying costs 3 Gold.",
+      "kind": "monster"
+    },
+    {
+      "text": "scrycost                      25 # Scrying costs 25 Gold.",
+      "kind": "monster"
+    },
+    {
+      "text": "scrycost                      10 # Scrying costs 10 Gold.",
       "kind": "monster"
     }
   ],
@@ -3867,7 +4529,7 @@
       "kind": "recruitment"
     },
     {
-      "text": "selectclass 29 # Raksharaja",
+      "text": "selectclass  2 # Necromancer",
       "kind": "recruitment"
     },
     {
@@ -3895,7 +4557,7 @@
       "kind": "terrain"
     },
     {
-      "text": "selectterr      313 # Cloud Castle",
+      "text": "selectterr      308 # Cloud Fungus",
       "kind": "terrain"
     },
     {
@@ -3979,6 +4641,16 @@
       "kind": "ritual"
     }
   ],
+  "shardexpl": [
+    {
+      "text": "shardexpl                      3 # Shard Explosion on Death: d3 damage to everyone nearby, both f…",
+      "kind": "monster"
+    },
+    {
+      "text": "shardexpl                      6 # Shard Explosion on Death: d6 damage to everyone nearby, both f…",
+      "kind": "monster"
+    }
+  ],
   "shield": [
     {
       "text": "shield                           # Reduces damage from most weapons by 0-1; 0-2 against ranged we…",
@@ -3991,9 +4663,19 @@
       "kind": "weapon"
     }
   ],
+  "ship": [
+    {
+      "text": "ship                           2 # Is a large-sized ship in sea battles?",
+      "kind": "monster"
+    },
+    {
+      "text": "ship                           1 # Is a normal-sized ship in sea battles?",
+      "kind": "monster"
+    }
+  ],
   "shipmove": [
     {
-      "text": "shipmove                         # Monster is a ship. Movement will cost 1 AP for everyone in the…",
+      "text": "shipmove                         # Monster is a ship. Movement will cost 1/2 AP for everyone in t…",
       "kind": "monster"
     }
   ],
@@ -4039,13 +4721,27 @@
       "kind": "monster"
     }
   ],
+  "siegetunnel": [
+    {
+      "text": "siegetunnel                  100 # 100% chance of emerging inside the walls when attacking a sieg…",
+      "kind": "monster"
+    },
+    {
+      "text": "siegetunnel                   15 # 15% chance of emerging inside the walls when attacking a siege…",
+      "kind": "monster"
+    },
+    {
+      "text": "siegetunnel                   10 # 10% chance of emerging inside the walls when attacking a siege…",
+      "kind": "monster"
+    }
+  ],
   "siegeweapon": [
     {
       "text": "siegeweapon               12 237 # Boulder: d12 Blunt damage.",
       "kind": "monster"
     },
     {
-      "text": "siegeweapon               40  98 # Drop Boulder: d40 Blunt damage.",
+      "text": "siegeweapon               50  98 # Drop Boulder: d50 Blunt damage.",
       "kind": "monster"
     },
     {
@@ -4057,6 +4753,12 @@
     {
       "text": "simulacrum               # Creates a simulacrum.",
       "kind": "ritual"
+    }
+  ],
+  "sitepopboost": [
+    {
+      "text": "sitepopboost                 300 # Boosts independent monster spawning in this location by +300%.",
+      "kind": "monster"
     }
   ],
   "size1x1": [
@@ -4101,6 +4803,12 @@
       "kind": "item"
     }
   ],
+  "slimeshield": [
+    {
+      "text": "slimeshield                    1 # Slimy: Anyone attacking this unit in melee will get slimed unl…",
+      "kind": "monster"
+    }
+  ],
   "slow": [
     {
       "text": "slow                             # The monster only has 2 AP.",
@@ -4131,6 +4839,12 @@
     {
       "text": "snowok              # Income in this terrain is not affected by snow.",
       "kind": "terrain"
+    }
+  ],
+  "snowsleeper": [
+    {
+      "text": "snowsleeper                   50 # 50% chance to start a battle asleep if defending and it is snowy.",
+      "kind": "monster"
     }
   ],
   "snowstealth": [
@@ -4180,6 +4894,16 @@
   "south2": [
     {
       "text": "south2                           # Likes the south (if an independent or stupid commander, will n…",
+      "kind": "monster"
+    }
+  ],
+  "spawn1d6mon": [
+    {
+      "text": "spawn1d6mon                   15 # 15% chance per month to spawn 1d6 of the monster type defined …",
+      "kind": "monster"
+    },
+    {
+      "text": "spawn1d6mon                  100 # 100% chance per month to spawn 1d6 of the monster type defined…",
       "kind": "monster"
     }
   ],
@@ -4251,7 +4975,7 @@
       "kind": "monster"
     },
     {
-      "text": "spellweapon               37   2 # Black Magic at level 2.",
+      "text": "spellweapon               27   2 # Frost Magic at level 2.",
       "kind": "monster"
     },
     {
@@ -4291,7 +5015,11 @@
   ],
   "spellweaponsingle": [
     {
-      "text": "spellweaponsingle         21   1 # Serpent Magic at level 1.",
+      "text": "spellweaponsingle          3   2 # Pyromancy at level 2.",
+      "kind": "monster"
+    },
+    {
+      "text": "spellweaponsingle         27   2 # Frost Magic at level 2.",
       "kind": "monster"
     },
     {
@@ -4307,6 +5035,16 @@
     {
       "text": "spiritsight                                    # Can see units with Stealth, Forest Stealth, or I…",
       "kind": "item"
+    }
+  ],
+  "split": [
+    {
+      "text": "split                         30 # If one hit takes >= 30% of its HP, splits into two of the mons…",
+      "kind": "monster"
+    },
+    {
+      "text": "split                         20 # If one hit takes >= 20% of its HP, splits into two of the mons…",
+      "kind": "monster"
     }
   ],
   "spread": [
@@ -4327,15 +5065,15 @@
   ],
   "squareench": [
     {
-      "text": "squareench             3 # Create enchantment on target location.",
+      "text": "squareench            29 # Create this enchantment on target location: Veil.",
       "kind": "ritual"
     },
     {
-      "text": "squareench            17 # Create enchantment on target location.",
+      "text": "squareench            11 # Create this enchantment on target location: Murderous Mist.",
       "kind": "ritual"
     },
     {
-      "text": "squareench            30 # Create enchantment on target location.",
+      "text": "squareench            20 # Create this enchantment on target location: Kobold Stronghold (L2).",
       "kind": "ritual"
     }
   ],
@@ -4375,6 +5113,12 @@
       "kind": "monster"
     }
   ],
+  "statue": [
+    {
+      "text": "statue                         1 # Statues get part of their name from their creator or the emper…",
+      "kind": "monster"
+    }
+  ],
   "stdtroops": [
     {
       "text": "stdtroops           1 # Adds standard troops to recruitment list: spearmen, swordsmen, archers, c…",
@@ -4397,6 +5141,12 @@
       "kind": "weapon"
     }
   ],
+  "stonebeing": [
+    {
+      "text": "stonebeing                     1 # This unit is made of stone. Just grants immunity to petrificat…",
+      "kind": "monster"
+    }
+  ],
   "stonekill": [
     {
       "text": "stonekill              # x2 dmg vs stone beings and stone walls.",
@@ -4415,6 +5165,12 @@
     {
       "text": "str                                          4 # +4 Strength.",
       "kind": "item"
+    }
+  ],
+  "stray": [
+    {
+      "text": "stray                            # Can stray away from loved and liked terrains.",
+      "kind": "monster"
     }
   ],
   "strresist": [
@@ -4456,6 +5212,10 @@
     },
     {
       "text": "sum1chance            10 # % chance to summon second string instead of a random string among the …",
+      "kind": "ritual"
+    },
+    {
+      "text": "sum1chance            20 # % chance to summon second string instead of a random string among the …",
       "kind": "ritual"
     }
   ],
@@ -4585,7 +5345,7 @@
   ],
   "terr": [
     {
-      "text": "terr                 251 # Required terrain: Sky.",
+      "text": "terr                -120 # Required terrain: ???.",
       "kind": "ritual"
     },
     {
@@ -4593,31 +5353,19 @@
       "kind": "ritual"
     },
     {
-      "text": "terr                 -67 # Required terrain: all ancient forests, and forests which are at least …",
+      "text": "terr                 -62 # Required terrain: ancient forests (not including Ancient Troll Forest)…",
       "kind": "ritual"
     }
   ],
   "terraformfrom": [
     {
-      "text": "terraformfrom                 18 # Village: Changes this terrain into the one specified by terraf…",
-      "kind": "monster"
-    },
-    {
-      "text": "terraformfrom                -38 # forest/jungle (not ancient forest): Changes this terrain into …",
+      "text": "terraformfrom                -13 # any farm: <terraformch>% chance (default 100) to change this t…",
       "kind": "monster"
     }
   ],
   "terraformto": [
     {
-      "text": "terraformto                  206 # Market Village: Changes the terrain specified in terraformfrom…",
-      "kind": "monster"
-    },
-    {
-      "text": "terraformto                  234 # Giant Ant Hills: Changes the terrain specified in terraformfro…",
-      "kind": "monster"
-    },
-    {
-      "text": "terraformto                  283 # Spider Thicket: Changes the terrain specified in terraformfrom…",
+      "text": "terraformto                  315 # Eerie Farm: Changes the terrain specified in terraformfrom to …",
       "kind": "monster"
     }
   ],
@@ -4639,6 +5387,12 @@
     {
       "text": "terrscale50           19 # 50% more monsters summoned in this terrain: Old Battlefield.",
       "kind": "ritual"
+    }
+  ],
+  "thrallhunt": [
+    {
+      "text": "thrallhunt                     5 #",
+      "kind": "monster"
     }
   ],
   "tiny": [
@@ -4699,15 +5453,15 @@
   ],
   "trample": [
     {
-      "text": "trample                        4 # Can trample smaller units for this amount of damage.",
+      "text": "trample                        4 # Can trample smaller units for d4 damage.",
       "kind": "monster"
     },
     {
-      "text": "trample                        8 # Can trample smaller units for this amount of damage.",
+      "text": "trample                        8 # Can trample smaller units for d8 damage.",
       "kind": "monster"
     },
     {
-      "text": "trample                        3 # Can trample smaller units for this amount of damage.",
+      "text": "trample                       10 # Can trample smaller units for d10 damage.",
       "kind": "monster"
     }
   ],
@@ -4725,6 +5479,16 @@
     {
       "text": "transformtarg          2 # Target is transformed into the monster specified in a random string. I…",
       "kind": "ritual"
+    }
+  ],
+  "transport": [
+    {
+      "text": "transport                     20 # Ship: can transport 20 size 1 units.",
+      "kind": "monster"
+    },
+    {
+      "text": "transport                     40 # Ship: can transport 40 size 1 units.",
+      "kind": "monster"
     }
   ],
   "tree": [
@@ -4753,6 +5517,12 @@
       "kind": "weapon"
     }
   ],
+  "troll": [
+    {
+      "text": "troll                          1 # Is a troll. Stygian Bath gives this unit full Non-Magical Invu…",
+      "kind": "monster"
+    }
+  ],
   "trollifyloc": [
     {
       "text": "trollifyloc              # Turns a[n] [ancient] forest into a[n] [ancient] troll forest.",
@@ -4767,6 +5537,26 @@
     {
       "text": "tunnel                           # Can remove walls on world map and dig through earth to create …",
       "kind": "monster"
+    }
+  ],
+  "tunnelmove": [
+    {
+      "text": "tunnelmove                     3 # Combat Burrowing: Tunnels to anywhere on the battlefield, disp…",
+      "kind": "monster"
+    },
+    {
+      "text": "tunnelmove                     1 # Combat Burrowing: Tunnels to anywhere on the battlefield, disp…",
+      "kind": "monster"
+    },
+    {
+      "text": "tunnelmove                     6 # Combat Burrowing: Tunnels to anywhere on the battlefield, disp…",
+      "kind": "monster"
+    }
+  ],
+  "turncastcount": [
+    {
+      "text": "turncastcount         -1 # Each turn, add -1 to the count of how many times this ritual has been …",
+      "kind": "ritual"
     }
   ],
   "twistfate": [
@@ -4803,12 +5593,12 @@
   ],
   "undead": [
     {
-      "text": "undead",
-      "kind": "monster"
-    },
-    {
       "text": "undead                 # Doesn't affect undead units.",
       "kind": "weapon"
+    },
+    {
+      "text": "undead                           # Undead beings can be banished and take double damage from holy…",
+      "kind": "monster"
     }
   ],
   "undkill": [
@@ -4831,7 +5621,7 @@
   ],
   "unique": [
     {
-      "text": "unique                         1",
+      "text": "unique                         1 # This is a unique monster; there can only be one of them in the…",
       "kind": "monster"
     }
   ],
@@ -4875,7 +5665,7 @@
   ],
   "vassal": [
     {
-      "text": "vassal                         1 #  Receives 1 Knight, 2 Spearmen, and 2 Archers in yearly conscr…",
+      "text": "vassal                         1 # Receives 1 Knight, 2 Spearmen, and 2 Archers in yearly conscri…",
       "kind": "monster"
     }
   ],
@@ -4925,6 +5715,12 @@
       "kind": "monster"
     }
   ],
+  "voidship": [
+    {
+      "text": "voidship                      90 # 90% chance to protect anyone in same square from the insanity …",
+      "kind": "monster"
+    }
+  ],
   "wall": [
     {
       "text": "wall                             # Can climb walls.",
@@ -4939,7 +5735,7 @@
   ],
   "wander": [
     {
-      "text": "wander                        10 # Will try to fulfill this objective if it is a commander: Merch…",
+      "text": "wander                        16 # Will try to fulfill this objective if it is a commander: Pirat…",
       "kind": "monster"
     },
     {
@@ -4997,6 +5793,12 @@
     {
       "text": "water               # The terrain is water and cannot be passed, unless it is frozen or the monst…",
       "kind": "terrain"
+    }
+  ],
+  "watershape": [
+    {
+      "text": "watershape                    -1 # When in water, this monster will become the type defined 1 bef…",
+      "kind": "monster"
     }
   ],
   "weaponslots": [
