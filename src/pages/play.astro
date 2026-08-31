@@ -1063,11 +1063,20 @@ const starter = [
             } else if (type) {
               td.appendChild(document.createTextNode(type + " "));
             }
-            td.appendChild(
-              document.createTextNode(die !== null ? `1-${die}` : lineDmg ? String(lineDmg.value) : "—"),
-            );
+            // The game shows the weapon's own die with the monster's dmg as
+            // a (+N) bonus, collapsing to a plain range when the weapon die
+            // is 0 (all damage from the monster). Effective roll is 1d(sum).
+            let shown = "—";
             if (die !== null) {
-              td.title = `${type ?? ""} d${die} = weapon line ${lineDmg.value} + weapon record ${rec.dmg ?? 0}; rolls are open-ended (a max result adds another die at -1)`.trim();
+              const wep = rec.dmg ?? 0;
+              const bonus = Number(lineDmg.value);
+              shown = wep > 0 ? (bonus > 0 ? `1-${wep} (+${bonus})` : `1-${wep}`) : `1-${bonus}`;
+            } else if (lineDmg) {
+              shown = String(lineDmg.value);
+            }
+            td.appendChild(document.createTextNode(shown));
+            if (die !== null) {
+              td.title = `${type ?? ""} — effective roll 1d${die} (weapon ${rec.dmg ?? 0} + monster ${lineDmg.value}), open-ended: a max result adds another die at -1`.trim();
             } else if (type) {
               td.title = type;
             }
