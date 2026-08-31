@@ -1101,7 +1101,13 @@ const starter = [
         abilities.push(s.name);
       }
     }
-    if (abilities.length > 0) {
+    // Valued resistances appear alongside the abilities, like the game's own
+    // icon strip. Data source convention: >=100 immunity, positive N = "N X
+    // Resistance", negative = vulnerability.
+    const resistances = block.filter(
+      (s) => /res$/.test(s.name) && commands[s.name] && s.args[0]?.type === "number",
+    );
+    if (abilities.length > 0 || resistances.length > 0) {
       const row = div("ucard-abilities");
       for (const name of abilities) {
         const badge = span(name, "badge");
@@ -1109,6 +1115,19 @@ const starter = [
           badge.dataset.tip = flagGlossary[name];
           badge.tabIndex = 0;
         }
+        row.appendChild(badge);
+      }
+      for (const s of resistances) {
+        const element = s.name.slice(0, -3);
+        const label = element.charAt(0).toUpperCase() + element.slice(1);
+        const v = s.args[0].value;
+        const text =
+          v >= 100 ? `${label} immunity`
+          : v > 0 ? `${label} Resistance ${v}`
+          : `${label} Vulnerability ${Math.abs(v)}`;
+        const badge = span(text, "badge");
+        badge.dataset.tip = `${s.name} ${v}`;
+        badge.tabIndex = 0;
         row.appendChild(badge);
       }
       card.appendChild(row);
