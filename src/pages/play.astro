@@ -247,7 +247,8 @@ const starter = [
   :global(.ucard-abilities) { order: 2; }
   :global(.ucard table) { order: 3; }
   :global(.ucard .wfootnote) { order: 4; }
-  :global(.ucard .flavor) { order: 5; }
+  :global(.ucard-rituals) { order: 5; }
+  :global(.ucard .flavor) { order: 6; }
 
   :global(.ucard-name) {
     position: absolute;
@@ -395,6 +396,28 @@ const starter = [
     color: #cfcbb6;
   }
 
+  :global(.ucard-rituals) {
+    margin: 0.75rem 0.25rem 0;
+    font-size: 0.88rem;
+  }
+
+  :global(.ucard-rituals .rituals-head) {
+    font-family: "MedievalSharp", Georgia, serif;
+    color: #cdb98d;
+    margin-bottom: 0.35rem;
+  }
+
+  :global(.ucard-rituals .ritual-row) {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.12rem 0;
+    border-bottom: 1px solid rgba(133, 122, 92, 0.25);
+  }
+
+  :global(.ucard-rituals .ritual-name) { color: #e6e2d4; }
+  :global(.ucard-rituals .ritual-meta) { color: #a9ac93; white-space: nowrap; }
+
   :global(.ucard-abilities .badge.magic) {
     background: #2b2438;
     border-color: #5c4d7a;
@@ -477,6 +500,8 @@ const starter = [
   import baseWeapons from "../data/weapons.json";
   import flagGlossary from "../data/monster-flags.json";
   import ritualSchools from "../data/ritual-schools.json";
+  import ritualsBySchool from "../data/rituals.json";
+  import spellPaths from "../data/spell-paths.json";
   import { readStatements } from "../../modcheck/src/statements.js";
   import { tokenizeLine } from "../../modcheck/src/tokenizer.js";
   import { commands, vanilla } from "../../modcheck/src/catalog.js";
@@ -1114,13 +1139,18 @@ const starter = [
     const magic = block.filter(
       (s) => s.name === "power" && s.args[0]?.type === "number" && s.args[1]?.type === "number",
     );
+    // Combat casting: spellweapon <path> <level> — paths are a separate
+    // numbering from ritual schools, named via the data source's annotations.
+    const combatMagic = block.filter(
+      (s) => s.name === "spellweapon" && s.args[0]?.type === "number" && s.args[1]?.type === "number",
+    );
     // Valued resistances appear alongside the abilities, like the game's own
     // icon strip. Data source convention: >=100 immunity, positive N = "N X
     // Resistance", negative = vulnerability.
     const resistances = block.filter(
       (s) => /res$/.test(s.name) && commands[s.name] && s.args[0]?.type === "number",
     );
-    if (abilities.length > 0 || resistances.length > 0 || magic.length > 0) {
+    if (abilities.length > 0 || resistances.length > 0 || magic.length > 0 || combatMagic.length > 0) {
       const row = div("ucard-abilities");
       for (const s of magic) {
         const school = ritualSchools[s.args[0].value];
@@ -1131,6 +1161,18 @@ const starter = [
         badge.dataset.tip = school
           ? `power ${s.args[0].value} ${s.args[1].value} — ${school} rituals at level ${s.args[1].value}`
           : `power ${s.args[0].value} ${s.args[1].value} — school ${s.args[0].value} is not in the base-game table (older game version, or a mod school)`;
+        badge.tabIndex = 0;
+        row.appendChild(badge);
+      }
+      for (const s of combatMagic) {
+        const path = spellPaths[s.args[0].value];
+        const badge = span(
+          `${path ?? `path ${s.args[0].value}`} ${s.args[1].value} (combat)`,
+          "badge magic",
+        );
+        badge.dataset.tip = path
+          ? `spellweapon ${s.args[0].value} ${s.args[1].value} — casts ${path} combat spells at level ${s.args[1].value}. The spells of each path are not in the extracted data yet.`
+          : `spellweapon ${s.args[0].value} ${s.args[1].value} — path ${s.args[0].value} is not in the base-game table (older game version, or a mod path)`;
         badge.tabIndex = 0;
         row.appendChild(badge);
       }
@@ -1156,6 +1198,28 @@ const starter = [
         row.appendChild(badge);
       }
       card.appendChild(row);
+    }
+
+    // Rituals the mage can perform: each power line unlocks its school's
+    // rituals up to the given level (levels 1-3 per the manual).
+    for (const m of magic) {
+      const school = ritualSchools[m.args[0].value];
+      const list = (ritualsBySchool[m.args[0].value] ?? []).filter((r) => r.level <= m.args[1].value);
+      if (!school || list.length === 0) continue;
+      const sec = div("ucard-rituals");
+      const head = div("rituals-head");
+      head.textContent = `${school} rituals (level ≤ ${m.args[1].value})`;
+      sec.appendChild(head);
+      for (const r of list) {
+        const rowEl = div("ritual-row");
+        rowEl.appendChild(span(r.name, "ritual-name"));
+        const bits = [`level ${r.level}`];
+        if (r.ap) bits.push(`${r.ap} AP`);
+        for (const [res, amt] of r.costs ?? []) bits.push(`${amt} ${res}`);
+        rowEl.appendChild(span(bits.join(" · "), "ritual-meta"));
+        sec.appendChild(rowEl);
+      }
+      card.appendChild(sec);
     }
 
     // Description.

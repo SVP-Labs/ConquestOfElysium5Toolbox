@@ -1,0 +1,6150 @@
+{
+ "1": [
+  {
+   "name": "Dark Knowledge",
+   "level": 1,
+   "costs": [
+    [
+     "hands",
+     3
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "hands",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Minor Summoning",
+   "level": 1,
+   "costs": [
+    [
+     "hands",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Pierce the Veil of Death",
+   "level": 1,
+   "costs": [
+    [
+     "hands",
+     1
+    ]
+   ]
+  },
+  {
+   "name": "Raise Dead",
+   "level": 1,
+   "ap": 3
+  },
+  {
+   "name": "Raven Spy",
+   "level": 1,
+   "costs": [
+    [
+     "hands",
+     5
+    ]
+   ]
+  },
+  {
+   "name": "Reanimate Animals",
+   "level": 1,
+   "ap": 3
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "hands",
+     60
+    ]
+   ]
+  },
+  {
+   "name": "Twiceborn",
+   "level": 1,
+   "costs": [
+    [
+     "hands",
+     30
+    ]
+   ]
+  },
+  {
+   "name": "Animate Abomination",
+   "level": 2,
+   "ap": 2,
+   "costs": [
+    [
+     "hands",
+     50
+    ],
+    [
+     "corpses",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Blood Rite",
+   "level": 2,
+   "costs": [
+    [
+     "hands",
+     125
+    ]
+   ]
+  },
+  {
+   "name": "Major Summoning",
+   "level": 2,
+   "costs": [
+    [
+     "hands",
+     75
+    ]
+   ]
+  },
+  {
+   "name": "Mummification",
+   "level": 2,
+   "costs": [
+    [
+     "hands",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Pyramid of Skulls",
+   "level": 2,
+   "ap": 2,
+   "costs": [
+    [
+     "hands",
+     25
+    ],
+    [
+     "human corpses",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Raise Legion",
+   "level": 2,
+   "costs": [
+    [
+     "hands",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Ravenous Curse",
+   "level": 2,
+   "costs": [
+    [
+     "hands",
+     40
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "hands",
+     240
+    ]
+   ]
+  },
+  {
+   "name": "Stygian Paths",
+   "level": 2,
+   "costs": [
+    [
+     "hands",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Wall of Unlife",
+   "level": 2,
+   "ap": 6,
+   "costs": [
+    [
+     "hands",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Greater Lichcraft",
+   "level": 3,
+   "costs": [
+    [
+     "hands",
+     250
+    ]
+   ]
+  },
+  {
+   "name": "Lich Gate",
+   "level": 3,
+   "costs": [
+    [
+     "hands",
+     2
+    ]
+   ]
+  },
+  {
+   "name": "Lichcraft",
+   "level": 3,
+   "costs": [
+    [
+     "hands",
+     250
+    ]
+   ]
+  },
+  {
+   "name": "Planar Swap",
+   "level": 3,
+   "costs": [
+    [
+     "hands",
+     50
+    ]
+   ]
+  }
+ ],
+ "3": [
+  {
+   "name": "Demon Summoning",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Imp Summoning",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Personal Gate",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     120
+    ]
+   ]
+  },
+  {
+   "name": "Greater Demon Summoning",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     40
+    ]
+   ]
+  },
+  {
+   "name": "Infernal Horde",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     150
+    ]
+   ]
+  },
+  {
+   "name": "Returning",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     480
+    ]
+   ]
+  },
+  {
+   "name": "Summon Demon Lieutenant",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     120
+    ]
+   ]
+  },
+  {
+   "name": "Wall of Torment",
+   "level": 2,
+   "ap": 6,
+   "costs": [
+    [
+     "sacr",
+     75
+    ]
+   ]
+  },
+  {
+   "name": "Infernal Gate",
+   "level": 3,
+   "costs": [
+    [
+     "sacr",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Summon Demon Lord",
+   "level": 3,
+   "costs": [
+    [
+     "sacr",
+     500
+    ]
+   ]
+  }
+ ],
+ "4": [
+  {
+   "name": "Bog Eye",
+   "level": 1,
+   "costs": [
+    [
+     "fungus",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "fungus",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Marshlands",
+   "level": 1,
+   "costs": [
+    [
+     "fungus",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Minor Summoning",
+   "level": 1,
+   "costs": [
+    [
+     "fungus",
+     15
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "fungus",
+     150
+    ]
+   ]
+  },
+  {
+   "name": "Swamp Guardians",
+   "level": 1,
+   "costs": [
+    [
+     "fungus",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Major Summoning",
+   "level": 2,
+   "costs": [
+    [
+     "fungus",
+     75
+    ]
+   ]
+  },
+  {
+   "name": "Miasma",
+   "level": 2,
+   "ap": 3,
+   "costs": [
+    [
+     "fungus",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Mirror Mirror",
+   "level": 2,
+   "costs": [
+    [
+     "fungus",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Murderous Mist",
+   "level": 2,
+   "ap": 3,
+   "costs": [
+    [
+     "fungus",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "fungus",
+     600
+    ]
+   ]
+  },
+  {
+   "name": "Bog Path",
+   "level": 3,
+   "ap": 3,
+   "costs": [
+    [
+     "fungus",
+     300
+    ]
+   ]
+  },
+  {
+   "name": "Summon Old One",
+   "level": 3,
+   "costs": [
+    [
+     "fungus",
+     400
+    ]
+   ]
+  },
+  {
+   "name": "Swamp Soul",
+   "level": 3,
+   "costs": [
+    [
+     "fungus",
+     600
+    ]
+   ]
+  }
+ ],
+ "5": [
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "herbs",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Messenger Crows",
+   "level": 1,
+   "costs": [
+    [
+     "herbs",
+     15
+    ]
+   ]
+  },
+  {
+   "name": "Minor Animal Summoning",
+   "level": 1,
+   "costs": [
+    [
+     "herbs",
+     15
+    ]
+   ]
+  },
+  {
+   "name": "Plant Forest Guardians",
+   "level": 1,
+   "ap": 3,
+   "costs": [
+    [
+     "herbs",
+     15
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "herbs",
+     150
+    ]
+   ]
+  },
+  {
+   "name": "Unification",
+   "level": 1,
+   "costs": [
+    [
+     "herbs",
+     150
+    ]
+   ]
+  },
+  {
+   "name": "Heart of the Forest",
+   "level": 2,
+   "costs": [
+    [
+     "herbs",
+     150
+    ]
+   ]
+  },
+  {
+   "name": "Lord of the Wild",
+   "level": 2,
+   "costs": [
+    [
+     "herbs",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Major Animal Summoning",
+   "level": 2,
+   "costs": [
+    [
+     "herbs",
+     75
+    ]
+   ]
+  },
+  {
+   "name": "Revive Ancient Forest",
+   "level": 2,
+   "costs": [
+    [
+     "herbs",
+     350
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "herbs",
+     600
+    ]
+   ]
+  },
+  {
+   "name": "Summon Mythic Beasts",
+   "level": 2,
+   "costs": [
+    [
+     "herbs",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Wild Hunt",
+   "level": 2,
+   "costs": [
+    [
+     "herbs",
+     300
+    ]
+   ]
+  },
+  {
+   "name": "Call Primal Being",
+   "level": 3,
+   "costs": [
+    [
+     "herbs",
+     1000
+    ]
+   ]
+  },
+  {
+   "name": "Faery Paths",
+   "level": 3,
+   "costs": [
+    [
+     "herbs",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Shepherds of the Wood",
+   "level": 3,
+   "costs": [
+    [
+     "herbs",
+     300
+    ]
+   ]
+  },
+  {
+   "name": "Summon Legendary Beings",
+   "level": 3,
+   "costs": [
+    [
+     "herbs",
+     450
+    ]
+   ]
+  }
+ ],
+ "6": [
+  {
+   "name": "Raise Fort",
+   "level": 1,
+   "ap": 6,
+   "costs": [
+    [
+     "gold",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Raise Levies",
+   "level": 1
+  },
+  {
+   "name": "Swift Justice",
+   "level": 1,
+   "costs": [
+    [
+     "gold",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Appoint Vassal",
+   "level": 2,
+   "costs": [
+    [
+     "gold",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Coronation",
+   "level": 2,
+   "costs": [
+    [
+     "gold",
+     600
+    ]
+   ]
+  },
+  {
+   "name": "Relocate Manor",
+   "level": 2,
+   "costs": [
+    [
+     "gold",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Raise Castle",
+   "level": 3,
+   "ap": 9,
+   "costs": [
+    [
+     "gold",
+     250
+    ]
+   ]
+  }
+ ],
+ "7": [
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Make Effigy",
+   "level": 1,
+   "ap": 2,
+   "costs": [
+    [
+     "sacr",
+     5
+    ],
+    [
+     "human corpses",
+     5
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     120
+    ]
+   ]
+  },
+  {
+   "name": "Summon Lesser Beings",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Summon Lesser Oni",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     30
+    ]
+   ]
+  },
+  {
+   "name": "Hide Heart",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     150
+    ]
+   ]
+  },
+  {
+   "name": "Mountain Lair",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     25
+    ],
+    [
+     "iron",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     480
+    ]
+   ]
+  },
+  {
+   "name": "Summon Greater Beings",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Summon Oni",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Summon King",
+   "level": 3,
+   "costs": [
+    [
+     "sacr",
+     300
+    ]
+   ]
+  }
+ ],
+ "8": [
+  {
+   "name": "Lesser Blood Feast",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     15
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ceremony to Baal",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     120
+    ]
+   ]
+  },
+  {
+   "name": "Blood Feast",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Ceremony to Baal",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     75
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     480
+    ]
+   ]
+  },
+  {
+   "name": "Banquet for the Dead",
+   "level": 3,
+   "costs": [
+    [
+     "sacr",
+     150
+    ]
+   ]
+  },
+  {
+   "name": "Grand Blood Feast",
+   "level": 3,
+   "costs": [
+    [
+     "sacr",
+     150
+    ]
+   ]
+  },
+  {
+   "name": "Grand Ceremony to Baal",
+   "level": 3,
+   "costs": [
+    [
+     "sacr",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Second Sun",
+   "level": 3,
+   "costs": [
+    [
+     "sacr",
+     500
+    ]
+   ]
+  },
+  {
+   "name": "Summon God",
+   "level": 3,
+   "costs": [
+    [
+     "sacr",
+     1000
+    ]
+   ]
+  }
+ ],
+ "9": [
+  {
+   "name": "Create Hoburg Village",
+   "level": 1,
+   "costs": [
+    [
+     "weed",
+     10
+    ],
+    [
+     "gold",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "weed",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Animal Summoning",
+   "level": 2,
+   "costs": [
+    [
+     "weed",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Farm Animal Summoning",
+   "level": 2,
+   "costs": [
+    [
+     "weed",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "weed",
+     150
+    ]
+   ]
+  },
+  {
+   "name": "Great Animal Summoning",
+   "level": 3,
+   "costs": [
+    [
+     "weed",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Summon Guardian of the Hoburgs",
+   "level": 3,
+   "costs": [
+    [
+     "weed",
+     100
+    ]
+   ]
+  }
+ ],
+ "10": [
+  {
+   "name": "Diamond Construct",
+   "level": 1,
+   "costs": [
+    [
+     "air",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Emerald Construct",
+   "level": 1,
+   "costs": [
+    [
+     "earth",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "gems",
+     15
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "gems",
+     90
+    ]
+   ]
+  },
+  {
+   "name": "Ruby Construct",
+   "level": 1,
+   "costs": [
+    [
+     "fire",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Sapphire Construct",
+   "level": 1,
+   "costs": [
+    [
+     "water",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Construct Ferrous Wheel",
+   "level": 2,
+   "ap": 3,
+   "costs": [
+    [
+     "fire",
+     10
+    ],
+    [
+     "water",
+     10
+    ],
+    [
+     "earth",
+     10
+    ],
+    [
+     "air",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Diamond Iron Dragon",
+   "level": 2,
+   "ap": 3,
+   "costs": [
+    [
+     "air",
+     150
+    ]
+   ]
+  },
+  {
+   "name": "Emerald Iron Dragon",
+   "level": 2,
+   "ap": 3,
+   "costs": [
+    [
+     "earth",
+     150
+    ]
+   ]
+  },
+  {
+   "name": "Ruby Iron Dragon",
+   "level": 2,
+   "ap": 3,
+   "costs": [
+    [
+     "fire",
+     150
+    ]
+   ]
+  },
+  {
+   "name": "Sapphire Iron Dragon",
+   "level": 2,
+   "ap": 3,
+   "costs": [
+    [
+     "water",
+     150
+    ]
+   ]
+  }
+ ],
+ "11": [
+  {
+   "name": "Animate Armor",
+   "level": 1,
+   "ap": 3,
+   "costs": [
+    [
+     "iron",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Animate Bow",
+   "level": 1,
+   "ap": 2,
+   "costs": [
+    [
+     "iron",
+     1
+    ]
+   ]
+  },
+  {
+   "name": "Animate Spear",
+   "level": 1,
+   "ap": 3,
+   "costs": [
+    [
+     "iron",
+     1
+    ]
+   ]
+  },
+  {
+   "name": "Animate Sword",
+   "level": 1,
+   "ap": 2,
+   "costs": [
+    [
+     "iron",
+     1
+    ]
+   ]
+  },
+  {
+   "name": "Animate Tools",
+   "level": 1,
+   "ap": 3,
+   "costs": [
+    [
+     "iron",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Craft Gargoyle",
+   "level": 1,
+   "ap": 2,
+   "costs": [
+    [
+     "gold",
+     5
+    ],
+    [
+     "iron",
+     5
+    ]
+   ]
+  },
+  {
+   "name": "Create Flesh Golem",
+   "level": 1,
+   "ap": 2,
+   "costs": [
+    [
+     "gold",
+     5
+    ],
+    [
+     "human corpses",
+     5
+    ]
+   ]
+  },
+  {
+   "name": "Create Mimic",
+   "level": 1,
+   "ap": 2,
+   "costs": [
+    [
+     "gold",
+     5
+    ],
+    [
+     "iron",
+     5
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "gold",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "gold",
+     60
+    ]
+   ]
+  },
+  {
+   "name": "Sculpt Terracotta Soldier",
+   "level": 1,
+   "ap": 2
+  },
+  {
+   "name": "Animate Ballista",
+   "level": 2,
+   "ap": 3,
+   "costs": [
+    [
+     "iron",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Animate Quills and Scrolls",
+   "level": 2,
+   "ap": 3,
+   "costs": [
+    [
+     "gold",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Craft Guardian",
+   "level": 2,
+   "ap": 4,
+   "costs": [
+    [
+     "gold",
+     15
+    ],
+    [
+     "iron",
+     5
+    ]
+   ]
+  },
+  {
+   "name": "Create Clay Golem",
+   "level": 2,
+   "ap": 4,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "iron",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Create Ice Golem",
+   "level": 2,
+   "ap": 5,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "iron",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Create Juggernaut",
+   "level": 2,
+   "ap": 5,
+   "costs": [
+    [
+     "gold",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Create Necrotod",
+   "level": 2,
+   "ap": 3,
+   "costs": [
+    [
+     "gold",
+     35
+    ],
+    [
+     "corpses",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Create Stone Golem",
+   "level": 2,
+   "ap": 5,
+   "costs": [
+    [
+     "gold",
+     40
+    ],
+    [
+     "iron",
+     40
+    ]
+   ]
+  },
+  {
+   "name": "Create Wood Golem",
+   "level": 2,
+   "ap": 3,
+   "costs": [
+    [
+     "gold",
+     20
+    ],
+    [
+     "iron",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Dogs of Gold and Silver",
+   "level": 2,
+   "ap": 3,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "iron",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Enchanted Gate",
+   "level": 2,
+   "ap": 3,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "iron",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Enliven Statue",
+   "level": 2,
+   "ap": 2
+  },
+  {
+   "name": "Iron Grafting",
+   "level": 2,
+   "costs": [
+    [
+     "iron",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "gold",
+     360
+    ]
+   ]
+  },
+  {
+   "name": "Brass Bull",
+   "level": 3,
+   "ap": 7,
+   "costs": [
+    [
+     "gold",
+     500
+    ],
+    [
+     "iron",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Create Artifact",
+   "level": 3,
+   "ap": 2,
+   "costs": [
+    [
+     "gold",
+     25
+    ],
+    [
+     "gems",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Create Crystal Golem",
+   "level": 3,
+   "ap": 9,
+   "costs": [
+    [
+     "gold",
+     80
+    ],
+    [
+     "iron",
+     80
+    ]
+   ]
+  },
+  {
+   "name": "Create Gold Golem",
+   "level": 3,
+   "ap": 10,
+   "costs": [
+    [
+     "gold",
+     100
+    ],
+    [
+     "iron",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Create Home Portal",
+   "level": 3,
+   "ap": 6,
+   "costs": [
+    [
+     "gold",
+     60
+    ],
+    [
+     "iron",
+     60
+    ]
+   ]
+  },
+  {
+   "name": "Create Iron Golem",
+   "level": 3,
+   "ap": 7,
+   "costs": [
+    [
+     "gold",
+     60
+    ],
+    [
+     "iron",
+     60
+    ]
+   ]
+  },
+  {
+   "name": "Create Oak Golem",
+   "level": 3,
+   "ap": 6,
+   "costs": [
+    [
+     "gold",
+     40
+    ],
+    [
+     "iron",
+     40
+    ]
+   ]
+  },
+  {
+   "name": "Create Onyx Golem",
+   "level": 3,
+   "ap": 8,
+   "costs": [
+    [
+     "gold",
+     70
+    ],
+    [
+     "iron",
+     70
+    ]
+   ]
+  },
+  {
+   "name": "Create Portal",
+   "level": 3,
+   "ap": 6,
+   "costs": [
+    [
+     "gold",
+     60
+    ],
+    [
+     "iron",
+     60
+    ]
+   ]
+  },
+  {
+   "name": "Create Silver Golem",
+   "level": 3,
+   "ap": 9,
+   "costs": [
+    [
+     "gold",
+     90
+    ],
+    [
+     "iron",
+     90
+    ]
+   ]
+  },
+  {
+   "name": "Infuse Magic Academy",
+   "level": 3,
+   "ap": 9,
+   "costs": [
+    [
+     "gold",
+     100
+    ],
+    [
+     "iron",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Infuse Magic Library",
+   "level": 3,
+   "ap": 6,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "iron",
+     50
+    ]
+   ]
+  }
+ ],
+ "12": [
+  {
+   "name": "Ceremony of the Bloody Mother",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Ceremony of the Lord of Death",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Ceremony of the Lord of Night",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Ceremony of the Lord of Rain",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Ceremony of the Lord of Sky",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Ceremony of the Lord of War",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     120
+    ]
+   ]
+  },
+  {
+   "name": "Greater Ceremony of the Bloody Mother",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     125
+    ]
+   ]
+  },
+  {
+   "name": "Greater Ceremony of the Lord of Death",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     125
+    ]
+   ]
+  },
+  {
+   "name": "Greater Ceremony of the Lord of Night",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     125
+    ]
+   ]
+  },
+  {
+   "name": "Greater Ceremony of the Lord of Rain",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     125
+    ]
+   ]
+  },
+  {
+   "name": "Greater Ceremony of the Lord of Sky",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     125
+    ]
+   ]
+  },
+  {
+   "name": "Greater Ceremony of the Lord of War",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     125
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     480
+    ]
+   ]
+  },
+  {
+   "name": "Summon God",
+   "level": 3,
+   "costs": [
+    [
+     "sacr",
+     500
+    ]
+   ]
+  }
+ ],
+ "13": [
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "herbs",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Make Effigy",
+   "level": 1,
+   "ap": 2,
+   "costs": [
+    [
+     "herbs",
+     20
+    ],
+    [
+     "human corpses",
+     5
+    ]
+   ]
+  },
+  {
+   "name": "Pierce the Veil of Death",
+   "level": 1,
+   "costs": [
+    [
+     "herbs",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "herbs",
+     300
+    ]
+   ]
+  },
+  {
+   "name": "Sending",
+   "level": 1,
+   "costs": [
+    [
+     "herbs",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Summon Ancestor",
+   "level": 1,
+   "costs": [
+    [
+     "herbs",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Carve Totempole",
+   "level": 2,
+   "ap": 3,
+   "costs": [
+    [
+     "herbs",
+     300
+    ]
+   ]
+  },
+  {
+   "name": "Promise of the Ancestors",
+   "level": 2,
+   "costs": [
+    [
+     "herbs",
+     400
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "herbs",
+     1200
+    ]
+   ]
+  },
+  {
+   "name": "Summon Heroes of Old",
+   "level": 2,
+   "costs": [
+    [
+     "herbs",
+     300
+    ]
+   ]
+  },
+  {
+   "name": "Army of Legends",
+   "level": 3,
+   "costs": [
+    [
+     "herbs",
+     1000
+    ]
+   ]
+  }
+ ],
+ "15": [
+  {
+   "name": "Awaken Guardians",
+   "level": 1,
+   "costs": [
+    [
+     "earth",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Cave Temple Construction",
+   "level": 1,
+   "costs": [
+    [
+     "gold",
+     25
+    ],
+    [
+     "iron",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Deep Summoning",
+   "level": 1,
+   "costs": [
+    [
+     "earth",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Lava Summoning",
+   "level": 1,
+   "costs": [
+    [
+     "fire",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Olm Summoning",
+   "level": 1,
+   "costs": [
+    [
+     "water",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "earth",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Summoning of the Dead",
+   "level": 1,
+   "costs": [
+    [
+     "air",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "earth",
+     60
+    ]
+   ]
+  },
+  {
+   "name": "Scrying",
+   "level": 1,
+   "costs": [
+    [
+     "water",
+     5
+    ]
+   ]
+  },
+  {
+   "name": "Awaken Marble Oracle",
+   "level": 2,
+   "costs": [
+    [
+     "earth",
+     80
+    ]
+   ]
+  },
+  {
+   "name": "Deep Earth Summoning",
+   "level": 2,
+   "costs": [
+    [
+     "earth",
+     80
+    ]
+   ]
+  },
+  {
+   "name": "Lava Summoning",
+   "level": 2,
+   "costs": [
+    [
+     "fire",
+     80
+    ]
+   ]
+  },
+  {
+   "name": "Olm Conclave",
+   "level": 2,
+   "costs": [
+    [
+     "water",
+     120
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "earth",
+     240
+    ]
+   ]
+  },
+  {
+   "name": "Summoning of the Dead",
+   "level": 2,
+   "costs": [
+    [
+     "air",
+     80
+    ]
+   ]
+  },
+  {
+   "name": "Awaken Onyx Oracle",
+   "level": 3,
+   "costs": [
+    [
+     "earth",
+     240
+    ]
+   ]
+  },
+  {
+   "name": "Earth made Flesh",
+   "level": 3,
+   "costs": [
+    [
+     "earth",
+     480
+    ]
+   ]
+  }
+ ],
+ "16": [
+  {
+   "name": "Build Lararium",
+   "level": 1,
+   "ap": 3,
+   "costs": [
+    [
+     "gold",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Incite Revelry",
+   "level": 1,
+   "costs": [
+    [
+     "gold",
+     25
+    ]
+   ]
+  }
+ ],
+ "18": [
+  {
+   "name": "Flame Pact",
+   "level": 1,
+   "costs": [
+    [
+     "fire",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Fire Summoning",
+   "level": 1,
+   "costs": [
+    [
+     "fire",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Circle of Flames",
+   "level": 2,
+   "costs": [
+    [
+     "fire",
+     6
+    ]
+   ]
+  },
+  {
+   "name": "Flame Pact",
+   "level": 2,
+   "costs": [
+    [
+     "fire",
+     28
+    ]
+   ]
+  },
+  {
+   "name": "Greater Fire Summoning",
+   "level": 2,
+   "costs": [
+    [
+     "fire",
+     56
+    ]
+   ]
+  },
+  {
+   "name": "Greater Flame Pact",
+   "level": 2,
+   "costs": [
+    [
+     "fire",
+     167
+    ]
+   ]
+  },
+  {
+   "name": "Summon Champion of Fire",
+   "level": 2,
+   "costs": [
+    [
+     "fire",
+     56
+    ]
+   ]
+  },
+  {
+   "name": "Summon Magma Warrior",
+   "level": 2,
+   "costs": [
+    [
+     "fire",
+     28
+    ],
+    [
+     "earth",
+     28
+    ]
+   ]
+  },
+  {
+   "name": "Summon Smoke Warrior",
+   "level": 2,
+   "costs": [
+    [
+     "fire",
+     28
+    ],
+    [
+     "air",
+     28
+    ]
+   ]
+  },
+  {
+   "name": "Vafur Flames",
+   "level": 2,
+   "ap": 6,
+   "costs": [
+    [
+     "fire",
+     28
+    ]
+   ]
+  },
+  {
+   "name": "Eternal Pyre",
+   "level": 3,
+   "costs": [
+    [
+     "fire",
+     125
+    ]
+   ]
+  },
+  {
+   "name": "Summon King of Fire",
+   "level": 3,
+   "costs": [
+    [
+     "fire",
+     250
+    ]
+   ]
+  },
+  {
+   "name": "Wheel of Frost and Flames",
+   "level": 3,
+   "costs": [
+    [
+     "fire",
+     50
+    ],
+    [
+     "water",
+     50
+    ]
+   ]
+  }
+ ],
+ "19": [
+  {
+   "name": "Lesser Water Summoning",
+   "level": 1,
+   "costs": [
+    [
+     "water",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Water Pact",
+   "level": 1,
+   "costs": [
+    [
+     "water",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Enchant Lake",
+   "level": 2,
+   "costs": [
+    [
+     "water",
+     23
+    ]
+   ]
+  },
+  {
+   "name": "Greater Water Pact",
+   "level": 2,
+   "costs": [
+    [
+     "water",
+     167
+    ]
+   ]
+  },
+  {
+   "name": "Greater Water Summoning",
+   "level": 2,
+   "costs": [
+    [
+     "water",
+     56
+    ]
+   ]
+  },
+  {
+   "name": "Maelstrom",
+   "level": 2,
+   "costs": [
+    [
+     "water",
+     45
+    ]
+   ]
+  },
+  {
+   "name": "Summon Champion of Water",
+   "level": 2,
+   "costs": [
+    [
+     "water",
+     56
+    ]
+   ]
+  },
+  {
+   "name": "Summon Mist Warrior",
+   "level": 2,
+   "costs": [
+    [
+     "water",
+     28
+    ],
+    [
+     "air",
+     28
+    ]
+   ]
+  },
+  {
+   "name": "Summon Mud Warrior",
+   "level": 2,
+   "costs": [
+    [
+     "water",
+     28
+    ],
+    [
+     "earth",
+     28
+    ]
+   ]
+  },
+  {
+   "name": "Summon Yeti",
+   "level": 2,
+   "costs": [
+    [
+     "water",
+     28
+    ],
+    [
+     "air",
+     28
+    ]
+   ]
+  },
+  {
+   "name": "Water Pact",
+   "level": 2,
+   "costs": [
+    [
+     "water",
+     28
+    ]
+   ]
+  },
+  {
+   "name": "Fimbul Fortress",
+   "level": 3,
+   "costs": [
+    [
+     "water",
+     125
+    ]
+   ]
+  },
+  {
+   "name": "Primal Maelstrom",
+   "level": 3,
+   "costs": [
+    [
+     "water",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Summon Queen of Water",
+   "level": 3,
+   "costs": [
+    [
+     "water",
+     250
+    ]
+   ]
+  },
+  {
+   "name": "Wheel of Frost and Flames",
+   "level": 3,
+   "costs": [
+    [
+     "water",
+     50
+    ],
+    [
+     "fire",
+     50
+    ]
+   ]
+  }
+ ],
+ "20": [
+  {
+   "name": "Lesser Air Summoning",
+   "level": 1,
+   "costs": [
+    [
+     "air",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Storm Pact",
+   "level": 1,
+   "costs": [
+    [
+     "air",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Curtain of Storms",
+   "level": 2,
+   "ap": 6,
+   "costs": [
+    [
+     "air",
+     28
+    ]
+   ]
+  },
+  {
+   "name": "Greater Air Summoning",
+   "level": 2,
+   "costs": [
+    [
+     "air",
+     56
+    ]
+   ]
+  },
+  {
+   "name": "Greater Storm Pact",
+   "level": 2,
+   "costs": [
+    [
+     "air",
+     167
+    ]
+   ]
+  },
+  {
+   "name": "Storm Pact",
+   "level": 2,
+   "costs": [
+    [
+     "air",
+     28
+    ]
+   ]
+  },
+  {
+   "name": "Summon Champion of Air",
+   "level": 2,
+   "costs": [
+    [
+     "air",
+     56
+    ]
+   ]
+  },
+  {
+   "name": "Summon Mist Warrior",
+   "level": 2,
+   "costs": [
+    [
+     "air",
+     28
+    ],
+    [
+     "water",
+     28
+    ]
+   ]
+  },
+  {
+   "name": "Summon Smoke Warrior",
+   "level": 2,
+   "costs": [
+    [
+     "air",
+     28
+    ],
+    [
+     "fire",
+     28
+    ]
+   ]
+  },
+  {
+   "name": "Summon Yeti",
+   "level": 2,
+   "costs": [
+    [
+     "air",
+     28
+    ],
+    [
+     "water",
+     28
+    ]
+   ]
+  },
+  {
+   "name": "Cloud Castle",
+   "level": 3,
+   "costs": [
+    [
+     "air",
+     188
+    ]
+   ]
+  },
+  {
+   "name": "Perpetual Storm",
+   "level": 3,
+   "costs": [
+    [
+     "air",
+     157
+    ]
+   ]
+  },
+  {
+   "name": "Summon Queen of Air",
+   "level": 3,
+   "costs": [
+    [
+     "air",
+     250
+    ]
+   ]
+  },
+  {
+   "name": "Wheel of Storm and Stone",
+   "level": 3,
+   "costs": [
+    [
+     "air",
+     50
+    ],
+    [
+     "earth",
+     50
+    ]
+   ]
+  }
+ ],
+ "21": [
+  {
+   "name": "Earth Pact",
+   "level": 1,
+   "costs": [
+    [
+     "earth",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Earth Summoning",
+   "level": 1,
+   "costs": [
+    [
+     "earth",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Dig",
+   "level": 2,
+   "costs": [
+    [
+     "earth",
+     12
+    ]
+   ]
+  },
+  {
+   "name": "Earth Pact",
+   "level": 2,
+   "costs": [
+    [
+     "earth",
+     28
+    ]
+   ]
+  },
+  {
+   "name": "Greater Earth Pact",
+   "level": 2,
+   "costs": [
+    [
+     "earth",
+     167
+    ]
+   ]
+  },
+  {
+   "name": "Greater Earth Summoning",
+   "level": 2,
+   "costs": [
+    [
+     "earth",
+     56
+    ]
+   ]
+  },
+  {
+   "name": "Ramparts of Earth",
+   "level": 2,
+   "costs": [
+    [
+     "earth",
+     12
+    ]
+   ]
+  },
+  {
+   "name": "Summon Champion of Earth",
+   "level": 2,
+   "costs": [
+    [
+     "earth",
+     56
+    ]
+   ]
+  },
+  {
+   "name": "Summon Magma Warrior",
+   "level": 2,
+   "costs": [
+    [
+     "earth",
+     28
+    ],
+    [
+     "fire",
+     28
+    ]
+   ]
+  },
+  {
+   "name": "Summon Mud Warrior",
+   "level": 2,
+   "costs": [
+    [
+     "earth",
+     28
+    ],
+    [
+     "water",
+     28
+    ]
+   ]
+  },
+  {
+   "name": "Raise Volcano",
+   "level": 3,
+   "costs": [
+    [
+     "earth",
+     63
+    ],
+    [
+     "fire",
+     32
+    ]
+   ]
+  },
+  {
+   "name": "Summon King of Earth",
+   "level": 3,
+   "costs": [
+    [
+     "earth",
+     250
+    ]
+   ]
+  },
+  {
+   "name": "Wheel of Storm and Stone",
+   "level": 3,
+   "costs": [
+    [
+     "earth",
+     50
+    ],
+    [
+     "air",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Wizard's Tower",
+   "level": 3,
+   "costs": [
+    [
+     "earth",
+     125
+    ]
+   ]
+  }
+ ],
+ "22": [
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "fungus",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Plant Giant Fungus",
+   "level": 1,
+   "costs": [
+    [
+     "fungus",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "fungus",
+     150
+    ]
+   ]
+  },
+  {
+   "name": "Vision Brew",
+   "level": 1,
+   "costs": [
+    [
+     "fungus",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Wither Wood",
+   "level": 1,
+   "costs": [
+    [
+     "fungus",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Activate Fairy Circle",
+   "level": 2,
+   "costs": [
+    [
+     "fungus",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Call the Old Forest",
+   "level": 2,
+   "costs": [
+    [
+     "fungus",
+     150
+    ]
+   ]
+  },
+  {
+   "name": "Golden Nose",
+   "level": 2,
+   "costs": [
+    [
+     "fungus",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Plant Shadow Tree",
+   "level": 2,
+   "costs": [
+    [
+     "fungus",
+     75
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "fungus",
+     600
+    ]
+   ]
+  },
+  {
+   "name": "Clamor and Clang",
+   "level": 3,
+   "costs": [
+    [
+     "fungus",
+     100
+    ],
+    [
+     "goblins",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Stygian Bath",
+   "level": 3,
+   "costs": [
+    [
+     "fungus",
+     1500
+    ]
+   ]
+  },
+  {
+   "name": "Summon Linnorm",
+   "level": 3,
+   "costs": [
+    [
+     "fungus",
+     1000
+    ],
+    [
+     "gold",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Summon Orm",
+   "level": 3,
+   "costs": [
+    [
+     "fungus",
+     750
+    ]
+   ]
+  }
+ ],
+ "23": [
+  {
+   "name": "Astrology",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     5
+    ]
+   ]
+  },
+  {
+   "name": "Call of the Deep",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Call Warriors of the Deep",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Ceremony in the Deep",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Contact Elder Being",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     30
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     15
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     90
+    ]
+   ]
+  },
+  {
+   "name": "Call Army of the Deep",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     75
+    ]
+   ]
+  },
+  {
+   "name": "Contact Old Ones",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Greater Ceremony in the Deep",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     40
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     360
+    ]
+   ]
+  },
+  {
+   "name": "Call Outer God",
+   "level": 3,
+   "costs": [
+    [
+     "sacr",
+     200
+    ]
+   ]
+  },
+  {
+   "name": "Deep Rising",
+   "level": 3,
+   "costs": [
+    [
+     "sacr",
+     100
+    ]
+   ]
+  }
+ ],
+ "24": [
+  {
+   "name": "Astrology",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     1
+    ]
+   ]
+  },
+  {
+   "name": "Call Elder Beings",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Horoscope",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     5
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Void Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     15
+    ]
+   ]
+  },
+  {
+   "name": "Void Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     90
+    ]
+   ]
+  },
+  {
+   "name": "Grand Void Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     360
+    ]
+   ]
+  },
+  {
+   "name": "Send Lesser Horror",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Send Greater Horror",
+   "level": 3,
+   "costs": [
+    [
+     "sacr",
+     50
+    ]
+   ]
+  }
+ ],
+ "26": [
+  {
+   "name": "Capture Images",
+   "level": 1,
+   "costs": [
+    [
+     "gems",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Capture Spell",
+   "level": 1,
+   "costs": [
+    [
+     "gems",
+     5
+    ]
+   ]
+  },
+  {
+   "name": "Floating Eye",
+   "level": 1,
+   "costs": [
+    [
+     "gems",
+     5
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "gems",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "gems",
+     60
+    ]
+   ]
+  },
+  {
+   "name": "Capture Greater Spell",
+   "level": 2,
+   "ap": 2,
+   "costs": [
+    [
+     "gems",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Capture Images",
+   "level": 2,
+   "ap": 2,
+   "costs": [
+    [
+     "gems",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Capture Phantasms",
+   "level": 2,
+   "ap": 2,
+   "costs": [
+    [
+     "gems",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Capture Spell",
+   "level": 2,
+   "ap": 2,
+   "costs": [
+    [
+     "gems",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Mirror Blink",
+   "level": 2,
+   "costs": [
+    [
+     "gems",
+     5
+    ]
+   ]
+  },
+  {
+   "name": "Mirror Walk",
+   "level": 2,
+   "costs": [
+    [
+     "gems",
+     5
+    ]
+   ]
+  },
+  {
+   "name": "Mirror Wall",
+   "level": 2,
+   "ap": 6,
+   "costs": [
+    [
+     "gems",
+     25
+    ],
+    [
+     "gold",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "gems",
+     180
+    ]
+   ]
+  },
+  {
+   "name": "Scrying",
+   "level": 2,
+   "costs": [
+    [
+     "gems",
+     2
+    ]
+   ]
+  },
+  {
+   "name": "Summon Phase Beast",
+   "level": 2,
+   "costs": [
+    [
+     "gems",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Veil Mine",
+   "level": 2,
+   "ap": 2,
+   "costs": [
+    [
+     "gems",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Capture Greater Spell",
+   "level": 3,
+   "ap": 3,
+   "costs": [
+    [
+     "gems",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Capture Phantasms",
+   "level": 3,
+   "ap": 3,
+   "costs": [
+    [
+     "gems",
+     75
+    ]
+   ]
+  },
+  {
+   "name": "Create Simulacrum",
+   "level": 3,
+   "costs": [
+    [
+     "gems",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Fata Morgana",
+   "level": 3,
+   "ap": 2,
+   "costs": [
+    [
+     "gems",
+     30
+    ],
+    [
+     "gold",
+     30
+    ]
+   ]
+  },
+  {
+   "name": "Mirror Gate",
+   "level": 3,
+   "costs": [
+    [
+     "gems",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Palace of Everchanging Dreams",
+   "level": 3,
+   "costs": [
+    [
+     "gems",
+     75
+    ]
+   ]
+  }
+ ],
+ "27": [
+  {
+   "name": "Benediction",
+   "level": 1,
+   "costs": [
+    [
+     "gold",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Drain Swamp",
+   "level": 1,
+   "costs": [
+    [
+     "gold",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Found Monastery",
+   "level": 2,
+   "costs": [
+    [
+     "gold",
+     50
+    ]
+   ]
+  }
+ ],
+ "28": [
+  {
+   "name": "Create Councilor",
+   "level": 1,
+   "costs": [
+    [
+     "earth",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Create Iron Gate",
+   "level": 1,
+   "ap": 3,
+   "costs": [
+    [
+     "earth",
+     30
+    ]
+   ]
+  },
+  {
+   "name": "Lore of Dvalin I",
+   "level": 1,
+   "costs": [
+    [
+     "air",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Sense Mines",
+   "level": 1,
+   "costs": [
+    [
+     "air",
+     5
+    ]
+   ]
+  },
+  {
+   "name": "Create Rune Smith",
+   "level": 2,
+   "costs": [
+    [
+     "air",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Divine Marriage",
+   "level": 2,
+   "costs": [
+    [
+     "air",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Enchant Gate",
+   "level": 2,
+   "ap": 3,
+   "costs": [
+    [
+     "air",
+     40
+    ]
+   ]
+  },
+  {
+   "name": "Lore of Dvalin II",
+   "level": 2,
+   "costs": [
+    [
+     "air",
+     30
+    ]
+   ]
+  },
+  {
+   "name": "Living Boulders",
+   "level": 3,
+   "costs": [
+    [
+     "air",
+     15
+    ],
+    [
+     "earth",
+     15
+    ]
+   ]
+  },
+  {
+   "name": "Lore of Dvalin III",
+   "level": 3,
+   "costs": [
+    [
+     "air",
+     90
+    ]
+   ]
+  },
+  {
+   "name": "Portal of Dvalin",
+   "level": 3,
+   "ap": 6,
+   "costs": [
+    [
+     "air",
+     25
+    ],
+    [
+     "earth",
+     25
+    ]
+   ]
+  }
+ ],
+ "29": [
+  {
+   "name": "Create Armor of Dvalin",
+   "level": 1,
+   "costs": [
+    [
+     "earth",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Create Furnace Armor",
+   "level": 1,
+   "costs": [
+    [
+     "fire",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Create Rime Armor",
+   "level": 1,
+   "costs": [
+    [
+     "water",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "air",
+     75
+    ]
+   ]
+  },
+  {
+   "name": "Earth Brand Ballista",
+   "level": 2,
+   "costs": [
+    [
+     "earth",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Earth Brand Weapons",
+   "level": 2,
+   "costs": [
+    [
+     "earth",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Flame Brand Ballista",
+   "level": 2,
+   "costs": [
+    [
+     "fire",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Flame Brand Weapons",
+   "level": 2,
+   "costs": [
+    [
+     "fire",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Rime Brand Ballista",
+   "level": 2,
+   "costs": [
+    [
+     "water",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Rime Brand Weapons",
+   "level": 2,
+   "costs": [
+    [
+     "water",
+     20
+    ]
+   ]
+  }
+ ],
+ "30": [
+  {
+   "name": "Found Colony",
+   "level": 1,
+   "costs": [
+    [
+     "gold",
+     250
+    ],
+    [
+     "iron",
+     50
+    ]
+   ]
+  }
+ ],
+ "31": [
+  {
+   "name": "Coronation",
+   "level": 2,
+   "costs": [
+    [
+     "gold",
+     600
+    ]
+   ]
+  },
+  {
+   "name": "Apotheosis",
+   "level": 3,
+   "costs": [
+    [
+     "gold",
+     1000
+    ]
+   ]
+  },
+  {
+   "name": "Appoint Governor",
+   "level": 3,
+   "costs": [
+    [
+     "gold",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Erect Statue",
+   "level": 3,
+   "ap": 4,
+   "costs": [
+    [
+     "gold",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Imperial Wedding",
+   "level": 3,
+   "costs": [
+    [
+     "gold",
+     400
+    ]
+   ]
+  }
+ ],
+ "32": [
+  {
+   "name": "Apotheosis",
+   "level": 3,
+   "costs": [
+    [
+     "gold",
+     1000
+    ]
+   ]
+  }
+ ],
+ "33": [
+  {
+   "name": "Ceremony of the Lord of War",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     120
+    ]
+   ]
+  },
+  {
+   "name": "Greater Ceremony of the Lord of War",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     125
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     480
+    ]
+   ]
+  },
+  {
+   "name": "Summon God",
+   "level": 3,
+   "costs": [
+    [
+     "sacr",
+     500
+    ]
+   ]
+  }
+ ],
+ "34": [
+  {
+   "name": "Ceremony of the Bloody Mother",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     120
+    ]
+   ]
+  },
+  {
+   "name": "Greater Ceremony of the Bloody Mother",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     125
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     480
+    ]
+   ]
+  },
+  {
+   "name": "Summon God",
+   "level": 3,
+   "costs": [
+    [
+     "sacr",
+     500
+    ]
+   ]
+  }
+ ],
+ "35": [
+  {
+   "name": "Ceremony of the Lord of Sky",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     120
+    ]
+   ]
+  },
+  {
+   "name": "Greater Ceremony of the Lord of Sky",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     125
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     480
+    ]
+   ]
+  },
+  {
+   "name": "Summon God",
+   "level": 3,
+   "costs": [
+    [
+     "sacr",
+     500
+    ]
+   ]
+  }
+ ],
+ "36": [
+  {
+   "name": "Ceremony of the Lord of Rain",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     120
+    ]
+   ]
+  },
+  {
+   "name": "Greater Ceremony of the Lord of Rain",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     125
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     480
+    ]
+   ]
+  },
+  {
+   "name": "Summon God",
+   "level": 3,
+   "costs": [
+    [
+     "sacr",
+     500
+    ]
+   ]
+  }
+ ],
+ "37": [
+  {
+   "name": "Ceremony of the Lord of Night",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     120
+    ]
+   ]
+  },
+  {
+   "name": "Greater Ceremony of the Lord of Night",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     125
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     480
+    ]
+   ]
+  },
+  {
+   "name": "Summon God",
+   "level": 3,
+   "costs": [
+    [
+     "sacr",
+     500
+    ]
+   ]
+  }
+ ],
+ "38": [
+  {
+   "name": "Ceremony of the Lord of Death",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     120
+    ]
+   ]
+  },
+  {
+   "name": "Greater Ceremony of the Lord of Death",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     125
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     480
+    ]
+   ]
+  },
+  {
+   "name": "Summon God",
+   "level": 3,
+   "costs": [
+    [
+     "sacr",
+     500
+    ]
+   ]
+  }
+ ],
+ "39": [
+  {
+   "name": "Dark Knowledge",
+   "level": 1,
+   "costs": [
+    [
+     "hands",
+     3
+    ]
+   ]
+  },
+  {
+   "name": "Flesh Rite",
+   "level": 1,
+   "costs": [
+    [
+     "hands",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "hands",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Minor Summoning",
+   "level": 1,
+   "costs": [
+    [
+     "hands",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Raise Dead",
+   "level": 1,
+   "ap": 2
+  },
+  {
+   "name": "Raven Spy",
+   "level": 1,
+   "costs": [
+    [
+     "hands",
+     5
+    ]
+   ]
+  },
+  {
+   "name": "Reanimate Animals",
+   "level": 1,
+   "ap": 2
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "hands",
+     60
+    ]
+   ]
+  },
+  {
+   "name": "Twiceborn",
+   "level": 1,
+   "costs": [
+    [
+     "hands",
+     30
+    ]
+   ]
+  },
+  {
+   "name": "Animate Abomination",
+   "level": 2,
+   "ap": 2,
+   "costs": [
+    [
+     "hands",
+     50
+    ],
+    [
+     "corpses",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Blood Rite",
+   "level": 2,
+   "costs": [
+    [
+     "hands",
+     125
+    ]
+   ]
+  },
+  {
+   "name": "Create Flesh Golem",
+   "level": 2,
+   "ap": 2,
+   "costs": [
+    [
+     "gold",
+     5
+    ],
+    [
+     "human corpses",
+     5
+    ]
+   ]
+  },
+  {
+   "name": "Major Summoning",
+   "level": 2,
+   "costs": [
+    [
+     "hands",
+     75
+    ]
+   ]
+  },
+  {
+   "name": "Ravenous Curse",
+   "level": 2,
+   "costs": [
+    [
+     "hands",
+     40
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "hands",
+     240
+    ]
+   ]
+  },
+  {
+   "name": "Blood Servant",
+   "level": 3,
+   "costs": [
+    [
+     "hands",
+     75
+    ]
+   ]
+  }
+ ],
+ "40": [
+  {
+   "name": "King of Giants",
+   "level": 1,
+   "costs": [
+    [
+     "fire",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Call Giants",
+   "level": 2,
+   "costs": [
+    [
+     "fire",
+     100
+    ]
+   ]
+  }
+ ],
+ "41": [
+  {
+   "name": "King of Giants",
+   "level": 1,
+   "costs": [
+    [
+     "water",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Call Giants",
+   "level": 2,
+   "costs": [
+    [
+     "water",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Call Winter Wolves",
+   "level": 2,
+   "costs": [
+    [
+     "water",
+     25
+    ]
+   ]
+  }
+ ],
+ "42": [
+  {
+   "name": "King of Giants",
+   "level": 1,
+   "costs": [
+    [
+     "earth",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Call Giants",
+   "level": 2,
+   "costs": [
+    [
+     "earth",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Create Artifact",
+   "level": 2,
+   "ap": 2,
+   "costs": [
+    [
+     "gold",
+     25
+    ],
+    [
+     "gems",
+     25
+    ]
+   ]
+  }
+ ],
+ "43": [
+  {
+   "name": "King of Giants",
+   "level": 1,
+   "costs": [
+    [
+     "air",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Call Giants",
+   "level": 2,
+   "costs": [
+    [
+     "air",
+     100
+    ]
+   ]
+  }
+ ],
+ "44": [
+  {
+   "name": "King of Giants",
+   "level": 1,
+   "costs": [
+    [
+     "water",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Call Giants",
+   "level": 2,
+   "costs": [
+    [
+     "water",
+     100
+    ]
+   ]
+  }
+ ],
+ "45": [
+  {
+   "name": "Apotheosis",
+   "level": 2,
+   "costs": [
+    [
+     "gold",
+     1000
+    ]
+   ]
+  },
+  {
+   "name": "Appoint Governor",
+   "level": 2,
+   "costs": [
+    [
+     "gold",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Erect Statue",
+   "level": 2,
+   "ap": 4,
+   "costs": [
+    [
+     "gold",
+     100
+    ]
+   ]
+  }
+ ],
+ "46": [
+  {
+   "name": "Planar Swap",
+   "level": 3,
+   "costs": [
+    [
+     "gold",
+     500
+    ]
+   ]
+  }
+ ],
+ "47": [
+  {
+   "name": "Bramble Fort",
+   "level": 1,
+   "ap": 3,
+   "costs": [
+    [
+     "herbs",
+     150
+    ]
+   ]
+  },
+  {
+   "name": "Create Sacred Grove",
+   "level": 1,
+   "ap": 6,
+   "costs": [
+    [
+     "herbs",
+     400
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "herbs",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Minor Animal Summoning",
+   "level": 1,
+   "costs": [
+    [
+     "herbs",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "herbs",
+     200
+    ]
+   ]
+  },
+  {
+   "name": "Blood Orgy",
+   "level": 2,
+   "costs": [
+    [
+     "herbs",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Call of Gaia",
+   "level": 2,
+   "costs": [
+    [
+     "herbs",
+     400
+    ]
+   ]
+  },
+  {
+   "name": "Create Grove of Gaia",
+   "level": 2,
+   "ap": 6,
+   "costs": [
+    [
+     "herbs",
+     750
+    ]
+   ]
+  },
+  {
+   "name": "Major Animal Summoning",
+   "level": 2,
+   "costs": [
+    [
+     "herbs",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Plant Hamadryad",
+   "level": 2,
+   "ap": 3,
+   "costs": [
+    [
+     "herbs",
+     200
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "herbs",
+     800
+    ]
+   ]
+  },
+  {
+   "name": "Call of the Wild",
+   "level": 3,
+   "costs": [
+    [
+     "herbs",
+     400
+    ]
+   ]
+  },
+  {
+   "name": "Create Primal Forest",
+   "level": 3,
+   "ap": 6,
+   "costs": [
+    [
+     "herbs",
+     1000
+    ]
+   ]
+  },
+  {
+   "name": "Incarnate Earth Mother",
+   "level": 3,
+   "costs": [
+    [
+     "herbs",
+     1500
+    ]
+   ]
+  },
+  {
+   "name": "Summon Servants of Gaia",
+   "level": 3,
+   "costs": [
+    [
+     "herbs",
+     750
+    ]
+   ]
+  }
+ ],
+ "48": [
+  {
+   "name": "Call of the Pyramid",
+   "level": 1,
+   "costs": [
+    [
+     "lifeforce",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Construct Pillar of Power",
+   "level": 1,
+   "ap": 3,
+   "costs": [
+    [
+     "gold",
+     25
+    ],
+    [
+     "iron",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Dark Bonds",
+   "level": 1,
+   "ap": 3,
+   "costs": [
+    [
+     "lifeforce",
+     150
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Scourge Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "lifeforce",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Scourge Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "lifeforce",
+     200
+    ]
+   ]
+  },
+  {
+   "name": "Scourge Summons",
+   "level": 1,
+   "costs": [
+    [
+     "lifeforce",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Appoint Herald",
+   "level": 2,
+   "costs": [
+    [
+     "lifeforce",
+     100
+    ],
+    [
+     "gold",
+     30
+    ]
+   ]
+  },
+  {
+   "name": "Call of the Pillar",
+   "level": 2,
+   "costs": [
+    [
+     "lifeforce",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Construct Guardian",
+   "level": 2,
+   "ap": 3,
+   "costs": [
+    [
+     "lifeforce",
+     100
+    ],
+    [
+     "iron",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Construct Pyramid of Power",
+   "level": 2,
+   "ap": 6,
+   "costs": [
+    [
+     "gold",
+     75
+    ],
+    [
+     "iron",
+     75
+    ]
+   ]
+  },
+  {
+   "name": "Dark Blessing",
+   "level": 2,
+   "costs": [
+    [
+     "lifeforce",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Dark Scourge Summons",
+   "level": 2,
+   "costs": [
+    [
+     "lifeforce",
+     150
+    ]
+   ]
+  },
+  {
+   "name": "Grand Ritual of Scourge Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "lifeforce",
+     800
+    ]
+   ]
+  },
+  {
+   "name": "Pyramid Walls",
+   "level": 2,
+   "ap": 3,
+   "costs": [
+    [
+     "lifeforce",
+     50
+    ],
+    [
+     "iron",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Black Scourge Summons",
+   "level": 3,
+   "costs": [
+    [
+     "lifeforce",
+     750
+    ]
+   ]
+  },
+  {
+   "name": "Construct Mountain of Power",
+   "level": 3,
+   "ap": 9,
+   "costs": [
+    [
+     "gold",
+     250
+    ],
+    [
+     "iron",
+     250
+    ],
+    [
+     "lifeforce",
+     250
+    ]
+   ]
+  },
+  {
+   "name": "Pyramid Gate",
+   "level": 3,
+   "costs": [
+    [
+     "lifeforce",
+     100
+    ]
+   ]
+  }
+ ],
+ "49": [
+  {
+   "name": "Diamond Alchemy",
+   "level": 1,
+   "costs": [
+    [
+     "fire",
+     10
+    ],
+    [
+     "water",
+     10
+    ],
+    [
+     "earth",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "air",
+     15
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Sky Summoning",
+   "level": 1,
+   "costs": [
+    [
+     "air",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "air",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Greater Sky Summoning",
+   "level": 2,
+   "costs": [
+    [
+     "air",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Rainbow Curtain",
+   "level": 2,
+   "ap": 6,
+   "costs": [
+    [
+     "air",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "air",
+     150
+    ]
+   ]
+  },
+  {
+   "name": "Shape Clouds",
+   "level": 2,
+   "ap": 3,
+   "costs": [
+    [
+     "air",
+     5
+    ],
+    [
+     "earth",
+     5
+    ]
+   ]
+  },
+  {
+   "name": "Summon Mist Warrior",
+   "level": 2,
+   "costs": [
+    [
+     "air",
+     25
+    ],
+    [
+     "water",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Summon Storm Giant",
+   "level": 2,
+   "costs": [
+    [
+     "air",
+     75
+    ]
+   ]
+  },
+  {
+   "name": "Summon Yeti",
+   "level": 2,
+   "costs": [
+    [
+     "air",
+     25
+    ],
+    [
+     "water",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Castle in the Clouds",
+   "level": 3,
+   "costs": [
+    [
+     "air",
+     150
+    ]
+   ]
+  },
+  {
+   "name": "Fimbul Fortress",
+   "level": 3,
+   "costs": [
+    [
+     "water",
+     75
+    ],
+    [
+     "air",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Perpetual Storm",
+   "level": 3,
+   "costs": [
+    [
+     "air",
+     125
+    ]
+   ]
+  },
+  {
+   "name": "Summon Frost Giant",
+   "level": 3,
+   "costs": [
+    [
+     "water",
+     75
+    ]
+   ]
+  },
+  {
+   "name": "Summon Queen of Air",
+   "level": 3,
+   "costs": [
+    [
+     "air",
+     200
+    ]
+   ]
+  },
+  {
+   "name": "Summon Solar Eagle",
+   "level": 3,
+   "costs": [
+    [
+     "air",
+     25
+    ],
+    [
+     "fire",
+     50
+    ]
+   ]
+  }
+ ],
+ "50": [
+  {
+   "name": "Anabasis",
+   "level": 1,
+   "costs": [
+    [
+     "gold",
+     5
+    ]
+   ]
+  },
+  {
+   "name": "Katabasis",
+   "level": 1,
+   "costs": [
+    [
+     "gold",
+     5
+    ]
+   ]
+  }
+ ],
+ "51": [
+  {
+   "name": "Decay Rune Trap",
+   "level": 1,
+   "costs": [
+    [
+     "gems",
+     2
+    ],
+    [
+     "expendable units",
+     1
+    ]
+   ]
+  },
+  {
+   "name": "Kobold Hatchery",
+   "level": 1,
+   "ap": 3,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "iron",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "gems",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "gems",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Foretelling",
+   "level": 2,
+   "costs": [
+    [
+     "gold",
+     1
+    ],
+    [
+     "expendable units",
+     5
+    ]
+   ]
+  },
+  {
+   "name": "Kobold Stronghold",
+   "level": 2,
+   "ap": 3,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "iron",
+     75
+    ]
+   ]
+  },
+  {
+   "name": "Summon Dragon",
+   "level": 2,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "expendable units",
+     25
+    ],
+    [
+     "gems",
+     50
+    ]
+   ]
+  }
+ ],
+ "52": [
+  {
+   "name": "Flame Rune Trap",
+   "level": 1,
+   "costs": [
+    [
+     "fire",
+     1
+    ],
+    [
+     "expendable units",
+     1
+    ]
+   ]
+  },
+  {
+   "name": "Kobold Hatchery",
+   "level": 1,
+   "ap": 3,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "iron",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "fire",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "fire",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Foretelling",
+   "level": 2,
+   "costs": [
+    [
+     "fire",
+     1
+    ],
+    [
+     "expendable units",
+     5
+    ]
+   ]
+  },
+  {
+   "name": "Kobold Stronghold",
+   "level": 2,
+   "ap": 3,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "iron",
+     75
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "fire",
+     200
+    ]
+   ]
+  },
+  {
+   "name": "Summon Dragon",
+   "level": 2,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "expendable units",
+     25
+    ],
+    [
+     "fire",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Summon Elder Dragon",
+   "level": 3,
+   "costs": [
+    [
+     "gold",
+     200
+    ],
+    [
+     "expendable units",
+     200
+    ],
+    [
+     "fire",
+     50
+    ]
+   ]
+  }
+ ],
+ "53": [
+  {
+   "name": "Frost Rune Trap",
+   "level": 1,
+   "costs": [
+    [
+     "water",
+     1
+    ],
+    [
+     "expendable units",
+     1
+    ]
+   ]
+  },
+  {
+   "name": "Kobold Hatchery",
+   "level": 1,
+   "ap": 3,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "iron",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "water",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "water",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Foretelling",
+   "level": 2,
+   "costs": [
+    [
+     "water",
+     1
+    ],
+    [
+     "expendable units",
+     5
+    ]
+   ]
+  },
+  {
+   "name": "Kobold Stronghold",
+   "level": 2,
+   "ap": 3,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "iron",
+     75
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "water",
+     200
+    ]
+   ]
+  },
+  {
+   "name": "Summon Dragon",
+   "level": 2,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "expendable units",
+     25
+    ],
+    [
+     "water",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Summon Elder Dragon",
+   "level": 3,
+   "costs": [
+    [
+     "gold",
+     200
+    ],
+    [
+     "expendable units",
+     200
+    ],
+    [
+     "water",
+     50
+    ]
+   ]
+  }
+ ],
+ "54": [
+  {
+   "name": "Kobold Hatchery",
+   "level": 1,
+   "ap": 3,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "iron",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "air",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Lightning Rune Trap",
+   "level": 1,
+   "costs": [
+    [
+     "air",
+     1
+    ],
+    [
+     "expendable units",
+     1
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "air",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Foretelling",
+   "level": 2,
+   "costs": [
+    [
+     "air",
+     1
+    ],
+    [
+     "expendable units",
+     5
+    ]
+   ]
+  },
+  {
+   "name": "Kobold Stronghold",
+   "level": 2,
+   "ap": 3,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "iron",
+     75
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "air",
+     200
+    ]
+   ]
+  },
+  {
+   "name": "Summon Dragon",
+   "level": 2,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "expendable units",
+     25
+    ],
+    [
+     "air",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Summon Elder Dragon",
+   "level": 3,
+   "costs": [
+    [
+     "gold",
+     200
+    ],
+    [
+     "expendable units",
+     200
+    ],
+    [
+     "air",
+     50
+    ]
+   ]
+  }
+ ],
+ "55": [
+  {
+   "name": "Kobold Hatchery",
+   "level": 1,
+   "ap": 3,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "iron",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "earth",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Poison Gas Trap",
+   "level": 1,
+   "costs": [
+    [
+     "earth",
+     1
+    ],
+    [
+     "expendable units",
+     1
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "earth",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Foretelling",
+   "level": 2,
+   "costs": [
+    [
+     "earth",
+     1
+    ],
+    [
+     "expendable units",
+     5
+    ]
+   ]
+  },
+  {
+   "name": "Kobold Stronghold",
+   "level": 2,
+   "ap": 3,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "iron",
+     75
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "earth",
+     200
+    ]
+   ]
+  },
+  {
+   "name": "Summon Dragon",
+   "level": 2,
+   "costs": [
+    [
+     "gold",
+     50
+    ],
+    [
+     "expendable units",
+     25
+    ],
+    [
+     "earth",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Summon Elder Dragon",
+   "level": 3,
+   "costs": [
+    [
+     "gold",
+     200
+    ],
+    [
+     "expendable units",
+     200
+    ],
+    [
+     "earth",
+     50
+    ]
+   ]
+  }
+ ],
+ "56": [
+  {
+   "name": "Alchemy",
+   "level": 1,
+   "ap": 3,
+   "costs": [
+    [
+     "iron",
+     1
+    ]
+   ]
+  },
+  {
+   "name": "Alchemical Catapult",
+   "level": 2,
+   "costs": [
+    [
+     "gold",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Alchemical Trebuchet",
+   "level": 2,
+   "costs": [
+    [
+     "gold",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Greater Alchemy",
+   "level": 2,
+   "ap": 3,
+   "costs": [
+    [
+     "iron",
+     1
+    ]
+   ]
+  }
+ ],
+ "57": [
+  {
+   "name": "Erect Imperial Statue",
+   "level": 1,
+   "ap": 4,
+   "costs": [
+    [
+     "gold",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Erect Statue of the Underworld",
+   "level": 1,
+   "ap": 4,
+   "costs": [
+    [
+     "gold",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Raise Limitanei",
+   "level": 1
+  }
+ ],
+ "58": [
+  {
+   "name": "Design Eagle Tattoo",
+   "level": 1,
+   "costs": [
+    [
+     "herbs",
+     200
+    ]
+   ]
+  },
+  {
+   "name": "Paint Tattoo",
+   "level": 1,
+   "costs": [
+    [
+     "herbs",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Design Pegasus Tattoo",
+   "level": 2,
+   "costs": [
+    [
+     "herbs",
+     500
+    ]
+   ]
+  }
+ ],
+ "59": [
+  {
+   "name": "Design Lion Tattoo",
+   "level": 1,
+   "costs": [
+    [
+     "herbs",
+     200
+    ]
+   ]
+  },
+  {
+   "name": "Paint Tattoo",
+   "level": 1,
+   "costs": [
+    [
+     "herbs",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Design Gryphon Tattoo",
+   "level": 2,
+   "costs": [
+    [
+     "herbs",
+     500
+    ]
+   ]
+  }
+ ],
+ "60": [
+  {
+   "name": "Design Serpent Tattoo",
+   "level": 1,
+   "costs": [
+    [
+     "herbs",
+     200
+    ]
+   ]
+  },
+  {
+   "name": "Paint Tattoo",
+   "level": 1,
+   "costs": [
+    [
+     "herbs",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Design Hydra Tattoo",
+   "level": 2,
+   "costs": [
+    [
+     "herbs",
+     500
+    ]
+   ]
+  }
+ ],
+ "61": [
+  {
+   "name": "Design Badger Tattoo",
+   "level": 1,
+   "costs": [
+    [
+     "herbs",
+     200
+    ]
+   ]
+  },
+  {
+   "name": "Paint Tattoo",
+   "level": 1,
+   "costs": [
+    [
+     "herbs",
+     50
+    ]
+   ]
+  },
+  {
+   "name": "Design Skull Tattoo",
+   "level": 2,
+   "costs": [
+    [
+     "herbs",
+     500
+    ]
+   ]
+  }
+ ],
+ "62": [
+  {
+   "name": "Lesser Akashic Summoning",
+   "level": 1,
+   "costs": [
+    [
+     "gems",
+     30
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "gems",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "gems",
+     60
+    ]
+   ]
+  },
+  {
+   "name": "Akashic Records",
+   "level": 2,
+   "costs": [
+    [
+     "gems",
+     2
+    ]
+   ]
+  },
+  {
+   "name": "Akashic Summoning",
+   "level": 2,
+   "costs": [
+    [
+     "gems",
+     100
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "gems",
+     180
+    ]
+   ]
+  },
+  {
+   "name": "Avatara",
+   "level": 3,
+   "costs": [
+    [
+     "gems",
+     500
+    ]
+   ]
+  },
+  {
+   "name": "Greater Akashic Summoning",
+   "level": 3,
+   "costs": [
+    [
+     "gems",
+     250
+    ]
+   ]
+  }
+ ],
+ "63": [
+  {
+   "name": "Ruby Summoning",
+   "level": 1,
+   "costs": [
+    [
+     "fire",
+     30
+    ]
+   ]
+  },
+  {
+   "name": "Host of Maruts",
+   "level": 2,
+   "costs": [
+    [
+     "fire",
+     100
+    ]
+   ]
+  }
+ ],
+ "64": [
+  {
+   "name": "Inhabit Lake",
+   "level": 1,
+   "costs": [
+    [
+     "water",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Sapphire Summoning",
+   "level": 1,
+   "costs": [
+    [
+     "water",
+     30
+    ]
+   ]
+  }
+ ],
+ "65": [
+  {
+   "name": "Diamond Summoning",
+   "level": 1,
+   "costs": [
+    [
+     "air",
+     30
+    ]
+   ]
+  },
+  {
+   "name": "Turning of the Wheel",
+   "level": 2,
+   "costs": [
+    [
+     "gems",
+     500
+    ]
+   ]
+  }
+ ],
+ "66": [
+  {
+   "name": "Emerald Summoning",
+   "level": 1,
+   "costs": [
+    [
+     "earth",
+     30
+    ]
+   ]
+  },
+  {
+   "name": "Inhabit Jungle",
+   "level": 1,
+   "costs": [
+    [
+     "earth",
+     20
+    ]
+   ]
+  }
+ ],
+ "67": [
+  {
+   "name": "Bhuta Possession",
+   "level": 1,
+   "ap": 2,
+   "costs": [
+    [
+     "sacr",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Lanka Summoning",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     30
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     20
+    ]
+   ]
+  },
+  {
+   "name": "Naraka Summoning",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     40
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Mastery",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     120
+    ]
+   ]
+  },
+  {
+   "name": "Summon the Dead",
+   "level": 1,
+   "costs": [
+    [
+     "sacr",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Greater Lanka Summoning",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     150
+    ]
+   ]
+  },
+  {
+   "name": "Greater Naraka Summoning",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     180
+    ]
+   ]
+  },
+  {
+   "name": "Ritual of Grand Mastery",
+   "level": 2,
+   "costs": [
+    [
+     "sacr",
+     480
+    ]
+   ]
+  },
+  {
+   "name": "Shroud of Darkness",
+   "level": 2,
+   "ap": 6,
+   "costs": [
+    [
+     "sacr",
+     40
+    ]
+   ]
+  },
+  {
+   "name": "Veil Village",
+   "level": 2,
+   "ap": 2,
+   "costs": [
+    [
+     "sacr",
+     25
+    ]
+   ]
+  },
+  {
+   "name": "Rasatala Summoning",
+   "level": 3,
+   "costs": [
+    [
+     "sacr",
+     500
+    ]
+   ]
+  },
+  {
+   "name": "Veil of Dreams",
+   "level": 3,
+   "ap": 2,
+   "costs": [
+    [
+     "sacr",
+     75
+    ],
+    [
+     "gold",
+     25
+    ]
+   ]
+  }
+ ]
+}
