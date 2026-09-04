@@ -1,0 +1,28 @@
+# Everyone is welcome, search engines and AI crawlers alike.
+# A machine-readable site summary lives at /llms.txt.
+
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://toolbox.svp.gl/sitemap-index.xml

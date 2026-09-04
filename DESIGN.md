@@ -185,8 +185,14 @@ source attached (see the rules table in play.astro).
   Animate Tools ritual, is in neither the manual nor the extraction's own
   notes ("Required terrain: ???") — an open question. Groups -1000 to
   -1199 are mod-defined (`selectterrgroup`), so they have no fixed names.
-- **Unverified:** the `*(+1)` suffix on displayed range (lob/elevation?),
-  strength's role in combat resolution; the negated event conditions
+- **Strength's combat role (owner's play knowledge, 2026-09-03):** str
+  mainly determines how fast a unit recovers from stuns and similar
+  states — it is NOT part of the damage die, matching the earlier
+  data-side proof (str-in-die fits 0 of the annotated weapon lines).
+  Damage stays: weapon record = the default die, the monster's own dmg =
+  the (+value).
+- **Unverified:** the `*(+1)` suffix on displayed range (lob/elevation?);
+  the negated event conditions
   (`-turnnbr`, `-player`, …) and gate/wall terrain commands that appear
   only in the community Notepad++ syntax file — in neither the v5.36
   manual nor any data extraction, so not yet in the validator's catalog.

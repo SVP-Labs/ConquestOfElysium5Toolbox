@@ -1,4 +1,5 @@
 import { defineConfig } from "astro/config";
+import sitemap from "@astrojs/sitemap";
 import { fileURLToPath } from "node:url";
 
 const shim = (name) => fileURLToPath(new URL(`./src/shims/${name}.js`, import.meta.url));
@@ -21,6 +22,15 @@ const modcheckBrowserShims = {
 };
 
 export default defineConfig({
+  site: "https://toolbox.svp.gl",
+  integrations: [
+    // /play stays out of the sitemap while it is unlisted (it also carries
+    // a noindex meta of its own). Exact match — /commands/playerevent and
+    // friends must stay in.
+    sitemap({
+      filter: (page) => !["/play", "/play/"].includes(new URL(page).pathname),
+    }),
+  ],
   vite: {
     plugins: [modcheckBrowserShims],
   },
