@@ -14,6 +14,10 @@ RUN npm run build
 # retention the privacy page states. Base image pinned — a floating tag
 # once swapped behavior underneath us.
 FROM nginx:1.29-alpine
+# nginx-main.conf replaces the stock main config: its http-level `main`
+# access_log would otherwise log full X-Forwarded-For IPs alongside the
+# anonymised server-block log (same-level access_log directives accumulate).
+COPY nginx-main.conf /etc/nginx/nginx.conf
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=build /app/dist /usr/share/nginx/html
 EXPOSE 80
