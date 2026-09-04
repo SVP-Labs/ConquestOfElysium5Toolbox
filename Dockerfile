@@ -10,8 +10,10 @@ RUN npm run build
 
 # Serve stage: plain nginx with the pre-rendered site. Logs go to
 # stdout/stderr with the visitor IP anonymized before anything is written
-# (see nginx.conf), so no full IP is stored anywhere.
-FROM nginx:alpine
+# (see nginx.conf); the host's Docker log rotation and cleanup enforce the
+# retention the privacy page states. Base image pinned — a floating tag
+# once swapped behavior underneath us.
+FROM nginx:1.29-alpine
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=build /app/dist /usr/share/nginx/html
 EXPOSE 80

@@ -26,15 +26,16 @@ import Base from "../layouts/Base.astro";
     <h3>Server log files</h3>
     <p>
       Like almost every website, the server hosting this site automatically
-      records technical access data when you visit: your IP address in
-      shortened, anonymized form (the last part of the address is removed
-      before anything is written to the log), date and time of the request,
-      the requested URL, the HTTP status, and your browser's user-agent
-      string. Because the address is truncated before it is written, the log
-      never contains your full IP address. This data is processed on the
-      basis of Art. 6(1)(f) GDPR — our legitimate interest in operating the
-      site securely and diagnosing technical problems. Log data is not merged
-      with other data sources and cannot be used to identify visitors.
+      records technical access data when you visit. Access logs are
+      anonymised when written (the last octet of an IPv4 address / the last
+      80 bits of an IPv6 address are removed) and contain the timestamp, the
+      requested URL, the HTTP status code and your browser's identifier —
+      never your full IP address. They are rotated on the server, and rotated
+      files are deleted after 14 days at the latest. This data is processed
+      on the basis of Art. 6(1)(f) GDPR — our legitimate interest in
+      operating the site securely and diagnosing technical problems. Log data
+      is not merged with other data sources and cannot be used to identify
+      visitors.
     </p>
 
     <h3>Local storage</h3>
@@ -99,12 +100,12 @@ import Base from "../layouts/Base.astro";
     <h3>Server-Logdateien</h3>
     <p>
       Wie bei fast jeder Website erfasst der Server beim Besuch automatisch
-      technische Zugriffsdaten: Ihre IP-Adresse in gekürzter, anonymisierter
-      Form (der letzte Teil der Adresse wird entfernt, bevor etwas ins Log
-      geschrieben wird), Datum und Uhrzeit des Zugriffs, aufgerufene URL,
-      HTTP-Status und den User-Agent Ihres Browsers. Da die Adresse vor dem
-      Schreiben gekürzt wird, enthält das Log zu keinem Zeitpunkt Ihre
-      vollständige IP-Adresse. Die
+      technische Zugriffsdaten. Die Zugriffslogs werden bereits beim
+      Schreiben anonymisiert (das letzte Oktett einer IPv4-Adresse bzw. die
+      letzten 80 Bit einer IPv6-Adresse werden entfernt) und enthalten
+      Zeitstempel, aufgerufene URL, HTTP-Statuscode und die Browser-Kennung —
+      niemals Ihre vollständige IP-Adresse. Sie werden auf dem Server
+      rotiert; rotierte Dateien werden spätestens nach 14 Tagen gelöscht. Die
       Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO —
       unser berechtigtes Interesse am sicheren Betrieb der Website und an der
       Diagnose technischer Probleme. Logdaten werden nicht mit anderen
