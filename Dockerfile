@@ -8,16 +8,12 @@ COPY . .
 RUN test -f modcheck/data/commands.json || (echo "modcheck submodule is not checked out" && exit 1)
 RUN npm run build
 
-# Serve stage: plain nginx with the pre-rendered site.
-FROM nginx:alpine
-# The stock image symlinks its logs to stdout/stderr, where Docker would keep
-# visitor IPs indefinitely. Log to real files instead and rotate them away
-# after 14 days at the latest — the retention the privacy page states.
-RUN apk add --no-cache logrotate \
- && rm /var/log/nginx/access.log /var/log/nginx/error.log
-COPY logrotate-nginx.conf /etc/logrotate.d/nginx
-COPY docker-crond.sh /docker-entrypoint.d/45-crond.sh
-RUN chmod +x /docker-entrypoint.d/45-crond.sh
+# Serve stage: plain nginx with the pre-rendered site. Logs go to
+# stdout/stderr with the visitor IP anonymized before anything is written
+# (see nginx.conf); the host's Docker log rotation and cleanup enforce the
+# retention the privacy page states. Base image pinned — a floating tag
+# once swapped behavior underneath us.
+FROM nginx:1.29-alpine
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=build /app/dist /usr/share/nginx/html
 EXPOSE 80

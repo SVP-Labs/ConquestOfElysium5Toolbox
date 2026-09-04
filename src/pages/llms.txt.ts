@@ -51,8 +51,9 @@ base-game usage where they disagree. All pages are pre-rendered static HTML.
 
 - [Impressum](${SITE}/impressum)
 - [Privacy](${SITE}/privacy): no accounts, no analytics, no uploads — checks
-  run locally in the visitor's browser. The server keeps access logs with
-  anonymized (shortened) IPs for at most 14 days.
+  run locally in the visitor's browser. Server access logs only ever contain
+  anonymized (shortened) IP addresses; rotated log files are deleted after
+  14 days at the latest.
 `;
 
 export function GET() {
