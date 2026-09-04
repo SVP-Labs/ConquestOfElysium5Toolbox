@@ -51,7 +51,8 @@ base-game usage where they disagree. All pages are pre-rendered static HTML.
 
 - [Impressum](${SITE}/impressum)
 - [Privacy](${SITE}/privacy): no accounts, no analytics, no uploads — checks
-  run locally in the visitor's browser.
+  run locally in the visitor's browser. The server keeps standard access logs
+  (IP, time, URL, user agent) for at most 14 days.
 `;
 
 export function GET() {
