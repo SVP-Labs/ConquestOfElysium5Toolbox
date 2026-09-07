@@ -1,0 +1,1150 @@
+{
+ "0": {
+  "name": "Frost Brand",
+  "block": "newitem \"Frost Brand\"\nrarity 0\ntype 1\nitemwep \"Frost Brand\"\ncoldres 100"
+ },
+ "1": {
+  "name": "Fire Brand",
+  "block": "newitem \"Fire Brand\"\nrarity 0\ntype 1\nitemwep \"Fire Brand\"\nfireres 100"
+ },
+ "2": {
+  "name": "Lightning Spear",
+  "block": "newitem \"Lightning Spear\"\nrarity 0\ntype 1\nitemwep \"Lightning Spear\"\nshockres 100"
+ },
+ "3": {
+  "name": "Demon Whip",
+  "block": "newitem \"Demon Whip\"\nrarity 0\ntype 1\nitemwep \"Demon Whip\""
+ },
+ "4": {
+  "name": "Serpent Kryss",
+  "block": "newitem \"Serpent Kryss\"\nrarity 0\ntype 1\nitemwep \"Serpent Kryss\""
+ },
+ "5": {
+  "name": "Staff of the Night",
+  "block": "newitem \"Staff of the Night\"\nrarity 0\ntype 1\nitemwep \"Magic Staff\"\nacutesenses\ncombatsum -1 \"Dire Wolf\"\ncombatspell 1 \"Dark Cloud\""
+ },
+ "6": {
+  "name": "Club of the Ogre King",
+  "block": "newitem \"Club of the Ogre King\"\ndescr \"This club was once wielded by Forgnosh the Ogre King. It made Forgnosh much more resistant to damage and immune to cold. Anyone surviving a hit from the club will be stunned unless he is exceptionally strong.\"\nrarity 2\ntype 1\nitemwep \"Club of the Ogre King\"\nhp 25\ncoldres 100"
+ },
+ "7": {
+  "name": "Sword of the Damned",
+  "block": "newitem \"Sword of the Damned\"\nrarity 0\ntype 1\nitemwep \"Sword of the Damned\""
+ },
+ "8": {
+  "name": "Sword of Enfeeblement",
+  "block": "newitem \"Sword of Enfeeblement\"\nrarity 0\ntype 1\nitemwep \"Sword of Enfeeblement\""
+ },
+ "9": {
+  "name": "Infernal Torch",
+  "block": "newitem \"Infernal Torch\"\nrarity 0\ntype 1\nitemwep \"Infernal Torch\"\nburnforest 2\nfireres 100"
+ },
+ "10": {
+  "name": "Staff of Lightning",
+  "block": "newitem \"Staff of Lightning\"\nrarity 0\ntype 1\nitemwep \"Magic Staff\"\ncombatspell 1 \"Chain Lightning\""
+ },
+ "11": {
+  "name": "Rod of Death",
+  "block": "newitem \"Rod of Death\"\nrarity 0\ntype 1\nitemwep \"Magic Rod\"\nrank -1\ncombatspell 1 \"Drain Life\""
+ },
+ "12": {
+  "name": "Venom Sword",
+  "block": "newitem \"Venom Sword\"\nrarity 0\ntype 1\nitemwep \"Venom Sword\""
+ },
+ "13": {
+  "name": "Morningstar of Flames",
+  "block": "newitem \"Morningstar of Flames\"\nrarity 0\ntype 1\nitemwep \"Morningstar of Flames\""
+ },
+ "14": {
+  "name": "Faithful",
+  "block": "newitem \"Faithful\"\nrarity 0\ntype 1\nitemwep \"Magic Sword\"\nlucky"
+ },
+ "15": {
+  "name": "Staff of Fire",
+  "block": "newitem \"Staff of Fire\"\nrarity 0\ntype 1\nitemwep \"Magic Staff\"\nburnforest 1\nfireres 100\ncombatspell 1 \"Fireball\""
+ },
+ "16": {
+  "name": "Shaman's Staff",
+  "block": "newitem \"Shaman's Staff\"\nrarity 0\ntype 1\nitemwep \"Magic Staff\"\nspiritsight\nlucky\npathboost 17\ncombatspell 1 \"Curse\""
+ },
+ "17": {
+  "name": "Sword of Heroes",
+  "block": "newitem \"Sword of Heroes\"\nrarity 0\ntype 1\nitemwep \"Magic Sword\"\nmr 2"
+ },
+ "18": {
+  "name": "Axe of Sharpness",
+  "block": "newitem \"Axe of Sharpness\"\nrarity 0\ntype 1\nitemwep \"Axe of Sharpness\""
+ },
+ "19": {
+  "name": "Club of Dreams",
+  "block": "newitem \"Club of Dreams\"\nrarity 0\ntype 1\nitemwep \"Club of Dreams\"\nsleepres"
+ },
+ "20": {
+  "name": "Staff of the Magi",
+  "block": "newitem \"Staff of the Magi\"\nrarity 0\ntype 1\nitemwep \"Staff of Power\"\nspellrange 1"
+ },
+ "21": {
+  "name": "Mace of Pain",
+  "block": "newitem \"Mace of Pain\"\nrarity 0\ntype 1\nitemwep \"Mace of Pain\"\nsleepres"
+ },
+ "22": {
+  "name": "Sword of No Weight",
+  "block": "newitem \"Sword of No Weight\"\nrarity 0\ntype 1\nitemwep \"Sword of No Weight\""
+ },
+ "23": {
+  "name": "Snake Staff",
+  "block": "newitem \"Snake Staff\"\nrarity 0\ntype 1\nitemwep \"Snake Staff\"\ncombatsum -1 \"Snake\""
+ },
+ "24": {
+  "name": "Ice Spear",
+  "block": "newitem \"Ice Spear\"\nrarity 0\ntype 1\nitemwep \"Ice Spear\"\niceprot 1\ncoldres 100"
+ },
+ "25": {
+  "name": "Vine Whip",
+  "block": "newitem \"Vine Whip\"\nrarity 0\ntype 1\nitemwep \"Vine Whip\""
+ },
+ "26": {
+  "name": "Oakbane Axe",
+  "block": "newitem \"Oakbane Axe\"\nrarity 0\ntype 1\nitemwep \"Oakbane Axe\"\nchopforest 1"
+ },
+ "27": {
+  "name": "Shovel of the Mole King",
+  "block": "newitem \"Shovel of the Mole King\"\nrarity 0\ntype 1\nitemwep \"Enchanted Shovel\"\ntunnel"
+ },
+ "28": {
+  "name": "Burning Sword",
+  "block": "newitem \"Burning Sword\"\nrarity 0\ntype 1\nitemwep \"Burning Sword\""
+ },
+ "29": {
+  "name": "Banestar",
+  "block": "newitem \"Banestar\"\nrarity 0\ntype 1\nitemwep \"Banestar\""
+ },
+ "30": {
+  "name": "Morningstar of Strength",
+  "block": "newitem \"Morningstar of Strength\"\nrarity 0\ntype 1\nitemwep \"Morningstar of Strength\"\nhp 5\nstr 1"
+ },
+ "31": {
+  "name": "Mace of Unlife",
+  "block": "newitem \"Mace of Unlife\"\nrarity 0\ntype 1\nitemwep \"Mace of Unlife\"\npathboost 8\nhadesres 1"
+ },
+ "32": {
+  "name": "Golden Sickle",
+  "block": "newitem \"Golden Sickle\"\nrarity 1\ntype 1\nitemwep \"Golden Sickle\""
+ },
+ "33": {
+  "name": "Athame of High Sacrifice",
+  "block": "newitem \"Athame of High Sacrifice\"\nrarity 1\ntype 1\nitemwep \"Athame\""
+ },
+ "34": {
+  "name": "Staff of Power",
+  "block": "newitem \"Staff of Power\"\nrarity 1\ntype 1\nitemwep \"Staff of Power\"\nmagicboost 1"
+ },
+ "35": {
+  "name": "Solar Mace",
+  "block": "newitem \"Solar Mace\"\nrarity 1\ntype 1\nitemwep \"Solar Mace\"\nflying\nawe 1"
+ },
+ "36": {
+  "name": "Mace of Order",
+  "block": "newitem \"Mace of Order\"\ndescr \"This mace is traditionally used by fighting commanders in well equipped armies. It will increase the discipline of all nearby soldiers. When the mace is used to strike an enemy, it will strike adjacent enemies as well.\"\nrarity 1\ntype 1\nitemwep \"Mace of Order\"\nlocalleadership 1"
+ },
+ "37": {
+  "name": "Great Tetsubo of the Oni King",
+  "block": "newitem \"Great Tetsubo of the Oni King\"\nrarity 2\ntype 1\nitemwep \"Great Tetsubo of the Oni King\"\npathboost 24"
+ },
+ "38": {
+  "name": "Tempest",
+  "block": "newitem \"Tempest\"\nrarity 1\ntype 1\nitemwep \"Tempest\"\nshockres 100\ncombatspell 1 \"Thunder Strike\""
+ },
+ "39": {
+  "name": "Flail of Pain",
+  "block": "newitem \"Flail of Pain\"\nrarity 1\ntype 1\nitemwep \"Flail of Pain\""
+ },
+ "40": {
+  "name": "Staff of the Spirit World",
+  "block": "newitem \"Staff of the Spirit World\"\nrarity 1\ntype 1\nitemwep \"Magic Staff\"\nspiritsight\nethereal\npathboost 17\nmr -1\ncombatsum -1 \"2d4*Dispossessed Spirit\""
+ },
+ "41": {
+  "name": "Golden Scepter",
+  "block": "newitem \"Golden Scepter\"\nrarity 2\ntype 1\nitemwep \"Magic Scepter\"\nrank -1\npathboost 22"
+ },
+ "42": {
+  "name": "Staff of the Arch Magi",
+  "block": "newitem \"Staff of the Arch Magi\"\nrarity 2\ntype 1\nitemwep \"Staff of Power\"\nspiritsight\nmagicboost 1\nspellrange 1"
+ },
+ "43": {
+  "name": "Scepter of the Goblin King",
+  "block": "newitem \"Scepter of the Goblin King\"\ndescr \"This scepter was first found by a grave robber. Later it was taken by a band of goblin brigands and one of these brigands used the scepter to make himself the Goblin King. The scepter will curse anyone struck by it and can engulf opponents in flames from a distance.\"\nrarity 2\ntype 1\nitemwep \"Scepter of the Goblin King\"\nrank -1\ncombatspell 1 \"Flame Burst\""
+ },
+ "44": {
+  "name": "Alicorn",
+  "block": "newitem \"Alicorn\"\nrarity 0\ntype 1\nitemwep \"Alicorn\"\npoisonres 100\ncombatspell 1 \"Heal\""
+ },
+ "45": {
+  "name": "Death",
+  "block": "newitem \"Death\"\nrarity 3\ntype 1\nitemwep \"Death Scepter\"\npathboost 38"
+ },
+ "46": {
+  "name": "Sword of War",
+  "block": "newitem \"Sword of War\"\nrarity 3\ntype 1\nitemwep \"Sword of War\"\ncurseditem\nrank 2"
+ },
+ "47": {
+  "name": "Soul Scythe",
+  "block": "newitem \"Soul Scythe\"\nrarity 3\ntype 1\nitemwep \"Soul Scythe\"\ncurseditem"
+ },
+ "48": {
+  "name": "Axe of Lords",
+  "block": "newitem \"Axe of Lords\"\nrarity 3\ntype 1\nitemwep \"Axe of Lords\"\ncharmres"
+ },
+ "49": {
+  "name": "Hell's Reign",
+  "block": "newitem \"Hell's Reign\"\ndescr \"This scepter was forged by the Duke of Hell himself and it is a formidable weapon.\"\nrarity 3\ntype 1\nitemwep \"Hell's Reign\"\nspellrange 1\npathboost 1\nfireres 100"
+ },
+ "50": {
+  "name": "Wand of Fire",
+  "block": "newitem \"Wand of Fire\"\nrarity 0\ntype 1\nitemwep \"Magic Rod\"\nrank -1\ncombatspell 1 \"Flame Burst\""
+ },
+ "51": {
+  "name": "Wand of Frost",
+  "block": "newitem \"Wand of Frost\"\nrarity 0\ntype 1\nitemwep \"Magic Rod\"\nrank -1\ncombatspell 1 \"Frozen Heart\""
+ },
+ "52": {
+  "name": "Witch Wand",
+  "block": "newitem \"Witch Wand\"\nrarity 0\ntype 1\nitemwep \"Magic Rod\"\nrank -1\ncombatspell 1 \"Curse of the Frog Prince\""
+ },
+ "53": {
+  "name": "Wand of Sleep",
+  "block": "newitem \"Wand of Sleep\"\nrarity 0\ntype 1\nitemwep \"Magic Rod\"\nrank -1\ncombatspell 1 \"Sleep Cloud\""
+ },
+ "54": {
+  "name": "Wand of Fear",
+  "block": "newitem \"Wand of Fear\"\nrarity 0\ntype 1\nitemwep \"Magic Rod\"\nrank -1\ncombatspell 1 \"Fear\""
+ },
+ "55": {
+  "name": "Wand of Disintegration",
+  "block": "newitem \"Wand of Disintegration\"\nrarity 1\ntype 1\nitemwep \"Magic Rod\"\nrank -1\ncombatspell 1 \"Disintegrate\""
+ },
+ "56": {
+  "name": "Wand of Combustion",
+  "block": "newitem \"Wand of Combustion\"\nrarity 0\ntype 1\nitemwep \"Magic Rod\"\nrank -1\nburnforest 1\ncombatspell 1 \"Combustion\""
+ },
+ "57": {
+  "name": "Poison Cloud Wand",
+  "block": "newitem \"Poison Cloud Wand\"\nrarity 0\ntype 1\nitemwep \"Magic Rod\"\nrank -1\ncombatspell 1 \"Poison Cloud\""
+ },
+ "58": {
+  "name": "Spider Wand",
+  "block": "newitem \"Spider Wand\"\nrarity 0\ntype 1\nitemwep \"Magic Rod\"\nrank -1\ncombatspell 1 \"Poison Web\""
+ },
+ "59": {
+  "name": "Wand of Acid",
+  "block": "newitem \"Wand of Acid\"\nrarity 0\ntype 1\nitemwep \"Magic Rod\"\nrank -1\ncombatspell 1 \"Acid Darts\""
+ },
+ "60": {
+  "name": "Nomad's Helmet",
+  "block": "newitem \"Nomad's Helmet\"\nrarity 0\ntype 3\nhp 5\ncoldres 50\ncombatsum -1 \"Wolf\""
+ },
+ "61": {
+  "name": "Sun Helm",
+  "block": "newitem \"Sun Helm\"\nrarity 0\ntype 3\nhp 5\nfireres 100"
+ },
+ "62": {
+  "name": "Crown of Command",
+  "block": "newitem \"Crown of Command\"\nrarity 0\ntype 3\nextracost 25\nleadership 1"
+ },
+ "63": {
+  "name": "Mitre of Splendour",
+  "block": "newitem \"Mitre of Splendour\"\nrarity 0\ntype 3\npathboost 25\nawe 1\nfireres 100"
+ },
+ "64": {
+  "name": "Crown of Intimidation",
+  "block": "newitem \"Crown of Intimidation\"\nrarity 0\ntype 3\nextracost 25\nawe 1"
+ },
+ "65": {
+  "name": "Wraith Crown",
+  "block": "newitem \"Wraith Crown\"\nrarity 0\ntype 3\nethereal\nfloat\nextracost 50\nhadesres 1\ncombatsum -1 \"5d4*Longdead\""
+ },
+ "66": {
+  "name": "Horror Helmet",
+  "block": "newitem \"Horror Helmet\"\nrarity 0\ntype 3\nfear 1\nhp 2"
+ },
+ "67": {
+  "name": "Helmet of the Dark Knight",
+  "block": "newitem \"Helmet of the Dark Knight\"\nrarity 0\ntype 3\nhp 5\nstr 1\nhadesres 1\ncoldres 100"
+ },
+ "68": {
+  "name": "Crown of Bones",
+  "block": "newitem \"Crown of Bones\"\nrarity 1\ntype 3\ncombatsum 2 \"Longdead\""
+ },
+ "69": {
+  "name": "Crown of Golden Mastery",
+  "block": "newitem \"Crown of Golden Mastery\"\nrarity 0\ntype 3\nextracost 25\npathboost 56\nmr 1"
+ },
+ "70": {
+  "name": "Crown of Silver Mastery",
+  "block": "newitem \"Crown of Silver Mastery\"\nrarity 0\ntype 3\nextracost 25\npathboost 53\nmr 1"
+ },
+ "71": {
+  "name": "Crown of Iron Mastery",
+  "block": "newitem \"Crown of Iron Mastery\"\nrarity 0\ntype 3\nextracost 25\npathboost 23\nmr 1"
+ },
+ "72": {
+  "name": "Wizard's Hat",
+  "block": "newitem \"Wizard's Hat\"\nrarity 0\ntype 3\npathboost 16\npathboost 29\nmr 1"
+ },
+ "73": {
+  "name": "Tribal Mask",
+  "block": "newitem \"Tribal Mask\"\nrarity 0\ntype 3\nhp 5\npoisonres 50\ncombatsum -1 \"Snake\"\ncombatspell 1 \"Disease\""
+ },
+ "74": {
+  "name": "Totem Mask",
+  "block": "newitem \"Totem Mask\"\nrarity 0\ntype 3\nhp 5\npoisonres 50\ncombatsum -1 \"Large Spider\"\ncombatspell 1 \"Curse\""
+ },
+ "75": {
+  "name": "Helmet of Might",
+  "block": "newitem \"Helmet of Might\"\nrarity 1\ntype 3\nhp 5\nstr 2\nmr 1"
+ },
+ "76": {
+  "name": "Helmet of the Triton King",
+  "block": "newitem \"Helmet of the Triton King\"\nrarity 1\ntype 3\nwater\nhp 8\nshockres 100"
+ },
+ "77": {
+  "name": "Helmet of the Efreet",
+  "block": "newitem \"Helmet of the Efreet\"\nrarity 1\ntype 3\nhp 5\nburnforest 100\nfireaura 5\nfireres 100"
+ },
+ "78": {
+  "name": "Crown of Overmight",
+  "block": "newitem \"Crown of Overmight\"\nrarity 2\ntype 3\npoisonres 100\nsleepres\ncharmres\nleadership 1\nhp 10\nmr 1\nstr -1\nawe 3"
+ },
+ "79": {
+  "name": "Wreath of the Arch Druid",
+  "block": "newitem \"Wreath of the Arch Druid\"\nrarity 2\ntype 3\npoisonres 100\nhp 5\ncoldres 100\ncombatsum -1 \"1d2*Bear\"\ncombatspell 2 \"Befriend Animal\""
+ },
+ "80": {
+  "name": "Gauntlets of Power",
+  "block": "newitem \"Gauntlets of Power\"\nrarity 0\ntype 5\nstr 2"
+ },
+ "81": {
+  "name": "Gauntlets of Knighthood",
+  "block": "newitem \"Gauntlets of Knighthood\"\nrarity 0\ntype 5\nprotection 1\nstr 1"
+ },
+ "82": {
+  "name": "Thunder Gauntlets",
+  "block": "newitem \"Thunder Gauntlets\"\nrarity 0\ntype 5\nprotection 1\nshockaura 3\nshockres 100"
+ },
+ "83": {
+  "name": "Gauntlets of Protection",
+  "block": "newitem \"Gauntlets of Protection\"\nrarity 0\ntype 5\nprotection 1\nhp 5"
+ },
+ "84": {
+  "name": "Gloves of the Forest",
+  "block": "newitem \"Gloves of the Forest\"\nrarity 0\ntype 5\npoisonres 100\nstr 1\nhp 5"
+ },
+ "85": {
+  "name": "Blood Stone Gauntlets",
+  "block": "newitem \"Blood Stone Gauntlets\"\nrarity 1\ntype 5\nstr 2\nhp 5\nvarregen 5"
+ },
+ "86": {
+  "name": "Gloves of Kokytos",
+  "block": "newitem \"Gloves of Kokytos\"\nrarity 1\ntype 5\nstr 2\ncoldaura 2\ncoldres 100"
+ },
+ "87": {
+  "name": "Silver Gauntlets",
+  "block": "newitem \"Silver Gauntlets\"\nrarity 1\ntype 5\ngold 2\nhp 5\nmr 2"
+ },
+ "88": {
+  "name": "Gauntlets of Giant Strength",
+  "block": "newitem \"Gauntlets of Giant Strength\"\nrarity 1\ntype 5\nstr 4\nhp 5"
+ },
+ "89": {
+  "name": "Infernal Gauntlets",
+  "block": "newitem \"Infernal Gauntlets\"\nrarity 1\ntype 5\nfireaura 3\nhp 5\nfireres 100"
+ },
+ "90": {
+  "name": "Crow Master's Gloves",
+  "block": "newitem \"Crow Master's Gloves\"\nrarity 1\ntype 5\ncombatsum 1 \"Murder Of Crows\""
+ },
+ "91": {
+  "name": "Boots of the Swamp",
+  "block": "newitem \"Boots of the Swamp\"\nrarity 0\ntype 6\npoisonres 100\nswamp"
+ },
+ "92": {
+  "name": "Boots of Regeneration",
+  "block": "newitem \"Boots of Regeneration\"\nrarity 0\ntype 6\nvarregen 5"
+ },
+ "93": {
+  "name": "Boots of the North",
+  "block": "newitem \"Boots of the North\"\nrarity 0\ntype 6\nsnow\nstr 1\ncoldres 100"
+ },
+ "94": {
+  "name": "Shoes of Speed",
+  "block": "newitem \"Shoes of Speed\"\nrarity 0\ntype 6\nfast"
+ },
+ "95": {
+  "name": "Boots of the Mountains",
+  "block": "newitem \"Boots of the Mountains\"\nrarity 0\ntype 6\nmountain\nstr 1\nhp 5"
+ },
+ "96": {
+  "name": "Shoes of Protection",
+  "block": "newitem \"Shoes of Protection\"\nrarity 1\ntype 6\nprotection 1"
+ },
+ "97": {
+  "name": "Shoes of Flying",
+  "block": "newitem \"Shoes of Flying\"\nrarity 0\ntype 6\nflying\nfloat"
+ },
+ "98": {
+  "name": "Boots of Scouting",
+  "block": "newitem \"Boots of Scouting\"\nrarity 0\ntype 6\nstealth\nfast"
+ },
+ "99": {
+  "name": "Boots of Strength",
+  "block": "newitem \"Boots of Strength\"\nrarity 0\ntype 6\nmountain\nstr 2"
+ },
+ "100": {
+  "name": "Dwarven Shoes",
+  "block": "newitem \"Dwarven Shoes\"\nrarity 0\ntype 6\nfireres 100\ncoldres 100"
+ },
+ "101": {
+  "name": "Earth Boots",
+  "block": "newitem \"Earth Boots\"\nrarity 0\ntype 6\nhp 2\npathboost 6"
+ },
+ "102": {
+  "name": "Brigand Boots",
+  "block": "newitem \"Brigand Boots\"\nrarity 0\ntype 6\nforeststealth\nhp 2"
+ },
+ "103": {
+  "name": "Shadow Boots",
+  "block": "newitem \"Shadow Boots\"\nrarity 1\ntype 6\nstealth\nethereal"
+ },
+ "104": {
+  "name": "Brimstone Boots",
+  "block": "newitem \"Brimstone Boots\"\nrarity 1\ntype 6\nfireaura 3\nfireres 100"
+ },
+ "105": {
+  "name": "Boots of the Winter Queen",
+  "block": "newitem \"Boots of the Winter Queen\"\nrarity 1\ntype 6\nsnowstealth\nfast\nsnow\nhp 2\niceprot 2\ncoldres 100"
+ },
+ "106": {
+  "name": "Shaia's Enchanted Boots",
+  "block": "newitem \"Shaia's Enchanted Boots\"\ndescr \"Shaia was once a mighty druidess. She made these magic boots to make her life easier in the forest. The boots protect their wearer from cold, heat and being hit by anything, be it animals or tree branches. They also confer the ability to run without getting tired.\"\nrarity 2\ntype 6\nlucky\nfast\nprotection 1\nfireres 100\ncoldres 100"
+ },
+ "107": {
+  "name": "Hydra Skin Armor",
+  "block": "newitem \"Hydra Skin Armor\"\nrarity 0\ntype 4\nhp 5\narmor 3\nvarregen 5\nextracost 50"
+ },
+ "108": {
+  "name": "Mirror Armor",
+  "block": "newitem \"Mirror Armor\"\nrarity 0\ntype 4\nmr 2\narmor 2\nhp 5"
+ },
+ "109": {
+  "name": "Elven Cloak",
+  "block": "newitem \"Elven Cloak\"\nrarity 0\ntype 4\nstealth"
+ },
+ "110": {
+  "name": "Robe of Shadows",
+  "block": "newitem \"Robe of Shadows\"\nrarity 0\ntype 4\nethereal\nfloat"
+ },
+ "111": {
+  "name": "Cloak of Displacement",
+  "block": "newitem \"Cloak of Displacement\"\nrarity 0\ntype 4\ndisplaced"
+ },
+ "112": {
+  "name": "Breastplate of Protection",
+  "block": "newitem \"Breastplate of Protection\"\nrarity 0\ntype 4\nhp 5\narmor 3"
+ },
+ "113": {
+  "name": "Cloak of Mirrors",
+  "block": "newitem \"Cloak of Mirrors\"\nrarity 0\ntype 4\nmirrorimages 4"
+ },
+ "114": {
+  "name": "Golden Platemail",
+  "block": "newitem \"Golden Platemail\"\nrarity 0\ntype 4\nextracost 100\nhp 5\narmor 4"
+ },
+ "115": {
+  "name": "Enchanted Chainmail",
+  "block": "newitem \"Enchanted Chainmail\"\nrarity 0\ntype 4\nhp 5\narmor 3"
+ },
+ "116": {
+  "name": "Alchemist's Armor",
+  "block": "newitem \"Alchemist's Armor\"\nrarity 0\ntype 4\nhp 5\narmor 1\nacidres 50"
+ },
+ "117": {
+  "name": "Athlete's Haubergeon",
+  "block": "newitem \"Athlete's Haubergeon\"\nrarity 0\ntype 4\nhp 5\narmor 2\nevasion 1"
+ },
+ "118": {
+  "name": "Boarhide Armor",
+  "block": "newitem \"Boarhide Armor\"\nrarity 0\ntype 4\nberserker\nhp 5\narmor 2"
+ },
+ "119": {
+  "name": "Rime Armor",
+  "block": "newitem \"Rime Armor\"\nrarity 0\ntype 4\nhp 5\narmor 3\ncoldaura 2\ncoldres 100"
+ },
+ "120": {
+  "name": "Silver Armor",
+  "block": "newitem \"Silver Armor\"\nrarity 0\ntype 4\nhp 5\narmor 3\nmirrorimages 2\nshockres 100"
+ },
+ "121": {
+  "name": "Rainbow Armor",
+  "block": "newitem \"Rainbow Armor\"\nrarity 0\ntype 4\nlucky\nmr 2\narmor 2\nhp 5"
+ },
+ "122": {
+  "name": "Kithaironic Lion Pelt",
+  "block": "newitem \"Kithaironic Lion Pelt\"\nrarity 0\ntype 4\nslashres\npierceres\nhp 5\narmor 2"
+ },
+ "123": {
+  "name": "Bloodstone Armor",
+  "block": "newitem \"Bloodstone Armor\"\nrarity 1\ntype 4\narmor 3\nstr 2\nhp 10\nvarregen 5"
+ },
+ "124": {
+  "name": "Robe of Power",
+  "block": "newitem \"Robe of Power\"\nrarity 1\ntype 4\nmagicboost 1"
+ },
+ "125": {
+  "name": "Robe of Invulnerability",
+  "block": "newitem \"Robe of Invulnerability\"\nrarity 1\ntype 4\nnonmaginvul"
+ },
+ "126": {
+  "name": "Elven Armor",
+  "block": "newitem \"Elven Armor\"\nrarity 1\ntype 4\nstealth\nhp 5\narmor 1"
+ },
+ "127": {
+  "name": "Demon Armor",
+  "block": "newitem \"Demon Armor\"\nrarity 1\ntype 4\nbluntres\nslashres\npierceres\nhp 10\narmor 1\nplaneshift 2"
+ },
+ "128": {
+  "name": "Dragon Scale Mail",
+  "block": "newitem \"Dragon Scale Mail\"\nrarity 1\ntype 4\npoisonres 100\nhp 10\narmor 3"
+ },
+ "129": {
+  "name": "Celestial Platemail",
+  "block": "newitem \"Celestial Platemail\"\nrarity 1\ntype 4\nhp 10\narmor 4\nawe 1"
+ },
+ "130": {
+  "name": "Blood Armor",
+  "block": "newitem \"Blood Armor\"\nrarity 1\ntype 4\nhp 15\narmor 3\npathboost 11"
+ },
+ "131": {
+  "name": "Aseftik's Armor",
+  "block": "newitem \"Aseftik's Armor\"\nrarity 2\ntype 4\nmr 2\narmor 4\nstr 2\nhp 10"
+ },
+ "132": {
+  "name": "Monolith Armor",
+  "block": "newitem \"Monolith Armor\"\nrarity 2\ntype 4\nslashres\nslow\narmor 5\nhp 15\nvarregen 10"
+ },
+ "133": {
+  "name": "Robe of the Arch Magi",
+  "block": "newitem \"Robe of the Arch Magi\"\nrarity 2\ntype 4\nairshield 75\nmagicboost 1\nprotection 1\nfireres 100"
+ },
+ "134": {
+  "name": "Durgon's Robe of Authority",
+  "block": "newitem \"Durgon's Robe of Authority\"\nrarity 2\ntype 4\ncharmres\nacutesenses\nethereal\ncurseditem\nhp 10\nmagicboost 1\nleadership 1\nmr 1"
+ },
+ "135": {
+  "name": "Robe of the Arch King",
+  "block": "newitem \"Robe of the Arch King\"\nrarity 2\ntype 4\ninvul\nfloat\nhp 5"
+ },
+ "136": {
+  "name": "Divine Mantle",
+  "block": "newitem \"Divine Mantle\"\nrarity 3\ntype 7\nfastheal\nbluntres\nslashres\npierceres\ncurseditem\nmr 2\nmagicboost 1\nhp 20\nprotection 1\nawe 3\nplaneshift 3\nfireres 100"
+ },
+ "137": {
+  "name": "Pendant of Luck",
+  "block": "newitem \"Pendant of Luck\"\nrarity 0\ntype 7\nlucky"
+ },
+ "138": {
+  "name": "Ring of the Dead",
+  "block": "newitem \"Ring of the Dead\"\ndescr \"In battle this ring can be used to constantly summon the dead to aid its wearer in combat.\"\nrarity 0\ntype 7\ncombatsum 1 \"Longdead\""
+ },
+ "139": {
+  "name": "Spirit Ring",
+  "block": "newitem \"Spirit Ring\"\ndescr \"The wearer of this ring will become spirit-like and able to float through the air and through solid objects.\"\nrarity 0\ntype 7\nethereal\nfloat"
+ },
+ "140": {
+  "name": "Dream Crystal",
+  "block": "newitem \"Dream Crystal\"\ndescr \"This strange crystal dreams for its wielder so that no sleep will be necessary. This makes it possible to travel further and resist sleep based attacks.\"\nrarity 0\ntype 7\nsleepres\nfast"
+ },
+ "141": {
+  "name": "Gem of Fire Resistance",
+  "block": "newitem \"Gem of Fire Resistance\"\nrarity 0\ntype 7\nfireres 100"
+ },
+ "142": {
+  "name": "Amulet of Cold Resistance",
+  "block": "newitem \"Amulet of Cold Resistance\"\nrarity 0\ntype 7\ncoldres 100"
+ },
+ "143": {
+  "name": "Necklace of the Winter Queen",
+  "block": "newitem \"Necklace of the Winter Queen\"\nrarity 0\ntype 7\nsnow\npathboost 27\ncoldaura 2\ncoldres 100"
+ },
+ "144": {
+  "name": "Amulet of Hate",
+  "block": "newitem \"Amulet of Hate\"\nrarity 0\ntype 7\ncharmres\nberserker\nrank 2"
+ },
+ "145": {
+  "name": "Ring of Invisibility",
+  "block": "newitem \"Ring of Invisibility\"\nrarity 0\ntype 7\ninvisible"
+ },
+ "146": {
+  "name": "Ring of Protection",
+  "block": "newitem \"Ring of Protection\"\nrarity 0\ntype 7\nprotection 1\nmr 2"
+ },
+ "147": {
+  "name": "Ring of Evasion",
+  "block": "newitem \"Ring of Evasion\"\nrarity 0\ntype 7\nevasion 1"
+ },
+ "148": {
+  "name": "Ring of Protection",
+  "block": "newitem \"Ring of Protection\"\nrarity 0\ntype 7\nprotection 1\nmr 2"
+ },
+ "149": {
+  "name": "Ring of Shadows",
+  "block": "newitem \"Ring of Shadows\"\nrarity 0\ntype 7\npathboost 9\nmr 1\ncombatsum -1 \"1d3+1*Shade\""
+ },
+ "150": {
+  "name": "Obol",
+  "block": "newitem \"Obol\"\nrarity 0\ntype 7\nhadesres 1"
+ },
+ "151": {
+  "name": "Gem of Flying",
+  "block": "newitem \"Gem of Flying\"\nrarity 0\ntype 7\nflying\nfloat"
+ },
+ "152": {
+  "name": "Gem of True Seeing",
+  "block": "newitem \"Gem of True Seeing\"\nrarity 0\ntype 7\nspiritsight"
+ },
+ "153": {
+  "name": "Amulet of Anti Magic",
+  "block": "newitem \"Amulet of Anti Magic\"\nrarity 0\ntype 7\nmr 3"
+ },
+ "154": {
+  "name": "Bloodstone Amulet",
+  "block": "newitem \"Bloodstone Amulet\"\nrarity 0\ntype 7\nvarregen 5\nextracost 50"
+ },
+ "155": {
+  "name": "Woundfend Amulet",
+  "block": "newitem \"Woundfend Amulet\"\nrarity 0\ntype 7\nslashres"
+ },
+ "156": {
+  "name": "Stonebone Amulet",
+  "block": "newitem \"Stonebone Amulet\"\nrarity 0\ntype 7\nbluntres"
+ },
+ "157": {
+  "name": "Coral Ring",
+  "block": "newitem \"Coral Ring\"\nrarity 0\ntype 7\npierceres"
+ },
+ "158": {
+  "name": "Ring of Infinite Gold",
+  "block": "newitem \"Ring of Infinite Gold\"\nrarity 0\ntype 7\ngold 5\nextracost 150"
+ },
+ "159": {
+  "name": "Trader's Medallion",
+  "block": "newitem \"Trader's Medallion\"\nrarity 0\ntype 7\ngold 1\ntrade 2\nextracost 50"
+ },
+ "160": {
+  "name": "Star Ruby",
+  "block": "newitem \"Star Ruby\"\nrarity 0\ntype 7\npathboost 3\nfireaura 3"
+ },
+ "161": {
+  "name": "Star Sapphire",
+  "block": "newitem \"Star Sapphire\"\nrarity 0\ntype 7\nlucky\npathboost 42\nmr -1"
+ },
+ "162": {
+  "name": "Gem of Concentration",
+  "block": "newitem \"Gem of Concentration\"\nrarity 0\ntype 7"
+ },
+ "163": {
+  "name": "Ring of Water Breathing",
+  "block": "newitem \"Ring of Water Breathing\"\nrarity 0\ntype 7\nwater"
+ },
+ "164": {
+  "name": "Serpent Amulet",
+  "block": "newitem \"Serpent Amulet\"\nrarity 0\ntype 7\npoisonres 100\nhp 3\npathboost 21"
+ },
+ "165": {
+  "name": "Bottle of Demon Blood",
+  "block": "newitem \"Bottle of Demon Blood\"\nrarity 0\ntype 7\npathboost 1\nfireres 100"
+ },
+ "166": {
+  "name": "Magic Acorns",
+  "block": "newitem \"Magic Acorns\"\nrarity 0\ntype 7\ncombatsum -1 \"Woodman\""
+ },
+ "167": {
+  "name": "Magic Flowers",
+  "block": "newitem \"Magic Flowers\"\nrarity 0\ntype 7\ncombatsum -1 \"1d2*Venus Trap\""
+ },
+ "168": {
+  "name": "Magic Spores",
+  "block": "newitem \"Magic Spores\"\nrarity 0\ntype 7\ncombatsum -1 \"1d2*Blood Fungus\""
+ },
+ "169": {
+  "name": "Pile of Bones",
+  "block": "newitem \"Pile of Bones\"\nrarity 0\ntype 7\ncombatsum -1 \"2d4*Longdead\""
+ },
+ "170": {
+  "name": "Horn of Valor",
+  "block": "newitem \"Horn of Valor\"\nrarity 0\ntype 7\nlocalleadership 1"
+ },
+ "171": {
+  "name": "Magic Lamp",
+  "block": "newitem \"Magic Lamp\"\nrarity 0\ntype 7\nextracost 50\ncombatsum -1 \"Air Elemental\""
+ },
+ "172": {
+  "name": "Warrior's Charm",
+  "block": "newitem \"Warrior's Charm\"\nrarity 0\ntype 7\nhp 5\nmorale 2\nstr 1"
+ },
+ "173": {
+  "name": "Hydra Bowl",
+  "block": "newitem \"Hydra Bowl\"\nrarity 0\ntype 7\npoisonres 100\npoisoncloud 2"
+ },
+ "174": {
+  "name": "Bottle of Living Water",
+  "block": "newitem \"Bottle of Living Water\"\ndescr \"The owner of this bottle can summon a water elemental at the start of every battle.\"\nrarity 0\ntype 7\ncombatsum -1 \"Water Elemental\""
+ },
+ "175": {
+  "name": "Seeing Stone",
+  "block": "newitem \"Seeing Stone\"\nrarity 0\ntype 7\nspiritsight\nfarsight 1"
+ },
+ "176": {
+  "name": "Whispering Skull",
+  "block": "newitem \"Whispering Skull\"\nrarity 0\ntype 7\ncharmres\npathboost 38"
+ },
+ "177": {
+  "name": "Mirage Crystal",
+  "block": "newitem \"Mirage Crystal\"\nrarity 0\ntype 7\nstealth\npathboost 43\nmirrorimages 2"
+ },
+ "178": {
+  "name": "Moon Stone",
+  "block": "newitem \"Moon Stone\"\nrarity 0\ntype 7\nstealth\npathboost 52\npathboost 32"
+ },
+ "179": {
+  "name": "Astrolabium",
+  "block": "newitem \"Astrolabium\"\nrarity 0\ntype 7\npathboost 61\ntwistfate 1"
+ },
+ "180": {
+  "name": "Amulet of Bear Control",
+  "block": "newitem \"Amulet of Bear Control\"\nrarity 0\ntype 7\ncombatsum -1 \"Bear\""
+ },
+ "181": {
+  "name": "Bloodstone Ring",
+  "block": "newitem \"Bloodstone Ring\"\nrarity 0\ntype 7\nhp 10"
+ },
+ "182": {
+  "name": "Spirit Eye",
+  "block": "newitem \"Spirit Eye\"\nrarity 0\ntype 7\nspiritsight\ncurseditem\nsensedead 1"
+ },
+ "183": {
+  "name": "Eye of the Night",
+  "block": "newitem \"Eye of the Night\"\nrarity 0\ntype 7\ncurseditem\npathboost 9\npathboost 32\ncombatspell 2 \"Fear\""
+ },
+ "184": {
+  "name": "Eye of the Old One",
+  "block": "newitem \"Eye of the Old One\"\nrarity 0\ntype 7\ncurseditem\npathboost 40\npathboost 41\nvarregen 5"
+ },
+ "185": {
+  "name": "Crystal Heart",
+  "block": "newitem \"Crystal Heart\"\nrarity 0\ntype 7\npoisonres 100\ncurseditem\nvarregen 10"
+ },
+ "186": {
+  "name": "Bottle of Children's Tears",
+  "block": "newitem \"Bottle of Children's Tears\"\nrarity 0\ntype 7\ndiseaseres\npathboost 40\npathboost 41"
+ },
+ "187": {
+  "name": "Bottled Spirit",
+  "block": "newitem \"Bottled Spirit\"\nrarity 0\ntype 7\nhadesres 1\ncombatsum -1 \"Dispossessed Spirit\""
+ },
+ "188": {
+  "name": "Magic Bean",
+  "block": "newitem \"Magic Bean\"\nrarity 0\ntype 7"
+ },
+ "189": {
+  "name": "Portable Pit",
+  "block": "newitem \"Portable Pit\"\nrarity 0\ntype 7"
+ },
+ "190": {
+  "name": "Elixir of Health",
+  "block": "newitem \"Elixir of Health\"\nrarity 0\ntype 7"
+ },
+ "191": {
+  "name": "Orb of Projection",
+  "block": "newitem \"Orb of Projection\"\nrarity 0\ntype 7\nspellrange 1"
+ },
+ "192": {
+  "name": "Twisted Figurine",
+  "block": "newitem \"Twisted Figurine\"\nrarity 0\ntype 7\ncharmres\ncombatsum -1 \"Shadow Imp\""
+ },
+ "193": {
+  "name": "Heart of Life",
+  "block": "newitem \"Heart of Life\"\nrarity 0\ntype 7\ncurseditem\nfalselife 1\nmr 2\nhadesres 100"
+ },
+ "194": {
+  "name": "Alchemist's Mortar",
+  "block": "newitem \"Alchemist's Mortar\"\nrarity 0\ntype 7\npathboost 55\nacidres 50"
+ },
+ "195": {
+  "name": "Ring of Wizardry",
+  "block": "newitem \"Ring of Wizardry\"\nrarity 1\ntype 7\nmagicboost 1\nmr 1"
+ },
+ "196": {
+  "name": "Orb of Power",
+  "block": "newitem \"Orb of Power\"\nrarity 1\ntype 7\nspellrange 2"
+ },
+ "197": {
+  "name": "Sphere of Power",
+  "block": "newitem \"Sphere of Power\"\nrarity 1\ntype 7\nmagicboost 1"
+ },
+ "198": {
+  "name": "Frozen Star",
+  "block": "newitem \"Frozen Star\"\nrarity 1\ntype 7\ncoldaura 3\ncoldres 100"
+ },
+ "199": {
+  "name": "Soul Stone",
+  "block": "newitem \"Soul Stone\"\nrarity 1\ntype 7\nhp 5"
+ },
+ "200": {
+  "name": "Sacred Ark",
+  "block": "newitem \"Sacred Ark\"\nrarity 1\ntype 7\npathboost 28\npathboost 25\ngrowhp 168\ngrowhp 0"
+ },
+ "201": {
+  "name": "Pendant of the Forest King",
+  "block": "newitem \"Pendant of the Forest King\"\nrarity 2\ntype 7\npoisonres 100\ncombatsum -1 \"1d2*Moose & 2d4*Deer & 1d6*Boar\""
+ },
+ "202": {
+  "name": "Amulet of the Spider King",
+  "block": "newitem \"Amulet of the Spider King\"\nrarity 2\ntype 7\npoisonres 100\ncurseditem\nprotection 1\npathboost 28\ncombatsum -1 \"2d3*Giant Spider\""
+ },
+ "203": {
+  "name": "King's Pendant",
+  "block": "newitem \"King's Pendant\"\nrarity 1\ntype 7\nprotection 2\nhp 5"
+ },
+ "204": {
+  "name": "Pendant of the Ice Lord",
+  "block": "newitem \"Pendant of the Ice Lord\"\nrarity 1\ntype 7\ncoldres 100\ncombatsum -1 \"2d3*Winter Wolf\""
+ },
+ "205": {
+  "name": "Tomb King's Amulet",
+  "block": "newitem \"Tomb King's Amulet\"\nrarity 1\ntype 7\nsensedead 1\ncoldres 100\ncombatsum -1 \"6*Giant Scorpion\""
+ },
+ "206": {
+  "name": "Pendant of the Desert Emperor",
+  "block": "newitem \"Pendant of the Desert Emperor\"\nrarity 1\ntype 7\nfireres 100\ncombatsum -1 \"2d4*Giant Scorpion\""
+ },
+ "207": {
+  "name": "Tablet of the Myrmeke",
+  "block": "newitem \"Tablet of the Myrmeke\"\nrarity 1\ntype 7\ngold 2\ncombatsum -1 \"2d3+2*Myrmeke\""
+ },
+ "208": {
+  "name": "Tablet of the Underworld",
+  "block": "newitem \"Tablet of the Underworld\"\nrarity 1\ntype 7\nmr -1\ncombatsum -1 \"3*Shade Beast\""
+ },
+ "209": {
+  "name": "Tablet of Secrets",
+  "block": "newitem \"Tablet of Secrets\"\nrarity 1\ntype 7\ncurseditem\nstr 2\nhp 5\nmr 2\nawe 1"
+ },
+ "210": {
+  "name": "Pendant of the Gods",
+  "block": "newitem \"Pendant of the Gods\"\nrarity 1\ntype 7\nflying\nfloat\nhp 5\nprotection 1\nawe 1\npathboost 19\nshockres 100"
+ },
+ "211": {
+  "name": "Barrel of Toads",
+  "block": "newitem \"Barrel of Toads\"\nrarity 1\ntype 7\npoisonres 100\ncombatsum -7 \"Giant Toad\""
+ },
+ "212": {
+  "name": "Pocket Lich",
+  "block": "newitem \"Pocket Lich\"\nrarity 1\ntype 7\npathboost 38\ncombatsum 1 \"1d4*Longdead\"\ncombatspell 2 \"Fear\""
+ },
+ "213": {
+  "name": "Devil Spores",
+  "block": "newitem \"Devil Spores\"\nrarity 1\ntype 7\ncombatsum -1 \"1d2*Devil Fungus\""
+ },
+ "214": {
+  "name": "A Chest Full of Fire",
+  "block": "newitem \"A Chest Full of Fire\"\nrarity 1\ntype 7\npathboost 3\nburnforest 3\nstr 1\nfireaura 3\nfireres 100\ncoldres 100"
+ },
+ "215": {
+  "name": "Shadow Stone",
+  "block": "newitem \"Shadow Stone\"\nrarity 1\ntype 7\nethereal\nplaneshift 1"
+ },
+ "216": {
+  "name": "Conch of the Triton Kings",
+  "block": "newitem \"Conch of the Triton Kings\"\nrarity 2\ntype 7\nwater\ncombatspell 1 \"Rising Tide\""
+ },
+ "217": {
+  "name": "Orb of the Gods",
+  "block": "newitem \"Orb of the Gods\"\nrarity 2\ntype 7\nspiritsight\nspellrange 2\nfarsight 1"
+ },
+ "218": {
+  "name": "Torleifur's Ring",
+  "block": "newitem \"Torleifur's Ring\"\nrarity 2\ntype 7\nstealth\ncurseditem\nhp 10\nmorale 2\nstr 1\nfireres 100"
+ },
+ "219": {
+  "name": "Precious",
+  "block": "newitem \"Precious\"\nrarity 2\ntype 7\ninvisible\nethereal\ncurseditem\nhp 15\nstr 1\nmr -1"
+ },
+ "220": {
+  "name": "Balances of Famine",
+  "block": "newitem \"Balances of Famine\"\nrarity 3\ntype 7\ncurseditem\nvengeance 1"
+ },
+ "221": {
+  "name": "Oblivion",
+  "block": "newitem \"Oblivion\"\ndescr \"This amulet contains enough souls to both protect its wearer from harm and to resurrect him should he fall in battle. It was created by the Duke of Hell himself.\"\nrarity 3\ntype 7\nprotection 1\nmr 2"
+ },
+ "222": {
+  "name": "Orb of Fire",
+  "block": "newitem \"Orb of Fire\"\nrarity 3\ntype 7\npathboost 3\nfireres 100"
+ },
+ "223": {
+  "name": "Orb of Water",
+  "block": "newitem \"Orb of Water\"\nrarity 3\ntype 7\nwater\npathboost 4\ncoldres 100"
+ },
+ "224": {
+  "name": "Orb of Air",
+  "block": "newitem \"Orb of Air\"\nrarity 3\ntype 7\nflying\nfloat\npathboost 5\nshockres 100"
+ },
+ "225": {
+  "name": "Orb of Earth",
+  "block": "newitem \"Orb of Earth\"\nrarity 3\ntype 7\npathboost 6\nprotection 1"
+ },
+ "226": {
+  "name": "Tome of the Elemental Planes",
+  "block": "newitem \"Tome of the Elemental Planes\"\nrarity 1\ntype 7"
+ },
+ "227": {
+  "name": "Tome of High Magic",
+  "block": "newitem \"Tome of High Magic\"\nrarity 1\ntype 7\nmagicboost 1"
+ },
+ "228": {
+  "name": "Tome of Arcane Mastery",
+  "block": "newitem \"Tome of Arcane Mastery\"\nrarity 1\ntype 7\npathboost 51\npathboost 56\npathboost 53\npathboost 23"
+ },
+ "229": {
+  "name": "Infernal Tome",
+  "block": "newitem \"Infernal Tome\"\nrarity 1\ntype 7\nmadcultist 1\ncombatsum 1 \"Imp\""
+ },
+ "230": {
+  "name": "Tome of the Lower Planes",
+  "block": "newitem \"Tome of the Lower Planes\"\nrarity 1\ntype 7"
+ },
+ "231": {
+  "name": "Tome of Afterlife",
+  "block": "newitem \"Tome of Afterlife\"\nrarity 1\ntype 7"
+ },
+ "232": {
+  "name": "Book of Plagues",
+  "block": "newitem \"Book of Plagues\"\nrarity 3\ntype 7\ndiseaseres\ndiseaseshield 1\ncombatsum -1 \"2d4*Demonic Locust\""
+ },
+ "233": {
+  "name": "Spell Scroll Level 1",
+  "block": "newitem \"Spell Scroll Level 1\"\nrarity 0\ntype 7"
+ },
+ "234": {
+  "name": "Spell Scroll Level 2",
+  "block": "newitem \"Spell Scroll Level 2\"\nrarity 0\ntype 7"
+ },
+ "235": {
+  "name": "Spell Scroll Level 3",
+  "block": "newitem \"Spell Scroll Level 3\"\nrarity 1\ntype 7"
+ },
+ "236": {
+  "name": "Adept's Spell Scroll",
+  "block": "newitem \"Adept's Spell Scroll\"\nrarity 0\ntype 7"
+ },
+ "237": {
+  "name": "Archmage's Spell Scroll",
+  "block": "newitem \"Archmage's Spell Scroll\"\nrarity 1\ntype 7"
+ },
+ "238": {
+  "name": "Map of Kokytos",
+  "block": "newitem \"Map of Kokytos\"\nrarity 0\ntype 7\nextracost -25"
+ },
+ "239": {
+  "name": "Map of Pandemonium",
+  "block": "newitem \"Map of Pandemonium\"\nrarity 0\ntype 7\nextracost -25"
+ },
+ "240": {
+  "name": "Map of Inferno",
+  "block": "newitem \"Map of Inferno\"\nrarity 0\ntype 7\nextracost -25"
+ },
+ "241": {
+  "name": "Map of the Abyss",
+  "block": "newitem \"Map of the Abyss\"\nrarity 0\ntype 7\nextracost -25"
+ },
+ "242": {
+  "name": "Scroll of Astral Travel",
+  "block": "newitem \"Scroll of Astral Travel\"\nrarity 0\ntype 7"
+ },
+ "243": {
+  "name": "Scroll of Heavenly Ascension",
+  "block": "newitem \"Scroll of Heavenly Ascension\"\nrarity 0\ntype 7"
+ },
+ "244": {
+  "name": "Scroll of Hades Journey",
+  "block": "newitem \"Scroll of Hades Journey\"\nrarity 0\ntype 7"
+ },
+ "245": {
+  "name": "Scroll of Kokytos Paths",
+  "block": "newitem \"Scroll of Kokytos Paths\"\nrarity 0\ntype 7"
+ },
+ "246": {
+  "name": "Scroll of Pandemonic Paths",
+  "block": "newitem \"Scroll of Pandemonic Paths\"\nrarity 0\ntype 7"
+ },
+ "247": {
+  "name": "Scroll of Infernal Paths",
+  "block": "newitem \"Scroll of Infernal Paths\"\nrarity 0\ntype 7"
+ },
+ "248": {
+  "name": "Scroll of Abyssal Paths",
+  "block": "newitem \"Scroll of Abyssal Paths\"\nrarity 0\ntype 7"
+ },
+ "249": {
+  "name": "Metaphysical Map",
+  "block": "newitem \"Metaphysical Map\"\nrarity 1\ntype 7"
+ },
+ "250": {
+  "name": "Scroll of Returning",
+  "block": "newitem \"Scroll of Returning\"\nrarity 0\ntype 7"
+ },
+ "251": {
+  "name": "Heavenly Seal",
+  "block": "newitem \"Heavenly Seal\"\nrarity 1\ntype 7"
+ },
+ "252": {
+  "name": "Thorn Staff",
+  "block": "newitem \"Thorn Staff\"\nrarity 0\ntype 1\nitemwep \"Thorn Staff\"\npoisonres 100"
+ },
+ "253": {
+  "name": "Spear of Justice",
+  "block": "newitem \"Spear of Justice\"\nrarity 1\ntype 1\nitemwep \"Spear of Justice\"\nacutesenses\nawe 1"
+ },
+ "254": {
+  "name": "Solar Lance",
+  "block": "newitem \"Solar Lance\"\nrarity 0\ntype 1\nitemwep \"Solar Lance\""
+ },
+ "255": {
+  "name": "Fisherman's Trident",
+  "block": "newitem \"Fisherman's Trident\"\nrarity 0\ntype 1\nitemwep \"Fisherman's Trident\""
+ },
+ "256": {
+  "name": "Trident of the Sea",
+  "block": "newitem \"Trident of the Sea\"\nrarity 0\ntype 1\nitemwep \"Trident of the Sea\"\nwater\ncombatsum -1 \"1d3*Sea Dog\""
+ },
+ "257": {
+  "name": "Dimensional Rod",
+  "block": "newitem \"Dimensional Rod\"\nrarity 1\ntype 1\nitemwep \"Magic Rod\"\nrank -1\ncombatspell 1 \"Star Showers\""
+ },
+ "258": {
+  "name": "Emperor's Hope",
+  "block": "newitem \"Emperor's Hope\"\nrarity 2\ntype 1\nitemwep \"Emperor's Hope\"\nspiritsight\nmr 4"
+ },
+ "259": {
+  "name": "Flame Spear",
+  "block": "newitem \"Flame Spear\"\nrarity 0\ntype 1\nitemwep \"Flame Spear\"\ncombatspell 1 \"Flames\""
+ },
+ "260": {
+  "name": "Crown of the Bull",
+  "block": "newitem \"Crown of the Bull\"\nrarity 0\ntype 3\nberserker\nhp 5\nstr 1\nmorale 2"
+ },
+ "261": {
+  "name": "Crown of Hades",
+  "block": "newitem \"Crown of Hades\"\nrarity 1\ntype 3\ncharmres\nethereal\nhadesres 1\nsaner 1\nmr 2\ncombatsum 4 \"Shade Beast\""
+ },
+ "262": {
+  "name": "Crown of the Ancients",
+  "block": "newitem \"Crown of the Ancients\"\nrarity 2\ntype 3\nmagicboost 1\nprotection 1\nhp 10\nrank 2"
+ },
+ "263": {
+  "name": "Boots of the Spider King",
+  "block": "newitem \"Boots of the Spider King\"\nrarity 2\ntype 6\npoisonres 100\nstealth\nfast\nmountain\nhp 5\ncombatsum -1 \"4d6*Small Spider\""
+ },
+ "264": {
+  "name": "Kobold Skin Boots",
+  "block": "newitem \"Kobold Skin Boots\"\nrarity 0\ntype 6\npoisonres 100\nsnow\ncoldres 100"
+ },
+ "265": {
+  "name": "Boots of the Forest King",
+  "block": "newitem \"Boots of the Forest King\"\nrarity 2\ntype 6\nforeststealth\ntangleres 1\nhp 5\nmr 1\npathboost 54\npathboost 60\nvarregen 5"
+ },
+ "266": {
+  "name": "Mantle of Destruction",
+  "block": "newitem \"Mantle of Destruction\"\nrarity 3\ntype 7\nfastheal\nbluntres\nslashres\npierceres\ncurseditem\nlucky\nmr 2\npathboost 3\npathboost 67\nhp 20\nprotection 1\nawe 3\nfireres 100\nshockres 100\npoisonres 100\ncoldres 50\ntwistfate 1"
+ },
+ "267": {
+  "name": "Medallion of Venom",
+  "block": "newitem \"Medallion of Venom\"\nrarity 0\ntype 7\npoisonres 100\npoisonspikes 4\npathboost 63"
+ },
+ "268": {
+  "name": "Ancient Tablet",
+  "block": "newitem \"Ancient Tablet\"\nrarity 1\ntype 7\nlucky\npathboost 66\npathboost 44"
+ },
+ "269": {
+  "name": "Crown of the False World",
+  "block": "newitem \"Crown of the False World\"\nrarity 0\ntype 3\nextracost 25\npathboost 68\nmirrorimages 3"
+ },
+ "270": {
+  "name": "Mardutz's Hat",
+  "block": "newitem \"Mardutz's Hat\"\nrarity 2\ntype 3\npathboost 7\nhp 5\ncoldres 100"
+ },
+ "271": {
+  "name": "Gloves of the Night",
+  "block": "newitem \"Gloves of the Night\"\nrarity 0\ntype 5\nstealth\ncombatsum -1 \"Fiend of Darkness\""
+ },
+ "272": {
+  "name": "Dragon Gloves",
+  "block": "newitem \"Dragon Gloves\"\nrarity 1\ntype 5\nfireres 100\nfireaura 3\nprotection 1\nhp 5"
+ },
+ "273": {
+  "name": "Pythian Headdress",
+  "block": "newitem \"Pythian Headdress\"\nrarity 1\ntype 3\npoisonres 100\nextracost 100\nvarregen 5\npathboost 21\nmr 1"
+ },
+ "274": {
+  "name": "Blood Sickle",
+  "block": "newitem \"Blood Sickle\"\nrarity 0\ntype 1\nitemwep \"Blood Sickle\"\ncurseditem\nrank 1"
+ },
+ "275": {
+  "name": "Main Gauche of Protection",
+  "block": "newitem \"Main Gauche of Protection\"\nrarity 0\ntype 1\nitemwep \"Main Gauche\"\nprotection 1"
+ },
+ "276": {
+  "name": "Emerald Staff",
+  "block": "newitem \"Emerald Staff\"\nrarity 1\ntype 1\nitemwep \"Magic Staff\"\nhadesres 1\nmr 1\ncombatsum -1 \"Ghost\""
+ },
+ "277": {
+  "name": "Wooden Sword",
+  "block": "newitem \"Wooden Sword\"\nrarity 0\ntype 1\nitemwep \"Wooden Sword\"\ncoldres 100\nmr 2"
+ },
+ "278": {
+  "name": "Spear of the Forest",
+  "block": "newitem \"Spear of the Forest\"\nrarity 0\ntype 1\nitemwep \"Spear of the Forest\"\npoisonres 100\ncombatspell 1 \"Poison Vine\""
+ },
+ "279": {
+  "name": "Boots of the Ichtyid King",
+  "block": "newitem \"Boots of the Ichtyid King\"\nrarity 2\ntype 6\ncoldres 100\nwater\nhp 5\nstr 1\ncombatsum -1 \"2d3*Ichtyid Warrior\""
+ },
+ "280": {
+  "name": "Soul Contract with Abbadon",
+  "block": "newitem \"Soul Contract with Abbadon\"\nrarity 0\ntype 7\ncurseditem\nnodrop 1\ncombatsum -1 \"Demonic Locust\""
+ },
+ "281": {
+  "name": "Soul Contract with Asmodeus",
+  "block": "newitem \"Soul Contract with Asmodeus\"\nrarity 0\ntype 7\ncurseditem\nnodrop 1\ncombatsum -1 \"Storm Demon\""
+ },
+ "282": {
+  "name": "Soul Contract with Belial",
+  "block": "newitem \"Soul Contract with Belial\"\nrarity 0\ntype 7\ncurseditem\nnodrop 1\ncombatsum -1 \"Lesser Demon\""
+ },
+ "283": {
+  "name": "Soul Contract with Geryon",
+  "block": "newitem \"Soul Contract with Geryon\"\nrarity 0\ntype 7\ncurseditem\nnodrop 1\ncombatsum -1 \"Serpent Fiend\""
+ },
+ "284": {
+  "name": "Soul Contract with Buer",
+  "block": "newitem \"Soul Contract with Buer\"\nrarity 0\ntype 7\ncurseditem\nnodrop 1\ncombatsum -1 \"Devil\""
+ },
+ "285": {
+  "name": "Soul Contract with Belphegor",
+  "block": "newitem \"Soul Contract with Belphegor\"\nrarity 0\ntype 7\ncurseditem\nnodrop 1\ncombatsum -1 \"Demon Knight\""
+ },
+ "286": {
+  "name": "Thousand Medicine Bowl",
+  "block": "newitem \"Thousand Medicine Bowl\"\nrarity 0\ntype 7\nfastheal\npathboost 69"
+ }
+}

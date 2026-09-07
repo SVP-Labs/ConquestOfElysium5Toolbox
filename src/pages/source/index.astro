@@ -1,44 +1,62 @@
 ---
 import Base from "../../layouts/Base.astro";
 import monsters from "../../data/source-monsters.json";
+import weapons from "../../data/source-weapons.json";
+import items from "../../data/source-items.json";
+import rituals from "../../data/source-rituals.json";
+import terrains from "../../data/source-terrains.json";
+import classes from "../../data/source-classes.json";
 
-const total = Object.keys(monsters).length;
-const examples = [935, 0, 19].map((n) => ({ idx: n, name: monsters[n].name }));
+const kinds = [
+  { kind: "monsters", title: "Monsters", records: monsters, example: 935 },
+  { kind: "weapons", title: "Weapons", records: weapons, example: 632 },
+  { kind: "items", title: "Items", records: items, example: 0 },
+  { kind: "rituals", title: "Rituals", records: rituals, example: 1 },
+  { kind: "terrains", title: "Terrains", records: terrains, example: 30 },
+  { kind: "classes", title: "Classes", records: classes, example: 1 },
+];
+const total = kinds.reduce((a, k) => a + Object.keys(k.records).length, 0);
 ---
 
 <Base
   title="Source"
-  description={`The full mod-format definition of every Conquest of Elysium 5 monster — ${total} records, each one valid mod syntax that can be pasted into a mod file.`}
+  description={`The full mod-format definition of every Conquest of Elysium 5 record — ${total} monsters, weapons, items, rituals, terrains and classes.`}
 >
   <h1>Source browser</h1>
 
   <p>
-    Every monster in the base game, shown as its complete definition in the
-    game's own mod format — the exact commands that build the unit. Each
-    block is valid mod syntax: paste it into a mod file and adapt it. Command
-    names link into the <a href="/commands">command reference</a>.
+    Every record in the base game, shown as its complete definition in the game's own mod format. Command names link into the <a href="/commands">command reference</a>, and every row in the <a href="/data">ID tables</a> links to its source page.
   </p>
 
-  <p>
-    Find a monster through the <a href="/data/monsters">monster table</a>
-    ({total} entries, searchable) — every name links to its source page. A
-    few examples:
-  </p>
-
-  <ul>
-    {
-      examples.map((m) => (
-        <li>
-          <a href={`/source/monsters/${m.idx}`}>{m.name}</a>
-          <span class="dim"> — monster {m.idx}</span>
-        </li>
-      ))
-    }
-  </ul>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">Records</th>
+        <th scope="col">Table</th>
+        <th scope="col">Example</th>
+      </tr>
+    </thead>
+    <tbody>
+      {
+        kinds.map((k) => (
+          <tr>
+            <td>
+              {k.title} <span class="dim">({Object.keys(k.records).length})</span>
+            </td>
+            <td>
+              <a href={`/data/${k.kind}`}>/data/{k.kind}</a>
+            </td>
+            <td>
+              <a href={`/source/${k.kind}/${k.example}`}>{k.records[k.example].name}</a>
+            </td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
 
   <p class="dim">
-    Weapons, items, rituals and the other record types will follow. Record
-    definitions from the base game data (v5.33 extraction), shown with
-    Illwinter's permission.
+    Record definitions from the base game data (v5.33 extraction), shown with
+    Illwinter's permission. Unaffiliated with Illwinter Game Design.
   </p>
 </Base>

@@ -1,23 +1,40 @@
 ---
 import Base from "../../../layouts/Base.astro";
-import monsters from "../../../data/source-monsters.json";
 import commandTable from "../../../../modcheck/data/commands.json";
+import monsters from "../../../data/source-monsters.json";
+import weapons from "../../../data/source-weapons.json";
+import items from "../../../data/source-items.json";
+import rituals from "../../../data/source-rituals.json";
+import terrains from "../../../data/source-terrains.json";
+import classes from "../../../data/source-classes.json";
 
 export function getStaticPaths() {
-  const entries = Object.entries(monsters);
-  return entries.map(([idx, { name, block }], i) => ({
-    params: { idx },
-    props: {
-      idx: Number(idx),
-      name,
-      block,
-      prev: i > 0 ? { idx: entries[i - 1][0], name: entries[i - 1][1].name } : null,
-      next: i < entries.length - 1 ? { idx: entries[i + 1][0], name: entries[i + 1][1].name } : null,
-    },
-  }));
+  const kinds = [
+    { kind: "monsters", singular: "monster", records: monsters },
+    { kind: "weapons", singular: "weapon", records: weapons },
+    { kind: "items", singular: "item", records: items },
+    { kind: "rituals", singular: "ritual", records: rituals },
+    { kind: "terrains", singular: "terrain", records: terrains },
+    { kind: "classes", singular: "class", records: classes },
+  ];
+  return kinds.flatMap(({ kind, singular, records }) => {
+    const entries = Object.entries(records);
+    return entries.map(([idx, { name, block }], i) => ({
+      params: { kind, idx },
+      props: {
+        kind,
+        singular,
+        idx,
+        name,
+        block,
+        prev: i > 0 ? { idx: entries[i - 1][0], name: entries[i - 1][1].name } : null,
+        next: i < entries.length - 1 ? { idx: entries[i + 1][0], name: entries[i + 1][1].name } : null,
+      },
+    }));
+  });
 }
 
-const { idx, name, block, prev, next } = Astro.props;
+const { kind, singular, idx, name, block, prev, next } = Astro.props;
 const known = new Set(Object.keys(commandTable.commands));
 
 const escapeHtml = (s) =>
@@ -36,7 +53,7 @@ const pad = Math.max(
 const renderLine = (line) => {
   const space = line.indexOf(" ");
   const cmd = space < 0 ? line : line.slice(0, space);
-  const rest = space < 0 ? "" : " ".repeat(pad - cmd.length) + line.slice(space);
+  const rest = space < 0 ? "" : " ".repeat(pad - cmd.length + 2) + line.slice(space + 1);
   const cmdHtml = known.has(cmd)
     ? `<a href="/commands/${encodeURIComponent(cmd)}">${escapeHtml(cmd)}</a>`
     : escapeHtml(cmd);
@@ -57,24 +74,21 @@ const renderLine = (line) => {
 const blockHtml = lines.map(renderLine).join("\n");
 const descr = /descr "([^]*?)"(?:\n|$)/.exec(block)?.[1];
 const pageDescription = descr
-  ? `${name} (monster ${idx}) mod source. ${descr.replaceAll("^", " ").slice(0, 140)}…`
-  : `Full mod-format definition of ${name}, monster ${idx} in Conquest of Elysium 5.`;
+  ? `${name} (${singular} ${idx}) mod source. ${descr.replaceAll("^", " ").slice(0, 140)}…`
+  : `Full mod-format definition of ${name}, ${singular} ${idx} in Conquest of Elysium 5.`;
 ---
 
 <Base title={`${name} — source`} description={pageDescription}>
-  <h1>{name} <span class="dim mon-idx">monster {idx}</span></h1>
+  <h1>{name} <span class="dim rec-idx">{singular} {idx}</span></h1>
 
   <p class="nav-row">
-    <a href={`/data/monsters#n${idx}`}>&larr; All monsters</a>
-    {prev && <a href={`/source/monsters/${prev.idx}`}>&larr; {prev.name}</a>}
-    {next && <a href={`/source/monsters/${next.idx}`}>{next.name} &rarr;</a>}
+    <a href={`/data/${kind}#n${idx}`}>&larr; All {kind}</a>
+    {prev && <a href={`/source/${kind}/${prev.idx}`}>&larr; {prev.name}</a>}
+    {next && <a href={`/source/${kind}/${next.idx}`}>{next.name} &rarr;</a>}
   </p>
 
   <p class="dim">
-    The complete definition of this monster in the game's own mod format —
-    every line is a real mod command, so the block can be pasted into a mod
-    file and adapted. Command names link to the
-    <a href="/commands">reference</a>.
+    The complete definition of this {singular} in the game's own mod format. Command names link to the <a href="/commands">reference</a>.
   </p>
 
   <div class="src-wrap">
@@ -98,7 +112,7 @@ const pageDescription = descr
 </script>
 
 <style>
-  .mon-idx {
+  .rec-idx {
     font-size: 1rem;
     font-weight: 400;
     margin-left: 0.35em;

@@ -36,9 +36,9 @@ base-game usage where they disagree. All pages are pre-rendered static HTML.
 ## Source browser
 
 - [Source](${SITE}/source): the full mod-format definition of every base-game
-  monster (${Object.keys(sourceMonsters).length} records at /source/monsters/{number}) — each block is
-  valid mod syntax that can be pasted into a mod file, with command names
-  linking into the reference.
+  record at /source/{kind}/{number} — ${Object.keys(sourceMonsters).length} monsters plus weapons, items,
+  rituals, terrains and classes. Each block is valid mod syntax that can be
+  pasted into a mod file, with command names linking into the reference.
 
 ## Data tables
 

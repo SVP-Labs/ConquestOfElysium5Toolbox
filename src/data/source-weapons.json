@@ -1,0 +1,3742 @@
+{
+ "0": {
+  "name": "Fist",
+  "block": "newweapon \"Fist\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 2\ndmg 1\naoe 0\nmundane\nsoft\nsound 1"
+ },
+ "1": {
+  "name": "Dagger",
+  "block": "newweapon \"Dagger\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 3\ndmg 3\naoe 0\nmundane\nsound 1"
+ },
+ "2": {
+  "name": "Broadsword",
+  "block": "newweapon \"Broadsword\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 6\naoe 0\nmundane\nsound 8"
+ },
+ "3": {
+  "name": "Axe",
+  "block": "newweapon \"Axe\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 1\ndmg 7\naoe 0\nmundane\nsound 1"
+ },
+ "4": {
+  "name": "Spear",
+  "block": "newweapon \"Spear\"\ntrgrank 1\nrange 1\ninit 6\ndmgtype 3\ndmg 4\naoe 0\nmundane\nsound 1"
+ },
+ "5": {
+  "name": "Staff",
+  "block": "newweapon \"Staff\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 2\ndmg 3\naoe 0\nmundane\nsound 1"
+ },
+ "6": {
+  "name": "Hammer",
+  "block": "newweapon \"Hammer\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 4\naoe 0\nmundane\nsound 1"
+ },
+ "7": {
+  "name": "Bow",
+  "block": "newweapon \"Bow\"\ntrgrank 1\nrange 5\ninit 2\ndmgtype 3\ndmg 3\naoe 0\nmundane\narrow\nlob\nrangepen\nflymode 1\nflysound 14"
+ },
+ "8": {
+  "name": "Shortsword",
+  "block": "newweapon \"Shortsword\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 1\ndmg 5\naoe 0\nmundane\nsound 8"
+ },
+ "9": {
+  "name": "Crossbow",
+  "block": "newweapon \"Crossbow\"\ntrgrank 1\nrange 5\ninit 2\ndmgtype 3\ndmg 5\naoe 0\nreload1\nmundane\narrow\nrangepen\nflymode 1\nflylook 14\nflysound 13"
+ },
+ "10": {
+  "name": "Life Drain",
+  "block": "newweapon \"Life Drain\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 7\ndmg 0\naoe 0\ndrain\ninanimate\nsound 18"
+ },
+ "11": {
+  "name": "Bite",
+  "block": "newweapon \"Bite\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nmundane\nsound 1"
+ },
+ "12": {
+  "name": "Claw",
+  "block": "newweapon \"Claw\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nmundane\nsound 1"
+ },
+ "13": {
+  "name": "Lance Charge",
+  "block": "newweapon \"Lance Charge\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 3\ndmg 0\naoe 0\noneshot\nmundane\nsound 84"
+ },
+ "14": {
+  "name": "Antlers",
+  "block": "newweapon \"Antlers\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 3\ndmg 0\naoe 0\nmundane\nsound 1"
+ },
+ "15": {
+  "name": "aff (mr)",
+  "block": "newweapon \"aff (mr)\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nmr"
+ },
+ "16": {
+  "name": "Pain",
+  "block": "newweapon \"Pain\"\ntrgrank 9\nrange 6\ninit 1\ndmgtype 7\ndmg 0\naoe 0\nmr\nan\ninanimate\nflymode 5\nflylook 170\nlook 1\nsound 32"
+ },
+ "17": {
+  "name": "Gaze of Fear",
+  "block": "newweapon \"Gaze of Fear\"\ntrgrank 9\nrange 10\ninit 10\ndmgtype 8\ndmg 0\naoe 25\nhardmr\nan\nflymode 5\nflylook 81\nflysound 22\nlook 82"
+ },
+ "18": {
+  "name": "Drain Life",
+  "block": "newweapon \"Drain Life\"\ntrgrank 9\nrange 5\ninit 4\ndmgtype 7\ndmg 0\naoe 0\ndrain\nan\ninanimate\nflymode 5\nflylook 74\nflysound 18"
+ },
+ "19": {
+  "name": "Club",
+  "block": "newweapon \"Club\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 3\naoe 0\nmundane\nsound 1"
+ },
+ "20": {
+  "name": "Mace",
+  "block": "newweapon \"Mace\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 5\naoe 0\nmundane\nsound 1"
+ },
+ "21": {
+  "name": "Greatsword",
+  "block": "newweapon \"Greatsword\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 9\naoe 0\nmundane\nsweep\nsound 8"
+ },
+ "22": {
+  "name": "Pike",
+  "block": "newweapon \"Pike\"\ntrgrank 1\nrange 2\ninit 2\ndmgtype 3\ndmg 5\naoe 0\nmundane\nsound 1"
+ },
+ "23": {
+  "name": "Halberd",
+  "block": "newweapon \"Halberd\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 1\ndmg 8\naoe 0\nmundane\nsound 1"
+ },
+ "24": {
+  "name": "Javelin",
+  "block": "newweapon \"Javelin\"\ntrgrank 1\nrange 3\ninit 1\ndmgtype 3\ndmg 4\naoe 0\noneshot\nmundane\narrow\nflymode 1\nflylook 1\nflysound 19"
+ },
+ "25": {
+  "name": "Flail",
+  "block": "newweapon \"Flail\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 6\naoe 0\nshieldneg\nmundane\nsound 1"
+ },
+ "26": {
+  "name": "Trident",
+  "block": "newweapon \"Trident\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 3\ndmg 7\naoe 0\nmundane\nsound 1"
+ },
+ "27": {
+  "name": "Sling",
+  "block": "newweapon \"Sling\"\ntrgrank 1\nrange 4\ninit 2\ndmgtype 2\ndmg 2\naoe 0\nmundane\narrow\nrangepen\nflymode 1\nflylook 2\nflysound 15"
+ },
+ "28": {
+  "name": "Longbow",
+  "block": "newweapon \"Longbow\"\ntrgrank 1\nrange 6\ninit 2\ndmgtype 3\ndmg 4\naoe 0\nmundane\narrow\nlob\nrangepen\nflymode 1\nflysound 14"
+ },
+ "29": {
+  "name": "ben (self)",
+  "block": "newweapon \"ben (self)\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 13\ndmg 0\naoe 0\nlook 1\nsound 29"
+ },
+ "30": {
+  "name": "Fear",
+  "block": "newweapon \"Fear\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 8\ndmg 0\naoe 0\nhardmr\nan\nlook 5\nsound 22"
+ },
+ "31": {
+  "name": "Cloud of Death",
+  "block": "newweapon \"Cloud of Death\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 12\ndmg 0\naoe 25\nmr\nflymode 2\nflylook 118\nflysound 66\nlook 119\nsound 42"
+ },
+ "32": {
+  "name": "Bane Fire",
+  "block": "newweapon \"Bane Fire\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 7\ndmg 0\naoe 1\nan\nlook 77\nsound 16\nnextwep 613\nnextdmg 4"
+ },
+ "33": {
+  "name": "Foul Claw",
+  "block": "newweapon \"Foul Claw\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nsound 1\nnextwep 50\nnextdmg 1"
+ },
+ "34": {
+  "name": "Poison Bow",
+  "block": "newweapon \"Poison Bow\"\ntrgrank 1\nrange 5\ninit 2\ndmgtype 3\ndmg 3\naoe 0\nmundane\narrow\nlob\nrangepen\nflymode 1\nflysound 14\nnextwep 35\nnextdmg 5"
+ },
+ "35": {
+  "name": "Poison",
+  "block": "newweapon \"Poison\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 9\ndmg 0\naoe 0\nan"
+ },
+ "36": {
+  "name": "Curse",
+  "block": "newweapon \"Curse\"\ntrgrank 9\nrange 16\ninit 4\ndmgtype 12\ndmg 0\naoe 0\nflymode 5\nflylook 157\nflysound 70\nlook 158"
+ },
+ "37": {
+  "name": "Gore",
+  "block": "newweapon \"Gore\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nmundane\nsound 1"
+ },
+ "38": {
+  "name": "Poison Breath",
+  "block": "newweapon \"Poison Breath\"\ntrgrank 1\nrange 5\ninit 7\ndmgtype 9\ndmg 0\naoe 3015\nan\nflymode 2\nflylook 63\nflysound 96\nlook 7"
+ },
+ "39": {
+  "name": "Tail Slap",
+  "block": "newweapon \"Tail Slap\"\ntrgrank 1\nrange 1\ninit 1\ndmgtype 2\ndmg 0\naoe 0\nshieldneg\nsound 105"
+ },
+ "40": {
+  "name": "Death Gaze",
+  "block": "newweapon \"Death Gaze\"\ntrgrank 1\nrange 10\ninit 10\ndmgtype 7\ndmg 0\naoe 4025\nhardmr\nan\ninanimate\nflymode 5\nflylook 79\nflysound 70\nlook 83"
+ },
+ "41": {
+  "name": "Strong Venomous Bite",
+  "block": "newweapon \"Strong Venomous Bite\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nmundane\nsound 1\nnextwep 35\nnextdmg 20"
+ },
+ "42": {
+  "name": "Venomous Bite",
+  "block": "newweapon \"Venomous Bite\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nmundane\nsound 1\nnextwep 35\nnextdmg 10"
+ },
+ "43": {
+  "name": "Weak Venomous Bite",
+  "block": "newweapon \"Weak Venomous Bite\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nmundane\nsound 1\nnextwep 35\nnextdmg 5"
+ },
+ "44": {
+  "name": "Tentacle",
+  "block": "newweapon \"Tentacle\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 2\ndmg 0\naoe 0\nmundane\nsound 1"
+ },
+ "45": {
+  "name": "Poison Cloud",
+  "block": "newweapon \"Poison Cloud\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 9\ndmg 0\naoe 1\nan\nflymode 3\nflylook 62\nflysound 104\nlook 7\nsound 109"
+ },
+ "46": {
+  "name": "Poison Spit",
+  "block": "newweapon \"Poison Spit\"\ntrgrank 1\nrange 3\ninit 2\ndmgtype 9\ndmg 0\naoe 1\nan\nflymode 3\nflylook 113\nflysound 104\nlook 7\nsound 109"
+ },
+ "47": {
+  "name": "Incorporate",
+  "block": "newweapon \"Incorporate\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 20\ndmg 0\naoe 0\nmr\nan\nhuge\nsound 103"
+ },
+ "48": {
+  "name": "Death Wail",
+  "block": "newweapon \"Death Wail\"\ntrgrank 1\nrange 1\ninit 8\ndmgtype 7\ndmg 0\naoe 25\nmr\nan\nundead\nmind\nflymode 3\nflysound 112\nlook 136"
+ },
+ "49": {
+  "name": "Putrid Cloud",
+  "block": "newweapon \"Putrid Cloud\"\ntrgrank 9\nrange 4\ninit 4\ndmgtype 7\ndmg 0\naoe 4010\nan\nflymode 2\nflylook 203\nflysound 96\nlook 205\nnextwep 50\nnextdmg 1"
+ },
+ "50": {
+  "name": "Disease",
+  "block": "newweapon \"Disease\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nhardmr"
+ },
+ "51": {
+  "name": "Sting",
+  "block": "newweapon \"Sting\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 9\ndmg 0\naoe 0\nan\nsound 1"
+ },
+ "52": {
+  "name": "Charm",
+  "block": "newweapon \"Charm\"\ntrgrank 9\nrange 5\ninit 4\ndmgtype 14\ndmg 0\naoe 0\nmr\nan\nmind\nflymode 8\nflylook 149\nflysound 94"
+ },
+ "53": {
+  "name": "Flame Burst",
+  "block": "newweapon \"Flame Burst\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 4\ndmg 0\naoe 1\nflymode 5\nflylook 66\nflysound 16\nlook 68\nsound 68"
+ },
+ "54": {
+  "name": "Fireball",
+  "block": "newweapon \"Fireball\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 4\ndmg 0\naoe 5\nflymode 6\nflylook 65\nflysound 99\nlook 68\nsound 16"
+ },
+ "55": {
+  "name": "Fire Cloud",
+  "block": "newweapon \"Fire Cloud\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 4\ndmg 0\naoe 9\nflymode 2\nflylook 66\nflysound 16\nlook 68\nsound 68"
+ },
+ "56": {
+  "name": "Falling Fires",
+  "block": "newweapon \"Falling Fires\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 4\ndmg 0\naoe 25\nflymode 7\nflylook 66\nflysound 16\nlook 68\nsound 68"
+ },
+ "57": {
+  "name": "Flame Storm",
+  "block": "newweapon \"Flame Storm\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 4\ndmg 0\naoe 50\nflymode 2\nflylook 65\nflysound 99\nlook 68\nsound 68"
+ },
+ "58": {
+  "name": "Hellfire",
+  "block": "newweapon \"Hellfire\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 4\ndmg 0\naoe 9999\nflymode 2\nlook 68\nsound 68"
+ },
+ "59": {
+  "name": "Meteor",
+  "block": "newweapon \"Meteor\"\ntrgrank 9\nrange 15\ninit 4\ndmgtype 2\ndmg 0\naoe 1\nscatter\nwallkill\nflymode 9\nflylook 84\nflysound 99\nlook 69\nsound 90\nnextalwayswep 191\nnextdmg 8"
+ },
+ "60": {
+  "name": "Meteor Showers",
+  "block": "newweapon \"Meteor Showers\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 2\ndmg 0\naoe 9997\nwallkill\nflymode 9\nflylook 86\nflysound 99\nlook 69\nsound 90\nnextalwayswep 191\nnextdmg 8"
+ },
+ "61": {
+  "name": "Freeze",
+  "block": "newweapon \"Freeze\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 5\ndmg 0\naoe 1\nan\nflymode 5\nflylook 89\nflysound 95\nlook 90"
+ },
+ "62": {
+  "name": "Frost",
+  "block": "newweapon \"Frost\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 5\ndmg 0\naoe 3\nan\nflymode 7\nflylook 89\nflysound 95\nlook 90"
+ },
+ "63": {
+  "name": "dmg (cold)",
+  "block": "newweapon \"dmg (cold)\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 5\ndmg 0\naoe 9\nan\nflymode 7\nflylook 89\nflysound 39\nlook 91"
+ },
+ "64": {
+  "name": "Falling Frost",
+  "block": "newweapon \"Falling Frost\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 5\ndmg 0\naoe 25\nan\nflymode 7\nflylook 89\nflysound 39\nlook 90"
+ },
+ "65": {
+  "name": "dmg (cold)",
+  "block": "newweapon \"dmg (cold)\"\ntrgrank 9\nrange 0\ninit 4\ndmgtype 5\ndmg 0\naoe 999\nan\nlook 91\nsound 39"
+ },
+ "66": {
+  "name": "Blizzard",
+  "block": "newweapon \"Blizzard\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 5\ndmg 0\naoe 9999\nan\nflymode 2\nflysound 39\nlook 92"
+ },
+ "67": {
+  "name": "Blood Boil",
+  "block": "newweapon \"Blood Boil\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 4\ndmg 0\naoe 0\nmr\nan\ninanimate\nflymode 5\nflylook 67\nflysound 68\nlook 41\nsound 16"
+ },
+ "68": {
+  "name": "Frozen Heart",
+  "block": "newweapon \"Frozen Heart\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 5\ndmg 0\naoe 0\nmr\nan\ninanimate\nflymode 5\nflylook 109\nflysound 105"
+ },
+ "69": {
+  "name": "Icicle",
+  "block": "newweapon \"Icicle\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 3\ndmg 0\naoe 0\nflymode 4\nflylook 94\nflysound 39\nnextwep 61\nnextdmg 3"
+ },
+ "70": {
+  "name": "Ice Shards",
+  "block": "newweapon \"Ice Shards\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 3\ndmg 0\naoe -3\nflymode 3\nflylook 94\nflysound 39\nlook 12\nnextwep 61\nnextdmg 3"
+ },
+ "71": {
+  "name": "Army of Gold",
+  "block": "newweapon \"Army of Gold\"\ntrgrank -9\nrange 0\ninit 4\ndmgtype 13\ndmg 0\naoe 998\nethereal\nonlyfriend\nflysound 68\nlook 1"
+ },
+ "72": {
+  "name": "Legion of Ice",
+  "block": "newweapon \"Legion of Ice\"\ntrgrank -9\nrange 0\ninit 4\ndmgtype 13\ndmg 0\naoe 998\nethereal\nonlyfriend\nflysound 39\nlook 1"
+ },
+ "73": {
+  "name": "Charm",
+  "block": "newweapon \"Charm\"\ntrgrank 9\nrange 5\ninit 4\ndmgtype 14\ndmg 0\naoe 0\neasymr\nan\nmind\nflymode 8\nflylook 149\nflysound 94"
+ },
+ "74": {
+  "name": "True Charm",
+  "block": "newweapon \"True Charm\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 14\ndmg 0\naoe 0\nhardmr\nan\nmind\nflymode 8\nflylook 149\nflysound 94"
+ },
+ "75": {
+  "name": "Venom",
+  "block": "newweapon \"Venom\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 9\ndmg 0\naoe 0\nan\nflymode 5\nflylook 61\nlook 7\nsound 96"
+ },
+ "76": {
+  "name": "Polymorph into Frog",
+  "block": "newweapon \"Polymorph into Frog\"\ntrgrank 9\nrange 4\ninit 4\ndmgtype 15\ndmg 0\naoe 0\nmr\nan\ninanimate\nonlyenemy\ntree\nflymode 2\nflylook 160\nflysound 70\nlook 10\nsound 70"
+ },
+ "77": {
+  "name": "Sleep",
+  "block": "newweapon \"Sleep\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 16\ndmg 0\naoe -2\nhardmr\nan\nmind\nonlyenemy\nflymode 5\nflylook 120\nlook 11\nsound 92"
+ },
+ "78": {
+  "name": "Enchanted Sleep",
+  "block": "newweapon \"Enchanted Sleep\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 16\ndmg 0\naoe 25\nmr\nan\nmind\nonlyenemy\nflymode 2\nflylook 120\nflysound 97\nlook 11"
+ },
+ "79": {
+  "name": "Mass Charm",
+  "block": "newweapon \"Mass Charm\"\ntrgrank 9\nrange 5\ninit 4\ndmgtype 14\ndmg 0\naoe 15\neasymr\nan\nmind\nonlyenemy\nflymode 8\nflylook 149\nflysound 94"
+ },
+ "80": {
+  "name": "Enchanting Voice",
+  "block": "newweapon \"Enchanting Voice\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 16\ndmg 0\naoe 100\nmr\nan\nmind\nonlyenemy\nflymode 2\nflylook 120\nflysound 97\nlook 11"
+ },
+ "81": {
+  "name": "Flame Strike",
+  "block": "newweapon \"Flame Strike\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 4\ndmg 0\naoe 1\nflymode 3\nflylook 95\nlook 68\nsound 16"
+ },
+ "82": {
+  "name": "Soul Drain",
+  "block": "newweapon \"Soul Drain\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 7\ndmg 0\naoe 9998\ndrain\ninanimate\nflymode 5\nflylook 75\nflysound 18"
+ },
+ "83": {
+  "name": "Fiery Breath",
+  "block": "newweapon \"Fiery Breath\"\ntrgrank 1\nrange 1\ninit 7\ndmgtype 4\ndmg 0\naoe 1\nflymode 2\nflylook 95\nflysound 16\nlook 68"
+ },
+ "84": {
+  "name": "Fiery Breath",
+  "block": "newweapon \"Fiery Breath\"\ntrgrank 1\nrange 3\ninit 7\ndmgtype 4\ndmg 0\naoe 2005\nflymode 2\nflylook 95\nflysound 16\nlook 68"
+ },
+ "85": {
+  "name": "Fiery Breath",
+  "block": "newweapon \"Fiery Breath\"\ntrgrank 1\nrange 5\ninit 7\ndmgtype 4\ndmg 0\naoe 2010\nflymode 2\nflylook 95\nflysound 16\nlook 68"
+ },
+ "86": {
+  "name": "Plague",
+  "block": "newweapon \"Plague\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 12\ndmg 0\naoe 25\nmr\ninanimate\nonlyenemy\nflymode 5\nflylook 130\nflysound 42\nlook 131\nsound 109"
+ },
+ "87": {
+  "name": "Black Death",
+  "block": "newweapon \"Black Death\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 12\ndmg 0\naoe 9999\nmr\ninanimate\nflymode 2\nlook 131\nsound 25"
+ },
+ "88": {
+  "name": "Pitchfork",
+  "block": "newweapon \"Pitchfork\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 3\ndmg 4\naoe 0\nmundane\nsound 1"
+ },
+ "89": {
+  "name": "Polymorph",
+  "block": "newweapon \"Polymorph\"\ntrgrank 9\nrange 4\ninit 4\ndmgtype 15\ndmg 0\naoe 25\nmr\nan\ninanimate\nlook 10\nsound 31"
+ },
+ "90": {
+  "name": "Heat Aura",
+  "block": "newweapon \"Heat Aura\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 4\ndmg 0\naoe 1\nyellow\nlook 68"
+ },
+ "91": {
+  "name": "Cold Aura",
+  "block": "newweapon \"Cold Aura\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 5\ndmg 0\naoe 1\nan\nblue\nlook 12"
+ },
+ "92": {
+  "name": "Poison Aura",
+  "block": "newweapon \"Poison Aura\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 9\ndmg 0\naoe 1\nan\nlook 7"
+ },
+ "93": {
+  "name": "Beak",
+  "block": "newweapon \"Beak\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nmundane\nsound 1"
+ },
+ "94": {
+  "name": "Talon",
+  "block": "newweapon \"Talon\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nmundane\nsound 1"
+ },
+ "95": {
+  "name": "Hoof",
+  "block": "newweapon \"Hoof\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 2\ndmg 0\naoe 0\nmundane\nsound 1"
+ },
+ "96": {
+  "name": "Trample",
+  "block": "newweapon \"Trample\"\ntrgrank 1\nrange 1\ninit 1\ndmgtype 2\ndmg 0\naoe 1\nmundane\nsound 84"
+ },
+ "97": {
+  "name": "Throw Rock",
+  "block": "newweapon \"Throw Rock\"\ntrgrank 1\nrange 2\ninit 2\ndmgtype 2\ndmg 1\naoe 0\nmundane\narrow\nflymode 1\nflylook 2\nflysound 19"
+ },
+ "98": {
+  "name": "Drop Boulder",
+  "block": "newweapon \"Drop Boulder\"\ntrgrank 9\nrange 50\ninit 1\ndmgtype 2\ndmg 0\naoe 1\nreload2\nmundane\nscatter\nflymode 11\nflylook 224\nflysound 1\nlook 225\nsound 11"
+ },
+ "99": {
+  "name": "Sickle",
+  "block": "newweapon \"Sickle\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 1\ndmg 3\naoe 0\nmundane\nsound 1"
+ },
+ "100": {
+  "name": "Scythe",
+  "block": "newweapon \"Scythe\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 1\ndmg 6\naoe 0\nmundane\nsound 1"
+ },
+ "101": {
+  "name": "death to friend (mr)",
+  "block": "newweapon \"death to friend (mr)\"\ntrgrank -9\nrange 1\ninit 4\ndmgtype 7\ndmg 0\naoe 0\nmr\nan\nlook 3\nsound 22\nnextwep 102\nnextdmg 9999"
+ },
+ "102": {
+  "name": "death to foe (no mr)",
+  "block": "newweapon \"death to foe (no mr)\"\ntrgrank 9\nrange 1\ninit 4\ndmgtype 7\ndmg 0\naoe 0\nan\nlook 3\nsound 22"
+ },
+ "103": {
+  "name": "Luck",
+  "block": "newweapon \"Luck\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 0\nonlyfriend\nflysound 44\nlook 178"
+ },
+ "104": {
+  "name": "Luck",
+  "block": "newweapon \"Luck\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 25\nonlyfriend\nflymode 3\nflysound 44\nlook 178"
+ },
+ "105": {
+  "name": "Death Spell",
+  "block": "newweapon \"Death Spell\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 7\ndmg 0\naoe 25\nan\nflymode 2\nflylook 141\nflysound 23\nlook 142\nsound 40"
+ },
+ "106": {
+  "name": "Dark Power",
+  "block": "newweapon \"Dark Power\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 7\ndmg 0\naoe -3\ndrain\nan\ninanimate\nflymode 5\nflylook 135\nlook 136\nsound 18"
+ },
+ "107": {
+  "name": "Shock",
+  "block": "newweapon \"Shock\"\ntrgrank 9\nrange 6\ninit 1\ndmgtype 6\ndmg 0\naoe 1\nan\nflymode 3\nflylook 186\nflysound 104\nlook 187\nsound 24"
+ },
+ "108": {
+  "name": "Shock Damage",
+  "block": "newweapon \"Shock Damage\"\ntrgrank 9\nrange 1\ninit 4\ndmgtype 6\ndmg 0\naoe 3\nan\nlook 25\nsound 24"
+ },
+ "109": {
+  "name": "Shock Damage",
+  "block": "newweapon \"Shock Damage\"\ntrgrank 9\nrange 1\ninit 4\ndmgtype 6\ndmg 0\naoe 5\nan\nlook 25\nsound 24"
+ },
+ "110": {
+  "name": "Chain Lightning",
+  "block": "newweapon \"Chain Lightning\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 6\ndmg 0\naoe 9208\nan\nlook 58\nsound 24"
+ },
+ "111": {
+  "name": "Shock Damage",
+  "block": "newweapon \"Shock Damage\"\ntrgrank 9\nrange 0\ninit 4\ndmgtype 6\ndmg 0\naoe 999\nan\nlook 24\nsound 24"
+ },
+ "112": {
+  "name": "Shock Damage",
+  "block": "newweapon \"Shock Damage\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 6\ndmg 0\naoe 9999\nan\nlook 24\nsound 24"
+ },
+ "113": {
+  "name": "Gust of Wind",
+  "block": "newweapon \"Gust of Wind\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 2\ndmg 0\naoe 5\nmundane\nflymode 4\nflylook 150\nflysound 110\nlook 26\nsound 111\nnextwep 118\nnextdmg 64"
+ },
+ "114": {
+  "name": "Winds",
+  "block": "newweapon \"Winds\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 2\ndmg 0\naoe 9\nmundane\nlook 26\nsound 66\nnextwep 118\nnextdmg 64"
+ },
+ "115": {
+  "name": "Storm Wind",
+  "block": "newweapon \"Storm Wind\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 2\ndmg 0\naoe 25\nmundane\nflymode 4\nflylook 150\nflysound 110\nlook 26\nsound 111\nnextwep 118\nnextdmg 64"
+ },
+ "116": {
+  "name": "Arcane Tempest",
+  "block": "newweapon \"Arcane Tempest\"\ntrgrank 9\nrange 0\ninit 4\ndmgtype 2\ndmg 0\naoe 999\nonlyenemy\nlook 26\nsound 66\nnextwep 118\nnextdmg 64"
+ },
+ "117": {
+  "name": "Gale",
+  "block": "newweapon \"Gale\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 2\ndmg 0\naoe 9999\nmundane\nlook 26\nsound 66\nnextwep 118\nnextdmg 64"
+ },
+ "118": {
+  "name": "aff (str-resistable)",
+  "block": "newweapon \"aff (str-resistable)\"\ntrgrank 9\nrange 1\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nan\nstrresist"
+ },
+ "119": {
+  "name": "Luck",
+  "block": "newweapon \"Luck\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 5\nonlyfriend\nflysound 44\nlook 178"
+ },
+ "120": {
+  "name": "Luck",
+  "block": "newweapon \"Luck\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 9\nonlyfriend\nflysound 44\nlook 178"
+ },
+ "121": {
+  "name": "Summon Imp",
+  "block": "newweapon \"Summon Imp\"\ntrgrank 7\nrange 3\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nflymode 2\nflylook 104\nflysound 57\nlook 106"
+ },
+ "122": {
+  "name": "Summon Fiend of Darkness",
+  "block": "newweapon \"Summon Fiend of Darkness\"\ntrgrank 7\nrange 3\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "123": {
+  "name": "Summon Lesser Demon",
+  "block": "newweapon \"Summon Lesser Demon\"\ntrgrank 7\nrange 3\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "124": {
+  "name": "Luck",
+  "block": "newweapon \"Luck\"\ntrgrank -9\nrange 0\ninit 4\ndmgtype 13\ndmg 0\naoe 998\nonlyfriend\nflysound 44\nlook 178"
+ },
+ "125": {
+  "name": "Net",
+  "block": "newweapon \"Net\"\ntrgrank 1\nrange 1\ninit 7\ndmgtype 12\ndmg 0\naoe 0\noneshot\nmundane\nsound 19"
+ },
+ "126": {
+  "name": "Sunlight",
+  "block": "newweapon \"Sunlight\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 4\ndmg 0\naoe 1\nan\nundkill\nflymode 5\nflylook 175\nflysound 108\nlook 176\nnextwep 15\nnextdmg 67108864"
+ },
+ "127": {
+  "name": "Sunbeam",
+  "block": "newweapon \"Sunbeam\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 4\ndmg 0\naoe 5\nan\nundkill\nflymode 5\nflylook 175\nflysound 108\nlook 176\nnextwep 15\nnextdmg 67108864"
+ },
+ "128": {
+  "name": "Solar Rays",
+  "block": "newweapon \"Solar Rays\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 4\ndmg 0\naoe 25\nan\nundkill\nflymode 5\nflylook 175\nflysound 108\nlook 176\nnextwep 159\nnextdmg 67108864"
+ },
+ "129": {
+  "name": "Solar Brilliance",
+  "block": "newweapon \"Solar Brilliance\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 4\ndmg 0\naoe 9999\nan\nundkill\nflymode 5\nflylook 175\nflysound 108\nlook 176\nnextwep 15\nnextdmg 67108864"
+ },
+ "130": {
+  "name": "Cleansing Water",
+  "block": "newweapon \"Cleansing Water\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 2\ndmg 0\naoe 1\nundkill\nlook 17\nsound 88\nnextwep 118\nnextdmg 64"
+ },
+ "131": {
+  "name": "dmg (holy water+knockback)",
+  "block": "newweapon \"dmg (holy water+knockback)\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 2\ndmg 0\naoe 5\nundkill\nlook 17\nsound 88\nnextwep 118\nnextdmg 64"
+ },
+ "132": {
+  "name": "Torrent of the Sacred River",
+  "block": "newweapon \"Torrent of the Sacred River\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 2\ndmg 0\naoe 25\nundkill\nlook 17\nsound 88\nnextwep 118\nnextdmg 64"
+ },
+ "133": {
+  "name": "dmg (holy water+knockback)",
+  "block": "newweapon \"dmg (holy water+knockback)\"\ntrgrank 9\nrange 0\ninit 4\ndmgtype 2\ndmg 0\naoe 999\nundkill\nlook 17\nsound 88\nnextwep 118\nnextdmg 64"
+ },
+ "134": {
+  "name": "Finger of Death",
+  "block": "newweapon \"Finger of Death\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 7\ndmg 0\naoe 0\nhardmr\nan\ninanimate\nflymode 5\nflylook 124\nflysound 22\nlook 125\nnextalwayswep 118\nnextdmg 16"
+ },
+ "135": {
+  "name": "Serpent Staff",
+  "block": "newweapon \"Serpent Staff\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 3\ndmg 4\naoe 0\nsound 1\nnextwep 35\nnextdmg 5"
+ },
+ "136": {
+  "name": "Summon Snake",
+  "block": "newweapon \"Summon Snake\"\ntrgrank 7\nrange 3\ninit 8\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "137": {
+  "name": "Summon Serpent",
+  "block": "newweapon \"Summon Serpent\"\ntrgrank 6\nrange 0\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "138": {
+  "name": "Lesser Banishment",
+  "block": "newweapon \"Lesser Banishment\"\ntrgrank 9\nrange 6\ninit 1\ndmgtype 23\ndmg 0\naoe 0\neasymr\nan\nflymode 5\nflylook 177\nflysound 107"
+ },
+ "139": {
+  "name": "Banishment",
+  "block": "newweapon \"Banishment\"\ntrgrank 9\nrange 6\ninit 1\ndmgtype 23\ndmg 0\naoe 0\nmr\nan\nflymode 5\nflylook 177\nflysound 107"
+ },
+ "140": {
+  "name": "Greater Banishment",
+  "block": "newweapon \"Greater Banishment\"\ntrgrank 9\nrange 6\ninit 1\ndmgtype 23\ndmg 0\naoe -3\nhardmr\nan\nflymode 5\nflylook 177\nflysound 107"
+ },
+ "141": {
+  "name": "Divine Utterings",
+  "block": "newweapon \"Divine Utterings\"\ntrgrank 9\nrange 8\ninit 1\ndmgtype 23\ndmg 0\naoe 9\neasymr\nan\nflymode 5\nflylook 177\nflysound 107"
+ },
+ "142": {
+  "name": "Great Maul",
+  "block": "newweapon \"Great Maul\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 2\ndmg 8\naoe 0\nmundane\nsound 1"
+ },
+ "143": {
+  "name": "Stinger",
+  "block": "newweapon \"Stinger\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 3\ndmg 0\naoe 0\nmundane\nsound 1\nnextwep 35\nnextdmg 20"
+ },
+ "144": {
+  "name": "Flick Barb",
+  "block": "newweapon \"Flick Barb\"\ntrgrank 1\nrange 3\ninit 2\ndmgtype 3\ndmg 0\naoe 0\nmundane\nflymode 1\nflylook 31\nflysound 104\nsound 13"
+ },
+ "145": {
+  "name": "Thunder Fist",
+  "block": "newweapon \"Thunder Fist\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 2\ndmg 1\naoe 0\nlook 25\nsound 24\nnextwep 107\nnextdmg 4"
+ },
+ "146": {
+  "name": "Poison Dagger",
+  "block": "newweapon \"Poison Dagger\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 3\ndmg 3\naoe 0\nmundane\nsound 1\nnextwep 35\nnextdmg 15"
+ },
+ "147": {
+  "name": "Wrestle",
+  "block": "newweapon \"Wrestle\"\ntrgrank 1\nrange 1\ninit 1\ndmgtype 2\ndmg 3\naoe 0\nmundane\nsound 1\nnextwep 118\nnextdmg 64"
+ },
+ "148": {
+  "name": "Summon Wolf",
+  "block": "newweapon \"Summon Wolf\"\ntrgrank 6\nrange 0\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "149": {
+  "name": "Thunderhead",
+  "block": "newweapon \"Thunderhead\"\ntrgrank 9\nrange 15\ninit 4\ndmgtype 6\ndmg 0\naoe -3\nan\nlook 155\nsound 27\nnextalwayswep 727\nnextdmg 1"
+ },
+ "150": {
+  "name": "Orb lightning",
+  "block": "newweapon \"Orb lightning\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 6\ndmg 0\naoe 15\nan\nflymode 7\nflylook 151\nflysound 24\nlook 152\nnextwep 15\nnextdmg 64"
+ },
+ "151": {
+  "name": "agony (dmg,mr)",
+  "block": "newweapon \"agony (dmg,mr)\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 7\ndmg 0\naoe 9\nmr\nan\ninanimate\nlook 1\nsound 32"
+ },
+ "152": {
+  "name": "Agony",
+  "block": "newweapon \"Agony\"\ntrgrank 9\nrange 10\ninit 1\ndmgtype 7\ndmg 0\naoe 25\nmr\nan\ninanimate\nflymode 3\nflylook 170\nflysound 32\nlook 1\nsound 104"
+ },
+ "153": {
+  "name": "Rupture",
+  "block": "newweapon \"Rupture\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 7\ndmg 0\naoe 100\nmr\nan\ninanimate\nonlyenemy\nlook 34\nsound 32"
+ },
+ "154": {
+  "name": "Petrifying Gaze",
+  "block": "newweapon \"Petrifying Gaze\"\ntrgrank 1\nrange 10\ninit 10\ndmgtype 24\ndmg 0\naoe 1010\nmr\nan\nstone\nflymode 5\nflylook 79\nflysound 22\nlook 83"
+ },
+ "155": {
+  "name": "Obsidian Glaive",
+  "block": "newweapon \"Obsidian Glaive\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 1\ndmg 8\naoe 0\nsound 1"
+ },
+ "156": {
+  "name": "Stone Glaive",
+  "block": "newweapon \"Stone Glaive\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 2\ndmg 5\naoe 0\nmundane\nsound 1"
+ },
+ "157": {
+  "name": "Spectral Club",
+  "block": "newweapon \"Spectral Club\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 7\ndmg 0\naoe 0\nsound 1"
+ },
+ "158": {
+  "name": "Spectral Sword",
+  "block": "newweapon \"Spectral Sword\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 7\ndmg 0\naoe 0\nsound 1"
+ },
+ "159": {
+  "name": "blindness (easymr)",
+  "block": "newweapon \"blindness (easymr)\"\ntrgrank 9\nrange 9\ninit 1\ndmgtype 12\ndmg 0\naoe 1\neasymr"
+ },
+ "160": {
+  "name": "Greatsword",
+  "block": "newweapon \"Greatsword\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 10\naoe 0\nsweep\nsound 1"
+ },
+ "161": {
+  "name": "Plague Bow",
+  "block": "newweapon \"Plague Bow\"\ntrgrank 1\nrange 6\ninit 2\ndmgtype 3\ndmg 3\naoe 0\narrow\nlob\nrangepen\nflymode 1\nflysound 14\nnextwep 15\nnextdmg 1"
+ },
+ "162": {
+  "name": "Summon Longdead",
+  "block": "newweapon \"Summon Longdead\"\ntrgrank 7\nrange 3\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 56"
+ },
+ "163": {
+  "name": "Seduction Aura",
+  "block": "newweapon \"Seduction Aura\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 14\ndmg 0\naoe 0\nmr\nhardmorale\nmind\nlook 68"
+ },
+ "164": {
+  "name": "Deadly Sting",
+  "block": "newweapon \"Deadly Sting\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 3\ndmg 0\naoe 0\nan\nmundane\nsound 1\nnextwep 35\nnextdmg 20"
+ },
+ "165": {
+  "name": "Shock Stun",
+  "block": "newweapon \"Shock Stun\"\ntrgrank 9\nrange 1\ninit 4\ndmgtype 12\ndmg 0\naoe 0\nmr\nstrresist"
+ },
+ "166": {
+  "name": "Demon Whip",
+  "block": "newweapon \"Demon Whip\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 1\ndmg 1\naoe 0\nsoft\nlook 68\nsound 54\nnextalwayswep 53\nnextdmg 15"
+ },
+ "167": {
+  "name": "aff (unresistable + mundane + fly)",
+  "block": "newweapon \"aff (unresistable + mundane + fly)\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nan\nmundane\nflying"
+ },
+ "168": {
+  "name": "Project Fire",
+  "block": "newweapon \"Project Fire\"\ntrgrank 9\nrange 4\ninit 8\ndmgtype 4\ndmg 0\naoe 3\nflymode 5\nflylook 66\nflysound 68\nlook 68"
+ },
+ "169": {
+  "name": "Project Lightning",
+  "block": "newweapon \"Project Lightning\"\ntrgrank 9\nrange 8\ninit 8\ndmgtype 6\ndmg 0\naoe 1\nan\nlook 155\nsound 27"
+ },
+ "170": {
+  "name": "Coil Spring Gun",
+  "block": "newweapon \"Coil Spring Gun\"\ntrgrank 9\nrange 4\ninit 4\ndmgtype 2\ndmg 0\naoe 0\nlook 27\nsound 106\nnextwep 118\nnextdmg 64"
+ },
+ "171": {
+  "name": "Paralyze",
+  "block": "newweapon \"Paralyze\"\ntrgrank 9\nrange 5\ninit 8\ndmgtype 17\ndmg 0\naoe 1\nmr\nan\ninanimate\nflymode 5\nflylook 115\nlook 2\nsound 42"
+ },
+ "172": {
+  "name": "Frost Brand",
+  "block": "newweapon \"Frost Brand\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 7\naoe 0\nlook 12\nsound 1\nnextwep 175\nnextdmg 7"
+ },
+ "173": {
+  "name": "Fire Brand",
+  "block": "newweapon \"Fire Brand\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 7\naoe 0\nsound 1\nnextalwayswep 480\nnextdmg 6"
+ },
+ "174": {
+  "name": "Fire",
+  "block": "newweapon \"Fire\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 4\ndmg 0\naoe 1\nlook 165\nsound 1"
+ },
+ "175": {
+  "name": "Cold",
+  "block": "newweapon \"Cold\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 5\ndmg 0\naoe 1\nan\nlook 167\nsound 1"
+ },
+ "176": {
+  "name": "Golden Claw",
+  "block": "newweapon \"Golden Claw\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nstonekill\nsound 1"
+ },
+ "177": {
+  "name": "Gusts of Winds",
+  "block": "newweapon \"Gusts of Winds\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 2\ndmg 0\naoe 9\nmundane\nflymode 4\nflylook 150\nflysound 110\nlook 26\nsound 111\nnextwep 118\nnextdmg 64"
+ },
+ "178": {
+  "name": "Wave Strike",
+  "block": "newweapon \"Wave Strike\"\ntrgrank 1\nrange 2\ninit 8\ndmgtype 2\ndmg 0\naoe 4006\nflymode 3\nflylook 197\nflysound 88\nlook 17\nsound 89\nnextwep 179\nnextdmg 64"
+ },
+ "179": {
+  "name": "Wave Strike Stun",
+  "block": "newweapon \"Wave Strike Stun\"\ntrgrank 1\nrange 6\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nan\nstrresist\nflymode 8\nflylook 196\nflysound 88\nlook 43\nsound 89\nnextwep 192\nnextdmg 999"
+ },
+ "180": {
+  "name": "Rumble Earth",
+  "block": "newweapon \"Rumble Earth\"\ntrgrank 1\nrange 1\ninit 8\ndmgtype 2\ndmg 0\naoe 3003\nan\nmundane\nlook 27\nsound 45\nnextwep 118\nnextdmg 64"
+ },
+ "181": {
+  "name": "Serpent Kryss",
+  "block": "newweapon \"Serpent Kryss\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 3\ndmg 3\naoe 0\nsound 1\nnextwep 35\nnextdmg 25"
+ },
+ "182": {
+  "name": "Poison Dagger",
+  "block": "newweapon \"Poison Dagger\"\ntrgrank 8\nrange 1\ninit 2\ndmgtype 3\ndmg 3\naoe 0\nan\nmundane\nsound 1\nnextwep 35\nnextdmg 15"
+ },
+ "183": {
+  "name": "Burning Hoof",
+  "block": "newweapon \"Burning Hoof\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 2\ndmg 0\naoe 0\nmundane\nsound 1\nnextwep 174\nnextdmg 3"
+ },
+ "184": {
+  "name": "Burning Lance",
+  "block": "newweapon \"Burning Lance\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 3\ndmg 0\naoe 0\noneshot\nsound 1\nnextwep 174\nnextdmg 5"
+ },
+ "185": {
+  "name": "Lightning Hoof",
+  "block": "newweapon \"Lightning Hoof\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 2\ndmg 0\naoe 0\nsound 1\nnextwep 107\nnextdmg 2"
+ },
+ "186": {
+  "name": "Lightning Lance",
+  "block": "newweapon \"Lightning Lance\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 3\ndmg 0\naoe 0\noneshot\nsound 1\nnextwep 107\nnextdmg 4"
+ },
+ "187": {
+  "name": "Torrent of Water",
+  "block": "newweapon \"Torrent of Water\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 2\ndmg 0\naoe 5\nflymode 3\nflylook 197\nflysound 88\nlook 17\nsound 89\nnextwep 118\nnextdmg 64"
+ },
+ "188": {
+  "name": "Stone Shard",
+  "block": "newweapon \"Stone Shard\"\ntrgrank 9\nrange 1\ninit 4\ndmgtype 3\ndmg 0\naoe 0\nlook 27\nsound 21\nnextwep 118\nnextdmg 64"
+ },
+ "189": {
+  "name": "Briar Cage",
+  "block": "newweapon \"Briar Cage\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 12\ndmg 0\naoe 9\nflymode 3\nflylook 199\nflysound 29\nlook 198\nsound 109"
+ },
+ "190": {
+  "name": "Chasm",
+  "block": "newweapon \"Chasm\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 2\ndmg 0\naoe 7015\nan\nflying\nlarge\nwallkill\nlook 59\nsound 45\nnextalwayswep 167\nnextdmg 256"
+ },
+ "191": {
+  "name": "Meteor Flame Burst",
+  "block": "newweapon \"Meteor Flame Burst\"\ntrgrank 1\nrange 1\ninit 1\ndmgtype 4\ndmg 0\naoe 5\nlook 68\nsound 16"
+ },
+ "192": {
+  "name": "Drown",
+  "block": "newweapon \"Drown\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 7\ndmg 0\naoe 0\neasymr\nan\ndrown\ninanimate"
+ },
+ "193": {
+  "name": "Summon Lesser Fire",
+  "block": "newweapon \"Summon Lesser Fire\"\ntrgrank 7\nrange 3\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 68\nsound 57"
+ },
+ "194": {
+  "name": "Summon Cloud Elemental",
+  "block": "newweapon \"Summon Cloud Elemental\"\ntrgrank 7\nrange 1\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "195": {
+  "name": "Summon Lesser Water",
+  "block": "newweapon \"Summon Lesser Water\"\ntrgrank 7\nrange 3\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "196": {
+  "name": "Summon Lesser Earth",
+  "block": "newweapon \"Summon Lesser Earth\"\ntrgrank 7\nrange 3\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "197": {
+  "name": "ben (self)",
+  "block": "newweapon \"ben (self)\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 13\ndmg 0\naoe 0\nlook 1\nsound 25\nnextwep 29\nnextdmg 4"
+ },
+ "198": {
+  "name": "Iron Storm",
+  "block": "newweapon \"Iron Storm\"\ntrgrank 9\nrange 0\ninit 4\ndmgtype 3\ndmg 0\naoe 999\nmundane\nflymode 1\nflylook 35\nflysound 104\nlook 18\nsound 75"
+ },
+ "199": {
+  "name": "Iron Darts",
+  "block": "newweapon \"Iron Darts\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 3\ndmg 0\naoe -7\nflymode 1\nflylook 35\nflysound 104\nlook 27\nsound 75"
+ },
+ "200": {
+  "name": "Seeking Arrow",
+  "block": "newweapon \"Seeking Arrow\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 3\ndmg 0\naoe 0\nmundane\nlook 18\nsound 21"
+ },
+ "201": {
+  "name": "Staff of Power",
+  "block": "newweapon \"Staff of Power\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 2\ndmg 6\naoe 0\nsound 1"
+ },
+ "202": {
+  "name": "Terrain Fire",
+  "block": "newweapon \"Terrain Fire\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 4\ndmg 0\naoe 0\nan\nsound 1"
+ },
+ "203": {
+  "name": "Summon Shade",
+  "block": "newweapon \"Summon Shade\"\ntrgrank 7\nrange 6\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nflymode 5\nflylook 101\nflysound 57\nlook 103"
+ },
+ "204": {
+  "name": "Touch of the Dead",
+  "block": "newweapon \"Touch of the Dead\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 7\ndmg 0\naoe 0\nan\nsound 1\nnextwep 707\nnextdmg 2048"
+ },
+ "205": {
+  "name": "Battle Fatigue",
+  "block": "newweapon \"Battle Fatigue\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 7\ndmg 0\naoe 0\nan\nsound 6"
+ },
+ "206": {
+  "name": "Aura of the Sun",
+  "block": "newweapon \"Aura of the Sun\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 0\nundead\nonlyfriend\nlook 19\nsound 30"
+ },
+ "207": {
+  "name": "Army of the Sun",
+  "block": "newweapon \"Army of the Sun\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 25\nundead\nonlyfriend\nlook 19\nsound 30"
+ },
+ "208": {
+  "name": "dmg (fire)",
+  "block": "newweapon \"dmg (fire)\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 4\ndmg 0\naoe -3\nlook 68\nsound 68"
+ },
+ "209": {
+  "name": "dmg (fire)",
+  "block": "newweapon \"dmg (fire)\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 4\ndmg 0\naoe -5\nlook 68\nsound 68"
+ },
+ "210": {
+  "name": "dmg (fire)",
+  "block": "newweapon \"dmg (fire)\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 4\ndmg 0\naoe -7\nlook 68\nsound 68"
+ },
+ "211": {
+  "name": "Lashes of Fire",
+  "block": "newweapon \"Lashes of Fire\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 4\ndmg 0\naoe -3\nflymode 5\nflylook 183\nflysound 54\nlook 165\nnextwep 212\nnextdmg 64"
+ },
+ "212": {
+  "name": "aff (mr)",
+  "block": "newweapon \"aff (mr)\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nmr\nan"
+ },
+ "213": {
+  "name": "Bane Fire Vortex",
+  "block": "newweapon \"Bane Fire Vortex\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 7\ndmg 0\naoe 9\nan\nflymode 3\nflysound 109\nlook 77\nsound 68\nnextwep 614\nnextdmg 4"
+ },
+ "214": {
+  "name": "ben (five)",
+  "block": "newweapon \"ben (five)\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe -5\nonlyfriend\nlook 12\nsound 29"
+ },
+ "215": {
+  "name": "Poison Vines",
+  "block": "newweapon \"Poison Vines\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 12\ndmg 0\naoe 3\nmundane\nonlyenemy\nflymode 3\nflylook 199\nflysound 29\nlook 198\nsound 109\nnextwep 35\nnextdmg 5"
+ },
+ "216": {
+  "name": "Wild Growth",
+  "block": "newweapon \"Wild Growth\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 12\ndmg 0\naoe 100\nan\nstrresist\nmundane\nonlyenemy\nflymode 3\nlook 137\nsound 74"
+ },
+ "217": {
+  "name": "Charm Animal",
+  "block": "newweapon \"Charm Animal\"\ntrgrank 9\nrange 5\ninit 4\ndmgtype 14\ndmg 0\naoe 0\neasymr\nan\naffectanimal\nmind\nonlyenemy\nflymode 8\nflylook 149\nsound 94"
+ },
+ "218": {
+  "name": "Charm Animal",
+  "block": "newweapon \"Charm Animal\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 14\ndmg 0\naoe 9\neasymr\nan\naffectanimal\nmind\nonlyenemy\nflymode 8\nflylook 149\nsound 94"
+ },
+ "219": {
+  "name": "Charm Animal",
+  "block": "newweapon \"Charm Animal\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 14\ndmg 0\naoe 25\neasymr\nan\naffectanimal\nmind\nonlyenemy\nflymode 8\nflylook 149\nsound 94"
+ },
+ "220": {
+  "name": "Polymorph into Boar",
+  "block": "newweapon \"Polymorph into Boar\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 15\ndmg 0\naoe 100\neasymr\nan\ninanimate\nonlyenemy\ntree\nflymode 2\nflylook 160\nflysound 70\nlook 10\nsound 70"
+ },
+ "221": {
+  "name": "Polymorph into Woodman",
+  "block": "newweapon \"Polymorph into Woodman\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 15\ndmg 0\naoe 0\nhardmr\nan\ninanimate\nonlyenemy\nlook 10\nsound 31"
+ },
+ "222": {
+  "name": "Spectral Weapons",
+  "block": "newweapon \"Spectral Weapons\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 7\ndmg 0\naoe 0\nsound 1"
+ },
+ "223": {
+  "name": "Spectral Bow",
+  "block": "newweapon \"Spectral Bow\"\ntrgrank 1\nrange 5\ninit 2\ndmgtype 7\ndmg 0\naoe 0\narrow\nlob\nrangepen\nflymode 1\nflysound 14"
+ },
+ "224": {
+  "name": "Spectral Lance",
+  "block": "newweapon \"Spectral Lance\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 7\ndmg 0\naoe 0\noneshot\nsound 84"
+ },
+ "225": {
+  "name": "Slumber",
+  "block": "newweapon \"Slumber\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 16\ndmg 0\naoe 1\nhardmr\nan\nmind\nonlyenemy\nlook 11\nsound 22"
+ },
+ "226": {
+  "name": "Touch of the Moon",
+  "block": "newweapon \"Touch of the Moon\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 16\ndmg 0\naoe 5\nmr\nan\nonlyenemy\nflymode 2\nflylook 120\nflysound 92\nlook 11"
+ },
+ "227": {
+  "name": "Obsidian Clubsword",
+  "block": "newweapon \"Obsidian Clubsword\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 7\naoe 0\nmundane\nsound 8"
+ },
+ "228": {
+  "name": "Obsidian Clubsword",
+  "block": "newweapon \"Obsidian Clubsword\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 5\naoe 0\nmundane\nsound 8"
+ },
+ "229": {
+  "name": "Poison Arrow",
+  "block": "newweapon \"Poison Arrow\"\ntrgrank 9\nrange 5\ninit 4\ndmgtype 3\ndmg 0\naoe 0\nmundane\nflymode 1\nflylook 13\nflysound 104\nsound 21\nnextwep 35\nnextdmg 10"
+ },
+ "230": {
+  "name": "Disintegrate",
+  "block": "newweapon \"Disintegrate\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 7\ndmg 0\naoe 0\nhardmr\nan\nflymode 5\nflylook 116\nflysound 99\nlook 3\nsound 95\nnextalwayswep 231\nnextdmg 20"
+ },
+ "231": {
+  "name": "Disintegrate",
+  "block": "newweapon \"Disintegrate\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 7\ndmg 0\naoe 0\nan"
+ },
+ "232": {
+  "name": "Paralyze",
+  "block": "newweapon \"Paralyze\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nmr\nan\ninanimate\nflymode 5\nflylook 115\nlook 2\nsound 42"
+ },
+ "233": {
+  "name": "Mass Command",
+  "block": "newweapon \"Mass Command\"\ntrgrank 9\nrange 0\ninit 4\ndmgtype 12\ndmg 0\naoe 999\nhardmr\nmind\nflymode 5\nflylook 212\nflysound 108\nlook 11\nsound 109"
+ },
+ "234": {
+  "name": "Enslave",
+  "block": "newweapon \"Enslave\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 19\ndmg 0\naoe 25\nmr\nan\nmind\nflymode 8\nflylook 122\nflysound 94\nlook 8"
+ },
+ "235": {
+  "name": "Bolt of Unlife",
+  "block": "newweapon \"Bolt of Unlife\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 7\ndmg 0\naoe 0\nhardmr\nan\nreanimate\ninanimate\nflymode 4\nflylook 129\nflysound 3\nlook 20\nsound 109"
+ },
+ "236": {
+  "name": "Stellar Bolt",
+  "block": "newweapon \"Stellar Bolt\"\ntrgrank 9\nrange 12\ninit 4\ndmgtype 7\ndmg 0\naoe 0\nan\nlook 28\nsound 70\nnextwep 15\nnextdmg 16"
+ },
+ "237": {
+  "name": "Boulder",
+  "block": "newweapon \"Boulder\"\ntrgrank 9\nrange 16\ninit 1\ndmgtype 2\ndmg 0\naoe 1\nreload1\nmundane\nscatter\nflying2\nflymode 1\nflylook 32\nflysound 45"
+ },
+ "238": {
+  "name": "Boulders",
+  "block": "newweapon \"Boulders\"\ntrgrank 9\nrange 20\ninit 1\ndmgtype 2\ndmg 0\naoe 3\nreload2\nmundane\nscatter\nflying2\nflymode 1\nflylook 32\nflysound 45"
+ },
+ "239": {
+  "name": "Giant Arrow",
+  "block": "newweapon \"Giant Arrow\"\ntrgrank 1\nrange 12\ninit 1\ndmgtype 3\ndmg 0\naoe 1\nreload1\nmundane\nscatter\nflymode 1\nflylook 7\nflysound 13"
+ },
+ "240": {
+  "name": "Encase in Ice",
+  "block": "newweapon \"Encase in Ice\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 5\ndmg 0\naoe 5\nan\nflysound 39\nlook 12\nnextwep 15\nnextdmg 1024"
+ },
+ "241": {
+  "name": "Ice Prison",
+  "block": "newweapon \"Ice Prison\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 5\ndmg 0\naoe 25\nan\nflysound 39\nlook 12\nnextwep 15\nnextdmg 1024"
+ },
+ "242": {
+  "name": "Combustion",
+  "block": "newweapon \"Combustion\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 12\ndmg 0\naoe -3\nflymode 5\nflylook 111\nflysound 68"
+ },
+ "243": {
+  "name": "Combustion",
+  "block": "newweapon \"Combustion\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 12\ndmg 0\naoe -4\nflymode 5\nflylook 111\nflysound 68"
+ },
+ "244": {
+  "name": "Lashes of Pain",
+  "block": "newweapon \"Lashes of Pain\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 1\ndmg 0\naoe -3\ninanimate\nflymode 5\nflylook 172\nflysound 54\nlook 171\nnextwep 212\nnextdmg 64"
+ },
+ "245": {
+  "name": "Black Cloud",
+  "block": "newweapon \"Black Cloud\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 12\ndmg 0\naoe 5\nmr\ninanimate\nflymode 2\nflylook 130\nflysound 42\nlook 131\nsound 109"
+ },
+ "246": {
+  "name": "Tendrils of Death",
+  "block": "newweapon \"Tendrils of Death\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 12\ndmg 0\naoe -7\nhardmr\ninanimate\nflymode 5\nflylook 147\nlook 136\nsound 54"
+ },
+ "247": {
+  "name": "Tangle Vines",
+  "block": "newweapon \"Tangle Vines\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nmundane\nflying\nflymode 3\nflylook 199\nflysound 29\nlook 198\nsound 109"
+ },
+ "248": {
+  "name": "Spiked Arm",
+  "block": "newweapon \"Spiked Arm\"\ntrgrank 1\nrange 1\ninit 7\ndmgtype 3\ndmg 0\naoe 0\nmundane\nsound 1"
+ },
+ "249": {
+  "name": "Strength Sap",
+  "block": "newweapon \"Strength Sap\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 12\ndmg 0\naoe 3\nhardmr\nundead\nflymode 7\nflylook 132\nflysound 42\nlook 133"
+ },
+ "250": {
+  "name": "Weakness",
+  "block": "newweapon \"Weakness\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 12\ndmg 0\naoe 25\nhardmr\nundead\ninanimate\nflymode 2\nflylook 134\nflysound 42\nlook 133\nsound 109"
+ },
+ "251": {
+  "name": "Chill of the Dead",
+  "block": "newweapon \"Chill of the Dead\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 5\ndmg 0\naoe 25\nan\nflymode 2\nflylook 143\nflysound 104\nlook 144\nsound 38\nnextalwayswep 409\nnextdmg 2048"
+ },
+ "252": {
+  "name": "Shade of Death",
+  "block": "newweapon \"Shade of Death\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 12\ndmg 0\naoe 9999\nhardmr\nundead\ninanimate\nflymode 2\nflylook 134\nlook 146\nsound 108"
+ },
+ "253": {
+  "name": "Club of the Ogre King",
+  "block": "newweapon \"Club of the Ogre King\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 10\naoe 0\nsound 1\nnextwep 118\nnextdmg 64"
+ },
+ "254": {
+  "name": "Sword of the Damned",
+  "block": "newweapon \"Sword of the Damned\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 8\naoe 0\nsound 1\nnextwep 15\nnextdmg 4"
+ },
+ "255": {
+  "name": "Wind of Silence",
+  "block": "newweapon \"Wind of Silence\"\ntrgrank 9\nrange 6\ninit 1\ndmgtype 23\ndmg 0\naoe 9\neasymr\nan\nflysound 22\nlook 3"
+ },
+ "256": {
+  "name": "Call Spirits of the Dead",
+  "block": "newweapon \"Call Spirits of the Dead\"\ntrgrank 9\nrange 6\ninit 1\ndmgtype 23\ndmg 0\naoe 9\nmr\nan\nflysound 22\nlook 3"
+ },
+ "257": {
+  "name": "Row Greater Banishment",
+  "block": "newweapon \"Row Greater Banishment\"\ntrgrank 9\nrange 6\ninit 1\ndmgtype 23\ndmg 0\naoe 25\nhardmr\nan\nlook 3\nsound 22"
+ },
+ "258": {
+  "name": "Battle Axe",
+  "block": "newweapon \"Battle Axe\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 1\ndmg 8\naoe 0\nmundane\nsound 8"
+ },
+ "259": {
+  "name": "Fist",
+  "block": "newweapon \"Fist\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 2\ndmg 0\naoe 0\nmundane\nsoft\nsound 1"
+ },
+ "260": {
+  "name": "Sickle Sword",
+  "block": "newweapon \"Sickle Sword\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 5\naoe 0\nmundane\nsound 1"
+ },
+ "261": {
+  "name": "Bane Blade",
+  "block": "newweapon \"Bane Blade\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 10\naoe 0\nsweep\nsound 1\nnextwep 15\nnextdmg 4"
+ },
+ "262": {
+  "name": "Stone Sword",
+  "block": "newweapon \"Stone Sword\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 4\naoe 0\nsound 1"
+ },
+ "263": {
+  "name": "Summon Ancestor Spirit",
+  "block": "newweapon \"Summon Ancestor Spirit\"\ntrgrank 7\nrange 3\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "264": {
+  "name": "Summon Ancestral Warrior",
+  "block": "newweapon \"Summon Ancestral Warrior\"\ntrgrank 7\nrange 3\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "265": {
+  "name": "Summon Longdead",
+  "block": "newweapon \"Summon Longdead\"\ntrgrank 7\nrange 3\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 56"
+ },
+ "266": {
+  "name": "Summon Soulless",
+  "block": "newweapon \"Summon Soulless\"\ntrgrank 7\nrange 3\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 56"
+ },
+ "267": {
+  "name": "Call Lightning",
+  "block": "newweapon \"Call Lightning\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 6\ndmg 0\naoe -12\nan\nlook 24\nsound 24\nnextwep 15\nnextdmg 64"
+ },
+ "268": {
+  "name": "Project Fire",
+  "block": "newweapon \"Project Fire\"\ntrgrank 9\nrange 5\ninit 8\ndmgtype 4\ndmg 0\naoe 3007\nflymode 2\nflylook 66\nflysound 16\nlook 68\nsound 68"
+ },
+ "269": {
+  "name": "Project Lightning",
+  "block": "newweapon \"Project Lightning\"\ntrgrank 9\nrange 8\ninit 8\ndmgtype 6\ndmg 0\naoe -3\nan\nlook 155\nsound 27\nnextwep 15\nnextdmg 64"
+ },
+ "270": {
+  "name": "Paralyze",
+  "block": "newweapon \"Paralyze\"\ntrgrank 9\nrange 5\ninit 8\ndmgtype 17\ndmg 0\naoe -3\nmr\nan\ninanimate\nflymode 5\nflylook 115\nlook 2\nsound 42"
+ },
+ "271": {
+  "name": "Poison Bolts",
+  "block": "newweapon \"Poison Bolts\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 9\ndmg 0\naoe -3\nan\nflymode 3\nflylook 60\nflysound 96\nlook 7"
+ },
+ "272": {
+  "name": "Poison Cloud",
+  "block": "newweapon \"Poison Cloud\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 9\ndmg 0\naoe 5\nan\nflymode 3\nflylook 62\nflysound 42\nlook 7\nsound 109"
+ },
+ "273": {
+  "name": "Water Strike",
+  "block": "newweapon \"Water Strike\"\ntrgrank 1\nrange 1\ninit 8\ndmgtype 2\ndmg 0\naoe 1\nlook 17\nsound 89\nnextwep 402\nnextdmg 64"
+ },
+ "274": {
+  "name": "Icy Breath",
+  "block": "newweapon \"Icy Breath\"\ntrgrank 1\nrange 1\ninit 7\ndmgtype 5\ndmg 0\naoe 1\nan\nflymode 2\nflylook 97\nflysound 95\nlook 90"
+ },
+ "275": {
+  "name": "Icy Breath",
+  "block": "newweapon \"Icy Breath\"\ntrgrank 1\nrange 3\ninit 7\ndmgtype 5\ndmg 0\naoe 2005\nan\nflymode 2\nflylook 97\nflysound 95\nlook 90"
+ },
+ "276": {
+  "name": "Icy Breath",
+  "block": "newweapon \"Icy Breath\"\ntrgrank 1\nrange 5\ninit 7\ndmgtype 5\ndmg 0\naoe 2010\nan\nflymode 2\nflylook 97\nflysound 95\nlook 90"
+ },
+ "277": {
+  "name": "Poison Spear",
+  "block": "newweapon \"Poison Spear\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 3\ndmg 4\naoe 0\nmundane\nsound 14\nnextwep 35\nnextdmg 10"
+ },
+ "278": {
+  "name": "Poison Glaive",
+  "block": "newweapon \"Poison Glaive\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 1\ndmg 8\naoe 0\nmundane\nsound 14\nnextwep 35\nnextdmg 10"
+ },
+ "279": {
+  "name": "Lightning Strike",
+  "block": "newweapon \"Lightning Strike\"\ntrgrank 9\nrange 10\ninit 8\ndmgtype 6\ndmg 0\naoe 1\nan\nlook 25\nsound 24"
+ },
+ "280": {
+  "name": "Winds",
+  "block": "newweapon \"Winds\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 2\ndmg 0\naoe 3\nmundane\nlook 26\nsound 66\nnextwep 118\nnextdmg 64"
+ },
+ "281": {
+  "name": "Wither",
+  "block": "newweapon \"Wither\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 12\ndmg 0\naoe 5\nhardmr\nflymode 2\nflylook 126\nflysound 42\nlook 125\nsound 109"
+ },
+ "282": {
+  "name": "Curse of Wood",
+  "block": "newweapon \"Curse of Wood\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 12\ndmg 0\naoe 25\nmr\nan\ninanimate\nstone\ntree\nflymode 2\nflylook 202\nflysound 113\nlook 2\nsound 109"
+ },
+ "283": {
+  "name": "Poison Explosion",
+  "block": "newweapon \"Poison Explosion\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 9\ndmg 0\naoe 25\nan\nflymode 2\nflylook 62\nflysound 96\nlook 7\nsound 96"
+ },
+ "284": {
+  "name": "Fire Explosion",
+  "block": "newweapon \"Fire Explosion\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 4\ndmg 0\naoe 25\nflymode 2\nflylook 66\nflysound 16\nlook 68\nsound 68"
+ },
+ "285": {
+  "name": "Shard Explosion",
+  "block": "newweapon \"Shard Explosion\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 3\ndmg 0\naoe 25\nflymode 1\nflylook 33\nflysound 21\nlook 27\nsound 21"
+ },
+ "286": {
+  "name": "Putrid Explosion",
+  "block": "newweapon \"Putrid Explosion\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 7\ndmg 0\naoe 25\nflymode 2\nflylook 203\nflysound 96\nlook 205\nnextalwayswep 50\nnextdmg 1"
+ },
+ "287": {
+  "name": "Flail of Pain",
+  "block": "newweapon \"Flail of Pain\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 2\ndmg 10\naoe 0\nshieldneg\nsound 1\nnextwep 289\nnextdmg 64"
+ },
+ "288": {
+  "name": "Snake",
+  "block": "newweapon \"Snake\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 3\ndmg 3\naoe 0\nshieldneg\nmundane\nnostr\nsound 1\nnextwep 35\nnextdmg 20"
+ },
+ "289": {
+  "name": "aff (morale resist)",
+  "block": "newweapon \"aff (morale resist)\"\ntrgrank 9\nrange 1\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nhardmorale\ninanimate\nlook 2\nsound 42"
+ },
+ "290": {
+  "name": "Snake Hair",
+  "block": "newweapon \"Snake Hair\"\ntrgrank 1\nrange 1\ninit 1\ndmgtype 3\ndmg 0\naoe 0\nmundane\nsound 1\nnextwep 35\nnextdmg 10"
+ },
+ "291": {
+  "name": "Petrification",
+  "block": "newweapon \"Petrification\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 24\ndmg 0\naoe 0\nmr\nan\nstone\nlook 12"
+ },
+ "292": {
+  "name": "Granite Spear",
+  "block": "newweapon \"Granite Spear\"\ntrgrank 1\nrange 1\ninit 6\ndmgtype 2\ndmg 2\naoe 0\nmundane\nsound 8"
+ },
+ "293": {
+  "name": "Poison Cloud",
+  "block": "newweapon \"Poison Cloud\"\ntrgrank 9\nrange 2\ninit 4\ndmgtype 9\ndmg 0\naoe 3\nan\nmundane\nflymode 3\nflylook 62\nflysound 104\nlook 7\nsound 109"
+ },
+ "294": {
+  "name": "Cloud of Decay",
+  "block": "newweapon \"Cloud of Decay\"\ntrgrank 1\nrange 2\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nhardmr\nan\nflymode 3\nflylook 62\nflysound 104\nlook 7\nsound 109"
+ },
+ "295": {
+  "name": "Infernal Torch",
+  "block": "newweapon \"Infernal Torch\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 5\naoe 1\nsound 1\nnextwep 55\nnextdmg 10"
+ },
+ "296": {
+  "name": "Mutation Tentacle",
+  "block": "newweapon \"Mutation Tentacle\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 2\ndmg 0\naoe 0\nmundane\nmutate\nsound 1"
+ },
+ "297": {
+  "name": "Ghoul Claw",
+  "block": "newweapon \"Ghoul Claw\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nghoulify\nsound 1\nnextwep 50\nnextdmg 1"
+ },
+ "298": {
+  "name": "Mace of Order",
+  "block": "newweapon \"Mace of Order\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 5\naoe 0\nsound 1\nnextwep 299\nnextdmg 5"
+ },
+ "299": {
+  "name": "Strike of Order",
+  "block": "newweapon \"Strike of Order\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 2\ndmg 0\naoe 3\nonlyenemy\nlook 18\nsound 1"
+ },
+ "300": {
+  "name": "Hold",
+  "block": "newweapon \"Hold\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 12\ndmg 0\naoe -3\nhardmr\nan\nflymode 5\nflylook 121\nsound 10"
+ },
+ "301": {
+  "name": "Astral Claw",
+  "block": "newweapon \"Astral Claw\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 1\ndmg 0\naoe 0\nan\nsound 1"
+ },
+ "302": {
+  "name": "Astral Hooks",
+  "block": "newweapon \"Astral Hooks\"\ntrgrank 1\nrange 1\ninit 7\ndmgtype 1\ndmg 0\naoe 0\nan\nsound 1\nnextwep 303\nnextdmg 16384"
+ },
+ "303": {
+  "name": "aff (mark - hardresist)",
+  "block": "newweapon \"aff (mark - hardresist)\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nhardmr\nlook 21"
+ },
+ "304": {
+  "name": "Slumbering Army",
+  "block": "newweapon \"Slumbering Army\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 16\ndmg 0\naoe 9998\nmr\nan\nmind\nonlyenemy\nflymode 2\nflylook 120\nflysound 97\nlook 11"
+ },
+ "305": {
+  "name": "Throw Boulder",
+  "block": "newweapon \"Throw Boulder\"\ntrgrank 1\nrange 6\ninit 1\ndmgtype 2\ndmg 0\naoe 1\nreload1\nmundane\nflymode 1\nflylook 32\nflysound 45"
+ },
+ "306": {
+  "name": "Mind Blast",
+  "block": "newweapon \"Mind Blast\"\ntrgrank 1\nrange 10\ninit 8\ndmgtype 7\ndmg 0\naoe 0\nhardmr\nan\nmind\nlook 3\nsound 22\nnextwep 212\nnextdmg 16"
+ },
+ "307": {
+  "name": "Slumber of the Stones",
+  "block": "newweapon \"Slumber of the Stones\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 16\ndmg 0\naoe 100\nmr\nan\nmind\nflysound 97\nlook 11"
+ },
+ "308": {
+  "name": "Summon Monster Toad",
+  "block": "newweapon \"Summon Monster Toad\"\ntrgrank 6\nrange 0\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "309": {
+  "name": "Summon Frog",
+  "block": "newweapon \"Summon Frog\"\ntrgrank 7\nrange 3\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "310": {
+  "name": "aff (earth, unresistable)",
+  "block": "newweapon \"aff (earth, unresistable)\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nflying\nlook 27\nsound 45"
+ },
+ "311": {
+  "name": "dmg (earth, blunt+knockback)",
+  "block": "newweapon \"dmg (earth, blunt+knockback)\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 2\ndmg 0\naoe 1\nmundane\nflying\nlook 27\nsound 45\nnextwep 118\nnextdmg 64"
+ },
+ "312": {
+  "name": "dmg (earth, blunt+knockback)",
+  "block": "newweapon \"dmg (earth, blunt+knockback)\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 2\ndmg 0\naoe 3\nmundane\nflying\nlook 27\nsound 45\nnextwep 118\nnextdmg 64"
+ },
+ "313": {
+  "name": "Eruption",
+  "block": "newweapon \"Eruption\"\ntrgrank 9\nrange 6\ninit 1\ndmgtype 2\ndmg 0\naoe 5\nmundane\nflying\nwallkill\nflymode 3\nflysound 104\nlook 27\nsound 45\nnextwep 118\nnextdmg 64"
+ },
+ "314": {
+  "name": "dmg (earth, blunt+knockback)",
+  "block": "newweapon \"dmg (earth, blunt+knockback)\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 2\ndmg 0\naoe 25\nmundane\nflying\nlook 27\nsound 45\nnextwep 118\nnextdmg 64"
+ },
+ "315": {
+  "name": "dmg (earth, blunt+knockback)",
+  "block": "newweapon \"dmg (earth, blunt+knockback)\"\ntrgrank 9\nrange 0\ninit 4\ndmgtype 2\ndmg 0\naoe 999\nmundane\nflying\nlook 27\nsound 45\nnextwep 118\nnextdmg 64"
+ },
+ "316": {
+  "name": "Earthquake",
+  "block": "newweapon \"Earthquake\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 2\ndmg 0\naoe 9999\nmundane\nflying\nwallkill\nflymode 2\nlook 27\nsound 45\nnextwep 118\nnextdmg 64"
+ },
+ "317": {
+  "name": "Earth Meld",
+  "block": "newweapon \"Earth Meld\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 12\ndmg 0\naoe 9\nflymode 2\nlook 211\nsound 45"
+ },
+ "318": {
+  "name": "Deluge",
+  "block": "newweapon \"Deluge\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 2\ndmg 0\naoe 25\nflymode 4\nflylook 197\nflysound 88\nlook 17\nsound 89\nnextwep 118\nnextdmg 64"
+ },
+ "319": {
+  "name": "Watery Doom",
+  "block": "newweapon \"Watery Doom\"\ntrgrank 9\nrange 10\ninit 1\ndmgtype 12\ndmg 0\naoe 100\nmr\nan\nflymode 2\nflylook 197\nflysound 88\nlook 17\nsound 89\nnextwep 192\nnextdmg 999"
+ },
+ "320": {
+  "name": "ben (one)",
+  "block": "newweapon \"ben (one)\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 1\nonlyfriend\nflysound 29\nlook 16"
+ },
+ "321": {
+  "name": "ben (row)",
+  "block": "newweapon \"ben (row)\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 25\nonlyfriend\nflysound 29\nlook 16"
+ },
+ "322": {
+  "name": "Scepter",
+  "block": "newweapon \"Scepter\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 4\naoe 0\nmundane\nsound 1"
+ },
+ "323": {
+  "name": "Summon Fiend of Darkness",
+  "block": "newweapon \"Summon Fiend of Darkness\"\ntrgrank 7\nrange 3\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57\nnextalwayswep 324\nnextdmg 1"
+ },
+ "324": {
+  "name": "Summon Lesser Demon",
+  "block": "newweapon \"Summon Lesser Demon\"\ntrgrank 7\nrange 3\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57\nnextalwayswep 325\nnextdmg 1"
+ },
+ "325": {
+  "name": "Summon Devil",
+  "block": "newweapon \"Summon Devil\"\ntrgrank 7\nrange 3\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "326": {
+  "name": "Branch",
+  "block": "newweapon \"Branch\"\ntrgrank 1\nrange 1\ninit 1\ndmgtype 2\ndmg 0\naoe 0\nmundane\nsound 1"
+ },
+ "327": {
+  "name": "Rain of Stones",
+  "block": "newweapon \"Rain of Stones\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 2\ndmg 0\naoe 9999\nlook 27\nsound 45"
+ },
+ "328": {
+  "name": "Hail Storm",
+  "block": "newweapon \"Hail Storm\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 2\ndmg 0\naoe 9999\nflymode 3\nflysound 66\nlook 110\nsound 1"
+ },
+ "329": {
+  "name": "Poison Vine",
+  "block": "newweapon \"Poison Vine\"\ntrgrank 9\nrange 6\ninit 3\ndmgtype 12\ndmg 0\naoe 0\nmundane\nlook 22\nsound 9\nnextwep 35\nnextdmg 5"
+ },
+ "330": {
+  "name": "dmg (pierce iron)",
+  "block": "newweapon \"dmg (pierce iron)\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 3\ndmg 0\naoe -7\nlook 27\nsound 45"
+ },
+ "331": {
+  "name": "Stone Shards",
+  "block": "newweapon \"Stone Shards\"\ntrgrank 9\nrange 6\ninit 0\ndmgtype 2\ndmg 0\naoe -3\nflymode 1\nflylook 33\nflysound 104\nlook 27\nsound 21"
+ },
+ "332": {
+  "name": "Tangle Vines",
+  "block": "newweapon \"Tangle Vines\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 0\naoe 0\nmundane\nsound 1\nnextwep 247\nnextdmg 512"
+ },
+ "333": {
+  "name": "Brass Claw",
+  "block": "newweapon \"Brass Claw\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nlook 25\nsound 24\nnextwep 107\nnextdmg 6"
+ },
+ "334": {
+  "name": "Black Death (only enemies)",
+  "block": "newweapon \"Black Death (only enemies)\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 12\ndmg 0\naoe 999\nmr\nflymode 2\nlook 131\nsound 25"
+ },
+ "335": {
+  "name": "Promise for Life",
+  "block": "newweapon \"Promise for Life\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 12\ndmg 0\naoe 25\nonlyenemy\nflysound 28\nlook 21"
+ },
+ "336": {
+  "name": "Sleep Cloud",
+  "block": "newweapon \"Sleep Cloud\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 16\ndmg 0\naoe 5\nmr\nan\nflysound 92\nlook 11"
+ },
+ "337": {
+  "name": "Dread Spell",
+  "block": "newweapon \"Dread Spell\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 8\ndmg 0\naoe 100\nhardmr\nan\nonlyenemy\nflysound 22\nlook 5"
+ },
+ "338": {
+  "name": "Horns",
+  "block": "newweapon \"Horns\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 3\ndmg 0\naoe 0\nmundane\nsound 1"
+ },
+ "339": {
+  "name": "Hypnotizing Dance",
+  "block": "newweapon \"Hypnotizing Dance\"\ntrgrank 9\nrange 5\ninit 1\ndmgtype 19\ndmg 0\naoe 0\nreload1\neasymr\nan\nmind\nflymode 8\nflylook 122\nflysound 29"
+ },
+ "340": {
+  "name": "Summon Giant Toad",
+  "block": "newweapon \"Summon Giant Toad\"\ntrgrank 6\nrange 0\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "341": {
+  "name": "Mutation Tentacle",
+  "block": "newweapon \"Mutation Tentacle\"\ntrgrank 9\nrange 1\ninit 2\ndmgtype 2\ndmg 0\naoe 0\nan\nmundane\nmutate\nsound 1"
+ },
+ "342": {
+  "name": "Scepter of the Goblin King",
+  "block": "newweapon \"Scepter of the Goblin King\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 2\ndmg 5\naoe 0\nsound 1\nnextwep 36\nnextdmg 2"
+ },
+ "343": {
+  "name": "Strange Hymn",
+  "block": "newweapon \"Strange Hymn\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 12\ndmg 0\naoe 25\neasymr\nflymode 2\nflylook 192\nflysound 112\nlook 193\nsound 109"
+ },
+ "344": {
+  "name": "Soul Slay (+mr-paralyze)",
+  "block": "newweapon \"Soul Slay (+mr-paralyze)\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 7\ndmg 0\naoe 0\nhardmr\nan\nmind\nlook 31\nsound 41\nnextalwayswep 436\nnextdmg 16"
+ },
+ "345": {
+  "name": "Star Showers",
+  "block": "newweapon \"Star Showers\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 7\ndmg 0\naoe -5\nan\nlook 28\nsound 70\nnextwep 15\nnextdmg 16"
+ },
+ "346": {
+  "name": "Mind Vortex",
+  "block": "newweapon \"Mind Vortex\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 12\ndmg 0\naoe 9999\neasymr\nmind\nlook 2\nsound 42"
+ },
+ "347": {
+  "name": "Summon Mind Slime Horror",
+  "block": "newweapon \"Summon Mind Slime Horror\"\ntrgrank 7\nrange 3\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "348": {
+  "name": "Summon Spine Membrane Horror",
+  "block": "newweapon \"Summon Spine Membrane Horror\"\ntrgrank 7\nrange 3\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "349": {
+  "name": "Summon Float Cat Horror",
+  "block": "newweapon \"Summon Float Cat Horror\"\ntrgrank 7\nrange 3\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "350": {
+  "name": "Mind Burn",
+  "block": "newweapon \"Mind Burn\"\ntrgrank 9\nrange 10\ninit 8\ndmgtype 7\ndmg 0\naoe 0\nhardmr\nan\nmind\nlook 30\nsound 41"
+ },
+ "351": {
+  "name": "Star Light",
+  "block": "newweapon \"Star Light\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 7\ndmg 0\naoe 0\nan\nlook 28\nsound 70\nnextwep 352\nnextdmg 16"
+ },
+ "352": {
+  "name": "aff (easymr)",
+  "block": "newweapon \"aff (easymr)\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 12\ndmg 0\naoe 1\neasymr\ninanimate\nlook 2\nsound 42"
+ },
+ "353": {
+  "name": "Words of the Void",
+  "block": "newweapon \"Words of the Void\"\ntrgrank 9\nrange 4\ninit 4\ndmgtype 12\ndmg 0\naoe -3\nmr\nmind\nflymode 3\nflylook 194\nflysound 112\nlook 29\nsound 70"
+ },
+ "354": {
+  "name": "A New Way",
+  "block": "newweapon \"A New Way\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 12\ndmg 0\naoe -7\nhardmr\nlook 29\nsound 70"
+ },
+ "355": {
+  "name": "Luck",
+  "block": "newweapon \"Luck\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe -2\nonlyfriend\nlook 12\nsound 44"
+ },
+ "356": {
+  "name": "Luck",
+  "block": "newweapon \"Luck\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe -5\nonlyfriend\nlook 12\nsound 44"
+ },
+ "357": {
+  "name": "Strange Dimensions",
+  "block": "newweapon \"Strange Dimensions\"\ntrgrank -9\nrange 0\ninit 4\ndmgtype 13\ndmg 0\naoe 998\nonlyfriend\nlook 32\nsound 70"
+ },
+ "358": {
+  "name": "Basalt Pillar",
+  "block": "newweapon \"Basalt Pillar\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 18\naoe 0\nsound 8"
+ },
+ "359": {
+  "name": "Icicle Fist",
+  "block": "newweapon \"Icicle Fist\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 3\ndmg 0\naoe 0\nmundane\nsound 1"
+ },
+ "360": {
+  "name": "Shard Fist",
+  "block": "newweapon \"Shard Fist\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 3\ndmg 0\naoe 0\nmutate\nsound 1"
+ },
+ "361": {
+  "name": "Massive Boulder",
+  "block": "newweapon \"Massive Boulder\"\ntrgrank 9\nrange 12\ninit 1\ndmgtype 2\ndmg 0\naoe 1\nreload1\nmundane\nscatter\nflymode 1\nflylook 32\nflysound 45"
+ },
+ "362": {
+  "name": "Lashes of Death",
+  "block": "newweapon \"Lashes of Death\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 7\ndmg 0\naoe -3\nflymode 5\nflylook 185\nflysound 54\nlook 119\nnextwep 363\nnextdmg 999"
+ },
+ "363": {
+  "name": "death (mr)",
+  "block": "newweapon \"death (mr)\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 7\ndmg 0\naoe 1\nmr\nan\ninanimate"
+ },
+ "364": {
+  "name": "Summon Small Spider",
+  "block": "newweapon \"Summon Small Spider\"\ntrgrank 7\nrange 10\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "365": {
+  "name": "Vengeance",
+  "block": "newweapon \"Vengeance\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 7\ndmg 0\naoe -2\nflymode 5\nflylook 184\nflysound 113\nlook 171\nnextwep 366\nnextdmg 2"
+ },
+ "366": {
+  "name": "aff (unresistable)",
+  "block": "newweapon \"aff (unresistable)\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nan"
+ },
+ "367": {
+  "name": "Blood Burst",
+  "block": "newweapon \"Blood Burst\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 7\ndmg 0\naoe 5\neasymr\nan\ninanimate\nlook 34\nsound 3"
+ },
+ "368": {
+  "name": "Pillar of Fire",
+  "block": "newweapon \"Pillar of Fire\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 4\ndmg 0\naoe 1\nlook 35\nsound 16\nnextalwayswep 55\nnextdmg 8"
+ },
+ "369": {
+  "name": "Shooting Thorns",
+  "block": "newweapon \"Shooting Thorns\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 3\ndmg 0\naoe -7\nmundane\nflymode 4\nflylook 200\nflysound 104\nlook 36\nsound 21\nnextwep 35\nnextdmg 10"
+ },
+ "370": {
+  "name": "Summon Fiery Imp",
+  "block": "newweapon \"Summon Fiery Imp\"\ntrgrank 7\nrange 3\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "371": {
+  "name": "Summon Succubus",
+  "block": "newweapon \"Summon Succubus\"\ntrgrank 7\nrange 3\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "372": {
+  "name": "Charm animal (easymr)",
+  "block": "newweapon \"Charm animal (easymr)\"\ntrgrank 9\nrange 5\ninit 4\ndmgtype 14\ndmg 0\naoe -3\neasymr\nan\naffectanimal\nmind\nflymode 8\nflylook 149\nflysound 29"
+ },
+ "373": {
+  "name": "Deadly Fumes",
+  "block": "newweapon \"Deadly Fumes\"\ntrgrank 1\nrange 10\ninit 4\ndmgtype 9\ndmg 0\naoe 100\nan\nflymode 2\nflylook 62\nlook 7\nsound 96"
+ },
+ "374": {
+  "name": "Vengeance of the Sun",
+  "block": "newweapon \"Vengeance of the Sun\"\ntrgrank -9\nrange 6\ninit 4\ndmgtype 13\ndmg 0\naoe 5\nonlyfriend\nlook 19\nsound 30"
+ },
+ "375": {
+  "name": "Poison Blowgun",
+  "block": "newweapon \"Poison Blowgun\"\ntrgrank 1\nrange 3\ninit 2\ndmgtype 3\ndmg 1\naoe 0\nmundane\narrow\nsound 46\nnextwep 35\nnextdmg 10"
+ },
+ "376": {
+  "name": "Shuriken",
+  "block": "newweapon \"Shuriken\"\ntrgrank 1\nrange 3\ninit 7\ndmgtype 3\ndmg 2\naoe -2\nmundane\narrow\nsound 46"
+ },
+ "377": {
+  "name": "Shortsword",
+  "block": "newweapon \"Shortsword\"\ntrgrank 8\nrange 1\ninit 3\ndmgtype 1\ndmg 5\naoe 0\nmundane\nsound 1"
+ },
+ "378": {
+  "name": "armor",
+  "block": "newweapon \"armor\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 0\nethereal\nonlyfriend\nlook 12\nsound 29"
+ },
+ "379": {
+  "name": "armor",
+  "block": "newweapon \"armor\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 5\nethereal\nonlyfriend\nlook 12\nsound 29"
+ },
+ "380": {
+  "name": "Barkskin",
+  "block": "newweapon \"Barkskin\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 5\nethereal\nonlyfriend\nflymode 2\nflysound 72\nlook 201"
+ },
+ "381": {
+  "name": "Oak Army",
+  "block": "newweapon \"Oak Army\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 25\nethereal\nonlyfriend\nflymode 2\nflysound 72\nlook 201"
+ },
+ "382": {
+  "name": "armor",
+  "block": "newweapon \"armor\"\ntrgrank -9\nrange 0\ninit 4\ndmgtype 13\ndmg 0\naoe 998\nethereal\nonlyfriend\nlook 12\nsound 29"
+ },
+ "383": {
+  "name": "Tempest",
+  "block": "newweapon \"Tempest\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 10\naoe 1\nlook 12\nsound 1\nnextalwayswep 384\nnextdmg 8"
+ },
+ "384": {
+  "name": "Shock",
+  "block": "newweapon \"Shock\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 6\ndmg 0\naoe 1\nan\nlook 187\nsound 24"
+ },
+ "385": {
+  "name": "Magic Staff",
+  "block": "newweapon \"Magic Staff\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 2\ndmg 5\naoe 0\nsound 1"
+ },
+ "386": {
+  "name": "Magic Rod",
+  "block": "newweapon \"Magic Rod\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 3\naoe 0\nsound 1"
+ },
+ "387": {
+  "name": "Chain",
+  "block": "newweapon \"Chain\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 2\ndmg 4\naoe 0\nshieldneg\nmundane\nsound 1"
+ },
+ "388": {
+  "name": "Tartarian Chain",
+  "block": "newweapon \"Tartarian Chain\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 2\ndmg 7\naoe 0\nshieldneg\nsound 1\nnextwep 389\nnextdmg 1"
+ },
+ "389": {
+  "name": "Command",
+  "block": "newweapon \"Command\"\ntrgrank 9\nrange 4\ninit 4\ndmgtype 19\ndmg 0\naoe 0\nmr\nan\nmind\nflymode 8\nflylook 122\nflysound 94\nlook 8"
+ },
+ "390": {
+  "name": "Syllable of Death",
+  "block": "newweapon \"Syllable of Death\"\ntrgrank 9\nrange 5\ninit 4\ndmgtype 7\ndmg 0\naoe 0\nmr\nan\nlook 37\nsound 70\nnextalwayswep 50\nnextdmg 64"
+ },
+ "391": {
+  "name": "Rising Tide",
+  "block": "newweapon \"Rising Tide\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 12\ndmg 0\naoe 25\nmr\nstrresist\nflymode 2\nflylook 197\nflysound 88\nlook 17\nsound 89\nnextwep 392\nnextdmg 3"
+ },
+ "392": {
+  "name": "minor water damage",
+  "block": "newweapon \"minor water damage\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 2\ndmg 0\naoe 1\nan\ndrown\ninanimate"
+ },
+ "393": {
+  "name": "Stream of Water",
+  "block": "newweapon \"Stream of Water\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 12\ndmg 0\naoe 3\nmr\nstrresist\nlook 17\nsound 88\nnextwep 392\nnextdmg 3"
+ },
+ "394": {
+  "name": "Purify",
+  "block": "newweapon \"Purify\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 7\ndmg 0\naoe -2\naffectundead\nlook 38\nsound 89"
+ },
+ "395": {
+  "name": "Tendril of Darkness",
+  "block": "newweapon \"Tendril of Darkness\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 7\ndmg 0\naoe 1\nhardmr\nan\nflymode 5\nflylook 195\nlook 39\nsound 54\nnextwep 15\nnextdmg 2048"
+ },
+ "396": {
+  "name": "Symbol of Death",
+  "block": "newweapon \"Symbol of Death\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 7\ndmg 0\naoe 100\nmr\nan\ninanimate\nonlyenemy\nlook 2\nsound 91\nnextwep 15\nnextdmg 1"
+ },
+ "397": {
+  "name": "Symbol of Dread",
+  "block": "newweapon \"Symbol of Dread\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 7\ndmg 0\naoe 100\nmr\nan\nonlyenemy\nlook 2\nsound 91\nnextalwayswep 823\nnextdmg 8"
+ },
+ "398": {
+  "name": "Symbol of Unlife",
+  "block": "newweapon \"Symbol of Unlife\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 7\ndmg 0\naoe 100\nmr\nan\nreanimate\nonlyenemy\nlook 2\nsound 91"
+ },
+ "399": {
+  "name": "Symbol of Light",
+  "block": "newweapon \"Symbol of Light\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 7\ndmg 0\naoe 100\nmr\nan\nundkill\nonlyenemy\nflymode 5\nflylook 107\nflysound 107"
+ },
+ "400": {
+  "name": "Smite",
+  "block": "newweapon \"Smite\"\ntrgrank 9\nrange 5\ninit 4\ndmgtype 4\ndmg 0\naoe 0\nhardmr\nan\nlook 40\nsound 30"
+ },
+ "401": {
+  "name": "Stream of Water",
+  "block": "newweapon \"Stream of Water\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 12\ndmg 0\naoe 3\nmr\nstrresist\nlook 17\nsound 88\nnextwep 392\nnextdmg 3"
+ },
+ "402": {
+  "name": "water stun",
+  "block": "newweapon \"water stun\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nan\nstrresist\ndrown\ninanimate"
+ },
+ "403": {
+  "name": "Iron Shower",
+  "block": "newweapon \"Iron Shower\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 2\ndmg 0\naoe 25\nlook 27\nsound 45"
+ },
+ "404": {
+  "name": "Dagger of Filth",
+  "block": "newweapon \"Dagger of Filth\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 3\ndmg 3\naoe 0\nmundane\nsound 1\nnextwep 15\nnextdmg 1"
+ },
+ "405": {
+  "name": "Dagger of Filth",
+  "block": "newweapon \"Dagger of Filth\"\ntrgrank 9\nrange 1\ninit 2\ndmgtype 3\ndmg 3\naoe 0\nan\nmundane\nsound 1\nnextwep 15\nnextdmg 1"
+ },
+ "406": {
+  "name": "Weakness",
+  "block": "newweapon \"Weakness\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 12\ndmg 0\naoe 25\nhardmr\nundead\ninanimate\nlook 23\nsound 42"
+ },
+ "407": {
+  "name": "Enslave",
+  "block": "newweapon \"Enslave\"\ntrgrank 9\nrange 4\ninit 8\ndmgtype 19\ndmg 0\naoe 0\nmr\nan\nmind\nflymode 8\nflylook 122\nflysound 94"
+ },
+ "408": {
+  "name": "Venom Sword",
+  "block": "newweapon \"Venom Sword\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 7\naoe 0\nsound 8\nnextwep 35\nnextdmg 15"
+ },
+ "409": {
+  "name": "Weakness",
+  "block": "newweapon \"Weakness\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nhardmr\nundead\ninanimate\nlook 23\nsound 42"
+ },
+ "410": {
+  "name": "Morningstar of Flames",
+  "block": "newweapon \"Morningstar of Flames\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 8\naoe 0\nshieldneg\nsound 1\nnextalwayswep 411\nnextdmg 12"
+ },
+ "411": {
+  "name": "Fire",
+  "block": "newweapon \"Fire\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 4\ndmg 0\naoe 1\nsound 0"
+ },
+ "412": {
+  "name": "Claw",
+  "block": "newweapon \"Claw\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 3\naoe 0\nmundane\nsound 1"
+ },
+ "413": {
+  "name": "Swallow",
+  "block": "newweapon \"Swallow\"\ntrgrank 1\nrange 1\ninit 1\ndmgtype 10\ndmg 0\naoe 0\nmundane\nsound 18\nnextalwayswep 414\nnextdmg 10"
+ },
+ "414": {
+  "name": "Swallow",
+  "block": "newweapon \"Swallow\"\ntrgrank 1\nrange 1\ninit 1\ndmgtype 20\ndmg 0\naoe 0\nan\nhuge\nsound 0"
+ },
+ "415": {
+  "name": "Withering Gaze",
+  "block": "newweapon \"Withering Gaze\"\ntrgrank 1\nrange 10\ninit 10\ndmgtype 12\ndmg 0\naoe 1\nmr\nflymode 5\nflylook 79\nsound 42"
+ },
+ "416": {
+  "name": "Enormous Bite",
+  "block": "newweapon \"Enormous Bite\"\ntrgrank 1\nrange 1\ninit 1\ndmgtype 1\ndmg 0\naoe 0\nmundane\nsound 0\nnextalwayswep 414\nnextdmg 10"
+ },
+ "417": {
+  "name": "Death Scepter",
+  "block": "newweapon \"Death Scepter\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 2\ndmg 35\naoe 0\nan\nnostr\nreanimate\nsound 1"
+ },
+ "418": {
+  "name": "Hell's Reign",
+  "block": "newweapon \"Hell's Reign\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 2\ndmg 13\naoe 0\nsound 1\nnextwep 50\nnextdmg 64"
+ },
+ "419": {
+  "name": "Iron Stinger",
+  "block": "newweapon \"Iron Stinger\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 3\ndmg 0\naoe 0\nsound 1\nnextwep 35\nnextdmg 10"
+ },
+ "420": {
+  "name": "Mass Corruption",
+  "block": "newweapon \"Mass Corruption\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 22\ndmg 0\naoe 999\nhardmr\nan\naffecthuman\nlook 8\nsound 94"
+ },
+ "421": {
+  "name": "Desert Storm",
+  "block": "newweapon \"Desert Storm\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 12\ndmg 0\naoe 9999\nan\nstrresist\nundead\ninanimate\nflymode 10\nflylook 217\nflysound 110\nlook 218\nsound 111"
+ },
+ "422": {
+  "name": "Dehydration",
+  "block": "newweapon \"Dehydration\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 12\ndmg 0\naoe 0\nan\nstrresist\nundead\ninanimate\nflymode 5\nflylook 196\nlook 42\nsound 68"
+ },
+ "423": {
+  "name": "Cause Disease",
+  "block": "newweapon \"Cause Disease\"\ntrgrank 1\nrange 8\ninit 4\ndmgtype 12\ndmg 0\naoe 0\nmr"
+ },
+ "424": {
+  "name": "Obsidian Club",
+  "block": "newweapon \"Obsidian Club\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 4\naoe 0\nmundane\nsound 8"
+ },
+ "425": {
+  "name": "Glaive",
+  "block": "newweapon \"Glaive\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 1\ndmg 7\naoe 0\nmundane\nsound 1"
+ },
+ "426": {
+  "name": "Magma Bolt",
+  "block": "newweapon \"Magma Bolt\"\ntrgrank 1\nrange 3\ninit 2\ndmgtype 2\ndmg 0\naoe 1\nflymode 4\nflylook 230\nsound 16\nnextalwayswep 174\nnextdmg 6"
+ },
+ "427": {
+  "name": "Horror Tentacle",
+  "block": "newweapon \"Horror Tentacle\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 7\ndmg 0\naoe 0\ndrain\ninanimate\nsound 18\nnextwep 118\nnextdmg 16"
+ },
+ "428": {
+  "name": "Mirror Image",
+  "block": "newweapon \"Mirror Image\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 21\ndmg 0\naoe 0\nan\nlook 1\nsound 70"
+ },
+ "429": {
+  "name": "Legion of Stone",
+  "block": "newweapon \"Legion of Stone\"\ntrgrank -9\nrange 0\ninit 4\ndmgtype 13\ndmg 0\naoe 998\nethereal\nonlyfriend\nflysound 29\nlook 44"
+ },
+ "430": {
+  "name": "Army of Stone",
+  "block": "newweapon \"Army of Stone\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 25\nethereal\nonlyfriend\nflysound 29\nlook 44"
+ },
+ "431": {
+  "name": "Fortitude",
+  "block": "newweapon \"Fortitude\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 5\nethereal\nonlyfriend\nflysound 29\nlook 44"
+ },
+ "432": {
+  "name": "Ironskin",
+  "block": "newweapon \"Ironskin\"\ntrgrank -9\nrange 0\ninit 4\ndmgtype 13\ndmg 0\naoe 998\nethereal\nonlyfriend\nflysound 93\nlook 45"
+ },
+ "433": {
+  "name": "Legion of Steel",
+  "block": "newweapon \"Legion of Steel\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 25\nethereal\nonlyfriend\nflysound 93\nlook 45"
+ },
+ "434": {
+  "name": "Soldiers of Steel",
+  "block": "newweapon \"Soldiers of Steel\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 5\nethereal\nonlyfriend\nflysound 93\nlook 45"
+ },
+ "435": {
+  "name": "Ironskin",
+  "block": "newweapon \"Ironskin\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 0\nethereal\nonlyfriend\nflysound 93\nlook 45"
+ },
+ "436": {
+  "name": "aff (mind+mr)",
+  "block": "newweapon \"aff (mind+mr)\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nmr\nmind"
+ },
+ "437": {
+  "name": "Sparks",
+  "block": "newweapon \"Sparks\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 6\ndmg 0\naoe -2\nan\nflymode 4\nflylook 188\nflysound 104\nlook 187\nsound 24\nnextwep 15\nnextdmg 64"
+ },
+ "438": {
+  "name": "Shooting Shard",
+  "block": "newweapon \"Shooting Shard\"\ntrgrank 1\nrange 4\ninit 2\ndmgtype 3\ndmg 0\naoe 0\nflymode 1\nflylook 34\nflysound 67"
+ },
+ "439": {
+  "name": "Killing Sleep Spores",
+  "block": "newweapon \"Killing Sleep Spores\"\ntrgrank 9\nrange 3\ninit 1\ndmgtype 9\ndmg 0\naoe 5\nan\nflymode 3\nflylook 62\nflysound 104\nlook 7\nsound 109\nnextalwayswep 440\nnextdmg 1"
+ },
+ "440": {
+  "name": "Sleep Spores",
+  "block": "newweapon \"Sleep Spores\"\ntrgrank 9\nrange 2\ninit 1\ndmgtype 16\ndmg 0\naoe 1\nmr\nan\nlook 11\nsound 22"
+ },
+ "441": {
+  "name": "Pick Axe",
+  "block": "newweapon \"Pick Axe\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 3\ndmg 7\naoe 0\nmundane\nstonekill\nsound 1"
+ },
+ "442": {
+  "name": "Arbalest",
+  "block": "newweapon \"Arbalest\"\ntrgrank 1\nrange 7\ninit 1\ndmgtype 3\ndmg 10\naoe 0\nreload2\nmundane\narrow\nrangepen\nflymode 1\nflylook 14\nflysound 13"
+ },
+ "443": {
+  "name": "strength, aoe 3",
+  "block": "newweapon \"strength, aoe 3\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 3\nonlyfriend\nflysound 29\nlook 46"
+ },
+ "444": {
+  "name": "strength, row",
+  "block": "newweapon \"strength, row\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 25\nonlyfriend\nflysound 29\nlook 46"
+ },
+ "445": {
+  "name": "Nightmares",
+  "block": "newweapon \"Nightmares\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 8\ndmg 0\naoe 100\neasymr\nan\nonlyenemy\nlook 5\nsound 22"
+ },
+ "446": {
+  "name": "Scourging Wind",
+  "block": "newweapon \"Scourging Wind\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 12\ndmg 0\naoe 25\nan\nstrresist\nundead\ninanimate\nflymode 4\nflylook 217\nflysound 110\nlook 218\nsound 111"
+ },
+ "447": {
+  "name": "Engulf",
+  "block": "newweapon \"Engulf\"\ntrgrank 1\nrange 1\ninit 1\ndmgtype 20\ndmg 0\naoe 0\nan\nhuge\nsound 18"
+ },
+ "448": {
+  "name": "Smokeless Flame",
+  "block": "newweapon \"Smokeless Flame\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 4\ndmg 0\naoe 1\nlook 47\nsound 16"
+ },
+ "449": {
+  "name": "Incinerate",
+  "block": "newweapon \"Incinerate\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 4\ndmg 0\naoe 0\nan\nlook 190\nsound 16"
+ },
+ "450": {
+  "name": "Flame Pillars",
+  "block": "newweapon \"Flame Pillars\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 4\ndmg 0\naoe -3\nlook 35\nsound 16"
+ },
+ "451": {
+  "name": "Confusion",
+  "block": "newweapon \"Confusion\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 12\ndmg 0\naoe 0\nmr\nmind\nflymode 5\nflylook 117\nflysound 70\nlook 48"
+ },
+ "452": {
+  "name": "Cloud of Confusion",
+  "block": "newweapon \"Cloud of Confusion\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 12\ndmg 0\naoe 9\nmr\nmind\nflymode 2\nflylook 159\nflysound 70\nlook 48\nsound 111"
+ },
+ "453": {
+  "name": "Mist of Confusion",
+  "block": "newweapon \"Mist of Confusion\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 12\ndmg 0\naoe 25\nmr\nmind\nflymode 2\nflylook 159\nflysound 70\nlook 48\nsound 111"
+ },
+ "454": {
+  "name": "Confusion",
+  "block": "newweapon \"Confusion\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 12\ndmg 0\naoe 100\nmr\nmind\nonlyenemy\nflymode 2\nflysound 70\nlook 48\nsound 111"
+ },
+ "455": {
+  "name": "Mental Overload",
+  "block": "newweapon \"Mental Overload\"\ntrgrank 9\nrange 8\ninit 1\ndmgtype 12\ndmg 0\naoe -4\nmr\nmind\nonlyenemy\nflymode 5\nflylook 117\nflysound 70\nlook 48"
+ },
+ "456": {
+  "name": "Confusion",
+  "block": "newweapon \"Confusion\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 12\ndmg 0\naoe -8\nhardmr\nmind\nonlyenemy\nflysound 70"
+ },
+ "457": {
+  "name": "Lunar Brilliance",
+  "block": "newweapon \"Lunar Brilliance\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 7\ndmg 0\naoe 25\nan\nonlyenemy\nlook 28\nsound 70\nnextwep 451\nnextdmg 262144"
+ },
+ "458": {
+  "name": "Moonlight",
+  "block": "newweapon \"Moonlight\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 7\ndmg 0\naoe 1\nan\nonlyenemy\nlook 28\nsound 70\nnextwep 451\nnextdmg 262144"
+ },
+ "459": {
+  "name": "Moonbeams",
+  "block": "newweapon \"Moonbeams\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 7\ndmg 0\naoe 9\nan\nonlyenemy\nlook 28\nsound 70\nnextwep 451\nnextdmg 262144"
+ },
+ "460": {
+  "name": "Acid Breath",
+  "block": "newweapon \"Acid Breath\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 10\ndmg 0\naoe 1\nan\nflymode 4\nflylook 99\nflysound 22\nlook 49"
+ },
+ "461": {
+  "name": "Acid Breath",
+  "block": "newweapon \"Acid Breath\"\ntrgrank 1\nrange 3\ninit 4\ndmgtype 10\ndmg 0\naoe 1003\nan\nflymode 4\nflylook 99\nflysound 22\nlook 49"
+ },
+ "462": {
+  "name": "Acid Breath",
+  "block": "newweapon \"Acid Breath\"\ntrgrank 1\nrange 5\ninit 4\ndmgtype 10\ndmg 0\naoe 1005\nan\nflymode 4\nflylook 99\nflysound 22\nlook 49"
+ },
+ "463": {
+  "name": "Acid Breath",
+  "block": "newweapon \"Acid Breath\"\ntrgrank 1\nrange 7\ninit 4\ndmgtype 10\ndmg 0\naoe 1007\nan\nflymode 4\nflylook 99\nflysound 22\nlook 49"
+ },
+ "464": {
+  "name": "Acid Breath",
+  "block": "newweapon \"Acid Breath\"\ntrgrank 1\nrange 10\ninit 4\ndmgtype 10\ndmg 0\naoe 1010\nan\nflymode 4\nflylook 99\nflysound 22\nlook 49"
+ },
+ "465": {
+  "name": "Stone Axe",
+  "block": "newweapon \"Stone Axe\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 5\naoe 0\nmundane\nsound 1"
+ },
+ "466": {
+  "name": "Decay",
+  "block": "newweapon \"Decay\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nmr\nflymode 3\nflylook 128\nflysound 19\nlook 125\nsound 109"
+ },
+ "467": {
+  "name": "Gift of Death",
+  "block": "newweapon \"Gift of Death\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 12\ndmg 0\naoe 0\nhardmr\nlook 2\nsound 19"
+ },
+ "468": {
+  "name": "Rain of Blood",
+  "block": "newweapon \"Rain of Blood\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 8\ndmg 0\naoe 9999\nmr\nan\nonlyenemy\nlook 50\nsound 88"
+ },
+ "469": {
+  "name": "Divine Aura",
+  "block": "newweapon \"Divine Aura\"\ntrgrank -9\nrange 6\ninit 4\ndmgtype 13\ndmg 0\naoe 9\nundead\nonlyfriend\nflymode 3\nflysound 30\nlook 176"
+ },
+ "470": {
+  "name": "Summon Murder Of Crows",
+  "block": "newweapon \"Summon Murder Of Crows\"\ntrgrank 7\nrange 10\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "471": {
+  "name": "Summon Great Boar",
+  "block": "newweapon \"Summon Great Boar\"\ntrgrank 6\nrange 0\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "472": {
+  "name": "Summon Scorpion",
+  "block": "newweapon \"Summon Scorpion\"\ntrgrank 7\nrange 8\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "473": {
+  "name": "Summon Large Spider",
+  "block": "newweapon \"Summon Large Spider\"\ntrgrank 7\nrange 8\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "474": {
+  "name": "Magic Sword",
+  "block": "newweapon \"Magic Sword\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 1\ndmg 7\naoe 0\nsound 8"
+ },
+ "475": {
+  "name": "Magic Sword",
+  "block": "newweapon \"Magic Sword\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 1\ndmg 10\naoe 0\nsound 8"
+ },
+ "476": {
+  "name": "Incorporate",
+  "block": "newweapon \"Incorporate\"\ntrgrank 1\nrange 1\ninit 1\ndmgtype 20\ndmg 0\naoe 3\nmr\nan\ninanimate\nhuge\nonlyenemy\nsound 103"
+ },
+ "477": {
+  "name": "Giant Arrow",
+  "block": "newweapon \"Giant Arrow\"\ntrgrank 1\nrange 12\ninit 1\ndmgtype 3\ndmg 0\naoe 1\nreload3\nmundane\nscatter\nflymode 1\nflylook 7\nflysound 13"
+ },
+ "478": {
+  "name": "Soul Vortex",
+  "block": "newweapon \"Soul Vortex\"\ntrgrank 9\nrange 5\ninit 4\ndmgtype 7\ndmg 0\naoe 9\ndrain\nan\ninanimate\nflymode 5\nflylook 75\nflysound 18"
+ },
+ "479": {
+  "name": "Mortal Terror",
+  "block": "newweapon \"Mortal Terror\"\ntrgrank 0\nrange 0\ninit 10\ndmgtype 8\ndmg 0\naoe 999\nan\nlook 5\nsound 22"
+ },
+ "480": {
+  "name": "Fire",
+  "block": "newweapon \"Fire\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 4\ndmg 0\naoe 3\nlook 68\nsound 68"
+ },
+ "481": {
+  "name": "Cold Touch",
+  "block": "newweapon \"Cold Touch\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 5\ndmg 4\naoe 0\nan\nnostr\nsound 1"
+ },
+ "482": {
+  "name": "Shock Aura",
+  "block": "newweapon \"Shock Aura\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 6\ndmg 0\naoe 1\nan\nblue\nlook 12"
+ },
+ "483": {
+  "name": "Gaze of Midas",
+  "block": "newweapon \"Gaze of Midas\"\ntrgrank 9\nrange 10\ninit 10\ndmgtype 12\ndmg 0\naoe 3\nmr\nflymode 5\nflylook 80\nlook 51\nsound 22"
+ },
+ "484": {
+  "name": "Harm",
+  "block": "newweapon \"Harm\"\ntrgrank 9\nrange 8\ninit 1\ndmgtype 7\ndmg 0\naoe 0\nmr\nan\ninanimate\nflymode 5\nflylook 170\nlook 171\nsound 32"
+ },
+ "485": {
+  "name": "Tail Sweep",
+  "block": "newweapon \"Tail Sweep\"\ntrgrank 1\nrange 1\ninit 1\ndmgtype 2\ndmg 0\naoe 0\nshieldneg\nfullsweep\nsound 105\nnextwep 118\nnextdmg 64"
+ },
+ "486": {
+  "name": "Dragon Terror",
+  "block": "newweapon \"Dragon Terror\"\ntrgrank 0\nrange 0\ninit 10\ndmgtype 8\ndmg 0\naoe 9999\nan\nonlyenemy\nflymode 3\nlook 237\nsound 22"
+ },
+ "487": {
+  "name": "Color Spray",
+  "block": "newweapon \"Color Spray\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 7\ndmg 0\naoe 5\nhardmr\nan\nflymode 3\nflylook 70\nsound 66\nnextwep 488\nnextdmg 67108864"
+ },
+ "488": {
+  "name": "aff (mr+huge)",
+  "block": "newweapon \"aff (mr+huge)\"\ntrgrank 9\nrange 1\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nmr\nhuge"
+ },
+ "489": {
+  "name": "Rune Axe",
+  "block": "newweapon \"Rune Axe\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 13\naoe 0\nsound 8"
+ },
+ "490": {
+  "name": "Rune Sword",
+  "block": "newweapon \"Rune Sword\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 1\ndmg 8\naoe 0\nsound 8"
+ },
+ "491": {
+  "name": "Wave of Pus",
+  "block": "newweapon \"Wave of Pus\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 2\ndmg 0\naoe 5\nmundane\nlook 17\nsound 88\nnextwep 179\nnextdmg 64"
+ },
+ "492": {
+  "name": "Curses",
+  "block": "newweapon \"Curses\"\ntrgrank 9\nrange 16\ninit 4\ndmgtype 12\ndmg 0\naoe -15\nflymode 5\nflylook 157\nflysound 70\nlook 158"
+ },
+ "493": {
+  "name": "Crush",
+  "block": "newweapon \"Crush\"\ntrgrank 1\nrange 1\ninit 7\ndmgtype 2\ndmg 0\naoe 5\nsound 1\nnextwep 118\nnextdmg 64"
+ },
+ "494": {
+  "name": "Total Confusion",
+  "block": "newweapon \"Total Confusion\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 12\ndmg 0\naoe 9999\nmr\nmind\nflymode 2\nlook 48\nsound 70"
+ },
+ "495": {
+  "name": "Astral Hooks",
+  "block": "newweapon \"Astral Hooks\"\ntrgrank 9\nrange 3\ninit 7\ndmgtype 1\ndmg 0\naoe 0\nan\nsound 1\nnextwep 303\nnextdmg 16384"
+ },
+ "496": {
+  "name": "Club",
+  "block": "newweapon \"Club\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 3\naoe 0\nmundane\nsound 1"
+ },
+ "497": {
+  "name": "Curses",
+  "block": "newweapon \"Curses\"\ntrgrank 9\nrange 16\ninit 4\ndmgtype 12\ndmg 0\naoe -5\nflymode 5\nflylook 157\nflysound 70\nlook 158"
+ },
+ "498": {
+  "name": "Conversion",
+  "block": "newweapon \"Conversion\"\ntrgrank 9\nrange 5\ninit 4\ndmgtype 14\ndmg 0\naoe 0\nmr\nan\nmind\naffecthuman\nmorale\nflymode 8\nflylook 149\nflysound 94"
+ },
+ "499": {
+  "name": "Mass Conversion",
+  "block": "newweapon \"Mass Conversion\"\ntrgrank 9\nrange 5\ninit 4\ndmgtype 14\ndmg 0\naoe 9\nmr\nan\nmind\naffecthuman\nmorale\nflymode 8\nflylook 149\nflysound 94"
+ },
+ "500": {
+  "name": "True Faith",
+  "block": "newweapon \"True Faith\"\ntrgrank 9\nrange 5\ninit 4\ndmgtype 14\ndmg 0\naoe 25\nmr\nan\nmind\naffecthuman\nmorale\nflymode 8\nflylook 149\nflysound 94"
+ },
+ "501": {
+  "name": "Touch of the Dead",
+  "block": "newweapon \"Touch of the Dead\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 5\ndmg 6\naoe 0\nnostr\nsound 1\nnextwep 15\nnextdmg 2048"
+ },
+ "502": {
+  "name": "Heavenly Horn",
+  "block": "newweapon \"Heavenly Horn\"\ntrgrank 1\nrange 5\ninit 2\ndmgtype 2\ndmg 5\naoe 5\nan\nholykill\nlook 53\nsound 114\nnextwep 118\nnextdmg 64"
+ },
+ "503": {
+  "name": "Poison Mist",
+  "block": "newweapon \"Poison Mist\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 9\ndmg 0\naoe 25\nan\nflymode 2\nflylook 114\nflysound 99\nlook 7\nsound 91"
+ },
+ "504": {
+  "name": "Mass Combustion",
+  "block": "newweapon \"Mass Combustion\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 12\ndmg 0\naoe 50\nonlyenemy\nflymode 5\nflylook 111\nflysound 16"
+ },
+ "505": {
+  "name": "Iron Spear",
+  "block": "newweapon \"Iron Spear\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 3\ndmg 0\naoe 0\nlook 27\nsound 45"
+ },
+ "506": {
+  "name": "Iron Shard",
+  "block": "newweapon \"Iron Shard\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 2\ndmg 0\naoe -3\nlook 27\nsound 45"
+ },
+ "507": {
+  "name": "Large Sword",
+  "block": "newweapon \"Large Sword\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 1\ndmg 10\naoe 0\nsweep\nsound 8"
+ },
+ "508": {
+  "name": "Bolts of Unlife",
+  "block": "newweapon \"Bolts of Unlife\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 7\ndmg 0\naoe -9\nhardmr\nan\nreanimate\nflymode 4\nflylook 129\nflysound 3\nlook 20\nsound 109"
+ },
+ "509": {
+  "name": "Summon Giant Locust",
+  "block": "newweapon \"Summon Giant Locust\"\ntrgrank 6\nrange 0\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "510": {
+  "name": "Starvation",
+  "block": "newweapon \"Starvation\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 12\ndmg 0\naoe 25\nmr\nan\ninanimate\nlook 42\nsound 42"
+ },
+ "511": {
+  "name": "Soul Scythe",
+  "block": "newweapon \"Soul Scythe\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 1\ndmg 9\naoe 0\nsweep\nsound 1\nnextwep 344\nnextdmg 999"
+ },
+ "512": {
+  "name": "War Rally",
+  "block": "newweapon \"War Rally\"\ntrgrank 9\nrange 6\ninit 1\ndmgtype 14\ndmg 0\naoe 25\nmr\nan\nmind\naffecthuman\nmorale\nflymode 8\nflylook 149\nflysound 94"
+ },
+ "513": {
+  "name": "Mist of Disease",
+  "block": "newweapon \"Mist of Disease\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 12\ndmg 0\naoe 9999\nmr\nan\nflymode 3\nflylook 118\nlook 2\nsound 42"
+ },
+ "514": {
+  "name": "Lesser Smite",
+  "block": "newweapon \"Lesser Smite\"\ntrgrank 9\nrange 5\ninit 4\ndmgtype 4\ndmg 0\naoe 0\nmr\nan\nlook 207\nsound 30"
+ },
+ "515": {
+  "name": "God Flesh",
+  "block": "newweapon \"God Flesh\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 13\ndmg 0\naoe 0\nan\nlook 44\nsound 29"
+ },
+ "516": {
+  "name": "Divine Flames",
+  "block": "newweapon \"Divine Flames\"\ntrgrank 9\nrange 5\ninit 8\ndmgtype 4\ndmg 0\naoe -2\nan\nholykill\nlook 55\nsound 16"
+ },
+ "517": {
+  "name": "Sleep Touch",
+  "block": "newweapon \"Sleep Touch\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 16\ndmg 0\naoe 0\nmr\nan\nsound 1"
+ },
+ "518": {
+  "name": "Lesser Flame Strike",
+  "block": "newweapon \"Lesser Flame Strike\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 4\ndmg 0\naoe 1\nlook 56\nsound 68"
+ },
+ "519": {
+  "name": "Alicorn",
+  "block": "newweapon \"Alicorn\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 3\ndmg 0\naoe 0\nsound 1"
+ },
+ "520": {
+  "name": "Pincer",
+  "block": "newweapon \"Pincer\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nmundane\nsound 1"
+ },
+ "521": {
+  "name": "Frost Branded Battle Axe",
+  "block": "newweapon \"Frost Branded Battle Axe\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 1\ndmg 9\naoe 0\nnextalwayswep 175\nnextdmg 5"
+ },
+ "522": {
+  "name": "Frost Branded Sword",
+  "block": "newweapon \"Frost Branded Sword\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 6\naoe 0\nnextalwayswep 175\nnextdmg 5"
+ },
+ "523": {
+  "name": "Flame Branded Battle Axe",
+  "block": "newweapon \"Flame Branded Battle Axe\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 1\ndmg 9\naoe 0\nnextalwayswep 174\nnextdmg 5"
+ },
+ "524": {
+  "name": "Flame Branded Sword",
+  "block": "newweapon \"Flame Branded Sword\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 6\naoe 0\nnextalwayswep 174\nnextdmg 5"
+ },
+ "525": {
+  "name": "Earth Branded Battle Axe",
+  "block": "newweapon \"Earth Branded Battle Axe\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 1\ndmg 9\naoe 0\nsound 1\nnextalwayswep 530\nnextdmg 64"
+ },
+ "526": {
+  "name": "Earth Branded Sword",
+  "block": "newweapon \"Earth Branded Sword\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 6\naoe 0\nsound 1\nnextalwayswep 530\nnextdmg 64"
+ },
+ "527": {
+  "name": "Rime Branded Arbalest",
+  "block": "newweapon \"Rime Branded Arbalest\"\ntrgrank 1\nrange 7\ninit 1\ndmgtype 3\ndmg 10\naoe 0\nreload2\narrow\nrangepen\nflymode 1\nflylook 14\nflysound 13\nnextalwayswep 175\nnextdmg 5"
+ },
+ "528": {
+  "name": "Flame Branded Arbalest",
+  "block": "newweapon \"Flame Branded Arbalest\"\ntrgrank 1\nrange 7\ninit 1\ndmgtype 3\ndmg 10\naoe 0\nreload2\narrow\nrangepen\nflymode 1\nflylook 14\nflysound 13\nnextalwayswep 174\nnextdmg 5"
+ },
+ "529": {
+  "name": "Earth Branded Arbalest",
+  "block": "newweapon \"Earth Branded Arbalest\"\ntrgrank 1\nrange 7\ninit 1\ndmgtype 3\ndmg 10\naoe 0\nreload2\narrow\nrangepen\nflymode 1\nflylook 14\nflysound 13\nnextalwayswep 530\nnextdmg 64"
+ },
+ "530": {
+  "name": "aff (mr-resistable)",
+  "block": "newweapon \"aff (mr-resistable)\"\ntrgrank 9\nrange 1\ninit 4\ndmgtype 12\ndmg 0\naoe 0\nmr\nan\nlook 66\nsound 1"
+ },
+ "531": {
+  "name": "Entangle",
+  "block": "newweapon \"Entangle\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 12\ndmg 0\naoe 3\nmundane\nflying\ntree\nlook 198\nsound 109"
+ },
+ "532": {
+  "name": "Reanimating Bite",
+  "block": "newweapon \"Reanimating Bite\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 5\naoe 0\nnostr\nreanimate\nsound 1"
+ },
+ "533": {
+  "name": "Poison Breath",
+  "block": "newweapon \"Poison Breath\"\ntrgrank 1\nrange 5\ninit 7\ndmgtype 9\ndmg 0\naoe 3010\nan\nflymode 2\nflylook 63\nflysound 96\nlook 7"
+ },
+ "534": {
+  "name": "Icy Breath",
+  "block": "newweapon \"Icy Breath\"\ntrgrank 1\nrange 5\ninit 7\ndmgtype 5\ndmg 0\naoe 2010\nan\nflymode 2\nflylook 97\nflysound 95\nlook 90"
+ },
+ "535": {
+  "name": "Poison Claw",
+  "block": "newweapon \"Poison Claw\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nmundane\nsound 1\nnextwep 35\nnextdmg 10"
+ },
+ "536": {
+  "name": "Barbed Tail",
+  "block": "newweapon \"Barbed Tail\"\ntrgrank 1\nrange 1\ninit 1\ndmgtype 3\ndmg 0\naoe 0\nmundane\nsound 105\nnextwep 35\nnextdmg 10"
+ },
+ "537": {
+  "name": "Serpent Skirt",
+  "block": "newweapon \"Serpent Skirt\"\ntrgrank 1\nrange 1\ninit 1\ndmgtype 3\ndmg 0\naoe 0\nmundane\nsound 1\nnextwep 35\nnextdmg 10"
+ },
+ "538": {
+  "name": "Giant Rime Branded Arrow",
+  "block": "newweapon \"Giant Rime Branded Arrow\"\ntrgrank 1\nrange 12\ninit 1\ndmgtype 3\ndmg 0\naoe 1\nreload1\nscatter\nflymode 1\nflylook 7\nflysound 13\nnextalwayswep 540\nnextdmg 7"
+ },
+ "539": {
+  "name": "Giant Rime Branded Arrow",
+  "block": "newweapon \"Giant Rime Branded Arrow\"\ntrgrank 1\nrange 12\ninit 1\ndmgtype 3\ndmg 0\naoe 1\nreload3\nscatter\nflymode 1\nflylook 7\nflysound 13\nnextalwayswep 540\nnextdmg 7"
+ },
+ "540": {
+  "name": "Cold Blast",
+  "block": "newweapon \"Cold Blast\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 5\ndmg 0\naoe 3\nan\nlook 12\nsound 39"
+ },
+ "541": {
+  "name": "Giant Flame Branded Arrow",
+  "block": "newweapon \"Giant Flame Branded Arrow\"\ntrgrank 1\nrange 12\ninit 1\ndmgtype 3\ndmg 0\naoe 1\nreload1\nscatter\nflymode 1\nflylook 7\nflysound 13\nnextalwayswep 543\nnextdmg 7"
+ },
+ "542": {
+  "name": "Giant Flame Branded Arrow",
+  "block": "newweapon \"Giant Flame Branded Arrow\"\ntrgrank 1\nrange 12\ninit 1\ndmgtype 3\ndmg 0\naoe 1\nreload3\nscatter\nflymode 1\nflylook 7\nflysound 13\nnextalwayswep 543\nnextdmg 7"
+ },
+ "543": {
+  "name": "Fire Blast",
+  "block": "newweapon \"Fire Blast\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 4\ndmg 0\naoe 3\nlook 68\nsound 68"
+ },
+ "544": {
+  "name": "Giant Earth Branded Arrow",
+  "block": "newweapon \"Giant Earth Branded Arrow\"\ntrgrank 1\nrange 12\ninit 1\ndmgtype 3\ndmg 0\naoe 1\nreload1\nan\nscatter\nflymode 1\nflylook 7\nflysound 13\nsound 13\nnextalwayswep 546\nnextdmg 3"
+ },
+ "545": {
+  "name": "Giant Earth Branded Arrow",
+  "block": "newweapon \"Giant Earth Branded Arrow\"\ntrgrank 1\nrange 12\ninit 1\ndmgtype 3\ndmg 0\naoe 1\nreload3\nan\nscatter\nflymode 1\nflylook 7\nflysound 13\nsound 13\nnextalwayswep 546\nnextdmg 3"
+ },
+ "546": {
+  "name": "Earth Blast",
+  "block": "newweapon \"Earth Blast\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 2\ndmg 0\naoe 5\nmundane\nlook 27\nsound 66\nnextwep 118\nnextdmg 64"
+ },
+ "547": {
+  "name": "Mesmerize",
+  "block": "newweapon \"Mesmerize\"\ntrgrank 9\nrange 4\ninit 1\ndmgtype 12\ndmg 0\naoe 0\nmr\nmind\nlook 48\nsound 70"
+ },
+ "548": {
+  "name": "Release Phantasm",
+  "block": "newweapon \"Release Phantasm\"\ntrgrank 7\nrange 4\ninit 1\ndmgtype 11\ndmg 0\naoe 0\nflymode 5\nflylook 71\nlook 76\nsound 12"
+ },
+ "549": {
+  "name": "Phantasmal Bow",
+  "block": "newweapon \"Phantasmal Bow\"\ntrgrank 1\nrange 5\ninit 2\ndmgtype 3\ndmg 3\naoe 0\nhardmr\narrow\nlob\nrangepen\nflymode 1\nflysound 14"
+ },
+ "550": {
+  "name": "Phantasmal Dagger",
+  "block": "newweapon \"Phantasmal Dagger\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 3\ndmg 3\naoe 0\nhardmr\nsound 1"
+ },
+ "551": {
+  "name": "Phantasmal Sword",
+  "block": "newweapon \"Phantasmal Sword\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 6\naoe 0\nhardmr\nsound 8"
+ },
+ "552": {
+  "name": "Phantasmal Spear",
+  "block": "newweapon \"Phantasmal Spear\"\ntrgrank 1\nrange 1\ninit 6\ndmgtype 3\ndmg 4\naoe 0\nhardmr\nsound 1"
+ },
+ "553": {
+  "name": "Phantasmal Halberd",
+  "block": "newweapon \"Phantasmal Halberd\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 1\ndmg 8\naoe 0\nhardmr\nsound 1"
+ },
+ "554": {
+  "name": "Phantasmal Greatsword",
+  "block": "newweapon \"Phantasmal Greatsword\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 9\naoe 0\nhardmr\nsweep\nsound 8"
+ },
+ "555": {
+  "name": "Phantasmal Pike",
+  "block": "newweapon \"Phantasmal Pike\"\ntrgrank 1\nrange 2\ninit 2\ndmgtype 3\ndmg 5\naoe 0\nhardmr\nsound 1"
+ },
+ "556": {
+  "name": "Phantasmal Lance",
+  "block": "newweapon \"Phantasmal Lance\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 3\ndmg 0\naoe 0\noneshot\nhardmr\nsound 84"
+ },
+ "557": {
+  "name": "Phantasmal Hoof",
+  "block": "newweapon \"Phantasmal Hoof\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 2\ndmg 0\naoe 0\nhardmr\nsound 1"
+ },
+ "558": {
+  "name": "Phantasmal Bite",
+  "block": "newweapon \"Phantasmal Bite\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nhardmr\nsound 1"
+ },
+ "559": {
+  "name": "Phantasmal Claw",
+  "block": "newweapon \"Phantasmal Claw\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nhardmr\nsound 1"
+ },
+ "560": {
+  "name": "Phantasmal Gore",
+  "block": "newweapon \"Phantasmal Gore\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nhardmr\nsound 1"
+ },
+ "561": {
+  "name": "Phantasmal Horns",
+  "block": "newweapon \"Phantasmal Horns\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 3\ndmg 0\naoe 0\nhardmr\nsound 1"
+ },
+ "562": {
+  "name": "Phantasmal Antlers",
+  "block": "newweapon \"Phantasmal Antlers\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 3\ndmg 0\naoe 0\nhardmr\nsound 1"
+ },
+ "563": {
+  "name": "Phantasmal Tentacle",
+  "block": "newweapon \"Phantasmal Tentacle\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 2\ndmg 0\naoe 0\nhardmr\nsound 1"
+ },
+ "564": {
+  "name": "Phantasmal Burst",
+  "block": "newweapon \"Phantasmal Burst\"\ntrgrank 9\nrange 6\ninit 8\ndmgtype 7\ndmg 0\naoe 0\nhardmr\nlook 57\nsound 1"
+ },
+ "565": {
+  "name": "Phantasmal Blast",
+  "block": "newweapon \"Phantasmal Blast\"\ntrgrank 9\nrange 6\ninit 8\ndmgtype 7\ndmg 0\naoe 3\nhardmr\nlook 57\nsound 1"
+ },
+ "566": {
+  "name": "Phantasmal Flames",
+  "block": "newweapon \"Phantasmal Flames\"\ntrgrank 9\nrange 6\ninit 8\ndmgtype 7\ndmg 0\naoe 5\nhardmr\nlook 57\nsound 1"
+ },
+ "567": {
+  "name": "Phantasmal Great Club",
+  "block": "newweapon \"Phantasmal Great Club\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 3\naoe 0\nhardmr\nsweep\nsound 8"
+ },
+ "568": {
+  "name": "Phantasmal Axe",
+  "block": "newweapon \"Phantasmal Axe\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 1\ndmg 7\naoe 0\nhardmr\nsound 8"
+ },
+ "569": {
+  "name": "Phantasmal Missile",
+  "block": "newweapon \"Phantasmal Missile\"\ntrgrank 1\nrange 5\ninit 2\ndmgtype 3\ndmg 0\naoe 0\nhardmr\narrow\nsound 14"
+ },
+ "570": {
+  "name": "Phantasmal Sting",
+  "block": "newweapon \"Phantasmal Sting\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 3\ndmg 0\naoe 0\nhardmr\nsound 1"
+ },
+ "571": {
+  "name": "Beam of Light",
+  "block": "newweapon \"Beam of Light\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 7\ndmg 0\naoe 1\nhardmr\nan\nflymode 5\nflylook 73\nflysound 66\nnextwep 488\nnextdmg 67108864"
+ },
+ "572": {
+  "name": "Serpent Club",
+  "block": "newweapon \"Serpent Club\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 7\naoe 0\nsound 1\nnextwep 35\nnextdmg 15"
+ },
+ "573": {
+  "name": "Strong Venomous Phase Bite",
+  "block": "newweapon \"Strong Venomous Phase Bite\"\ntrgrank 9\nrange 2\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nmundane\nsound 1\nnextwep 35\nnextdmg 20"
+ },
+ "574": {
+  "name": "Tentacle",
+  "block": "newweapon \"Tentacle\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 0\naoe 0\nshieldneg\nsound 1"
+ },
+ "575": {
+  "name": "Phantasmal Death",
+  "block": "newweapon \"Phantasmal Death\"\ntrgrank 9\nrange 8\ninit 10\ndmgtype 7\ndmg 0\naoe 0\nhardmr\nlook 57\nsound 1"
+ },
+ "576": {
+  "name": "Lashes of Darkness",
+  "block": "newweapon \"Lashes of Darkness\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 7\ndmg 0\naoe -5\nhardmr\nan\nlook 39\nsound 54\nnextwep 15\nnextdmg 2048"
+ },
+ "577": {
+  "name": "Illusory Bow",
+  "block": "newweapon \"Illusory Bow\"\ntrgrank 1\nrange 5\ninit 2\ndmgtype 3\ndmg 3\naoe 0\nmr\narrow\nlob\nrangepen\nflymode 1\nflysound 14"
+ },
+ "578": {
+  "name": "Illusory Dagger",
+  "block": "newweapon \"Illusory Dagger\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 3\ndmg 3\naoe 0\nmr\nsound 1"
+ },
+ "579": {
+  "name": "Illusory Sword",
+  "block": "newweapon \"Illusory Sword\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 6\naoe 0\nmr\nsound 8"
+ },
+ "580": {
+  "name": "Illusory Spear",
+  "block": "newweapon \"Illusory Spear\"\ntrgrank 1\nrange 1\ninit 6\ndmgtype 3\ndmg 4\naoe 0\nmr\nsound 1"
+ },
+ "581": {
+  "name": "Illusory Halberd",
+  "block": "newweapon \"Illusory Halberd\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 1\ndmg 8\naoe 0\nmr\nsound 1"
+ },
+ "582": {
+  "name": "Illusory Greatsword",
+  "block": "newweapon \"Illusory Greatsword\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 9\naoe 0\nmr\nsweep\nsound 8"
+ },
+ "583": {
+  "name": "Illusory Pike",
+  "block": "newweapon \"Illusory Pike\"\ntrgrank 1\nrange 2\ninit 2\ndmgtype 3\ndmg 5\naoe 0\nmr\nsound 1"
+ },
+ "584": {
+  "name": "Illusory Lance",
+  "block": "newweapon \"Illusory Lance\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 3\ndmg 0\naoe 0\noneshot\nmr\nsound 84"
+ },
+ "585": {
+  "name": "Illusory Hoof",
+  "block": "newweapon \"Illusory Hoof\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 2\ndmg 0\naoe 0\nmr\nsound 1"
+ },
+ "586": {
+  "name": "Illusory Bite",
+  "block": "newweapon \"Illusory Bite\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nmr\nsound 1"
+ },
+ "587": {
+  "name": "Illusory Claw",
+  "block": "newweapon \"Illusory Claw\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nmr\nsound 1"
+ },
+ "588": {
+  "name": "Illusory Gore",
+  "block": "newweapon \"Illusory Gore\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nmr\nsound 1"
+ },
+ "589": {
+  "name": "Illusory Horns",
+  "block": "newweapon \"Illusory Horns\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 3\ndmg 0\naoe 0\nmr\nsound 1"
+ },
+ "590": {
+  "name": "Illusory Antlers",
+  "block": "newweapon \"Illusory Antlers\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 3\ndmg 0\naoe 0\nmr\nsound 1"
+ },
+ "591": {
+  "name": "Illusory Tentacle",
+  "block": "newweapon \"Illusory Tentacle\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 2\ndmg 0\naoe 0\nmr\nsound 1"
+ },
+ "592": {
+  "name": "Illusory Burst",
+  "block": "newweapon \"Illusory Burst\"\ntrgrank 9\nrange 6\ninit 8\ndmgtype 7\ndmg 0\naoe 0\nmr\nflymode 3\nflylook 174\nflysound 104\nlook 57"
+ },
+ "593": {
+  "name": "Illusory Blast",
+  "block": "newweapon \"Illusory Blast\"\ntrgrank 9\nrange 6\ninit 8\ndmgtype 7\ndmg 0\naoe 3\nmr\nflymode 3\nflylook 174\nflysound 104\nlook 57"
+ },
+ "594": {
+  "name": "Illusory Flames",
+  "block": "newweapon \"Illusory Flames\"\ntrgrank 9\nrange 6\ninit 8\ndmgtype 7\ndmg 0\naoe 5\nmr\nflymode 3\nflylook 174\nflysound 104\nlook 57\nsound 68"
+ },
+ "595": {
+  "name": "Illusory Great Club",
+  "block": "newweapon \"Illusory Great Club\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 3\naoe 0\nmr\nsweep\nsound 8"
+ },
+ "596": {
+  "name": "Illusory Axe",
+  "block": "newweapon \"Illusory Axe\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 1\ndmg 7\naoe 0\nmr\nsound 8"
+ },
+ "597": {
+  "name": "Illusory Missile",
+  "block": "newweapon \"Illusory Missile\"\ntrgrank 1\nrange 5\ninit 2\ndmgtype 3\ndmg 0\naoe 0\nmr\narrow\nsound 14"
+ },
+ "598": {
+  "name": "Illusory Sting",
+  "block": "newweapon \"Illusory Sting\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 3\ndmg 0\naoe 0\nmr\nsound 1"
+ },
+ "599": {
+  "name": "Illusory Death",
+  "block": "newweapon \"Illusory Death\"\ntrgrank 9\nrange 8\ninit 10\ndmgtype 7\ndmg 0\naoe 0\nmr\nmind\nflymode 5\nflylook 173\nflysound 104\nsound 42"
+ },
+ "600": {
+  "name": "Ghost Rending Claw",
+  "block": "newweapon \"Ghost Rending Claw\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nsound 1\nnextwep 139\nnextdmg 999"
+ },
+ "601": {
+  "name": "Mancatcher",
+  "block": "newweapon \"Mancatcher\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 3\ndmg 2\naoe 0\nsound 1\nnextwep 602\nnextdmg 1099511627776"
+ },
+ "602": {
+  "name": "Ghost Shackles",
+  "block": "newweapon \"Ghost Shackles\"\ntrgrank 9\nrange 1\ninit 4\ndmgtype 12\ndmg 0\naoe 0\nhardmr\nsound 0"
+ },
+ "603": {
+  "name": "Words of Sacrilege",
+  "block": "newweapon \"Words of Sacrilege\"\ntrgrank 9\nrange 3\ninit 1\ndmgtype 12\ndmg 0\naoe 0\nmr\nmind\nlook 48\nsound 70"
+ },
+ "604": {
+  "name": "Golden Torc",
+  "block": "newweapon \"Golden Torc\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 2\ndmg 3\naoe 0\nsound 1"
+ },
+ "605": {
+  "name": "Snake",
+  "block": "newweapon \"Snake\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 3\ndmg 4\naoe 0\nshieldneg\nmundane\nnostr\nsound 1\nnextwep 35\nnextdmg 20"
+ },
+ "606": {
+  "name": "Magic Spear",
+  "block": "newweapon \"Magic Spear\"\ntrgrank 1\nrange 1\ninit 7\ndmgtype 3\ndmg 6\naoe 0\nsound 1"
+ },
+ "607": {
+  "name": "Horn of the Hunt",
+  "block": "newweapon \"Horn of the Hunt\"\ntrgrank 9\nrange 4\ninit 2\ndmgtype 8\ndmg 8\naoe 25\nhardmr\nan\nonlyenemy\nlook 5\nsound 114"
+ },
+ "608": {
+  "name": "Prismatic Light",
+  "block": "newweapon \"Prismatic Light\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 7\ndmg 0\naoe -10\nmr\nan\nlook 54\nsound 66\nnextwep 488\nnextdmg 67108864"
+ },
+ "609": {
+  "name": "Disease Spell",
+  "block": "newweapon \"Disease Spell\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 12\ndmg 0\naoe 0\nhardmr\ninanimate\nflymode 3\nflylook 127\nflysound 42\nlook 2\nsound 109"
+ },
+ "610": {
+  "name": "Word of Power",
+  "block": "newweapon \"Word of Power\"\ntrgrank 9\nrange 4\ninit 4\ndmgtype 12\ndmg 0\naoe 0\nhardmr\nflymode 5\nflylook 115\nlook 2\nsound 42"
+ },
+ "611": {
+  "name": "Terror",
+  "block": "newweapon \"Terror\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 8\ndmg 0\naoe 25\nhardmr\nan\nonlyenemy\nflymode 2\nflysound 22\nlook 5"
+ },
+ "612": {
+  "name": "Acid Blood",
+  "block": "newweapon \"Acid Blood\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 10\ndmg 0\naoe 0\npurple\nlook 69"
+ },
+ "613": {
+  "name": "Bane Fire Decay",
+  "block": "newweapon \"Bane Fire Decay\"\ntrgrank 9\nrange 1\ninit 4\ndmgtype 12\ndmg 0\naoe 9\nmr\nlook 2\nsound 42"
+ },
+ "614": {
+  "name": "Bane Vortex Decay",
+  "block": "newweapon \"Bane Vortex Decay\"\ntrgrank 9\nrange 1\ninit 4\ndmgtype 12\ndmg 0\naoe 3\neasymr\nlook 2\nsound 42"
+ },
+ "615": {
+  "name": "Invulnerability",
+  "block": "newweapon \"Invulnerability\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 13\ndmg 0\naoe 0\nlook 140\nsound 107"
+ },
+ "616": {
+  "name": "Acid",
+  "block": "newweapon \"Acid\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 10\ndmg 0\naoe 1\nan\nflymode 4\nflylook 99\nlook 49\nsound 68"
+ },
+ "617": {
+  "name": "Acid Dart",
+  "block": "newweapon \"Acid Dart\"\ntrgrank 1\nrange 6\ninit 4\ndmgtype 10\ndmg 0\naoe -2\nan\nflymode 3\nflylook 163\nflysound 104\nlook 49\nsound 108"
+ },
+ "618": {
+  "name": "Acid Spray",
+  "block": "newweapon \"Acid Spray\"\ntrgrank 1\nrange 5\ninit 4\ndmgtype 10\ndmg 0\naoe 2010\nan\nflymode 4\nflylook 99\nflysound 96\nlook 49\nsound 109"
+ },
+ "619": {
+  "name": "Acid Cloud",
+  "block": "newweapon \"Acid Cloud\"\ntrgrank 1\nrange 6\ninit 4\ndmgtype 10\ndmg 0\naoe 9\nan\nflymode 2\nflylook 148\nflysound 96\nlook 49\nsound 109"
+ },
+ "620": {
+  "name": "Acid Mist",
+  "block": "newweapon \"Acid Mist\"\ntrgrank 1\nrange 8\ninit 4\ndmgtype 10\ndmg 0\naoe 25\nan\nflymode 2\nflylook 148\nflysound 96\nlook 49\nsound 109"
+ },
+ "621": {
+  "name": "Acid Rain",
+  "block": "newweapon \"Acid Rain\"\ntrgrank 1\nrange 8\ninit 4\ndmgtype 10\ndmg 0\naoe 25\nan\nflymode 2\nflylook 99\nflysound 96\nlook 49\nsound 109"
+ },
+ "622": {
+  "name": "Acid Storm",
+  "block": "newweapon \"Acid Storm\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 10\ndmg 0\naoe 9999\nan\nlook 49\nsound 68"
+ },
+ "623": {
+  "name": "Shock Field",
+  "block": "newweapon \"Shock Field\"\ntrgrank 9\nrange 4\ninit 4\ndmgtype 6\ndmg 0\naoe 3\nan\nflymode 4\nflylook 186\nflysound 104\nlook 187\nsound 24"
+ },
+ "624": {
+  "name": "Lightning Bolt",
+  "block": "newweapon \"Lightning Bolt\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 6\ndmg 0\naoe 5005\nan\nflysound 24\nlook 58"
+ },
+ "625": {
+  "name": "Thunder Strike",
+  "block": "newweapon \"Thunder Strike\"\ntrgrank 9\nrange 15\ninit 4\ndmgtype 6\ndmg 0\naoe 1\nan\nscatter\nlook 153\nsound 27\nnextalwayswep 727\nnextdmg 1"
+ },
+ "626": {
+  "name": "Small Poison Bow",
+  "block": "newweapon \"Small Poison Bow\"\ntrgrank 1\nrange 4\ninit 2\ndmgtype 3\ndmg 3\naoe 0\nmundane\narrow\nlob\nrangepen\nflymode 1\nflysound 14\nnextwep 35\nnextdmg 5"
+ },
+ "627": {
+  "name": "Regeneration",
+  "block": "newweapon \"Regeneration\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 0\ninanimate\nonlyfriend\nlook 12\nsound 94"
+ },
+ "628": {
+  "name": "Hydra's Blessing",
+  "block": "newweapon \"Hydra's Blessing\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 5\ninanimate\nonlyfriend\nflysound 94\nlook 12"
+ },
+ "629": {
+  "name": "Regeneration",
+  "block": "newweapon \"Regeneration\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 9\ninanimate\nonlyfriend\nflysound 94\nlook 12"
+ },
+ "630": {
+  "name": "Mass Regeneration",
+  "block": "newweapon \"Mass Regeneration\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 25\ninanimate\nonlyfriend\nflysound 94\nlook 12"
+ },
+ "631": {
+  "name": "Army of Antaeus",
+  "block": "newweapon \"Army of Antaeus\"\ntrgrank -9\nrange 0\ninit 4\ndmgtype 13\ndmg 0\naoe 998\nonlyfriend\nflysound 29\nlook 1"
+ },
+ "632": {
+  "name": "Great Club",
+  "block": "newweapon \"Great Club\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 7\naoe 0\nmundane\nsweep\nsound 1"
+ },
+ "633": {
+  "name": "Shadow Form",
+  "block": "newweapon \"Shadow Form\"\ntrgrank -9\nrange 6\ninit 4\ndmgtype 13\ndmg 0\naoe 0\nonlyfriend\nflysound 29\nlook 12"
+ },
+ "634": {
+  "name": "Shade Warriors",
+  "block": "newweapon \"Shade Warriors\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 5\nonlyfriend\nflysound 29\nlook 12"
+ },
+ "635": {
+  "name": "Shade Warriors",
+  "block": "newweapon \"Shade Warriors\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 9\nonlyfriend\nflysound 29\nlook 12"
+ },
+ "636": {
+  "name": "Army of Darkness",
+  "block": "newweapon \"Army of Darkness\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 25\nonlyfriend\nflysound 29\nlook 12"
+ },
+ "637": {
+  "name": "Fire Shield",
+  "block": "newweapon \"Fire Shield\"\ntrgrank -9\nrange 6\ninit 4\ndmgtype 13\ndmg 0\naoe 0\nonlyfriend\nflysound 29\nlook 12"
+ },
+ "638": {
+  "name": "Soldiers of Flame",
+  "block": "newweapon \"Soldiers of Flame\"\ntrgrank -9\nrange 6\ninit 4\ndmgtype 13\ndmg 0\naoe 5\nonlyfriend\nflysound 29\nlook 12"
+ },
+ "639": {
+  "name": "Army of Flames",
+  "block": "newweapon \"Army of Flames\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 25\nonlyfriend\nflysound 29\nlook 12"
+ },
+ "640": {
+  "name": "Resist Magic",
+  "block": "newweapon \"Resist Magic\"\ntrgrank -9\nrange 6\ninit 4\ndmgtype 13\ndmg 0\naoe 0\nonlyfriend\nflysound 94\nlook 12"
+ },
+ "641": {
+  "name": "Antimagic",
+  "block": "newweapon \"Antimagic\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 25\nonlyfriend\nflysound 94\nlook 12"
+ },
+ "642": {
+  "name": "Hellbind Heart",
+  "block": "newweapon \"Hellbind Heart\"\ntrgrank 9\nrange 6\ninit 8\ndmgtype 19\ndmg 0\naoe 0\nmr\nan\nmind\nflymode 8\nflylook 122\nflysound 94\nlook 8"
+ },
+ "643": {
+  "name": "Enslave",
+  "block": "newweapon \"Enslave\"\ntrgrank 9\nrange 8\ninit 8\ndmgtype 19\ndmg 0\naoe 0\nmr\nan\nmind\nflymode 8\nflylook 122\nflysound 94"
+ },
+ "644": {
+  "name": "Invade Mind",
+  "block": "newweapon \"Invade Mind\"\ntrgrank 9\nrange 10\ninit 8\ndmgtype 19\ndmg 0\naoe 0\nmr\nan\nmind\nflymode 8\nflylook 122\nflysound 94\nlook 8"
+ },
+ "645": {
+  "name": "Bloodletting",
+  "block": "newweapon \"Bloodletting\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 7\ndmg 0\naoe 9999\ndrain\ninanimate\nflymode 2\nlook 182\nsound 18"
+ },
+ "646": {
+  "name": "Bones of Stone",
+  "block": "newweapon \"Bones of Stone\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 5\nethereal\nonlyfriend\nlook 44\nsound 29"
+ },
+ "647": {
+  "name": "Stygian Skin",
+  "block": "newweapon \"Stygian Skin\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 5\nethereal\nonlyfriend\nlook 44\nsound 29"
+ },
+ "648": {
+  "name": "Air Shield",
+  "block": "newweapon \"Air Shield\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 5\nonlyfriend\nflysound 29\nlook 189"
+ },
+ "649": {
+  "name": "Iron Bolts",
+  "block": "newweapon \"Iron Bolts\"\ntrgrank 9\nrange 6\ninit 0\ndmgtype 2\ndmg 0\naoe -5\nflymode 1\nflylook 34\nflysound 21\nlook 27"
+ },
+ "650": {
+  "name": "Maws of the Earth",
+  "block": "newweapon \"Maws of the Earth\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 2\ndmg 0\naoe 7005\nan\nflying\nlarge\nwallkill\nlook 161\nsound 45\nnextalwayswep 651\nnextdmg 256"
+ },
+ "651": {
+  "name": "Maws of the Earth (grip)",
+  "block": "newweapon \"Maws of the Earth (grip)\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nan\nflying\nlarge\nnextalwayswep 652\nnextdmg 8"
+ },
+ "652": {
+  "name": "Maws of the Earth (fire)",
+  "block": "newweapon \"Maws of the Earth (fire)\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 4\ndmg 0\naoe 1\nlook 69\nsound 68"
+ },
+ "653": {
+  "name": "Protective Winds",
+  "block": "newweapon \"Protective Winds\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 20\nonlyfriend\nflymode 3\nflysound 29\nlook 189"
+ },
+ "654": {
+  "name": "Friendly Storm",
+  "block": "newweapon \"Friendly Storm\"\ntrgrank -9\nrange 0\ninit 4\ndmgtype 13\ndmg 0\naoe 998\nonlyfriend\nflymode 3\nflysound 60\nlook 189"
+ },
+ "655": {
+  "name": "Strength of the Earth",
+  "block": "newweapon \"Strength of the Earth\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 5\nethereal\nonlyfriend\nlook 44\nsound 29"
+ },
+ "656": {
+  "name": "Poison Breath",
+  "block": "newweapon \"Poison Breath\"\ntrgrank 1\nrange 5\ninit 7\ndmgtype 9\ndmg 0\naoe 2005\nan\nflymode 2\nflylook 63\nflysound 96\nlook 7"
+ },
+ "657": {
+  "name": "Poison Spit",
+  "block": "newweapon \"Poison Spit\"\ntrgrank 1\nrange 3\ninit 2\ndmgtype 9\ndmg 0\naoe 1\nan\nlook 7\nsound 19"
+ },
+ "658": {
+  "name": "Venomous Death Bite",
+  "block": "newweapon \"Venomous Death Bite\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nmundane\nsound 1\nnextwep 35\nnextdmg 40"
+ },
+ "659": {
+  "name": "Life Drain",
+  "block": "newweapon \"Life Drain\"\ntrgrank 9\nrange 1\ninit 2\ndmgtype 7\ndmg 0\naoe 0\ndrain\nan\ninanimate\nsound 18"
+ },
+ "660": {
+  "name": "Flames",
+  "block": "newweapon \"Flames\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 4\ndmg 0\naoe 3\nflymode 5\nflylook 65\nflysound 16\nlook 68"
+ },
+ "661": {
+  "name": "Vine Arrow",
+  "block": "newweapon \"Vine Arrow\"\ntrgrank 9\nrange 5\ninit 4\ndmgtype 3\ndmg 0\naoe 0\nmundane\nflymode 1\nflylook 13\nflysound 104\nsound 21\nnextalwayswep 662\nnextdmg 512"
+ },
+ "662": {
+  "name": "Entangle",
+  "block": "newweapon \"Entangle\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nmundane\nflying\ntree\nlook 198\nsound 109"
+ },
+ "663": {
+  "name": "Flame Strike",
+  "block": "newweapon \"Flame Strike\"\ntrgrank 1\nrange 6\ninit 4\ndmgtype 4\ndmg 0\naoe 1\nflymode 3\nflylook 95\nlook 68\nsound 16"
+ },
+ "664": {
+  "name": "Poison Darts",
+  "block": "newweapon \"Poison Darts\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 9\ndmg 0\naoe -9\nan\nflymode 4\nflylook 113\nflysound 104\nlook 7\nsound 96"
+ },
+ "665": {
+  "name": "Bewilderment",
+  "block": "newweapon \"Bewilderment\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 12\ndmg 0\naoe -6\nmr\nmind\nflymode 8\nflylook 117\nflysound 70"
+ },
+ "666": {
+  "name": "Web",
+  "block": "newweapon \"Web\"\ntrgrank 9\nrange 3\ninit 2\ndmgtype 12\ndmg 0\naoe 1\noneshot\nmundane\nflymode 3\nflylook 123\nsound 19"
+ },
+ "667": {
+  "name": "Corrosive Bite",
+  "block": "newweapon \"Corrosive Bite\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nmundane\nsound 1\nnextwep 668\nnextdmg 5"
+ },
+ "668": {
+  "name": "Acid",
+  "block": "newweapon \"Acid\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 10\ndmg 0\naoe 1\nan"
+ },
+ "669": {
+  "name": "Acid Spit",
+  "block": "newweapon \"Acid Spit\"\ntrgrank 1\nrange 3\ninit 2\ndmgtype 10\ndmg 0\naoe 1\nan\nflymode 3\nflylook 163\nflysound 104\nlook 49\nsound 108"
+ },
+ "670": {
+  "name": "Elemental Resistance",
+  "block": "newweapon \"Elemental Resistance\"\ntrgrank -9\nrange 6\ninit 4\ndmgtype 13\ndmg 0\naoe 3\nonlyfriend\nflymode 2\nflysound 72\nlook 16"
+ },
+ "671": {
+  "name": "Elemental Resistance",
+  "block": "newweapon \"Elemental Resistance\"\ntrgrank -9\nrange 6\ninit 4\ndmgtype 13\ndmg 0\naoe 5\nonlyfriend\nflymode 2\nflysound 72\nlook 16"
+ },
+ "672": {
+  "name": "Elemental Resistance",
+  "block": "newweapon \"Elemental Resistance\"\ntrgrank -9\nrange 6\ninit 4\ndmgtype 13\ndmg 0\naoe 15\nonlyfriend\nflymode 2\nflysound 72\nlook 16"
+ },
+ "673": {
+  "name": "Elemental Resistance",
+  "block": "newweapon \"Elemental Resistance\"\ntrgrank -9\nrange 6\ninit 4\ndmgtype 13\ndmg 0\naoe 25\nonlyfriend\nflymode 2\nflysound 72\nlook 16"
+ },
+ "674": {
+  "name": "Golden Bow",
+  "block": "newweapon \"Golden Bow\"\ntrgrank 1\nrange 8\ninit 2\ndmgtype 3\ndmg 6\naoe 0\narrow\nlob\nrangepen\nflymode 1\nflysound 14\nnextwep 675\nnextdmg 3"
+ },
+ "675": {
+  "name": "Sunlight",
+  "block": "newweapon \"Sunlight\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 4\ndmg 0\naoe 0\nan\nundkill\nlook 53\nsound 68"
+ },
+ "676": {
+  "name": "Magic Scepter",
+  "block": "newweapon \"Magic Scepter\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 4\naoe 0\nsound 1"
+ },
+ "677": {
+  "name": "Poison Cloud",
+  "block": "newweapon \"Poison Cloud\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 9\ndmg 0\naoe 5\nan\nflymode 3\nflylook 62\nflysound 104\nlook 7\nsound 109"
+ },
+ "678": {
+  "name": "Acid Spray",
+  "block": "newweapon \"Acid Spray\"\ntrgrank 1\nrange 2\ninit 7\ndmgtype 10\ndmg 0\naoe 1002\nan\nflymode 4\nflylook 99\nflysound 104"
+ },
+ "679": {
+  "name": "Call the Dead",
+  "block": "newweapon \"Call the Dead\"\ntrgrank 0\nrange 0\ninit 1\ndmgtype 23\ndmg 0\naoe 9999\neasymr\nan\nlook 3\nsound 22"
+ },
+ "680": {
+  "name": "Divine Names",
+  "block": "newweapon \"Divine Names\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 12\ndmg 0\naoe -7\nhardmr\nlook 29\nsound 70"
+ },
+ "681": {
+  "name": "Flesh is Stronger",
+  "block": "newweapon \"Flesh is Stronger\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 0\nethereal\nonlyfriend\nlook 45\nsound 29"
+ },
+ "682": {
+  "name": "Blessing",
+  "block": "newweapon \"Blessing\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 9\nonlyfriend\nflymode 3\nflysound 30\nlook 181"
+ },
+ "683": {
+  "name": "Blessing",
+  "block": "newweapon \"Blessing\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 25\nonlyfriend\nflymode 3\nflysound 30\nlook 181"
+ },
+ "684": {
+  "name": "Blessing",
+  "block": "newweapon \"Blessing\"\ntrgrank -9\nrange 0\ninit 4\ndmgtype 13\ndmg 0\naoe 998\nonlyfriend\nflymode 3\nflysound 30\nlook 181"
+ },
+ "685": {
+  "name": "Mesmerize",
+  "block": "newweapon \"Mesmerize\"\ntrgrank 9\nrange 8\ninit 1\ndmgtype 12\ndmg 0\naoe 0\nmr\nmind\nlook 48\nsound 70"
+ },
+ "686": {
+  "name": "Poison Cloud",
+  "block": "newweapon \"Poison Cloud\"\ntrgrank 9\nrange 3\ninit 4\ndmgtype 9\ndmg 0\naoe 5\nan\nmundane\nflymode 3\nflylook 62\nflysound 104\nlook 7\nsound 109"
+ },
+ "687": {
+  "name": "Poison Cloud",
+  "block": "newweapon \"Poison Cloud\"\ntrgrank 9\nrange 2\ninit 4\ndmgtype 9\ndmg 0\naoe 5\nan\nmundane\nflymode 3\nflylook 62\nflysound 104\nlook 7\nsound 109"
+ },
+ "688": {
+  "name": "Carnyx Horn",
+  "block": "newweapon \"Carnyx Horn\"\ntrgrank 9\nrange 3\ninit 2\ndmgtype 8\ndmg 5\naoe 3006\nan\nonlyenemy\nlook 5\nsound 114"
+ },
+ "689": {
+  "name": "Hoburg Pike",
+  "block": "newweapon \"Hoburg Pike\"\ntrgrank 1\nrange 1\ninit 7\ndmgtype 3\ndmg 4\naoe 0\nmundane\nsound 1"
+ },
+ "690": {
+  "name": "Lucerne Hammer",
+  "block": "newweapon \"Lucerne Hammer\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 3\ndmg 7\naoe 0\nmundane\nsound 1"
+ },
+ "691": {
+  "name": "Horrible Howl",
+  "block": "newweapon \"Horrible Howl\"\ntrgrank 9\nrange 3\ninit 2\ndmgtype 8\ndmg 7\naoe 3006\nan\nonlyenemy\nlook 5\nsound 26"
+ },
+ "692": {
+  "name": "Pillar",
+  "block": "newweapon \"Pillar\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 18\naoe 1\nsound 8"
+ },
+ "693": {
+  "name": "Death Blade",
+  "block": "newweapon \"Death Blade\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 12\naoe 0\nreanimate\nsweep\nsound 8"
+ },
+ "694": {
+  "name": "Petrifying Fist",
+  "block": "newweapon \"Petrifying Fist\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 2\ndmg 0\naoe 0\nlook 25\nsound 85\nnextwep 695\nnextdmg 999"
+ },
+ "695": {
+  "name": "Petrification",
+  "block": "newweapon \"Petrification\"\ntrgrank 1\nrange 10\ninit 10\ndmgtype 24\ndmg 0\naoe 0\nmr\nan\nstone"
+ },
+ "696": {
+  "name": "Bane Fire Bow",
+  "block": "newweapon \"Bane Fire Bow\"\ntrgrank 1\nrange 5\ninit 2\ndmgtype 3\ndmg 3\naoe 0\narrow\nlob\nrangepen\nflymode 1\nflysound 14\nnextalwayswep 697\nnextdmg 2"
+ },
+ "697": {
+  "name": "Bane Fire",
+  "block": "newweapon \"Bane Fire\"\ntrgrank 1\nrange 0\ninit 0\ndmgtype 7\ndmg 0\naoe 0\nan\nlook 77\nnextwep 701\nnextdmg 4"
+ },
+ "698": {
+  "name": "Ghoul Hammer",
+  "block": "newweapon \"Ghoul Hammer\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 3\ndmg 7\naoe 0\nghoulify\nsound 1\nnextwep 50\nnextdmg 1"
+ },
+ "699": {
+  "name": "Poison Breath",
+  "block": "newweapon \"Poison Breath\"\ntrgrank 1\nrange 3\ninit 7\ndmgtype 9\ndmg 0\naoe 2003\nan\nflymode 2\nflylook 63\nflysound 96\nlook 7"
+ },
+ "700": {
+  "name": "Bane Blade",
+  "block": "newweapon \"Bane Blade\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 7\naoe 0\nsound 1\nnextwep 15\nnextdmg 4"
+ },
+ "701": {
+  "name": "Bane Fire Decay",
+  "block": "newweapon \"Bane Fire Decay\"\ntrgrank 9\nrange 1\ninit 4\ndmgtype 12\ndmg 0\naoe 1\neasymr\nlook 2"
+ },
+ "702": {
+  "name": "Throw Flames",
+  "block": "newweapon \"Throw Flames\"\ntrgrank 9\nrange 3\ninit 2\ndmgtype 4\ndmg 0\naoe 1\nflymode 5\nflylook 66\nflysound 16\nlook 68\nsound 68"
+ },
+ "703": {
+  "name": "Throw Frost",
+  "block": "newweapon \"Throw Frost\"\ntrgrank 9\nrange 3\ninit 2\ndmgtype 5\ndmg 0\naoe 1\nan\nflymode 7\nflylook 89\nflysound 95\nlook 90"
+ },
+ "704": {
+  "name": "Winds",
+  "block": "newweapon \"Winds\"\ntrgrank 9\nrange 8\ninit 1\ndmgtype 2\ndmg 0\naoe 3\nmundane\nlook 26\nsound 66\nnextwep 118\nnextdmg 64"
+ },
+ "705": {
+  "name": "Frost Strike",
+  "block": "newweapon \"Frost Strike\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 5\ndmg 0\naoe 1\nflymode 3\nflylook 97\nlook 90\nsound 39"
+ },
+ "706": {
+  "name": "Wall of Torment",
+  "block": "newweapon \"Wall of Torment\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 7\ndmg 0\naoe 0\nsound 1"
+ },
+ "707": {
+  "name": "aff (mr+living only)",
+  "block": "newweapon \"aff (mr+living only)\"\ntrgrank 9\nrange 8\ninit 3\ndmgtype 12\ndmg 0\naoe 0\nmr\nundead\ninanimate"
+ },
+ "708": {
+  "name": "Fool's Laughter",
+  "block": "newweapon \"Fool's Laughter\"\ntrgrank 9\nrange 4\ninit 8\ndmgtype 12\ndmg 0\naoe 1\nmr\nmind\nflymode 5\nflylook 117\nflysound 70\nlook 48"
+ },
+ "709": {
+  "name": "Summon Dragonfly",
+  "block": "newweapon \"Summon Dragonfly\"\ntrgrank 7\nrange 10\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "710": {
+  "name": "Axe of Sharpness",
+  "block": "newweapon \"Axe of Sharpness\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 1\ndmg 12\naoe 0\nan\nsound 1"
+ },
+ "711": {
+  "name": "Club of Dreams",
+  "block": "newweapon \"Club of Dreams\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 5\naoe 0\nsound 1\nnextalwayswep 712\nnextdmg 1"
+ },
+ "712": {
+  "name": "Sleep",
+  "block": "newweapon \"Sleep\"\ntrgrank 1\nrange 1\ninit 1\ndmgtype 16\ndmg 0\naoe 0\nan\nlook 11\nsound 97"
+ },
+ "713": {
+  "name": "Poison Claw",
+  "block": "newweapon \"Poison Claw\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 1\naoe 0\nmundane\nsound 1\nnextwep 35\nnextdmg 10"
+ },
+ "714": {
+  "name": "Golden Sickle",
+  "block": "newweapon \"Golden Sickle\"\ntrgrank 1\nrange 1\ninit 6\ndmgtype 1\ndmg 3\naoe 0\nsound 1"
+ },
+ "715": {
+  "name": "Terrain Poison",
+  "block": "newweapon \"Terrain Poison\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 7\ndmg 0\naoe 1\nan\npoison\nsound 1"
+ },
+ "716": {
+  "name": "Bewilderment",
+  "block": "newweapon \"Bewilderment\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 12\ndmg 0\naoe 25\nmr\nmind\nflymode 2\nflylook 159\nflysound 70\nlook 48\nsound 111"
+ },
+ "717": {
+  "name": "Wraithsword",
+  "block": "newweapon \"Wraithsword\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 10\naoe 0\nsweep\ndispossess\nsound 1"
+ },
+ "718": {
+  "name": "Moon Blade",
+  "block": "newweapon \"Moon Blade\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 10\naoe 0\nsweep\nsound 1\nnextwep 720\nnextdmg 10"
+ },
+ "719": {
+  "name": "Moon Lance",
+  "block": "newweapon \"Moon Lance\"\ntrgrank 1\nrange 1\ninit 6\ndmgtype 3\ndmg 7\naoe 0\nsound 1\nnextwep 720\nnextdmg 10"
+ },
+ "720": {
+  "name": "Soul Rend",
+  "block": "newweapon \"Soul Rend\"\ntrgrank 9\nrange 1\ninit 1\ndmgtype 7\ndmg 0\naoe 0\nmr\nan\nmind"
+ },
+ "721": {
+  "name": "Mind Tentacles",
+  "block": "newweapon \"Mind Tentacles\"\ntrgrank 9\nrange 4\ninit 1\ndmgtype 7\ndmg 0\naoe 3010\nan\nmind\nflymode 4\nflylook 210\nflysound 70\nlook 54\nnextwep 723\nnextdmg 16"
+ },
+ "722": {
+  "name": "Mind Tentacles Paralyze",
+  "block": "newweapon \"Mind Tentacles Paralyze\"\ntrgrank 1\nrange 1\ninit 1\ndmgtype 12\ndmg 0\naoe 0\nmr\nan\nmind"
+ },
+ "723": {
+  "name": "Life Drain Tentacle",
+  "block": "newweapon \"Life Drain Tentacle\"\ntrgrank 1\nrange 1\ninit 7\ndmgtype 7\ndmg 0\naoe 0\ndrain\nsound 18"
+ },
+ "724": {
+  "name": "Coral Glaive",
+  "block": "newweapon \"Coral Glaive\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 1\ndmg 5\naoe 0\nmundane\nsound 14\nnextwep 35\nnextdmg 5"
+ },
+ "725": {
+  "name": "Thunder Strike",
+  "block": "newweapon \"Thunder Strike\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 6\ndmg 0\naoe 1\nan\nlook 153\nsound 27"
+ },
+ "726": {
+  "name": "Lightning Storm",
+  "block": "newweapon \"Lightning Storm\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 6\ndmg 0\naoe 9212\nan\nlook 58\nsound 24"
+ },
+ "727": {
+  "name": "Area Shock",
+  "block": "newweapon \"Area Shock\"\ntrgrank 9\nrange 1\ninit 4\ndmgtype 6\ndmg 0\naoe 6\nan"
+ },
+ "728": {
+  "name": "Dreamless Sleep",
+  "block": "newweapon \"Dreamless Sleep\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 16\ndmg 0\naoe 9998\nmr\nan\nmind\nflymode 2\nflylook 120\nflysound 97\nlook 11"
+ },
+ "729": {
+  "name": "Dream Seduction",
+  "block": "newweapon \"Dream Seduction\"\ntrgrank 8\nrange 1\ninit 4\ndmgtype 14\ndmg 0\naoe 0\nhardmr\nan\nmind\nflymode 8\nflylook 149\nflysound 94"
+ },
+ "730": {
+  "name": "Magic Greatsword",
+  "block": "newweapon \"Magic Greatsword\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 12\naoe 0\nsweep\nsound 8"
+ },
+ "731": {
+  "name": "Athame",
+  "block": "newweapon \"Athame\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 3\ndmg 5\naoe 0\nsound 1"
+ },
+ "732": {
+  "name": "Sword of War",
+  "block": "newweapon \"Sword of War\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 14\naoe 0\nsweep\nsound 8\nnextwep 15\nnextdmg 4"
+ },
+ "733": {
+  "name": "Thunder Fist",
+  "block": "newweapon \"Thunder Fist\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 2\ndmg 1\naoe 0\nlook 25\nsound 24\nnextwep 107\nnextdmg 15"
+ },
+ "734": {
+  "name": "Massive Hammer",
+  "block": "newweapon \"Massive Hammer\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 8\naoe 0\nsound 1\nnextwep 735\nnextdmg 2"
+ },
+ "735": {
+  "name": "Minor Earthquake",
+  "block": "newweapon \"Minor Earthquake\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 2\ndmg 0\naoe 8\nmundane\nflying\nflymode 2\nlook 27\nsound 45\nnextwep 118\nnextdmg 64"
+ },
+ "736": {
+  "name": "Iron Claw",
+  "block": "newweapon \"Iron Claw\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 3\naoe 0\nmundane\nsound 1"
+ },
+ "737": {
+  "name": "Magic Bident",
+  "block": "newweapon \"Magic Bident\"\ntrgrank 1\nrange 1\ninit 7\ndmgtype 3\ndmg 5\naoe 0\nsound 1"
+ },
+ "738": {
+  "name": "Disease Cloud",
+  "block": "newweapon \"Disease Cloud\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nmr\nan\ninanimate"
+ },
+ "739": {
+  "name": "Mind Explosion",
+  "block": "newweapon \"Mind Explosion\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 12\ndmg 0\naoe 25\nmr\nflymode 4\nflylook 210\nflysound 70\nlook 54"
+ },
+ "740": {
+  "name": "Energy Beam",
+  "block": "newweapon \"Energy Beam\"\ntrgrank 1\nrange 5\ninit 8\ndmgtype 6\ndmg 0\naoe 1005\nan\nflymode 4\nflylook 214\nsound 58"
+ },
+ "741": {
+  "name": "Pseudopod Strike",
+  "block": "newweapon \"Pseudopod Strike\"\ntrgrank 1\nrange 1\ninit 8\ndmgtype 10\ndmg 0\naoe 0\nan\nlook 17\nsound 103\nnextwep 742\nnextdmg 999"
+ },
+ "742": {
+  "name": "Incorporate",
+  "block": "newweapon \"Incorporate\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 20\ndmg 0\naoe 0\nmr\nan\nhuge"
+ },
+ "743": {
+  "name": "Paralyzing Scream",
+  "block": "newweapon \"Paralyzing Scream\"\ntrgrank 9\nrange 3\ninit 8\ndmgtype 7\ndmg 0\naoe 4006\nmr\nan\nflymode 2\nflylook 215\nflysound 113\nnextwep 744\nnextdmg 999"
+ },
+ "744": {
+  "name": "Paralyzing Scream",
+  "block": "newweapon \"Paralyzing Scream\"\ntrgrank 9\nrange 3\ninit 8\ndmgtype 17\ndmg 0\naoe 1\neasymr\nan\nmind"
+ },
+ "745": {
+  "name": "Shovel",
+  "block": "newweapon \"Shovel\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 2\ndmg 3\naoe 0\nmundane\nsound 1"
+ },
+ "746": {
+  "name": "Sledge Hammer",
+  "block": "newweapon \"Sledge Hammer\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 7\naoe 0\nmundane\nsound 1"
+ },
+ "747": {
+  "name": "Broom",
+  "block": "newweapon \"Broom\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 2\ndmg 1\naoe 0\nmundane\nsound 1"
+ },
+ "748": {
+  "name": "Bucket of Water",
+  "block": "newweapon \"Bucket of Water\"\ntrgrank 1\nrange 1\ninit 1\ndmgtype 2\ndmg 1\naoe 0\nmundane\nsound 1"
+ },
+ "749": {
+  "name": "Giant Arrow",
+  "block": "newweapon \"Giant Arrow\"\ntrgrank 1\nrange 12\ninit 1\ndmgtype 3\ndmg 0\naoe 1\nreload2\nmundane\nscatter\nflymode 1\nflylook 7\nflysound 13"
+ },
+ "750": {
+  "name": "Shove",
+  "block": "newweapon \"Shove\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 2\ndmg 0\naoe 0\nmundane\nsound 1"
+ },
+ "751": {
+  "name": "Stellar Maw",
+  "block": "newweapon \"Stellar Maw\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 7\ndmg 0\naoe 0\ndrain\nmr\nsound 18"
+ },
+ "752": {
+  "name": "Magic Trident",
+  "block": "newweapon \"Magic Trident\"\ntrgrank 1\nrange 1\ninit 6\ndmgtype 3\ndmg 9\naoe 0\nsound 1"
+ },
+ "753": {
+  "name": "Foul Bite",
+  "block": "newweapon \"Foul Bite\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nmundane\nsound 1\nnextwep 50\nnextdmg 1"
+ },
+ "754": {
+  "name": "Pearl Trident",
+  "block": "newweapon \"Pearl Trident\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 3\ndmg 8\naoe 0\nsound 1"
+ },
+ "755": {
+  "name": "Cudgel",
+  "block": "newweapon \"Cudgel\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 2\ndmg 5\naoe 0\nmundane\nsound 1"
+ },
+ "756": {
+  "name": "Magma Axe",
+  "block": "newweapon \"Magma Axe\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 1\ndmg 7\naoe 0\nnextalwayswep 174\nnextdmg 3"
+ },
+ "757": {
+  "name": "Mist Dagger",
+  "block": "newweapon \"Mist Dagger\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 3\ndmg 3\naoe 0\nsound 1\nnextalwayswep 175\nnextdmg 2"
+ },
+ "758": {
+  "name": "Mist Bow",
+  "block": "newweapon \"Mist Bow\"\ntrgrank 1\nrange 6\ninit 2\ndmgtype 3\ndmg 3\naoe 0\narrow\nlob\nrangepen\nflymode 1\nflysound 14\nnextalwayswep 175\nnextdmg 2"
+ },
+ "759": {
+  "name": "Ember Dagger",
+  "block": "newweapon \"Ember Dagger\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 3\ndmg 3\naoe 0\nsound 1\nnextalwayswep 174\nnextdmg 2"
+ },
+ "760": {
+  "name": "Ember Crossbow",
+  "block": "newweapon \"Ember Crossbow\"\ntrgrank 1\nrange 6\ninit 2\ndmgtype 3\ndmg 5\naoe 0\nreload1\narrow\nlob\nrangepen\nflymode 1\nflysound 14\nnextalwayswep 174\nnextdmg 3"
+ },
+ "761": {
+  "name": "Copper Feathers",
+  "block": "newweapon \"Copper Feathers\"\ntrgrank 1\nrange 1\ninit 8\ndmgtype 3\ndmg 4\naoe 3\noneshot\nmundane\nsound 15"
+ },
+ "762": {
+  "name": "Poison Vine Growth",
+  "block": "newweapon \"Poison Vine Growth\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 12\ndmg 0\naoe 25\nmundane\nonlyenemy\nflymode 3\nlook 137\nsound 74\nnextwep 35\nnextdmg 5"
+ },
+ "763": {
+  "name": "Mace of Pain",
+  "block": "newweapon \"Mace of Pain\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 6\naoe 0\nsound 1\nnextalwayswep 764\nnextdmg 10"
+ },
+ "764": {
+  "name": "Extra Pain",
+  "block": "newweapon \"Extra Pain\"\ntrgrank 1\nrange 1\ninit 1\ndmgtype 7\ndmg 0\naoe 0\nmr\nan\ninanimate"
+ },
+ "765": {
+  "name": "Soldiers of Gold",
+  "block": "newweapon \"Soldiers of Gold\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 10\nethereal\nonlyfriend\nflysound 68\nlook 1"
+ },
+ "766": {
+  "name": "Scourge Sword",
+  "block": "newweapon \"Scourge Sword\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 1\ndmg 7\naoe 0\nsound 8"
+ },
+ "767": {
+  "name": "Head-Butt",
+  "block": "newweapon \"Head-Butt\"\ntrgrank 1\nrange 1\ninit 1\ndmgtype 2\ndmg 0\naoe 0\nmundane\nsound 1"
+ },
+ "768": {
+  "name": "Ice Lance",
+  "block": "newweapon \"Ice Lance\"\ntrgrank 1\nrange 1\ninit 6\ndmgtype 3\ndmg 4\naoe 0\nsound 1"
+ },
+ "769": {
+  "name": "Dawn Blade",
+  "block": "newweapon \"Dawn Blade\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 6\naoe 0\nsound 8"
+ },
+ "770": {
+  "name": "Ice Blade",
+  "block": "newweapon \"Ice Blade\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 6\naoe 0\nsound 8"
+ },
+ "771": {
+  "name": "Shatter Soul",
+  "block": "newweapon \"Shatter Soul\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 7\ndmg 0\naoe 0\nmr\nan\nmind\nlook 31\nsound 41\nnextalwayswep 436\nnextdmg 16"
+ },
+ "772": {
+  "name": "Unmake Soul",
+  "block": "newweapon \"Unmake Soul\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 7\ndmg 0\naoe 0\nhardmr\nan\nmind\nlook 31\nsound 41\nnextalwayswep 436\nnextdmg 16"
+ },
+ "773": {
+  "name": "Depetrification",
+  "block": "newweapon \"Depetrification\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 7\ndmg 0\naoe 0\nan"
+ },
+ "774": {
+  "name": "Immolation Aura",
+  "block": "newweapon \"Immolation Aura\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 12\ndmg 0\naoe 1"
+ },
+ "775": {
+  "name": "Flaming Sword",
+  "block": "newweapon \"Flaming Sword\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 10\naoe 0\nsweep\nsound 1\nnextalwayswep 480\nnextdmg 6"
+ },
+ "776": {
+  "name": "Scourge Flames",
+  "block": "newweapon \"Scourge Flames\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 7\ndmg 0\naoe 1\nan\nflymode 3\nflylook 95\nlook 68\nsound 16\nnextwep 778\nnextdmg 4"
+ },
+ "777": {
+  "name": "Scourge Aura",
+  "block": "newweapon \"Scourge Aura\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 7\ndmg 0\naoe 1\nyellow\nlook 68\nnextwep 778\nnextdmg 4"
+ },
+ "778": {
+  "name": "Scourge Flame Decay",
+  "block": "newweapon \"Scourge Flame Decay\"\ntrgrank 9\nrange 1\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nmr\nsound 42"
+ },
+ "779": {
+  "name": "Whip",
+  "block": "newweapon \"Whip\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 1\ndmg 1\naoe 0\nmundane\nsoft\nsound 54"
+ },
+ "780": {
+  "name": "Confusion Aura",
+  "block": "newweapon \"Confusion Aura\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 12\ndmg 0\naoe 1\neasymr\nmind"
+ },
+ "781": {
+  "name": "Dark Cloud",
+  "block": "newweapon \"Dark Cloud\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 7\ndmg 4\naoe 4\nmr\nan\nflymode 6\nflylook 219\nlook 220\nsound 38"
+ },
+ "782": {
+  "name": "Swiftness",
+  "block": "newweapon \"Swiftness\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 0\ninanimate\nonlyfriend\nlook 12\nsound 29"
+ },
+ "783": {
+  "name": "Quickening",
+  "block": "newweapon \"Quickening\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 9\ninanimate\nonlyfriend\nflysound 29\nlook 12"
+ },
+ "784": {
+  "name": "Haste",
+  "block": "newweapon \"Haste\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 25\ninanimate\nonlyfriend\nflysound 29\nlook 12"
+ },
+ "785": {
+  "name": "Quicken Army",
+  "block": "newweapon \"Quicken Army\"\ntrgrank -9\nrange 0\ninit 4\ndmgtype 13\ndmg 0\naoe 998\ninanimate\nonlyfriend\nflysound 29\nlook 12"
+ },
+ "786": {
+  "name": "Oakbane Axe",
+  "block": "newweapon \"Oakbane Axe\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 1\ndmg 15\naoe 0\nan\nsweep\nsound 1"
+ },
+ "787": {
+  "name": "Animate Tree",
+  "block": "newweapon \"Animate Tree\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 25\ndmg 0\naoe 1\nan\ntargterr\nflymode 8\nflylook 221\nflysound 29\nlook 8"
+ },
+ "788": {
+  "name": "Animate Forest",
+  "block": "newweapon \"Animate Forest\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 25\ndmg 0\naoe 9996\nan\ntargterr\nflymode 8\nflylook 221\nflysound 29\nlook 8"
+ },
+ "789": {
+  "name": "Animate Mushroom",
+  "block": "newweapon \"Animate Mushroom\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 25\ndmg 0\naoe 1\nan\ntargterr\nflymode 8\nflylook 221\nflysound 29\nlook 8"
+ },
+ "790": {
+  "name": "Animate Swamp",
+  "block": "newweapon \"Animate Swamp\"\ntrgrank 0\nrange 0\ninit 4\ndmgtype 25\ndmg 0\naoe 9996\nan\ntargterr\nflymode 8\nflylook 221\nflysound 29\nlook 8"
+ },
+ "791": {
+  "name": "Magic Stones",
+  "block": "newweapon \"Magic Stones\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 2\ndmg 0\naoe -2\nflymode 1\nflylook 2\nflysound 104\nlook 27\nsound 45"
+ },
+ "792": {
+  "name": "Lightning Spear",
+  "block": "newweapon \"Lightning Spear\"\ntrgrank 1\nrange 1\ninit 6\ndmgtype 3\ndmg 5\naoe 0\nsound 14\nnextalwayswep 384\nnextdmg 6"
+ },
+ "793": {
+  "name": "Indomitability",
+  "block": "newweapon \"Indomitability\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 5\nethereal\nonlyfriend\nflysound 31\nlook 45"
+ },
+ "794": {
+  "name": "Ink Pot",
+  "block": "newweapon \"Ink Pot\"\ntrgrank 1\nrange 1\ninit 1\ndmgtype 2\ndmg 1\naoe 0\nmundane\nsound 1"
+ },
+ "795": {
+  "name": "Flapping Scroll",
+  "block": "newweapon \"Flapping Scroll\"\ntrgrank 1\nrange 1\ninit 1\ndmgtype 12\ndmg 0\naoe 0\neasymr\nmind\nsound 1"
+ },
+ "796": {
+  "name": "Sharp Quill",
+  "block": "newweapon \"Sharp Quill\"\ntrgrank 1\nrange 1\ninit 1\ndmgtype 3\ndmg 1\naoe 0\nmundane\nsound 1"
+ },
+ "797": {
+  "name": "Sharp Pencil",
+  "block": "newweapon \"Sharp Pencil\"\ntrgrank 1\nrange 1\ninit 1\ndmgtype 3\ndmg 1\naoe 0\nmundane\nsound 1"
+ },
+ "798": {
+  "name": "Toughness",
+  "block": "newweapon \"Toughness\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 0\nethereal\nonlyfriend\nflysound 31\nlook 45"
+ },
+ "799": {
+  "name": "Sailor's Death",
+  "block": "newweapon \"Sailor's Death\"\ntrgrank 1\nrange 6\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nhardmr\nan\ndrown\ninanimate\nflymode 8\nflylook 196\nflysound 88\nlook 43\nsound 89\nnextwep 192\nnextdmg 999"
+ },
+ "800": {
+  "name": "Flaming Fist",
+  "block": "newweapon \"Flaming Fist\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 2\ndmg 1\naoe 0\nsound 1\nnextalwayswep 801\nnextdmg 10"
+ },
+ "801": {
+  "name": "Flames",
+  "block": "newweapon \"Flames\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 4\ndmg 0\naoe 5\nflymode 6\nflylook 65\nflysound 99\nlook 68\nsound 16"
+ },
+ "802": {
+  "name": "Wheel of Changing Seasons",
+  "block": "newweapon \"Wheel of Changing Seasons\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 5\naoe 0\nsound 1"
+ },
+ "803": {
+  "name": "Sword of Enfeeblement",
+  "block": "newweapon \"Sword of Enfeeblement\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 7\naoe 0\nsound 8\nnextwep 707\nnextdmg 2048"
+ },
+ "804": {
+  "name": "Axe of Lords",
+  "block": "newweapon \"Axe of Lords\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 1\ndmg 20\naoe 0\nan\nsound 1"
+ },
+ "805": {
+  "name": "Slime Aura",
+  "block": "newweapon \"Slime Aura\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nan\nstrresist\nlook 12"
+ },
+ "806": {
+  "name": "Poison Goo",
+  "block": "newweapon \"Poison Goo\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 9\ndmg 0\naoe -2\nan\nflymode 3\nflylook 60\nflysound 96\nlook 7\nnextalwayswep 118\nnextdmg 274877906944"
+ },
+ "807": {
+  "name": "Terrain Shock",
+  "block": "newweapon \"Terrain Shock\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 6\ndmg 0\naoe 0\nan\nsound 1"
+ },
+ "808": {
+  "name": "Frost Branded Axe",
+  "block": "newweapon \"Frost Branded Axe\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 1\ndmg 8\naoe 0\nnextalwayswep 175\nnextdmg 5"
+ },
+ "809": {
+  "name": "Flame Branded Axe",
+  "block": "newweapon \"Flame Branded Axe\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 1\ndmg 8\naoe 0\nnextalwayswep 174\nnextdmg 5"
+ },
+ "810": {
+  "name": "Earth Branded Axe",
+  "block": "newweapon \"Earth Branded Axe\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 1\ndmg 8\naoe 0\nsound 1\nnextalwayswep 530\nnextdmg 64"
+ },
+ "811": {
+  "name": "Earth Branded Crossbow",
+  "block": "newweapon \"Earth Branded Crossbow\"\ntrgrank 1\nrange 5\ninit 2\ndmgtype 3\ndmg 5\naoe 0\nreload1\narrow\nrangepen\nflymode 1\nflylook 14\nflysound 13\nnextalwayswep 530\nnextdmg 64"
+ },
+ "812": {
+  "name": "Earth Branded Pick Axe",
+  "block": "newweapon \"Earth Branded Pick Axe\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 3\ndmg 8\naoe 0\nstonekill\nsound 1\nnextalwayswep 530\nnextdmg 64"
+ },
+ "813": {
+  "name": "Entrap and Bite",
+  "block": "newweapon \"Entrap and Bite\"\ntrgrank 8\nrange 3\ninit 2\ndmgtype 12\ndmg 0\naoe 1\nmundane\nsound 1\nnextwep 814\nnextdmg 3"
+ },
+ "814": {
+  "name": "Strong Poisonous Bite",
+  "block": "newweapon \"Strong Poisonous Bite\"\ntrgrank 8\nrange 1\ninit 2\ndmgtype 3\ndmg 0\naoe 0\nmundane\nsound 1\nnextwep 35\nnextdmg 20"
+ },
+ "815": {
+  "name": "Web",
+  "block": "newweapon \"Web\"\ntrgrank 9\nrange 3\ninit 2\ndmgtype 12\ndmg 0\naoe 1\noneshot\nmundane\nflymode 3\nflylook 123\nsound 19"
+ },
+ "816": {
+  "name": "Summon Tainted Soul",
+  "block": "newweapon \"Summon Tainted Soul\"\ntrgrank 7\nrange 3\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nlook 1\nsound 57"
+ },
+ "817": {
+  "name": "Great Tetsubo of the Oni King",
+  "block": "newweapon \"Great Tetsubo of the Oni King\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 12\naoe 0\nsweep\nsound 1\nnextwep 118\nnextdmg 64"
+ },
+ "818": {
+  "name": "Killing Hallucinogenic Spores",
+  "block": "newweapon \"Killing Hallucinogenic Spores\"\ntrgrank 9\nrange 3\ninit 1\ndmgtype 9\ndmg 0\naoe 5\nan\nflymode 3\nflylook 62\nflysound 104\nlook 7\nsound 109\nnextalwayswep 819\nnextdmg 262144"
+ },
+ "819": {
+  "name": "Hallucinogenic Spores",
+  "block": "newweapon \"Hallucinogenic Spores\"\ntrgrank 9\nrange 2\ninit 1\ndmgtype 12\ndmg 0\naoe 1\nmr\nan\nmind\nlook 11\nsound 22"
+ },
+ "820": {
+  "name": "Pseudopod Strike",
+  "block": "newweapon \"Pseudopod Strike\"\ntrgrank 1\nrange 1\ninit 0\ndmgtype 10\ndmg 0\naoe 0\nan\nlook 17\nsound 103"
+ },
+ "821": {
+  "name": "Divine Word",
+  "block": "newweapon \"Divine Word\"\ntrgrank 9\nrange 8\ninit 1\ndmgtype 23\ndmg 0\naoe 9\nhardmr\nan\nflymode 5\nflylook 177\nflysound 107"
+ },
+ "822": {
+  "name": "Heavenly Strike",
+  "block": "newweapon \"Heavenly Strike\"\ntrgrank 9\nrange 10\ninit 4\ndmgtype 4\ndmg 0\naoe 0\nhardmr\nan\nlook 40\nsound 30"
+ },
+ "823": {
+  "name": "Fear",
+  "block": "newweapon \"Fear\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 8\ndmg 0\naoe 0\nhardmr\nan\nonlyenemy"
+ },
+ "824": {
+  "name": "Desolation Cloud",
+  "block": "newweapon \"Desolation Cloud\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nan\nstrresist\nundead\ninanimate"
+ },
+ "825": {
+  "name": "Ghost Rending Bite",
+  "block": "newweapon \"Ghost Rending Bite\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nsound 1\nnextwep 139\nnextdmg 999"
+ },
+ "826": {
+  "name": "Serpent Mane",
+  "block": "newweapon \"Serpent Mane\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 1\ndmg 0\naoe 0\nmundane\nsound 1\nnextwep 35\nnextdmg 5"
+ },
+ "827": {
+  "name": "Serpent Tail",
+  "block": "newweapon \"Serpent Tail\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 1\ndmg 0\naoe 0\nmundane\nsound 1\nnextwep 35\nnextdmg 20"
+ },
+ "828": {
+  "name": "Save",
+  "block": "newweapon \"Save\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 1\nonlyfriend\nflymode 3\nflysound 30\nlook 181"
+ },
+ "829": {
+  "name": "Save",
+  "block": "newweapon \"Save\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 9\nonlyfriend\nflymode 3\nflysound 30\nlook 181"
+ },
+ "830": {
+  "name": "Save",
+  "block": "newweapon \"Save\"\ntrgrank -9\nrange 0\ninit 4\ndmgtype 13\ndmg 0\naoe 998\nonlyfriend\nflymode 3\nflysound 30\nlook 181"
+ },
+ "831": {
+  "name": "Poison Javelin",
+  "block": "newweapon \"Poison Javelin\"\ntrgrank 1\nrange 3\ninit 1\ndmgtype 3\ndmg 4\naoe 0\noneshot\nmundane\narrow\nflymode 1\nflylook 1\nflysound 19\nnextwep 35\nnextdmg 5"
+ },
+ "832": {
+  "name": "Vine Whip",
+  "block": "newweapon \"Vine Whip\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 1\ndmg 1\naoe 0\nsoft\nlook 68\nsound 54\nnextalwayswep 833\nnextdmg 512"
+ },
+ "833": {
+  "name": "Tangle Vines",
+  "block": "newweapon \"Tangle Vines\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nflying\nlook 198\nsound 109"
+ },
+ "834": {
+  "name": "Golden Lance Charge",
+  "block": "newweapon \"Golden Lance Charge\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 3\ndmg 0\naoe 0\noneshot\nsound 84"
+ },
+ "835": {
+  "name": "Flail of Guidance",
+  "block": "newweapon \"Flail of Guidance\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 2\ndmg 15\naoe 0\nshieldneg\nsound 1\nnextwep 823\nnextdmg 10"
+ },
+ "836": {
+  "name": "Serpent of Knowledge",
+  "block": "newweapon \"Serpent of Knowledge\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 1\ndmg 0\naoe 0\nsound 1\nnextwep 50\nnextdmg 33554432"
+ },
+ "837": {
+  "name": "Serpent of Wisdom",
+  "block": "newweapon \"Serpent of Wisdom\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 1\ndmg 0\naoe 0\nsound 1\nnextwep 50\nnextdmg 262144"
+ },
+ "838": {
+  "name": "Fiery Breath",
+  "block": "newweapon \"Fiery Breath\"\ntrgrank 1\nrange 2\ninit 7\ndmgtype 4\ndmg 0\naoe 1002\nan\nflymode 2\nflylook 95\nflysound 16\nlook 68"
+ },
+ "839": {
+  "name": "Solar Mace",
+  "block": "newweapon \"Solar Mace\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 6\naoe 0\nsound 1\nnextalwayswep 840\nnextdmg 6"
+ },
+ "840": {
+  "name": "Solar Strike",
+  "block": "newweapon \"Solar Strike\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 4\ndmg 0\naoe 5\nan\nonlyenemy\nlook 19\nsound 1"
+ },
+ "841": {
+  "name": "Sword of No Weight",
+  "block": "newweapon \"Sword of No Weight\"\ntrgrank 1\nrange 1\ninit 7\ndmgtype 1\ndmg 9\naoe 0\nsoft\nsound 8"
+ },
+ "842": {
+  "name": "Snake Staff",
+  "block": "newweapon \"Snake Staff\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 2\ndmg 3\naoe 0\nsound 8\nnextwep 35\nnextdmg 25"
+ },
+ "843": {
+  "name": "Ice Spear",
+  "block": "newweapon \"Ice Spear\"\ntrgrank 1\nrange 1\ninit 6\ndmgtype 3\ndmg 6\naoe 0\nsound 14\nnextalwayswep 175\nnextdmg 6"
+ },
+ "844": {
+  "name": "Pummeling Winds",
+  "block": "newweapon \"Pummeling Winds\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 2\ndmg 0\naoe 1\nmundane\nflymode 4\nflylook 150\nflysound 110\nlook 26\nsound 111\nnextwep 118\nnextdmg 64"
+ },
+ "845": {
+  "name": "Lightning Breath",
+  "block": "newweapon \"Lightning Breath\"\ntrgrank 1\nrange 2\ninit 7\ndmgtype 6\ndmg 0\naoe 9205\nan\nlook 58\nsound 24"
+ },
+ "846": {
+  "name": "Words of Corruption",
+  "block": "newweapon \"Words of Corruption\"\ntrgrank 8\nrange 1\ninit 4\ndmgtype 14\ndmg 0\naoe 5\nhardmr\nan\nmind\nflymode 8\nflylook 149\nflysound 94"
+ },
+ "847": {
+  "name": "Words of Corruption",
+  "block": "newweapon \"Words of Corruption\"\ntrgrank 8\nrange 1\ninit 4\ndmgtype 14\ndmg 0\naoe 3\nhardmr\nan\nmind\nflymode 8\nflylook 149\nflysound 94"
+ },
+ "848": {
+  "name": "Words of Corruption",
+  "block": "newweapon \"Words of Corruption\"\ntrgrank 8\nrange 1\ninit 4\ndmgtype 14\ndmg 0\naoe 0\nhardmr\nan\nmind\nflymode 8\nflylook 149\nflysound 94"
+ },
+ "849": {
+  "name": "Touch of the Fallen",
+  "block": "newweapon \"Touch of the Fallen\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 7\ndmg 0\naoe 0\nan\nsound 1\nnextwep 707\nnextdmg 16"
+ },
+ "850": {
+  "name": "Wall of Death (mr)",
+  "block": "newweapon \"Wall of Death (mr)\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 7\ndmg 0\naoe 0\nmr\nan\ninanimate\nsound 1"
+ },
+ "851": {
+  "name": "Wall of Death (aff,mr)",
+  "block": "newweapon \"Wall of Death (aff,mr)\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 12\ndmg 0\naoe 0\nmr\nan\ninanimate\nsound 1"
+ },
+ "852": {
+  "name": "Poison Web",
+  "block": "newweapon \"Poison Web\"\ntrgrank 9\nrange 6\ninit 1\ndmgtype 9\ndmg 0\naoe 0\nan\nflymode 5\nflylook 61\nlook 7\nsound 96\nnextalwayswep 853\nnextdmg 4294967296"
+ },
+ "853": {
+  "name": "Web",
+  "block": "newweapon \"Web\"\ntrgrank 9\nrange 3\ninit 1\ndmgtype 12\ndmg 0\naoe 1\nflymode 3\nflylook 123\nsound 19"
+ },
+ "854": {
+  "name": "Dread Projection",
+  "block": "newweapon \"Dread Projection\"\ntrgrank 9\nrange 20\ninit 5\ndmgtype 8\ndmg 0\naoe 10\nreload3\nhardmr\nan\nflymode 5\nflylook 81\nflysound 22\nlook 82"
+ },
+ "855": {
+  "name": "Dread Projection",
+  "block": "newweapon \"Dread Projection\"\ntrgrank 9\nrange 10\ninit 5\ndmgtype 8\ndmg 0\naoe 5\nhardmr\nan\nflymode 5\nflylook 81\nflysound 22\nlook 82"
+ },
+ "856": {
+  "name": "Drain Life",
+  "block": "newweapon \"Drain Life\"\ntrgrank 9\nrange 3\ninit 4\ndmgtype 7\ndmg 0\naoe 0\ndrain\nan\ninanimate\nflymode 5\nflylook 135\nlook 136\nsound 18"
+ },
+ "857": {
+  "name": "Astral Tendril",
+  "block": "newweapon \"Astral Tendril\"\ntrgrank 9\nrange 8\ninit 1\ndmgtype 7\ndmg 0\naoe 0\nhardmr\nan\nflymode 5\nflylook 185\nflysound 54\nlook 4\nnextwep 303\nnextdmg 16384"
+ },
+ "858": {
+  "name": "Lightning Breath",
+  "block": "newweapon \"Lightning Breath\"\ntrgrank 1\nrange 2\ninit 7\ndmgtype 6\ndmg 0\naoe 9210\nan\nlook 58\nsound 24"
+ },
+ "859": {
+  "name": "Dragon Bow",
+  "block": "newweapon \"Dragon Bow\"\ntrgrank 1\nrange 7\ninit 2\ndmgtype 3\ndmg 5\naoe 0\narrow\nlob\nrangepen\nflymode 1\nflysound 14"
+ },
+ "860": {
+  "name": "Guide Arrows",
+  "block": "newweapon \"Guide Arrows\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 5\nonlyfriend\nflysound 29\nlook 189"
+ },
+ "861": {
+  "name": "Wind Guide",
+  "block": "newweapon \"Wind Guide\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 13\ndmg 0\naoe 25\nonlyfriend\nflysound 29\nlook 189"
+ },
+ "862": {
+  "name": "Divine Fist",
+  "block": "newweapon \"Divine Fist\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 2\ndmg 1\naoe 0\nsound 1"
+ },
+ "863": {
+  "name": "Stone Fist",
+  "block": "newweapon \"Stone Fist\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 2\ndmg 1\naoe 0\nmundane\nsound 1"
+ },
+ "864": {
+  "name": "Wooden Fist",
+  "block": "newweapon \"Wooden Fist\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 2\ndmg 1\naoe 0\nmundane\nsound 1"
+ },
+ "865": {
+  "name": "Enchanted Shovel",
+  "block": "newweapon \"Enchanted Shovel\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 6\naoe 0\nstonekill\nsound 8"
+ },
+ "866": {
+  "name": "Alchemical Boulder",
+  "block": "newweapon \"Alchemical Boulder\"\ntrgrank 9\nrange 16\ninit 1\ndmgtype 2\ndmg 0\naoe 1\nreload1\nmundane\nscatter\nflying2\nflymode 1\nflylook 32\nflysound 45\nnextalwayswep 867\nnextdmg 7"
+ },
+ "867": {
+  "name": "Flame Blast",
+  "block": "newweapon \"Flame Blast\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 4\ndmg 0\naoe 5\nlook 68\nsound 68"
+ },
+ "868": {
+  "name": "Alchemical Boulders",
+  "block": "newweapon \"Alchemical Boulders\"\ntrgrank 9\nrange 20\ninit 1\ndmgtype 2\ndmg 0\naoe 3\nreload2\nmundane\nscatter\nflying2\nflymode 1\nflylook 32\nflysound 45\nnextalwayswep 869\nnextdmg 5"
+ },
+ "869": {
+  "name": "Flame Blast",
+  "block": "newweapon \"Flame Blast\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 4\ndmg 0\naoe 2\nlook 68\nsound 68"
+ },
+ "870": {
+  "name": "Poison Spit",
+  "block": "newweapon \"Poison Spit\"\ntrgrank 1\nrange 5\ninit 2\ndmgtype 9\ndmg 0\naoe 1005\nan\nflymode 3\nflylook 113\nflysound 104\nlook 7\nsound 109"
+ },
+ "871": {
+  "name": "Fling Boulder",
+  "block": "newweapon \"Fling Boulder\"\ntrgrank 9\nrange 12\ninit 1\ndmgtype 2\ndmg 0\naoe 1\nmundane\nscatter\nflying2\nflymode 1\nflylook 32\nflysound 45"
+ },
+ "872": {
+  "name": "Fling Boulder",
+  "block": "newweapon \"Fling Boulder\"\ntrgrank 9\nrange 12\ninit 1\ndmgtype 2\ndmg 0\naoe 1\nreload2\nmundane\nscatter\nflying2\nflymode 1\nflylook 32\nflysound 45"
+ },
+ "873": {
+  "name": "Bane Fire Crossbow",
+  "block": "newweapon \"Bane Fire Crossbow\"\ntrgrank 1\nrange 5\ninit 2\ndmgtype 3\ndmg 5\naoe 0\nreload1\narrow\nrangepen\nflymode 1\nflylook 14\nflysound 13\nnextalwayswep 697\nnextdmg 2"
+ },
+ "874": {
+  "name": "Laying on Hands",
+  "block": "newweapon \"Laying on Hands\"\ntrgrank -9\nrange 1\ninit 4\ndmgtype 26\ndmg 0\naoe 1\nan\ninanimate\naffecthuman\nonlyfriend\nlook 38\nsound 89"
+ },
+ "875": {
+  "name": "Healing Words",
+  "block": "newweapon \"Healing Words\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 26\ndmg 0\naoe 1\nan\ninanimate\naffecthuman\nonlyfriend\nflymode 5\nlook 38\nsound 89"
+ },
+ "876": {
+  "name": "Healing Prayer",
+  "block": "newweapon \"Healing Prayer\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 26\ndmg 0\naoe 9\nan\ninanimate\naffecthuman\nonlyfriend\nflymode 5\nlook 38\nsound 89"
+ },
+ "877": {
+  "name": "Healing Miracle",
+  "block": "newweapon \"Healing Miracle\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 26\ndmg 0\naoe 25\nan\ninanimate\naffecthuman\nonlyfriend\nflymode 5\nlook 38\nsound 89"
+ },
+ "878": {
+  "name": "Heal",
+  "block": "newweapon \"Heal\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 26\ndmg 0\naoe 1\nan\ninanimate\nonlyfriend\nlook 38\nsound 89"
+ },
+ "879": {
+  "name": "Greater Healing",
+  "block": "newweapon \"Greater Healing\"\ntrgrank -9\nrange 8\ninit 4\ndmgtype 26\ndmg 0\naoe 9\nan\ninanimate\nonlyfriend\nlook 38\nsound 89"
+ },
+ "880": {
+  "name": "Metal Fist",
+  "block": "newweapon \"Metal Fist\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 2\ndmg 1\naoe 0\nsound 1"
+ },
+ "881": {
+  "name": "Summon Shade",
+  "block": "newweapon \"Summon Shade\"\ntrgrank 4\nrange 15\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nflymode 5\nflylook 101\nflysound 57\nlook 103"
+ },
+ "882": {
+  "name": "Wither All",
+  "block": "newweapon \"Wither All\"\ntrgrank 1\nrange 10\ninit 4\ndmgtype 12\ndmg 0\naoe 100\nmr\nonlyenemy\nflymode 5\nflylook 126\nflysound 42\nlook 125\nsound 109"
+ },
+ "883": {
+  "name": "Summon Phase Spider",
+  "block": "newweapon \"Summon Phase Spider\"\ntrgrank 4\nrange 15\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nflymode 5\nflylook 101\nflysound 57\nlook 103"
+ },
+ "884": {
+  "name": "Burning Sword",
+  "block": "newweapon \"Burning Sword\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 6\naoe 0\nsound 1\nnextalwayswep 885\nnextdmg 8"
+ },
+ "885": {
+  "name": "Fire",
+  "block": "newweapon \"Fire\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 4\ndmg 0\naoe 1\nlook 165\nsound 1"
+ },
+ "886": {
+  "name": "Banestar",
+  "block": "newweapon \"Banestar\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 7\naoe 0\nshieldneg\nsound 1\nnextalwayswep 887\nnextdmg 4"
+ },
+ "887": {
+  "name": "Decay",
+  "block": "newweapon \"Decay\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nhardmr\nsound 0"
+ },
+ "888": {
+  "name": "Morningstar of Strength",
+  "block": "newweapon \"Morningstar of Strength\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 10\naoe 0\nshieldneg\nsound 1"
+ },
+ "889": {
+  "name": "Mace of Unlife",
+  "block": "newweapon \"Mace of Unlife\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 2\ndmg 5\naoe 0\ndrain\nsound 1"
+ },
+ "890": {
+  "name": "Magma Bolt",
+  "block": "newweapon \"Magma Bolt\"\ntrgrank 1\nrange 4\ninit 2\ndmgtype 2\ndmg 0\naoe 1\nflymode 4\nflylook 230\nsound 16\nnextalwayswep 174\nnextdmg 12"
+ },
+ "891": {
+  "name": "Alicorn",
+  "block": "newweapon \"Alicorn\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 3\ndmg 6\naoe 0\nsound 1"
+ },
+ "892": {
+  "name": "Cane",
+  "block": "newweapon \"Cane\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 2\ndmg 2\naoe 0\nmundane\nsound 1"
+ },
+ "893": {
+  "name": "Flame Burst",
+  "block": "newweapon \"Flame Burst\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 4\ndmg 0\naoe 5\nflymode 6\nflylook 65\nflysound 99\nlook 68\nsound 16"
+ },
+ "894": {
+  "name": "Bleed",
+  "block": "newweapon \"Bleed\"\ntrgrank 9\nrange 6\ninit 4\ndmgtype 12\ndmg 0\naoe -3\nhardmr\ninanimate\nflymode 5\nflylook 232\nflysound 46"
+ },
+ "895": {
+  "name": "Lashes of Blood",
+  "block": "newweapon \"Lashes of Blood\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 7\ndmg 0\naoe -3\nflymode 5\nflylook 232\nflysound 54\nlook 34\nnextwep 896\nnextdmg 128"
+ },
+ "896": {
+  "name": "extra bleed",
+  "block": "newweapon \"extra bleed\"\ntrgrank 9\nrange 8\ninit 4\ndmgtype 12\ndmg 0\naoe 1\nhardmr\nan\ninanimate"
+ },
+ "897": {
+  "name": "Thorn Staff",
+  "block": "newweapon \"Thorn Staff\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 2\ndmg 4\naoe 0\nsound 1\nnextwep 35\nnextdmg 10"
+ },
+ "898": {
+  "name": "Spear of Justice",
+  "block": "newweapon \"Spear of Justice\"\ntrgrank 1\nrange 1\ninit 6\ndmgtype 3\ndmg 7\naoe 0\nsound 1"
+ },
+ "899": {
+  "name": "Solar Lance",
+  "block": "newweapon \"Solar Lance\"\ntrgrank 1\nrange 1\ninit 6\ndmgtype 3\ndmg 6\naoe 0\nholykill\nsound 1"
+ },
+ "900": {
+  "name": "Fisherman's Trident",
+  "block": "newweapon \"Fisherman's Trident\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 3\ndmg 8\naoe 0\nsound 1\nnextalwayswep 853\nnextdmg 4294967296"
+ },
+ "901": {
+  "name": "Trident of the Sea",
+  "block": "newweapon \"Trident of the Sea\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 3\ndmg 9\naoe 0\nsound 1"
+ },
+ "902": {
+  "name": "Emperor's Hope",
+  "block": "newweapon \"Emperor's Hope\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 12\naoe 0\nsweep\nsound 1\nnextwep 720\nnextdmg 50"
+ },
+ "903": {
+  "name": "Flame Spear",
+  "block": "newweapon \"Flame Spear\"\ntrgrank 1\nrange 1\ninit 6\ndmgtype 3\ndmg 5\naoe 0\nsound 1\nnextalwayswep 53\nnextdmg 8"
+ },
+ "904": {
+  "name": "Kick",
+  "block": "newweapon \"Kick\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 2\ndmg 0\naoe 0\nmundane\nsound 1"
+ },
+ "905": {
+  "name": "Magic Bow",
+  "block": "newweapon \"Magic Bow\"\ntrgrank 1\nrange 6\ninit 2\ndmgtype 3\ndmg 4\naoe 0\narrow\nlob\nrangepen\nflymode 1\nflysound 14"
+ },
+ "906": {
+  "name": "Magic Dagger",
+  "block": "newweapon \"Magic Dagger\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 3\ndmg 4\naoe 0\nsound 1"
+ },
+ "907": {
+  "name": "Magic Axe",
+  "block": "newweapon \"Magic Axe\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 8\naoe 0\nsound 8"
+ },
+ "908": {
+  "name": "Blood Athame",
+  "block": "newweapon \"Blood Athame\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 3\ndmg 3\naoe 0\ndrain\nsound 1"
+ },
+ "909": {
+  "name": "Aura of Unlife",
+  "block": "newweapon \"Aura of Unlife\"\ntrgrank 0\nrange 0\ninit 1\ndmgtype 7\ndmg 0\naoe 997\ndrain\ninanimate\nsound 18"
+ },
+ "910": {
+  "name": "Ring of Flames",
+  "block": "newweapon \"Ring of Flames\"\ntrgrank 0\nrange 0\ninit 1\ndmgtype 4\ndmg 0\naoe 997\nflymode 2\nflylook 95\nflysound 16\nlook 68\nsound 16"
+ },
+ "911": {
+  "name": "Summon Manifestation of Maya",
+  "block": "newweapon \"Summon Manifestation of Maya\"\ntrgrank 7\nrange 6\ninit 4\ndmgtype 18\ndmg 0\naoe 0\nan\nflymode 5\nflylook 101\nflysound 57\nlook 103"
+ },
+ "912": {
+  "name": "Seduction",
+  "block": "newweapon \"Seduction\"\ntrgrank 8\nrange 1\ninit 4\ndmgtype 14\ndmg 0\naoe 0\nmr\nan\nmind\nflymode 8\nflylook 149\nflysound 94"
+ },
+ "913": {
+  "name": "Draining Touch",
+  "block": "newweapon \"Draining Touch\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 7\ndmg 6\naoe 0\ndrain\nan\nnostr\ninanimate\nsound 18"
+ },
+ "914": {
+  "name": "Trishula",
+  "block": "newweapon \"Trishula\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 3\ndmg 15\naoe 0\nsound 1\nnextwep 707\nnextdmg 16"
+ },
+ "915": {
+  "name": "Dance of Delight",
+  "block": "newweapon \"Dance of Delight\"\ntrgrank 0\nrange 0\ninit 1\ndmgtype 16\ndmg 0\naoe 999\neasymr\nan\nmind\nonlyenemy\nflymode 2\nflylook 120\nflysound 97\nlook 11"
+ },
+ "916": {
+  "name": "Dance of Destruction",
+  "block": "newweapon \"Dance of Destruction\"\ntrgrank 0\nrange 0\ninit 1\ndmgtype 2\ndmg 0\naoe 999\neasymr\nan\nonlyenemy\nflymode 2\nlook 27\nsound 45"
+ },
+ "917": {
+  "name": "Apotropaic Sword",
+  "block": "newweapon \"Apotropaic Sword\"\ntrgrank 1\nrange 1\ninit 5\ndmgtype 1\ndmg 7\naoe 0\nholykill\nsound 8"
+ },
+ "918": {
+  "name": "Blindness",
+  "block": "newweapon \"Blindness\"\ntrgrank 9\nrange 5\ninit 1\ndmgtype 12\ndmg 0\naoe 1\nmr\ninanimate\nflymode 12\nflylook 235\nflysound 19\nlook 125\nsound 109"
+ },
+ "919": {
+  "name": "Magic Dagger",
+  "block": "newweapon \"Magic Dagger\"\ntrgrank 8\nrange 1\ninit 2\ndmgtype 3\ndmg 3\naoe 0\nan\nsound 1"
+ },
+ "920": {
+  "name": "Magic Sword",
+  "block": "newweapon \"Magic Sword\"\ntrgrank 8\nrange 1\ninit 5\ndmgtype 3\ndmg 7\naoe 0\nan\nsound 1"
+ },
+ "921": {
+  "name": "Magic Battle Axe",
+  "block": "newweapon \"Magic Battle Axe\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 1\ndmg 10\naoe 0\nsound 8"
+ },
+ "922": {
+  "name": "Dreadful Eclipse",
+  "block": "newweapon \"Dreadful Eclipse\"\ntrgrank 0\nrange 0\ninit 10\ndmgtype 8\ndmg 0\naoe 9999\nan\nonlyenemy\nflymode 4\nlook 236\nsound 22"
+ },
+ "923": {
+  "name": "Golden Bow",
+  "block": "newweapon \"Golden Bow\"\ntrgrank 1\nrange 8\ninit 2\ndmgtype 3\ndmg 6\naoe 0\narrow\nlob\nrangepen\nflymode 1\nflysound 14"
+ },
+ "924": {
+  "name": "Wall of Darkness (dmg)",
+  "block": "newweapon \"Wall of Darkness (dmg)\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 7\ndmg 0\naoe 0\nmr\nan\nmind\nsound 1"
+ },
+ "925": {
+  "name": "Wall of Darkness (fear)",
+  "block": "newweapon \"Wall of Darkness (fear)\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 8\ndmg 0\naoe 0\nmr\nan\nmind\nsound 1"
+ },
+ "926": {
+  "name": "Blood Sickle",
+  "block": "newweapon \"Blood Sickle\"\ntrgrank 1\nrange 1\ninit 3\ndmgtype 1\ndmg 5\naoe 0\ndrain\nsound 1"
+ },
+ "927": {
+  "name": "Main Gauche",
+  "block": "newweapon \"Main Gauche\"\ntrgrank 1\nrange 1\ninit 2\ndmgtype 3\ndmg 5\naoe 0\nsound 1"
+ },
+ "928": {
+  "name": "Wooden Sword",
+  "block": "newweapon \"Wooden Sword\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 2\ndmg 10\naoe 0\nsound 1"
+ },
+ "929": {
+  "name": "Spear of the Forest",
+  "block": "newweapon \"Spear of the Forest\"\ntrgrank 1\nrange 1\ninit 6\ndmgtype 3\ndmg 6\naoe 0\nsound 1\nnextwep 35\nnextdmg 10"
+ },
+ "930": {
+  "name": "Golden Crossbow",
+  "block": "newweapon \"Golden Crossbow\"\ntrgrank 1\nrange 10\ninit 2\ndmgtype 3\ndmg 6\naoe 0\nreload1\narrow\nlob\nrangepen\nflymode 1\nflysound 14\nlook 13\nnextwep 675\nnextdmg 3"
+ },
+ "931": {
+  "name": "Liquid Flames",
+  "block": "newweapon \"Liquid Flames\"\ntrgrank 1\nrange 5\ninit 7\ndmgtype 4\ndmg 0\naoe 2010\nreload3\nflymode 2\nflylook 95\nflysound 16\nlook 68"
+ },
+ "932": {
+  "name": "Storm Spool Bolt",
+  "block": "newweapon \"Storm Spool Bolt\"\ntrgrank 1\nrange 12\ninit 1\ndmgtype 3\ndmg 0\naoe 1\nreload1\nscatter\nflymode 1\nflylook 7\nflysound 13\nnextalwayswep 934\nnextdmg 5"
+ },
+ "933": {
+  "name": "Storm Spool Bolt",
+  "block": "newweapon \"Storm Spool Bolt\"\ntrgrank 1\nrange 12\ninit 1\ndmgtype 3\ndmg 0\naoe 1\nreload3\nscatter\nflymode 1\nflylook 7\nflysound 13\nnextalwayswep 934\nnextdmg 5"
+ },
+ "934": {
+  "name": "Chain Shock",
+  "block": "newweapon \"Chain Shock\"\ntrgrank 1\nrange 1\ninit 4\ndmgtype 6\ndmg 0\naoe 9204\nan\nlook 58\nsound 24"
+ }
+}

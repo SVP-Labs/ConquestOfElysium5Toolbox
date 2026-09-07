@@ -10,22 +10,15 @@ export function getStaticPaths() {
       .map(([idx, name]) => [Number(idx), name])
       .sort((a, b) => a[0] - b[0]);
 
+  // sourceBase: each row's name links to the record's full mod-format
+  // definition in the source browser.
   const kinds = [
-    {
-      kind: "monsters",
-      title: "Monsters",
-      singular: "monster",
-      plural: "monsters",
-      entries: record("monsters"),
-      note: "Every name links to the monster's full mod-format definition in the source browser.",
-      // Each row links to the monster's full mod-format definition.
-      sourceBase: "/source/monsters/",
-    },
-    { kind: "weapons", title: "Weapons", singular: "weapon", plural: "weapons", entries: record("weapons") },
-    { kind: "items", title: "Items", singular: "item", plural: "items", entries: record("items") },
-    { kind: "rituals", title: "Rituals", singular: "ritual", plural: "rituals", entries: record("rituals") },
-    { kind: "terrains", title: "Terrains", singular: "terrain", plural: "terrains", entries: record("terrains") },
-    { kind: "classes", title: "Classes", singular: "class", plural: "classes", entries: record("classes") },
+    { kind: "monsters", title: "Monsters", singular: "monster", plural: "monsters", entries: record("monsters"), sourceBase: "/source/monsters/" },
+    { kind: "weapons", title: "Weapons", singular: "weapon", plural: "weapons", entries: record("weapons"), sourceBase: "/source/weapons/" },
+    { kind: "items", title: "Items", singular: "item", plural: "items", entries: record("items"), sourceBase: "/source/items/" },
+    { kind: "rituals", title: "Rituals", singular: "ritual", plural: "rituals", entries: record("rituals"), sourceBase: "/source/rituals/" },
+    { kind: "terrains", title: "Terrains", singular: "terrain", plural: "terrains", entries: record("terrains"), sourceBase: "/source/terrains/" },
+    { kind: "classes", title: "Classes", singular: "class", plural: "classes", entries: record("classes"), sourceBase: "/source/classes/" },
     {
       kind: "resources",
       title: "Resources",
@@ -72,6 +65,13 @@ const total = entries.length;
   <h1>{title} <span class="dim entry-count">{total} entries</span></h1>
   <p class="back"><a href="/data">&larr; All ID tables</a></p>
   {note && <p class="dim table-note">{note}</p>}
+  {
+    sourceBase && (
+      <p class="dim table-note">
+        Every name links to the {singular}'s full mod-format definition in the <a href="/source">source browser</a>.
+      </p>
+    )
+  }
 
   <div class="controls">
     <input
