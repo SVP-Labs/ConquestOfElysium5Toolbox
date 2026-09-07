@@ -93,6 +93,20 @@ p a {
   text-decoration: underline;
 }
 
+/* Text for crawlers and screen readers only — e.g. the " command" suffix
+   that keeps generic command names (start, free…) out of Lighthouse's
+   uninformative-link-text list without changing the visible label. */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
 code, pre, kbd, textarea.source {
   font-family: var(--mono);
   font-size: 0.9em;

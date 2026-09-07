@@ -126,7 +126,9 @@ const pagesLabel =
         <h2>Related</h2>
         <p class="related">
           {related.map((r) => (
-            <a href={`/commands/${r}`}>{r}</a>
+            <a href={`/commands/${r}`}>
+              {r}<span class="visually-hidden"> command</span>
+            </a>
           ))}
         </p>
       </>

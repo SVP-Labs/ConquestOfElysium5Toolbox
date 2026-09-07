@@ -56,10 +56,11 @@ const commandsIcon =
             data-notes={c.notes ? "1" : "0"}
           >
             {/* Some command names are generic words (start, free, name…),
-                which trips descriptive-link-text audits — the accessible
-                name says what the link actually is. */}
-            <a class="cmd-name" href={`/commands/${name}`} aria-label={`${name} command`}>
-              {name}
+                which trips Lighthouse's uninformative-link-text audit. That
+                audit reads the visible text, so the clarifying suffix is
+                real (hidden) text rather than an aria-label. */}
+            <a class="cmd-name" href={`/commands/${name}`}>
+              {name}<span class="visually-hidden"> command</span>
             </a>
             <span class="row-badges">
               {c.sections.map((s) => (
