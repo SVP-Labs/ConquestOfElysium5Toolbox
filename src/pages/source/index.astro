@@ -1,0 +1,44 @@
+---
+import Base from "../../layouts/Base.astro";
+import monsters from "../../data/source-monsters.json";
+
+const total = Object.keys(monsters).length;
+const examples = [935, 0, 19].map((n) => ({ idx: n, name: monsters[n].name }));
+---
+
+<Base
+  title="Source"
+  description={`The full mod-format definition of every Conquest of Elysium 5 monster — ${total} records, each one valid mod syntax that can be pasted into a mod file.`}
+>
+  <h1>Source browser</h1>
+
+  <p>
+    Every monster in the base game, shown as its complete definition in the
+    game's own mod format — the exact commands that build the unit. Each
+    block is valid mod syntax: paste it into a mod file and adapt it. Command
+    names link into the <a href="/commands">command reference</a>.
+  </p>
+
+  <p>
+    Find a monster through the <a href="/data/monsters">monster table</a>
+    ({total} entries, searchable) — every name links to its source page. A
+    few examples:
+  </p>
+
+  <ul>
+    {
+      examples.map((m) => (
+        <li>
+          <a href={`/source/monsters/${m.idx}`}>{m.name}</a>
+          <span class="dim"> — monster {m.idx}</span>
+        </li>
+      ))
+    }
+  </ul>
+
+  <p class="dim">
+    Weapons, items, rituals and the other record types will follow. Record
+    definitions from the base game data (v5.33 extraction), shown with
+    Illwinter's permission.
+  </p>
+</Base>

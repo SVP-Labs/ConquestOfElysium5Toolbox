@@ -11,7 +11,16 @@ export function getStaticPaths() {
       .sort((a, b) => a[0] - b[0]);
 
   const kinds = [
-    { kind: "monsters", title: "Monsters", singular: "monster", plural: "monsters", entries: record("monsters") },
+    {
+      kind: "monsters",
+      title: "Monsters",
+      singular: "monster",
+      plural: "monsters",
+      entries: record("monsters"),
+      note: "Every name links to the monster's full mod-format definition in the source browser.",
+      // Each row links to the monster's full mod-format definition.
+      sourceBase: "/source/monsters/",
+    },
     { kind: "weapons", title: "Weapons", singular: "weapon", plural: "weapons", entries: record("weapons") },
     { kind: "items", title: "Items", singular: "item", plural: "items", entries: record("items") },
     { kind: "rituals", title: "Rituals", singular: "ritual", plural: "rituals", entries: record("rituals") },
@@ -52,7 +61,7 @@ export function getStaticPaths() {
   return kinds.map(({ kind, ...props }) => ({ params: { kind }, props }));
 }
 
-const { title, singular, plural, entries, note } = Astro.props;
+const { title, singular, plural, entries, note, sourceBase } = Astro.props;
 const total = entries.length;
 ---
 
@@ -89,7 +98,7 @@ const total = entries.length;
         entries.map(([idx, name]) => (
           <tr id={`n${idx}`} data-idx={idx} data-name={name}>
             <td class="idx">{idx}</td>
-            <td>{name}</td>
+            <td>{sourceBase ? <a href={`${sourceBase}${idx}`}>{name}</a> : name}</td>
           </tr>
         ))
       }
