@@ -86,6 +86,13 @@ a:hover {
   text-decoration-thickness: 2px;
 }
 
+/* Links inside running text must be distinguishable without relying on
+   color alone (axe: link-in-text-block). Standalone links — nav, cards,
+   table rows, command lists — keep the plain look. */
+p a {
+  text-decoration: underline;
+}
+
 code, pre, kbd, textarea.source {
   font-family: var(--mono);
   font-size: 0.9em;
