@@ -93,8 +93,11 @@ for (const [kind, cfg] of Object.entries(KINDS)) {
   let inPatch = false;
 
   for (const rawLine of lines) {
-    const line = tidy(rawLine);
+    let line = tidy(rawLine);
     if (!line) continue;
+    // The extraction writes `siegeable` for what the game calls `walls`
+    // (the same correction the validator's data generation applies).
+    if (line === "siegeable") line = "walls";
     const startMatch = cfg.start.exec(line);
     if (startMatch) {
       inPatch = false;
