@@ -26,11 +26,17 @@ const escapeHtml = (s) =>
 // Build-time highlighting: the command word links to its reference page,
 // strings and numbers get classes. Nested quotes inside a descr render as
 // alternating string spans — a display quirk the copy button is immune to,
-// since it copies the text content.
+// since it copies the text content. Commands are padded to a per-block
+// column so the values align (real spaces, so copies keep the alignment).
+const lines = block.split("\n");
+const pad = Math.max(
+  ...lines.map((l) => (l.indexOf(" ") < 0 ? l.length : l.indexOf(" "))),
+);
+
 const renderLine = (line) => {
   const space = line.indexOf(" ");
   const cmd = space < 0 ? line : line.slice(0, space);
-  const rest = space < 0 ? "" : line.slice(space);
+  const rest = space < 0 ? "" : " ".repeat(pad - cmd.length) + line.slice(space);
   const cmdHtml = known.has(cmd)
     ? `<a href="/commands/${encodeURIComponent(cmd)}">${escapeHtml(cmd)}</a>`
     : escapeHtml(cmd);
@@ -48,7 +54,7 @@ const renderLine = (line) => {
   return cmdHtml + restHtml;
 };
 
-const blockHtml = block.split("\n").map(renderLine).join("\n");
+const blockHtml = lines.map(renderLine).join("\n");
 const descr = /descr "([^]*?)"(?:\n|$)/.exec(block)?.[1];
 const pageDescription = descr
   ? `${name} (monster ${idx}) mod source. ${descr.replaceAll("^", " ").slice(0, 140)}…`
