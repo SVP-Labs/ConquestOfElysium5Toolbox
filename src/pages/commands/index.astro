@@ -23,8 +23,14 @@ const commandsIcon =
 
   <div class="controls">
     <div class="controls-row">
-      <input type="search" id="q" placeholder="Search commands…" autocomplete="off" />
-      <select id="section">
+      <input
+        type="search"
+        id="q"
+        placeholder="Search commands…"
+        aria-label="Search commands by name"
+        autocomplete="off"
+      />
+      <select id="section" aria-label="Filter by section">
         <option value="all">all sections</option>
         {sections.map((s) => <option value={s}>{s}</option>)}
       </select>
@@ -49,7 +55,10 @@ const commandsIcon =
             data-documented={c.documented ? "1" : "0"}
             data-notes={c.notes ? "1" : "0"}
           >
-            <a class="cmd-name" href={`/commands/${name}`}>
+            {/* Some command names are generic words (start, free, name…),
+                which trips descriptive-link-text audits — the accessible
+                name says what the link actually is. */}
+            <a class="cmd-name" href={`/commands/${name}`} aria-label={`${name} command`}>
               {name}
             </a>
             <span class="row-badges">
