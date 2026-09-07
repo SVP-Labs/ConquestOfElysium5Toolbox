@@ -62,10 +62,10 @@ const pagesLabel =
           <p>{n}</p>
         ))}
         <p class="dim caveat">
-          The data source is a community extraction of game version 5.22 —
-          an older game version — compared against {data.meta.manual}, so
-          treat this as a hint rather than a definitive statement of what
-          the game does.
+          The data source is a community extraction of game version
+          {" " + (data.meta.rips.match(/v([\d.]+)/)?.[1] ?? "unknown")},
+          compared against {data.meta.manual}, so treat this as a hint
+          rather than a definitive statement of what the game does.
         </p>
       </aside>
     )
