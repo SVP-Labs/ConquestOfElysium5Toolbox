@@ -5,7 +5,7 @@
  },
  "1": {
   "name": "Fortified Hoburg",
-  "block": "selectterr 1\nname \"Fortified Hoburg\"\ngold 2\ntrade 1\nweed 1\nlifeforce 50\ndead 1\napcost 1\nbatmap 10\nsiegeable\nwoodengate\ncitadel\nhoburg"
+  "block": "selectterr 1\nname \"Fortified Hoburg\"\ngold 2\ntrade 1\nweed 1\nlifeforce 50\ndead 1\napcost 1\nbatmap 10\nwalls\nwoodengate\ncitadel\nhoburg"
  },
  "2": {
   "name": "Forest",
@@ -13,7 +13,7 @@
  },
  "3": {
   "name": "Temple City",
-  "block": "selectterr 3\nname \"Temple City\"\ngold 3\ntrade 1\nsacr 3\nhands 2\nlifeforce 60\ndead 10\npop 50\napcost 1\nbatmap 39\nsiegeable\nwoodengate\ncitadel\nsmoke\ntemple"
+  "block": "selectterr 3\nname \"Temple City\"\ngold 3\ntrade 1\nsacr 3\nhands 2\nlifeforce 60\ndead 10\npop 50\napcost 1\nbatmap 39\nwalls\nwoodengate\ncitadel\nsmoke\ntemple"
  },
  "4": {
   "name": "Ancient Forest",
@@ -37,7 +37,7 @@
  },
  "9": {
   "name": "City",
-  "block": "selectterr 9\nname \"City\"\ngold 5\ntrade 2\nsacr 4\nhands 3\nlifeforce 60\ndead 5\npop 50\napcost 1\nbatmap 39\nsiegeable\nwoodengate\ncitadel\nsettlement\nlibrary1\ntown2"
+  "block": "selectterr 9\nname \"City\"\ngold 5\ntrade 2\nsacr 4\nhands 3\nlifeforce 60\ndead 5\npop 50\napcost 1\nbatmap 39\nwalls\nwoodengate\ncitadel\nsettlement\nlibrary1\ntown2"
  },
  "10": {
   "name": "Lake",
@@ -53,7 +53,7 @@
  },
  "13": {
   "name": "Magic Library",
-  "block": "selectterr 13\nname \"Magic Library\"\ngold 1\ndead 2\npop 5\napcost 1\nbatmap 2\nsiegeable\nwoodengate\ninvisible\nlibrary2"
+  "block": "selectterr 13\nname \"Magic Library\"\ngold 1\ndead 2\npop 5\napcost 1\nbatmap 2\nwalls\nwoodengate\ninvisible\nlibrary2"
  },
  "14": {
   "name": "Iron Mine",
@@ -69,7 +69,7 @@
  },
  "17": {
   "name": "Town",
-  "block": "selectterr 17\nname \"Town\"\ngold 4\ntrade 1\nsacr 3\nhands 2\nlifeforce 50\ndead 4\npop 35\napcost 1\nbatmap 38\nsiegeable\nwoodengate\ninvisible\nsettlement\ntown1"
+  "block": "selectterr 17\nname \"Town\"\ngold 4\ntrade 1\nsacr 3\nhands 2\nlifeforce 50\ndead 4\npop 35\napcost 1\nbatmap 38\nwalls\nwoodengate\ninvisible\nsettlement\ntown1"
  },
  "18": {
   "name": "Village",
@@ -81,31 +81,31 @@
  },
  "20": {
   "name": "Guard tower",
-  "block": "selectterr 20\nname \"Guard tower\"\ndead 1\npop 1\napcost 1\nbatmap 12\nsiegeable\nwoodengate\ncitadel\ninvisible\nfarsight"
+  "block": "selectterr 20\nname \"Guard tower\"\ndead 1\npop 1\napcost 1\nbatmap 12\nwalls\nwoodengate\ncitadel\ninvisible\nfarsight"
  },
  "21": {
   "name": "Guard tower",
-  "block": "selectterr 21\nname \"Guard tower\"\ndead 1\napcost 1\nbatmap 12\nsiegeable\nwoodengate\ncitadel\ninvisible\nfarsight"
+  "block": "selectterr 21\nname \"Guard tower\"\ndead 1\napcost 1\nbatmap 12\nwalls\nwoodengate\ncitadel\ninvisible\nfarsight"
  },
  "22": {
   "name": "Castle",
-  "block": "selectterr 22\nname \"Castle\"\ngold 2\ndead 2\npop 2\napcost 1\nbatmap 5\nsiegeable\nirongate\ncitadel\ninvisible\nfarsight"
+  "block": "selectterr 22\nname \"Castle\"\ngold 2\ndead 2\npop 2\napcost 1\nbatmap 5\nwalls\nirongate\ncitadel\ninvisible\nfarsight"
  },
  "23": {
   "name": "Citadel",
-  "block": "selectterr 23\nname \"Citadel\"\ngold 2\ndead 5\napcost 1\nbatmap 8\nsiegeable\nirongate\ncitadel\nfarsight"
+  "block": "selectterr 23\nname \"Citadel\"\ngold 2\ndead 5\napcost 1\nbatmap 8\nwalls\nirongate\ncitadel\nfarsight"
  },
  "24": {
   "name": "Dark Citadel",
-  "block": "selectterr 24\nname \"Dark Citadel\"\napcost 1\nbatmap 35\nsiegeable\nirongate\ncitadel\nfarsight"
+  "block": "selectterr 24\nname \"Dark Citadel\"\napcost 1\nbatmap 35\nwalls\nirongate\ncitadel\nfarsight"
  },
  "25": {
   "name": "Temple of El",
-  "block": "selectterr 25\nname \"Temple of El\"\ngold 2\ndead 2\napcost 1\nbatmap 1\nsiegeable\nwoodengate\ncitadel\ntemple\nel"
+  "block": "selectterr 25\nname \"Temple of El\"\ngold 2\ndead 2\napcost 1\nbatmap 1\nwalls\nwoodengate\ncitadel\ntemple\nel"
  },
  "26": {
   "name": "Tower",
-  "block": "selectterr 26\nname \"Tower\"\nfungus 2\ndead 1\napcost 1\nbatmap 14\nsiegeable\nwoodengate\ncitadel\ninvisible\nforest\nfarsight"
+  "block": "selectterr 26\nname \"Tower\"\nfungus 2\ndead 1\napcost 1\nbatmap 14\nwalls\nwoodengate\ncitadel\ninvisible\nforest\nfarsight"
  },
  "27": {
   "name": "Sea",
@@ -117,15 +117,15 @@
  },
  "29": {
   "name": "Tower of the Elements",
-  "block": "selectterr 29\nname \"Tower of the Elements\"\ngold 2\ngems 8192\napcost 1\nbatmap 4\nsiegeable\nirongate\ncitadel\nfarsight"
+  "block": "selectterr 29\nname \"Tower of the Elements\"\ngold 2\ngems 8192\napcost 1\nbatmap 4\nwalls\nirongate\ncitadel\nfarsight"
  },
  "30": {
   "name": "Baron's Castle",
-  "block": "selectterr 30\nname \"Baron's Castle\"\ngold 2\ndead 3\napcost 1\nbatmap 5\nsiegeable\nirongate\ncitadel\nfarsight"
+  "block": "selectterr 30\nname \"Baron's Castle\"\ngold 2\ndead 3\napcost 1\nbatmap 5\nwalls\nirongate\ncitadel\nfarsight"
  },
  "31": {
   "name": "Temple of Ba'al",
-  "block": "selectterr 31\nname \"Temple of Ba'al\"\ngold 2\ndead 21\napcost 1\nbatmap 6\nsiegeable\nwoodengate\ncitadel\nfarsight\ntemple"
+  "block": "selectterr 31\nname \"Temple of Ba'al\"\ngold 2\ndead 21\napcost 1\nbatmap 6\nwalls\nwoodengate\ncitadel\nfarsight\ntemple"
  },
  "32": {
   "name": "Troll Pit",
@@ -153,7 +153,7 @@
  },
  "38": {
   "name": "Old Castle Ruin",
-  "block": "selectterr 38\nname \"Old Castle Ruin\"\ndead 4\napcost 1\nbatmap 1\nsiegeable\nbarricade\ncitadel\ninvisible\nfarsight"
+  "block": "selectterr 38\nname \"Old Castle Ruin\"\ndead 4\napcost 1\nbatmap 1\nwalls\nbarricade\ncitadel\ninvisible\nfarsight"
  },
  "39": {
   "name": "Ancient Temple",
@@ -229,11 +229,11 @@
  },
  "57": {
   "name": "Infernal Tower",
-  "block": "selectterr 57\nname \"Infernal Tower\"\ngold 1\ndead 1\npop 1\napcost 1\nbatmap 4\nsiegeable\nirongate\ncitadel\nfarsight"
+  "block": "selectterr 57\nname \"Infernal Tower\"\ngold 1\ndead 1\npop 1\napcost 1\nbatmap 4\nwalls\nirongate\ncitadel\nfarsight"
  },
  "58": {
   "name": "City of Sinners",
-  "block": "selectterr 58\nname \"City of Sinners\"\ngold 5\ntrade 2\nhands 4\ndead 5\npop 50\napcost 1\nbatmap 39\nsiegeable\nwoodengate\ncitadel\nsettlement\nlibrary1"
+  "block": "selectterr 58\nname \"City of Sinners\"\ngold 5\ntrade 2\nhands 4\ndead 5\npop 50\napcost 1\nbatmap 39\nwalls\nwoodengate\ncitadel\nsettlement\nlibrary1"
  },
  "59": {
   "name": "Village of the Damned",
@@ -241,27 +241,27 @@
  },
  "60": {
   "name": "Infernal Citadel",
-  "block": "selectterr 60\nname \"Infernal Citadel\"\ngold 3\nhands 1\ndead 5\napcost 1\nbatmap 5\nsiegeable\nenchantedgate\ncitadel\nfarsight"
+  "block": "selectterr 60\nname \"Infernal Citadel\"\ngold 3\nhands 1\ndead 5\napcost 1\nbatmap 5\nwalls\nenchantedgate\ncitadel\nfarsight"
  },
  "61": {
   "name": "Infernal Citadel",
-  "block": "selectterr 61\nname \"Infernal Citadel\"\ngold 3\nhands 1\ndead 5\napcost 1\nbatmap 5\nsiegeable\nenchantedgate\ncitadel\nfarsight"
+  "block": "selectterr 61\nname \"Infernal Citadel\"\ngold 3\nhands 1\ndead 5\napcost 1\nbatmap 5\nwalls\nenchantedgate\ncitadel\nfarsight"
  },
  "62": {
   "name": "Infernal Citadel",
-  "block": "selectterr 62\nname \"Infernal Citadel\"\ngold 3\nhands 1\ndead 5\napcost 1\nbatmap 5\nsiegeable\nenchantedgate\ncitadel\nfarsight"
+  "block": "selectterr 62\nname \"Infernal Citadel\"\ngold 3\nhands 1\ndead 5\napcost 1\nbatmap 5\nwalls\nenchantedgate\ncitadel\nfarsight"
  },
  "63": {
   "name": "Infernal Citadel",
-  "block": "selectterr 63\nname \"Infernal Citadel\"\ngold 3\nhands 1\ndead 5\napcost 1\nbatmap 5\nsiegeable\nenchantedgate\ncitadel\nfarsight"
+  "block": "selectterr 63\nname \"Infernal Citadel\"\ngold 3\nhands 1\ndead 5\napcost 1\nbatmap 5\nwalls\nenchantedgate\ncitadel\nfarsight"
  },
  "64": {
   "name": "Infernal Citadel",
-  "block": "selectterr 64\nname \"Infernal Citadel\"\ngold 3\nhands 1\ndead 5\napcost 1\nbatmap 5\nsiegeable\nenchantedgate\ncitadel\nfarsight"
+  "block": "selectterr 64\nname \"Infernal Citadel\"\ngold 3\nhands 1\ndead 5\napcost 1\nbatmap 5\nwalls\nenchantedgate\ncitadel\nfarsight"
  },
  "65": {
   "name": "Infernal Citadel",
-  "block": "selectterr 65\nname \"Infernal Citadel\"\ngold 3\nhands 1\ndead 5\napcost 1\nbatmap 5\nsiegeable\nenchantedgate\nmagicwalls\ncitadel\nfarsight\nlibrary1\nlibrary2"
+  "block": "selectterr 65\nname \"Infernal Citadel\"\ngold 3\nhands 1\ndead 5\napcost 1\nbatmap 5\nwalls\nenchantedgate\nmagicwalls\ncitadel\nfarsight\nlibrary1\nlibrary2"
  },
  "66": {
   "name": "Hot Sea",
@@ -289,7 +289,7 @@
  },
  "72": {
   "name": "Watch Tower",
-  "block": "selectterr 72\nname \"Watch Tower\"\ndead 1\npop 1\napcost 1\nbatmap 13\nsiegeable\nwoodengate\nownable\nwoodencitadel\nfarsight\ndesertok"
+  "block": "selectterr 72\nname \"Watch Tower\"\ndead 1\npop 1\napcost 1\nbatmap 13\nwalls\nwoodengate\nownable\nwoodencitadel\nfarsight\ndesertok"
  },
  "73": {
   "name": "Hills",
@@ -317,43 +317,43 @@
  },
  "79": {
   "name": "Port",
-  "block": "selectterr 79\nname \"Port\"\ngold 4\ntrade 2\nsacr 3\nhands 2\nlifeforce 50\ndead 4\npop 30\napcost 1\nbatmap 28\nsiegeable\nwoodengate\ncitadel\neastcoast\ndeepspawn\nnodrown\nsettlement\ntown1\nport\nrealport\nseepast"
+  "block": "selectterr 79\nname \"Port\"\ngold 4\ntrade 2\nsacr 3\nhands 2\nlifeforce 50\ndead 4\npop 30\napcost 1\nbatmap 28\nwalls\nwoodengate\ncitadel\neastcoast\ndeepspawn\nnodrown\nsettlement\ntown1\nport\nrealport\nseepast"
  },
  "80": {
   "name": "Port",
-  "block": "selectterr 80\nname \"Port\"\ngold 4\ntrade 2\nsacr 3\nhands 2\nlifeforce 50\ndead 4\npop 30\napcost 1\nbatmap 28\nsiegeable\nwoodengate\ncitadel\ndeepspawn\nnodrown\nsettlement\ntown1\nport\nrealport\nseepast"
+  "block": "selectterr 80\nname \"Port\"\ngold 4\ntrade 2\nsacr 3\nhands 2\nlifeforce 50\ndead 4\npop 30\napcost 1\nbatmap 28\nwalls\nwoodengate\ncitadel\ndeepspawn\nnodrown\nsettlement\ntown1\nport\nrealport\nseepast"
  },
  "81": {
   "name": "Port",
-  "block": "selectterr 81\nname \"Port\"\ngold 4\ntrade 2\nsacr 3\nhands 2\nlifeforce 50\ndead 4\npop 30\napcost 1\nbatmap 28\nsiegeable\nwoodengate\ncitadel\ndeepspawn\nnodrown\nsettlement\ntown1\nport\nrealport\nseepast"
+  "block": "selectterr 81\nname \"Port\"\ngold 4\ntrade 2\nsacr 3\nhands 2\nlifeforce 50\ndead 4\npop 30\napcost 1\nbatmap 28\nwalls\nwoodengate\ncitadel\ndeepspawn\nnodrown\nsettlement\ntown1\nport\nrealport\nseepast"
  },
  "82": {
   "name": "Port",
-  "block": "selectterr 82\nname \"Port\"\ngold 4\ntrade 2\nsacr 3\nhands 2\nlifeforce 50\ndead 4\npop 30\napcost 1\nbatmap 28\nsiegeable\nwoodengate\ncitadel\ndeepspawn\nnodrown\nsettlement\ntown1\nport\nrealport\nseepast"
+  "block": "selectterr 82\nname \"Port\"\ngold 4\ntrade 2\nsacr 3\nhands 2\nlifeforce 50\ndead 4\npop 30\napcost 1\nbatmap 28\nwalls\nwoodengate\ncitadel\ndeepspawn\nnodrown\nsettlement\ntown1\nport\nrealport\nseepast"
  },
  "83": {
   "name": "Capitolium",
-  "block": "selectterr 83\nname \"Capitolium\"\ngold 4\ntrade 1\nsacr 3\nhands 3\nlifeforce 40\ndead 5\npop 30\napcost 1\nbatmap 5\nsiegeable\nirongate\ncitadel\nnostart\nsettlement\ntempimmune\ntown2\nbonusrelics -1"
+  "block": "selectterr 83\nname \"Capitolium\"\ngold 4\ntrade 1\nsacr 3\nhands 3\nlifeforce 40\ndead 5\npop 30\napcost 1\nbatmap 5\nwalls\nirongate\ncitadel\nnostart\nsettlement\ntempimmune\ntown2\nbonusrelics -1"
  },
  "84": {
   "name": "Slums",
-  "block": "selectterr 84\nname \"Slums\"\ngold 2\nsacr 5\nhands 4\nlifeforce 60\ndead 5\npop 40\napcost 1\nbatmap 39\nsiegeable\nwoodengate\nnostart\nsettlement\ntempimmune\ntown1\nbonusrelics -2"
+  "block": "selectterr 84\nname \"Slums\"\ngold 2\nsacr 5\nhands 4\nlifeforce 60\ndead 5\npop 40\napcost 1\nbatmap 39\nwalls\nwoodengate\nnostart\nsettlement\ntempimmune\ntown1\nbonusrelics -2"
  },
  "85": {
   "name": "Temple District",
-  "block": "selectterr 85\nname \"Temple District\"\ngold 4\ntrade 2\nsacr 3\nhands 2\nlifeforce 50\ndead 4\npop 30\napcost 1\nbatmap 39\nsiegeable\nwoodengate\nnostart\ntemple\nsettlement\nlibrary1\ntempimmune\ntown1\nbonusrelics 1"
+  "block": "selectterr 85\nname \"Temple District\"\ngold 4\ntrade 2\nsacr 3\nhands 2\nlifeforce 50\ndead 4\npop 30\napcost 1\nbatmap 39\nwalls\nwoodengate\nnostart\ntemple\nsettlement\nlibrary1\ntempimmune\ntown1\nbonusrelics 1"
  },
  "86": {
   "name": "Trade District",
-  "block": "selectterr 86\nname \"Trade District\"\ngold 4\ntrade 3\nsacr 3\nhands 2\nlifeforce 50\ndead 7\npop 30\napcost 1\nbatmap 47\nsiegeable\nwoodengate\nnostart\nsettlement\ntempimmune\ntown1"
+  "block": "selectterr 86\nname \"Trade District\"\ngold 4\ntrade 3\nsacr 3\nhands 2\nlifeforce 50\ndead 7\npop 30\napcost 1\nbatmap 47\nwalls\nwoodengate\nnostart\nsettlement\ntempimmune\ntown1"
  },
  "87": {
   "name": "Haunted City",
-  "block": "selectterr 87\nname \"Haunted City\"\ngold 1\nhands 2\ndead 12\napcost 1\nbatmap 39\nsiegeable\nownable\nrare\nlibrary1\nbonusrelics 1"
+  "block": "selectterr 87\nname \"Haunted City\"\ngold 1\nhands 2\ndead 12\napcost 1\nbatmap 39\nwalls\nownable\nrare\nlibrary1\nbonusrelics 1"
  },
  "88": {
   "name": "Academy of Higher Magic",
-  "block": "selectterr 88\nname \"Academy of Higher Magic\"\ngold 3\ntrade 1\nherbs 2\nfungus 2\ngems 303104\ndead 3\napcost 1\nbatmap 34\nsiegeable\nenchantedgate\ncitadel\nrare\nfarsight\nlibrary1\nlibrary2"
+  "block": "selectterr 88\nname \"Academy of Higher Magic\"\ngold 3\ntrade 1\nherbs 2\nfungus 2\ngems 303104\ndead 3\napcost 1\nbatmap 34\nwalls\nenchantedgate\ncitadel\nrare\nfarsight\nlibrary1\nlibrary2"
  },
  "89": {
   "name": "Mystical Column",
@@ -373,7 +373,7 @@
  },
  "93": {
   "name": "Temple Pyramid",
-  "block": "selectterr 93\nname \"Temple Pyramid\"\ngold 1\nfungus 1\nsacr 5\ndead 10\napcost 2\nbatmap 36\nsiegeable\nownable\nsmoke\nuseable\nrare\ntemple\nvoidret\ndesertok"
+  "block": "selectterr 93\nname \"Temple Pyramid\"\ngold 1\nfungus 1\nsacr 5\ndead 10\napcost 2\nbatmap 36\nwalls\nownable\nsmoke\nuseable\nrare\ntemple\nvoidret\ndesertok"
  },
  "94": {
   "name": "Colossus",
@@ -405,7 +405,7 @@
  },
  "101": {
   "name": "Cloud Castle",
-  "block": "selectterr 101\nname \"Cloud Castle\"\ngold 3\ngems 256\napcost 3\nbatmap 21\nsiegeable\ncloudgate\ncitadel\nrare\ndesertok"
+  "block": "selectterr 101\nname \"Cloud Castle\"\ngold 3\ngems 256\napcost 3\nbatmap 21\nwalls\ncloudgate\ncitadel\nrare\ndesertok"
  },
  "102": {
   "name": "Volcano",
@@ -441,15 +441,15 @@
  },
  "110": {
   "name": "Crystal Tower",
-  "block": "selectterr 110\nname \"Crystal Tower\"\ngold 2\ndead 2\napcost 1\nbatmap 4\nsiegeable\nirongate\nmagicwalls\ncitadel\ninvisible\nfarsight"
+  "block": "selectterr 110\nname \"Crystal Tower\"\ngold 2\ndead 2\napcost 1\nbatmap 4\nwalls\nirongate\nmagicwalls\ncitadel\ninvisible\nfarsight"
  },
  "111": {
   "name": "Palace of the Mountain Lord",
-  "block": "selectterr 111\nname \"Palace of the Mountain Lord\"\ngold 2\niron 5\ngems 2048\napcost 3\nbatmap 18\nsiegeable\nirongate\ncitadel\nsmoke\nironboost\nmountain"
+  "block": "selectterr 111\nname \"Palace of the Mountain Lord\"\ngold 2\niron 5\ngems 2048\napcost 3\nbatmap 18\nwalls\nirongate\ncitadel\nsmoke\nironboost\nmountain"
  },
  "112": {
   "name": "Mountain Stronghold",
-  "block": "selectterr 112\nname \"Mountain Stronghold\"\ngold 2\niron 1\nfungus 2\ndead 4\napcost 3\nbatmap 15\nsiegeable\nwoodengate\ncitadel\ncave\ninvisible\nmountain\nhoburg\nsnowok"
+  "block": "selectterr 112\nname \"Mountain Stronghold\"\ngold 2\niron 1\nfungus 2\ndead 4\napcost 3\nbatmap 15\nwalls\nwoodengate\ncitadel\ncave\ninvisible\nmountain\nhoburg\nsnowok"
  },
  "113": {
   "name": "Barbarian Camp",
@@ -457,7 +457,7 @@
  },
  "114": {
   "name": "Maharaja's Palace",
-  "block": "selectterr 114\nname \"Maharaja's Palace\"\ngold 3\ngems 64\ndead 2\npop 5\napcost 2\nbatmap 1\nsiegeable\nwoodengate\ncitadel"
+  "block": "selectterr 114\nname \"Maharaja's Palace\"\ngold 3\ngems 64\ndead 2\npop 5\napcost 2\nbatmap 1\nwalls\nwoodengate\ncitadel"
  },
  "115": {
   "name": "Jungle",
@@ -481,11 +481,11 @@
  },
  "120": {
   "name": "Ruined Citadel",
-  "block": "selectterr 120\nname \"Ruined Citadel\"\ndead 4\napcost 2\nbatmap 8\nsiegeable\nbarricade"
+  "block": "selectterr 120\nname \"Ruined Citadel\"\ndead 4\napcost 2\nbatmap 8\nwalls\nbarricade"
  },
  "121": {
   "name": "Pale One Lair",
-  "block": "selectterr 121\nname \"Pale One Lair\"\ngold 1\nfungus 2\ngems 512\napcost 1\nbatmap 29\nsiegeable\nearthbarricade\ncitadel\ninvisible\nug"
+  "block": "selectterr 121\nname \"Pale One Lair\"\ngold 1\nfungus 2\ngems 512\napcost 1\nbatmap 29\nwalls\nearthbarricade\ncitadel\ninvisible\nug"
  },
  "122": {
   "name": "Idyll",
@@ -497,7 +497,7 @@
  },
  "124": {
   "name": "King's Castle",
-  "block": "selectterr 124\nname \"King's Castle\"\ngold 3\npop 10\napcost 1\nbatmap 33\nsiegeable\nirongate\ncitadel\ngoldboost\nnostart\nlibrary1"
+  "block": "selectterr 124\nname \"King's Castle\"\ngold 3\npop 10\napcost 1\nbatmap 33\nwalls\nirongate\ncitadel\ngoldboost\nnostart\nlibrary1"
  },
  "125": {
   "name": "Brigand Lair",
@@ -505,7 +505,7 @@
  },
  "126": {
   "name": "Dwarven City",
-  "block": "selectterr 126\nname \"Dwarven City\"\ngold 3\niron 3\ngems 640\ndead 3\napcost 3\nbatmap 17\nsiegeable\nirongate\ncitadel\ncave\ninvisible\nmountain\nmine\nsnowok"
+  "block": "selectterr 126\nname \"Dwarven City\"\ngold 3\niron 3\ngems 640\ndead 3\napcost 3\nbatmap 17\nwalls\nirongate\ncitadel\ncave\ninvisible\nmountain\nmine\nsnowok"
  },
  "127": {
   "name": "Elven Forest",
@@ -541,39 +541,39 @@
  },
  "135": {
   "name": "Haunted Capitolium",
-  "block": "selectterr 135\nname \"Haunted Capitolium\"\ngold 1\nhands 1\ndead 8\napcost 1\nbatmap 5\nsiegeable\nirongate\nnostart"
+  "block": "selectterr 135\nname \"Haunted Capitolium\"\ngold 1\nhands 1\ndead 8\napcost 1\nbatmap 5\nwalls\nirongate\nnostart"
  },
  "136": {
   "name": "Haunted Slums",
-  "block": "selectterr 136\nname \"Haunted Slums\"\nhands 1\ndead 12\napcost 1\nbatmap 39\nsiegeable\nownable\nnostart"
+  "block": "selectterr 136\nname \"Haunted Slums\"\nhands 1\ndead 12\napcost 1\nbatmap 39\nwalls\nownable\nnostart"
  },
  "137": {
   "name": "Haunted Temple District",
-  "block": "selectterr 137\nname \"Haunted Temple District\"\ngold 1\nhands 3\ndead 10\napcost 1\nbatmap 39\nsiegeable\nnostart\ntemple\nlibrary1"
+  "block": "selectterr 137\nname \"Haunted Temple District\"\ngold 1\nhands 3\ndead 10\napcost 1\nbatmap 39\nwalls\nnostart\ntemple\nlibrary1"
  },
  "138": {
   "name": "Haunted Trade District",
-  "block": "selectterr 138\nname \"Haunted Trade District\"\ngold 2\nhands 1\ndead 8\napcost 1\nbatmap 47\nsiegeable\nnostart"
+  "block": "selectterr 138\nname \"Haunted Trade District\"\ngold 2\nhands 1\ndead 8\napcost 1\nbatmap 47\nwalls\nnostart"
  },
  "139": {
   "name": "Fimbul Fortress",
-  "block": "selectterr 139\nname \"Fimbul Fortress\"\ndead 2\napcost 1\nbatmap 3\nsiegeable\nirongate\ncitadel\nfarsight\nspreadcold"
+  "block": "selectterr 139\nname \"Fimbul Fortress\"\ndead 2\napcost 1\nbatmap 3\nwalls\nirongate\ncitadel\nfarsight\nspreadcold"
  },
  "140": {
   "name": "Infernal Capitolium",
-  "block": "selectterr 140\nname \"Infernal Capitolium\"\ngold 4\ntrade 1\nhands 4\nlifeforce 20\ndead 5\npop 30\napcost 1\nbatmap 5\nsiegeable\nirongate\ncitadel\nnostart\nsettlement\nbonusrelics -1"
+  "block": "selectterr 140\nname \"Infernal Capitolium\"\ngold 4\ntrade 1\nhands 4\nlifeforce 20\ndead 5\npop 30\napcost 1\nbatmap 5\nwalls\nirongate\ncitadel\nnostart\nsettlement\nbonusrelics -1"
  },
  "141": {
   "name": "District of Sin",
-  "block": "selectterr 141\nname \"District of Sin\"\ngold 2\nhands 5\nlifeforce 20\ndead 5\npop 40\napcost 1\nbatmap 39\nsiegeable\nirongate\nnostart\nsettlement\nbonusrelics -2"
+  "block": "selectterr 141\nname \"District of Sin\"\ngold 2\nhands 5\nlifeforce 20\ndead 5\npop 40\napcost 1\nbatmap 39\nwalls\nirongate\nnostart\nsettlement\nbonusrelics -2"
  },
  "142": {
   "name": "District of Blasphemy",
-  "block": "selectterr 142\nname \"District of Blasphemy\"\ngold 4\ntrade 2\nhands 3\nlifeforce 20\ndead 4\npop 30\napcost 1\nbatmap 39\nsiegeable\nirongate\nnostart\ntemple\nsettlement\nlibrary1\nbonusrelics 1"
+  "block": "selectterr 142\nname \"District of Blasphemy\"\ngold 4\ntrade 2\nhands 3\nlifeforce 20\ndead 4\npop 30\napcost 1\nbatmap 39\nwalls\nirongate\nnostart\ntemple\nsettlement\nlibrary1\nbonusrelics 1"
  },
  "143": {
   "name": "District of Fraud",
-  "block": "selectterr 143\nname \"District of Fraud\"\ngold 4\ntrade 3\nhands 3\nlifeforce 20\ndead 7\npop 30\napcost 1\nbatmap 47\nsiegeable\nirongate\nnostart\nsettlement"
+  "block": "selectterr 143\nname \"District of Fraud\"\ngold 4\ntrade 3\nhands 3\nlifeforce 20\ndead 7\npop 30\napcost 1\nbatmap 47\nwalls\nirongate\nnostart\nsettlement"
  },
  "144": {
   "name": "Ghost Farm",
@@ -593,11 +593,11 @@
  },
  "148": {
   "name": "Ghost Town",
-  "block": "selectterr 148\nname \"Ghost Town\"\ngold 4\npop 35\napcost 1\nbatmap 38\nsiegeable\nwoodengate\nmagicwalls"
+  "block": "selectterr 148\nname \"Ghost Town\"\ngold 4\npop 35\napcost 1\nbatmap 38\nwalls\nwoodengate\nmagicwalls"
  },
  "149": {
   "name": "City of the Dead",
-  "block": "selectterr 149\nname \"City of the Dead\"\ngold 5\npop 50\napcost 1\nbatmap 39\nsiegeable\nwoodengate\nmagicwalls\ncitadel\nlibrary1"
+  "block": "selectterr 149\nname \"City of the Dead\"\ngold 5\npop 50\napcost 1\nbatmap 39\nwalls\nwoodengate\nmagicwalls\ncitadel\nlibrary1"
  },
  "150": {
   "name": "Shade Land",
@@ -605,11 +605,11 @@
  },
  "151": {
   "name": "Dark Tower",
-  "block": "selectterr 151\nname \"Dark Tower\"\ngold 1\ndead 1\npop 1\napcost 1\nbatmap 4\nsiegeable\nirongate\nmagicwalls\ncitadel\nfarsight"
+  "block": "selectterr 151\nname \"Dark Tower\"\ngold 1\ndead 1\npop 1\napcost 1\nbatmap 4\nwalls\nirongate\nmagicwalls\ncitadel\nfarsight"
  },
  "152": {
   "name": "Dark Citadel",
-  "block": "selectterr 152\nname \"Dark Citadel\"\ngold 3\nhands 1\napcost 1\nbatmap 3\nsiegeable\nirongate\nmagicwalls\ncitadel\nfarsight"
+  "block": "selectterr 152\nname \"Dark Citadel\"\ngold 3\nhands 1\napcost 1\nbatmap 3\nwalls\nirongate\nmagicwalls\ncitadel\nfarsight"
  },
  "153": {
   "name": "Gallows",
@@ -617,7 +617,7 @@
  },
  "154": {
   "name": "Outpost",
-  "block": "selectterr 154\nname \"Outpost\"\ngold 2\ndead 3\npop 2\napcost 1\nbatmap 11\nsiegeable\nwoodengate\ncitadel"
+  "block": "selectterr 154\nname \"Outpost\"\ngold 2\ndead 3\npop 2\napcost 1\nbatmap 11\nwalls\nwoodengate\ncitadel"
  },
  "155": {
   "name": "Fata Morgana",
@@ -625,7 +625,7 @@
  },
  "156": {
   "name": "Crystal Palace",
-  "block": "selectterr 156\nname \"Crystal Palace\"\ngold 4\ngems 8192\napcost 1\nbatmap 4\nsiegeable\nirongate\ncitadel\nfarsight"
+  "block": "selectterr 156\nname \"Crystal Palace\"\ngold 4\ngems 8192\napcost 1\nbatmap 4\nwalls\nirongate\ncitadel\nfarsight"
  },
  "157": {
   "name": "Skull Cave",
@@ -641,23 +641,23 @@
  },
  "160": {
   "name": "Desert Palace",
-  "block": "selectterr 160\nname \"Desert Palace\"\ngold 3\ngems 4096\ndead 2\npop 5\napcost 2\nbatmap 1\nsiegeable\nwoodengate\ncitadel\ndesert"
+  "block": "selectterr 160\nname \"Desert Palace\"\ngold 3\ngems 4096\ndead 2\npop 5\napcost 2\nbatmap 1\nwalls\nwoodengate\ncitadel\ndesert"
  },
  "161": {
   "name": "Deserted Port",
-  "block": "selectterr 161\nname \"Deserted Port\"\ngold 1\ntrade 2\nsacr 1\nhands 1\ndead 8\npop 10\napcost 1\nbatmap 28\nsiegeable\nbarricade\ncitadel\neastcoast\ndeepspawn\nnodrown\nsettlement\nport\nrealport\nseepast"
+  "block": "selectterr 161\nname \"Deserted Port\"\ngold 1\ntrade 2\nsacr 1\nhands 1\ndead 8\npop 10\napcost 1\nbatmap 28\nwalls\nbarricade\ncitadel\neastcoast\ndeepspawn\nnodrown\nsettlement\nport\nrealport\nseepast"
  },
  "162": {
   "name": "Deserted Port",
-  "block": "selectterr 162\nname \"Deserted Port\"\ngold 1\ntrade 2\nsacr 1\nhands 1\ndead 8\npop 10\napcost 1\nbatmap 28\nsiegeable\nbarricade\ncitadel\ndeepspawn\nnodrown\nsettlement\nport\nrealport\nseepast"
+  "block": "selectterr 162\nname \"Deserted Port\"\ngold 1\ntrade 2\nsacr 1\nhands 1\ndead 8\npop 10\napcost 1\nbatmap 28\nwalls\nbarricade\ncitadel\ndeepspawn\nnodrown\nsettlement\nport\nrealport\nseepast"
  },
  "163": {
   "name": "Deserted Port",
-  "block": "selectterr 163\nname \"Deserted Port\"\ngold 1\ntrade 2\nsacr 1\nhands 1\ndead 8\npop 10\napcost 1\nbatmap 28\nsiegeable\nbarricade\ncitadel\ndeepspawn\nnodrown\nsettlement\nport\nrealport\nseepast"
+  "block": "selectterr 163\nname \"Deserted Port\"\ngold 1\ntrade 2\nsacr 1\nhands 1\ndead 8\npop 10\napcost 1\nbatmap 28\nwalls\nbarricade\ncitadel\ndeepspawn\nnodrown\nsettlement\nport\nrealport\nseepast"
  },
  "164": {
   "name": "Deserted Port",
-  "block": "selectterr 164\nname \"Deserted Port\"\ngold 1\ntrade 2\nsacr 1\nhands 1\ndead 8\npop 10\napcost 1\nbatmap 28\nsiegeable\nbarricade\ncitadel\ndeepspawn\nnodrown\nsettlement\nport\nrealport\nseepast"
+  "block": "selectterr 164\nname \"Deserted Port\"\ngold 1\ntrade 2\nsacr 1\nhands 1\ndead 8\npop 10\napcost 1\nbatmap 28\nwalls\nbarricade\ncitadel\ndeepspawn\nnodrown\nsettlement\nport\nrealport\nseepast"
  },
  "165": {
   "name": "Pyramids",
@@ -669,15 +669,15 @@
  },
  "167": {
   "name": "Ziggurat",
-  "block": "selectterr 167\nname \"Ziggurat\"\ngold 1\nsacr 1\ndead 4\npop 40\napcost 1\nbatmap 36\nsiegeable\ntemple"
+  "block": "selectterr 167\nname \"Ziggurat\"\ngold 1\nsacr 1\ndead 4\npop 40\napcost 1\nbatmap 36\nwalls\ntemple"
  },
  "168": {
   "name": "Tower Bridge",
-  "block": "selectterr 168\nname \"Tower Bridge\"\ngold 1\nlifeforce 3\ndead 1\napcost 1\nbatmap 26\nsiegeable\nwoodengate\ncitadel\nnostart\nfarsight\nnodrown\nport\nseepast"
+  "block": "selectterr 168\nname \"Tower Bridge\"\ngold 1\nlifeforce 3\ndead 1\napcost 1\nbatmap 26\nwalls\nwoodengate\ncitadel\nnostart\nfarsight\nnodrown\nport\nseepast"
  },
  "169": {
   "name": "Tower Bridge",
-  "block": "selectterr 169\nname \"Tower Bridge\"\ngold 1\nlifeforce 3\ndead 1\napcost 1\nbatmap 26\nsiegeable\nwoodengate\ncitadel\nnostart\nfarsight\nnodrown\nport\nseepast"
+  "block": "selectterr 169\nname \"Tower Bridge\"\ngold 1\nlifeforce 3\ndead 1\napcost 1\nbatmap 26\nwalls\nwoodengate\ncitadel\nnostart\nfarsight\nnodrown\nport\nseepast"
  },
  "170": {
   "name": "Deep Sea Gem Deposit",
@@ -721,19 +721,19 @@
  },
  "180": {
   "name": "Ghost Capitolium",
-  "block": "selectterr 180\nname \"Ghost Capitolium\"\ngold 1\napcost 1\nbatmap 5\nsiegeable\nirongate\ncitadel\nnostart"
+  "block": "selectterr 180\nname \"Ghost Capitolium\"\ngold 1\napcost 1\nbatmap 5\nwalls\nirongate\ncitadel\nnostart"
  },
  "181": {
   "name": "Ghost Slums",
-  "block": "selectterr 181\nname \"Ghost Slums\"\napcost 1\nbatmap 39\nsiegeable\nwoodengate\nownable\nnostart"
+  "block": "selectterr 181\nname \"Ghost Slums\"\napcost 1\nbatmap 39\nwalls\nwoodengate\nownable\nnostart"
  },
  "182": {
   "name": "Ghost Temple District",
-  "block": "selectterr 182\nname \"Ghost Temple District\"\ngold 1\napcost 1\nbatmap 39\nsiegeable\nirongate\nnostart\ntemple\nlibrary1"
+  "block": "selectterr 182\nname \"Ghost Temple District\"\ngold 1\napcost 1\nbatmap 39\nwalls\nirongate\nnostart\ntemple\nlibrary1"
  },
  "183": {
   "name": "Ghost Trade District",
-  "block": "selectterr 183\nname \"Ghost Trade District\"\ngold 2\napcost 1\nbatmap 47\nsiegeable\nwoodengate\nnostart"
+  "block": "selectterr 183\nname \"Ghost Trade District\"\ngold 2\napcost 1\nbatmap 47\nwalls\nwoodengate\nnostart"
  },
  "184": {
   "name": "House Ruins",
@@ -797,7 +797,7 @@
  },
  "199": {
   "name": "Motte and Bailey",
-  "block": "selectterr 199\nname \"Motte and Bailey\"\ngold 3\nsacr 2\nhands 1\nlifeforce 35\ndead 3\npop 20\napcost 1\nbatmap 10\nsiegeable\nwoodengate\nownable\ninvisible\nwoodencitadel\nsettlement"
+  "block": "selectterr 199\nname \"Motte and Bailey\"\ngold 3\nsacr 2\nhands 1\nlifeforce 35\ndead 3\npop 20\napcost 1\nbatmap 10\nwalls\nwoodengate\nownable\ninvisible\nwoodencitadel\nsettlement"
  },
  "200": {
   "name": "Destroyed Gateway",
@@ -829,7 +829,7 @@
  },
  "207": {
   "name": "Capital",
-  "block": "selectterr 207\nname \"Capital\"\ngold 5\ntrade 3\nsacr 4\nhands 3\nlifeforce 60\ndead 5\npop 50\napcost 1\nbatmap 47\nsiegeable\nirongate\ncitadel\nsettlement\nlibrary1\ntown1\ntown2"
+  "block": "selectterr 207\nname \"Capital\"\ngold 5\ntrade 3\nsacr 4\nhands 3\nlifeforce 60\ndead 5\npop 50\napcost 1\nbatmap 47\nwalls\nirongate\ncitadel\nsettlement\nlibrary1\ntown1\ntown2"
  },
  "208": {
   "name": "Cloud Forest",
@@ -837,55 +837,55 @@
  },
  "209": {
   "name": "Granite Citadel",
-  "block": "selectterr 209\nname \"Granite Citadel\"\ngold 3\ndead 5\napcost 1\nbatmap 5\nsiegeable\nirongate\ncitadel\nfarsight"
+  "block": "selectterr 209\nname \"Granite Citadel\"\ngold 3\ndead 5\napcost 1\nbatmap 5\nwalls\nirongate\ncitadel\nfarsight"
  },
  "210": {
   "name": "Granite Citadel",
-  "block": "selectterr 210\nname \"Granite Citadel\"\ngold 3\ndead 5\napcost 1\nbatmap 5\nsiegeable\nirongate\ncitadel\nfarsight"
+  "block": "selectterr 210\nname \"Granite Citadel\"\ngold 3\ndead 5\napcost 1\nbatmap 5\nwalls\nirongate\ncitadel\nfarsight"
  },
  "211": {
   "name": "Granite Citadel",
-  "block": "selectterr 211\nname \"Granite Citadel\"\ngold 3\ndead 5\napcost 1\nbatmap 5\nsiegeable\nirongate\ncitadel\nfarsight"
+  "block": "selectterr 211\nname \"Granite Citadel\"\ngold 3\ndead 5\napcost 1\nbatmap 5\nwalls\nirongate\ncitadel\nfarsight"
  },
  "212": {
   "name": "Fire Citadel",
-  "block": "selectterr 212\nname \"Fire Citadel\"\ngold 3\ndead 5\napcost 1\nbatmap 37\nsiegeable\nirongate\ncitadel\nfarsight\ntempimmune"
+  "block": "selectterr 212\nname \"Fire Citadel\"\ngold 3\ndead 5\napcost 1\nbatmap 37\nwalls\nirongate\ncitadel\nfarsight\ntempimmune"
  },
  "213": {
   "name": "Fire Citadel",
-  "block": "selectterr 213\nname \"Fire Citadel\"\ngold 3\ndead 5\napcost 1\nbatmap 37\nsiegeable\nirongate\ncitadel\nfarsight\ntempimmune"
+  "block": "selectterr 213\nname \"Fire Citadel\"\ngold 3\ndead 5\napcost 1\nbatmap 37\nwalls\nirongate\ncitadel\nfarsight\ntempimmune"
  },
  "214": {
   "name": "Fire Citadel",
-  "block": "selectterr 214\nname \"Fire Citadel\"\ngold 3\ndead 5\napcost 1\nbatmap 37\nsiegeable\nirongate\ncitadel\nfarsight\ntempimmune"
+  "block": "selectterr 214\nname \"Fire Citadel\"\ngold 3\ndead 5\napcost 1\nbatmap 37\nwalls\nirongate\ncitadel\nfarsight\ntempimmune"
  },
  "215": {
   "name": "Cloud Citadel",
-  "block": "selectterr 215\nname \"Cloud Citadel\"\ngold 3\ndead 5\napcost 1\nbatmap 21\nsiegeable\ncloudgate\ncitadel\ninvisible\nfarsight\ndesertok"
+  "block": "selectterr 215\nname \"Cloud Citadel\"\ngold 3\ndead 5\napcost 1\nbatmap 21\nwalls\ncloudgate\ncitadel\ninvisible\nfarsight\ndesertok"
  },
  "216": {
   "name": "Cloud Citadel",
-  "block": "selectterr 216\nname \"Cloud Citadel\"\ngold 3\ndead 5\napcost 1\nbatmap 21\nsiegeable\ncloudgate\ncitadel\ninvisible\nfarsight\ndesertok"
+  "block": "selectterr 216\nname \"Cloud Citadel\"\ngold 3\ndead 5\napcost 1\nbatmap 21\nwalls\ncloudgate\ncitadel\ninvisible\nfarsight\ndesertok"
  },
  "217": {
   "name": "Cloud Citadel",
-  "block": "selectterr 217\nname \"Cloud Citadel\"\ngold 3\ndead 5\napcost 1\nbatmap 21\nsiegeable\ncloudgate\ncitadel\ninvisible\nfarsight\ndesertok"
+  "block": "selectterr 217\nname \"Cloud Citadel\"\ngold 3\ndead 5\napcost 1\nbatmap 21\nwalls\ncloudgate\ncitadel\ninvisible\nfarsight\ndesertok"
  },
  "218": {
   "name": "Coral Citadel",
-  "block": "selectterr 218\nname \"Coral Citadel\"\ngold 3\ndead 5\napcost 1\nbatmap 5\nsiegeable\nirongate\ncitadel\nwater\nfarsight"
+  "block": "selectterr 218\nname \"Coral Citadel\"\ngold 3\ndead 5\napcost 1\nbatmap 5\nwalls\nirongate\ncitadel\nwater\nfarsight"
  },
  "219": {
   "name": "Coral Citadel",
-  "block": "selectterr 219\nname \"Coral Citadel\"\ngold 3\ndead 5\napcost 1\nbatmap 5\nsiegeable\nirongate\ncitadel\nwater\nfarsight"
+  "block": "selectterr 219\nname \"Coral Citadel\"\ngold 3\ndead 5\napcost 1\nbatmap 5\nwalls\nirongate\ncitadel\nwater\nfarsight"
  },
  "220": {
   "name": "Coral Citadel",
-  "block": "selectterr 220\nname \"Coral Citadel\"\ngold 3\ndead 5\napcost 1\nbatmap 5\nsiegeable\nirongate\ncitadel\nwater\nfarsight"
+  "block": "selectterr 220\nname \"Coral Citadel\"\ngold 3\ndead 5\napcost 1\nbatmap 5\nwalls\nirongate\ncitadel\nwater\nfarsight"
  },
  "221": {
   "name": "Coral Towers",
-  "block": "selectterr 221\nname \"Coral Towers\"\ngold 2\nherbs 1\ngems 8\nlifeforce 10\ndead 3\napcost 1\nbatmap 1\nsiegeable\nwoodengate\ncitadel\nwater\nfarsight"
+  "block": "selectterr 221\nname \"Coral Towers\"\ngold 2\nherbs 1\ngems 8\nlifeforce 10\ndead 3\napcost 1\nbatmap 1\nwalls\nwoodengate\ncitadel\nwater\nfarsight"
  },
  "222": {
   "name": "Sacred Spring",
@@ -893,19 +893,19 @@
  },
  "223": {
   "name": "Nexus",
-  "block": "selectterr 223\nname \"Nexus\"\ngold 2\nfungus 2\ngems 585\napcost 1\nbatmap 5\nsiegeable\nenchantedgate\nmagicwalls\ncitadel\nuseable\nfarsight\nlibrary1\nlibrary2\ndesertok\nritrebate 25"
+  "block": "selectterr 223\nname \"Nexus\"\ngold 2\nfungus 2\ngems 585\napcost 1\nbatmap 5\nwalls\nenchantedgate\nmagicwalls\ncitadel\nuseable\nfarsight\nlibrary1\nlibrary2\ndesertok\nritrebate 25"
  },
  "224": {
   "name": "Sheol Temple",
-  "block": "selectterr 224\nname \"Sheol Temple\"\ngold 2\napcost 1\nbatmap 6\nsiegeable\nwoodengate\ncitadel\nfarsight\ntemple"
+  "block": "selectterr 224\nname \"Sheol Temple\"\ngold 2\napcost 1\nbatmap 6\nwalls\nwoodengate\ncitadel\nfarsight\ntemple"
  },
  "225": {
   "name": "Sealed Chamber",
-  "block": "selectterr 225\nname \"Sealed Chamber\"\napcost 1\nbatmap 6\nsiegeable\nirongate\nenchantedgate\ncitadel\ncave\nmountain\nuseable\ntemple\ntempimmune\nug"
+  "block": "selectterr 225\nname \"Sealed Chamber\"\napcost 1\nbatmap 6\nwalls\nirongate\nenchantedgate\ncitadel\ncave\nmountain\nuseable\ntemple\ntempimmune\nug"
  },
  "226": {
   "name": "Unsealed Chamber",
-  "block": "selectterr 226\nname \"Unsealed Chamber\"\napcost 1\nbatmap 6\nsiegeable\nirongate\nenchantedgate\ncitadel\ncave\nmountain\ntemple\ntempimmune\nug"
+  "block": "selectterr 226\nname \"Unsealed Chamber\"\napcost 1\nbatmap 6\nwalls\nirongate\nenchantedgate\ncitadel\ncave\nmountain\ntemple\ntempimmune\nug"
  },
  "227": {
   "name": "Floating Cube",
@@ -929,7 +929,7 @@
  },
  "232": {
   "name": "Corkscrew Towers",
-  "block": "selectterr 232\nname \"Corkscrew Towers\"\napcost 1\nbatmap 27\nsiegeable\nirongate\nmagicwalls\ninvisible\nvoid\nnodrown\nlibrary1\nlibrary2\ntempimmune"
+  "block": "selectterr 232\nname \"Corkscrew Towers\"\napcost 1\nbatmap 27\nwalls\nirongate\nmagicwalls\ninvisible\nvoid\nnodrown\nlibrary1\nlibrary2\ntempimmune"
  },
  "233": {
   "name": "Ancient Statue of Dvalin",
@@ -941,7 +941,7 @@
  },
  "235": {
   "name": "Repaired Old Castle",
-  "block": "selectterr 235\nname \"Repaired Old Castle\"\ndead 4\napcost 1\nbatmap 1\nsiegeable\nwoodengate\ncitadel\ninvisible\nfarsight"
+  "block": "selectterr 235\nname \"Repaired Old Castle\"\ndead 4\napcost 1\nbatmap 1\nwalls\nwoodengate\ncitadel\ninvisible\nfarsight"
  },
  "236": {
   "name": "Sacred Grove",
@@ -973,19 +973,19 @@
  },
  "243": {
   "name": "Capitolium",
-  "block": "selectterr 243\nname \"Capitolium\"\ngold 3\ntrade 1\nsacr 2\nhands 2\nlifeforce 30\ndead 7\npop 30\napcost 1\nbatmap 5\nsiegeable\nirongate\ncitadel\nnostart\nsettlement\ntempimmune\ntown2\nbonusrelics -1"
+  "block": "selectterr 243\nname \"Capitolium\"\ngold 3\ntrade 1\nsacr 2\nhands 2\nlifeforce 30\ndead 7\npop 30\napcost 1\nbatmap 5\nwalls\nirongate\ncitadel\nnostart\nsettlement\ntempimmune\ntown2\nbonusrelics -1"
  },
  "244": {
   "name": "Slums",
-  "block": "selectterr 244\nname \"Slums\"\ngold 2\nsacr 5\nhands 3\nlifeforce 50\ndead 7\npop 40\napcost 1\nbatmap 39\nsiegeable\nwoodengate\nnostart\nsettlement\ntempimmune\ntown1\nbonusrelics -2"
+  "block": "selectterr 244\nname \"Slums\"\ngold 2\nsacr 5\nhands 3\nlifeforce 50\ndead 7\npop 40\napcost 1\nbatmap 39\nwalls\nwoodengate\nnostart\nsettlement\ntempimmune\ntown1\nbonusrelics -2"
  },
  "245": {
   "name": "Plundered Temple District",
-  "block": "selectterr 245\nname \"Plundered Temple District\"\ngold 3\ntrade 1\nsacr 2\nhands 1\nlifeforce 30\ndead 10\npop 30\napcost 1\nbatmap 39\nsiegeable\nwoodengate\nnostart\ntemple\nsettlement\nlibrary1\ntempimmune\nbonusrelics 1"
+  "block": "selectterr 245\nname \"Plundered Temple District\"\ngold 3\ntrade 1\nsacr 2\nhands 1\nlifeforce 30\ndead 10\npop 30\napcost 1\nbatmap 39\nwalls\nwoodengate\nnostart\ntemple\nsettlement\nlibrary1\ntempimmune\nbonusrelics 1"
  },
  "246": {
   "name": "Barbarian District",
-  "block": "selectterr 246\nname \"Barbarian District\"\ngold 3\ntrade 1\nsacr 2\nhands 1\nlifeforce 40\ndead 9\npop 30\napcost 1\nbatmap 47\nsiegeable\nwoodengate\nnostart\nsettlement\ntempimmune"
+  "block": "selectterr 246\nname \"Barbarian District\"\ngold 3\ntrade 1\nsacr 2\nhands 1\nlifeforce 40\ndead 9\npop 30\napcost 1\nbatmap 47\nwalls\nwoodengate\nnostart\nsettlement\ntempimmune"
  },
  "247": {
   "name": "Barbarian Warcamp",
@@ -1009,7 +1009,7 @@
  },
  "252": {
   "name": "Divine Castle",
-  "block": "selectterr 252\nname \"Divine Castle\"\ngold 2\ndead 2\npop 2\napcost 1\nbatmap 30\nsiegeable\nirongate\nmagicwalls\ncitadel\ngoldboost\nfarsight"
+  "block": "selectterr 252\nname \"Divine Castle\"\ngold 2\ndead 2\npop 2\napcost 1\nbatmap 30\nwalls\nirongate\nmagicwalls\ncitadel\ngoldboost\nfarsight"
  },
  "253": {
   "name": "Mountain Spire",
@@ -1041,7 +1041,7 @@
  },
  "260": {
   "name": "Cloud City",
-  "block": "selectterr 260\nname \"Cloud City\"\ngold 4\ntrade 1\nlifeforce 4\ndead 5\napcost 2\nbatmap 20\nsiegeable\ncloudgate\ncitadel\ninvisible\nfarsight\nlibrary1\ndesertok"
+  "block": "selectterr 260\nname \"Cloud City\"\ngold 4\ntrade 1\nlifeforce 4\ndead 5\napcost 2\nbatmap 20\nwalls\ncloudgate\ncitadel\ninvisible\nfarsight\nlibrary1\ndesertok"
  },
  "261": {
   "name": "Cloud Village",
@@ -1061,11 +1061,11 @@
  },
  "265": {
   "name": "Cloud Palace",
-  "block": "selectterr 265\nname \"Cloud Palace\"\ngold 1\ngems 136\napcost 2\nbatmap 21\nsiegeable\ncloudgate\ncitadel\nfarsight\ndesertok"
+  "block": "selectterr 265\nname \"Cloud Palace\"\ngold 1\ngems 136\napcost 2\nbatmap 21\nwalls\ncloudgate\ncitadel\nfarsight\ndesertok"
  },
  "266": {
   "name": "Ramparts",
-  "block": "selectterr 266\nname \"Ramparts\"\nbatmap 10\nsiegeable\nwoodengate\nownable"
+  "block": "selectterr 266\nname \"Ramparts\"\nbatmap 10\nwalls\nwoodengate\nownable"
  },
  "267": {
   "name": "Beanstalk",
@@ -1077,7 +1077,7 @@
  },
  "269": {
   "name": "Beanstalk Castle",
-  "block": "selectterr 269\nname \"Beanstalk Castle\"\ngold 2\nherbs 4\napcost 1\nbatmap 3\nsiegeable\nirongate\ncitadel\nfarsight"
+  "block": "selectterr 269\nname \"Beanstalk Castle\"\ngold 2\nherbs 4\napcost 1\nbatmap 3\nwalls\nirongate\ncitadel\nfarsight"
  },
  "270": {
   "name": "Half-buried Sinners",
@@ -1085,39 +1085,39 @@
  },
  "271": {
   "name": "Palace of Dreams",
-  "block": "selectterr 271\nname \"Palace of Dreams\"\ngold 4\ngems 532480\napcost 1\nbatmap 4\nsiegeable\nirongate\ncitadel\nuseable\nfarsight"
+  "block": "selectterr 271\nname \"Palace of Dreams\"\ngold 4\ngems 532480\napcost 1\nbatmap 4\nwalls\nirongate\ncitadel\nuseable\nfarsight"
  },
  "272": {
   "name": "Palace of Dreams",
-  "block": "selectterr 272\nname \"Palace of Dreams\"\ngold 4\ngems 532480\napcost 3\nbatmap 4\nsiegeable\nirongate\ncitadel\nmountain\nuseable\nfarsight"
+  "block": "selectterr 272\nname \"Palace of Dreams\"\ngold 4\ngems 532480\napcost 3\nbatmap 4\nwalls\nirongate\ncitadel\nmountain\nuseable\nfarsight"
  },
  "273": {
   "name": "City of Merchants",
-  "block": "selectterr 273\nname \"City of Merchants\"\ngold 5\ntrade 3\nsacr 4\nhands 3\nlifeforce 60\ndead 5\npop 50\napcost 1\nbatmap 39\nsiegeable\nwoodengate\ncitadel\nsettlement\nlibrary1\ntown2"
+  "block": "selectterr 273\nname \"City of Merchants\"\ngold 5\ntrade 3\nsacr 4\nhands 3\nlifeforce 60\ndead 5\npop 50\napcost 1\nbatmap 39\nwalls\nwoodengate\ncitadel\nsettlement\nlibrary1\ntown2"
  },
  "274": {
   "name": "City of Scribes",
-  "block": "selectterr 274\nname \"City of Scribes\"\ngold 5\ntrade 2\nsacr 4\nhands 3\nlifeforce 60\ndead 5\npop 50\napcost 1\nbatmap 39\nsiegeable\nwoodengate\ncitadel\nsettlement\nlibrary2\ntown2"
+  "block": "selectterr 274\nname \"City of Scribes\"\ngold 5\ntrade 2\nsacr 4\nhands 3\nlifeforce 60\ndead 5\npop 50\napcost 1\nbatmap 39\nwalls\nwoodengate\ncitadel\nsettlement\nlibrary2\ntown2"
  },
  "275": {
   "name": "City of Herbalists",
-  "block": "selectterr 275\nname \"City of Herbalists\"\ngold 5\ntrade 2\nherbs 3\nfungus 3\nweed 1\nsacr 4\nhands 3\nlifeforce 60\ndead 5\npop 50\napcost 1\nbatmap 39\nsiegeable\nwoodengate\ncitadel\nsettlement\nlibrary1\ntown2"
+  "block": "selectterr 275\nname \"City of Herbalists\"\ngold 5\ntrade 2\nherbs 3\nfungus 3\nweed 1\nsacr 4\nhands 3\nlifeforce 60\ndead 5\npop 50\napcost 1\nbatmap 39\nwalls\nwoodengate\ncitadel\nsettlement\nlibrary1\ntown2"
  },
  "276": {
   "name": "City of Crafts",
-  "block": "selectterr 276\nname \"City of Crafts\"\ngold 5\niron 2\ntrade 2\nsacr 4\nhands 3\nlifeforce 60\ndead 5\npop 50\napcost 1\nbatmap 39\nsiegeable\nwoodengate\ncitadel\nsettlement\nlibrary1\ntown2"
+  "block": "selectterr 276\nname \"City of Crafts\"\ngold 5\niron 2\ntrade 2\nsacr 4\nhands 3\nlifeforce 60\ndead 5\npop 50\napcost 1\nbatmap 39\nwalls\nwoodengate\ncitadel\nsettlement\nlibrary1\ntown2"
  },
  "277": {
   "name": "City of Gems & Marvels",
-  "block": "selectterr 277\nname \"City of Gems & Marvels\"\ngold 6\ntrade 2\nsacr 4\nhands 3\ngems 36864\nlifeforce 60\ndead 5\npop 50\napcost 1\nbatmap 39\nsiegeable\nwoodengate\ncitadel\nsettlement\nlibrary1\ntown2"
+  "block": "selectterr 277\nname \"City of Gems & Marvels\"\ngold 6\ntrade 2\nsacr 4\nhands 3\ngems 36864\nlifeforce 60\ndead 5\npop 50\napcost 1\nbatmap 39\nwalls\nwoodengate\ncitadel\nsettlement\nlibrary1\ntown2"
  },
  "278": {
   "name": "Sacred City",
-  "block": "selectterr 278\nname \"Sacred City\"\ngold 5\ntrade 2\nsacr 5\nhands 3\nlifeforce 60\ndead 5\npop 50\napcost 1\nbatmap 39\nsiegeable\nwoodengate\ncitadel\ntemple\nsettlement\nlibrary1\ntown2\nbonusrelics 1"
+  "block": "selectterr 278\nname \"Sacred City\"\ngold 5\ntrade 2\nsacr 5\nhands 3\nlifeforce 60\ndead 5\npop 50\napcost 1\nbatmap 39\nwalls\nwoodengate\ncitadel\ntemple\nsettlement\nlibrary1\ntown2\nbonusrelics 1"
  },
  "279": {
   "name": "City of Vice",
-  "block": "selectterr 279\nname \"City of Vice\"\ngold 4\ntrade 2\nsacr 4\nhands 4\nlifeforce 60\ndead 5\npop 50\napcost 1\nbatmap 39\nsiegeable\nwoodengate\ncitadel\nsettlement\nlibrary1\ntown2\nbonusrelics -2"
+  "block": "selectterr 279\nname \"City of Vice\"\ngold 4\ntrade 2\nsacr 4\nhands 4\nlifeforce 60\ndead 5\npop 50\napcost 1\nbatmap 39\nwalls\nwoodengate\ncitadel\nsettlement\nlibrary1\ntown2\nbonusrelics -2"
  },
  "280": {
   "name": "Ford",
@@ -1129,7 +1129,7 @@
  },
  "282": {
   "name": "Kobold Lair",
-  "block": "selectterr 282\nname \"Kobold Lair\"\ngold 3\niron 1\nfungus 1\ngems 8192\ndead 5\napcost 3\nbatmap 15\nsiegeable\nwoodengate\ncave\nownable\ninvisible\nmountain\nmine\nhoburg\nsnowok"
+  "block": "selectterr 282\nname \"Kobold Lair\"\ngold 3\niron 1\nfungus 1\ngems 8192\ndead 5\napcost 3\nbatmap 15\nwalls\nwoodengate\ncave\nownable\ninvisible\nmountain\nmine\nhoburg\nsnowok"
  },
  "283": {
   "name": "Spider Thicket",
@@ -1137,7 +1137,7 @@
  },
  "284": {
   "name": "City of the First Men",
-  "block": "selectterr 284\nname \"City of the First Men\"\ngold 4\ntrade 1\nherbs 2\nweed 1\nsacr 3\nhands 2\nlifeforce 50\ndead 4\npop 35\napcost 1\nbatmap 9\nsiegeable\nwoodengate\ninvisible\nsettlement\ntown1"
+  "block": "selectterr 284\nname \"City of the First Men\"\ngold 4\ntrade 1\nherbs 2\nweed 1\nsacr 3\nhands 2\nlifeforce 50\ndead 4\npop 35\napcost 1\nbatmap 9\nwalls\nwoodengate\ninvisible\nsettlement\ntown1"
  },
  "285": {
   "name": "Misty Sea",
@@ -1145,31 +1145,31 @@
  },
  "286": {
   "name": "Mag Mell",
-  "block": "selectterr 286\nname \"Mag Mell\"\ngold 2\ndead 2\npop 2\napcost 1\nbatmap 26\nsiegeable\nirongate\ncitadel\nnostart\nfarsight"
+  "block": "selectterr 286\nname \"Mag Mell\"\ngold 2\ndead 2\npop 2\napcost 1\nbatmap 26\nwalls\nirongate\ncitadel\nnostart\nfarsight"
  },
  "287": {
   "name": "City of the Sky",
-  "block": "selectterr 287\nname \"City of the Sky\"\ngold 3\ntrade 1\nsacr 3\nhands 2\nlifeforce 60\ndead 10\npop 50\napcost 1\nbatmap 39\nsiegeable\nwoodengate\ncitadel\ntemple"
+  "block": "selectterr 287\nname \"City of the Sky\"\ngold 3\ntrade 1\nsacr 3\nhands 2\nlifeforce 60\ndead 10\npop 50\napcost 1\nbatmap 39\nwalls\nwoodengate\ncitadel\ntemple"
  },
  "288": {
   "name": "City of Rain",
-  "block": "selectterr 288\nname \"City of Rain\"\ngold 3\ntrade 1\nsacr 3\nhands 2\nlifeforce 60\ndead 10\npop 50\napcost 1\nbatmap 39\nsiegeable\nwoodengate\ncitadel\nsmoke\ntemple"
+  "block": "selectterr 288\nname \"City of Rain\"\ngold 3\ntrade 1\nsacr 3\nhands 2\nlifeforce 60\ndead 10\npop 50\napcost 1\nbatmap 39\nwalls\nwoodengate\ncitadel\nsmoke\ntemple"
  },
  "289": {
   "name": "City of War",
-  "block": "selectterr 289\nname \"City of War\"\ngold 3\ntrade 1\nsacr 3\nhands 2\nlifeforce 60\ndead 10\npop 50\napcost 1\nbatmap 39\nsiegeable\nwoodengate\ncitadel\nsmoke\ntemple"
+  "block": "selectterr 289\nname \"City of War\"\ngold 3\ntrade 1\nsacr 3\nhands 2\nlifeforce 60\ndead 10\npop 50\napcost 1\nbatmap 39\nwalls\nwoodengate\ncitadel\nsmoke\ntemple"
  },
  "290": {
   "name": "City of the Mother",
-  "block": "selectterr 290\nname \"City of the Mother\"\ngold 3\ntrade 1\nsacr 3\nhands 2\nlifeforce 60\ndead 10\npop 50\napcost 1\nbatmap 39\nsiegeable\nwoodengate\ncitadel\nsmoke\ntemple"
+  "block": "selectterr 290\nname \"City of the Mother\"\ngold 3\ntrade 1\nsacr 3\nhands 2\nlifeforce 60\ndead 10\npop 50\napcost 1\nbatmap 39\nwalls\nwoodengate\ncitadel\nsmoke\ntemple"
  },
  "291": {
   "name": "City of the Night",
-  "block": "selectterr 291\nname \"City of the Night\"\ngold 3\ntrade 1\npop 50\napcost 1\nbatmap 39\nsiegeable\nwoodengate\ncitadel\ntemple"
+  "block": "selectterr 291\nname \"City of the Night\"\ngold 3\ntrade 1\npop 50\napcost 1\nbatmap 39\nwalls\nwoodengate\ncitadel\ntemple"
  },
  "292": {
   "name": "City of the Dead",
-  "block": "selectterr 292\nname \"City of the Dead\"\ngold 3\ntrade 1\npop 50\napcost 1\nbatmap 39\nsiegeable\nwoodengate\ncitadel\ntemple"
+  "block": "selectterr 292\nname \"City of the Dead\"\ngold 3\ntrade 1\npop 50\napcost 1\nbatmap 39\nwalls\nwoodengate\ncitadel\ntemple"
  },
  "293": {
   "name": "Forest of the Horned One",
@@ -1201,23 +1201,23 @@
  },
  "300": {
   "name": "Palace of the Northern Storms",
-  "block": "selectterr 300\nname \"Palace of the Northern Storms\"\ngold 1\ngems 128\napcost 2\nbatmap 21\nsiegeable\ncloudgate\ncitadel\nfarsight\ndesertok"
+  "block": "selectterr 300\nname \"Palace of the Northern Storms\"\ngold 1\ngems 128\napcost 2\nbatmap 21\nwalls\ncloudgate\ncitadel\nfarsight\ndesertok"
  },
  "301": {
   "name": "Palace of the Eastern Storms",
-  "block": "selectterr 301\nname \"Palace of the Eastern Storms\"\ngold 1\ngems 128\napcost 2\nbatmap 21\nsiegeable\ncloudgate\ncitadel\nfarsight\ndesertok"
+  "block": "selectterr 301\nname \"Palace of the Eastern Storms\"\ngold 1\ngems 128\napcost 2\nbatmap 21\nwalls\ncloudgate\ncitadel\nfarsight\ndesertok"
  },
  "302": {
   "name": "Palace of the Southern Storms",
-  "block": "selectterr 302\nname \"Palace of the Southern Storms\"\ngold 1\ngems 128\napcost 2\nbatmap 21\nsiegeable\ncloudgate\ncitadel\nfarsight\ndesertok"
+  "block": "selectterr 302\nname \"Palace of the Southern Storms\"\ngold 1\ngems 128\napcost 2\nbatmap 21\nwalls\ncloudgate\ncitadel\nfarsight\ndesertok"
  },
  "303": {
   "name": "Palace of the Western Storms",
-  "block": "selectterr 303\nname \"Palace of the Western Storms\"\ngold 1\ngems 128\napcost 2\nbatmap 21\nsiegeable\ncloudgate\ncitadel\nfarsight\ndesertok"
+  "block": "selectterr 303\nname \"Palace of the Western Storms\"\ngold 1\ngems 128\napcost 2\nbatmap 21\nwalls\ncloudgate\ncitadel\nfarsight\ndesertok"
  },
  "304": {
   "name": "Monastery",
-  "block": "selectterr 304\nname \"Monastery\"\ngold 2\nherbs 1\ndead 2\npop 20\napcost 1\nbatmap 31\nsiegeable\nwoodengate\ntemple"
+  "block": "selectterr 304\nname \"Monastery\"\ngold 2\nherbs 1\ndead 2\npop 20\napcost 1\nbatmap 31\nwalls\nwoodengate\ntemple"
  },
  "305": {
   "name": "Unstable Clouds",
@@ -1253,7 +1253,7 @@
  },
  "313": {
   "name": "Cloud Castle",
-  "block": "selectterr 313\nname \"Cloud Castle\"\ngold 3\ngems 256\napcost 1\nbatmap 21\nsiegeable\ncloudgate\ncitadel\ndesertok"
+  "block": "selectterr 313\nname \"Cloud Castle\"\ngold 3\ngems 256\napcost 1\nbatmap 21\nwalls\ncloudgate\ncitadel\ndesertok"
  },
  "314": {
   "name": "Recuperating Ancient Forest",
@@ -1265,23 +1265,23 @@
  },
  "316": {
   "name": "Pirate Port",
-  "block": "selectterr 316\nname \"Pirate Port\"\ngold 3\ntrade 2\nsacr 3\nhands 2\nlifeforce 50\ndead 4\npop 30\napcost 1\nbatmap 28\nsiegeable\nwoodengate\ncitadel\ndeepspawn\nnodrown\nsettlement\ntown1\nport\nrealport\nseepast"
+  "block": "selectterr 316\nname \"Pirate Port\"\ngold 3\ntrade 2\nsacr 3\nhands 2\nlifeforce 50\ndead 4\npop 30\napcost 1\nbatmap 28\nwalls\nwoodengate\ncitadel\ndeepspawn\nnodrown\nsettlement\ntown1\nport\nrealport\nseepast"
  },
  "317": {
   "name": "Pirate Port",
-  "block": "selectterr 317\nname \"Pirate Port\"\ngold 3\ntrade 2\nsacr 3\nhands 2\nlifeforce 50\ndead 4\npop 30\napcost 1\nbatmap 28\nsiegeable\nwoodengate\ncitadel\ndeepspawn\nnodrown\nsettlement\ntown1\nport\nrealport\nseepast"
+  "block": "selectterr 317\nname \"Pirate Port\"\ngold 3\ntrade 2\nsacr 3\nhands 2\nlifeforce 50\ndead 4\npop 30\napcost 1\nbatmap 28\nwalls\nwoodengate\ncitadel\ndeepspawn\nnodrown\nsettlement\ntown1\nport\nrealport\nseepast"
  },
  "318": {
   "name": "Pirate Port",
-  "block": "selectterr 318\nname \"Pirate Port\"\ngold 3\ntrade 2\nsacr 3\nhands 2\nlifeforce 50\ndead 4\npop 30\napcost 1\nbatmap 28\nsiegeable\nwoodengate\ncitadel\ndeepspawn\nnodrown\nsettlement\ntown1\nport\nrealport\nseepast"
+  "block": "selectterr 318\nname \"Pirate Port\"\ngold 3\ntrade 2\nsacr 3\nhands 2\nlifeforce 50\ndead 4\npop 30\napcost 1\nbatmap 28\nwalls\nwoodengate\ncitadel\ndeepspawn\nnodrown\nsettlement\ntown1\nport\nrealport\nseepast"
  },
  "319": {
   "name": "Pirate Port",
-  "block": "selectterr 319\nname \"Pirate Port\"\ngold 3\ntrade 2\nsacr 3\nhands 2\nlifeforce 50\ndead 4\npop 30\napcost 1\nbatmap 28\nsiegeable\nwoodengate\ncitadel\ndeepspawn\nnodrown\nsettlement\ntown1\nport\nrealport\nseepast"
+  "block": "selectterr 319\nname \"Pirate Port\"\ngold 3\ntrade 2\nsacr 3\nhands 2\nlifeforce 50\ndead 4\npop 30\napcost 1\nbatmap 28\nwalls\nwoodengate\ncitadel\ndeepspawn\nnodrown\nsettlement\ntown1\nport\nrealport\nseepast"
  },
  "320": {
   "name": "Prison of Ba'al",
-  "block": "selectterr 320\nname \"Prison of Ba'al\"\napcost 1\nbatmap 6\nsiegeable\nmagicwalls\ncitadel"
+  "block": "selectterr 320\nname \"Prison of Ba'al\"\napcost 1\nbatmap 6\nwalls\nmagicwalls\ncitadel"
  },
  "321": {
   "name": "Inactive Gateway",
@@ -1289,23 +1289,23 @@
  },
  "322": {
   "name": "Eternal Vault",
-  "block": "selectterr 322\nname \"Eternal Vault\"\napcost 1\nbatmap 3\nsiegeable\nenchantedgate\nmagicwalls\nfarsight"
+  "block": "selectterr 322\nname \"Eternal Vault\"\napcost 1\nbatmap 3\nwalls\nenchantedgate\nmagicwalls\nfarsight"
  },
  "323": {
   "name": "Ghost Port",
-  "block": "selectterr 323\nname \"Ghost Port\"\ngold 4\npop 35\napcost 1\nbatmap 28\nsiegeable\nwoodengate\nmagicwalls\nnodrown\nport\nseepast"
+  "block": "selectterr 323\nname \"Ghost Port\"\ngold 4\npop 35\napcost 1\nbatmap 28\nwalls\nwoodengate\nmagicwalls\nnodrown\nport\nseepast"
  },
  "324": {
   "name": "Ghost Port",
-  "block": "selectterr 324\nname \"Ghost Port\"\ngold 4\npop 35\napcost 1\nbatmap 28\nsiegeable\nwoodengate\nmagicwalls\nnodrown\nport\nseepast"
+  "block": "selectterr 324\nname \"Ghost Port\"\ngold 4\npop 35\napcost 1\nbatmap 28\nwalls\nwoodengate\nmagicwalls\nnodrown\nport\nseepast"
  },
  "325": {
   "name": "Ghost Port",
-  "block": "selectterr 325\nname \"Ghost Port\"\ngold 4\npop 35\napcost 1\nbatmap 28\nsiegeable\nwoodengate\nmagicwalls\nnodrown\nport\nseepast"
+  "block": "selectterr 325\nname \"Ghost Port\"\ngold 4\npop 35\napcost 1\nbatmap 28\nwalls\nwoodengate\nmagicwalls\nnodrown\nport\nseepast"
  },
  "326": {
   "name": "Ghost Port",
-  "block": "selectterr 326\nname \"Ghost Port\"\ngold 4\npop 35\napcost 1\nbatmap 28\nsiegeable\nwoodengate\nmagicwalls\nnodrown\nport\nseepast"
+  "block": "selectterr 326\nname \"Ghost Port\"\ngold 4\npop 35\napcost 1\nbatmap 28\nwalls\nwoodengate\nmagicwalls\nnodrown\nport\nseepast"
  },
  "327": {
   "name": "Lion Tribe Village",
@@ -1317,11 +1317,11 @@
  },
  "329": {
   "name": "Bronze Castle",
-  "block": "selectterr 329\nname \"Bronze Castle\"\ngold 2\ndead 2\npop 2\napcost 1\nbatmap 37\nsiegeable\nirongate\ncitadel\nfarsight"
+  "block": "selectterr 329\nname \"Bronze Castle\"\ngold 2\ndead 2\npop 2\napcost 1\nbatmap 37\nwalls\nirongate\ncitadel\nfarsight"
  },
  "330": {
   "name": "Cloud Tower",
-  "block": "selectterr 330\nname \"Cloud Tower\"\ndead 1\npop 1\napcost 1\nbatmap 44\nsiegeable\ncloudgate\nownable\nfarsight\ndesertok"
+  "block": "selectterr 330\nname \"Cloud Tower\"\ndead 1\npop 1\napcost 1\nbatmap 44\nwalls\ncloudgate\nownable\nfarsight\ndesertok"
  },
  "331": {
   "name": "Katabatic Cave",
@@ -1349,7 +1349,7 @@
  },
  "337": {
   "name": "Castle Arcanum",
-  "block": "selectterr 337\nname \"Castle Arcanum\"\ngold 3\ntrade 1\nherbs 2\nfungus 2\ndead 3\napcost 1\nbatmap 34\nsiegeable\nenchantedgate\nmagicwalls\ncitadel\nfarsight\nlibrary1\nlibrary2\nhardfly\nritrebate 10"
+  "block": "selectterr 337\nname \"Castle Arcanum\"\ngold 3\ntrade 1\nherbs 2\nfungus 2\ndead 3\napcost 1\nbatmap 34\nwalls\nenchantedgate\nmagicwalls\ncitadel\nfarsight\nlibrary1\nlibrary2\nhardfly\nritrebate 10"
  },
  "338": {
   "name": "Ash Waste",
@@ -1381,7 +1381,7 @@
  },
  "345": {
   "name": "Wizard's Tower",
-  "block": "selectterr 345\nname \"Wizard's Tower\"\ngold 1\ngems 512\ndead 1\npop 1\napcost 1\nbatmap 12\nsiegeable\nirongate\ncitadel\nfarsight"
+  "block": "selectterr 345\nname \"Wizard's Tower\"\ngold 1\ngems 512\ndead 1\npop 1\napcost 1\nbatmap 12\nwalls\nirongate\ncitadel\nfarsight"
  },
  "346": {
   "name": "Frozen Sea",
@@ -1405,15 +1405,15 @@
  },
  "351": {
   "name": "City of Darkness",
-  "block": "selectterr 351\nname \"City of Darkness\"\ngold 5\ntrade 2\nhands 4\ndead 5\npop 50\napcost 1\nbatmap 39\nsiegeable\nwoodengate\ncitadel\nsettlement\nlibrary1"
+  "block": "selectterr 351\nname \"City of Darkness\"\ngold 5\ntrade 2\nhands 4\ndead 5\npop 50\napcost 1\nbatmap 39\nwalls\nwoodengate\ncitadel\nsettlement\nlibrary1"
  },
  "352": {
   "name": "Citadel of the Danavas",
-  "block": "selectterr 352\nname \"Citadel of the Danavas\"\ngold 2\ndead 5\napcost 1\nbatmap 8\nsiegeable\nirongate\ncitadel\nfarsight"
+  "block": "selectterr 352\nname \"Citadel of the Danavas\"\ngold 2\ndead 5\napcost 1\nbatmap 8\nwalls\nirongate\ncitadel\nfarsight"
  },
  "353": {
   "name": "Citadel of the Daityas",
-  "block": "selectterr 353\nname \"Citadel of the Daityas\"\ngold 2\ndead 5\napcost 1\nbatmap 8\nsiegeable\nirongate\ncitadel\nfarsight"
+  "block": "selectterr 353\nname \"Citadel of the Daityas\"\ngold 2\ndead 5\napcost 1\nbatmap 8\nwalls\nirongate\ncitadel\nfarsight"
  },
  "354": {
   "name": "Mausoleum",
@@ -1421,6 +1421,6 @@
  },
  "355": {
   "name": "Trade Town",
-  "block": "selectterr 355\nname \"Trade Town\"\ngold 4\ntrade 2\nsacr 3\nhands 2\nlifeforce 50\ndead 4\npop 35\napcost 1\nbatmap 38\nsiegeable\nwoodengate\ncitadel\ninvisible\nsettlement\ntown1"
+  "block": "selectterr 355\nname \"Trade Town\"\ngold 4\ntrade 2\nsacr 3\nhands 2\nlifeforce 50\ndead 4\npop 35\napcost 1\nbatmap 38\nwalls\nwoodengate\ncitadel\ninvisible\nsettlement\ntown1"
  }
 }
