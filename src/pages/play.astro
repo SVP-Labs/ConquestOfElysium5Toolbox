@@ -1133,8 +1133,14 @@ const starter = [
             // The game shows the weapon's own die with the monster's dmg as
             // a (+N) bonus, collapsing to a plain range when the weapon die
             // is 0 (all damage from the monster). Effective roll is 1d(sum).
+            // dmg values of 2^32 and above are the engine's special-effect
+            // bits, not dice (the base game's Net weapon lines carry one).
             let shown = "—";
-            if (die !== null) {
+            const encoded = lineDmg && Number(lineDmg.value) >= 2 ** 32;
+            if (encoded) {
+              shown = "special";
+              td.title = "the game data encodes a special effect here, not a damage die";
+            } else if (die !== null) {
               const wep = rec.dmg ?? 0;
               const bonus = Number(lineDmg.value);
               shown = wep > 0 ? (bonus > 0 ? `1-${wep} (+${bonus})` : `1-${wep}`) : `1-${bonus}`;
@@ -1142,9 +1148,9 @@ const starter = [
               shown = String(lineDmg.value);
             }
             td.appendChild(document.createTextNode(shown));
-            if (die !== null) {
+            if (!encoded && die !== null) {
               td.title = `${type ?? ""} — effective roll 1d${die} (weapon ${rec.dmg ?? 0} + monster ${lineDmg.value}), open-ended: a max result adds another die at -1`.trim();
-            } else if (type) {
+            } else if (!encoded && type) {
               td.title = type;
             }
           } else {
