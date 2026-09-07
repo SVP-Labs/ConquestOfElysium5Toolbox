@@ -5,6 +5,7 @@ import data from "../../modcheck/data/vanilla.json";
 import commandTable from "../../modcheck/data/commands.json";
 import schools from "../data/ritual-schools.json";
 import terrainGroups from "../data/terrain-groups.json";
+import sourceMonsters from "../data/source-monsters.json";
 
 const SITE = "https://toolbox.svp.gl";
 const commands = Object.keys(commandTable.commands).length;
@@ -31,6 +32,13 @@ base-game usage where they disagree. All pages are pre-rendered static HTML.
   fuzzy-searchable, filterable by section, attestation and documentation
   status. Each command has its own page at /commands/{name} with signature,
   argument types, valid sections, manual page number and real usage examples.
+
+## Source browser
+
+- [Source](${SITE}/source): the full mod-format definition of every base-game
+  monster (${Object.keys(sourceMonsters).length} records at /source/monsters/{number}) — each block is
+  valid mod syntax that can be pasted into a mod file, with command names
+  linking into the reference.
 
 ## Data tables
 
