@@ -38,6 +38,24 @@ function clip(text) {
   return text.length > MAX_LEN ? text.slice(0, 97) + "…" : text;
 }
 
+// The data source's # annotations are the extractor's own commentary, not
+// game data — examples show only the command line itself (same policy as
+// the /source blocks). Column padding collapses to single spaces.
+function cleanLine(line) {
+  let out = "";
+  let quoted = false;
+  for (const ch of line) {
+    if (ch === '"') quoted = !quoted;
+    if (!quoted && ch === "#") break;
+    if (!quoted && (ch === " " || ch === "\t")) {
+      if (out !== "" && !out.endsWith(" ")) out += " ";
+    } else {
+      out += ch;
+    }
+  }
+  return out.trim();
+}
+
 async function main() {
   const ripsDir = process.argv[2];
   if (!ripsDir) {
@@ -69,7 +87,8 @@ async function main() {
 
     for (const statement of statements) {
       if (!known.has(statement.name)) continue;
-      const text = clip(rawLines[statement.line - 1].trim());
+      const text = clip(cleanLine(rawLines[statement.line - 1]));
+      if (!text) continue;
       let pool = candidates.get(statement.name);
       if (!pool) candidates.set(statement.name, (pool = new Map()));
       const key = text.toLowerCase();
