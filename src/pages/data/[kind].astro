@@ -3,6 +3,7 @@ import Base from "../../layouts/Base.astro";
 import data from "../../../modcheck/data/vanilla.json";
 import schools from "../../data/ritual-schools.json";
 import terrainGroups from "../../data/terrain-groups.json";
+import spellPaths from "../../data/spell-paths.json";
 
 export function getStaticPaths() {
   const record = (kind) =>
@@ -32,6 +33,18 @@ export function getStaticPaths() {
       singular: "ritual school",
       plural: "ritual schools",
       entries: Object.entries(schools)
+        .map(([idx, name]) => [Number(idx), name])
+        .sort((a, b) => a[0] - b[0]),
+    },
+    {
+      kind: "spell-paths",
+      title: "Spell paths",
+      singular: "spell path",
+      plural: "spell paths",
+      note:
+        "The numbers a monster's spellweapon command refers to — a separate numbering from the ritual schools. " +
+        "Every spell of every path is listed in the combat spells table.",
+      entries: Object.entries(spellPaths)
         .map(([idx, name]) => [Number(idx), name])
         .sort((a, b) => a[0] - b[0]),
     },

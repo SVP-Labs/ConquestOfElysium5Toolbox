@@ -6,6 +6,10 @@ import commandTable from "../../modcheck/data/commands.json";
 import schools from "../data/ritual-schools.json";
 import terrainGroups from "../data/terrain-groups.json";
 import sourceMonsters from "../data/source-monsters.json";
+import spellPaths from "../data/spell-paths.json";
+import spellsByPath from "../data/spells.json";
+
+const spellTotal = Object.values(spellsByPath).reduce((a, l) => a + l.length, 0);
 
 const SITE = "https://toolbox.svp.gl";
 const commands = Object.keys(commandTable.commands).length;
@@ -49,6 +53,10 @@ base-game usage where they disagree. All pages are pre-rendered static HTML.
 - [Items](${SITE}/data/items): ${Object.keys(data.items).length} magic items.
 - [Rituals](${SITE}/data/rituals): ${Object.keys(data.rituals).length} rituals.
 - [Ritual schools](${SITE}/data/schools): the ${Object.keys(schools).length} pow numbers.
+- [Spell paths](${SITE}/data/spell-paths): the ${Object.keys(spellPaths).length} combat casting paths a
+  spellweapon command refers to.
+- [Combat spells](${SITE}/data/spells): all ${spellTotal} combat spells with level,
+  range, damage and area (spells are not moddable; reference only).
 - [Terrains](${SITE}/data/terrains): ${Object.keys(data.terrains).length} terrain numbers.
 - [Terrain groups](${SITE}/data/terrain-groups): the ${Object.keys(terrainGroups).length} negative terrain
   numbers (-1 to -${Object.keys(terrainGroups).length}); mods define their own in -1000 to -1199.

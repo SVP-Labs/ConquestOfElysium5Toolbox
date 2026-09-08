@@ -6,6 +6,10 @@ import manualDescriptions from "../../data/command-descriptions.json";
 import authoredDescriptions from "../../data/command-descriptions-overrides.json";
 import interactions from "../../data/command-interactions.json";
 import interactionGroups from "../../data/interaction-groups.json";
+import spellsByPath from "../../data/spells.json";
+import spellPaths from "../../data/spell-paths.json";
+import weaponsByIndex from "../../data/weapons-index.json";
+import { spellRelationsFor } from "../../lib/spell-display.js";
 import { SECTION_TIPS, STATUS_TIPS } from "../../lib/badge-tips.js";
 import { distance } from "../../../modcheck/src/suggest.js";
 
@@ -42,6 +46,9 @@ if (description.length > 150) description = description.slice(0, 149) + "…";
 const myGroups = interactionGroups.filter((g) => g.members.includes(name));
 const grouped = new Set(myGroups.flatMap((g) => g.members));
 const mentionEdges = (interactions[name] ?? []).filter((e) => !grouped.has(e.with));
+// Combat spells whose weapon record carries a restriction touching this tag
+// (e.g. undead-only spells on the undead page).
+const spellRelations = spellRelationsFor(name, spellsByPath, spellPaths, weaponsByIndex);
 
 const stem = (n) => n.replace(/^\+/, "").replace(/\d+$/, "");
 const myStem = stem(name);
@@ -171,7 +178,7 @@ const pagesLabel =
   }
 
   {
-    (myGroups.length > 0 || mentionEdges.length > 0) && (
+    (myGroups.length > 0 || mentionEdges.length > 0 || spellRelations.length > 0) && (
       <>
         <h2>Interacts with</h2>
         {myGroups.map((g) => (
@@ -198,6 +205,21 @@ const pagesLabel =
             </p>
             <p class="interaction-note">“{e.sentence}”</p>
             <p class="dim interaction-src">— {e.source}</p>
+          </div>
+        ))}
+        {spellRelations.map((r) => (
+          <div class="interaction">
+            <p class="interaction-note">{r.relation}:</p>
+            <p class="interaction-members">
+              {r.spells.map((sp) => (
+                <a href={`/data/spells#${sp.anchor}`} title={sp.pathName}>
+                  {sp.name}
+                </a>
+              ))}
+            </p>
+            <p class="dim interaction-src">
+              — targeting flags on the spells' weapon records; wording per the manual
+            </p>
           </div>
         ))}
       </>

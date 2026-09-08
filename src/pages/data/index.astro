@@ -3,6 +3,10 @@ import Base from "../../layouts/Base.astro";
 import data from "../../../modcheck/data/vanilla.json";
 import schools from "../../data/ritual-schools.json";
 import terrainGroups from "../../data/terrain-groups.json";
+import spellPaths from "../../data/spell-paths.json";
+import spellsByPath from "../../data/spells.json";
+
+const spellCount = Object.values(spellsByPath).reduce((a, l) => a + l.length, 0);
 
 // Related tables sit next to each other: rituals with their schools,
 // terrains with their groups.
@@ -36,6 +40,18 @@ const tables = [
     title: "Ritual schools",
     count: Object.keys(schools).length,
     desc: "Ritual school (pow) numbers with their names, from Necromancy to the Raksharaja.",
+  },
+  {
+    kind: "spell-paths",
+    title: "Spell paths",
+    count: Object.keys(spellPaths).length,
+    desc: "The combat casting paths a spellweapon command refers to — separate numbering from the ritual schools.",
+  },
+  {
+    kind: "spells",
+    title: "Combat spells",
+    count: spellCount,
+    desc: "Every combat spell of every path with level, range, damage and area — spells are not moddable, but spellweapon lines are read with this table.",
   },
   {
     kind: "terrains",

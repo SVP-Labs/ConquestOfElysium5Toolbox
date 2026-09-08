@@ -39,6 +39,10 @@ for (const line of lines) {
   const dt = /^dmgtype\s+\d+\s*#\s*([A-Za-z ]+?)\./.exec(line.trim());
   if (dt) cur.type = dt[1].trim();
   if (/^an(\s|$)/.test(line.trim())) cur.an = true;
+  // Targeting flags feed the spell-tag cross references and the Special
+  // column of the combat spells table.
+  const flag = /^(affectundead|affecthuman|affectanimal|affectmale|affectfemale|undead|undkill|holykill|stonekill|wallkill|tree|soft|mundane|drown|reanimate|ghoulify)(\s|#|$)/.exec(line.trim());
+  if (flag) (cur.flags ??= []).push(flag[1]);
 }
 
 fs.writeFileSync(
