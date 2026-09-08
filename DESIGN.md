@@ -207,7 +207,7 @@ source attached (see the rules table in play.astro).
   offered for research — they only work auto-learned. Corroborating
   negative evidence: the manual documents level 1-9 but none of the 583
   base-game rituals goes above level 3. Implemented as the validator's
-  `ritual-needs-free` warning (newritual blocks only; selectritual and
+  `ritual-needs-free` error (newritual blocks only; selectritual and
   copyritual blocks are exempt since the flag may already be present or
   copied in).
 - **Strength's combat role (owner's play knowledge, 2026-09-03):** str
