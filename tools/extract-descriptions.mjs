@@ -28,6 +28,54 @@ const manualLines = fs
   .readFileSync(path.join(dir, "reference_coe5-modding-manual-v5_36.txt"), "utf8")
   .split(/\r?\n/);
 
+const catalog = JSON.parse(
+  fs.readFileSync(path.join(import.meta.dirname, "..", "modcheck", "data", "commands.json"), "utf8"),
+).commands;
+
+// The manual's own table of contents maps each modding chapter to its start
+// page, which lets a paragraph's page number say which section the text is
+// about (undead is a monster flag on page 19 and a weapon flag on page 5).
+const CHAPTERS = [
+  ["Weapon Modding", "weapon"],
+  ["Magic Item Modding", "item"],
+  ["Monster Modding", "monster"],
+  ["Class Modding", "class"],
+  ["Terrain Modding", "terrain"],
+  ["Terrain Group Modding", "terrgroup"],
+  ["Ritual Modding", "ritual"],
+  ["Events", "event"],
+];
+const chapterStarts = [];
+for (const line of manualLines.slice(0, 120)) {
+  for (const [title, sec] of CHAPTERS) {
+    const m = new RegExp(`(?:^|\\s)${title}\\s+(\\d+)(?:\\s|$)`).exec(line);
+    if (m && !chapterStarts.some(([, s2]) => s2 === sec)) chapterStarts.push([Number(m[1]), sec]);
+  }
+}
+if (chapterStarts.length < CHAPTERS.length) {
+  console.error(`only ${chapterStarts.length} of ${CHAPTERS.length} chapters found in the TOC`);
+  process.exit(1);
+}
+chapterStarts.sort((a, b) => a[0] - b[0]);
+
+const HINTS = { terrgroup: "terrain group", ritual: "ritual", terrain: "terrain", monster: "monster", weapon: "weapon", item: "item", class: "class", event: "event" };
+
+const sectionFor = (page, command, text) => {
+  const starts = chapterStarts.filter(([p]) => p <= page);
+  if (starts.length === 0) return "mod";
+  const maxStart = starts.at(-1)[0];
+  const candidates = starts.filter(([p]) => p === maxStart).map(([, sec]) => sec);
+  if (candidates.length === 1) return candidates[0];
+  // Two chapters share the page (terrain groups and rituals both start on
+  // 32). The paragraph's own wording decides; failing that, the later
+  // chapter owns the rest of the page.
+  const lower = text.toLowerCase();
+  const byText = candidates.filter((c) => HINTS[c] && lower.includes(HINTS[c]));
+  if (byText.length === 1) return byText[0];
+  const own = catalog[command]?.sections ?? [];
+  return [...candidates].reverse().find((c) => own.includes(c)) ?? candidates.at(-1);
+};
+
 function segments(line) {
   const out = [];
   let col = 0;
@@ -60,7 +108,7 @@ const flushOne = (o) => {
   const text = o.lines.join(" ").replace(/\s+/g, " ").trim();
   if (text.length >= 20) {
     if (!collected.has(o.name)) collected.set(o.name, []);
-    collected.get(o.name).push({ page: o.page, text });
+    collected.get(o.name).push({ page: o.page, section: sectionFor(o.page, o.name, text), text });
   }
 };
 const flushAll = () => {
