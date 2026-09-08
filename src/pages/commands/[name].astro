@@ -4,6 +4,7 @@ import data from "../../../modcheck/data/commands.json";
 import allExamples from "../../data/examples.json";
 import manualDescriptions from "../../data/command-descriptions.json";
 import authoredDescriptions from "../../data/command-descriptions-overrides.json";
+import { SECTION_TIPS, STATUS_TIPS } from "../../lib/badge-tips.js";
 import { distance } from "../../../modcheck/src/suggest.js";
 
 export function getStaticPaths() {
@@ -58,9 +59,17 @@ const pagesLabel =
   <h1 class="cmd-title">{name}</h1>
 
   <p class="badges">
-    {cmd.sections.map((s) => <span class="badge">{s}</span>)}
+    {cmd.sections.map((s) => (
+      <span class="badge" title={SECTION_TIPS[s]}>
+        {s}
+      </span>
+    ))}
     {pagesLabel && <span class="dim pages">{pagesLabel}</span>}
-    {!cmd.documented && <span class="badge accent">to be documented</span>}
+    {!cmd.documented && (
+      <span class="badge accent" title={STATUS_TIPS.undocumented}>
+        to be documented
+      </span>
+    )}
   </p>
 
   <pre class="signature">{signatureLine}</pre>

@@ -1,6 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import data from "../../../modcheck/data/commands.json";
+import { SECTION_TIPS, STATUS_TIPS } from "../../lib/badge-tips.js";
 
 const { meta, commands } = data;
 const names = Object.keys(commands).sort();
@@ -64,10 +65,20 @@ const commandsIcon =
             </a>
             <span class="row-badges">
               {c.sections.map((s) => (
-                <span class="badge">{s}</span>
+                <span class="badge" title={SECTION_TIPS[s]}>
+                  {s}
+                </span>
               ))}
-              {!c.documented && <span class="badge accent">to be documented</span>}
-              {c.notes && <span class="badge accent">data note</span>}
+              {!c.documented && (
+                <span class="badge accent" title={STATUS_TIPS.undocumented}>
+                  to be documented
+                </span>
+              )}
+              {c.notes && (
+                <span class="badge accent" title={STATUS_TIPS.note}>
+                  data note
+                </span>
+              )}
             </span>
           </li>
         );
