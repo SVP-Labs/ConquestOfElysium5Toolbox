@@ -2,6 +2,9 @@
 import Base from "../../layouts/Base.astro";
 import data from "../../../modcheck/data/commands.json";
 import allExamples from "../../data/examples.json";
+import manualDescriptions from "../../data/command-descriptions.json";
+import authoredDescriptions from "../../data/command-descriptions-overrides.json";
+import { SECTION_TIPS, STATUS_TIPS } from "../../lib/badge-tips.js";
 import { distance } from "../../../modcheck/src/suggest.js";
 
 export function getStaticPaths() {
@@ -14,11 +17,20 @@ const cmd = data.commands[name];
 const examples = allExamples[name] ?? [];
 const notes = cmd.notes ? (Array.isArray(cmd.notes) ? cmd.notes : [cmd.notes]) : [];
 
+// "What it does": the manual's own prose where it has any; hand-curated
+// text from the overrides file wins where present (the curation contract —
+// regeneration never touches the overrides).
+const purpose = authoredDescriptions[name]
+  ? [{ text: authoredDescriptions[name], source: "authored" }]
+  : (manualDescriptions[name] ?? []).map((p) => ({ ...p, source: "manual" }));
+
 const signatureLine = cmd.signature ? `${name} ${cmd.signature}` : name;
 
-let description = cmd.signature
-  ? `CoE5 mod command ${name} — ${cmd.signature}`
-  : `CoE5 mod command ${name}`;
+let description = purpose.length
+  ? `CoE5 mod command ${name}: ${purpose[0].text}`
+  : cmd.signature
+    ? `CoE5 mod command ${name} — ${cmd.signature}`
+    : `CoE5 mod command ${name}`;
 if (description.length > 150) description = description.slice(0, 149) + "…";
 
 const stem = (n) => n.replace(/^\+/, "").replace(/\d+$/, "");
@@ -47,9 +59,17 @@ const pagesLabel =
   <h1 class="cmd-title">{name}</h1>
 
   <p class="badges">
-    {cmd.sections.map((s) => <span class="badge">{s}</span>)}
+    {cmd.sections.map((s) => (
+      <span class="badge" title={SECTION_TIPS[s]}>
+        {s}
+      </span>
+    ))}
     {pagesLabel && <span class="dim pages">{pagesLabel}</span>}
-    {!cmd.documented && <span class="badge accent">to be documented</span>}
+    {!cmd.documented && (
+      <span class="badge accent" title={STATUS_TIPS.undocumented}>
+        to be documented
+      </span>
+    )}
   </p>
 
   <pre class="signature">{signatureLine}</pre>
@@ -107,6 +127,24 @@ const pagesLabel =
   }
 
   {
+    purpose.length > 0 && (
+      <>
+        <h2>What it does</h2>
+        {purpose.map((p) => (
+          <div class="purpose">
+            <p>{p.text}</p>
+            <p class="dim purpose-src">
+              {p.source === "manual"
+                ? `— modding manual${p.page ? `, page ${p.page}` : ""}`
+                : "— toolbox note, written from base-game usage"}
+            </p>
+          </div>
+        ))}
+      </>
+    )
+  }
+
+  {
     examples.length > 0 && (
       <>
         <h2>From the base game data</h2>
@@ -143,6 +181,19 @@ const pagesLabel =
 <style>
   .cmd-title {
     font-family: var(--mono);
+  }
+
+  .purpose p {
+    margin: 0 0 0.15rem;
+    max-width: 44rem;
+  }
+
+  .purpose {
+    margin-bottom: 0.9rem;
+  }
+
+  .purpose-src {
+    font-size: 0.8rem;
   }
 
   .badges {
