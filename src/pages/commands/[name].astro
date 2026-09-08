@@ -178,7 +178,7 @@ const pagesLabel =
   }
 
   {
-    (myGroups.length > 0 || mentionEdges.length > 0 || spellRelations.length > 0) && (
+    (myGroups.length > 0 || mentionEdges.length > 0) && (
       <>
         <h2>Interacts with</h2>
         {myGroups.map((g) => (
@@ -207,6 +207,14 @@ const pagesLabel =
             <p class="dim interaction-src">— {e.source}</p>
           </div>
         ))}
+      </>
+    )
+  }
+
+  {
+    spellRelations.length > 0 && (
+      <>
+        <h2>Spell interactions</h2>
         {spellRelations.map((r) => (
           <div class="interaction">
             <p class="interaction-note">{r.relation}:</p>
