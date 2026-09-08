@@ -1,0 +1,57 @@
+[
+ {
+  "note": "Undead beings and demons can be banished. A monster with banishsurv is flung to another plane — Hades, Inferno, or its home — instead of being destroyed when that happens.",
+  "members": ["undead", "demonic", "banishsurv"],
+  "source": "manual + base-game usage"
+ },
+ {
+  "note": "A weapon with an affect… restriction only harms beings carrying the matching type flag: affecthuman requires human, affectundead requires undead, affectanimal requires animal, and affectmale / affectfemale check the being's sex (female marks a monster or item wearer as female).",
+  "members": ["affecthuman", "affectundead", "affectanimal", "affectmale", "affectfemale", "human", "undead", "animal", "female"],
+  "source": "manual"
+ },
+ {
+  "note": "holykill weapons deal double damage against undead and demons; undkill weapons only against undead.",
+  "members": ["holykill", "undkill", "undead", "demonic"],
+  "source": "manual"
+ },
+ {
+  "note": "Rituals marked noundead or nodemon are never known by undead or demonic casters.",
+  "members": ["noundead", "nodemon", "undead", "demonic"],
+  "source": "manual"
+ },
+ {
+  "note": "The stealth flags hide the monster in the matching terrain — terrstealthinv upgrades terrain stealth to full invisibility, and hideanimals gives forest stealth to animals following the commander. A monster with acutesenses sees through Stealth and Forest Stealth regardless.",
+  "members": ["stealth", "foreststealth", "snowstealth", "desertstealth", "terrstealth", "terrstealthinv", "invisible", "hideanimals", "acutesenses"],
+  "source": "manual + base-game usage"
+ },
+ {
+  "note": "These flags set which magic item slots the monster has: allitemslots grants the full set, weaponslots only a weapon and two misc slots, miscslots only two misc slots, nobootslots everything except footwear, and noslots none at all.",
+  "members": ["allitemslots", "weaponslots", "miscslots", "noslots", "nobootslots"],
+  "source": "manual + base-game usage"
+ },
+ {
+  "note": "walls make a location defensible under siege; the wallkill and stonekill weapon flags are the counters (x5 and x2 damage against walls). siegetunnel lets an attacker surface inside the walls, passwall and deployoutside bypass them, and magicwalls stop even ethereal units.",
+  "members": ["walls", "siegeweapon", "siegetunnel", "wallkill", "stonekill", "passwall", "deployoutside", "magicwalls"],
+  "source": "manual + base-game usage"
+ },
+ {
+  "note": "A mirror unit holds images (mirrorammo sets the default, fillmirror fills it) and releases phantasms or spells (releasephant, releasespell, releaserate); revertmirror returns the empty unit to a mirror, and mirrortarg targets an empty mirror in events.",
+  "members": ["mirror", "mirrorammo", "fillmirror", "revertmirror", "releasephant", "releasespell", "releaserate", "phantasm", "mirrortarg"],
+  "source": "manual"
+ },
+ {
+  "note": "Leveling up turns the monster into the one named by its mastery command; libmastery levels it through library study, and the levelup / levelupmon ritual effects trigger the change (levelupmon takes the new type from addstring).",
+  "members": ["mastery", "libmastery", "levelup", "levelupmon"],
+  "source": "manual"
+ },
+ {
+  "note": "regeneration heals about 5% of hit points per combat round (varregen a custom percentage). noheal stops normal healing, but a terrain with healonterr heals even noheal monsters.",
+  "members": ["regeneration", "varregen", "noheal", "healonterr"],
+  "source": "manual"
+ },
+ {
+  "note": "The numbered terrain flags (desert1, mines1, swamp2, …) and likesterr / lovesterr / hatesterr steer where the monster wanders when it is an independent or stupid commander; followstupid units tag along with other stupid units.",
+  "members": ["stupid", "followstupid", "likesterr", "lovesterr", "hatesterr"],
+  "source": "manual + base-game usage"
+ }
+]

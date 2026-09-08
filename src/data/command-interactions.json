@@ -1,0 +1,1860 @@
+{
+ "addallsettlements": [
+  {
+   "with": "settlement",
+   "sentence": "Adds all different human settlement terrains to the group.",
+   "source": "addallsettlements's description (manual, page 32)"
+  }
+ ],
+ "addstring": [
+  {
+   "with": "fewmonreq",
+   "sentence": "The monsters in addstring \"(-)...\" must not be more than max at current location.",
+   "source": "fewmonreq's description (manual, page 34)"
+  },
+  {
+   "with": "levelupmon",
+   "sentence": "Like levelup, but the new monster type is set by the addstring command.",
+   "source": "levelupmon's description (manual, page 33)"
+  },
+  {
+   "with": "minmonreq",
+   "sentence": "The monsters in addstring \"(&)...\" must be at least 'min' in number at current location.",
+   "source": "minmonreq's description (manual, page 34)"
+  },
+  {
+   "with": "monplayerreq",
+   "sentence": "At least min number (default 1) of the monsters in addstring \"(&)...\" must be in the world and owned by the current player.",
+   "source": "monplayerreq's description (manual, page 34)"
+  },
+  {
+   "with": "montarg",
+   "sentence": "Sets targ unit to a random unit at target location among the type added by addstring.",
+   "source": "montarg's description (manual, page 35)"
+  },
+  {
+   "with": "monworldreq",
+   "sentence": "At least min number (default 1) of the monsters in addstring \"(&)...\" must be in the world.",
+   "source": "monworldreq's description (manual, page 34)"
+  },
+  {
+   "with": "nomonelysiumreq",
+   "sentence": "Monsters in addstring \"(-)...\" must not be in elysium/sky/agartha.",
+   "source": "nomonelysiumreq's description (manual, page 34)"
+  },
+  {
+   "with": "nomonhomereq",
+   "sentence": "Monsters in addstring \"(-)...\" must not have their home at current location.",
+   "source": "nomonhomereq's description (manual, page 34)"
+  },
+  {
+   "with": "nomonmasteryreq",
+   "sentence": "Monsters in addstring \"(-)...\" must not be in the world and owned by the current player unless level is higher than ritual requires",
+   "source": "nomonmasteryreq's description (manual, page 34)"
+  },
+  {
+   "with": "nomonplayerreq",
+   "sentence": "Monsters in addstring \"(-)...\" in the world and owned by the current player must be fewer than limit.",
+   "source": "nomonplayerreq's description (manual, page 34)"
+  },
+  {
+   "with": "nomonreq",
+   "sentence": "Monsters in addstring \"(-)...\" must not be at current location.",
+   "source": "nomonreq's description (manual, page 34)"
+  },
+  {
+   "with": "nomonworldreq",
+   "sentence": "Monsters in addstring \"(-)...\" in the world must be fewer than limit.",
+   "source": "nomonworldreq's description (manual, page 34)"
+  },
+  {
+   "with": "promotion",
+   "sentence": "Use addstring to add promotion pairs, the first string sets a source unit and the second one the destination units.",
+   "source": "promotion's description (manual, page 33)"
+  },
+  {
+   "with": "ritequipall",
+   "sentence": "use addstring \"|Ring of Protection\" if you want the target unit to receive a ring of protection.",
+   "source": "ritequipall's description (manual, page 36)"
+  },
+  {
+   "with": "summoning",
+   "sentence": "Use addstring to add up to 15 strings with monsters.",
+   "source": "summoning's description (manual, page 33)"
+  },
+  {
+   "with": "transformtarg",
+   "sentence": "Will transform target into the unit type set by addstring.",
+   "source": "transformtarg's description (manual, page 33)"
+  }
+ ],
+ "affectmale": [
+  {
+   "with": "female",
+   "sentence": "Marks the monster, or the item's wearer, as female — weapons restricted to affecting males (affectmale) cannot harm it.",
+   "source": "female's description (toolbox note)"
+  }
+ ],
+ "affectundead": [
+  {
+   "with": "undead",
+   "sentence": "The weapon only affects undead.",
+   "source": "affectundead's description (manual, page 5)"
+  }
+ ],
+ "airbreather": [
+  {
+   "with": "drown",
+   "sentence": "This wateronly unit will not drown on land",
+   "source": "airbreather's description (manual, page 23)"
+  },
+  {
+   "with": "wateronly",
+   "sentence": "This wateronly unit will not drown on land",
+   "source": "airbreather's description (manual, page 23)"
+  }
+ ],
+ "aiwhere": [
+  {
+   "with": "immobile",
+   "sentence": "1=seldom in plains/cities (for druid animal summoning), 2=only in squares we want to defend (for immobile guardian summoning)",
+   "source": "aiwhere's description (manual, page 37)"
+  }
+ ],
+ "barricade": [
+  {
+   "with": "earthbarricade",
+   "sentence": "Earth barricade gate",
+   "source": "earthbarricade's description (manual, page 30)"
+  }
+ ],
+ "bentarg": [
+  {
+   "with": "bentargall",
+   "sentence": "Like bentarg, but also affects all the target's followers.",
+   "source": "bentargall's description (manual, page 36)"
+  },
+  {
+   "with": "bentargvar",
+   "sentence": "Like bentarg, but the unit will only be affected if he is located in the terrain in the generic modding variable.",
+   "source": "bentargvar's description (manual, page 36)"
+  }
+ ],
+ "bentargall": [
+  {
+   "with": "bentarg",
+   "sentence": "Like bentarg, but also affects all the target's followers.",
+   "source": "bentargall's description (manual, page 36)"
+  }
+ ],
+ "bentargvar": [
+  {
+   "with": "bentarg",
+   "sentence": "Like bentarg, but the unit will only be affected if he is located in the terrain in the generic modding variable.",
+   "source": "bentargvar's description (manual, page 36)"
+  }
+ ],
+ "bonusrelics": [
+  {
+   "with": "relics",
+   "sentence": "Get this number of extra relics from this location.",
+   "source": "bonusrelics's description (manual, page 31)"
+  }
+ ],
+ "bramblegate": [
+  {
+   "with": "cloudgate",
+   "sentence": "Marks the terrain's fort gate as a Bramble Gate, akin to how cloudgate sets a Cloud Gate.",
+   "source": "bramblegate's description (toolbox note)"
+  }
+ ],
+ "chooseloc": [
+  {
+   "with": "horror",
+   "sentence": "2=deviate to many dead, 3=empty mirror req, 4=empty gold mirror, 5=horror mark deviation",
+   "source": "chooseloc's description (manual, page 35)"
+  },
+  {
+   "with": "mirror",
+   "sentence": "2=deviate to many dead, 3=empty mirror req, 4=empty gold mirror, 5=horror mark deviation",
+   "source": "chooseloc's description (manual, page 35)"
+  },
+  {
+   "with": "multiplane",
+   "sentence": "Set wheter chooseloc can select locations on other planes or not.",
+   "source": "multiplane's description (manual, page 36)"
+  }
+ ],
+ "clearmove": [
+  {
+   "with": "clearspec",
+   "sentence": "Use the clearmove command for that.",
+   "source": "clearspec's description (manual, page 14)"
+  }
+ ],
+ "clearspec": [
+  {
+   "with": "clearmove",
+   "sentence": "Use the clearmove command for that.",
+   "source": "clearspec's description (manual, page 14)"
+  }
+ ],
+ "cloudgate": [
+  {
+   "with": "bramblegate",
+   "sentence": "Marks the terrain's fort gate as a Bramble Gate, akin to how cloudgate sets a Cloud Gate.",
+   "source": "bramblegate's description (toolbox note)"
+  }
+ ],
+ "coastal": [
+  {
+   "with": "eastcoast",
+   "sentence": "Restricts where the terrain can be placed on the map to coastal tiles only; despite the flag's name, it is not limited to the eastern coast and can appear along any coastline.",
+   "source": "eastcoast's description (toolbox note)"
+  }
+ ],
+ "colonymsg": [
+  {
+   "with": "message",
+   "sentence": "1 = everyone will get a message when a colony is created.",
+   "source": "colonymsg's description (manual, page 18)"
+  }
+ ],
+ "createcit": [
+  {
+   "with": "startplane",
+   "sentence": "If you use this command you should also use the \"createcit\" command and the terrain set as hometerr should be set to a gateway/pit/spire terrain.",
+   "source": "startplane's description (manual, page 27)"
+  }
+ ],
+ "ctrlchance": [
+  {
+   "with": "defctrl",
+   "sentence": "Can be overridden by monster's own ctrlchance.",
+   "source": "defctrl's description (manual, page 33)"
+  }
+ ],
+ "deadforest1": [
+  {
+   "with": "deadforest2",
+   "sentence": "By the same naming pattern as deadforest1 and the other paired terrain flags, this presumably marks the monster as merely liking dead-forest terrain, so an independent or mindless commander would stray no more than one square from it.",
+   "source": "deadforest2's description (toolbox note)"
+  },
+  {
+   "with": "desert1",
+   "sentence": "desert1/2, jungle1/2), this presumably marks the monster as loving dead-forest terrain, so an independent or mindless commander with it would refuse to leave such ground.",
+   "source": "deadforest1's description (toolbox note)"
+  },
+  {
+   "with": "jungle1",
+   "sentence": "desert1/2, jungle1/2), this presumably marks the monster as loving dead-forest terrain, so an independent or mindless commander with it would refuse to leave such ground.",
+   "source": "deadforest1's description (toolbox note)"
+  }
+ ],
+ "deadforest2": [
+  {
+   "with": "deadforest1",
+   "sentence": "By the same naming pattern as deadforest1 and the other paired terrain flags, this presumably marks the monster as merely liking dead-forest terrain, so an independent or mindless commander would stray no more than one square from it.",
+   "source": "deadforest2's description (toolbox note)"
+  },
+  {
+   "with": "stray",
+   "sentence": "By the same naming pattern as deadforest1 and the other paired terrain flags, this presumably marks the monster as merely liking dead-forest terrain, so an independent or mindless commander would stray no more than one square from it.",
+   "source": "deadforest2's description (toolbox note)"
+  }
+ ],
+ "defctrl": [
+  {
+   "with": "ctrlchance",
+   "sentence": "Can be overridden by monster's own ctrlchance.",
+   "source": "defctrl's description (manual, page 33)"
+  }
+ ],
+ "defiler": [
+  {
+   "with": "lifeforce",
+   "sentence": "Needs to drain lifeforce to cast spells, range=max drain range.",
+   "source": "defiler's description (manual, page 23)"
+  }
+ ],
+ "deployoutside": [
+  {
+   "with": "walls",
+   "sentence": "The monster probably needs to be small (1x1 square) and few in numbers for the deployment to work properly, there is not much space left outside the walls before coming too close to the enemies.",
+   "source": "deployoutside's description (manual, page 23)"
+  }
+ ],
+ "desert1": [
+  {
+   "with": "deadforest1",
+   "sentence": "desert1/2, jungle1/2), this presumably marks the monster as loving dead-forest terrain, so an independent or mindless commander with it would refuse to leave such ground.",
+   "source": "deadforest1's description (toolbox note)"
+  },
+  {
+   "with": "mountain1",
+   "sentence": "Marks the monster as loving mountain terrain, so as an independent or stupid commander it will never move away from squares containing mountains. Never used in the base game data; behaviour inferred from the matching fla",
+   "source": "mountain1's description (toolbox note)"
+  },
+  {
+   "with": "stupid",
+   "sentence": "Marks the monster as loving desert terrain: an independent or mindless (\"stupid\") commander carrying this flag will refuse to move off desert squares.",
+   "source": "desert1's description (toolbox note)"
+  }
+ ],
+ "desert2": [
+  {
+   "with": "stray",
+   "sentence": "Marks the monster as liking desert terrain: an independent or mindless commander carrying this flag will not stray more than one square from desert ground.",
+   "source": "desert2's description (toolbox note)"
+  }
+ ],
+ "desolator": [
+  {
+   "with": "lifeforce",
+   "sentence": "Drain value lifeforce from current square each month (like scourge lord pillar).",
+   "source": "desolator's description (manual, page 23)"
+  }
+ ],
+ "dmgonterr": [
+  {
+   "with": "dmgonterrbonus",
+   "sentence": "Adds to the damage of the dmgonterr ability",
+   "source": "dmgonterrbonus's description (manual, page 22)"
+  }
+ ],
+ "dmgonterrbonus": [
+  {
+   "with": "dmgonterr",
+   "sentence": "Adds to the damage of the dmgonterr ability",
+   "source": "dmgonterrbonus's description (manual, page 22)"
+  }
+ ],
+ "drown": [
+  {
+   "with": "airbreather",
+   "sentence": "This wateronly unit will not drown on land",
+   "source": "airbreather's description (manual, page 23)"
+  },
+  {
+   "with": "nodrown",
+   "sentence": "No one will drown in this terrain.",
+   "source": "nodrown's description (manual, page 31)"
+  }
+ ],
+ "earthbarricade": [
+  {
+   "with": "barricade",
+   "sentence": "Earth barricade gate",
+   "source": "earthbarricade's description (manual, page 30)"
+  }
+ ],
+ "eastcoast": [
+  {
+   "with": "coastal",
+   "sentence": "Restricts where the terrain can be placed on the map to coastal tiles only; despite the flag's name, it is not limited to the eastern coast and can appear along any coastline.",
+   "source": "eastcoast's description (toolbox note)"
+  }
+ ],
+ "ethereal": [
+  {
+   "with": "resrestrict",
+   "sentence": "Useful values are 2^4 for undead, 2^20 for immortal and 2^26 for ethereal.",
+   "source": "resrestrict's description (manual, page 34)"
+  }
+ ],
+ "expendable": [
+  {
+   "with": "goblin",
+   "sentence": "Is an expendable goblin (can be used payment for certain rituals/recruitments).",
+   "source": "goblin's description (manual, page 20)"
+  },
+  {
+   "with": "kobold",
+   "sentence": "Is an expendable kobold (counts as expendable unit, but comes with a different ability description).",
+   "source": "kobold's description (manual, page 20)"
+  }
+ ],
+ "falselife": [
+  {
+   "with": "inanimate",
+   "sentence": "Can make an inanimate being living.",
+   "source": "falselife's description (manual, page 10)"
+  }
+ ],
+ "fear": [
+  {
+   "with": "mor",
+   "sentence": "Setting the morale to 99 makes the monster Mindless and it will be completely unaffected by fear or any other effects that influence morale.",
+   "source": "mor's description (manual, page 14)"
+  }
+ ],
+ "female": [
+  {
+   "with": "affectmale",
+   "sentence": "Marks the monster, or the item's wearer, as female — weapons restricted to affecting males (affectmale) cannot harm it.",
+   "source": "female's description (toolbox note)"
+  }
+ ],
+ "fewmonreq": [
+  {
+   "with": "addstring",
+   "sentence": "The monsters in addstring \"(-)...\" must not be more than max at current location.",
+   "source": "fewmonreq's description (manual, page 34)"
+  }
+ ],
+ "fillmirror": [
+  {
+   "with": "mirror",
+   "sentence": "Puts a number of images into a mirror, -1 = fill to default value (mirrorammo)",
+   "source": "fillmirror's description (manual, page 36)"
+  },
+  {
+   "with": "mirrorammo",
+   "sentence": "Puts a number of images into a mirror, -1 = fill to default value (mirrorammo)",
+   "source": "fillmirror's description (manual, page 36)"
+  }
+ ],
+ "flying": [
+  {
+   "with": "flylook",
+   "sentence": "The visual effect (see table Visual Effects, page 7) of the flying projectile, ranged weapons only.",
+   "source": "flylook's description (manual, page 4)"
+  },
+  {
+   "with": "flymode",
+   "sentence": "Those marked with an asterisk (*) behave like normal for aoe 1 effects, but with larger aoe they still only create one flying graphical effect.",
+   "source": "flymode's description (manual, page 4)"
+  },
+  {
+   "with": "flysound",
+   "sentence": "The sound effect when the projectile starts flying, ranged weapons only.",
+   "source": "flysound's description (manual, page 4)"
+  },
+  {
+   "with": "teleport",
+   "sentence": "Like flying, but the monster will teleport around in combat.",
+   "source": "teleport's description (manual, page 16)"
+  }
+ ],
+ "flylook": [
+  {
+   "with": "flying",
+   "sentence": "The visual effect (see table Visual Effects, page 7) of the flying projectile, ranged weapons only.",
+   "source": "flylook's description (manual, page 4)"
+  },
+  {
+   "with": "flymode",
+   "sentence": "If flymode is 1 a fly sprite (see table Fly Sprites, page 6) should be used instead of a look number.",
+   "source": "flylook's description (manual, page 4)"
+  }
+ ],
+ "flymode": [
+  {
+   "with": "flying",
+   "sentence": "Those marked with an asterisk (*) behave like normal for aoe 1 effects, but with larger aoe they still only create one flying graphical effect.",
+   "source": "flymode's description (manual, page 4)"
+  },
+  {
+   "with": "flylook",
+   "sentence": "If flymode is 1 a fly sprite (see table Fly Sprites, page 6) should be used instead of a look number.",
+   "source": "flylook's description (manual, page 4)"
+  },
+  {
+   "with": "visible",
+   "sentence": "Set this if a projectile should be visible for a ranged attack.",
+   "source": "flymode's description (manual, page 4)"
+  }
+ ],
+ "flysound": [
+  {
+   "with": "flying",
+   "sentence": "The sound effect when the projectile starts flying, ranged weapons only.",
+   "source": "flysound's description (manual, page 4)"
+  }
+ ],
+ "followstupid": [
+  {
+   "with": "stupid",
+   "sentence": "Doesn't move independently, but follows other stupid units.",
+   "source": "followstupid's description (manual, page 16)"
+  }
+ ],
+ "fungus": [
+  {
+   "with": "gatherfungus",
+   "sentence": "A commander with this ability will enable the player to gather fungus.",
+   "source": "gatherfungus's description (manual, page 17)"
+  },
+  {
+   "with": "tree",
+   "sentence": "Tree/bushes/fungus are immune to this weapon",
+   "source": "tree's description (manual, page 6)"
+  }
+ ],
+ "gatheranygems": [
+  {
+   "with": "gems",
+   "sentence": "A commander with this ability will enable the player to gather gems.",
+   "source": "gatheranygems's description (manual, page 17)"
+  }
+ ],
+ "gatherfungus": [
+  {
+   "with": "fungus",
+   "sentence": "A commander with this ability will enable the player to gather fungus.",
+   "source": "gatherfungus's description (manual, page 17)"
+  }
+ ],
+ "gathergems": [
+  {
+   "with": "gems",
+   "sentence": "A commander with this ability will enable the player to gather gems of individual types.",
+   "source": "gathergems's description (manual, page 17)"
+  }
+ ],
+ "gatherherbs": [
+  {
+   "with": "herbs",
+   "sentence": "A commander with this ability will enable the player to gather herbs.",
+   "source": "gatherherbs's description (manual, page 17)"
+  }
+ ],
+ "gatherlifeforce": [
+  {
+   "with": "lifeforce",
+   "sentence": "A commander with this ability will enable the player to gather lifeforce.",
+   "source": "gatherlifeforce's description (manual, page 17)"
+  }
+ ],
+ "gatherrelics": [
+  {
+   "with": "relics",
+   "sentence": "A commander with this ability will enable the player to gather relics.",
+   "source": "gatherrelics's description (manual, page 17)"
+  }
+ ],
+ "gatherweed": [
+  {
+   "with": "weed",
+   "sentence": "A commander with this ability will enable the player to gather weed.",
+   "source": "gatherweed's description (manual, page 17)"
+  }
+ ],
+ "gems": [
+  {
+   "with": "gatheranygems",
+   "sentence": "A commander with this ability will enable the player to gather gems.",
+   "source": "gatheranygems's description (manual, page 17)"
+  },
+  {
+   "with": "gathergems",
+   "sentence": "A commander with this ability will enable the player to gather gems of individual types.",
+   "source": "gathergems's description (manual, page 17)"
+  },
+  {
+   "with": "seegems",
+   "sentence": "A commander with this ability will enable the player to see what type of gems mine produce.",
+   "source": "seegems's description (manual, page 17)"
+  }
+ ],
+ "goblin": [
+  {
+   "with": "expendable",
+   "sentence": "Is an expendable goblin (can be used payment for certain rituals/recruitments).",
+   "source": "goblin's description (manual, page 20)"
+  }
+ ],
+ "healonterr": [
+  {
+   "with": "noheal",
+   "sentence": "Will heal faster when located on this terrain, will also heal monsters with noheal.",
+   "source": "healonterr's description (manual, page 19)"
+  }
+ ],
+ "herbs": [
+  {
+   "with": "gatherherbs",
+   "sentence": "A commander with this ability will enable the player to gather herbs.",
+   "source": "gatherherbs's description (manual, page 17)"
+  }
+ ],
+ "hideanimals": [
+  {
+   "with": "stealth",
+   "sentence": "Animals following this commander gains forest stealth.",
+   "source": "hideanimals's description (manual, page 19)"
+  }
+ ],
+ "holykill": [
+  {
+   "with": "undead",
+   "sentence": "The weapon causes double damage against undead & demons",
+   "source": "holykill's description (manual, page 5)"
+  }
+ ],
+ "homeplane": [
+  {
+   "with": "motherspawn",
+   "sentence": "1 = mother of monsters, 2 = teotls of war (spawns d2 jaguars or 1 ozelotls, not on homeplane), 3 = teotls of rain (spawns d3 toad warriors, not on homeplane), 4 = bloody mother (spawns d2 jaguars or d3 serpents, not on homeplane), 5 = teotls of night (spawns d3 bats or 1 ozelotls, not on homeplane), 6 = teotls of underworld (spawns 2d3 longdead, not on homeplane), 7 = teotls of sky (spawns d3 bats or d3 eagle warriors, not on homeplane)",
+   "source": "motherspawn's description (manual, page 18)"
+  },
+  {
+   "with": "spawnmonaway",
+   "sentence": "Spawns next monster, but not on homeplane.",
+   "source": "spawnmonaway's description (manual, page 18)"
+  }
+ ],
+ "hometerr": [
+  {
+   "with": "startplane",
+   "sentence": "If you use this command you should also use the \"createcit\" command and the terrain set as hometerr should be set to a gateway/pit/spire terrain.",
+   "source": "startplane's description (manual, page 27)"
+  }
+ ],
+ "horror": [
+  {
+   "with": "chooseloc",
+   "sentence": "2=deviate to many dead, 3=empty mirror req, 4=empty gold mirror, 5=horror mark deviation",
+   "source": "chooseloc's description (manual, page 35)"
+  },
+  {
+   "with": "void",
+   "sentence": "Likes to kill sentient people, also isn't scared of the void.",
+   "source": "horror's description (manual, page 16)"
+  }
+ ],
+ "immobile": [
+  {
+   "with": "aiwhere",
+   "sentence": "1=seldom in plains/cities (for druid animal summoning), 2=only in squares we want to defend (for immobile guardian summoning)",
+   "source": "aiwhere's description (manual, page 37)"
+  }
+ ],
+ "immortal": [
+  {
+   "with": "resrestrict",
+   "sentence": "Useful values are 2^4 for undead, 2^20 for immortal and 2^26 for ethereal.",
+   "source": "resrestrict's description (manual, page 34)"
+  }
+ ],
+ "inanimate": [
+  {
+   "with": "falselife",
+   "sentence": "Can make an inanimate being living.",
+   "source": "falselife's description (manual, page 10)"
+  }
+ ],
+ "indepitem": [
+  {
+   "with": "randomitem",
+   "sentence": "Like randomitem, but only for indeps (all indep nations).",
+   "source": "indepitem's description (manual, page 22)"
+  }
+ ],
+ "invisible": [
+  {
+   "with": "terrstealthinv",
+   "sentence": "Monster gets invisible instead of just stealthy in the terrstealth terrain.",
+   "source": "terrstealthinv's description (manual, page 19)"
+  }
+ ],
+ "jungle1": [
+  {
+   "with": "deadforest1",
+   "sentence": "desert1/2, jungle1/2), this presumably marks the monster as loving dead-forest terrain, so an independent or mindless commander with it would refuse to leave such ground.",
+   "source": "deadforest1's description (toolbox note)"
+  }
+ ],
+ "jungle2": [
+  {
+   "with": "stray",
+   "sentence": "Marks the monster as liking jungle terrain: an independent or mindless commander carrying this flag will not stray more than one square from jungle ground.",
+   "source": "jungle2's description (toolbox note)"
+  }
+ ],
+ "kobold": [
+  {
+   "with": "expendable",
+   "sentence": "Is an expendable kobold (counts as expendable unit, but comes with a different ability description).",
+   "source": "kobold's description (manual, page 20)"
+  }
+ ],
+ "levelup": [
+  {
+   "with": "levelupmon",
+   "sentence": "Like levelup, but the new monster type is set by the addstring command.",
+   "source": "levelupmon's description (manual, page 33)"
+  },
+  {
+   "with": "mastery",
+   "sentence": "Leveling up means becoming a new monster determined by the mastery monster command.",
+   "source": "levelup's description (manual, page 33)"
+  }
+ ],
+ "levelupmon": [
+  {
+   "with": "addstring",
+   "sentence": "Like levelup, but the new monster type is set by the addstring command.",
+   "source": "levelupmon's description (manual, page 33)"
+  },
+  {
+   "with": "levelup",
+   "sentence": "Like levelup, but the new monster type is set by the addstring command.",
+   "source": "levelupmon's description (manual, page 33)"
+  }
+ ],
+ "libmastery": [
+  {
+   "with": "mastery",
+   "sentence": "A mastery command is also required on the monster, to determine what monster it will level up to.",
+   "source": "libmastery's description (manual, page 17)"
+  }
+ ],
+ "lifeforce": [
+  {
+   "with": "defiler",
+   "sentence": "Needs to drain lifeforce to cast spells, range=max drain range.",
+   "source": "defiler's description (manual, page 23)"
+  },
+  {
+   "with": "desolator",
+   "sentence": "Drain value lifeforce from current square each month (like scourge lord pillar).",
+   "source": "desolator's description (manual, page 23)"
+  },
+  {
+   "with": "gatherlifeforce",
+   "sentence": "A commander with this ability will enable the player to gather lifeforce.",
+   "source": "gatherlifeforce's description (manual, page 17)"
+  },
+  {
+   "with": "scourgedefiler",
+   "sentence": "Needs to drain lifeforce to cast spells of the defilement path, range=max drain range.",
+   "source": "scourgedefiler's description (manual, page 23)"
+  }
+ ],
+ "lookslike": [
+  {
+   "with": "selectmonster",
+   "sentence": "The offset used by this command cannot be set to a negative value, unlike the offset for the lookslike command.",
+   "source": "selectmonster's description (manual, page 13)"
+  }
+ ],
+ "magicwalls": [
+  {
+   "with": "walls",
+   "sentence": "Ethereal units cannot pass through walls at this fort",
+   "source": "magicwalls's description (manual, page 30)"
+  }
+ ],
+ "makecolony": [
+  {
+   "with": "terr",
+   "sentence": "Has a chance of turning a standard terrain into ‘terr’ and then die.",
+   "source": "makecolony's description (manual, page 18)"
+  }
+ ],
+ "makestationary": [
+  {
+   "with": "stationary",
+   "sentence": "Makes target unit stationary on world map.",
+   "source": "makestationary's description (manual, page 40)"
+  }
+ ],
+ "maptele": [
+  {
+   "with": "teleport",
+   "sentence": "Can teleport on world map when it is a wandering monster.",
+   "source": "maptele's description (manual, page 17)"
+  }
+ ],
+ "mastery": [
+  {
+   "with": "levelup",
+   "sentence": "Leveling up means becoming a new monster determined by the mastery monster command.",
+   "source": "levelup's description (manual, page 33)"
+  },
+  {
+   "with": "libmastery",
+   "sentence": "A mastery command is also required on the monster, to determine what monster it will level up to.",
+   "source": "libmastery's description (manual, page 17)"
+  },
+  {
+   "with": "nostart",
+   "sentence": "never start with this ritual (or learn from mastery)",
+   "source": "nostart's description (manual, page 35)"
+  }
+ ],
+ "message": [
+  {
+   "with": "colonymsg",
+   "sentence": "1 = everyone will get a message when a colony is created.",
+   "source": "colonymsg's description (manual, page 18)"
+  }
+ ],
+ "mines1": [
+  {
+   "with": "stupid",
+   "sentence": "Marks the monster as loving mine terrain, so as an independent or stupid commander it will never move away from squares containing mines.",
+   "source": "mines1's description (toolbox note)"
+  }
+ ],
+ "minmonreq": [
+  {
+   "with": "addstring",
+   "sentence": "The monsters in addstring \"(&)...\" must be at least 'min' in number at current location.",
+   "source": "minmonreq's description (manual, page 34)"
+  }
+ ],
+ "mirror": [
+  {
+   "with": "chooseloc",
+   "sentence": "2=deviate to many dead, 3=empty mirror req, 4=empty gold mirror, 5=horror mark deviation",
+   "source": "chooseloc's description (manual, page 35)"
+  },
+  {
+   "with": "fillmirror",
+   "sentence": "Puts a number of images into a mirror, -1 = fill to default value (mirrorammo)",
+   "source": "fillmirror's description (manual, page 36)"
+  },
+  {
+   "with": "mirrorammo",
+   "sentence": "default number of images for this type of mirror (def 20)",
+   "source": "mirrorammo's description (manual, page 20)"
+  },
+  {
+   "with": "mirrorimages",
+   "sentence": "Starts every battle with this amount of mirror images.",
+   "source": "mirrorimages's description (manual, page 21)"
+  },
+  {
+   "with": "mirrortarg",
+   "sentence": "Set targ to an empty mirror unit, attr = size for mirror, -1=any",
+   "source": "mirrortarg's description (manual, page 35)"
+  },
+  {
+   "with": "releasephant",
+   "sentence": "mirror releases this type of phantasms (has phantasm = value)",
+   "source": "releasephant's description (manual, page 20)"
+  },
+  {
+   "with": "releasespell",
+   "sentence": "making an attack drains one mirror charge (fx_mirror)",
+   "source": "releasespell's description (manual, page 20)"
+  },
+  {
+   "with": "revertmirror",
+   "sentence": "revert to mirror when empty. 1=small mirror, 2=large mirror, 3=silver, 4=gold",
+   "source": "revertmirror's description (manual, page 20)"
+  }
+ ],
+ "mirrorammo": [
+  {
+   "with": "fillmirror",
+   "sentence": "Puts a number of images into a mirror, -1 = fill to default value (mirrorammo)",
+   "source": "fillmirror's description (manual, page 36)"
+  },
+  {
+   "with": "mirror",
+   "sentence": "default number of images for this type of mirror (def 20)",
+   "source": "mirrorammo's description (manual, page 20)"
+  }
+ ],
+ "mirrorimages": [
+  {
+   "with": "mirror",
+   "sentence": "Starts every battle with this amount of mirror images.",
+   "source": "mirrorimages's description (manual, page 21)"
+  }
+ ],
+ "mirrortarg": [
+  {
+   "with": "mirror",
+   "sentence": "Set targ to an empty mirror unit, attr = size for mirror, -1=any",
+   "source": "mirrortarg's description (manual, page 35)"
+  }
+ ],
+ "monplayerreq": [
+  {
+   "with": "addstring",
+   "sentence": "At least min number (default 1) of the monsters in addstring \"(&)...\" must be in the world and owned by the current player.",
+   "source": "monplayerreq's description (manual, page 34)"
+  }
+ ],
+ "montarg": [
+  {
+   "with": "addstring",
+   "sentence": "Sets targ unit to a random unit at target location among the type added by addstring.",
+   "source": "montarg's description (manual, page 35)"
+  }
+ ],
+ "monworldreq": [
+  {
+   "with": "addstring",
+   "sentence": "At least min number (default 1) of the monsters in addstring \"(&)...\" must be in the world.",
+   "source": "monworldreq's description (manual, page 34)"
+  }
+ ],
+ "mor": [
+  {
+   "with": "fear",
+   "sentence": "Setting the morale to 99 makes the monster Mindless and it will be completely unaffected by fear or any other effects that influence morale.",
+   "source": "mor's description (manual, page 14)"
+  }
+ ],
+ "motherspawn": [
+  {
+   "with": "homeplane",
+   "sentence": "1 = mother of monsters, 2 = teotls of war (spawns d2 jaguars or 1 ozelotls, not on homeplane), 3 = teotls of rain (spawns d3 toad warriors, not on homeplane), 4 = bloody mother (spawns d2 jaguars or d3 serpents, not on homeplane), 5 = teotls of night (spawns d3 bats or 1 ozelotls, not on homeplane), 6 = teotls of underworld (spawns 2d3 longdead, not on homeplane), 7 = teotls of sky (spawns d3 bats or d3 eagle warriors, not on homeplane)",
+   "source": "motherspawn's description (manual, page 18)"
+  }
+ ],
+ "mountain1": [
+  {
+   "with": "desert1",
+   "sentence": "Marks the monster as loving mountain terrain, so as an independent or stupid commander it will never move away from squares containing mountains. Never used in the base game data; behaviour inferred from the matching fla",
+   "source": "mountain1's description (toolbox note)"
+  },
+  {
+   "with": "stupid",
+   "sentence": "Marks the monster as loving mountain terrain, so as an independent or stupid commander it will never move away from squares containing mountains.",
+   "source": "mountain1's description (toolbox note)"
+  },
+  {
+   "with": "swamp1",
+   "sentence": "Marks the monster as loving mountain terrain, so as an independent or stupid commander it will never move away from squares containing mountains. Never used in the base game data; behaviour inferred from the matching fla",
+   "source": "mountain1's description (toolbox note)"
+  }
+ ],
+ "mountain2": [
+  {
+   "with": "stupid",
+   "sentence": "Marks the monster as liking mountain terrain, so as an independent or stupid commander it will not wander more than one square from squares containing mountains.",
+   "source": "mountain2's description (toolbox note)"
+  }
+ ],
+ "multiplane": [
+  {
+   "with": "chooseloc",
+   "sentence": "Set wheter chooseloc can select locations on other planes or not.",
+   "source": "multiplane's description (manual, page 36)"
+  }
+ ],
+ "name": [
+  {
+   "with": "newitem",
+   "sentence": "Not necessary if you created a new one with newitem.",
+   "source": "name's description (manual, page 10)"
+  }
+ ],
+ "newitem": [
+  {
+   "with": "name",
+   "sentence": "Not necessary if you created a new one with newitem.",
+   "source": "name's description (manual, page 10)"
+  }
+ ],
+ "newlocplanes": [
+  {
+   "with": "randnewloc",
+   "sentence": "Like randnewloc but will go to other planes if necessary (but not hades)",
+   "source": "newlocplanes's description (manual, page 35)"
+  }
+ ],
+ "newritpow": [
+  {
+   "with": "ritpow",
+   "sentence": "Creates an entire new school of rituals called a ritpow.",
+   "source": "newritpow's description (manual, page 32)"
+  }
+ ],
+ "newweapon": [
+  {
+   "with": "next",
+   "sentence": "This command can only be used for new weapons, so you must have created one with the newweapon command.",
+   "source": "next's description (manual, page 5)"
+  }
+ ],
+ "next": [
+  {
+   "with": "newweapon",
+   "sentence": "This command can only be used for new weapons, so you must have created one with the newweapon command.",
+   "source": "next's description (manual, page 5)"
+  }
+ ],
+ "nextalways": [
+  {
+   "with": "nextalwayswep",
+   "sentence": "Like 'nextalways' but the additional strike will come from a named weapon that has already been created.",
+   "source": "nextalwayswep's description (manual, page 5)"
+  }
+ ],
+ "nextalwayswep": [
+  {
+   "with": "nextalways",
+   "sentence": "Like 'nextalways' but the additional strike will come from a named weapon that has already been created.",
+   "source": "nextalwayswep's description (manual, page 5)"
+  }
+ ],
+ "nodrown": [
+  {
+   "with": "drown",
+   "sentence": "No one will drown in this terrain.",
+   "source": "nodrown's description (manual, page 31)"
+  }
+ ],
+ "noheal": [
+  {
+   "with": "healonterr",
+   "sentence": "Will heal faster when located on this terrain, will also heal monsters with noheal.",
+   "source": "healonterr's description (manual, page 19)"
+  }
+ ],
+ "noland": [
+  {
+   "with": "wateronly",
+   "sentence": "Same as water & noland. The monster will be aquatic.",
+   "source": "wateronly's description (manual, page 16)"
+  }
+ ],
+ "nomonelysiumreq": [
+  {
+   "with": "addstring",
+   "sentence": "Monsters in addstring \"(-)...\" must not be in elysium/sky/agartha.",
+   "source": "nomonelysiumreq's description (manual, page 34)"
+  }
+ ],
+ "nomonhomereq": [
+  {
+   "with": "addstring",
+   "sentence": "Monsters in addstring \"(-)...\" must not have their home at current location.",
+   "source": "nomonhomereq's description (manual, page 34)"
+  }
+ ],
+ "nomonmasteryreq": [
+  {
+   "with": "addstring",
+   "sentence": "Monsters in addstring \"(-)...\" must not be in the world and owned by the current player unless level is higher than ritual requires",
+   "source": "nomonmasteryreq's description (manual, page 34)"
+  }
+ ],
+ "nomonplayerreq": [
+  {
+   "with": "addstring",
+   "sentence": "Monsters in addstring \"(-)...\" in the world and owned by the current player must be fewer than limit.",
+   "source": "nomonplayerreq's description (manual, page 34)"
+  }
+ ],
+ "nomonreq": [
+  {
+   "with": "addstring",
+   "sentence": "Monsters in addstring \"(-)...\" must not be at current location.",
+   "source": "nomonreq's description (manual, page 34)"
+  }
+ ],
+ "nomonworldreq": [
+  {
+   "with": "addstring",
+   "sentence": "Monsters in addstring \"(-)...\" in the world must be fewer than limit.",
+   "source": "nomonworldreq's description (manual, page 34)"
+  }
+ ],
+ "north1": [
+  {
+   "with": "south1",
+   "sentence": "Marks the monster as loving the far north, so as an independent or stupid commander it will never move away from squares in that region. Never used in the base game data; behaviour inferred from the matching pattern on o",
+   "source": "north1's description (toolbox note)"
+  },
+  {
+   "with": "south2",
+   "sentence": "Marks the monster as loving the far north, so as an independent or stupid commander it will never move away from squares in that region. Never used in the base game data; behaviour inferred from the matching pattern on o",
+   "source": "north1's description (toolbox note)"
+  },
+  {
+   "with": "stupid",
+   "sentence": "Marks the monster as loving the far north, so as an independent or stupid commander it will never move away from squares in that region.",
+   "source": "north1's description (toolbox note)"
+  }
+ ],
+ "nostart": [
+  {
+   "with": "mastery",
+   "sentence": "never start with this ritual (or learn from mastery)",
+   "source": "nostart's description (manual, page 35)"
+  }
+ ],
+ "ornext": [
+  {
+   "with": "ornext4",
+   "sentence": "Like the other ornext commands.",
+   "source": "ornext4's description (manual, page 37)"
+  },
+  {
+   "with": "ornext5",
+   "sentence": "Like the other ornext commands.",
+   "source": "ornext5's description (manual, page 37)"
+  }
+ ],
+ "ornext4": [
+  {
+   "with": "ornext",
+   "sentence": "Like the other ornext commands.",
+   "source": "ornext4's description (manual, page 37)"
+  }
+ ],
+ "ornext5": [
+  {
+   "with": "ornext",
+   "sentence": "Like the other ornext commands.",
+   "source": "ornext5's description (manual, page 37)"
+  }
+ ],
+ "passwall": [
+  {
+   "with": "walls",
+   "sentence": "Monster can move through walls.",
+   "source": "passwall's description (manual, page 16)"
+  }
+ ],
+ "phantasm": [
+  {
+   "with": "releasephant",
+   "sentence": "mirror releases this type of phantasms (has phantasm = value)",
+   "source": "releasephant's description (manual, page 20)"
+  }
+ ],
+ "primable": [
+  {
+   "with": "primal",
+   "sentence": "By default all animals can be made into primal animals.",
+   "source": "primable's description (manual, page 19)"
+  }
+ ],
+ "primal": [
+  {
+   "with": "primable",
+   "sentence": "By default all animals can be made into primal animals.",
+   "source": "primable's description (manual, page 19)"
+  },
+  {
+   "with": "primalcult",
+   "sentence": "Primal cultists might decide to open the primal gate.",
+   "source": "primalcult's description (manual, page 20)"
+  },
+  {
+   "with": "primalshape",
+   "sentence": "Will become monster with offset value when on the primal plane.",
+   "source": "primalshape's description (manual, page 18)"
+  },
+  {
+   "with": "primifier",
+   "sentence": "Will turn this number of animals into primal animals each month.",
+   "source": "primifier's description (manual, page 19)"
+  }
+ ],
+ "primalcult": [
+  {
+   "with": "primal",
+   "sentence": "Primal cultists might decide to open the primal gate.",
+   "source": "primalcult's description (manual, page 20)"
+  }
+ ],
+ "primalshape": [
+  {
+   "with": "primal",
+   "sentence": "Will become monster with offset value when on the primal plane.",
+   "source": "primalshape's description (manual, page 18)"
+  }
+ ],
+ "primifier": [
+  {
+   "with": "primal",
+   "sentence": "Will turn this number of animals into primal animals each month.",
+   "source": "primifier's description (manual, page 19)"
+  }
+ ],
+ "promotion": [
+  {
+   "with": "addstring",
+   "sentence": "Use addstring to add promotion pairs, the first string sets a source unit and the second one the destination units.",
+   "source": "promotion's description (manual, page 33)"
+  }
+ ],
+ "randnewloc": [
+  {
+   "with": "newlocplanes",
+   "sentence": "Like randnewloc but will go to other planes if necessary (but not hades)",
+   "source": "newlocplanes's description (manual, page 35)"
+  }
+ ],
+ "randomitem": [
+  {
+   "with": "indepitem",
+   "sentence": "Like randomitem, but only for indeps (all indep nations).",
+   "source": "indepitem's description (manual, page 22)"
+  }
+ ],
+ "randomloc": [
+  {
+   "with": "setplane",
+   "sentence": "Following randomloc etc. commands will be restricted to this",
+   "source": "setplane's description (manual, page 35)"
+  }
+ ],
+ "rebate": [
+  {
+   "with": "rebatefx25",
+   "sentence": "Units with this fx nbr get 25% rebate",
+   "source": "rebatefx25's description (manual, page 35)"
+  },
+  {
+   "with": "rebatefx50",
+   "sentence": "Units with this fx nbr get 50% rebate",
+   "source": "rebatefx50's description (manual, page 35)"
+  }
+ ],
+ "rebatefx25": [
+  {
+   "with": "rebate",
+   "sentence": "Units with this fx nbr get 25% rebate",
+   "source": "rebatefx25's description (manual, page 35)"
+  }
+ ],
+ "rebatefx50": [
+  {
+   "with": "rebate",
+   "sentence": "Units with this fx nbr get 50% rebate",
+   "source": "rebatefx50's description (manual, page 35)"
+  }
+ ],
+ "reducetown": [
+  {
+   "with": "settlement",
+   "sentence": "Reduces settlement at target location one step in size.",
+   "source": "reducetown's description (manual, page 36)"
+  }
+ ],
+ "regeneration": [
+  {
+   "with": "varregen",
+   "sentence": "Like regeneration, but this many percent per round instead of 5.",
+   "source": "varregen's description (manual, page 19)"
+  }
+ ],
+ "releasephant": [
+  {
+   "with": "mirror",
+   "sentence": "mirror releases this type of phantasms (has phantasm = value)",
+   "source": "releasephant's description (manual, page 20)"
+  },
+  {
+   "with": "phantasm",
+   "sentence": "mirror releases this type of phantasms (has phantasm = value)",
+   "source": "releasephant's description (manual, page 20)"
+  }
+ ],
+ "releasespell": [
+  {
+   "with": "mirror",
+   "sentence": "making an attack drains one mirror charge (fx_mirror)",
+   "source": "releasespell's description (manual, page 20)"
+  }
+ ],
+ "relics": [
+  {
+   "with": "bonusrelics",
+   "sentence": "Get this number of extra relics from this location.",
+   "source": "bonusrelics's description (manual, page 31)"
+  },
+  {
+   "with": "gatherrelics",
+   "sentence": "A commander with this ability will enable the player to gather relics.",
+   "source": "gatherrelics's description (manual, page 17)"
+  }
+ ],
+ "resrestrict": [
+  {
+   "with": "ethereal",
+   "sentence": "Useful values are 2^4 for undead, 2^20 for immortal and 2^26 for ethereal.",
+   "source": "resrestrict's description (manual, page 34)"
+  },
+  {
+   "with": "immortal",
+   "sentence": "Useful values are 2^4 for undead, 2^20 for immortal and 2^26 for ethereal.",
+   "source": "resrestrict's description (manual, page 34)"
+  },
+  {
+   "with": "undead",
+   "sentence": "Useful values are 2^4 for undead, 2^20 for immortal and 2^26 for ethereal.",
+   "source": "resrestrict's description (manual, page 34)"
+  }
+ ],
+ "revertmirror": [
+  {
+   "with": "mirror",
+   "sentence": "revert to mirror when empty. 1=small mirror, 2=large mirror, 3=silver, 4=gold",
+   "source": "revertmirror's description (manual, page 20)"
+  }
+ ],
+ "ritequipall": [
+  {
+   "with": "addstring",
+   "sentence": "use addstring \"|Ring of Protection\" if you want the target unit to receive a ring of protection.",
+   "source": "ritequipall's description (manual, page 36)"
+  }
+ ],
+ "ritpow": [
+  {
+   "with": "newritpow",
+   "sentence": "Creates an entire new school of rituals called a ritpow.",
+   "source": "newritpow's description (manual, page 32)"
+  }
+ ],
+ "sample": [
+  {
+   "with": "sampleisloopmusic",
+   "sentence": "Turns this sample into one of the background tunes.",
+   "source": "sampleisloopmusic's description (manual, page 38)"
+  },
+  {
+   "with": "sampleismusic",
+   "sentence": "Turns this sample into one a class specific tunes.",
+   "source": "sampleismusic's description (manual, page 38)"
+  }
+ ],
+ "sampleisloopmusic": [
+  {
+   "with": "sample",
+   "sentence": "Turns this sample into one of the background tunes.",
+   "source": "sampleisloopmusic's description (manual, page 38)"
+  }
+ ],
+ "sampleismusic": [
+  {
+   "with": "sample",
+   "sentence": "Turns this sample into one a class specific tunes.",
+   "source": "sampleismusic's description (manual, page 38)"
+  }
+ ],
+ "scourgedefiler": [
+  {
+   "with": "lifeforce",
+   "sentence": "Needs to drain lifeforce to cast spells of the defilement path, range=max drain range.",
+   "source": "scourgedefiler's description (manual, page 23)"
+  }
+ ],
+ "seegems": [
+  {
+   "with": "gems",
+   "sentence": "A commander with this ability will enable the player to see what type of gems mine produce.",
+   "source": "seegems's description (manual, page 17)"
+  }
+ ],
+ "selectmonster": [
+  {
+   "with": "lookslike",
+   "sentence": "The offset used by this command cannot be set to a negative value, unlike the offset for the lookslike command.",
+   "source": "selectmonster's description (manual, page 13)"
+  }
+ ],
+ "setplane": [
+  {
+   "with": "randomloc",
+   "sentence": "Following randomloc etc. commands will be restricted to this",
+   "source": "setplane's description (manual, page 35)"
+  }
+ ],
+ "settlement": [
+  {
+   "with": "addallsettlements",
+   "sentence": "Adds all different human settlement terrains to the group.",
+   "source": "addallsettlements's description (manual, page 32)"
+  },
+  {
+   "with": "reducetown",
+   "sentence": "Reduces settlement at target location one step in size.",
+   "source": "reducetown's description (manual, page 36)"
+  }
+ ],
+ "south1": [
+  {
+   "with": "north1",
+   "sentence": "Marks the monster as loving the far north, so as an independent or stupid commander it will never move away from squares in that region. Never used in the base game data; behaviour inferred from the matching pattern on o",
+   "source": "north1's description (toolbox note)"
+  },
+  {
+   "with": "south2",
+   "sentence": "Never used in the base game data; behaviour inferred from the matching south2 flag and the same pattern on other terrains.",
+   "source": "south1's description (toolbox note)"
+  },
+  {
+   "with": "stupid",
+   "sentence": "Marks the monster as loving the south, so as an independent or stupid commander it will never move away from squares in that region.",
+   "source": "south1's description (toolbox note)"
+  }
+ ],
+ "south2": [
+  {
+   "with": "north1",
+   "sentence": "Marks the monster as loving the far north, so as an independent or stupid commander it will never move away from squares in that region. Never used in the base game data; behaviour inferred from the matching pattern on o",
+   "source": "north1's description (toolbox note)"
+  },
+  {
+   "with": "south1",
+   "sentence": "Never used in the base game data; behaviour inferred from the matching south2 flag and the same pattern on other terrains.",
+   "source": "south1's description (toolbox note)"
+  },
+  {
+   "with": "stupid",
+   "sentence": "Marks the monster as liking the south, so as an independent or stupid commander it will not wander more than one square from squares in that region.",
+   "source": "south2's description (toolbox note)"
+  }
+ ],
+ "spawnmonaway": [
+  {
+   "with": "homeplane",
+   "sentence": "Spawns next monster, but not on homeplane.",
+   "source": "spawnmonaway's description (manual, page 18)"
+  }
+ ],
+ "spr1": [
+  {
+   "with": "spr2",
+   "sentence": "If this is not set, then spr1 will be used for this image too.",
+   "source": "spr2's description (manual, page 14)"
+  }
+ ],
+ "spr2": [
+  {
+   "with": "spr1",
+   "sentence": "If this is not set, then spr1 will be used for this image too.",
+   "source": "spr2's description (manual, page 14)"
+  }
+ ],
+ "startplane": [
+  {
+   "with": "createcit",
+   "sentence": "If you use this command you should also use the \"createcit\" command and the terrain set as hometerr should be set to a gateway/pit/spire terrain.",
+   "source": "startplane's description (manual, page 27)"
+  },
+  {
+   "with": "hometerr",
+   "sentence": "If you use this command you should also use the \"createcit\" command and the terrain set as hometerr should be set to a gateway/pit/spire terrain.",
+   "source": "startplane's description (manual, page 27)"
+  }
+ ],
+ "stationary": [
+  {
+   "with": "makestationary",
+   "sentence": "Makes target unit stationary on world map.",
+   "source": "makestationary's description (manual, page 40)"
+  }
+ ],
+ "stealth": [
+  {
+   "with": "hideanimals",
+   "sentence": "Animals following this commander gains forest stealth.",
+   "source": "hideanimals's description (manual, page 19)"
+  }
+ ],
+ "stone": [
+  {
+   "with": "stonebeing",
+   "sentence": "monster is made of stone",
+   "source": "stonebeing's description (manual, page 20)"
+  },
+  {
+   "with": "stonekill",
+   "sentence": "x2 dmg vs stone beings and stone walls",
+   "source": "stonekill's description (manual, page 6)"
+  }
+ ],
+ "stonebeing": [
+  {
+   "with": "stone",
+   "sentence": "monster is made of stone",
+   "source": "stonebeing's description (manual, page 20)"
+  }
+ ],
+ "stonekill": [
+  {
+   "with": "stone",
+   "sentence": "x2 dmg vs stone beings and stone walls",
+   "source": "stonekill's description (manual, page 6)"
+  },
+  {
+   "with": "walls",
+   "sentence": "x2 dmg vs stone beings and stone walls",
+   "source": "stonekill's description (manual, page 6)"
+  }
+ ],
+ "stray": [
+  {
+   "with": "deadforest2",
+   "sentence": "By the same naming pattern as deadforest1 and the other paired terrain flags, this presumably marks the monster as merely liking dead-forest terrain, so an independent or mindless commander would stray no more than one square from it.",
+   "source": "deadforest2's description (toolbox note)"
+  },
+  {
+   "with": "desert2",
+   "sentence": "Marks the monster as liking desert terrain: an independent or mindless commander carrying this flag will not stray more than one square from desert ground.",
+   "source": "desert2's description (toolbox note)"
+  },
+  {
+   "with": "jungle2",
+   "sentence": "Marks the monster as liking jungle terrain: an independent or mindless commander carrying this flag will not stray more than one square from jungle ground.",
+   "source": "jungle2's description (toolbox note)"
+  }
+ ],
+ "stupid": [
+  {
+   "with": "desert1",
+   "sentence": "Marks the monster as loving desert terrain: an independent or mindless (\"stupid\") commander carrying this flag will refuse to move off desert squares.",
+   "source": "desert1's description (toolbox note)"
+  },
+  {
+   "with": "followstupid",
+   "sentence": "Doesn't move independently, but follows other stupid units.",
+   "source": "followstupid's description (manual, page 16)"
+  },
+  {
+   "with": "mines1",
+   "sentence": "Marks the monster as loving mine terrain, so as an independent or stupid commander it will never move away from squares containing mines.",
+   "source": "mines1's description (toolbox note)"
+  },
+  {
+   "with": "mountain1",
+   "sentence": "Marks the monster as loving mountain terrain, so as an independent or stupid commander it will never move away from squares containing mountains.",
+   "source": "mountain1's description (toolbox note)"
+  },
+  {
+   "with": "mountain2",
+   "sentence": "Marks the monster as liking mountain terrain, so as an independent or stupid commander it will not wander more than one square from squares containing mountains.",
+   "source": "mountain2's description (toolbox note)"
+  },
+  {
+   "with": "north1",
+   "sentence": "Marks the monster as loving the far north, so as an independent or stupid commander it will never move away from squares in that region.",
+   "source": "north1's description (toolbox note)"
+  },
+  {
+   "with": "south1",
+   "sentence": "Marks the monster as loving the south, so as an independent or stupid commander it will never move away from squares in that region.",
+   "source": "south1's description (toolbox note)"
+  },
+  {
+   "with": "south2",
+   "sentence": "Marks the monster as liking the south, so as an independent or stupid commander it will not wander more than one square from squares in that region.",
+   "source": "south2's description (toolbox note)"
+  },
+  {
+   "with": "swamp1",
+   "sentence": "Marks the monster as loving swamp terrain, so as an independent or stupid commander it will never move away from squares containing swamp.",
+   "source": "swamp1's description (toolbox note)"
+  },
+  {
+   "with": "swamp2",
+   "sentence": "Marks the monster as liking swamp terrain, so as an independent or stupid commander it will not wander more than one square from squares containing swamp.",
+   "source": "swamp2's description (toolbox note)"
+  },
+  {
+   "with": "temple1",
+   "sentence": "Marks the monster as loving temple terrain, so as an independent or stupid commander it will never move away from squares containing a temple.",
+   "source": "temple1's description (toolbox note)"
+  },
+  {
+   "with": "temple2",
+   "sentence": "Marks the monster as liking temple terrain, so as an independent or stupid commander it will not wander more than one square from squares containing a temple.",
+   "source": "temple2's description (toolbox note)"
+  },
+  {
+   "with": "void2",
+   "sentence": "Marks the monster as liking void terrain, so as an independent or stupid commander it will not wander more than one square from squares of that type.",
+   "source": "void2's description (toolbox note)"
+  }
+ ],
+ "sum0chance": [
+  {
+   "with": "sum0snow",
+   "sentence": "Works like sum0chance, but it can only succeed if there is snow at the target location.",
+   "source": "sum0snow's description (manual, page 33)"
+  }
+ ],
+ "sum0snow": [
+  {
+   "with": "sum0chance",
+   "sentence": "Works like sum0chance, but it can only succeed if there is snow at the target location.",
+   "source": "sum0snow's description (manual, page 33)"
+  }
+ ],
+ "summoning": [
+  {
+   "with": "addstring",
+   "sentence": "Use addstring to add up to 15 strings with monsters.",
+   "source": "summoning's description (manual, page 33)"
+  }
+ ],
+ "swamp1": [
+  {
+   "with": "mountain1",
+   "sentence": "Marks the monster as loving mountain terrain, so as an independent or stupid commander it will never move away from squares containing mountains. Never used in the base game data; behaviour inferred from the matching fla",
+   "source": "mountain1's description (toolbox note)"
+  },
+  {
+   "with": "stupid",
+   "sentence": "Marks the monster as loving swamp terrain, so as an independent or stupid commander it will never move away from squares containing swamp.",
+   "source": "swamp1's description (toolbox note)"
+  }
+ ],
+ "swamp2": [
+  {
+   "with": "stupid",
+   "sentence": "Marks the monster as liking swamp terrain, so as an independent or stupid commander it will not wander more than one square from squares containing swamp.",
+   "source": "swamp2's description (toolbox note)"
+  }
+ ],
+ "teleport": [
+  {
+   "with": "flying",
+   "sentence": "Like flying, but the monster will teleport around in combat.",
+   "source": "teleport's description (manual, page 16)"
+  },
+  {
+   "with": "maptele",
+   "sentence": "Can teleport on world map when it is a wandering monster.",
+   "source": "maptele's description (manual, page 17)"
+  }
+ ],
+ "temple1": [
+  {
+   "with": "stupid",
+   "sentence": "Marks the monster as loving temple terrain, so as an independent or stupid commander it will never move away from squares containing a temple.",
+   "source": "temple1's description (toolbox note)"
+  },
+  {
+   "with": "temple2",
+   "sentence": "Never used in the base game data; behaviour inferred from the matching temple2 flag and the same pattern on other terrains.",
+   "source": "temple1's description (toolbox note)"
+  }
+ ],
+ "temple2": [
+  {
+   "with": "stupid",
+   "sentence": "Marks the monster as liking temple terrain, so as an independent or stupid commander it will not wander more than one square from squares containing a temple.",
+   "source": "temple2's description (toolbox note)"
+  },
+  {
+   "with": "temple1",
+   "sentence": "Never used in the base game data; behaviour inferred from the matching temple2 flag and the same pattern on other terrains.",
+   "source": "temple1's description (toolbox note)"
+  }
+ ],
+ "terr": [
+  {
+   "with": "makecolony",
+   "sentence": "Has a chance of turning a standard terrain into ‘terr’ and then die.",
+   "source": "makecolony's description (manual, page 18)"
+  }
+ ],
+ "terrstealth": [
+  {
+   "with": "terrstealthinv",
+   "sentence": "Monster gets invisible instead of just stealthy in the terrstealth terrain.",
+   "source": "terrstealthinv's description (manual, page 19)"
+  }
+ ],
+ "terrstealthinv": [
+  {
+   "with": "invisible",
+   "sentence": "Monster gets invisible instead of just stealthy in the terrstealth terrain.",
+   "source": "terrstealthinv's description (manual, page 19)"
+  },
+  {
+   "with": "terrstealth",
+   "sentence": "Monster gets invisible instead of just stealthy in the terrstealth terrain.",
+   "source": "terrstealthinv's description (manual, page 19)"
+  }
+ ],
+ "trample": [
+  {
+   "with": "tramplexsize",
+   "sentence": "A size one trampling unit needs tramplexsize 1 to be able to trample anyone at all.",
+   "source": "tramplexsize's description (manual, page 23)"
+  }
+ ],
+ "tramplexsize": [
+  {
+   "with": "trample",
+   "sentence": "A size one trampling unit needs tramplexsize 1 to be able to trample anyone at all.",
+   "source": "tramplexsize's description (manual, page 23)"
+  }
+ ],
+ "transformtarg": [
+  {
+   "with": "addstring",
+   "sentence": "Will transform target into the unit type set by addstring.",
+   "source": "transformtarg's description (manual, page 33)"
+  }
+ ],
+ "tree": [
+  {
+   "with": "fungus",
+   "sentence": "Tree/bushes/fungus are immune to this weapon",
+   "source": "tree's description (manual, page 6)"
+  },
+  {
+   "with": "treelook",
+   "sentence": "sprite will be rotated and scaled randomly, like a random tree",
+   "source": "treelook's description (manual, page 23)"
+  }
+ ],
+ "treelook": [
+  {
+   "with": "tree",
+   "sentence": "sprite will be rotated and scaled randomly, like a random tree",
+   "source": "treelook's description (manual, page 23)"
+  }
+ ],
+ "undead": [
+  {
+   "with": "affectundead",
+   "sentence": "The weapon only affects undead.",
+   "source": "affectundead's description (manual, page 5)"
+  },
+  {
+   "with": "holykill",
+   "sentence": "The weapon causes double damage against undead & demons",
+   "source": "holykill's description (manual, page 5)"
+  },
+  {
+   "with": "resrestrict",
+   "sentence": "Useful values are 2^4 for undead, 2^20 for immortal and 2^26 for ethereal.",
+   "source": "resrestrict's description (manual, page 34)"
+  },
+  {
+   "with": "undkill",
+   "sentence": "The weapon causes double damage against undead only",
+   "source": "undkill's description (manual, page 5)"
+  }
+ ],
+ "undkill": [
+  {
+   "with": "undead",
+   "sentence": "The weapon causes double damage against undead only",
+   "source": "undkill's description (manual, page 5)"
+  }
+ ],
+ "varregen": [
+  {
+   "with": "regeneration",
+   "sentence": "Like regeneration, but this many percent per round instead of 5.",
+   "source": "varregen's description (manual, page 19)"
+  }
+ ],
+ "visible": [
+  {
+   "with": "flymode",
+   "sentence": "Set this if a projectile should be visible for a ranged attack.",
+   "source": "flymode's description (manual, page 4)"
+  }
+ ],
+ "void": [
+  {
+   "with": "horror",
+   "sentence": "Likes to kill sentient people, also isn't scared of the void.",
+   "source": "horror's description (manual, page 16)"
+  },
+  {
+   "with": "void2",
+   "sentence": "Marks the monster as liking void terrain, so as an independent or stupid commander it will not wander more than one square from squares of that type.",
+   "source": "void2's description (toolbox note)"
+  },
+  {
+   "with": "voidshape",
+   "sentence": "Will become monster with offset value when on the void plane.",
+   "source": "voidshape's description (manual, page 18)"
+  },
+  {
+   "with": "voidship",
+   "sentence": "Percent chance of protecting anyone in same square from the insanity of the void.",
+   "source": "voidship's description (manual, page 23)"
+  }
+ ],
+ "void2": [
+  {
+   "with": "stupid",
+   "sentence": "Marks the monster as liking void terrain, so as an independent or stupid commander it will not wander more than one square from squares of that type.",
+   "source": "void2's description (toolbox note)"
+  },
+  {
+   "with": "void",
+   "sentence": "Marks the monster as liking void terrain, so as an independent or stupid commander it will not wander more than one square from squares of that type.",
+   "source": "void2's description (toolbox note)"
+  }
+ ],
+ "voidshape": [
+  {
+   "with": "void",
+   "sentence": "Will become monster with offset value when on the void plane.",
+   "source": "voidshape's description (manual, page 18)"
+  }
+ ],
+ "voidship": [
+  {
+   "with": "void",
+   "sentence": "Percent chance of protecting anyone in same square from the insanity of the void.",
+   "source": "voidship's description (manual, page 23)"
+  }
+ ],
+ "wallkill": [
+  {
+   "with": "walls",
+   "sentence": "x5 dmg vs walls and boats",
+   "source": "wallkill's description (manual, page 6)"
+  }
+ ],
+ "walls": [
+  {
+   "with": "deployoutside",
+   "sentence": "The monster probably needs to be small (1x1 square) and few in numbers for the deployment to work properly, there is not much space left outside the walls before coming too close to the enemies.",
+   "source": "deployoutside's description (manual, page 23)"
+  },
+  {
+   "with": "magicwalls",
+   "sentence": "Ethereal units cannot pass through walls at this fort",
+   "source": "magicwalls's description (manual, page 30)"
+  },
+  {
+   "with": "passwall",
+   "sentence": "Monster can move through walls.",
+   "source": "passwall's description (manual, page 16)"
+  },
+  {
+   "with": "stonekill",
+   "sentence": "x2 dmg vs stone beings and stone walls",
+   "source": "stonekill's description (manual, page 6)"
+  },
+  {
+   "with": "wallkill",
+   "sentence": "x5 dmg vs walls and boats",
+   "source": "wallkill's description (manual, page 6)"
+  }
+ ],
+ "wateronly": [
+  {
+   "with": "airbreather",
+   "sentence": "This wateronly unit will not drown on land",
+   "source": "airbreather's description (manual, page 23)"
+  },
+  {
+   "with": "noland",
+   "sentence": "Same as water & noland. The monster will be aquatic.",
+   "source": "wateronly's description (manual, page 16)"
+  }
+ ],
+ "weed": [
+  {
+   "with": "gatherweed",
+   "sentence": "A commander with this ability will enable the player to gather weed.",
+   "source": "gatherweed's description (manual, page 17)"
+  }
+ ]
+}

@@ -214,6 +214,18 @@ source attached (see the rules table in play.astro).
   The overrides file is curated: hand edits win, regeneration never
   touches it, and an override also replaces the manual text where both
   exist.
+- **Command interactions ("Interacts with", 2026-09-10):** command pages
+  cross-reference commands whose mechanics touch. Two sources: (1)
+  mechanical name-mention edges mined from the description texts by
+  tools/extract-interactions.mjs (a short auditable stoplist keeps
+  common-word command names like `name` and `level` out), each edge shown
+  with the sentence that connects the pair and whose description it came
+  from; (2) eleven curated mechanic groups in interaction-groups.json
+  (banishment, affect-restrictions, holy damage, stealth/detection, item
+  slots, siege, mirrors, leveling, healing, terrain affinity, ritual
+  restrictions), each with a note assembled from the manual's sentences —
+  details that rest on the extraction's annotations are source-labeled
+  "manual + base-game usage". The groups file is curated: hand edits win.
 - **Rituals above level 3 need `free` (owner's play knowledge,
   2026-09-08):** without it the game crashes when such a ritual would be
   offered for research — they only work auto-learned. Corroborating

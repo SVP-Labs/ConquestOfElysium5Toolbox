@@ -4,6 +4,8 @@ import data from "../../../modcheck/data/commands.json";
 import allExamples from "../../data/examples.json";
 import manualDescriptions from "../../data/command-descriptions.json";
 import authoredDescriptions from "../../data/command-descriptions-overrides.json";
+import interactions from "../../data/command-interactions.json";
+import interactionGroups from "../../data/interaction-groups.json";
 import { SECTION_TIPS, STATUS_TIPS } from "../../lib/badge-tips.js";
 import { distance } from "../../../modcheck/src/suggest.js";
 
@@ -32,6 +34,14 @@ let description = purpose.length
     ? `CoE5 mod command ${name} — ${cmd.signature}`
     : `CoE5 mod command ${name}`;
 if (description.length > 150) description = description.slice(0, 149) + "…";
+
+// "Interacts with": curated mechanic groups this command belongs to, plus
+// name-mention edges mined from the description texts (each carrying the
+// sentence that connects the two commands). Mention edges already covered
+// by a shared group are dropped.
+const myGroups = interactionGroups.filter((g) => g.members.includes(name));
+const grouped = new Set(myGroups.flatMap((g) => g.members));
+const mentionEdges = (interactions[name] ?? []).filter((e) => !grouped.has(e.with));
 
 const stem = (n) => n.replace(/^\+/, "").replace(/\d+$/, "");
 const myStem = stem(name);
@@ -159,6 +169,40 @@ const pagesLabel =
   }
 
   {
+    (myGroups.length > 0 || mentionEdges.length > 0) && (
+      <>
+        <h2>Interacts with</h2>
+        {myGroups.map((g) => (
+          <div class="interaction">
+            <p class="interaction-members">
+              {g.members
+                .filter((m) => m !== name)
+                .map((m) => (
+                  <a href={`/commands/${encodeURIComponent(m)}`}>
+                    {m}<span class="visually-hidden"> command</span>
+                  </a>
+                ))}
+            </p>
+            <p class="interaction-note">{g.note}</p>
+            <p class="dim interaction-src">— {g.source}</p>
+          </div>
+        ))}
+        {mentionEdges.map((e) => (
+          <div class="interaction">
+            <p class="interaction-members">
+              <a href={`/commands/${encodeURIComponent(e.with)}`}>
+                {e.with}<span class="visually-hidden"> command</span>
+              </a>
+            </p>
+            <p class="interaction-note">“{e.sentence}”</p>
+            <p class="dim interaction-src">— {e.source}</p>
+          </div>
+        ))}
+      </>
+    )
+  }
+
+  {
     related.length > 0 && (
       <>
         <h2>Related</h2>
@@ -193,6 +237,27 @@ const pagesLabel =
   }
 
   .purpose-src {
+    font-size: 0.8rem;
+  }
+
+  .interaction {
+    margin-bottom: 1rem;
+    max-width: 44rem;
+  }
+
+  .interaction p {
+    margin: 0 0 0.15rem;
+  }
+
+  .interaction-members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.85rem;
+    font-family: var(--mono);
+    font-size: 0.92rem;
+  }
+
+  .interaction-src {
     font-size: 0.8rem;
   }
 
