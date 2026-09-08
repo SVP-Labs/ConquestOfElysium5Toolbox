@@ -202,6 +202,14 @@ source attached (see the rules table in play.astro).
   Animate Tools ritual, is in neither the manual nor the extraction's own
   notes ("Required terrain: ???") — an open question. Groups -1000 to
   -1199 are mod-defined (`selectterrgroup`), so they have no fixed names.
+- **Rituals above level 3 need `free` (owner's play knowledge,
+  2026-09-08):** without it the game crashes when such a ritual would be
+  offered for research — they only work auto-learned. Corroborating
+  negative evidence: the manual documents level 1-9 but none of the 583
+  base-game rituals goes above level 3. Implemented as the validator's
+  `ritual-needs-free` warning (newritual blocks only; selectritual and
+  copyritual blocks are exempt since the flag may already be present or
+  copied in).
 - **Strength's combat role (owner's play knowledge, 2026-09-03):** str
   mainly determines how fast a unit recovers from stuns and similar
   states — it is NOT part of the damage die, matching the earlier
