@@ -33,8 +33,8 @@
   "text": "Lets the monster sense how many corpses of any type lie in its current square. The count is shown as skull icons:",
   "scale": [
    [
-    "no skull",
-    "0–2 corpses"
+    "—",
+    "0–2 corpses (no skull)"
    ],
    [
     "💀",
