@@ -32,7 +32,7 @@ const purpose = override
   ? [
       typeof override === "string"
         ? { text: override, source: "authored" }
-        : { text: override.text, source: "authored", label: override.source },
+        : { text: override.text, source: "authored", label: override.source, scale: override.scale },
     ]
   : (manualDescriptions[name] ?? []).map((p) => ({ ...p, source: "manual" }));
 
@@ -156,12 +156,26 @@ const pagesLabel =
         {purpose.map((p) => (
           <div class="purpose">
             <p>{p.text}</p>
+            {p.scale && (
+              <table class="purpose-scale">
+                <tbody>
+                  {p.scale.map(([icon, range]) => (
+                    <tr>
+                      <td class="scale-icon">{icon}</td>
+                      <td>{range}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            )}
             <p class="dim purpose-src">
               {p.source === "manual"
                 ? `— modding manual${p.page ? `, page ${p.page}` : ""}${
                     p.section && p.section !== "mod" ? ` (as ${/^[aeiou]/.test(p.section) ? "an" : "a"} ${p.section} command)` : ""
                   }`
-                : `— toolbox note, ${p.label ?? "written from base-game usage"}`}
+                : p.label
+                  ? `— ${p.label}`
+                  : "— toolbox note, written from base-game usage"}
             </p>
           </div>
         ))}
@@ -276,6 +290,21 @@ const pagesLabel =
 
   .purpose-src {
     font-size: 0.8rem;
+  }
+
+  .purpose-scale {
+    margin: 0.4rem 0 0.35rem;
+    width: auto;
+  }
+
+  .purpose-scale td {
+    padding: 0.15rem 1.25rem 0.15rem 0;
+    border: 0;
+  }
+
+  .scale-icon {
+    white-space: nowrap;
+    letter-spacing: 0.1em;
   }
 
   .interaction {
