@@ -146,7 +146,7 @@ const pagesLabel =
             <p class="dim purpose-src">
               {p.source === "manual"
                 ? `— modding manual${p.page ? `, page ${p.page}` : ""}${
-                    p.section && cmd.sections.length > 1 ? ` (as ${/^[aeiou]/.test(p.section) ? "an" : "a"} ${p.section} command)` : ""
+                    p.section && p.section !== "mod" ? ` (as ${/^[aeiou]/.test(p.section) ? "an" : "a"} ${p.section} command)` : ""
                   }`
                 : "— toolbox note, written from base-game usage"}
             </p>
