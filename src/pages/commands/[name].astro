@@ -6,6 +6,10 @@ import manualDescriptions from "../../data/command-descriptions.json";
 import authoredDescriptions from "../../data/command-descriptions-overrides.json";
 import interactions from "../../data/command-interactions.json";
 import interactionGroups from "../../data/interaction-groups.json";
+import spellsByPath from "../../data/spells.json";
+import spellPaths from "../../data/spell-paths.json";
+import weaponsByIndex from "../../data/weapons-index.json";
+import { spellRelationsFor } from "../../lib/spell-display.js";
 import { SECTION_TIPS, STATUS_TIPS } from "../../lib/badge-tips.js";
 import { distance } from "../../../modcheck/src/suggest.js";
 
@@ -21,9 +25,15 @@ const notes = cmd.notes ? (Array.isArray(cmd.notes) ? cmd.notes : [cmd.notes]) :
 
 // "What it does": the manual's own prose where it has any; hand-curated
 // text from the overrides file wins where present (the curation contract —
-// regeneration never touches the overrides).
-const purpose = authoredDescriptions[name]
-  ? [{ text: authoredDescriptions[name], source: "authored" }]
+// regeneration never touches the overrides). An override is a plain string,
+// or {text, source} when the default source label does not fit.
+const override = authoredDescriptions[name];
+const purpose = override
+  ? [
+      typeof override === "string"
+        ? { text: override, source: "authored" }
+        : { text: override.text, source: "authored", label: override.source, scale: override.scale },
+    ]
   : (manualDescriptions[name] ?? []).map((p) => ({ ...p, source: "manual" }));
 
 const signatureLine = cmd.signature ? `${name} ${cmd.signature}` : name;
@@ -42,6 +52,9 @@ if (description.length > 150) description = description.slice(0, 149) + "…";
 const myGroups = interactionGroups.filter((g) => g.members.includes(name));
 const grouped = new Set(myGroups.flatMap((g) => g.members));
 const mentionEdges = (interactions[name] ?? []).filter((e) => !grouped.has(e.with));
+// Combat spells whose weapon record carries a restriction touching this tag
+// (e.g. undead-only spells on the undead page).
+const spellRelations = spellRelationsFor(name, spellsByPath, spellPaths, weaponsByIndex);
 
 const stem = (n) => n.replace(/^\+/, "").replace(/\d+$/, "");
 const myStem = stem(name);
@@ -143,12 +156,26 @@ const pagesLabel =
         {purpose.map((p) => (
           <div class="purpose">
             <p>{p.text}</p>
+            {p.scale && (
+              <table class="purpose-scale">
+                <tbody>
+                  {p.scale.map(([icon, range]) => (
+                    <tr>
+                      <td class="scale-icon">{icon}</td>
+                      <td>{range}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            )}
             <p class="dim purpose-src">
               {p.source === "manual"
                 ? `— modding manual${p.page ? `, page ${p.page}` : ""}${
                     p.section && p.section !== "mod" ? ` (as ${/^[aeiou]/.test(p.section) ? "an" : "a"} ${p.section} command)` : ""
                   }`
-                : "— toolbox note, written from base-game usage"}
+                : p.label
+                  ? `— ${p.label}`
+                  : "— toolbox note, written from base-game usage"}
             </p>
           </div>
         ))}
@@ -205,6 +232,29 @@ const pagesLabel =
   }
 
   {
+    spellRelations.length > 0 && (
+      <>
+        <h2>Spell interactions</h2>
+        {spellRelations.map((r) => (
+          <div class="interaction">
+            <p class="interaction-note">{r.relation}:</p>
+            <p class="interaction-members">
+              {r.spells.map((sp) => (
+                <a href={`/data/spells#${sp.anchor}`} title={sp.pathName}>
+                  {sp.name}
+                </a>
+              ))}
+            </p>
+            <p class="dim interaction-src">
+              — targeting flags on the spells' weapon records; wording per the manual
+            </p>
+          </div>
+        ))}
+      </>
+    )
+  }
+
+  {
     related.length > 0 && (
       <>
         <h2>Related</h2>
@@ -240,6 +290,21 @@ const pagesLabel =
 
   .purpose-src {
     font-size: 0.8rem;
+  }
+
+  .purpose-scale {
+    margin: 0.4rem 0 0.35rem;
+    width: auto;
+  }
+
+  .purpose-scale td {
+    padding: 0.15rem 1.25rem 0.15rem 0;
+    border: 0;
+  }
+
+  .scale-icon {
+    white-space: nowrap;
+    letter-spacing: 0.3em;
   }
 
   .interaction {

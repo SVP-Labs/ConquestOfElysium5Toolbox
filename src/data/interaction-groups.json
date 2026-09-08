@@ -5,7 +5,7 @@
   "source": "manual + base-game usage"
  },
  {
-  "note": "A weapon with an affect… restriction only harms beings carrying the matching type flag: affecthuman requires human, affectundead requires undead, affectanimal requires animal, and affectmale / affectfemale check the being's sex (female marks a monster or item wearer as female).",
+  "note": "A weapon with an affect… restriction only harms matching targets: affectundead requires the undead flag, affectanimal the animal flag, and affectmale / affectfemale check the being's sex (female marks a monster or item wearer as female). affecthuman is the odd one out — the manual says it keys on the res_convert attribute rather than the human flag.",
   "members": ["affecthuman", "affectundead", "affectanimal", "affectmale", "affectfemale", "human", "undead", "animal", "female"],
   "source": "manual"
  },

@@ -1,0 +1,182 @@
+---
+import Base from "../../layouts/Base.astro";
+import spellsByPath from "../../data/spells.json";
+import spellPaths from "../../data/spell-paths.json";
+import weaponsByIndex from "../../data/weapons-index.json";
+import { damageText, specialText, spellAnchor } from "../../lib/spell-display.js";
+
+const rows = [];
+for (const [pathNbr, list] of Object.entries(spellsByPath)) {
+  const pathName = spellPaths[pathNbr] ?? `path ${pathNbr}`;
+  for (const sp of list) {
+    const rec = weaponsByIndex[sp.weapon];
+    rows.push({
+      name: sp.name,
+      pathNbr: Number(pathNbr),
+      pathName,
+      anchor: spellAnchor(pathNbr, sp.name),
+      level: sp.level,
+      range: rec?.range,
+      damage: damageText(sp, rec),
+      special: specialText(sp, rec),
+    });
+  }
+}
+rows.sort(
+  (a, b) => a.pathName.localeCompare(b.pathName) || a.level - b.level || a.name.localeCompare(b.name),
+);
+const total = rows.length;
+const paths = Object.entries(spellPaths)
+  .map(([nbr, name]) => [Number(nbr), name])
+  .sort((a, b) => a[1].localeCompare(b[1]));
+---
+
+<Base
+  title="Combat spells"
+  description={`All ${total} Conquest of Elysium 5 combat spells across ${paths.length} spell paths, searchable — level, range, damage and area for every spell.`}
+>
+  <h1>Combat spells <span class="dim entry-count">{total} entries</span></h1>
+  <p class="back"><a href="/data">&larr; All ID tables</a></p>
+  <p class="dim table-note">
+    Spells are not moddable — this table is reference for reading a monster's <a href="/commands/spellweapon">spellweapon</a> line (the path numbers are in the <a href="/data/spell-paths">spell paths table</a>) and for players. Spell data from the base game; area wording per the CoE5 community wiki (CC BY-SA).
+  </p>
+
+  <div class="controls">
+    <div class="controls-row">
+      <input
+        type="search"
+        id="q"
+        placeholder="Search spells…"
+        aria-label="Search spells by name"
+        autocomplete="off"
+      />
+      <select id="path" aria-label="Filter by spell path">
+        <option value="all">all paths</option>
+        {paths.map(([nbr, name]) => <option value={nbr}>{name}</option>)}
+      </select>
+    </div>
+    <p class="dim count" id="count" aria-live="polite">showing {total} of {total}</p>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">Spell</th>
+        <th scope="col">Path</th>
+        <th scope="col">Level</th>
+        <th scope="col">Range</th>
+        <th scope="col">Damage</th>
+        <th scope="col">Special</th>
+      </tr>
+    </thead>
+    <tbody id="list">
+      {
+        rows.map((r) => (
+          <tr id={r.anchor} data-name={r.name} data-path={r.pathNbr}>
+            <td>{r.name}</td>
+            <td class="dim">{r.pathName}</td>
+            <td class="num">{r.level}</td>
+            <td class="num">{r.range ?? "—"}</td>
+            <td title={r.damage.title}>{r.damage.text}</td>
+            <td class="dim">{r.special}</td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</Base>
+
+<script>
+  import { distance } from "../../../modcheck/src/suggest.js";
+
+  const rows = [...document.querySelectorAll("#list > tr")].map((el) => ({
+    el,
+    name: el.dataset.name.toLowerCase(),
+    path: el.dataset.path,
+  }));
+  const q = document.getElementById("q");
+  const pathSel = document.getElementById("path");
+  const count = document.getElementById("count");
+  const total = rows.length;
+
+  function apply() {
+    const query = q.value.trim().toLowerCase();
+    const fuzzy = query.length >= 3;
+    const path = pathSel.value;
+    let shown = 0;
+    for (const row of rows) {
+      const ok =
+        (path === "all" || row.path === path) &&
+        (!query || row.name.includes(query) || (fuzzy && distance(query, row.name, 2) <= 2));
+      row.el.hidden = !ok;
+      if (ok) shown++;
+    }
+    count.textContent = `showing ${shown} of ${total}`;
+  }
+
+  q.addEventListener("input", apply);
+  pathSel.addEventListener("change", apply);
+</script>
+
+<style>
+  .entry-count {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 0.35em;
+  }
+
+  .back {
+    margin-top: -0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .table-note {
+    font-size: 0.9rem;
+    max-width: 44rem;
+  }
+
+  .controls {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: var(--bg);
+    padding: 0.5rem 0 0.25rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 0.5rem;
+  }
+
+  .controls-row {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+
+  #q {
+    flex: 1;
+    min-width: 12rem;
+    max-width: 24rem;
+  }
+
+  .count {
+    margin: 0.5rem 0 0;
+    font-size: 0.85rem;
+  }
+
+  .num {
+    font-family: var(--mono);
+    font-size: 0.88rem;
+  }
+
+  tbody tr[hidden] {
+    display: none;
+  }
+
+  tbody tr {
+    /* Keep a deep-linked row clear of the sticky search bar. */
+    scroll-margin-top: 6.5rem;
+  }
+
+  tbody tr:target td {
+    background: color-mix(in srgb, var(--accent) 16%, transparent);
+  }
+</style>

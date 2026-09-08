@@ -226,6 +226,12 @@ source attached (see the rules table in play.astro).
   restrictions), each with a note assembled from the manual's sentences —
   details that rest on the extraction's annotations are source-labeled
   "manual + base-game usage". The groups file is curated: hand edits win.
+- **sensedead skull thresholds (@danone, Conquest of Elysium 5 Discord;
+  relayed by the owner 2026-09-08+):** the sensed corpse count displays as
+  up to five skull icons — 1 skull at 3–9 corpses, 2 at 10–24, 3 at 25–74,
+  4 at 75–248, 5 at 249+; below 3 none. Not stated in the manual, rips or
+  wiki (UI behaviour). Shown as a skull scale on the sensedead page,
+  credited to @danone.
 - **Rituals above level 3 need `free` (owner's play knowledge,
   2026-09-08):** without it the game crashes when such a ritual would be
   offered for research — they only work auto-learned. Corroborating

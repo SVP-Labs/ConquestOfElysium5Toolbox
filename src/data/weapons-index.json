@@ -5,7 +5,11 @@
   "init": 2,
   "type": "Blunt",
   "dmg": 1,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane",
+   "soft"
+  ]
  },
  "1": {
   "name": "Dagger",
@@ -13,7 +17,10 @@
   "init": 2,
   "type": "Pierce",
   "dmg": 3,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "2": {
   "name": "Broadsword",
@@ -21,7 +28,10 @@
   "init": 4,
   "type": "Slash",
   "dmg": 6,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "3": {
   "name": "Axe",
@@ -29,7 +39,10 @@
   "init": 3,
   "type": "Slash",
   "dmg": 7,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "4": {
   "name": "Spear",
@@ -37,7 +50,10 @@
   "init": 6,
   "type": "Pierce",
   "dmg": 4,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "5": {
   "name": "Staff",
@@ -45,7 +61,10 @@
   "init": 5,
   "type": "Blunt",
   "dmg": 3,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "6": {
   "name": "Hammer",
@@ -53,7 +72,10 @@
   "init": 3,
   "type": "Blunt",
   "dmg": 4,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "7": {
   "name": "Bow",
@@ -61,7 +83,10 @@
   "init": 2,
   "type": "Pierce",
   "dmg": 3,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "8": {
   "name": "Shortsword",
@@ -69,7 +94,10 @@
   "init": 3,
   "type": "Slash",
   "dmg": 5,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "9": {
   "name": "Crossbow",
@@ -77,7 +105,10 @@
   "init": 2,
   "type": "Pierce",
   "dmg": 5,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "10": {
   "name": "Life Drain",
@@ -93,7 +124,10 @@
   "init": 2,
   "type": "Slash",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "12": {
   "name": "Claw",
@@ -101,7 +135,10 @@
   "init": 2,
   "type": "Slash",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "13": {
   "name": "Lance Charge",
@@ -109,7 +146,10 @@
   "init": 5,
   "type": "Pierce",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "14": {
   "name": "Antlers",
@@ -117,7 +157,10 @@
   "init": 3,
   "type": "Pierce",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "15": {
   "name": "aff (mr)",
@@ -159,7 +202,10 @@
   "init": 3,
   "type": "Blunt",
   "dmg": 3,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "20": {
   "name": "Mace",
@@ -167,7 +213,10 @@
   "init": 3,
   "type": "Blunt",
   "dmg": 5,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "21": {
   "name": "Greatsword",
@@ -175,7 +224,10 @@
   "init": 4,
   "type": "Slash",
   "dmg": 9,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "22": {
   "name": "Pike",
@@ -183,7 +235,10 @@
   "init": 2,
   "type": "Pierce",
   "dmg": 5,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "23": {
   "name": "Halberd",
@@ -191,7 +246,10 @@
   "init": 5,
   "type": "Slash",
   "dmg": 8,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "24": {
   "name": "Javelin",
@@ -199,7 +257,10 @@
   "init": 1,
   "type": "Pierce",
   "dmg": 4,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "25": {
   "name": "Flail",
@@ -207,7 +268,10 @@
   "init": 3,
   "type": "Blunt",
   "dmg": 6,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "26": {
   "name": "Trident",
@@ -215,7 +279,10 @@
   "init": 5,
   "type": "Pierce",
   "dmg": 7,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "27": {
   "name": "Sling",
@@ -223,7 +290,10 @@
   "init": 2,
   "type": "Blunt",
   "dmg": 2,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "28": {
   "name": "Longbow",
@@ -231,7 +301,10 @@
   "init": 2,
   "type": "Pierce",
   "dmg": 4,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "29": {
   "name": "ben (self)",
@@ -279,7 +352,10 @@
   "init": 2,
   "type": "Pierce",
   "dmg": 3,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "35": {
   "name": "Poison",
@@ -303,7 +379,10 @@
   "init": 2,
   "type": "Slash",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "38": {
   "name": "Poison Breath",
@@ -337,7 +416,10 @@
   "init": 2,
   "type": "Slash",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "42": {
   "name": "Venomous Bite",
@@ -345,7 +427,10 @@
   "init": 2,
   "type": "Slash",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "43": {
   "name": "Weak Venomous Bite",
@@ -353,7 +438,10 @@
   "init": 2,
   "type": "Slash",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "44": {
   "name": "Tentacle",
@@ -361,7 +449,10 @@
   "init": 2,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "45": {
   "name": "Poison Cloud",
@@ -397,7 +488,10 @@
   "type": "Magic",
   "dmg": 0,
   "aoe": 25,
-  "an": true
+  "an": true,
+  "flags": [
+   "undead"
+  ]
  },
  "49": {
   "name": "Putrid Cloud",
@@ -487,7 +581,10 @@
   "init": 4,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 1
+  "aoe": 1,
+  "flags": [
+   "wallkill"
+  ]
  },
  "60": {
   "name": "Meteor Showers",
@@ -495,7 +592,10 @@
   "init": 4,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 9997
+  "aoe": 9997,
+  "flags": [
+   "wallkill"
+  ]
  },
  "61": {
   "name": "Freeze",
@@ -633,7 +733,10 @@
   "type": "Polymorph",
   "dmg": 0,
   "aoe": 0,
-  "an": true
+  "an": true,
+  "flags": [
+   "tree"
+  ]
  },
  "77": {
   "name": "Sleep",
@@ -731,7 +834,10 @@
   "init": 5,
   "type": "Pierce",
   "dmg": 4,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "89": {
   "name": "Polymorph",
@@ -774,7 +880,10 @@
   "init": 2,
   "type": "Slash",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "94": {
   "name": "Talon",
@@ -782,7 +891,10 @@
   "init": 2,
   "type": "Slash",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "95": {
   "name": "Hoof",
@@ -790,7 +902,10 @@
   "init": 2,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "96": {
   "name": "Trample",
@@ -798,7 +913,10 @@
   "init": 1,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 1
+  "aoe": 1,
+  "flags": [
+   "mundane"
+  ]
  },
  "97": {
   "name": "Throw Rock",
@@ -806,7 +924,10 @@
   "init": 2,
   "type": "Blunt",
   "dmg": 1,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "98": {
   "name": "Drop Boulder",
@@ -814,7 +935,10 @@
   "init": 1,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 1
+  "aoe": 1,
+  "flags": [
+   "mundane"
+  ]
  },
  "99": {
   "name": "Sickle",
@@ -822,7 +946,10 @@
   "init": 3,
   "type": "Slash",
   "dmg": 3,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "100": {
   "name": "Scythe",
@@ -830,7 +957,10 @@
   "init": 5,
   "type": "Slash",
   "dmg": 6,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "101": {
   "name": "death to friend (mr)",
@@ -942,7 +1072,10 @@
   "init": 4,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 5
+  "aoe": 5,
+  "flags": [
+   "mundane"
+  ]
  },
  "114": {
   "name": "Winds",
@@ -950,7 +1083,10 @@
   "init": 4,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 9
+  "aoe": 9,
+  "flags": [
+   "mundane"
+  ]
  },
  "115": {
   "name": "Storm Wind",
@@ -958,7 +1094,10 @@
   "init": 4,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 25
+  "aoe": 25,
+  "flags": [
+   "mundane"
+  ]
  },
  "116": {
   "name": "Arcane Tempest",
@@ -974,7 +1113,10 @@
   "init": 4,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 9999
+  "aoe": 9999,
+  "flags": [
+   "mundane"
+  ]
  },
  "118": {
   "name": "aff (str-resistable)",
@@ -1034,7 +1176,10 @@
   "range": 1,
   "init": 7,
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "126": {
   "name": "Sunlight",
@@ -1043,7 +1188,10 @@
   "type": "Fire",
   "dmg": 0,
   "aoe": 1,
-  "an": true
+  "an": true,
+  "flags": [
+   "undkill"
+  ]
  },
  "127": {
   "name": "Sunbeam",
@@ -1052,7 +1200,10 @@
   "type": "Fire",
   "dmg": 0,
   "aoe": 5,
-  "an": true
+  "an": true,
+  "flags": [
+   "undkill"
+  ]
  },
  "128": {
   "name": "Solar Rays",
@@ -1061,7 +1212,10 @@
   "type": "Fire",
   "dmg": 0,
   "aoe": 25,
-  "an": true
+  "an": true,
+  "flags": [
+   "undkill"
+  ]
  },
  "129": {
   "name": "Solar Brilliance",
@@ -1070,7 +1224,10 @@
   "type": "Fire",
   "dmg": 0,
   "aoe": 9999,
-  "an": true
+  "an": true,
+  "flags": [
+   "undkill"
+  ]
  },
  "130": {
   "name": "Cleansing Water",
@@ -1078,7 +1235,10 @@
   "init": 4,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 1
+  "aoe": 1,
+  "flags": [
+   "undkill"
+  ]
  },
  "131": {
   "name": "dmg (holy water+knockback)",
@@ -1086,7 +1246,10 @@
   "init": 4,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 5
+  "aoe": 5,
+  "flags": [
+   "undkill"
+  ]
  },
  "132": {
   "name": "Torrent of the Sacred River",
@@ -1094,7 +1257,10 @@
   "init": 4,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 25
+  "aoe": 25,
+  "flags": [
+   "undkill"
+  ]
  },
  "133": {
   "name": "dmg (holy water+knockback)",
@@ -1102,7 +1268,10 @@
   "init": 4,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 999
+  "aoe": 999,
+  "flags": [
+   "undkill"
+  ]
  },
  "134": {
   "name": "Finger of Death",
@@ -1179,7 +1348,10 @@
   "init": 4,
   "type": "Blunt",
   "dmg": 8,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "143": {
   "name": "Stinger",
@@ -1187,7 +1359,10 @@
   "init": 3,
   "type": "Pierce",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "144": {
   "name": "Flick Barb",
@@ -1195,7 +1370,10 @@
   "init": 2,
   "type": "Pierce",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "145": {
   "name": "Thunder Fist",
@@ -1211,7 +1389,10 @@
   "init": 2,
   "type": "Pierce",
   "dmg": 3,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "147": {
   "name": "Wrestle",
@@ -1219,7 +1400,10 @@
   "init": 1,
   "type": "Blunt",
   "dmg": 3,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "148": {
   "name": "Summon Wolf",
@@ -1297,7 +1481,10 @@
   "init": 5,
   "type": "Blunt",
   "dmg": 5,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "157": {
   "name": "Spectral Club",
@@ -1361,7 +1548,10 @@
   "type": "Pierce",
   "dmg": 0,
   "aoe": 0,
-  "an": true
+  "an": true,
+  "flags": [
+   "mundane"
+  ]
  },
  "165": {
   "name": "Shock Stun",
@@ -1376,7 +1566,10 @@
   "init": 5,
   "type": "Slash",
   "dmg": 1,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "soft"
+  ]
  },
  "167": {
   "name": "aff (unresistable + mundane + fly)",
@@ -1384,7 +1577,10 @@
   "init": 4,
   "dmg": 0,
   "aoe": 1,
-  "an": true
+  "an": true,
+  "flags": [
+   "mundane"
+  ]
  },
  "168": {
   "name": "Project Fire",
@@ -1459,7 +1655,10 @@
   "init": 2,
   "type": "Slash",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "stonekill"
+  ]
  },
  "177": {
   "name": "Gusts of Winds",
@@ -1467,7 +1666,10 @@
   "init": 4,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 9
+  "aoe": 9,
+  "flags": [
+   "mundane"
+  ]
  },
  "178": {
   "name": "Wave Strike",
@@ -1492,7 +1694,10 @@
   "type": "Blunt",
   "dmg": 0,
   "aoe": 3003,
-  "an": true
+  "an": true,
+  "flags": [
+   "mundane"
+  ]
  },
  "181": {
   "name": "Serpent Kryss",
@@ -1509,7 +1714,10 @@
   "type": "Pierce",
   "dmg": 3,
   "aoe": 0,
-  "an": true
+  "an": true,
+  "flags": [
+   "mundane"
+  ]
  },
  "183": {
   "name": "Burning Hoof",
@@ -1517,7 +1725,10 @@
   "init": 2,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "184": {
   "name": "Burning Lance",
@@ -1573,7 +1784,10 @@
   "type": "Blunt",
   "dmg": 0,
   "aoe": 7015,
-  "an": true
+  "an": true,
+  "flags": [
+   "wallkill"
+  ]
  },
  "191": {
   "name": "Meteor Flame Burst",
@@ -1590,7 +1804,10 @@
   "type": "Magic",
   "dmg": 0,
   "aoe": 0,
-  "an": true
+  "an": true,
+  "flags": [
+   "drown"
+  ]
  },
  "193": {
   "name": "Summon Lesser Fire",
@@ -1637,7 +1854,10 @@
   "init": 4,
   "type": "Pierce",
   "dmg": 0,
-  "aoe": 999
+  "aoe": 999,
+  "flags": [
+   "mundane"
+  ]
  },
  "199": {
   "name": "Iron Darts",
@@ -1653,7 +1873,10 @@
   "init": 4,
   "type": "Pierce",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "201": {
   "name": "Staff of Power",
@@ -1703,14 +1926,20 @@
   "range": 8,
   "init": 4,
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "undead"
+  ]
  },
  "207": {
   "name": "Army of the Sun",
   "range": 8,
   "init": 4,
   "dmg": 0,
-  "aoe": 25
+  "aoe": 25,
+  "flags": [
+   "undead"
+  ]
  },
  "208": {
   "name": "dmg (fire)",
@@ -1773,7 +2002,10 @@
   "range": 6,
   "init": 4,
   "dmg": 0,
-  "aoe": 3
+  "aoe": 3,
+  "flags": [
+   "mundane"
+  ]
  },
  "216": {
   "name": "Wild Growth",
@@ -1781,7 +2013,10 @@
   "init": 4,
   "dmg": 0,
   "aoe": 100,
-  "an": true
+  "an": true,
+  "flags": [
+   "mundane"
+  ]
  },
  "217": {
   "name": "Charm Animal",
@@ -1790,7 +2025,10 @@
   "type": "Charm",
   "dmg": 0,
   "aoe": 0,
-  "an": true
+  "an": true,
+  "flags": [
+   "affectanimal"
+  ]
  },
  "218": {
   "name": "Charm Animal",
@@ -1799,7 +2037,10 @@
   "type": "Charm",
   "dmg": 0,
   "aoe": 9,
-  "an": true
+  "an": true,
+  "flags": [
+   "affectanimal"
+  ]
  },
  "219": {
   "name": "Charm Animal",
@@ -1808,7 +2049,10 @@
   "type": "Charm",
   "dmg": 0,
   "aoe": 25,
-  "an": true
+  "an": true,
+  "flags": [
+   "affectanimal"
+  ]
  },
  "220": {
   "name": "Polymorph into Boar",
@@ -1817,7 +2061,10 @@
   "type": "Polymorph",
   "dmg": 0,
   "aoe": 100,
-  "an": true
+  "an": true,
+  "flags": [
+   "tree"
+  ]
  },
  "221": {
   "name": "Polymorph into Woodman",
@@ -1876,7 +2123,10 @@
   "init": 4,
   "type": "Slash",
   "dmg": 7,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "228": {
   "name": "Obsidian Clubsword",
@@ -1884,7 +2134,10 @@
   "init": 4,
   "type": "Slash",
   "dmg": 5,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "229": {
   "name": "Poison Arrow",
@@ -1892,7 +2145,10 @@
   "init": 4,
   "type": "Pierce",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "230": {
   "name": "Disintegrate",
@@ -1943,7 +2199,10 @@
   "type": "Magic",
   "dmg": 0,
   "aoe": 0,
-  "an": true
+  "an": true,
+  "flags": [
+   "reanimate"
+  ]
  },
  "236": {
   "name": "Stellar Bolt",
@@ -1960,7 +2219,10 @@
   "init": 1,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 1
+  "aoe": 1,
+  "flags": [
+   "mundane"
+  ]
  },
  "238": {
   "name": "Boulders",
@@ -1968,7 +2230,10 @@
   "init": 1,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 3
+  "aoe": 3,
+  "flags": [
+   "mundane"
+  ]
  },
  "239": {
   "name": "Giant Arrow",
@@ -1976,7 +2241,10 @@
   "init": 1,
   "type": "Pierce",
   "dmg": 0,
-  "aoe": 1
+  "aoe": 1,
+  "flags": [
+   "mundane"
+  ]
  },
  "240": {
   "name": "Encase in Ice",
@@ -2037,7 +2305,10 @@
   "range": 6,
   "init": 4,
   "dmg": 0,
-  "aoe": 1
+  "aoe": 1,
+  "flags": [
+   "mundane"
+  ]
  },
  "248": {
   "name": "Spiked Arm",
@@ -2045,21 +2316,30 @@
   "init": 7,
   "type": "Pierce",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "249": {
   "name": "Strength Sap",
   "range": 8,
   "init": 4,
   "dmg": 0,
-  "aoe": 3
+  "aoe": 3,
+  "flags": [
+   "undead"
+  ]
  },
  "250": {
   "name": "Weakness",
   "range": 8,
   "init": 4,
   "dmg": 0,
-  "aoe": 25
+  "aoe": 25,
+  "flags": [
+   "undead"
+  ]
  },
  "251": {
   "name": "Chill of the Dead",
@@ -2075,7 +2355,10 @@
   "range": 0,
   "init": 4,
   "dmg": 0,
-  "aoe": 9999
+  "aoe": 9999,
+  "flags": [
+   "undead"
+  ]
  },
  "253": {
   "name": "Club of the Ogre King",
@@ -2126,7 +2409,10 @@
   "init": 3,
   "type": "Slash",
   "dmg": 8,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "259": {
   "name": "Fist",
@@ -2134,7 +2420,11 @@
   "init": 2,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane",
+   "soft"
+  ]
  },
  "260": {
   "name": "Sickle Sword",
@@ -2142,7 +2432,10 @@
   "init": 4,
   "type": "Slash",
   "dmg": 5,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "261": {
   "name": "Bane Blade",
@@ -2286,7 +2579,10 @@
   "init": 4,
   "type": "Pierce",
   "dmg": 4,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "278": {
   "name": "Poison Glaive",
@@ -2294,7 +2590,10 @@
   "init": 5,
   "type": "Slash",
   "dmg": 8,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "279": {
   "name": "Lightning Strike",
@@ -2311,7 +2610,10 @@
   "init": 4,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 3
+  "aoe": 3,
+  "flags": [
+   "mundane"
+  ]
  },
  "281": {
   "name": "Wither",
@@ -2326,7 +2628,10 @@
   "init": 4,
   "dmg": 0,
   "aoe": 25,
-  "an": true
+  "an": true,
+  "flags": [
+   "tree"
+  ]
  },
  "283": {
   "name": "Poison Explosion",
@@ -2375,7 +2680,10 @@
   "init": 5,
   "type": "Pierce",
   "dmg": 3,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "289": {
   "name": "aff (morale resist)",
@@ -2390,7 +2698,10 @@
   "init": 1,
   "type": "Pierce",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "291": {
   "name": "Petrification",
@@ -2407,7 +2718,10 @@
   "init": 6,
   "type": "Blunt",
   "dmg": 2,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "293": {
   "name": "Poison Cloud",
@@ -2416,7 +2730,10 @@
   "type": "Poison",
   "dmg": 0,
   "aoe": 3,
-  "an": true
+  "an": true,
+  "flags": [
+   "mundane"
+  ]
  },
  "294": {
   "name": "Cloud of Decay",
@@ -2440,7 +2757,10 @@
   "init": 2,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "297": {
   "name": "Ghoul Claw",
@@ -2448,7 +2768,10 @@
   "init": 2,
   "type": "Slash",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "ghoulify"
+  ]
  },
  "298": {
   "name": "Mace of Order",
@@ -2514,7 +2837,10 @@
   "init": 1,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 1
+  "aoe": 1,
+  "flags": [
+   "mundane"
+  ]
  },
  "306": {
   "name": "Mind Blast",
@@ -2563,7 +2889,10 @@
   "init": 4,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 1
+  "aoe": 1,
+  "flags": [
+   "mundane"
+  ]
  },
  "312": {
   "name": "dmg (earth, blunt+knockback)",
@@ -2571,7 +2900,10 @@
   "init": 4,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 3
+  "aoe": 3,
+  "flags": [
+   "mundane"
+  ]
  },
  "313": {
   "name": "Eruption",
@@ -2579,7 +2911,11 @@
   "init": 1,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 5
+  "aoe": 5,
+  "flags": [
+   "mundane",
+   "wallkill"
+  ]
  },
  "314": {
   "name": "dmg (earth, blunt+knockback)",
@@ -2587,7 +2923,10 @@
   "init": 4,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 25
+  "aoe": 25,
+  "flags": [
+   "mundane"
+  ]
  },
  "315": {
   "name": "dmg (earth, blunt+knockback)",
@@ -2595,7 +2934,10 @@
   "init": 4,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 999
+  "aoe": 999,
+  "flags": [
+   "mundane"
+  ]
  },
  "316": {
   "name": "Earthquake",
@@ -2603,7 +2945,11 @@
   "init": 4,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 9999
+  "aoe": 9999,
+  "flags": [
+   "mundane",
+   "wallkill"
+  ]
  },
  "317": {
   "name": "Earth Meld",
@@ -2648,7 +2994,10 @@
   "init": 3,
   "type": "Blunt",
   "dmg": 4,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "323": {
   "name": "Summon Fiend of Darkness",
@@ -2680,7 +3029,10 @@
   "init": 1,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "327": {
   "name": "Rain of Stones",
@@ -2703,7 +3055,10 @@
   "range": 6,
   "init": 3,
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "330": {
   "name": "dmg (pierce iron)",
@@ -2727,7 +3082,10 @@
   "init": 3,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "333": {
   "name": "Brass Claw",
@@ -2775,7 +3133,10 @@
   "init": 2,
   "type": "Pierce",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "339": {
   "name": "Hypnotizing Dance",
@@ -2801,7 +3162,10 @@
   "type": "Blunt",
   "dmg": 0,
   "aoe": 0,
-  "an": true
+  "an": true,
+  "flags": [
+   "mundane"
+  ]
  },
  "342": {
   "name": "Scepter of the Goblin King",
@@ -2941,7 +3305,10 @@
   "init": 2,
   "type": "Pierce",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "360": {
   "name": "Shard Fist",
@@ -2957,7 +3324,10 @@
   "init": 1,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 1
+  "aoe": 1,
+  "flags": [
+   "mundane"
+  ]
  },
  "362": {
   "name": "Lashes of Death",
@@ -3023,7 +3393,10 @@
   "init": 4,
   "type": "Pierce",
   "dmg": 0,
-  "aoe": -7
+  "aoe": -7,
+  "flags": [
+   "mundane"
+  ]
  },
  "370": {
   "name": "Summon Fiery Imp",
@@ -3048,7 +3421,10 @@
   "type": "Charm",
   "dmg": 0,
   "aoe": -3,
-  "an": true
+  "an": true,
+  "flags": [
+   "affectanimal"
+  ]
  },
  "373": {
   "name": "Deadly Fumes",
@@ -3072,7 +3448,10 @@
   "init": 2,
   "type": "Pierce",
   "dmg": 1,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "376": {
   "name": "Shuriken",
@@ -3080,7 +3459,10 @@
   "init": 7,
   "type": "Pierce",
   "dmg": 2,
-  "aoe": -2
+  "aoe": -2,
+  "flags": [
+   "mundane"
+  ]
  },
  "377": {
   "name": "Shortsword",
@@ -3088,7 +3470,10 @@
   "init": 3,
   "type": "Slash",
   "dmg": 5,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "378": {
   "name": "armor",
@@ -3164,7 +3549,10 @@
   "init": 5,
   "type": "Blunt",
   "dmg": 4,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "388": {
   "name": "Tartarian Chain",
@@ -3206,7 +3594,10 @@
   "type": "Blunt",
   "dmg": 0,
   "aoe": 1,
-  "an": true
+  "an": true,
+  "flags": [
+   "drown"
+  ]
  },
  "393": {
   "name": "Stream of Water",
@@ -3221,7 +3612,10 @@
   "init": 4,
   "type": "Magic",
   "dmg": 0,
-  "aoe": -2
+  "aoe": -2,
+  "flags": [
+   "affectundead"
+  ]
  },
  "395": {
   "name": "Tendril of Darkness",
@@ -3257,7 +3651,10 @@
   "type": "Magic",
   "dmg": 0,
   "aoe": 100,
-  "an": true
+  "an": true,
+  "flags": [
+   "reanimate"
+  ]
  },
  "399": {
   "name": "Symbol of Light",
@@ -3266,7 +3663,10 @@
   "type": "Magic",
   "dmg": 0,
   "aoe": 100,
-  "an": true
+  "an": true,
+  "flags": [
+   "undkill"
+  ]
  },
  "400": {
   "name": "Smite",
@@ -3290,7 +3690,10 @@
   "init": 4,
   "dmg": 0,
   "aoe": 1,
-  "an": true
+  "an": true,
+  "flags": [
+   "drown"
+  ]
  },
  "403": {
   "name": "Iron Shower",
@@ -3306,7 +3709,10 @@
   "init": 2,
   "type": "Pierce",
   "dmg": 3,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "405": {
   "name": "Dagger of Filth",
@@ -3315,14 +3721,20 @@
   "type": "Pierce",
   "dmg": 3,
   "aoe": 0,
-  "an": true
+  "an": true,
+  "flags": [
+   "mundane"
+  ]
  },
  "406": {
   "name": "Weakness",
   "range": 10,
   "init": 4,
   "dmg": 0,
-  "aoe": 25
+  "aoe": 25,
+  "flags": [
+   "undead"
+  ]
  },
  "407": {
   "name": "Enslave",
@@ -3346,7 +3758,10 @@
   "range": 8,
   "init": 4,
   "dmg": 0,
-  "aoe": 1
+  "aoe": 1,
+  "flags": [
+   "undead"
+  ]
  },
  "410": {
   "name": "Morningstar of Flames",
@@ -3370,7 +3785,10 @@
   "init": 2,
   "type": "Slash",
   "dmg": 3,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "413": {
   "name": "Swallow",
@@ -3378,7 +3796,10 @@
   "init": 1,
   "type": "Acid",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "414": {
   "name": "Swallow",
@@ -3402,7 +3823,10 @@
   "init": 1,
   "type": "Slash",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "417": {
   "name": "Death Scepter",
@@ -3411,7 +3835,10 @@
   "type": "Blunt",
   "dmg": 35,
   "aoe": 0,
-  "an": true
+  "an": true,
+  "flags": [
+   "reanimate"
+  ]
  },
  "418": {
   "name": "Hell's Reign",
@@ -3436,7 +3863,10 @@
   "type": "Corrupt",
   "dmg": 0,
   "aoe": 999,
-  "an": true
+  "an": true,
+  "flags": [
+   "affecthuman"
+  ]
  },
  "421": {
   "name": "Desert Storm",
@@ -3444,7 +3874,10 @@
   "init": 4,
   "dmg": 0,
   "aoe": 9999,
-  "an": true
+  "an": true,
+  "flags": [
+   "undead"
+  ]
  },
  "422": {
   "name": "Dehydration",
@@ -3452,7 +3885,10 @@
   "init": 4,
   "dmg": 0,
   "aoe": 0,
-  "an": true
+  "an": true,
+  "flags": [
+   "undead"
+  ]
  },
  "423": {
   "name": "Cause Disease",
@@ -3467,7 +3903,10 @@
   "init": 3,
   "type": "Blunt",
   "dmg": 4,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "425": {
   "name": "Glaive",
@@ -3475,7 +3914,10 @@
   "init": 5,
   "type": "Slash",
   "dmg": 7,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "426": {
   "name": "Magma Bolt",
@@ -3599,7 +4041,11 @@
   "init": 3,
   "type": "Pierce",
   "dmg": 7,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane",
+   "stonekill"
+  ]
  },
  "442": {
   "name": "Arbalest",
@@ -3607,7 +4053,10 @@
   "init": 1,
   "type": "Pierce",
   "dmg": 10,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "443": {
   "name": "strength, aoe 3",
@@ -3638,7 +4087,10 @@
   "init": 4,
   "dmg": 0,
   "aoe": 25,
-  "an": true
+  "an": true,
+  "flags": [
+   "undead"
+  ]
  },
  "447": {
   "name": "Engulf",
@@ -3794,7 +4246,10 @@
   "init": 3,
   "type": "Blunt",
   "dmg": 5,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "466": {
   "name": "Decay",
@@ -3824,7 +4279,10 @@
   "range": 6,
   "init": 4,
   "dmg": 0,
-  "aoe": 9
+  "aoe": 9,
+  "flags": [
+   "undead"
+  ]
  },
  "470": {
   "name": "Summon Murder Of Crows",
@@ -3889,7 +4347,10 @@
   "init": 1,
   "type": "Pierce",
   "dmg": 0,
-  "aoe": 1
+  "aoe": 1,
+  "flags": [
+   "mundane"
+  ]
  },
  "478": {
   "name": "Soul Vortex",
@@ -4006,7 +4467,10 @@
   "init": 4,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 5
+  "aoe": 5,
+  "flags": [
+   "mundane"
+  ]
  },
  "492": {
   "name": "Curses",
@@ -4045,7 +4509,10 @@
   "init": 3,
   "type": "Blunt",
   "dmg": 3,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "497": {
   "name": "Curses",
@@ -4061,7 +4528,10 @@
   "type": "Charm",
   "dmg": 0,
   "aoe": 0,
-  "an": true
+  "an": true,
+  "flags": [
+   "affecthuman"
+  ]
  },
  "499": {
   "name": "Mass Conversion",
@@ -4070,7 +4540,10 @@
   "type": "Charm",
   "dmg": 0,
   "aoe": 9,
-  "an": true
+  "an": true,
+  "flags": [
+   "affecthuman"
+  ]
  },
  "500": {
   "name": "True Faith",
@@ -4079,7 +4552,10 @@
   "type": "Charm",
   "dmg": 0,
   "aoe": 25,
-  "an": true
+  "an": true,
+  "flags": [
+   "affecthuman"
+  ]
  },
  "501": {
   "name": "Touch of the Dead",
@@ -4096,7 +4572,10 @@
   "type": "Blunt",
   "dmg": 5,
   "aoe": 5,
-  "an": true
+  "an": true,
+  "flags": [
+   "holykill"
+  ]
  },
  "503": {
   "name": "Poison Mist",
@@ -4145,7 +4624,10 @@
   "type": "Magic",
   "dmg": 0,
   "aoe": -9,
-  "an": true
+  "an": true,
+  "flags": [
+   "reanimate"
+  ]
  },
  "509": {
   "name": "Summon Giant Locust",
@@ -4178,7 +4660,10 @@
   "type": "Charm",
   "dmg": 0,
   "aoe": 25,
-  "an": true
+  "an": true,
+  "flags": [
+   "affecthuman"
+  ]
  },
  "513": {
   "name": "Mist of Disease",
@@ -4212,7 +4697,10 @@
   "type": "Fire",
   "dmg": 0,
   "aoe": -2,
-  "an": true
+  "an": true,
+  "flags": [
+   "holykill"
+  ]
  },
  "517": {
   "name": "Sleep Touch",
@@ -4245,7 +4733,10 @@
   "init": 2,
   "type": "Slash",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "521": {
   "name": "Frost Branded Battle Axe",
@@ -4332,7 +4823,11 @@
   "range": 1,
   "init": 4,
   "dmg": 0,
-  "aoe": 3
+  "aoe": 3,
+  "flags": [
+   "mundane",
+   "tree"
+  ]
  },
  "532": {
   "name": "Reanimating Bite",
@@ -4340,7 +4835,10 @@
   "init": 2,
   "type": "Slash",
   "dmg": 5,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "reanimate"
+  ]
  },
  "533": {
   "name": "Poison Breath",
@@ -4366,7 +4864,10 @@
   "init": 2,
   "type": "Slash",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "536": {
   "name": "Barbed Tail",
@@ -4374,7 +4875,10 @@
   "init": 1,
   "type": "Pierce",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "537": {
   "name": "Serpent Skirt",
@@ -4382,7 +4886,10 @@
   "init": 1,
   "type": "Pierce",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "538": {
   "name": "Giant Rime Branded Arrow",
@@ -4457,7 +4964,10 @@
   "init": 4,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 5
+  "aoe": 5,
+  "flags": [
+   "mundane"
+  ]
  },
  "547": {
   "name": "Mesmerize",
@@ -4673,7 +5183,10 @@
   "init": 2,
   "type": "Slash",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "574": {
   "name": "Tentacle",
@@ -4928,7 +5441,10 @@
   "init": 5,
   "type": "Pierce",
   "dmg": 4,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "606": {
   "name": "Magic Spear",
@@ -5104,7 +5620,10 @@
   "init": 2,
   "type": "Pierce",
   "dmg": 3,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "627": {
   "name": "Regeneration",
@@ -5147,7 +5666,10 @@
   "init": 3,
   "type": "Blunt",
   "dmg": 7,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "633": {
   "name": "Shadow Form",
@@ -5283,7 +5805,10 @@
   "type": "Blunt",
   "dmg": 0,
   "aoe": 7005,
-  "an": true
+  "an": true,
+  "flags": [
+   "wallkill"
+  ]
  },
  "651": {
   "name": "Maws of the Earth (grip)",
@@ -5346,7 +5871,10 @@
   "init": 2,
   "type": "Slash",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "659": {
   "name": "Life Drain",
@@ -5371,14 +5899,21 @@
   "init": 4,
   "type": "Pierce",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "662": {
   "name": "Entangle",
   "range": 1,
   "init": 4,
   "dmg": 0,
-  "aoe": 1
+  "aoe": 1,
+  "flags": [
+   "mundane",
+   "tree"
+  ]
  },
  "663": {
   "name": "Flame Strike",
@@ -5409,7 +5944,10 @@
   "range": 3,
   "init": 2,
   "dmg": 0,
-  "aoe": 1
+  "aoe": 1,
+  "flags": [
+   "mundane"
+  ]
  },
  "667": {
   "name": "Corrosive Bite",
@@ -5417,7 +5955,10 @@
   "init": 2,
   "type": "Slash",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "668": {
   "name": "Acid",
@@ -5480,7 +6021,10 @@
   "type": "Fire",
   "dmg": 0,
   "aoe": 0,
-  "an": true
+  "an": true,
+  "flags": [
+   "undkill"
+  ]
  },
  "676": {
   "name": "Magic Scepter",
@@ -5566,7 +6110,10 @@
   "type": "Poison",
   "dmg": 0,
   "aoe": 5,
-  "an": true
+  "an": true,
+  "flags": [
+   "mundane"
+  ]
  },
  "687": {
   "name": "Poison Cloud",
@@ -5575,7 +6122,10 @@
   "type": "Poison",
   "dmg": 0,
   "aoe": 5,
-  "an": true
+  "an": true,
+  "flags": [
+   "mundane"
+  ]
  },
  "688": {
   "name": "Carnyx Horn",
@@ -5592,7 +6142,10 @@
   "init": 7,
   "type": "Pierce",
   "dmg": 4,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "690": {
   "name": "Lucerne Hammer",
@@ -5600,7 +6153,10 @@
   "init": 5,
   "type": "Pierce",
   "dmg": 7,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "691": {
   "name": "Horrible Howl",
@@ -5625,7 +6181,10 @@
   "init": 4,
   "type": "Slash",
   "dmg": 12,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "reanimate"
+  ]
  },
  "694": {
   "name": "Petrifying Fist",
@@ -5667,7 +6226,10 @@
   "init": 5,
   "type": "Pierce",
   "dmg": 7,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "ghoulify"
+  ]
  },
  "699": {
   "name": "Poison Breath",
@@ -5716,7 +6278,10 @@
   "init": 1,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 3
+  "aoe": 3,
+  "flags": [
+   "mundane"
+  ]
  },
  "705": {
   "name": "Frost Strike",
@@ -5739,7 +6304,10 @@
   "range": 8,
   "init": 3,
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "undead"
+  ]
  },
  "708": {
   "name": "Fool's Laughter",
@@ -5788,7 +6356,10 @@
   "init": 2,
   "type": "Slash",
   "dmg": 1,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "714": {
   "name": "Golden Sickle",
@@ -5878,7 +6449,10 @@
   "init": 5,
   "type": "Slash",
   "dmg": 5,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "725": {
   "name": "Thunder Strike",
@@ -5971,7 +6545,10 @@
   "init": 4,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 8
+  "aoe": 8,
+  "flags": [
+   "mundane"
+  ]
  },
  "736": {
   "name": "Iron Claw",
@@ -5979,7 +6556,10 @@
   "init": 2,
   "type": "Slash",
   "dmg": 3,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "737": {
   "name": "Magic Bident",
@@ -6055,7 +6635,10 @@
   "init": 5,
   "type": "Blunt",
   "dmg": 3,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "746": {
   "name": "Sledge Hammer",
@@ -6063,7 +6646,10 @@
   "init": 3,
   "type": "Blunt",
   "dmg": 7,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "747": {
   "name": "Broom",
@@ -6071,7 +6657,10 @@
   "init": 5,
   "type": "Blunt",
   "dmg": 1,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "748": {
   "name": "Bucket of Water",
@@ -6079,7 +6668,10 @@
   "init": 1,
   "type": "Blunt",
   "dmg": 1,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "749": {
   "name": "Giant Arrow",
@@ -6087,7 +6679,10 @@
   "init": 1,
   "type": "Pierce",
   "dmg": 0,
-  "aoe": 1
+  "aoe": 1,
+  "flags": [
+   "mundane"
+  ]
  },
  "750": {
   "name": "Shove",
@@ -6095,7 +6690,10 @@
   "init": 2,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "751": {
   "name": "Stellar Maw",
@@ -6119,7 +6717,10 @@
   "init": 2,
   "type": "Slash",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "754": {
   "name": "Pearl Trident",
@@ -6135,7 +6736,10 @@
   "init": 2,
   "type": "Blunt",
   "dmg": 5,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "756": {
   "name": "Magma Axe",
@@ -6183,14 +6787,20 @@
   "init": 8,
   "type": "Pierce",
   "dmg": 4,
-  "aoe": 3
+  "aoe": 3,
+  "flags": [
+   "mundane"
+  ]
  },
  "762": {
   "name": "Poison Vine Growth",
   "range": 8,
   "init": 4,
   "dmg": 0,
-  "aoe": 25
+  "aoe": 25,
+  "flags": [
+   "mundane"
+  ]
  },
  "763": {
   "name": "Mace of Pain",
@@ -6230,7 +6840,10 @@
   "init": 1,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "768": {
   "name": "Ice Lance",
@@ -6328,7 +6941,11 @@
   "init": 5,
   "type": "Slash",
   "dmg": 1,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane",
+   "soft"
+  ]
  },
  "780": {
   "name": "Confusion Aura",
@@ -6448,7 +7065,10 @@
   "init": 1,
   "type": "Blunt",
   "dmg": 1,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "795": {
   "name": "Flapping Scroll",
@@ -6463,7 +7083,10 @@
   "init": 1,
   "type": "Pierce",
   "dmg": 1,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "797": {
   "name": "Sharp Pencil",
@@ -6471,7 +7094,10 @@
   "init": 1,
   "type": "Pierce",
   "dmg": 1,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "798": {
   "name": "Toughness",
@@ -6486,7 +7112,10 @@
   "init": 4,
   "dmg": 0,
   "aoe": 1,
-  "an": true
+  "an": true,
+  "flags": [
+   "drown"
+  ]
  },
  "800": {
   "name": "Flaming Fist",
@@ -6593,14 +7222,20 @@
   "init": 3,
   "type": "Pierce",
   "dmg": 8,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "stonekill"
+  ]
  },
  "813": {
   "name": "Entrap and Bite",
   "range": 3,
   "init": 2,
   "dmg": 0,
-  "aoe": 1
+  "aoe": 1,
+  "flags": [
+   "mundane"
+  ]
  },
  "814": {
   "name": "Strong Poisonous Bite",
@@ -6608,14 +7243,20 @@
   "init": 2,
   "type": "Pierce",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "815": {
   "name": "Web",
   "range": 3,
   "init": 2,
   "dmg": 0,
-  "aoe": 1
+  "aoe": 1,
+  "flags": [
+   "mundane"
+  ]
  },
  "816": {
   "name": "Summon Tainted Soul",
@@ -6692,7 +7333,10 @@
   "init": 4,
   "dmg": 0,
   "aoe": 1,
-  "an": true
+  "an": true,
+  "flags": [
+   "undead"
+  ]
  },
  "825": {
   "name": "Ghost Rending Bite",
@@ -6708,7 +7352,10 @@
   "init": 2,
   "type": "Slash",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "827": {
   "name": "Serpent Tail",
@@ -6716,7 +7363,10 @@
   "init": 3,
   "type": "Slash",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "828": {
   "name": "Save",
@@ -6745,7 +7395,10 @@
   "init": 1,
   "type": "Pierce",
   "dmg": 4,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "832": {
   "name": "Vine Whip",
@@ -6753,7 +7406,10 @@
   "init": 5,
   "type": "Slash",
   "dmg": 1,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "soft"
+  ]
  },
  "833": {
   "name": "Tangle Vines",
@@ -6826,7 +7482,10 @@
   "init": 7,
   "type": "Slash",
   "dmg": 9,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "soft"
+  ]
  },
  "842": {
   "name": "Snake Staff",
@@ -6850,7 +7509,10 @@
   "init": 5,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 1
+  "aoe": 1,
+  "flags": [
+   "mundane"
+  ]
  },
  "845": {
   "name": "Lightning Breath",
@@ -7011,7 +7673,10 @@
   "init": 2,
   "type": "Blunt",
   "dmg": 1,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "864": {
   "name": "Wooden Fist",
@@ -7019,7 +7684,10 @@
   "init": 2,
   "type": "Blunt",
   "dmg": 1,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "865": {
   "name": "Enchanted Shovel",
@@ -7027,7 +7695,10 @@
   "init": 3,
   "type": "Blunt",
   "dmg": 6,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "stonekill"
+  ]
  },
  "866": {
   "name": "Alchemical Boulder",
@@ -7035,7 +7706,10 @@
   "init": 1,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 1
+  "aoe": 1,
+  "flags": [
+   "mundane"
+  ]
  },
  "867": {
   "name": "Flame Blast",
@@ -7051,7 +7725,10 @@
   "init": 1,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 3
+  "aoe": 3,
+  "flags": [
+   "mundane"
+  ]
  },
  "869": {
   "name": "Flame Blast",
@@ -7076,7 +7753,10 @@
   "init": 1,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 1
+  "aoe": 1,
+  "flags": [
+   "mundane"
+  ]
  },
  "872": {
   "name": "Fling Boulder",
@@ -7084,7 +7764,10 @@
   "init": 1,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 1
+  "aoe": 1,
+  "flags": [
+   "mundane"
+  ]
  },
  "873": {
   "name": "Bane Fire Crossbow",
@@ -7101,7 +7784,10 @@
   "type": "Heal",
   "dmg": 0,
   "aoe": 1,
-  "an": true
+  "an": true,
+  "flags": [
+   "affecthuman"
+  ]
  },
  "875": {
   "name": "Healing Words",
@@ -7110,7 +7796,10 @@
   "type": "Heal",
   "dmg": 0,
   "aoe": 1,
-  "an": true
+  "an": true,
+  "flags": [
+   "affecthuman"
+  ]
  },
  "876": {
   "name": "Healing Prayer",
@@ -7119,7 +7808,10 @@
   "type": "Heal",
   "dmg": 0,
   "aoe": 9,
-  "an": true
+  "an": true,
+  "flags": [
+   "affecthuman"
+  ]
  },
  "877": {
   "name": "Healing Miracle",
@@ -7128,7 +7820,10 @@
   "type": "Heal",
   "dmg": 0,
   "aoe": 25,
-  "an": true
+  "an": true,
+  "flags": [
+   "affecthuman"
+  ]
  },
  "878": {
   "name": "Heal",
@@ -7248,7 +7943,10 @@
   "init": 4,
   "type": "Blunt",
   "dmg": 2,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "893": {
   "name": "Flame Burst",
@@ -7303,7 +8001,10 @@
   "init": 6,
   "type": "Pierce",
   "dmg": 6,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "holykill"
+  ]
  },
  "900": {
   "name": "Fisherman's Trident",
@@ -7343,7 +8044,10 @@
   "init": 2,
   "type": "Blunt",
   "dmg": 0,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "mundane"
+  ]
  },
  "905": {
   "name": "Magic Bow",
@@ -7451,7 +8155,10 @@
   "init": 5,
   "type": "Slash",
   "dmg": 7,
-  "aoe": 0
+  "aoe": 0,
+  "flags": [
+   "holykill"
+  ]
  },
  "918": {
   "name": "Blindness",
