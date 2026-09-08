@@ -29,6 +29,10 @@
  "nobootslots": "Marks the monster as having no boot equipment slots, so it cannot be equipped with footwear items.",
  "north1": "Marks the monster as loving the far north, so as an independent or stupid commander it will never move away from squares in that region. Never used in the base game data; behaviour inferred from the matching pattern on other terrain-preference flags (e.g. south1/south2).",
  "promoteunits": "An event command that converts up to a given number of one monster type belonging to a player into a different monster type, effectively promoting those units. Never used in the base game data, so the exact selection and trigger conditions are undocumented.",
+ "sensedead": {
+  "text": "Lets the monster sense how many corpses of any type lie in its current square. The count is shown as up to five skull icons: one skull at 3–9 corpses, two at 10–24, three at 25–74, four at 75–248, and five at 249 or more; below three corpses no skull appears.",
+  "source": "manual + play-tested skull thresholds"
+ },
  "ship": "Marks the monster as a ship in sea battles; the value selects the size class — the base game passes 1 for normal-sized and 2 for large ships.",
  "sleepres": "Grants immunity to sleep effects.",
  "slimeshield": "Gives the monster or item a slime shield: an opponent who strikes it in melee becomes slimed unless they pass a strength check.",

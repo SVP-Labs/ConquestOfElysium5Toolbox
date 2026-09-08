@@ -25,9 +25,15 @@ const notes = cmd.notes ? (Array.isArray(cmd.notes) ? cmd.notes : [cmd.notes]) :
 
 // "What it does": the manual's own prose where it has any; hand-curated
 // text from the overrides file wins where present (the curation contract —
-// regeneration never touches the overrides).
-const purpose = authoredDescriptions[name]
-  ? [{ text: authoredDescriptions[name], source: "authored" }]
+// regeneration never touches the overrides). An override is a plain string,
+// or {text, source} when the default source label does not fit.
+const override = authoredDescriptions[name];
+const purpose = override
+  ? [
+      typeof override === "string"
+        ? { text: override, source: "authored" }
+        : { text: override.text, source: "authored", label: override.source },
+    ]
   : (manualDescriptions[name] ?? []).map((p) => ({ ...p, source: "manual" }));
 
 const signatureLine = cmd.signature ? `${name} ${cmd.signature}` : name;
@@ -155,7 +161,7 @@ const pagesLabel =
                 ? `— modding manual${p.page ? `, page ${p.page}` : ""}${
                     p.section && p.section !== "mod" ? ` (as ${/^[aeiou]/.test(p.section) ? "an" : "a"} ${p.section} command)` : ""
                   }`
-                : "— toolbox note, written from base-game usage"}
+                : `— toolbox note, ${p.label ?? "written from base-game usage"}`}
             </p>
           </div>
         ))}
