@@ -2,5016 +2,5866 @@
  "+aiplayer": [
   {
    "page": 38,
+   "section": "event",
    "text": "True if this player is an AI player. Only real AI players are valid, not the different independent factions."
   }
  ],
  "+armyowner": [
   {
    "page": 38,
+   "section": "event",
    "text": "True if square is occupied by this player."
   }
  ],
  "+chance": [
   {
    "page": 38,
+   "section": "event",
    "text": "Trigger has percent chance of being true."
   }
  ],
  "+class": [
   {
    "page": 38,
+   "section": "event",
    "text": "True if this player is this class."
   }
  ],
  "+hasaffunithere": [
   {
    "page": 39,
+   "section": "event",
    "text": "True if player has a unit in the current square that has all the afflictions in the aff mask. See table Special Affliction (page 9). Also sets target unit (player -1 = any player)-"
   }
  ],
  "+hascom": [
   {
    "page": 38,
+   "section": "event",
    "text": "Also sets target unit."
   }
  ],
  "+hascomhere": [
   {
    "page": 38,
+   "section": "event",
    "text": "Also sets target unit."
   }
  ],
  "+hasitem": [
   {
    "page": 39,
+   "section": "event",
    "text": "True if player has this kind of magic item somewhere in the world. Also sets target unit to wielder (player -1 = any player)"
   }
  ],
  "+hasitemhere": [
   {
    "page": 39,
+   "section": "event",
    "text": "True if player has this kind of magic item in current square. Also sets target unit to wielder (player -1 = any player)"
   }
  ],
  "+hasunit": [
   {
    "page": 38,
+   "section": "event",
    "text": "True if player has this kind of unit somewhere in the world. Also sets target unit (player -1 = any player)"
   }
  ],
  "+hasunithere": [
   {
    "page": 38,
+   "section": "event",
    "text": "True if player has this kind of unit at current square. Also sets target unit (player -1 = any player)"
   }
  ],
  "+humanplayer": [
   {
    "page": 38,
+   "section": "event",
    "text": "True if this player is a human player (not an AI player)."
   }
  ],
  "+minanimalcorpses": [
   {
    "page": 39,
+   "section": "event",
    "text": "True if at least this many animal corpses (of any type) are present in the square."
   }
  ],
  "+mincorpses": [
   {
    "page": 39,
+   "section": "event",
    "text": "True if at least this many corpses of any type are present in the square."
   }
  ],
  "+minhumancorpses": [
   {
    "page": 39,
+   "section": "event",
    "text": "True if at least this many human corpses are present in the square."
   }
  ],
  "+minhumanoidcorpses": [
   {
    "page": 39,
+   "section": "event",
    "text": "True if at least this many humanoid corpses (humans, hoburghers, giants) are present in the square."
   }
  ],
  "+minterrains": [
   {
    "page": 39,
+   "section": "event",
    "text": "True if there is at least this amount of this terrain on the indicated plane. (planenr -1 = all planes)"
   }
  ],
  "+minturnnbr": [
   {
    "page": 38,
+   "section": "event",
    "text": "True if the current turn number is this turn nbr of greater."
   }
  ],
  "+minunits": [
   {
    "page": 39,
+   "section": "event",
    "text": "True if player owns at least this amount of units. (player -1 = all players, planenr -1 = alle planes)."
   }
  ],
  "+ownsloc": [
   {
    "page": 38,
+   "section": "event",
    "text": "True if player owns this terrain anywhere in the world."
   }
  ],
  "+ownsloctarg": [
   {
    "page": 38,
+   "section": "event",
    "text": "True if player owns this terrain anywhere in the world. Also sets target location to this place."
   }
  ],
  "+plane": [
   {
    "page": 39,
+   "section": "event",
    "text": "True if target square is on this plane. See table Plane Numbers (page 26). The special values -1 (all planes) and -2 (Elysium-near planes) can also be used."
   }
  ],
  "+player": [
   {
    "page": 38,
+   "section": "event",
    "text": "True if current player has this player number."
   }
  ],
  "+season": [
   {
    "page": 38,
+   "section": "event",
    "text": "0=summer, 1=autumn, 2=winter, 3=spring."
   }
  ],
  "+seasondelay": [
   {
    "page": 38,
+   "section": "event",
    "text": "3=early (guaranteed to only happen once per season, 2=mid, 1=late)."
   }
  ],
  "+squareactivated": [
   {
    "page": 39,
+   "section": "event",
    "text": "True if active square is in its activated state. Terrains like Stone Henges can be (de)activated and their status can be checked with this trigger."
   }
  ],
  "+squarename": [
   {
    "page": 39,
+   "section": "event",
    "text": "True if square has this name. e.g. “Crab Harbor” or “The Old Tower”"
   }
  ],
  "+squareowner": [
   {
    "page": 38,
+   "section": "event",
    "text": "True if target square is owned or occupied by this player."
   }
  ],
  "+terrain": [
   {
    "page": 38,
+   "section": "event",
    "text": "True if target square is of this terrain."
   }
  ],
  "+turnnbr": [
   {
    "page": 38,
+   "section": "event",
    "text": "True if the current turn number is this turn nbr. Games start at turn 0 and any turn 0 events are executed before each player can player their first turn. But events are also run once before the game has started for anyone at turn -1."
   }
  ],
  "+varequal": [
   {
    "page": 38,
+   "section": "event",
    "text": "var = 0-9999, true if variable equals value."
   }
  ],
  "+vargreater": [
   {
    "page": 38,
+   "section": "event",
    "text": "True if the variable is greater than value."
   }
  ],
  "+varlesser": [
   {
    "page": 38,
+   "section": "event",
    "text": "True if the variable is less than value."
   }
  ],
  "+varvarequal": [
   {
    "page": 39,
+   "section": "event",
    "text": "var = 0-9999, true if variable 1 equals variable 2."
   }
  ],
  "+varvargreater": [
   {
    "page": 39,
+   "section": "event",
    "text": "var = 0-9999, true if variable 1 is greater than variable 2."
   }
  ],
  "+varvarlesser": [
   {
    "page": 39,
+   "section": "event",
    "text": "var = 0-9999, true if variable 1 is lesser than variable 2."
   }
  ],
  "absorbdead": [
   {
    "page": 22,
+   "section": "monster",
    "text": "Can absorb dead and get HP from it. Nbr is the maximum dead absorbed per month. Gains 3 HP/dead."
   }
  ],
  "acidblood": [
   {
    "page": 22,
+   "section": "monster",
    "text": "AN acid strikeback, 50=50% of incoming damage"
   }
  ],
  "acidres": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Offers resistance to acid. Value 100 = completely resistant."
   }
  ],
  "acutesenses": [
   {
    "page": 19,
+   "section": "monster",
    "text": "Monster has acute senses."
   }
  ],
  "addallforests": [
   {
    "page": 32,
+   "section": "ritual",
    "text": "Adds all different forest terrains to the group. Jungles are not included."
   }
  ],
  "addalljungles": [
   {
    "page": 32,
+   "section": "ritual",
    "text": "Adds all different jungle terrains to the group."
   }
  ],
  "addallsettlements": [
   {
    "page": 32,
+   "section": "ritual",
    "text": "Adds all different human settlement terrains to the group."
   }
  ],
  "addcomrec": [
   {
    "page": 28,
+   "section": "class",
    "text": "Adds a commander to recruitment list."
   }
  ],
  "addeventvar": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "increases the value of this event variable by 1"
   }
  ],
  "addresources": [
   {
    "page": 39,
+   "section": "event",
    "text": "Adds an amount of resources to a player. See table Resource Types (page 29) for the different resource types."
   }
  ],
  "addstartcom": [
   {
    "page": 27,
+   "section": "class",
    "text": "Adds a starting commander to the class. All starting units added after the commander will appear already assigned to that commander's squad at the beginning of the game. The main commander should not be added as a startcom."
   }
  ],
  "addstartterr": [
   {
    "page": 27,
+   "section": "class",
    "text": "Adds extra terrain types that the class starts with when the game begins, such as extra farms, hamlets or mines."
   }
  ],
  "addstartunits": [
   {
    "page": 27,
+   "section": "class",
    "text": "Adds <nbr> monsters to the starting army for the class. Use this command multiple times to assign several different types of monsters (for example spearmen and archers)."
   }
  ],
  "addstring": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "Adds some text data to a ritual. Most often used to set what is summoned by a summoning ritual, but it depends on what effects are in the ritual. All addstring commands will be processed before any other commands for the ritual, so it does not matter where in the ritual you place them."
   }
  ],
  "addterr": [
   {
    "page": 32,
+   "section": "terrgroup",
    "text": "Adds a terrain to this group. Negative numbers cannot be used here. By default a terrain group is empty."
   }
  ],
  "addvar": [
   {
    "page": 40,
+   "section": "event",
    "text": "var = 0-9999, adds a value to a variable"
   }
  ],
  "affectanimal": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "The weapon only affects animals."
   }
  ],
  "affecthuman": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "The weapon only affects units with the res_convert attribute."
   }
  ],
  "affectmale": [
   {
    "page": 6,
+   "section": "weapon",
    "text": "This weapon will not affect females"
   }
  ],
  "affectundead": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "The weapon only affects undead."
   }
  ],
  "affres": [
   {
    "page": 21,
+   "section": "monster",
    "text": "value = chance of not receiving battle affliction"
   }
  ],
  "afftarg": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Gives an affliction bitmask to the target unit. See table Special Afflictions (page 9)."
   }
  ],
  "afterprev": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "must know previous ritual before learning this one"
   }
  ],
  "agarthashape": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Will become monster with offset value when on the agartha plane."
   }
  ],
  "aggressive": [
   {
    "page": 17,
+   "section": "monster",
    "text": "Likes to attack enemies."
   }
  ],
  "aialways": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "AI will always (if chance = 100 try to cast this ritual, but not make any long time plans for it. chance=999 is special and means the AI will also make plans for the ritual.)"
   }
  ],
  "aiapprspam": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "AI will dedicate apprentices to stay at home and only spam this ritual. Chance is 0-100"
   }
  ],
  "aiclass": [
   {
    "page": 28,
+   "section": "class",
    "text": "-1=AI players will never get this class by random choice, 0=normal, 1=this class can only be played by AI players"
   }
  ],
  "aigoldrally": [
   {
    "page": 23,
+   "section": "monster",
    "text": "Hint that AI should go to recruitment loc when having lots of"
   }
  ],
  "aihold": [
   {
    "page": 22,
+   "section": "monster",
    "text": "1 = AI will hold these units in siegable locations and only recruit them there"
   }
  ],
  "aimaxcast": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "An AI player will never cast this ritual more than this number of times in a game"
   }
  ],
  "aimaxshop": [
   {
    "page": 23,
+   "section": "monster",
    "text": "ai won't buy more than this amount at the same place"
   }
  ],
  "ainofollower": [
   {
    "page": 23,
+   "section": "monster",
    "text": "AI hint to always use this commander as a leader (not a subcommander)"
   }
  ],
  "ainosimul": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "No more than one commander may plan to cast this ritual at once"
   }
  ],
  "ainotclose1": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "AI will not cast ritual if close to this terrain, radius=1"
   }
  ],
  "ainotclose2": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "AI will not cast ritual if close to this terrain, radius=2"
   }
  ],
  "ainotclose3": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "AI will not cast ritual if close to this terrain, radius=3"
   }
  ],
  "ainothere": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "AI will not cast ritual in this terrain"
   }
  ],
  "ainotnearhome": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "AI should not cast this ritual close to home (mindist = nbr of squares away)"
   }
  ],
  "aionlyplane": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "AI will only cast ritual when on this plane"
   }
  ],
  "aipowcom1": [
   {
    "page": 22,
+   "section": "monster",
    "text": "unit wants to be led by com with this power at level 1+"
   }
  ],
  "aipowcom2": [
   {
    "page": 22,
+   "section": "monster",
    "text": "unit wants to be led by com with this power at level 2+"
   }
  ],
  "aipowcom3": [
   {
    "page": 22,
+   "section": "monster",
    "text": "unit wants to be led by com with this power at level 3+"
   }
  ],
  "airare": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "Reduces the chance of the AI trying to use this ritual. Chance is the chance of casting the ritual and can be from 1-99. -1 is a special value meaning never cast it."
   }
  ],
  "airbreather": [
   {
    "page": 23,
+   "section": "monster",
    "text": "This wateronly unit will not drown on land"
   }
  ],
  "airestrig": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "AI will always try to cast this ritual if it has at least this many of the primary resource for the ritual"
   }
  ],
  "airshield": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Air Shield with this chance of negating incoming missile attacks."
   }
  ],
  "aitarg": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "For long range rituals. 1=try to target squares with enemy commanders, 2=try to target valuable squares with corpses in"
   }
  ],
  "aiweakonly": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "AI commander will only cast this ritual if his troop strength is below this value. One spearman gives 10 troop strength points."
   }
  ],
  "aiwhere": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "restricts the AI to only cast ritual in certain places. 1=seldom in plains/cities (for druid animal summoning), 2=only in squares we want to defend (for immobile guardian summoning)"
   }
  ],
  "allitemslots": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Has the full set of item slots."
   }
  ],
  "allrit": [
   {
    "page": 17,
+   "section": "monster",
    "text": "knows all rituals of this school (see the Ritual Schools table, -1=all ritual schools)"
   }
  ],
  "alone": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Will take damage each month another monster of the same type is in the same square."
   }
  ],
  "alterloc": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Changes target square to this terrain."
   }
  ],
  "alterterrain": [
   {
    "page": 39,
+   "section": "event",
    "text": "changes the terrain of the current location"
   }
  ],
  "an": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "The weapon ignores armor."
   }
  ],
  "ancforest1": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Loves ancient forests."
   }
  ],
  "anchored": [
   {
    "page": 31,
+   "section": "terrain",
    "text": "Dimensionally anchored location."
   }
  ],
  "aoe": [
   {
    "page": 4,
+   "section": "weapon",
    "text": "Sets the area of effect for the weapon in squares. The default value is 0 (a single monster). A value of x will hit up to x monsters near the target. There are also many special values that can be used for other kind of areas. See Table Area of Effects (page 6). Those that are written as e.g. 30xx must be written as a 4 digit number e.g. “aoe 3005” for a cone of 5 squares."
   }
  ],
  "apcost": [
   {
    "page": 29,
+   "section": "terrain",
    "text": "Action Point cost for moving through the terrain."
   },
   {
    "page": 35,
+   "section": "ritual",
    "text": "Extra Action Points cost for the rituals."
   }
  ],
  "ape": [
   {
    "page": 20,
+   "section": "monster",
    "text": "is an ape. 1=markata sized, 2=human sized, 3=bandar sized."
   }
  ],
  "armor": [
   {
    "page": 10,
+   "section": "item",
    "text": "Armor value, default 0."
   },
   {
    "page": 14,
+   "section": "monster",
    "text": "This command sets the monster’s armor value, which represents its natural protection or the armor it is wearing. Normal human troops have an armor value of 0. Medium armored human troops have an armor value of 1. Heavily armored human troops like Heavy Infantry have an armor value of 2 and very heavily armored troops like Knights and High Lords have an armor value of 3. Extremely tough monsters like dragons may have an armor value of 4 or more."
   }
  ],
  "armytrainer": [
   {
    "page": 22,
+   "section": "monster",
    "text": "Units in the same square will get this amount of XP each month."
   }
  ],
  "arrow": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "The effects of this weapon can be negated by the Air Shield attribute."
   }
  ],
  "assassinweapon": [
   {
    "page": 15,
+   "section": "monster",
    "text": "Equips the monster with an assassination weapon of this name that has a base damage of <dmg>. This weapon will be used to make an assassination attempt on an enemy before normal combat (including siege weapons) begins. Assassination attempts can only be used by the attacker and cannot be used against summoned creatures the summoner fails to control."
   }
  ],
  "atavirec": [
   {
    "page": 28,
+   "section": "class",
    "text": "The previous entry in the recruitment list will have increased chance of occurring, depending on the number of Atavi Villages owned."
   }
  ],
  "autoastrology": [
   {
    "page": 23,
+   "section": "monster",
    "text": "Superior Astrologist."
   }
  ],
  "awakenfungus": [
   {
    "page": 23,
+   "section": "monster",
    "text": "Will awaken nearby mushrooms in combat."
   }
  ],
  "awakentrees": [
   {
    "page": 23,
+   "section": "monster",
    "text": "Will awaken nearby trees & bushes in combat."
   }
  ],
  "awe": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Monster has awe. Monsters usually have between 1 to 4 in this ability."
   }
  ],
  "aztlanshape": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Will become monster with offset value when on the aztlan plane."
   }
  ],
  "badsight": [
   {
    "page": 19,
+   "section": "monster",
    "text": "Monster has bad eye sight and will miss 20% of all attacks."
   }
  ],
  "banishsurv": [
   {
    "page": 19,
+   "section": "monster",
    "text": "This monster will be flung to another plane when banished, instead of being destroyed."
   }
  ],
  "barricade": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "Wooden barricade gate"
   }
  ],
  "batmap": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "Associates the terrain with a certain battle map. See Battle Maps table (page 31). This is usually used for fortified locations, but villages also have a battle map."
   }
  ],
  "battlefast": [
   {
    "page": 15,
+   "section": "monster",
    "text": "Monster is fast, but in battles only."
   }
  ],
  "battleslow": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Monster is slow in battles."
   }
  ],
  "battleslow2": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Monster is very slow battles."
   }
  ],
  "benrestrict": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "Caster cannot have this beneficial bitmask"
   }
  ],
  "bentarg": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Gives a beneficial bitmask to the target unit. See table Special Benefits (page 9). Particularly useful values for rituals are 2^26 to get the twiceborn effect or 2^24 to get the Stygian Bath effect. Note that most ben effects are temporary any will disappear after battle or during the turn and will be useless for rituals."
   }
  ],
  "bentargall": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Like bentarg, but also affects all the target's followers."
   }
  ],
  "bentargvar": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Like bentarg, but the unit will only be affected if he is located in the terrain in the generic modding variable."
   }
  ],
  "blue": [
   {
    "page": 4,
+   "section": "weapon",
    "text": "set color of damage numbers"
   }
  ],
  "bluntres": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Blunt resistance (half damage)."
   }
  ],
  "bonusrelics": [
   {
    "page": 31,
+   "section": "terrain",
    "text": "Get this number of extra relics from this location. By default the amount of relics is one less than the amount of sacrifices earned."
   }
  ],
  "burnable": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "The terrain can be burned like forest."
   }
  ],
  "burnforest": [
   {
    "page": 21,
+   "section": "monster",
    "text": "1 = can start forest fires, 100 = auto burns forests."
   }
  ],
  "castcount": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "Add value to the number of times this ritual has been cast by this"
   }
  ],
  "castertarg": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "Sets target unit to caster."
   }
  ],
  "cave": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "The terrain counts as a cave."
   }
  ],
  "celestialshape": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Will become monster with offset value when on the celestial plane."
   }
  ],
  "celwander": [
   {
    "page": 17,
+   "section": "monster",
    "text": "Only wander if owned by Celestials"
   }
  ],
  "celwander2": [
   {
    "page": 17,
+   "section": "monster",
    "text": "Try to fulfill this objective if the first one was not possible"
   }
  ],
  "centercaster": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "Center map on caster."
   }
  ],
  "centerloc": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Center map on target location."
   }
  ],
  "centspawn": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Bonus for dryad queen auto spawns."
   }
  ],
  "changeowner": [
   {
    "page": 40,
+   "section": "event",
    "text": "changes ownership of unit to this player"
   }
  ],
  "changetemp": [
   {
    "page": 23,
+   "section": "monster",
    "text": "makes square value degrees hotter"
   }
  ],
  "choosefxtarg": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "Player will choose a target unit that has this fx nbr. By default only friendly units can be selected. Fx nbr 0 = no special fx nbr required. Fx nbr -1 = can choose a unit owned by other players too."
   }
  ],
  "chooseloc": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "Player choose target location. 2=deviate to many dead, 3=empty mirror req, 4=empty gold mirror, 5=horror mark deviation"
   }
  ],
  "chooseterrloc": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "Player will choose target location for ritual."
   }
  ],
  "chopforest": [
   {
    "page": 23,
+   "section": "monster",
    "text": "1=can chop down forests."
   }
  ],
  "citadel": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "The terrain functions as a citadel when owned."
   }
  ],
  "cityname": [
   {
    "page": 31,
+   "section": "terrain",
    "text": "This terrain should start with a random city name."
   }
  ],
  "classabdescr": [
   {
    "page": 27,
+   "section": "class",
    "text": "Sets the description for the ability section of the class. The text must be on one line. The ^ symbol may be used for paragraph breaks."
   }
  ],
  "classcitterr": [
   {
    "page": 28,
+   "section": "class",
    "text": "Can also use this terrain as citadels. There can only be one classcitterr per class, but it can be combined with the 3 previous commands."
   }
  ],
  "classcost": [
   {
    "page": 17,
+   "section": "monster",
    "text": "to alter cost of all rituals made by this unit, 50=50% more"
   }
  ],
  "classdescr": [
   {
    "page": 27,
+   "section": "class",
    "text": "Sets the description for the class. The text must be on one line. The ^ symbol may be used for paragraph breaks."
   }
  ],
  "classforestcit": [
   {
    "page": 28,
+   "section": "class",
    "text": "Can use ancient forests as citadels, like the Troll King."
   }
  ],
  "classminecit": [
   {
    "page": 28,
+   "section": "class",
    "text": "Can use mountain mines as citadels, like the Dwarf Queen."
   }
  ],
  "classtune": [
   {
    "page": 28,
+   "section": "class",
    "text": "Sets the class specific tune to this sound number. Tune sound numbers are 125-150 (class specific tunes) and 155-168 (general tunes)."
   }
  ],
  "classwoodencit": [
   {
    "page": 28,
+   "section": "class",
    "text": "Can use watch towers as citadels, like the Senator."
   }
  ],
  "cleareventvar": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "set this event variable to 0"
   }
  ],
  "clearfort": [
   {
    "page": 29,
+   "section": "terrain",
    "text": "Clears the fort attributes of the selected terrain."
   }
  ],
  "clearmove": [
   {
    "page": 14,
+   "section": "monster",
    "text": "Removes all movement attributes from the active monster."
   }
  ],
  "clearrec": [
   {
    "page": 27,
+   "section": "class",
    "text": "Clears the recruitment list for the active class."
   }
  ],
  "clearritspec": [
   {
    "page": 32,
+   "section": "ritual",
    "text": "Removes all special attributes from a ritual. This is only useful when modifying existing rituals."
   }
  ],
  "clearspec": [
   {
    "page": 14,
+   "section": "monster",
    "text": "Removes all special abilities from the active monster. The special abilities are things like Fire Immunity, Regeneration, etc. This command does not clear movement abilities. Use the clearmove command for that."
   },
   {
    "page": 29,
+   "section": "terrain",
    "text": "Clears the special attributes of the selected terrain."
   }
  ],
  "clearsquarespec": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Clears special square flags on target location."
   }
  ],
  "clearstartterr": [
   {
    "page": 27,
+   "section": "class",
    "text": "Clears the starting terrain list for the class. This means any additional farms, hamlets, mines etc that the class would start the game with."
   }
  ],
  "clearstartunits": [
   {
    "page": 27,
+   "section": "class",
    "text": "Clears the starting army for the active class."
   }
  ],
  "clearweapons": [
   {
    "page": 14,
+   "section": "monster",
    "text": "Removes all weapons from the active monster."
   }
  ],
  "clearwspec": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "Clears all special attributes of the weapon."
   }
  ],
  "closewin": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "Closes the ritual window after the ritual has completed."
   }
  ],
  "clumsy": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Misses more than usual (soulless have this ability)."
   }
  ],
  "coastal": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Loves the coast, like a giant crab."
   }
  ],
  "coldaura": [
   {
    "page": 22,
+   "section": "monster",
    "text": "AN cold strikeback (std dmg = 2)"
   }
  ],
  "coldheal": [
   {
    "page": 19,
+   "section": "monster",
    "text": "heals value hp/month when it's cold"
   }
  ],
  "coldres": [
   {
    "page": 20,
+   "section": "monster",
    "text": "Offers resistance to cold. Value 100 = completely resistant."
   }
  ],
  "colonymsg": [
   {
    "page": 18,
+   "section": "monster",
    "text": "1 = everyone will get a message when a colony is created."
   }
  ],
  "colonyterr": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Terrain to build colonies in (default -87)."
   }
  ],
  "combatspell": [
   {
    "page": 10,
+   "section": "item",
    "text": "Mode -1 = spell will be auto cast on the first round, 1 = unit can cast this spell (like a wand), 2 = spell will be auto cast each round. The spell name is simply the name of the combat spell to be cast, e.g. \"Fireball\"."
   }
  ],
  "combatsum": [
   {
    "page": 10,
+   "section": "item",
    "text": "Mode -1 = will summon on the first round of combat, 1 = will summon on all rounds of combat. Summoning string is very similar to the summoning strings used for ritual summoning. E.g. \"2d4*Deer & 2*wolf\" would summon 2-8 deer and 2 wolves. Commanders cannot be summoned in battle."
   }
  ],
  "combustionaura": [
   {
    "page": 23,
+   "section": "monster",
    "text": "Puts nearby units on fire"
   }
  ],
  "comname": [
   {
    "page": 40,
+   "section": "event",
    "text": "Gives a new name to the target unit. Only works if the target is a commander."
   }
  ],
  "confusionaura": [
   {
    "page": 23,
+   "section": "monster",
    "text": "Confuses nearby units (easy MR negates)"
   }
  ],
  "copyritual": [
   {
    "page": 32,
+   "section": "ritual",
    "text": "Copies all stats and abilities (except pow nbr and name) from another ritual to the current one."
   }
  ],
  "copyspr": [
   {
    "page": 11,
+   "section": "item",
    "text": "Uses the sprite from this magic item."
   },
   {
    "page": 14,
+   "section": "monster",
    "text": "Copy the sprite of another monster."
   }
  ],
  "copystats": [
   {
    "page": 11,
+   "section": "item",
    "text": "Copies all stats except the name from this magic item."
   },
   {
    "page": 14,
+   "section": "monster",
    "text": "Copies the attributes, weapons, graphics and other properties of the specified monster. The command does not copy the name of the monster, however."
   }
  ],
  "copyvar": [
   {
    "page": 40,
+   "section": "event",
    "text": "var = 0-9999, copies variable 1 to variable 2"
   }
  ],
  "cost": [
   {
    "page": 32,
+   "section": "ritual",
    "text": "Adds a resource cost to the ritual. E.g. cost 4 10 to add a cost of 10 sacrifices. A single ritual can have at most 4 different costs. See the Resource Types table (page 29) for resource types."
   }
  ],
  "createcit": [
   {
    "page": 27,
+   "section": "class",
    "text": "This is the citadel terrain for classes with a different start plane."
   }
  ],
  "ctrlchance": [
   {
    "page": 17,
+   "section": "monster",
    "text": "Chance of controlling this monster when it is summoned,"
   }
  ],
  "cureoneaff": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Has this chance of curing one affliction on the target unit."
   },
   {
    "page": 40,
+   "section": "event",
    "text": "Cures one affliction."
   }
  ],
  "curseditem": [
   {
    "page": 10,
+   "section": "item",
    "text": "Item is cursed and cannot be removed."
   }
  ],
  "darkbless": [
   {
    "page": 23,
+   "section": "monster",
    "text": "Has the dark blessing of a scourge lord"
   }
  ],
  "dead": [
   {
    "page": 29,
+   "section": "terrain",
    "text": "The location starts with <nbr> * d6 corpses in it."
   }
  ],
  "deepsleeper": [
   {
    "page": 23,
+   "section": "monster",
    "text": "Must receive at least 1-value dmg in one hit to wake up."
   }
  ],
  "deepspawn": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "Hybrid fishermen can appear here."
   }
  ],
  "defctrl": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "Default control chance for summonings. Can be overridden by monster's own ctrlchance."
   }
  ],
  "defiler": [
   {
    "page": 23,
+   "section": "monster",
    "text": "Needs to drain lifeforce to cast spells, range=max drain range."
   }
  ],
  "demonic": [
   {
    "page": 20,
+   "section": "monster",
    "text": "is a demon. Demons are affected by banishment."
   }
  ],
  "deployoutside": [
   {
    "page": 23,
+   "section": "monster",
    "text": "setup this unit outside fort in battles. The monster probably needs to be small (1x1 square) and few in numbers for the deployment to work properly, there is not much space left outside the walls before coming too close to the enemies."
   }
  ],
  "descr": [
   {
    "page": 10,
+   "section": "item",
    "text": "Not necessary, as most magic items don't have descriptions."
   },
   {
    "page": 14,
+   "section": "monster",
    "text": "Description of the monster. The ^ character will be replaced with a newline."
   }
  ],
  "description": [
   {
    "page": 3,
+   "section": "mod",
    "text": "A text description of the mod."
   }
  ],
  "desert": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Monster has desert move."
   },
   {
    "page": 30,
+   "section": "terrain",
    "text": "The terrain counts as a desert for the purposes of abilities like Desert Move."
   }
  ],
  "desertok": [
   {
    "page": 31,
+   "section": "terrain",
    "text": "Terrain will survive surroundings being turned into desert."
   }
  ],
  "desertstealth": [
   {
    "page": 19,
+   "section": "monster",
    "text": "Monster is stealthy in deserts."
   }
  ],
  "desolator": [
   {
    "page": 23,
+   "section": "monster",
    "text": "Drain value lifeforce from current square each month (like scourge lord pillar)."
   }
  ],
  "desolcloud": [
   {
    "page": 23,
+   "section": "monster",
    "text": "Spreads desolation cloud (exhaustion)."
   }
  ],
  "destroyterr": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Destroys any valuable terrain at target location."
   }
  ],
  "destroyto": [
   {
    "page": 31,
+   "section": "terrain",
    "text": "Turns into this terrain when destroyed or burned up. Usually this command is not needed and it the terrain will be turned into something appropriate depending on its attributes."
   }
  ],
  "digest": [
   {
    "page": 22,
+   "section": "monster",
    "text": "Gives this amount of dmg per round to units in stomach."
   }
  ],
  "diseasecloud": [
   {
    "page": 23,
+   "section": "monster",
    "text": "spreads disease cloud, value = radius + 1"
   }
  ],
  "diseaseshield": [
   {
    "page": 23,
+   "section": "monster",
    "text": "Disease strikeback (MR negates)."
   }
  ],
  "displaced": [
   {
    "page": 21,
+   "section": "monster",
    "text": "35% chance of missing per rank away from target"
   }
  ],
  "dispossess": [
   {
    "page": 6,
+   "section": "weapon",
    "text": "Victim becomes a dispossessed spirit"
   }
  ],
  "dmg": [
   {
    "page": 4,
+   "section": "weapon",
    "text": "Sets the damage for the weapon. The default value is 0, which makes the weapon a natural weapon whose base damage is determined during monster modding. Note that damage types 12 and 13 require a bitmask value for their special effects. The special afflictions and benefit effects are listed in table Special Afflictions (page 9) and Special Benefits (page 9)."
   }
  ],
  "dmgonterr": [
   {
    "page": 22,
+   "section": "monster",
    "text": "Takes 1 point of dmg per month when in this terrain. A single unit can only have one dmgonterr ability. If it has more than one, only the one highest terrain nbr will take effect."
   }
  ],
  "dmgonterrbonus": [
   {
    "page": 22,
+   "section": "monster",
    "text": "Adds to the damage of the dmgonterr ability"
   }
  ],
  "dmgtype": [
   {
    "page": 4,
+   "section": "weapon",
    "text": "Sets the damage type for the weapon. Table Damage Types on page 6 contains the list of possible damage types. The default value is 3 (piercing damage)."
   }
  ],
  "dragon": [
   {
    "page": 20,
+   "section": "monster",
    "text": "1=dragon, 2=elder dragon."
   }
  ],
  "drain": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "Draining damage that will heal the attacker"
   }
  ],
  "drawsize": [
   {
    "page": 23,
+   "section": "monster",
    "text": "Draw the unit this amount of percent larger when shown on his unit token. Can be negative for smaller as well. Use this command to easily fine tune the units size to fit nicely in it token. Don't use any large values as the resizing is not done everywhere in the game."
   }
  ],
  "drown": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "Water breathers are immune to this weapon."
   }
  ],
  "earthbarricade": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "Earth barricade gate"
   }
  ],
  "easymr": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "Passing an easy magic resistance check negates the effects of this weapon."
   }
  ],
  "eatdead": [
   {
    "page": 22,
+   "section": "monster",
    "text": "Chance of eating a corpse and reproducing."
   }
  ],
  "eatdeadcap": [
   {
    "page": 22,
+   "section": "monster",
    "text": "Chance of eating a corpse and reproducing, capped at one per square and month."
   }
  ],
  "eatvillage": [
   {
    "page": 19,
+   "section": "monster",
    "text": "1 = can eat a village to restore sanity, like a vampire."
   }
  ],
  "el": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "Terrain starts as converted to the worship of El."
   }
  ],
  "elementalshape": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Will become monster with offset value when on the elemental plane."
   }
  ],
  "elysiumshape": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Will become monster with offset value when in Elysium"
   }
  ],
  "enchantedgate": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "The fort has an enchanted gate"
   }
  ],
  "enchherereq": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "This type of Enchantment must be active where there ritual is cast."
   }
  ],
  "enchreqterr": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "Enchantment will be auto dispelled if it is outside this terrain."
   }
  ],
  "endevent": [
   {
    "page": 38,
+   "section": "event",
    "text": "All events must end with this command"
   }
  ],
  "ethereal": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "The weapon does not affect Ethereal beings"
   }
  ],
  "evasion": [
   {
    "page": 23,
+   "section": "monster",
    "text": "25% chance to evade attacks."
   }
  ],
  "eventvarreq": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "This event variable must be 1 or higher for ritual to be castable."
   }
  ],
  "expendable": [
   {
    "page": 20,
+   "section": "monster",
    "text": "Is an expendable unit (can be used payment for certain rituals/recruitments)."
   }
  ],
  "extracost": [
   {
    "page": 10,
+   "section": "item",
    "text": "Item will be this much more (or less) expensive when sold by a merchant."
   }
  ],
  "extraeyes": [
   {
    "page": 22,
+   "section": "monster",
    "text": "Monster has this number of extra eyes. Use -1 to create a cyclops with one eye."
   }
  ],
  "failplayer": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "Failed summons will be owned by this player."
   }
  ],
  "falselife": [
   {
    "page": 10,
+   "section": "item",
    "text": "Can make an inanimate being living."
   }
  ],
  "farsight": [
   {
    "page": 19,
+   "section": "monster",
    "text": "Can see further on the world map."
   },
   {
    "page": 30,
+   "section": "terrain",
    "text": "The terrain gives increased vision range when there are units present there. Watchtowers and some citadels have this attribute."
   }
  ],
  "farsightsea": [
   {
    "page": 19,
+   "section": "monster",
    "text": "Can see further over sea squares on the world map. This ability only works for commanders."
   }
  ],
  "farsummon": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "Like summoning, but it will occur at target location instead of at the caster's location."
   }
  ],
  "farvis": [
   {
    "page": 31,
+   "section": "terrain",
    "text": "Can be seen from far away."
   }
  ],
  "fastheal": [
   {
    "page": 19,
+   "section": "monster",
    "text": "A fast healing unit will be fully recovered from any non-fatal damage in at most two months. Battle afflictions are also healed, but it can take a few more months."
   }
  ],
  "fear": [
   {
    "page": 22,
+   "section": "monster",
    "text": "causes fear: 1=fear, 2=dread, 3=terror"
   }
  ],
  "fewmonreq": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "The monsters in addstring \"(-)...\" must not be more than max at current location."
   }
  ],
  "fillmirror": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Puts a number of images into a mirror, -1 = fill to default value (mirrorammo)"
   }
  ],
  "fireaura": [
   {
    "page": 22,
+   "section": "monster",
    "text": "Fire strikeback (std dmg = 3)"
   }
  ],
  "fireexpl": [
   {
    "page": 22,
+   "section": "monster",
    "text": "Fire explosion on death."
   }
  ],
  "fireres": [
   {
    "page": 20,
+   "section": "monster",
    "text": "Offers resistance to fire. Value 100 = completely resistant."
   }
  ],
  "firstshape": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Monster will become next monster if it is slain. Use for main shape of two shape monsters like Oni."
   }
  ],
  "float": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Monster is floating."
   }
  ],
  "flying": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "Flying and Floating units are immune."
   }
  ],
  "flying2": [
   {
    "page": 6,
+   "section": "weapon",
    "text": "Flying units have 75% chance of evading this attack"
   }
  ],
  "flylook": [
   {
    "page": 4,
+   "section": "weapon",
    "text": "The visual effect (see table Visual Effects, page 7) of the flying projectile, ranged weapons only. If flymode is 1 a fly sprite (see table Fly Sprites, page 6) should be used instead of a look number."
   }
  ],
  "flymode": [
   {
    "page": 4,
+   "section": "weapon",
    "text": "Set this if a projectile should be visible for a ranged attack. See Fly Modes table (page 6). Those marked with an asterisk (*) behave like normal for aoe 1 effects, but with larger aoe they still only create one flying graphical effect. Fireball uses this effect to create a single flying fireball, but with a larger aoe explosion. If using a sprite (flymode 1) then the look value will be used to set the sprite used. See the table Fly Sprites (page 6) for possible sprites to use."
   }
  ],
  "flysound": [
   {
    "page": 4,
+   "section": "weapon",
    "text": "The sound effect when the projectile starts flying, ranged weapons only. -1 = none."
   }
  ],
  "followstupid": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Doesn't move independently, but follows other stupid units."
   }
  ],
  "fontfile": [
   {
    "page": 3,
+   "section": "mod",
    "text": "The filename of the font. Font nbr 0 = standard, 1 = fancy (used for headers), 2 = long texts (for descriptions)."
   }
  ],
  "forest": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "The terrain counts as forest for the purposes of abilities like Forest Stealth."
   }
  ],
  "forest1": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Loves forests (including ancient forests)."
   }
  ],
  "forest2": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Likes forests (including ancient forests)."
   }
  ],
  "forestcitadel": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "Can be used as citadel by the Troll King."
   }
  ],
  "forestheart": [
   {
    "page": 22,
+   "section": "monster",
    "text": "takes control of nearby forests"
   }
  ],
  "foreststealth": [
   {
    "page": 19,
+   "section": "monster",
    "text": "Monster is stealthy in forests."
   }
  ],
  "forgetcurrit": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "Caster will forget this ritual after casting it."
   }
  ],
  "forgetrits": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "Forgets all known rituals."
   }
  ],
  "fortreq": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "There must be a fort with this fort part here."
   }
  ],
  "free": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "always start with this ritual in addition the others"
   }
  ],
  "frontpos": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Rank+, deploys further towards the front."
   }
  ],
  "fullsweep": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "The attack will hit all adjacent units. The primary target takes full damage and all subsequent targets take a cumulative -1 damage (so the second target takes full damage -1, the third target takes full damage -2 etc)."
   }
  ],
  "fungi": [
   {
    "page": 20,
+   "section": "monster",
    "text": "Gives extra income per month of this resource."
   }
  ],
  "fungus": [
   {
    "page": 20,
+   "section": "monster",
    "text": "1 = is a fungus, 2 = is an animated fungus."
   },
   {
    "page": 29,
+   "section": "terrain",
    "text": "Fungus income for the terrain when owned."
   }
  ],
  "fxreq": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "Unit must have 1+ in this fx to learn and cast this ritual. This command is probably not useful for modding."
   }
  ],
  "gainbless": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "Percent chance of gaining a bless effect."
   }
  ],
  "gaindarkbless": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "Percent chance of gaining a dark bless effect."
   }
  ],
  "gainrit": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "Learns the ritual that is offset numbers away. E.g. offset 1 = learn the following ritual when casting this one."
   }
  ],
  "gainxp": [
   {
    "page": 40,
+   "section": "event",
    "text": "Gives XP to the target unit. XP can be negative to remove XP."
   }
  ],
  "gatheranygems": [
   {
    "page": 17,
+   "section": "monster",
    "text": "A commander with this ability will enable the player to gather gems."
   }
  ],
  "gatherfungus": [
   {
    "page": 17,
+   "section": "monster",
    "text": "A commander with this ability will enable the player to gather fungus."
   }
  ],
  "gathergems": [
   {
    "page": 17,
+   "section": "monster",
    "text": "A commander with this ability will enable the player to gather gems of individual types."
   },
   {
    "page": 35,
+   "section": "ritual",
    "text": "will start gathering gems when knowing this ritual"
   }
  ],
  "gatherhands": [
   {
    "page": 17,
+   "section": "monster",
    "text": "A commander with this ability will enable the player to gather Hands of Glory."
   }
  ],
  "gatherherbs": [
   {
    "page": 17,
+   "section": "monster",
    "text": "A commander with this ability will enable the player to gather herbs."
   }
  ],
  "gatherlifeforce": [
   {
    "page": 17,
+   "section": "monster",
    "text": "A commander with this ability will enable the player to gather lifeforce."
   }
  ],
  "gatherrelics": [
   {
    "page": 17,
+   "section": "monster",
    "text": "A commander with this ability will enable the player to gather relics."
   }
  ],
  "gathersacr": [
   {
    "page": 17,
+   "section": "monster",
    "text": "A commander with this ability will enable the player to gather sacrifices."
   }
  ],
  "gatherweed": [
   {
    "page": 17,
+   "section": "monster",
    "text": "A commander with this ability will enable the player to gather weed."
   }
  ],
  "gems": [
   {
    "page": 29,
+   "section": "terrain",
    "text": "A bitmask value that determines the gem income of the location. See the Gem Income Bitmask table (page 31). Note that you can add multiple 1 income values together to create a higher income value of a certain type of gem. Maximum income for a single gem type is 7."
   }
  ],
  "ghoulify": [
   {
    "page": 6,
+   "section": "weapon",
    "text": "Humanoids killed by this weapon will become ghouls"
   }
  ],
  "goblin": [
   {
    "page": 20,
+   "section": "monster",
    "text": "Is an expendable goblin (can be used payment for certain rituals/recruitments)."
   }
  ],
  "gold": [
   {
    "page": 20,
+   "section": "monster",
    "text": "Gives extra income per month of this resource."
   },
   {
    "page": 29,
+   "section": "terrain",
    "text": "Gold income for the terrain when owned."
   }
  ],
  "goldbonus": [
   {
    "page": 20,
+   "section": "monster",
    "text": "Percentage bonus to gold income for entire nation."
   },
   {
    "page": 28,
+   "section": "class",
    "text": "Percentage bonus to gold income. For example, a bonus of 25 means that the class will have a 25% bonus on all gold income like the Baron."
   }
  ],
  "goldboost": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "The terrain provides a global boost to gold income when owned."
   }
  ],
  "goldcarrier": [
   {
    "page": 20,
+   "section": "monster",
    "text": "spoils of war when defeating this monster."
   }
  ],
  "growhp": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Monster will grow to the previously created monster if it reaches this amount of HP or more."
   }
  ],
  "growoffs": [
   {
    "page": 18,
+   "section": "monster",
    "text": "To become other than next monster"
   }
  ],
  "growterr": [
   {
    "page": 18,
+   "section": "monster",
    "text": "The growth will only occur if unit is located in this terrain. Negative terrain numbers can be used."
   }
  ],
  "growtime": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Will grow into next monster after about value turns"
   }
  ],
  "hadesres": [
   {
    "page": 19,
+   "section": "monster",
    "text": "resistance to the effects of hades"
   }
  ],
  "hadesshape": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Will become monster with offset value when on the hades plane."
   }
  ],
  "hadeswander": [
   {
    "page": 17,
+   "section": "monster",
    "text": "Only wander if owned by Hades"
   }
  ],
  "hadeswander2": [
   {
    "page": 17,
+   "section": "monster",
    "text": "Try to fulfill this objective if the first one was not possible"
   }
  ],
  "hands": [
   {
    "page": 20,
+   "section": "monster",
    "text": "Gives extra income per month of this resource."
   },
   {
    "page": 29,
+   "section": "terrain",
    "text": "Hands of Glory income for the terrain when owned."
   }
  ],
  "hardfly": [
   {
    "page": 31,
+   "section": "terrain",
    "text": "Difficult to fly here, costs 2 AP."
   }
  ],
  "hardmorale": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "A morale check vs 1d20 negates the effects of this weapon."
   }
  ],
  "hardmr": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "Passing a hard magic resistance check negates the effects of this weapon."
   }
  ],
  "harpyspawn": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Bonus for dryad queen auto spawns."
   }
  ],
  "harvest": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "Structures with this command get double gold income during bumper harvest events. Farms have this attribute."
   }
  ],
  "hasportalreq": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "Player must own a portal of this number."
   }
  ],
  "hatesterr": [
   {
    "page": 17,
+   "section": "monster",
    "text": "Hates this terrain. Can only be one of these commands per monster and terrain nbr cannot be zero."
   }
  ],
  "healonterr": [
   {
    "page": 19,
+   "section": "monster",
    "text": "Will heal faster when located on this terrain, will also heal monsters with noheal."
   }
  ],
  "herbs": [
   {
    "page": 20,
+   "section": "monster",
    "text": "Gives extra income per month of this resource."
   },
   {
    "page": 29,
+   "section": "terrain",
    "text": "Herb income for the terrain when owned."
   }
  ],
  "hideanimals": [
   {
    "page": 19,
+   "section": "monster",
    "text": "Animals following this commander gains forest stealth."
   }
  ],
  "hoburg": [
   {
    "page": 31,
+   "section": "terrain",
    "text": "All starting corpses here will be small size."
   }
  ],
  "holdit": [
   {
    "page": 39,
+   "section": "event",
    "text": "1=Any independent units on this square will hold and not move away. This holdit flag is cleared if the square is conquered or if any unit is spawned on it."
   }
  ],
  "holy": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Sacred, takes advantage of bless effects."
   }
  ],
  "holykill": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "The weapon causes double damage against undead & demons"
   }
  ],
  "homecitreq": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "Can only cast this in the player's home citadel. -1=cannot."
   }
  ],
  "homeplane": [
   {
    "page": 19,
+   "section": "monster",
    "text": "Other Planar Immortality. Will return to this plane if slain outside it and be indep controlled again."
   }
  ],
  "homereq": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "Caster can only cast this in his home province. -1=cannot."
   }
  ],
  "hometerr": [
   {
    "page": 27,
+   "section": "class",
    "text": "Sets the home terrain (home citadel) for the class. This terrain must be a citadel or the player will lose immediately when the game begins. This command is mandatory for a new class."
   }
  ],
  "horror": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Likes to kill sentient people, also isn't scared of the void."
   }
  ],
  "hp": [
   {
    "page": 10,
+   "section": "item",
    "text": "Hit Point bonus, default 0."
   },
   {
    "page": 14,
+   "section": "monster",
    "text": "The maximum number of hit points for the monster. A normal human soldier has 6 hit points and an elite heavily armored soldier has 10 hit points. An ogre has 25 hit points, a troll has 56 hit points and giants, dragons and other huge monsters can have well over a 100 hit points."
   }
  ],
  "hpoverflow": [
   {
    "page": 22,
+   "section": "monster",
    "text": "1 = HP overflow is allowed even after the battle."
   }
  ],
  "huge": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "The weapon does not affect Huge beings."
   },
   {
    "page": 15,
+   "section": "monster",
    "text": "Monster is giant sized. This also makes it a 3x3 square monster on the battlefield."
   }
  ],
  "humancost": [
   {
    "page": 28,
+   "section": "class",
    "text": "cost multiplier (100=normal) for human recruitment at special locations (castles, desert palaces), 999=impossible"
   }
  ],
  "iceprot": [
   {
    "page": 22,
+   "section": "monster",
    "text": "+value armor in cold climate"
   }
  ],
  "icon": [
   {
    "page": 3,
+   "section": "mod",
    "text": "Icon shown when selecting the mod in CoE5. It should be a 256*64 large TGA or PNG image."
   }
  ],
  "immobile": [
   {
    "page": 15,
+   "section": "monster",
    "text": "Monster is immobile (cannot move in battle)."
   }
  ],
  "immortal": [
   {
    "page": 19,
+   "section": "monster",
    "text": "The monster is immortal on its home plane. This command should not be used for beings with Other Planar Immortality."
   }
  ],
  "immortalap": [
   {
    "page": 19,
+   "section": "monster",
    "text": "AP cost of reforming its body after dying."
   }
  ],
  "inanimate": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "The weapon does not affect Lifeless beings."
   }
  ],
  "incorporate": [
   {
    "page": 22,
+   "section": "monster",
    "text": "Steals this amount of HP per round from units in stomach."
   }
  ],
  "indepitem": [
   {
    "page": 22,
+   "section": "monster",
    "text": "Like randomitem, but only for indeps (all indep nations)."
   }
  ],
  "indwander": [
   {
    "page": 17,
+   "section": "monster",
    "text": "Only wander if owned by Independents"
   }
  ],
  "infernoshape": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Will become monster with offset value when on the inferno plane."
   }
  ],
  "infwander": [
   {
    "page": 17,
+   "section": "monster",
    "text": "Only wander if owned by Inferno"
   }
  ],
  "infwander2": [
   {
    "page": 17,
+   "section": "monster",
    "text": "Try to fulfill this objective if the first one was not possible"
   }
  ],
  "init": [
   {
    "page": 4,
+   "section": "weapon",
    "text": "Initiative value for the weapon, default is 2. Some common initiative values are these 1=spell, 2=fist/dagger/bow, 3=club/axe, 4=sword, 6=spear."
   }
  ],
  "insanity": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Gives insanity to the target unit. Negative value can be used to cure insanity. Only works if target is a commander."
   }
  ],
  "invert": [
   {
    "page": 32,
+   "section": "ritual",
    "text": "Inverts the contents of the group. Very useful when making a group that should contains all terrains but one."
   }
  ],
  "invisible": [
   {
    "page": 19,
+   "section": "monster",
    "text": "Monster is invisible."
   },
   {
    "page": 30,
+   "section": "terrain",
    "text": "The sprite will not be drawn, instead the look of the terrain will be procedurally generated. Not a useful command for modding."
   }
  ],
  "invseason": [
   {
    "page": 31,
+   "section": "terrain",
    "text": "Seasons are reversed in this terrain."
   }
  ],
  "invul": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Invulnerable (like Creeping Doom)."
   }
  ],
  "iron": [
   {
    "page": 20,
+   "section": "monster",
    "text": "Gives extra income per month of this resource."
   },
   {
    "page": 29,
+   "section": "terrain",
    "text": "Iron income for the terrain when owned."
   }
  ],
  "ironbonus": [
   {
    "page": 20,
+   "section": "monster",
    "text": "Percentage bonus to iron income for entire nation."
   },
   {
    "page": 28,
+   "section": "class",
    "text": "Percentage bonus to iron income. For example, a bonus of 25 means that the class will have a 25% bonus on all iron income like the Baron."
   }
  ],
  "ironboost": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "The terrain provides a global boost to iron income when owned."
   }
  ],
  "ironcarrier": [
   {
    "page": 20,
+   "section": "monster",
    "text": "spoils of war when defeating this monster."
   }
  ],
  "irongate": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "The fort has an iron gate"
   }
  ],
  "itemwep": [
   {
    "page": 10,
+   "section": "item",
    "text": "Sets the weapon stats of the magic item to those of the weapon with this name. Only use this together with type 1 magic items."
   }
  ],
  "killsquare": [
   {
    "page": 39,
+   "section": "event",
    "text": "kills everyone in target square"
   }
  ],
  "killtarg": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Gives between 1 and <dmg> amount of damage to target unit. Use a value of 9999 for autokill."
   }
  ],
  "killunit": [
   {
    "page": 40,
+   "section": "event",
    "text": "Hits the target unit with this amount of damage. Use 9999+ for a purge that will disregard any special abilities the target might have (including immortality)."
   }
  ],
  "kobold": [
   {
    "page": 20,
+   "section": "monster",
    "text": "Is an expendable kobold (counts as expendable unit, but comes with a different ability description)."
   }
  ],
  "lairgoldpen": [
   {
    "page": 20,
+   "section": "monster",
    "text": "Gold inc penalty in percent for this monster's lair."
   }
  ],
  "landshape": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Will become monster with offset value when on land"
   }
  ],
  "large": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "The weapon does not affect monsters that are 2x2 tiles or larger in size on the battlefield."
   }
  ],
  "largeshield": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Equips the monster with a large shield (0-2 protection)."
   }
  ],
  "leadership": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Gives this amount of extra morale to units under his command."
   }
  ],
  "level": [
   {
    "page": 32,
+   "section": "ritual",
    "text": "The level of the ritual. Usually the level is between 1 (apprentice level) and 3 (master level)."
   }
  ],
  "levelreq": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "Caster must be exactly this level to use this ritual and cannot have another power at higher level."
   }
  ],
  "levelup": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "Will level up if caster is below this level. Leveling up means becoming a new monster determined by the mastery monster command."
   }
  ],
  "levelupmon": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "Like levelup, but the new monster type is set by the addstring command. Set the new monster type in the addstring command."
   }
  ],
  "libbonusdescr": [
   {
    "page": 28,
+   "section": "class",
    "text": "This text will be shown as a description of the bonus for owning libraries."
   }
  ],
  "libmastery": [
   {
    "page": 17,
+   "section": "monster",
    "text": "For monsters that can level up in a magic library, a value of 2 = magic library or better required, 3 = academy of high magic required. A mastery command is also required on the monster, to determine what monster it will level up to."
   }
  ],
  "libraryrec": [
   {
    "page": 28,
+   "section": "class",
    "text": "The previous entry in the recruitment list will have increased chance of occurring, depending on the number of libraries owned."
   }
  ],
  "lifeforce": [
   {
    "page": 20,
+   "section": "monster",
    "text": "Gives extra income per month of this resource."
   },
   {
    "page": 29,
+   "section": "terrain",
    "text": "Sets amount of lifeforce that can be drained from the square * 10. A plain has 10 and a forest 30. Negative values means square drain lifeforce with this radius (Pillar of Power has a value of -1)."
   }
  ],
  "likescoast": [
   {
    "page": 27,
+   "section": "class",
    "text": "A value from -10 to 10 indicating the willingness to start near the coast."
   }
  ],
  "likesnorth": [
   {
    "page": 27,
+   "section": "class",
    "text": "A value from -10 to 10 indicating the willingness to have a northern start location."
   }
  ],
  "likessouth": [
   {
    "page": 27,
+   "section": "class",
    "text": "A value from -10 to 10 indicating the willingness to have a southern start location."
   }
  ],
  "likesterr": [
   {
    "page": 17,
+   "section": "monster",
    "text": "Likes this terrain. Can only be one of these commands per monster and terrain nbr cannot be zero."
   }
  ],
  "likestoburn": [
   {
    "page": 23,
+   "section": "monster",
    "text": "value% chance of wanting to burn a forest (wandering indep commanders only)"
   }
  ],
  "limitgold": [
   {
    "page": 20,
+   "section": "monster",
    "text": "value = amount of gold per month, but max the value of the"
   }
  ],
  "limitiron": [
   {
    "page": 20,
+   "section": "monster",
    "text": "value = amount of iron per month, but max the value of the"
   }
  ],
  "limittrade": [
   {
    "page": 20,
+   "section": "monster",
    "text": "value = amount of extra trade per month, but max the original trade value of the square."
   }
  ],
  "lob": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "Use this command for arrows, sling stones and other weapons with an arcing trajectory."
   }
  ],
  "localgoldbonus": [
   {
    "page": 20,
+   "section": "monster",
    "text": "att% bonus to gold income in this square (only works in mines)"
   }
  ],
  "localironbonus": [
   {
    "page": 20,
+   "section": "monster",
    "text": "att% bonus to iron income in this square (only works in mines)"
   }
  ],
  "localleadership": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Gives this amount of extra morale to nearby friendly units."
   }
  ],
  "loner": [
   {
    "page": 17,
+   "section": "monster",
    "text": "Moves independently of the player and not in groups."
   }
  ],
  "look": [
   {
    "page": 4,
+   "section": "weapon",
    "text": "Sets the visual effect that occurs where the weapon strikes down, e.g. a fiery explosion for a fireball. See the Visual Effects table (page 7). The default is no visual effect."
   }
  ],
  "lookslike": [
   {
    "page": 22,
+   "section": "monster",
    "text": "Offset to monster it looks like. This is used by e.g. werewolves in order to look like some other unit when they are inspected."
   }
  ],
  "lovesterr": [
   {
    "page": 17,
+   "section": "monster",
    "text": "Loves this terrain. Can only be one of these commands per monster and terrain nbr cannot be zero."
   }
  ],
  "lucky": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Lucky units evade 50% of all attacks."
   }
  ],
  "madcultist": [
   {
    "page": 20,
+   "section": "monster",
    "text": "Mad cultist might decide to open a gate to Inferno."
   }
  ],
  "magicboost": [
   {
    "page": 10,
+   "section": "item",
    "text": "Will boost all magic paths by this much."
   }
  ],
  "magicshield": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Equips the monster with a magic shield (0-3 protection)."
   }
  ],
  "magicwalls": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "Ethereal units cannot pass through walls at this fort"
   }
  ],
  "makeaff": [
   {
    "page": 40,
+   "section": "event",
    "text": "Gives an affliction to target unit. See table Special Afflictions (page 9)."
   }
  ],
  "makeben": [
   {
    "page": 40,
+   "section": "event",
    "text": "Gives a special benefit to target unit. See table Special Benefits (page 9). Particularly useful values are 2^26 to get the twiceborn effect or 2^24 to get the Stygian Bath effect. Note that most ben effects are temporary any will disappear after battle or during the turn and will be useless for events."
   }
  ],
  "makeblind": [
   {
    "page": 40,
+   "section": "event",
    "text": "Makes target unit blind."
   }
  ],
  "makecolony": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Has a chance of turning a standard terrain into ‘terr’ and then die."
   }
  ],
  "makediseased": [
   {
    "page": 40,
+   "section": "event",
    "text": "Makes target unit diseased."
   }
  ],
  "makeminoraff": [
   {
    "page": 40,
+   "section": "event",
    "text": "Gives a random minor affliction to target unit."
   }
  ],
  "makenhwound": [
   {
    "page": 40,
+   "section": "event",
    "text": "Gives target unit a never healing wound."
   }
  ],
  "makeportal": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Connect this square to other portals of the same number. Portal nbr 1000 is special and will create a unique number."
   }
  ],
  "makeruin": [
   {
    "page": 22,
+   "section": "monster",
    "text": "value = chance of turning current square into a ruin if possible"
   }
  ],
  "makestationary": [
   {
    "page": 40,
+   "section": "event",
    "text": "Makes target unit stationary on world map."
   }
  ],
  "mapfile": [
   {
    "page": 3,
+   "section": "mod",
    "text": "The filename of the map. A single mod can contain many maps."
   }
  ],
  "maptele": [
   {
    "page": 17,
+   "section": "monster",
    "text": "Can teleport on world map when it is a wandering monster."
   }
  ],
  "mastery": [
   {
    "page": 17,
+   "section": "monster",
    "text": "for monsters that can level up, nbr 1=become next monster on leveling, -1=previous monster, etc."
   }
  ],
  "maxcast": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "Ritual cannot be cast more than this number of times per player. This number can be modified by the two following commands to create more exotic restrictions, e.g. a ritual that can only be cast once per 6 months."
   }
  ],
  "maxsinners": [
   {
    "page": 17,
+   "section": "monster",
    "text": "Will gather sinners when owned by Inferno (value=amount before returning)"
   }
  ],
  "maxsum": [
   {
    "page": 23,
+   "section": "monster",
    "text": "the maximum amount that can be summoned in a single battle"
   }
  ],
  "meleeambush": [
   {
    "page": 22,
+   "section": "monster",
    "text": "Will start in melee combat when ambushing"
   }
  ],
  "meleeweapon": [
   {
    "page": 14,
+   "section": "monster",
    "text": "Equips the monster with a melee weapon of this name that has a base damage of <dmg>."
   }
  ],
  "meleeweapon50s": [
   {
    "page": 15,
+   "section": "monster",
    "text": "Equips the monster with a melee+skip attack that has 50% chance of being used. If it is used the next attack will be skipped."
   }
  ],
  "meleeweaponbonus": [
   {
    "page": 14,
+   "section": "monster",
    "text": "Equips the monster with a melee weapon of this name that has a base damage of <dmg>. This weapon will be used in addition to any other attacks the monster has."
   }
  ],
  "meleeweaponlong": [
   {
    "page": 14,
+   "section": "monster",
    "text": "This command is deprecated and should no longer be used."
   }
  ],
  "meleeweaponspec": [
   {
    "page": 14,
+   "section": "monster",
    "text": "Equips the monsters with a special melee weapon. Any normal melee attacks after this one will not be used if this attack was used. Normally used for lances."
   }
  ],
  "melt": [
   {
    "page": 22,
+   "section": "monster",
    "text": "takes value dmg per month when not cold"
   }
  ],
  "melts": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "A hint to the AI that the terrain melts after the winter. Frozen lakes and rivers have this attribute. Not a useful command for modding."
   }
  ],
  "mercboost": [
   {
    "page": 28,
+   "section": "class",
    "text": "value 100 = mercs will be twice as frequent, -50 = half as"
   }
  ],
  "mercpricemult": [
   {
    "page": 28,
+   "section": "class",
    "text": "value 2 = mercs will be twice as expensive"
   }
  ],
  "message": [
   {
    "page": 39,
+   "section": "event",
    "text": "Sends a text message to a player."
   }
  ],
  "mind": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "The weapon does not affect Mindless beings."
   }
  ],
  "mindexpl": [
   {
    "page": 23,
+   "section": "monster",
    "text": "1 = explodes in Mental Agony on Death"
   }
  ],
  "mine": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "The terrain counts as a mine."
   }
  ],
  "minmonreq": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "The monsters in addstring \"(&)...\" must be at least 'min' in number at current location."
   }
  ],
  "minorstartaff": [
   {
    "page": 19,
+   "section": "monster",
    "text": "Chance of starting with a minor affliction. Chances >100 can give more than one affliction."
   }
  ],
  "minospawn": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Bonus for dryad queen auto spawns."
   }
  ],
  "mirror": [
   {
    "page": 20,
+   "section": "monster",
    "text": "1=is small mirror, 2=is large mirror, 3=silver, 4=gold"
   }
  ],
  "mirrorammo": [
   {
    "page": 20,
+   "section": "monster",
    "text": "default number of images for this type of mirror (def 20)"
   }
  ],
  "mirrorimages": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Starts every battle with this amount of mirror images."
   }
  ],
  "mirrortarg": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "Set targ to an empty mirror unit, attr = size for mirror, -1=any"
   }
  ],
  "miscslots": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Has only 2 misc slots."
   }
  ],
  "mistrare": [
   {
    "page": 31,
+   "section": "terrain",
    "text": "Will reduce the amount of mist produced. Rare is the chance in percent that mist will be produced."
   }
  ],
  "misty": [
   {
    "page": 31,
+   "section": "terrain",
    "text": "Mist emanates from here."
   }
  ],
  "modprio": [
   {
    "page": 3,
+   "section": "mod",
    "text": "Sets when this mod should be loaded in relation to other mods. Default is 5 and lower numbers are loaded first. Usually you don’t need to use this command."
   }
  ],
  "money1": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Loves gold producing squares."
   }
  ],
  "money2": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Likes gold producing squares."
   }
  ],
  "monplayerreq": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "At least min number (default 1) of the monsters in addstring \"(&)...\" must be in the world and owned by the current player. The min attribute is optional and can be omitted."
   }
  ],
  "montag": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Sets the monster tag value referenced by other modding commands."
   }
  ],
  "montarg": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "Sets targ unit to a random unit at target location among the type added by addstring."
   }
  ],
  "monworldreq": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "At least min number (default 1) of the monsters in addstring \"(&)...\" must be in the world. The min attribute is optional and can be omitted."
   }
  ],
  "mor": [
   {
    "page": 14,
+   "section": "monster",
    "text": "The morale of the monster. A normal human soldier has a morale of 4, an elite human soldier has 5 or 6 and powerful monsters can have a morale of 8 or more. Very fearless monsters may have a morale of 15. Setting the morale to 99 makes the monster Mindless and it will be completely unaffected by fear or any other effects that influence morale."
   }
  ],
  "morale": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "A morale check vs 1d10 negates the effects of this weapon."
   },
   {
    "page": 10,
+   "section": "item",
    "text": "Morale bonus, default 0."
   }
  ],
  "more1spells": [
   {
    "page": 15,
+   "section": "monster",
    "text": "The monster starts with more or fewer level 1 spells when it spawns."
   }
  ],
  "more2spells": [
   {
    "page": 15,
+   "section": "monster",
    "text": "The monster starts with more or fewer level 2 spells when it spawns."
   }
  ],
  "more3spells": [
   {
    "page": 15,
+   "section": "monster",
    "text": "The monster starts with more or fewer level 3 spells when it spawns."
   }
  ],
  "motherspawn": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Spawns as one of a few special spawners in the game. 1 = mother of monsters, 2 = teotls of war (spawns d2 jaguars or 1 ozelotls, not on homeplane), 3 = teotls of rain (spawns d3 toad warriors, not on homeplane), 4 = bloody mother (spawns d2 jaguars or d3 serpents, not on homeplane), 5 = teotls of night (spawns d3 bats or 1 ozelotls, not on homeplane), 6 = teotls of underworld (spawns 2d3 longdead, not on homeplane), 7 = teotls of sky (spawns d3 bats or d3 eagle warriors, not on homeplane)"
   }
  ],
  "mountain": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Monster has mountain move."
   },
   {
    "page": 30,
+   "section": "terrain",
    "text": "The terrain counts as a mountain for the purposes of abilities like Mountain Move."
   }
  ],
  "movehome": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Moves home citadel location to target square."
   }
  ],
  "mr": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "Passing a normal magic resistance check negates the effects of this weapon."
   },
   {
    "page": 10,
+   "section": "item",
    "text": "Magic Resistance bonus, default 0."
   },
   {
    "page": 14,
+   "section": "monster",
    "text": "The magic resistance of the monster. Animals have a magic resistance of 2, a normal human has 4 and a more susceptible human has 3. Apprentice mages have a magic resistance of 6, full mages have 8 and master mages have 9. Some highly magical beings may have even higher magic resistance and they can almost never be affected by magic that is resistible."
   }
  ],
  "multiplane": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Set wheter chooseloc can select locations on other planes or not. 0=same plane only, 1=similar planes (default), 2=all planes."
   }
  ],
  "mundane": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "Being Ethereal protects against this weapon. Ethereal units have a 75% chance to be unaffected by the weapon. Most weapons such as swords and spears are mundane."
   }
  ],
  "mutate": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "A victim killed by this weapon becomes a monster of the type that immediately follows the killer in the monster list. For example, units killed by a Doppelganger become Doppelspawn, which is the next unit in order from Doppelganger."
   }
  ],
  "name": [
   {
    "page": 10,
+   "section": "item",
    "text": "Set the name of the magic item. Not necessary if you created a new one with newitem."
   },
   {
    "page": 14,
+   "section": "monster",
    "text": "This command renames an existing monster. It is not needed when creating a new monster."
   },
   {
    "page": 29,
+   "section": "terrain",
    "text": "Name of the terrain type."
   }
  ],
  "namesquare": [
   {
    "page": 39,
+   "section": "event",
    "text": "Sets name of square, e.g. “Crab Harbor” or “!2The Old Forest” or"
   }
  ],
  "nametype": [
   {
    "page": 22,
+   "section": "monster",
    "text": "Sets the type of random name this monster should get. See the Nametypes table (page 24)."
   }
  ],
  "nearby1req": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "This terrain must be within 1 square when casting the ritual (a 3x3 square area)."
   }
  ],
  "nearby3req": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "This terrain must be within 3 squares when casting the ritual (a 7x7 square area)."
   }
  ],
  "nearby5req": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "This terrain must be within 5 squares when casting the ritual (a 11x11 square area)."
   }
  ],
  "nearby7req": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "This terrain must be within 7 squares when casting the ritual (a 15x15 square area)."
   }
  ],
  "nearby99req": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "This terrain must be somewhere on the same plane when casting the ritual"
   }
  ],
  "nevercold": [
   {
    "page": 31,
+   "section": "terrain",
    "text": "This square will never get cold."
   }
  ],
  "neverturn": [
   {
    "page": 23,
+   "section": "monster",
    "text": "never draw facing the other way"
   }
  ],
  "newclass": [
   {
    "page": 27,
+   "section": "class",
    "text": "Creates a new class. The new class is automatically assigned a class number from the range of free numbers."
   }
  ],
  "newitem": [
   {
    "page": 10,
+   "section": "item",
    "text": "This command creates a new magic item."
   },
   {
    "page": 40,
+   "section": "event",
    "text": "Gives a specific magic item to the target unit."
   }
  ],
  "newlocplanes": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "Like randnewloc but will go to other planes if necessary (but not hades)"
   }
  ],
  "newmonster": [
   {
    "page": 13,
+   "section": "monster",
    "text": "Creates a new monster. This new monster will be affected by the following modding commands until the next active monster is set. The monster can have the same name as another monster."
   }
  ],
  "newrit": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "Grants a new ritual of this level."
   }
  ],
  "newritpow": [
   {
    "page": 32,
+   "section": "ritual",
    "text": "Creates an entire new school of rituals called a ritpow. This should be the first command when creating a new batch of rituals."
   }
  ],
  "newritual": [
   {
    "page": 32,
+   "section": "ritual",
    "text": "Create a new ritual with this name. This should be the first command for each new ritual."
   }
  ],
  "newspell1": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "Learns one new level 1 combat spell from this path."
   }
  ],
  "newspell2": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "Learns one new level 2 combat spell from this path."
   }
  ],
  "newspell3": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "Learns one new level 3 combat spell from this path."
   }
  ],
  "newunits": [
   {
    "page": 39,
+   "section": "event",
    "text": "also sets target unit"
   }
  ],
  "newweapon": [
   {
    "page": 4,
+   "section": "weapon",
    "text": "This command creates a new weapon."
   }
  ],
  "next": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "If the target is wounded by the weapon, it will also be hit by the next weapon, i.e. the weapon defined next in the mod after this weapon. This command can only be used for new weapons, so you must have created one with the newweapon command."
   }
  ],
  "nextalways": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "Like next, but will take effect even if no damage was inflicted on the target."
   }
  ],
  "nextalwayswep": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "Like 'nextalways' but the additional strike will come from a named weapon that has already been created."
   }
  ],
  "nextdmg": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "Sets the damage of the chained weapon."
   }
  ],
  "nexttoo": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "receives next ritual too when receiving this one"
   }
  ],
  "nextwep": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "Like 'next' but the additional strike will come from a named weapon that has already been created."
   }
  ],
  "nocombat": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Non combatant, will not participate in combats."
   }
  ],
  "nodemon": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "demons never know this ritual"
   }
  ],
  "nodrop": [
   {
    "page": 10,
+   "section": "item",
    "text": "If a unit with this item dies, the item will not drop as loot for the winning side to take."
   }
  ],
  "nodrown": [
   {
    "page": 31,
+   "section": "terrain",
    "text": "No one will drown in this terrain. Fishes can be on land and vice versa here. Used for frozen water tiles."
   }
  ],
  "noeventvarreq": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "This event variable must be 0 or lower for ritual to be castable."
   }
  ],
  "noeyes": [
   {
    "page": 22,
+   "section": "monster",
    "text": "monster has no eyes and needs no eyes to be effective"
   }
  ],
  "nofemale": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "females never know this ritual"
   }
  ],
  "nofortreq": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "There cannot be a fort with this fort part here."
   }
  ],
  "nofxherereq": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "Cannot be a unit with this fx at the current location."
   }
  ],
  "noheal": [
   {
    "page": 19,
+   "section": "monster",
    "text": "Monster never heals."
   }
  ],
  "noland": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Monster cannot move on land."
   }
  ],
  "noleader": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Cannot command any unit even if monster is a commander."
   }
  ],
  "nomonelysiumreq": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "Monsters in addstring \"(-)...\" must not be in elysium/sky/agartha. Monster in addstring \"(+)...\" will disable following minuses if monster fulfills same requirement. This applies for all nomon… commands."
   }
  ],
  "nomonhomereq": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "Monsters in addstring \"(-)...\" must not have their home at current location."
   }
  ],
  "nomonmasteryreq": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "Monsters in addstring \"(-)...\" must not be in the world and owned by the current player unless level is higher than ritual requires"
   }
  ],
  "nomonplayerreq": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "Monsters in addstring \"(-)...\" in the world and owned by the current player must be fewer than limit. Default limit is 1."
   }
  ],
  "nomonreq": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "Monsters in addstring \"(-)...\" must not be at current location."
   }
  ],
  "nomonworldreq": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "Monsters in addstring \"(-)...\" in the world must be fewer than limit. Default limit is 1."
   }
  ],
  "nonearby1req": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "This terrain cannot be within 1 square when casting the ritual (a 3x3 square area)."
   }
  ],
  "nonearby3req": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "This terrain cannot be within 3 squares when casting the ritual (a 7x7 square area)."
   }
  ],
  "nonearby5req": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "This terrain cannot be within 5 squares when casting the ritual (a 11x11 square area)."
   }
  ],
  "nonearby7req": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "This terrain cannot be within 7 squares when casting the ritual (a 15x15 square area)."
   }
  ],
  "nonearby99req": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "This terrain cannot be anywhere on the same plane when casting the ritual"
   }
  ],
  "nonmaginvul": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Invulnerable to non-magical weapons (like Demilich)."
   }
  ],
  "nonruin1": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Loves stuff that can be turned into ruins, but is not yet a ruin."
   }
  ],
  "noplanecamo": [
   {
    "page": 19,
+   "section": "monster",
    "text": "does not use fx_lookslike when in plane = value"
   }
  ],
  "noplanereq": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "Cannot be cast on this plane. See table Plane Numbers (page 26)."
   }
  ],
  "noportalreq": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "Location where ritual is cast mustn't contain a portal"
   }
  ],
  "nosight": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "The terrain does not provide vision into adjacent squares when owned. Forests and swamps have this attribute."
   }
  ],
  "noslots": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Has no item slots at all."
   }
  ],
  "nosnowpen": [
   {
    "page": 31,
+   "section": "terrain",
    "text": "No movement penalty from snow."
   }
  ],
  "nostart": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "Players cannot start in this type of terrain. Other squares can be overwritten by a start citadel from a player."
   },
   {
    "page": 35,
+   "section": "ritual",
    "text": "never start with this ritual (or learn from mastery)"
   }
  ],
  "nostdrec": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "Standard class based recruitment lists are not available in this terrain. Instead, there are other units available for recruitment specific to the terrain."
   }
  ],
  "nostdtroops": [
   {
    "page": 28,
+   "section": "class",
    "text": "Standard troops are not available to the class."
   }
  ],
  "nostr": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "The weapon is unaffected by damage bonuses from any source"
   }
  ],
  "notforpoor": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "units with more expensive rituals can't get this one"
   }
  ],
  "noundead": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "undeads never know this ritual"
   }
  ],
  "nozoc": [
   {
    "page": 21,
+   "section": "monster",
    "text": "No Zone of Control (castle gates have this ability)"
   }
  ],
  "oneshot": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "The weapon can only be used once per battle."
   }
  ],
  "onlyenemy": [
   {
    "page": 6,
+   "section": "weapon",
    "text": "This weapon will not affect friendly troops"
   }
  ],
  "onlyfriend": [
   {
    "page": 6,
+   "section": "weapon",
    "text": "This weapon will only affect friendly troops"
   }
  ],
  "ornext": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "This ritual will have one of two possible effects. The first effect will consist of the following command, the next effect will consist of the remaining commands. Percent is the chance of the first effect happening."
   }
  ],
  "ornext2": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "This ritual will have one of two possible effects. The first effect will consist of the two following commands, the next effect will consist of the remaining commands. Percent is the chance of the first effect happening."
   }
  ],
  "ornext3": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "This ritual will have one of two possible effects. The first effect will consist of the three following commands, the next effect will consist of the remaining commands. Percent is the chance of the first effect happening."
   }
  ],
  "ornext4": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "Like the other ornext commands."
   }
  ],
  "ornext5": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "Like the other ornext commands."
   }
  ],
  "otherplanar": [
   {
    "page": 28,
+   "section": "class",
    "text": "Will enable the class to survive without owning a citadel in Elysium. Note that all classes will survive when owning their start citadel, even if it is not in Elysium."
   }
  ],
  "ownable": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "The terrain can be claimed for ownership if it provides income the player can use."
   }
  ],
  "passwall": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Monster can move through walls."
   }
  ],
  "pathboost": [
   {
    "page": 10,
+   "section": "item",
    "text": "Will boost this magic path by 1. This command can be used multiple times to boost multiple paths."
   }
  ],
  "petriaura": [
   {
    "page": 23,
+   "section": "monster",
    "text": "Causes petrification like gorgon"
   }
  ],
  "phantasm": [
   {
    "page": 20,
+   "section": "monster",
    "text": "1=phantasmal warrior, 2=phantasmal animal, etc."
   }
  ],
  "pickupanimals": [
   {
    "page": 17,
+   "section": "monster",
    "text": "Picks up all animals in the same square and brings them along."
   }
  ],
  "pierceres": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Pierce resistance (half damage)."
   }
  ],
  "planeloc": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "Shift target loc to same position but on another plane (neg = toggle between this plane and elysium)."
   }
  ],
  "planereq": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "Can only be cast on this plane. See table Plane Numbers (page 26)."
   }
  ],
  "planeshift": [
   {
    "page": 19,
+   "section": "monster",
    "text": "can go to/from other plane, 1=hades, 2=inferno"
   }
  ],
  "planeswap": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Swaps target square with corresponding square on this plane."
   }
  ],
  "playercolor": [
   {
    "page": 38,
+   "section": "event",
    "text": "Sets the default color for a player. Each color value is between 0 and 255."
   }
  ],
  "playerevent": [
   {
    "page": 38,
+   "section": "event",
    "text": "Once for each player every turn, occurs in home citadel by"
   }
  ],
  "poison": [
   {
    "page": 6,
+   "section": "weapon",
    "text": "Poison resistance helps against this attack even though the weapon is not poison."
   }
  ],
  "poisonaura": [
   {
    "page": 22,
+   "section": "monster",
    "text": "Poison strikeback (std dmg = 4)"
   }
  ],
  "poisoncloud": [
   {
    "page": 22,
+   "section": "monster",
    "text": "spreads poison cloud, value = radius + 1"
   }
  ],
  "poisonexpl": [
   {
    "page": 22,
+   "section": "monster",
    "text": "Poison explosion on death. A giant mushroom has this ability with dmg 10."
   }
  ],
  "poisonres": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Offers resistance to poison. Value 100 = completely resistant."
   }
  ],
  "poisonspikes": [
   {
    "page": 22,
+   "section": "monster",
    "text": "AN poison strikeback"
   }
  ],
  "pop": [
   {
    "page": 29,
+   "section": "terrain",
    "text": "A value indicating the size of humanlike population. Farm = 5, City = 50."
   }
  ],
  "port": [
   {
    "page": 31,
+   "section": "terrain",
    "text": "Ships can enter this terrain."
   }
  ],
  "portalroom": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Creates a portal to a location around this terrain."
   }
  ],
  "power": [
   {
    "page": 17,
+   "section": "monster",
    "text": "pow nbr 0 means the last created ritual school, -1 = the one before that, etc. Positive numbers are existing ritual powers from CoE5, see the pow nbr table."
   }
  ],
  "prebatweapon": [
   {
    "page": 15,
+   "section": "monster",
    "text": "Equips the monster with a prebattle effect weapon of this name that has a base damage of <dmg>. This weapon will be used before any normal combat (including assassination) begins."
   }
  ],
  "primable": [
   {
    "page": 19,
+   "section": "monster",
    "text": "By default all animals can be made into primal animals. -1 = monster cannot be turned into a primal variant, 1 = can be turned into a primal variant."
   }
  ],
  "primal": [
   {
    "page": 19,
+   "section": "monster",
    "text": "1 = this monster can be summoned by \"Call Primal Being\"."
   }
  ],
  "primalcult": [
   {
    "page": 20,
+   "section": "monster",
    "text": "Primal cultists might decide to open the primal gate."
   }
  ],
  "primalshape": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Will become monster with offset value when on the primal plane."
   }
  ],
  "primifier": [
   {
    "page": 19,
+   "section": "monster",
    "text": "Will turn this number of animals into primal animals each month."
   }
  ],
  "promote": [
   {
    "page": 40,
+   "section": "event",
    "text": "commanderize 0 = do not alter commander status, 1 = turns a non commander into a commander"
   }
  ],
  "promotion": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "Promote existing units to another monster type. Use addstring to add promotion pairs, the first string sets a source unit and the second one the destination units. Multiple of these pairs can be added to a single ritual."
   }
  ],
  "promplayer": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "Promoted units will be owned by this player instead. Use this command before the promotion command."
   }
  ],
  "protection": [
   {
    "page": 10,
+   "section": "item",
    "text": "Protection bonus, default 0."
   }
  ],
  "purple": [
   {
    "page": 4,
+   "section": "weapon",
    "text": "set color of damage numbers"
   }
  ],
  "putcorpses": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Creates a number of human corpses in the target square (as if a fight involving humans had taken place there). Add 10000 to nbr in order to make the number of corpses scale with the sacrifice amount used."
   }
  ],
  "putridexpl": [
   {
    "page": 23,
+   "section": "monster",
    "text": "Putrid cloud upon death (value magic dmg + disease(MR))"
   }
  ],
  "raiseanimals": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "Raises animal corpses from the dead."
   }
  ],
  "raisedead": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "Raises humanoid corpses from the dead."
   }
  ],
  "randitem": [
   {
    "page": 40,
+   "section": "event",
    "text": "Gives a random magic item to the target unit. Rare chance is the chance of being eligible for a rare magic item. It will always be an item that the target unit has appropriate equipment slots for."
   }
  ],
  "randloc": [
   {
    "page": 39,
+   "section": "event",
    "text": "Move target location to a random location. See the Plane Numbers table (page 26). The plane special values -1 (all planes) and -2 (Elysium-near planes) can also be used. Negative terrain numbers can also be used for special group of terrains. Cannot be used on squareevents."
   }
  ],
  "randmisc": [
   {
    "page": 40,
+   "section": "event",
    "text": "Gives a random magic misc item to the target unit. Rare chance is the chance of being eligible for a rare magic item."
   }
  ],
  "randnewloc": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "Like previous, but try to find an unknown location first."
   }
  ],
  "randomitem": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Percent is the chance of the monster starting with a random magic item."
   }
  ],
  "randomloc": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "1=random land loc, 2=many dead (excluding present), 3=rand enemy com, 4=rand enemy citadel, 5=home citadel"
   }
  ],
  "randommisc": [
   {
    "page": 22,
+   "section": "monster",
    "text": "Percent is the chance of the monster starting with a random magic misc item."
   }
  ],
  "randomrare": [
   {
    "page": 22,
+   "section": "monster",
    "text": "Monster will start with a random magic item. Percent is the chance of a rare item being allowed."
   }
  ],
  "randomweapon": [
   {
    "page": 22,
+   "section": "monster",
    "text": "Percent is the chance of the monster starting with a random magic weapon."
   }
  ],
  "randterrloc": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "Sets loc to a random terrain of this type on active plane."
   }
  ],
  "range": [
   {
    "page": 4,
+   "section": "weapon",
    "text": "The maximum range of the weapon. This should be 1 for melee weapons. A normal bow has range 5."
   }
  ],
  "rangedweapon": [
   {
    "page": 15,
+   "section": "monster",
    "text": "Equips the monster with a ranged weapon of this name that has a base damage of <dmg>."
   }
  ],
  "rangedweapon25": [
   {
    "page": 15,
+   "section": "monster",
    "text": "Equips the monster with a ranged weapon of this name that has a base damage of <dmg>. This weapon has a 25% chance of being used in melee combat."
   }
  ],
  "rangedweapon50": [
   {
    "page": 15,
+   "section": "monster",
    "text": "Equips the monster with a ranged weapon of this name that has a base damage of <dmg>. This weapon has a 50% chance of being used in melee combat."
   }
  ],
  "rangedweapon50s": [
   {
    "page": 15,
+   "section": "monster",
    "text": "Equips the monster with a range+skip weapon that has 50% chance of being used in melee (100% at range). When used the next weapon will be skipped."
   }
  ],
  "rangedweapon50x": [
   {
    "page": 15,
+   "section": "monster",
    "text": "Equips the monster with a range+skip weapon that has 50% chance of being used in melee or range. When used the next weapon will be skipped."
   }
  ],
  "rangedweaponbonus": [
   {
    "page": 15,
+   "section": "monster",
    "text": "Equips the monster with a ranged weapon of this name that has a base damage of <dmg>. This weapon will be used in addition to any other attacks the monster has."
   }
  ],
  "rangepen": [
   {
    "page": 6,
+   "section": "weapon",
    "text": "Damage penalty at long range. All normal range weapons like bows and slings have this."
   }
  ],
  "rank": [
   {
    "page": 10,
+   "section": "item",
    "text": "Prefered rank bonus, 1=wants to stand one rank more to the front than usual, -1=to the back."
   },
   {
    "page": 14,
+   "section": "monster",
    "text": "Sets the default deployment rank for the monster. -1 = back, 0 = mid, 1 = front"
   }
  ],
  "rare": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "The terrain is a rare special terrain. It is sometimes deployed at a random place in Elysium by the random map generator."
   }
  ],
  "rarestart": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "reduced chance of starting with this ritual"
   }
  ],
  "rarity": [
   {
    "page": 10,
+   "section": "item",
    "text": "Sets how easy it should be to find this item. 0=common, 1=rare, 2=rare & unique, 3=impossible to find as a random item. Default is 0."
   }
  ],
  "realport": [
   {
    "page": 31,
+   "section": "terrain",
    "text": "Ships can be recruited here."
   }
  ],
  "reanimate": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "A victim killed by the weapon becomes a Soulless."
   },
   {
    "page": 23,
+   "section": "monster",
    "text": "reanimates automatically if possible, value = max amount /"
   }
  ],
  "rearpos": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Rank-, deploys further back."
   }
  ],
  "rebate": [
   {
    "page": 17,
+   "section": "monster",
    "text": "gives rebate on rituals with fx_rebatefx??"
   }
  ],
  "rebatefx25": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "Units with this fx nbr get 25% rebate"
   }
  ],
  "rebatefx50": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "Units with this fx nbr get 50% rebate"
   }
  ],
  "rebatelvl": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "This ritual will be half price if caster is this level or higher."
   }
  ],
  "rebateterr20": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "Ritual cost is 20% cheaper in this terrain"
   }
  ],
  "rebateterr50": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "Ritual cost is 20% cheaper in this terrain"
   }
  ],
  "recasschance": [
   {
    "page": 28,
+   "section": "class",
    "text": "This command sets an absolute value for the chance for recruitment offers from human assassins. The default value is 2."
   }
  ],
  "recherochance": [
   {
    "page": 28,
+   "section": "class",
    "text": "This command sets an absolute value for the chance for recruitment offers from human heroes. The default value is 1."
   }
  ],
  "reclimiter": [
   {
    "page": 28,
+   "section": "class",
    "text": "This will alter the requirements for the last added recruitment. string can be something like \"+Baron\" to require a Baron, \"-Baron\" to require the Baron to not be alive or \"=Dwarf Worker\" to require dwarf workers to be upgraded into the new troops."
   }
  ],
  "recterr": [
   {
    "page": 28,
+   "section": "class",
    "text": "The previous entry in the recruitment list can only be recruited in this terrain."
   }
  ],
  "recwizchance": [
   {
    "page": 28,
+   "section": "class",
    "text": "This command sets an extra chance for recruitment offers from human wizards. The default value is 0."
   }
  ],
  "recxcost": [
   {
    "page": 28,
+   "section": "class",
    "text": "The previous entry in recruitment list will get an additional cost of a special resource (not gold or iron). See the Resource Types table (page 29) for resource types."
   }
  ],
  "reducetown": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Reduces settlement at target location one step in size."
   }
  ],
  "reform": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Value = chance in percent of reforming to previous monster each month (like a slime)."
   }
  ],
  "reformdestroy": [
   {
    "page": 19,
+   "section": "monster",
    "text": "chance to destroy location on immortality respawn (default 0)"
   }
  ],
  "reformloc": [
   {
    "page": 19,
+   "section": "monster",
    "text": "respawn terrain for immortals (-1 = anywhere, 1000=home)"
   }
  ],
  "regeneration": [
   {
    "page": 19,
+   "section": "monster",
    "text": "A unit with regeneration will heal 5 percent of its hit points each combat round until it is killed. Battle afflictions are also healed, but they will take at least one month to heal. A regenerating creature that is killed will continue to regenerate unless its negative hit points are more than half of its maximum hit points.\","
   }
  ],
  "releasephant": [
   {
    "page": 20,
+   "section": "monster",
    "text": "mirror releases this type of phantasms (has phantasm = value)"
   }
  ],
  "releaserate": [
   {
    "page": 20,
+   "section": "monster",
    "text": "bonus to the number of phantasms released"
   }
  ],
  "releasespell": [
   {
    "page": 20,
+   "section": "monster",
    "text": "making an attack drains one mirror charge (fx_mirror)"
   }
  ],
  "relics": [
   {
    "page": 20,
+   "section": "monster",
    "text": "Gives extra income per month of this resource."
   }
  ],
  "reload1": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "It takes 1 combat round to reload this weapon."
   }
  ],
  "reload2": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "It takes 2 combat rounds to reload this weapon."
   }
  ],
  "reload3": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "It takes 3 combat rounds to reload this weapon."
   }
  ],
  "reloadsnd": [
   {
    "page": 4,
+   "section": "weapon",
    "text": "Sound when reloading, -1 = none."
   }
  ],
  "removeanimalcorpses": [
   {
    "page": 39,
+   "section": "event",
    "text": "Removes this many animal corpses from target location. Nbr must be a positive value."
   }
  ],
  "removecorpses": [
   {
    "page": 39,
+   "section": "event",
    "text": "Removes this many corpses from target location. Nbr must be a positive value."
   }
  ],
  "removehumanoidcorpses": [
   {
    "page": 39,
+   "section": "event",
    "text": "Removes this many humanoid corpses from target location. Nbr must be a positive value."
   }
  ],
  "removeitem": [
   {
    "page": 40,
+   "section": "event",
    "text": "Removes a specific magic item from the target unit."
   }
  ],
  "remterr": [
   {
    "page": 32,
+   "section": "ritual",
    "text": "Removes this terrain from the group."
   }
  ],
  "replicate": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "A victim killed by this weapon becomes the same type of monster as the killer."
   }
  ],
  "reqterr": [
   {
    "page": 28,
+   "section": "class",
    "text": "The class requires at least one square of this terrain to be present on a map to play. This must be a terrain type that is normally present on maps. There can only be one reqterr per class."
   }
  ],
  "resreq": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "Caster must have this resistance bitmask."
   }
  ],
  "resrestrict": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "Caster cannot have this resistance bitmask. Useful values are 2^4 for undead, 2^20 for immortal and 2^26 for ethereal."
   }
  ],
  "reveal": [
   {
    "page": 39,
+   "section": "event",
    "text": "Reveals target square to a player or all players (player -1). Radius is in deci-squares, use 5 to only reveal the current target square. Level 1=darkened square, 2=normal seen square, 3=scryed square. This square will fade to dark before the player is playing, so level 1 is probably the only one that makes sense."
   }
  ],
  "revertmirror": [
   {
    "page": 20,
+   "section": "monster",
    "text": "revert to mirror when empty. 1=small mirror, 2=large mirror, 3=silver, 4=gold"
   }
  ],
  "revertowner": [
   {
    "page": 19,
+   "section": "monster",
    "text": "Monster will revert to being owned by this faction after its player owner has been defeated. Use player number 24 to revert to a standard independent."
   }
  ],
  "ritequipall": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Gives all items in \"|...\" strings to the target unit. E.g. use addstring \"|Ring of Protection\" if you want the target unit to receive a ring of protection."
   }
  ],
  "ritmaxrange": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Limits the maximum range of any following choose... rituals. The range is in number of squares."
   }
  ],
  "ritpow": [
   {
    "page": 32,
+   "section": "ritual",
    "text": "Sets the ritpow used. If command is not used, the latest created newritpow will be used. Existing ritpow numbers can be found in the Ritual Schools table (page 24)."
   }
  ],
  "ritrebate": [
   {
    "page": 31,
+   "section": "terrain",
    "text": "All rituals cast on this location will be cheaper."
   }
  ],
  "riverdmg": [
   {
    "page": 22,
+   "section": "monster",
    "text": "takes an value damage when passing a river"
   }
  ],
  "sacr": [
   {
    "page": 29,
+   "section": "terrain",
    "text": "Sacrifice income for the terrain when owned."
   }
  ],
  "sacrscale": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "Summoning amount scales with sacrifice production of target"
   }
  ],
  "sample": [
   {
    "page": 38,
+   "section": "event",
    "text": "Sets a sample file (sample.sw) as a certain sound effect number (sound). The sound effect number can be between 0 and 249, high numbers (170+) will create new samples and low number will replace the old samples that already occupies those numbers. The sample file should have the .sw (mono) or .sw2 (stereo) extension and be saved as a signed 16-bit 22050 Hz sample."
   }
  ],
  "sampleisloopmusic": [
   {
    "page": 38,
+   "section": "event",
    "text": "Turns this sample into one of the background tunes. That means it will loop into another background tune when it has finished playing."
   }
  ],
  "sampleismusic": [
   {
    "page": 38,
+   "section": "event",
    "text": "Turns this sample into one a class specific tunes. That means it will loop into a background tune when it has finished playing. If you create a sample as a class specific tune, this must be used on that sample to keep the music playing. If used on a background tune it will remove that tune from the loop of background music."
   }
  ],
  "saner": [
   {
    "page": 19,
+   "section": "monster",
    "text": "regains this amount of sanity per month"
   }
  ],
  "satyrspawn": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Bonus for dryad queen auto spawns."
   }
  ],
  "savanna2": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Likes savanna and farms."
   }
  ],
  "scatter": [
   {
    "page": 6,
+   "section": "weapon",
    "text": "A missile weapon with this attribute may deviate one square"
   }
  ],
  "scatterloc": [
   {
    "page": 39,
+   "section": "event",
    "text": "Makes target location deviate a bit, can result in the same square. Cannot be used on squareevents."
   }
  ],
  "scatterscry": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Scry in a scattered way around target location."
   }
  ],
  "scourgedefiler": [
   {
    "page": 23,
+   "section": "monster",
    "text": "Needs to drain lifeforce to cast spells of the defilement path, range=max drain range."
   }
  ],
  "scry": [
   {
    "page": 22,
+   "section": "monster",
    "text": "Can scry for 3 AP, radius is in deci-squares (5=1 square, 15=9 squares)."
   }
  ],
  "scrycost": [
   {
    "page": 22,
+   "section": "monster",
    "text": "Scrying cost this amount of gold."
   }
  ],
  "scryloc": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Scry in a circle around target location."
   }
  ],
  "seasonreq": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "Can only be cast in this season. 0=summer, 1=autumn, 2=winter, 3=spring."
   }
  ],
  "secondshape": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Monster will revert to previous monster after combat. Use for secondary shape of two shape monsters like Oni."
   }
  ],
  "seduceaura": [
   {
    "page": 22,
+   "section": "monster",
    "text": "attacker within this range might get seduced instead"
   }
  ],
  "seegems": [
   {
    "page": 17,
+   "section": "monster",
    "text": "A commander with this ability will enable the player to see what type of gems mine produce."
   }
  ],
  "seepast": [
   {
    "page": 31,
+   "section": "terrain",
    "text": "Far horizon (like sea)."
   }
  ],
  "selectclass": [
   {
    "page": 27,
+   "section": "class",
    "text": "Selects the class to be modified. The selected class is referred to as the active class. Class numbers are listed in the Class Numbers table (page 28)."
   }
  ],
  "selectfx": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Sets mod-fx-nbr to this value. Used by next command."
   }
  ],
  "selectitem": [
   {
    "page": 10,
+   "section": "item",
    "text": "Selects an existing magic item for modification."
   }
  ],
  "selectmonster": [
   {
    "page": 13,
+   "section": "monster",
    "text": "Selects the monster that will be affected by the following modding commands. The selected monster is referred to as the active monster. The selectmonster command always selects the first monster of that name in the monster list. If there is more than one monster with the same name (e.g. longdead) the offset value can be used to select them. Leave the offset out if you only want to select the first monster. The default value of the offset is 0. The offset used by this command cannot be set to a negative value, unlike the offset for the lookslike command. Offset value 1 means the command selects the (first + 1) monster of that name, i.e. the second monster. Offset 2 selects the third monster of the same name etc. Note that this command cannot use the \"1:spearman\" syntax."
   }
  ],
  "selectritual": [
   {
    "page": 32,
+   "section": "ritual",
    "text": "The optional value offs can be used to select a ritual other than the first one with this name. 0=the first one, 1=the second ritual with this name."
   }
  ],
  "selectterr": [
   {
    "page": 29,
+   "section": "terrain",
    "text": "Select the terrain to be modified. Select a low number to alter an existing terrain or select a number between 500 - 999 to create a new terrain. Press ctrl-i in game on a terrain to see what number it has."
   }
  ],
  "selectterrgroup": [
   {
    "page": 32,
+   "section": "terrgroup",
    "text": "Select the terrain group to be modified. The number must be between -1000 and -1199. The numbers between -1 and -999 are reserved for standard CoE5 and cannot be modified."
   }
  ],
  "selectweapon": [
   {
    "page": 4,
+   "section": "weapon",
    "text": "Selects an existing weapon for modification. There may be several different weapons with the same name, in which case you should use the weapon number for selecting the desired weapon. You can see existing weapon numbers in game by pressing ctrl-i when inspecting a unit."
   }
  ],
  "semistupid": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Will move automatically like an independent units unless it is controlled by a player commander."
   }
  ],
  "sensedead": [
   {
    "page": 22,
+   "section": "monster",
    "text": "1 = can sense the number of corpses of all types in current"
   }
  ],
  "setclassname": [
   {
    "page": 27,
+   "section": "class",
    "text": "Sets name for the class (e.g. \"Dwarf Queen\" or \"Necromancer\" or “Baron”) This command must be the first command after creating a new class."
   }
  ],
  "setcreator": [
   {
    "page": 20,
+   "section": "monster",
    "text": "used by monsters that get their name from their creator"
   }
  ],
  "seteventvar": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "set this event variable to 1"
   }
  ],
  "setfx": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Gives target unit a fx of type mod-fx-nbr and sets it to this value."
   }
  ],
  "setloc": [
   {
    "page": 39,
+   "section": "event",
    "text": "Move target location to a fixed location. Cannot be used on squareevents."
   }
  ],
  "setmaincom": [
   {
    "page": 27,
+   "section": "class",
    "text": "Sets the main commander for the class. For example, the main commander for the Baron class is Baron and the main commander for the Barbarian class is Barbarian Leader. If the main commander does not appear in the recruitment list for the class, he cannot be replaced if lost."
   }
  ],
  "setname": [
   {
    "page": 32,
+   "section": "terrgroup",
    "text": "Sets the name for the terrain group, e.g. \"forests and temples\"."
   }
  ],
  "setplane": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "Following randomloc etc. commands will be restricted to this"
   }
  ],
  "setplayer": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "Following summons will be owned by this player. Default owner is the current player. Player -1 resets the owner to the default."
   }
  ],
  "settlement": [
   {
    "page": 31,
+   "section": "terrain",
    "text": "Defines the terrain as a human settlement. Hamlets, villages, towns etc have this attribute."
   }
  ],
  "setvar": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Set the generic modding variable to this value."
   },
   {
    "page": 40,
+   "section": "event",
    "text": "var = 0-9999, sets a variable to a value"
   }
  ],
  "shardexpl": [
   {
    "page": 22,
+   "section": "monster",
    "text": "Shard explosion on death."
   }
  ],
  "shield": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Equips the monster with a regular shield (0-1 protection)."
   }
  ],
  "shieldneg": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "The weapon ignores shields."
   }
  ],
  "shipmove": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Monster is a ship. Movement will cost 1 AP for everyone in the same square."
   }
  ],
  "shockaura": [
   {
    "page": 22,
+   "section": "monster",
    "text": "AN cold strikeback (std dmg = 3)"
   }
  ],
  "shockres": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Offers resistance to shock. Value 100 = completely resistant."
   }
  ],
  "shrinkhp": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Monster will shrink to the next created monster if it reaches this amount of HP or less."
   }
  ],
  "siegetunnel": [
   {
    "page": 23,
+   "section": "monster",
    "text": "Chance of emerging inside fort when storming."
   }
  ],
  "siegeweapon": [
   {
    "page": 15,
+   "section": "monster",
    "text": "Equips the monster with a siege weapon of this name that has a base damage of <dmg>. This weapon will be used in locations that allow sieges, like cities and castles. Siege weapons are used in the first ten rounds of combat before any normal attacks are made."
   }
  ],
  "simulacrum": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "Creates a simulacrum."
   }
  ],
  "sitepopboost": [
   {
    "page": 23,
+   "section": "monster",
    "text": "Will boost indep generation at current site (100 = +100%)."
   }
  ],
  "size1x1": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Monster only takes up a single square on the battlefield."
   }
  ],
  "size2x2": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Monster takes up 2x2 squares on the battlefield. (The huge movement ability gives a 3x3 size token on the battlefield)."
   }
  ],
  "skyshape": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Will become monster with offset value when on the sky plane."
   }
  ],
  "slashres": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Slash resistance (half damage)."
   }
  ],
  "slavehunt": [
   {
    "page": 22,
+   "section": "monster",
    "text": "Can create slave warriors. The amount of slaves is an open ended die."
   }
  ],
  "sleeper": [
   {
    "page": 23,
+   "section": "monster",
    "text": "Chance of starting a battle asleep if defending."
   }
  ],
  "slow": [
   {
    "page": 15,
+   "section": "monster",
    "text": "Monster is slow on world map."
   }
  ],
  "smoke": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "Pixels with a certain pink color (245,0,255) will produce smoke. Pixels with color (235,0,255) will produce flames and smoke."
   }
  ],
  "sndvol": [
   {
    "page": 4,
+   "section": "weapon",
    "text": "dvol -50 = half volume, 100 = double volume."
   }
  ],
  "snow": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Monster has snow move."
   }
  ],
  "snowok": [
   {
    "page": 31,
+   "section": "terrain",
    "text": "Income in this terrain is not affected by snow."
   }
  ],
  "snowsleeper": [
   {
    "page": 23,
+   "section": "monster",
    "text": "Chance of starting a battle asleep if defending and it is snowy."
   }
  ],
  "snowstealth": [
   {
    "page": 19,
+   "section": "monster",
    "text": "Monster is stealthy in snowy locations."
   }
  ],
  "soft": [
   {
    "page": 6,
+   "section": "weapon",
    "text": "Armor is doubled vs this weapon"
   }
  ],
  "sound": [
   {
    "page": 4,
+   "section": "weapon",
    "text": "The sound effect when the weapon strikes down. See table Sound Effects (page 7)."
   }
  ],
  "soundfx": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "Play this sound effect."
   }
  ],
  "spawn1d6mon": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Spawns 1d6 of the next monster. value = chance"
   }
  ],
  "spawn2d6mon": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Spawns 2d6 of the next monster. value = chance"
   }
  ],
  "spawnmon": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Spawns next monster. value/100 = monsters per turn"
   }
  ],
  "spawnmonaway": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Spawns next monster, but not on homeplane. value/100 = monsters per turn"
   }
  ],
  "spawnoffs": [
   {
    "page": 18,
+   "section": "monster",
    "text": "To spawn something other than the next monster"
   }
  ],
  "specpow": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "Makes a druid summoning, 1=minor, 2=major"
   }
  ],
  "spellrange": [
   {
    "page": 15,
+   "section": "monster",
    "text": "Value = +range for battle spells"
   }
  ],
  "spellweapon": [
   {
    "page": 15,
+   "section": "monster",
    "text": "Equips the monster with a Cast Spell weapon in the magic path specified. This spell weapon only has a 25% chance of being successfully used in melee combat."
   }
  ],
  "spellweapon50": [
   {
    "page": 15,
+   "section": "monster",
    "text": "Equips the monster with a limited Cast Spell Weapon in the magic path specified. This spell weapon has only a 50% chance of being used on any given combat round."
   }
  ],
  "spellweapon50s": [
   {
    "page": 15,
+   "section": "monster",
    "text": "Equips the monster with a limited Cast Spell+skip weapon in the magic path specified. This spell weapon has only a 50% chance of being used on any given combat round. If it is used the next weapon will be skipped."
   }
  ],
  "spellweaponbonus": [
   {
    "page": 15,
+   "section": "monster",
    "text": "Equips the monster with a bonus Cast Spellweapon in the magic path specified. This spell weapon can be used in melee without penalty."
   }
  ],
  "spellweaponsingle": [
   {
    "page": 15,
+   "section": "monster",
    "text": "Equips the monster with a limited Cast Spell Weapon in the magic path specified. Only one of the single spell weapons will be used per combat round if the monster has several"
   }
  ],
  "spiritsight": [
   {
    "page": 19,
+   "section": "monster",
    "text": "Monster has spirit sight."
   }
  ],
  "split": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Value = dmg required in % for splitting into next monster (like a slime)."
   }
  ],
  "spr": [
   {
    "page": 10,
+   "section": "item",
    "text": "Sets the sprite for the magic item. It should be centered in a 32x32 or 64x64 pixel large image. The drawn item should not be larger than 40x40 pixels however, so if put in a 64x64 image it should be surrounded by black."
   },
   {
    "page": 29,
+   "section": "terrain",
    "text": "Sets the image file for the terrain square."
   }
  ],
  "spr1": [
   {
    "page": 14,
+   "section": "monster",
    "text": "The file name of the normal image for the monster. This command sets the attack sprite to this image as well.The image should be 32x32 or 64x64 for normal sized monsters and 128x128 for huge monsters. A human being should be about 34 pixels tall and there should be 2 pixels of free space between his feet and the bottom of the image."
   }
  ],
  "spr2": [
   {
    "page": 14,
+   "section": "monster",
    "text": "The file name of the attack image for the monster. If this is not set, then spr1 will be used for this image too. This command must come after the spr1 command."
   }
  ],
  "spread": [
   {
    "page": 22,
+   "section": "monster",
    "text": "unit will position itself spread out among the other troops"
   }
  ],
  "spreadcold": [
   {
    "page": 31,
+   "section": "terrain",
    "text": "The terrain square spreads cold around it, turning nearby squares snowy."
   }
  ],
  "squareench": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Puts an enchantment at target location."
   }
  ],
  "squareevent": [
   {
    "page": 38,
+   "section": "event",
    "text": "For each player and each square in the world every turn"
   }
  ],
  "squarespec": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Adds special square flags to target location. The only useful values are 2^14 (16384) converted to El, 2^16 (65536) poison fog, 2^17 (131072) strange mist."
   }
  ],
  "start": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "will start with this ritual(s), no others"
   }
  ],
  "startinsanity": [
   {
    "page": 19,
+   "section": "monster",
    "text": "Commanders will start with about this much insanity. It has no effect on non-commanders."
   }
  ],
  "startitem": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Starts with this item."
   }
  ],
  "startplane": [
   {
    "page": 27,
+   "section": "class",
    "text": "Starting citadel should be on this plane. If you use this command you should also use the \"createcit\" command and the terrain set as hometerr should be set to a gateway/pit/spire terrain. The hometerr terrain will be created in Elysium as a portal to the other plane."
   }
  ],
  "stationary": [
   {
    "page": 15,
+   "section": "monster",
    "text": "Monster is stationary (cannot move on world map)."
   }
  ],
  "statue": [
   {
    "page": 20,
+   "section": "monster",
    "text": "statues get part of their name from their creator, e.g. Statue of Anselm"
   }
  ],
  "stdtroops": [
   {
    "page": 28,
+   "section": "class",
    "text": "Adds standard troops to recruitment list. Standard troops are spearmen, swordsmen,"
   }
  ],
  "stealth": [
   {
    "page": 19,
+   "section": "monster",
    "text": "Monster is stealthy."
   }
  ],
  "stone": [
   {
    "page": 6,
+   "section": "weapon",
    "text": "Stone beings are immune to the weapon."
   }
  ],
  "stonebeing": [
   {
    "page": 20,
+   "section": "monster",
    "text": "monster is made of stone"
   }
  ],
  "stonekill": [
   {
    "page": 6,
+   "section": "weapon",
    "text": "x2 dmg vs stone beings and stone walls"
   }
  ],
  "str": [
   {
    "page": 10,
+   "section": "item",
    "text": "Strength and damage bonus, default 0."
   },
   {
    "page": 14,
+   "section": "monster",
    "text": "The strength of the monster. A normal human soldier has a strength of 4, an elite human soldier has 5, a troll has 8 or 9 and giants and dragons have 10 to 12."
   }
  ],
  "stray": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Can stray away from loved and liked terrains."
   }
  ],
  "strresist": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "The effects of this weapon can be resisted by a successful strength check."
   }
  ],
  "stupid": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Cannot be controlled by players and will move automatically like an independent unit."
   }
  ],
  "subeventvar": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "decreases the value of this event variable by 1"
   }
  ],
  "sum0chance": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "Use with summonings. Percent = chance of first \"string\" to be used instead of a random string among the others."
   }
  ],
  "sum0snow": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "Works like sum0chance, but it can only succeed if there is snow at the target location."
   }
  ],
  "sum1chance": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "Use with summonings. Percent = chance of second \"string\" to be used instead of a random string among the third and later."
   }
  ],
  "sum2chance": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "Same but one higher."
   }
  ],
  "sum3chance": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "Same but one higher."
   }
  ],
  "sum4chance": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "Same but one higher."
   }
  ],
  "summoning": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "The ritual will summon the monsters specified in a random \"string\". Use addstring to add up to 15 strings with monsters. The string should be written like these examples:\"1d6*Goblin\", \"c*Captain & 2d6*spearman & 2d4+2*Archer\", \"Purple Worm\". The c* indicates a commander and 2d6 means two 6-sided dice will determine the number of monsters summoned. Dice cannot be combined with commanders."
   }
  ],
  "swallowres": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Immune to swallow attacks (used for castle gates)."
   }
  ],
  "swamp": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Monster has swamp move."
   },
   {
    "page": 30,
+   "section": "terrain",
    "text": "The terrain counts as swamp for the purposes of abilities like Swamp Move."
   }
  ],
  "sweep": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "The weapon can continue to kill multiple targets."
   }
  ],
  "tangleres": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Immunity to tangle vines."
   }
  ],
  "targetunitloc": [
   {
    "page": 39,
+   "section": "event",
    "text": "Set target location to the place where the target unit is."
   }
  ],
  "targterr": [
   {
    "page": 6,
+   "section": "weapon",
    "text": "Weapon can target terrain"
   }
  ],
  "teleport": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Like flying, but the monster will teleport around in combat."
   }
  ],
  "teleportloc": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "1 = Teleport target unit to target location. 2 = the caster's entire army is teleported to the target location. 3 = the target unit and his entire army is teleported to target location."
   }
  ],
  "tempimmune": [
   {
    "page": 31,
+   "section": "terrain",
    "text": "The terrain will not be transformed into a wasteland when it gets too hot"
   }
  ],
  "temple": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "The terrain counts as a temple."
   }
  ],
  "templebonusdescr": [
   {
    "page": 28,
+   "section": "class",
    "text": "This text will be shown as a description of the bonus for owning temples."
   }
  ],
  "templerec": [
   {
    "page": 28,
+   "section": "class",
    "text": "The previous entry in the recruitment list will have increased chance of occurring, depending on the number of temples owned."
   }
  ],
  "terr": [
   {
    "page": 32,
+   "section": "ritual",
    "text": "Restrict ritual to this terrain only. Negative numbers can be used for special terrain combinations."
   }
  ],
  "terraformch": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Chance of terraforming square (default 100)."
   }
  ],
  "terraformfrom": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Changes this terrain into something. Use next two commands to setup that and how often."
   }
  ],
  "terraformto": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Terraforms to this terrain (default plain)."
   }
  ],
  "terrboost": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "Adds 1 to number of summoned monsters when done in this"
   }
  ],
  "terrscale50": [
   {
    "page": 35,
+   "section": "ritual",
    "text": "+50% number of summoned monster when done in this terrain"
   }
  ],
  "terrstealth": [
   {
    "page": 19,
+   "section": "monster",
    "text": "Monster is stealthy in this terrain."
   }
  ],
  "terrstealthinv": [
   {
    "page": 19,
+   "section": "monster",
    "text": "Monster gets invisible instead of just stealthy in the terrstealth terrain."
   }
  ],
  "thrallhunt": [
   {
    "page": 23,
+   "section": "monster",
    "text": "can create thralls (vampire)"
   }
  ],
  "tiny": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Tiny units are missed 50% of the time by normal attacks."
   }
  ],
  "townbonusdescr": [
   {
    "page": 28,
+   "section": "class",
    "text": "This text will be shown as a description of the bonus for owning towns."
   }
  ],
  "trade": [
   {
    "page": 20,
+   "section": "monster",
    "text": "Gives this number of extra trade points"
   },
   {
    "page": 29,
+   "section": "terrain",
    "text": "Trade value of the terrain when owned."
   }
  ],
  "tradebonus": [
   {
    "page": 20,
+   "section": "monster",
    "text": "Percentage bonus to trade income for entire nation."
   },
   {
    "page": 28,
+   "section": "class",
    "text": "Percentage bonus to trade income. For example, a bonus of 50 means that the class will have a 50% bonus on all trade income like the Senator."
   }
  ],
  "tradeboost": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "The terrain provides a global boost to trade points when owned."
   }
  ],
  "trample": [
   {
    "page": 23,
+   "section": "monster",
    "text": "Can trample smaller unit for this amount of damage."
   }
  ],
  "tramplexsize": [
   {
    "page": 23,
+   "section": "monster",
    "text": "Extra size regarding trampling. A size one trampling unit needs tramplexsize 1 to be able to trample anyone at all."
   }
  ],
  "transformtarg": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "Will transform target into the unit type set by addstring. Value 1 = standard (use this), 2 = transform into following unit if level is high enough."
   },
   {
    "page": 37,
+   "section": "ritual",
    "text": "Target unit will be transformed into one of the monsters added by addstring. Normally you want to use mode 1. Mode 2 will transform the units into higher monsters if they have higher skill level than necessary to cast the ritual."
   }
  ],
  "translation": [
   {
    "page": 3,
+   "section": "mod",
    "text": "Translates all occurrences of the \"from\" text to the \"to\" text."
   }
  ],
  "transport": [
   {
    "page": 23,
+   "section": "monster",
    "text": "Is a ship and can transport value amount of size 1 units."
   }
  ],
  "tree": [
   {
    "page": 6,
+   "section": "weapon",
    "text": "Tree/bushes/fungus are immune to this weapon"
   }
  ],
  "treelook": [
   {
    "page": 23,
+   "section": "monster",
    "text": "sprite will be rotated and scaled randomly, like a random tree"
   }
  ],
  "trgrank": [
   {
    "page": 4,
+   "section": "weapon",
    "text": "Sets the battlefield row where the weapon hits. See the table Target Ranks on page 6 for the possible values. The default value is 1."
   }
  ],
  "trollifyloc": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Transform forest at target location into a troll forest."
   }
  ],
  "tunnel": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Monster can tunnel on the world map."
   }
  ],
  "tunnelmove": [
   {
    "page": 23,
+   "section": "monster",
    "text": "Tunnel teleporting in combat like a Purple Worm."
   }
  ],
  "turncastcount": [
   {
    "page": 34,
+   "section": "ritual",
    "text": "Automatically reduce nbr of times this ritual has been cast by this player by this amount per turn"
   }
  ],
  "twistfate": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Starts every battle with the Twist Fate buff."
   }
  ],
  "type": [
   {
    "page": 10,
+   "section": "item",
    "text": "Sets the magic item type. Default is 7 = misc item. See table Magic Item Types (page 13)."
   }
  ],
  "ug": [
   {
    "page": 31,
+   "section": "terrain",
    "text": "This is an underground terrain."
   }
  ],
  "unaging": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Immune to aging effects like decay."
   }
  ],
  "undead": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "The weapon does not affect Undead units."
   },
   {
    "page": 19,
+   "section": "monster",
    "text": "is an undead being. Undead beings are affected by banishment."
   }
  ],
  "undkill": [
   {
    "page": 5,
+   "section": "weapon",
    "text": "The weapon causes double damage against undead only"
   }
  ],
  "unfollowtarg": [
   {
    "page": 37,
+   "section": "ritual",
    "text": "Removes all followers from the target, should he be a commander that is commanding any units."
   }
  ],
  "unimportant": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Battles can be won without killing this unit."
   }
  ],
  "unique": [
   {
    "page": 22,
+   "section": "monster",
    "text": "This is a unique monster, there can only be one of it in the entire world."
   },
   {
    "page": 30,
+   "section": "terrain",
    "text": "This terrain is unique and can only be placed once by the random map generator."
   }
  ],
  "updatehome": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Updates home for target unit to where he stands. This is used to make some immortals resurrect in the correct place."
   }
  ],
  "updhomeifterr": [
   {
    "page": 36,
+   "section": "ritual",
    "text": "Like previous command, but will only update if target unit is on this terrain."
   }
  ],
  "useable": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "There is a special power inherent to the terrain that can be activated by commander actions."
   }
  ],
  "varcost": [
   {
    "page": 33,
+   "section": "ritual",
    "text": "Set variable sacrifice amount (50=50-150%, 100=0-150%)"
   }
  ],
  "varregen": [
   {
    "page": 19,
+   "section": "monster",
    "text": "Like regeneration, but this many percent per round instead of 5."
   }
  ],
  "vassal": [
   {
    "page": 23,
+   "section": "monster",
    "text": "Is a vassal knight and will get part of yearly consription."
   }
  ],
  "visible": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "Makes sure that the sprite is drawn as terrain and nothing else. Necessary to modify the look of procedurally drawn terrains like forests, mountains and villages."
   }
  ],
  "void": [
   {
    "page": 31,
+   "section": "terrain",
    "text": "The terrain is part of the void. It is possible to both walk, swim and sail here."
   }
  ],
  "voidret": [
   {
    "page": 31,
+   "section": "terrain",
    "text": "The terrain is connected to the Void. Use for Pyramids and other such structures."
   }
  ],
  "voidsanity": [
   {
    "page": 19,
+   "section": "monster",
    "text": "reduces insanity gains (like armor)"
   }
  ],
  "voidshape": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Will become monster with offset value when on the void plane."
   }
  ],
  "voidship": [
   {
    "page": 23,
+   "section": "monster",
    "text": "Percent chance of protecting anyone in same square from the insanity of the void."
   }
  ],
  "wall": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Monster has wall climbing."
   }
  ],
  "wallkill": [
   {
    "page": 6,
+   "section": "weapon",
    "text": "x5 dmg vs walls and boats"
   }
  ],
  "walls": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "The location has walls in battle and is a siegable location."
   }
  ],
  "wander": [
   {
    "page": 17,
+   "section": "monster",
    "text": "Will try to fulfill an objective if it is a commander. See table Objectives (page 26) for possible values."
   }
  ],
  "wander2": [
   {
    "page": 17,
+   "section": "monster",
    "text": "Try to fulfill this objective if the first one was not possible"
   }
  ],
  "wanderattack": [
   {
    "page": 17,
+   "section": "monster",
    "text": "Pause wander to attack this faction if adjacent (-1=all factions, -2=player factions)"
   }
  ],
  "wandermaxdist": [
   {
    "page": 17,
+   "section": "monster",
    "text": "Maximum distance for raid missions for wanderers. Dragons have about 6 in this ability."
   }
  ],
  "wanderrest": [
   {
    "page": 17,
+   "section": "monster",
    "text": "A chance for wandering monsters to rest a turn instead of going on a mission. Dragons have about 85 in this ability."
   }
  ],
  "water": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Monster can enter water squares."
   },
   {
    "page": 30,
+   "section": "terrain",
    "text": "The terrain is water and cannot be passed, unless it is frozen or the monsters moving through it are amphibian or aquatic."
   }
  ],
  "wateronly": [
   {
    "page": 16,
+   "section": "monster",
    "text": "Same as water & noland. The monster will be aquatic."
   }
  ],
  "watershape": [
   {
    "page": 18,
+   "section": "monster",
    "text": "Will become monster with offset value when in the sea"
   }
  ],
  "weaponslots": [
   {
    "page": 21,
+   "section": "monster",
    "text": "Only has weapon and misc slots."
   }
  ],
  "weed": [
   {
    "page": 20,
+   "section": "monster",
    "text": "Gives extra income per month of this resource."
   },
   {
    "page": 29,
+   "section": "terrain",
    "text": "Weed income for the terrain when owned."
   }
  ],
  "winteridle": [
   {
    "page": 17,
+   "section": "monster",
    "text": "Monster will not move in the winter if it is in a cold part of the map."
   }
  ],
  "woodencitadel": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "Can be used as citadel by the Senator"
   }
  ],
  "woodengate": [
   {
    "page": 30,
+   "section": "terrain",
    "text": "The fort has a wooden gate"
   }
  ],
  "yellow": [
   {
    "page": 4,
+   "section": "weapon",
    "text": "set color of damage numbers"
   }
  ]
