@@ -29,6 +29,14 @@
  "nobootslots": "Marks the monster as having no boot equipment slots, so it cannot be equipped with footwear items.",
  "north1": "Marks the monster as loving the far north, so as an independent or stupid commander it will never move away from squares in that region. Never used in the base game data; behaviour inferred from the matching pattern on other terrain-preference flags (e.g. south1/south2).",
  "promoteunits": "An event command that converts up to a given number of one monster type belonging to a player into a different monster type, effectively promoting those units. Never used in the base game data, so the exact selection and trigger conditions are undocumented.",
+ "selectterr": {
+  "text": "Select the terrain to modify. A low number edits an existing terrain; 500 to 1999 creates a new one (5.42 raised the limit from 999). Above 1999 nothing is selected. Press ctrl-i in game on a terrain to see its number.",
+  "source": "modding manual, page 29, limits updated for 5.42"
+ },
+ "selectterrgroup": {
+  "text": "Select the terrain group to modify. Mod groups are -1000 to -1499 (5.42 raised the count from 200 to 500). -1 to -999 are the standard CoE5 groups and cannot be modified.",
+  "source": "modding manual, page 32, limits updated for 5.42"
+ },
  "sensedead": {
   "text": "Lets the monster sense how many corpses of any type lie in its current square. The count is shown as skull icons:",
   "scale": [

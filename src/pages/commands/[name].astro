@@ -64,6 +64,7 @@ const QUIRK_TEXT = {
 };
 const argCount = Math.max(cmd.args.length, ...(engineFacts?.clamps ?? []).map((c) => c.index + 1));
 const engineLines = [
+  ...(engineDescriptions[name]?.limit ? [engineDescriptions[name].limit] : []),
   ...(engineFacts?.clamps ?? []).map((c) => clampText(c, argCount)),
   ...(stacking ? [STACKING_TEXT[stacking]] : []),
 ];
@@ -84,7 +85,7 @@ const purpose = override
     ]
   : manualDescriptions[name]
     ? manualDescriptions[name].map((p) => ({ ...p, source: "manual" }))
-    : engineDescriptions[name]
+    : engineDescriptions[name]?.text
       ? [{ text: engineDescriptions[name].text, source: "authored", label: "read from the CoE5 5.42 game" }]
       : [];
 
