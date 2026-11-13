@@ -9,15 +9,11 @@ const hasPage = (name) => name in data.commands || engineData.added.includes(nam
 ---
 
 <Base
-  title="Verified mechanics"
-  description={`How Conquest of Elysium 5 ${game} really handles abilities, rituals and events, verified against the game itself.`}
+  title="Mechanics"
+  description={`How Conquest of Elysium 5 ${game} handles abilities, rituals and events, checked against the game itself.`}
 >
-  <h1>Verified mechanics</h1>
-  <p class="lede">
-    Answers to mechanics questions the manual leaves open, each checked against the CoE5 {game} game
-    binary. <strong>certain</strong> means every relevant code path was traced; <strong>likely</strong> means
-    one detail was left open, and the entry names it.
-  </p>
+  <h1>Mechanics</h1>
+  <p class="lede">What the manual leaves open, checked against the CoE5 {game} game.</p>
 
   <nav class="toc" aria-label="Questions">
     <ol>
@@ -31,7 +27,6 @@ const hasPage = (name) => name in data.commands || engineData.added.includes(nam
     <section class="entry" id={e.slug}>
       <h2>{e.question}</h2>
       <p class="meta">
-        <span class={`badge conf-${e.confidence}`}>{e.confidence}</span>
         {e.commands.map((c) =>
           hasPage(c) ? <a class="cmd" href={`/commands/${encodeURIComponent(c)}`}>{c}</a> : <span class="cmd">{c}</span>,
         )}
@@ -40,19 +35,14 @@ const hasPage = (name) => name in data.commands || engineData.added.includes(nam
     </section>
   ))}
 
-  <h2 id="game-only">Commands only the game knows</h2>
-  <p>
-    The CoE5 {game} game accepts these, but neither the manual nor the base game data mention them:
-  </p>
+  <h2 id="game-only">Undocumented commands</h2>
+  <p>Not in the manual, but the {game} game accepts them:</p>
   <p class="cmds">
     {engineData.added.map((c) => <a class="cmd" href={`/commands/${encodeURIComponent(c)}`}>{c}</a>)}
   </p>
 
-  <h2 id="not-in-game">Listed commands the game does not know</h2>
-  <p>
-    These appear in the manual or the base game data, but the {game} parser does not recognise them; a mod that uses
-    one stops loading with <code>mod command '…' did nothing</code>:
-  </p>
+  <h2 id="not-in-game">Commands that don't exist</h2>
+  <p>Listed in the manual or older data, but not in the {game} game; a mod using one fails to load:</p>
   <p class="cmds">
     {engineData.removed.map((c) => <a class="cmd" href={`/commands/${encodeURIComponent(c)}`}>{c}</a>)}
   </p>
@@ -89,15 +79,5 @@ const hasPage = (name) => name in data.commands || engineData.added.includes(nam
   .cmd {
     font-family: var(--mono);
     font-size: 0.92rem;
-  }
-
-  .conf-certain {
-    color: var(--ok);
-    border-color: var(--ok);
-  }
-
-  .conf-likely {
-    color: var(--warning);
-    border-color: var(--warning);
   }
 </style>

@@ -1,0 +1,79 @@
+{
+ "coeversion": {
+  "text": "Mod header line. The game accepts it and ignores the value."
+ },
+ "modversion": {
+  "text": "Mod header line. The game accepts it and ignores the value."
+ },
+ "+minunitshere": {
+  "text": "Event condition: true when the current square holds at least the given number of units of the named monster. The player filters by owner: -1 any, -2 the event player, -3 the square's owner, -4 the army's owner.",
+  "signature": "<player> <count> \"monster\""
+ },
+ "+seasonleft": {
+  "text": "Event condition: true when the number of turns left in the current season equals the value.",
+  "signature": "<turns>"
+ },
+ "adventurer": {
+  "text": "Marks the monster as an adventurer. A party leader with pickupadvent recruits unled adventurers of its own side from its square. Use the value 1; other values do nothing.",
+  "signature": "1"
+ },
+ "brigand": {
+  "text": "Marks the monster as a brigand. A party leader with pickupbrigands recruits unled brigands of its own side from its square. Use the value 1; other values do nothing.",
+  "signature": "1"
+ },
+ "pickupadvent": {
+  "text": "The unit recruits unled adventurers (monsters with adventurer 1) of its own side standing on its square into its party. Any value above 0 switches it on.",
+  "signature": "1"
+ },
+ "pickupbrigands": {
+  "text": "The unit recruits unled brigands (monsters with brigand 1) of its own side standing on its square into its party. Any value above 0 switches it on.",
+  "signature": "1"
+ },
+ "partyleader": {
+  "text": "Accepted, but nothing in the 5.42 game reads it.",
+  "signature": "<value>"
+ },
+ "holyvengeance": {
+  "text": "Strikes back at undead and demonic attackers. When one of them hurts the unit, the game rolls 2d4 (open-ended) plus value−1; if that beats the attacker's magic resistance, the attacker takes the same damage. Shown in game as \"Holy Vengeance\".",
+  "signature": "<value>"
+ },
+ "citadel2": {
+  "text": "Marks the monster as liking citadels, like the other \"…2\" terrain flags: as an independent it keeps to citadel squares and the squares next to them."
+ },
+ "affectfemale": {
+  "text": "Weapon flag: the weapon only hurts female targets and does no damage to anything else. Shown in game as \"(only affects females)\"."
+ },
+ "reclimiter": {
+  "limit": "Up to 12 per recruit entry; extra lines are ignored."
+ },
+ "addstring": {
+  "limit": "Up to 58 strings per ritual; extra lines are ignored."
+ },
+ "newritual": {
+  "limit": "A ritual holds up to 20 effects; further effect lines are ignored."
+ },
+ "newmonster": {
+  "limit": "Mod monsters are numbered from 2000. The game holds up to 5998 monsters; past that newmonster creates nothing."
+ },
+ "addunitrec": {
+  "limit": "A class holds up to 160 recruit entries."
+ },
+ "addmercrec": {
+  "limit": "A class holds up to 160 recruit entries."
+ },
+ "addcomrec": {
+  "limit": "A class holds up to 160 recruit entries."
+ },
+ "startitem": {
+  "limit": "Up to 4 per monster; a 5th fails to load with \"did nothing\"."
+ },
+ "meleeweapon": {
+  "limit": "Up to 15 weapons per monster; more are dropped."
+ },
+ "cost": {
+  "limit": "Up to 4 cost entries per ritual; more are ignored."
+ },
+ "newclass": {
+  "limit": "Up to 199 classes; further newclass lines are ignored."
+ }
+}
