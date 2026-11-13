@@ -1,0 +1,36 @@
+{
+ "coeversion": {
+  "text": "Mod header line. The game accepts it and ignores the value."
+ },
+ "modversion": {
+  "text": "Mod header line. The game accepts it and ignores the value."
+ },
+ "+minunitshere": {
+  "text": "Event condition: true when the current square holds at least the given number of units of the named monster. The player filters by owner: -1 any, -2 the event player, -3 the square's owner, -4 the army's owner.",
+  "signature": "<player> <count> \"monster\""
+ },
+ "+seasonleft": {
+  "text": "Event condition: true when the number of turns left in the current season equals the value.",
+  "signature": "<turns>"
+ },
+ "adventurer": {
+  "text": "Marks the monster as an adventurer. A party leader with pickupadvent recruits unled adventurers of its own side from its square. Use the value 1; other values do nothing.",
+  "signature": "1"
+ },
+ "brigand": {
+  "text": "Marks the monster as a brigand. A party leader with pickupbrigands recruits unled brigands of its own side from its square. Use the value 1; other values do nothing.",
+  "signature": "1"
+ },
+ "pickupadvent": {
+  "text": "The unit recruits unled adventurers (monsters with adventurer 1) of its own side standing on its square into its party. Any value above 0 switches it on.",
+  "signature": "1"
+ },
+ "pickupbrigands": {
+  "text": "The unit recruits unled brigands (monsters with brigand 1) of its own side standing on its square into its party. Any value above 0 switches it on.",
+  "signature": "1"
+ },
+ "partyleader": {
+  "text": "Accepted, but nothing in the 5.42 game reads it.",
+  "signature": "<value>"
+ }
+}

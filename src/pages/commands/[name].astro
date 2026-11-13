@@ -4,6 +4,7 @@ import data from "../../../modcheck/data/commands.json";
 import engineData from "../../../modcheck/data/engine.json";
 import engineStacking from "../../data/engine-stacking.json";
 import known from "../../data/known.json";
+import engineDescriptions from "../../data/engine-descriptions.json";
 import allExamples from "../../data/examples.json";
 import manualDescriptions from "../../data/command-descriptions.json";
 import authoredDescriptions from "../../data/command-descriptions-overrides.json";
@@ -41,19 +42,31 @@ const engineFacts = engineData.commands[name] ?? null;
 const notInGame = engineData.removed.includes(name);
 const stacking = engineStacking[name] ?? null;
 const knownEntries = known.entries.filter((e) => e.commands.includes(name));
-const engineSections = engineFacts?.sections.filter((s) => s !== "mod") ?? [];
-const sectionsDiffer =
-  engineSections.length > 0 &&
-  (engineSections.length !== cmd.sections.length || engineSections.some((s) => !cmd.sections.includes(s)));
-const listSections = (list) =>
-  list.length <= 1 ? list.join("") : `${list.slice(0, -1).join(", ")} and ${list[list.length - 1]}`;
 const boundsText = (c) =>
-  c.min !== null && c.max !== null ? `${c.min} to ${c.max}` : c.min !== null ? `at least ${c.min}` : `at most ${c.max}`;
-const STACKING_TEXT = {
-  sum: "values from several items add up",
-  highest: "only the highest value from items counts",
-  "depends-on-reader": "some game code adds item values up, other code keeps only the highest",
+  c.min !== null && c.max !== null ? `range ${c.min} to ${c.max}` : c.min !== null ? `minimum ${c.min}` : `maximum ${c.max}`;
+const clampText = (c, argCount) => {
+  const text = boundsText(c);
+  const subject = argCount > 1 ? `Argument ${c.index + 1}: ${text}` : text[0].toUpperCase() + text.slice(1);
+  const where = engineFacts.sections.length > c.sections.length ? ` (${c.sections.join(" or ")})` : "";
+  return `${subject}${where}.`;
 };
+const STACKING_TEXT = {
+  sum: "Stacks: values from several items add up.",
+  highest: "Doesn't stack: only the highest item value counts.",
+  "depends-on-reader": "Partly stacks: some game checks add item values up, others take the highest.",
+};
+// Site wording for the verified quirks (the validator words them as diagnostics).
+const QUIRK_TEXT = {
+  removeanimalcorpses: "any use aborts the game with a fatal error.",
+  "+hascom": "never true in 5.42; -hascom always passes.",
+  "+minunitshere": "in a squareevent, one square short of units ends the whole event.",
+  newunits: "counts of three or more digits (\"100*Peasant\") create a single unit; use dice or several groups.",
+};
+const argCount = Math.max(cmd.args.length, ...(engineFacts?.clamps ?? []).map((c) => c.index + 1));
+const engineLines = [
+  ...(engineFacts?.clamps ?? []).map((c) => clampText(c, argCount)),
+  ...(stacking ? [STACKING_TEXT[stacking]] : []),
+];
 
 const examples = allExamples[name] ?? [];
 const notes = cmd.notes ? (Array.isArray(cmd.notes) ? cmd.notes : [cmd.notes]) : [];
@@ -69,9 +82,14 @@ const purpose = override
         ? { text: override, source: "authored" }
         : { text: override.text, source: "authored", label: override.source, scale: override.scale },
     ]
-  : (manualDescriptions[name] ?? []).map((p) => ({ ...p, source: "manual" }));
+  : manualDescriptions[name]
+    ? manualDescriptions[name].map((p) => ({ ...p, source: "manual" }))
+    : engineDescriptions[name]
+      ? [{ text: engineDescriptions[name].text, source: "authored", label: "read from the CoE5 5.42 game" }]
+      : [];
 
-const signatureLine = cmd.signature ? `${name} ${cmd.signature}` : name;
+const signature = cmd.signature ?? engineDescriptions[name]?.signature ?? null;
+const signatureLine = signature ? `${name} ${signature}` : name;
 
 let description = purpose.length
   ? `CoE5 mod command ${name}: ${purpose[0].text}`
@@ -123,7 +141,11 @@ const pagesLabel =
       </span>
     ))}
     {pagesLabel && <span class="dim pages">{pagesLabel}</span>}
-    {!cmd.documented && (
+    {cmd.engineOnly ? (
+      <span class="badge accent" title="Not in the manual or the base game data; the 5.42 game accepts it">
+        undocumented
+      </span>
+    ) : !cmd.documented && (
       <span class="badge accent" title={STATUS_TIPS.undocumented}>
         to be documented
       </span>
@@ -135,68 +157,9 @@ const pagesLabel =
   {
     notInGame && (
       <aside class="callout warn">
-        <strong>Not a mod command in {game}</strong>
-        <p>
-          The CoE5 {game} game does not recognise <code>{name}</code>. A mod that uses it stops loading
-          with <code>mod command '{name}' did nothing</code>.
-        </p>
+        <strong>Not in the {game} game</strong>
+        <p>The game doesn't recognise <code>{name}</code>; a mod using it fails to load.</p>
       </aside>
-    )
-  }
-
-  {
-    cmd.engineOnly && (
-      <aside class="callout">
-        <strong>Known only to the game</strong>
-        <p>
-          The CoE5 {game} game accepts <code>{name}</code>, but neither the modding manual nor the base
-          game data mention it, so its arguments and effect are not documented here.
-        </p>
-      </aside>
-    )
-  }
-
-  {
-    (engineFacts || stacking) && !notInGame && (
-      <>
-        <h2>In the game ({game})</h2>
-        <ul class="engine">
-          {engineFacts?.sections.includes("mod") ? (
-            <li>Works without a selected object.</li>
-          ) : engineSections.length > 0 && (
-            <li>
-              Accepted in {listSections(engineSections)} blocks
-              {sectionsDiffer && <span class="dim"> (the manual lists {listSections(cmd.sections)})</span>}. Anywhere else
-              the mod stops loading with <code>mod command '{name}' did nothing</code>.
-            </li>
-          )}
-          {engineFacts?.clamps?.map((c) => (
-            <li>
-              Argument {c.index + 1}: the game takes {boundsText(c)}
-              {c.sections.length < engineSections.length && ` (in a ${c.sections.join(" or ")} block)`}; other values are
-              clamped or ignored.
-            </li>
-          ))}
-          {stacking && <li>On a unit with items: {STACKING_TEXT[stacking]}.</li>}
-          {engineFacts?.quirk && (
-            <li class={engineFacts.quirk.level === "error" ? "engine-hazard" : "engine-quirk"}>
-              <strong>{engineFacts.quirk.level === "error" ? "Hazard" : "Watch out"}:</strong> {engineFacts.quirk.message}
-            </li>
-          )}
-        </ul>
-        {knownEntries.length > 0 && (
-          <p class="engine-known">
-            Verified mechanics:{" "}
-            {knownEntries.map((e, i) => (
-              <>
-                {i > 0 && " · "}
-                <a href={`/known#${e.slug}`}>{e.question}</a>
-              </>
-            ))}
-          </p>
-        )}
-        <p class="dim engine-src">— read from the CoE5 {game} game binary</p>
-      </>
     )
   }
 
@@ -217,9 +180,9 @@ const pagesLabel =
     )
   }
 
-  <h2>Arguments</h2>
+  {!cmd.engineOnly && <h2>Arguments</h2>}
   {
-    cmd.args.length === 0 ? (
+    cmd.engineOnly ? null : cmd.args.length === 0 ? (
       <p class="dim">Takes no arguments.</p>
     ) : (
       <>
@@ -282,6 +245,31 @@ const pagesLabel =
             </p>
           </div>
         ))}
+      </>
+    )
+  }
+
+  {
+    !notInGame && (engineLines.length > 0 || engineFacts?.quirk || knownEntries.length > 0) && (
+      <>
+        <h2>In game</h2>
+        {engineFacts?.quirk && (
+          <p class={engineFacts.quirk.level === "error" ? "engine-hazard" : "engine-quirk"}>
+            <strong>{engineFacts.quirk.level === "error" ? "Crashes the game:" : "Watch out:"}</strong>{" "}
+            {QUIRK_TEXT[name] ?? engineFacts.quirk.message}
+          </p>
+        )}
+        {engineLines.length > 0 && (
+          <ul class="engine">
+            {engineLines.map((line) => <li>{line}</li>)}
+          </ul>
+        )}
+        {knownEntries.map((e) => (
+          <p class="engine-known">
+            <a href={`/known#${e.slug}`}>{e.question}</a>
+          </p>
+        ))}
+        <p class="dim engine-src">— CoE5 {game}</p>
       </>
     )
   }
@@ -436,7 +424,13 @@ const pagesLabel =
 
   .engine-known {
     max-width: 44rem;
+    margin: 0.2rem 0;
     font-size: 0.92rem;
+  }
+
+  .engine-hazard,
+  .engine-quirk {
+    max-width: 44rem;
   }
 
   .engine-src {
