@@ -1,6 +1,9 @@
 ---
 import Base from "../../layouts/Base.astro";
 import data from "../../../modcheck/data/commands.json";
+import engineData from "../../../modcheck/data/engine.json";
+import engineStacking from "../../data/engine-stacking.json";
+import known from "../../data/known.json";
 import allExamples from "../../data/examples.json";
 import manualDescriptions from "../../data/command-descriptions.json";
 import authoredDescriptions from "../../data/command-descriptions-overrides.json";
@@ -14,11 +17,43 @@ import { SECTION_TIPS, STATUS_TIPS } from "../../lib/badge-tips.js";
 import { distance } from "../../../modcheck/src/suggest.js";
 
 export function getStaticPaths() {
-  return Object.keys(data.commands).map((name) => ({ params: { name } }));
+  const names = new Set([...Object.keys(data.commands), ...engineData.added]);
+  return [...names].map((name) => ({ params: { name } }));
 }
 
 const { name } = Astro.params;
-const cmd = data.commands[name];
+// Commands only the game binary knows get a stand-in record: no manual page,
+// no signature, nothing attested in the rips.
+const cmd = data.commands[name] ?? {
+  sections: engineData.commands[name].sections,
+  signature: null,
+  args: [],
+  arity: { min: 0, max: 0 },
+  pages: [],
+  documented: false,
+  attested: 0,
+  engineOnly: true,
+};
+
+// What the game binary itself does with the command (see DESIGN.md, engine data).
+const game = engineData.meta.game;
+const engineFacts = engineData.commands[name] ?? null;
+const notInGame = engineData.removed.includes(name);
+const stacking = engineStacking[name] ?? null;
+const knownEntries = known.entries.filter((e) => e.commands.includes(name));
+const engineSections = engineFacts?.sections.filter((s) => s !== "mod") ?? [];
+const sectionsDiffer =
+  engineSections.length > 0 &&
+  (engineSections.length !== cmd.sections.length || engineSections.some((s) => !cmd.sections.includes(s)));
+const listSections = (list) =>
+  list.length <= 1 ? list.join("") : `${list.slice(0, -1).join(", ")} and ${list[list.length - 1]}`;
+const boundsText = (c) =>
+  c.min !== null && c.max !== null ? `${c.min} to ${c.max}` : c.min !== null ? `at least ${c.min}` : `at most ${c.max}`;
+const STACKING_TEXT = {
+  sum: "values from several items add up",
+  highest: "only the highest value from items counts",
+  "depends-on-reader": "some game code adds item values up, other code keeps only the highest",
+};
 
 const examples = allExamples[name] ?? [];
 const notes = cmd.notes ? (Array.isArray(cmd.notes) ? cmd.notes : [cmd.notes]) : [];
@@ -96,6 +131,74 @@ const pagesLabel =
   </p>
 
   <pre class="signature">{signatureLine}</pre>
+
+  {
+    notInGame && (
+      <aside class="callout warn">
+        <strong>Not a mod command in {game}</strong>
+        <p>
+          The CoE5 {game} game does not recognise <code>{name}</code>. A mod that uses it stops loading
+          with <code>mod command '{name}' did nothing</code>.
+        </p>
+      </aside>
+    )
+  }
+
+  {
+    cmd.engineOnly && (
+      <aside class="callout">
+        <strong>Known only to the game</strong>
+        <p>
+          The CoE5 {game} game accepts <code>{name}</code>, but neither the modding manual nor the base
+          game data mention it, so its arguments and effect are not documented here.
+        </p>
+      </aside>
+    )
+  }
+
+  {
+    (engineFacts || stacking) && !notInGame && (
+      <>
+        <h2>In the game ({game})</h2>
+        <ul class="engine">
+          {engineFacts?.sections.includes("mod") ? (
+            <li>Works without a selected object.</li>
+          ) : engineSections.length > 0 && (
+            <li>
+              Accepted in {listSections(engineSections)} blocks
+              {sectionsDiffer && <span class="dim"> (the manual lists {listSections(cmd.sections)})</span>}. Anywhere else
+              the mod stops loading with <code>mod command '{name}' did nothing</code>.
+            </li>
+          )}
+          {engineFacts?.clamps?.map((c) => (
+            <li>
+              Argument {c.index + 1}: the game takes {boundsText(c)}
+              {c.sections.length < engineSections.length && ` (in a ${c.sections.join(" or ")} block)`}; other values are
+              clamped or ignored.
+            </li>
+          ))}
+          {stacking && <li>On a unit with items: {STACKING_TEXT[stacking]}.</li>}
+          {engineFacts?.quirk && (
+            <li class={engineFacts.quirk.level === "error" ? "engine-hazard" : "engine-quirk"}>
+              <strong>{engineFacts.quirk.level === "error" ? "Hazard" : "Watch out"}:</strong> {engineFacts.quirk.message}
+            </li>
+          )}
+        </ul>
+        {knownEntries.length > 0 && (
+          <p class="engine-known">
+            Verified mechanics:{" "}
+            {knownEntries.map((e, i) => (
+              <>
+                {i > 0 && " · "}
+                <a href={`/known#${e.slug}`}>{e.question}</a>
+              </>
+            ))}
+          </p>
+        )}
+        <p class="dim engine-src">— read from the CoE5 {game} game binary</p>
+      </>
+    )
+  }
 
   {
     notes.length > 0 && (
@@ -305,6 +408,39 @@ const pagesLabel =
   .scale-icon {
     white-space: nowrap;
     letter-spacing: 0.3em;
+  }
+
+  .engine {
+    max-width: 44rem;
+    padding-left: 1.2rem;
+    margin: 0.4rem 0;
+  }
+
+  .engine li {
+    margin-bottom: 0.3rem;
+  }
+
+  .engine-hazard strong,
+  .callout.warn strong {
+    color: var(--error);
+  }
+
+  .engine-quirk strong {
+    color: var(--warning);
+  }
+
+  .callout.warn {
+    border-color: var(--error);
+    border-left-color: var(--error);
+  }
+
+  .engine-known {
+    max-width: 44rem;
+    font-size: 0.92rem;
+  }
+
+  .engine-src {
+    font-size: 0.8rem;
   }
 
   .interaction {
