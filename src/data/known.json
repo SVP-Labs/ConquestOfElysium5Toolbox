@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "game": "5.42",
+    "source": "Verified against the CoE5 5.42 game binary. \"certain\": every relevant code path was traced. \"likely\": traced, with one detail left open (named in the entry)."
+  },
+  "entries": [
+    {
+      "slug": "spec-stacking",
+      "question": "When a unit gets the same ability from its monster, its items and other sources, how do the values combine?",
+      "commands": ["fireres", "coldres", "shockres", "poisonres", "darkbless", "holy"],
+      "confidence": "certain",
+      "answer": [
+        "The monster's own value comes first. A monster holds one value per ability, so repeating a line overwrites it.",
+        "Then each of the unit's 8 item slots is checked (the same item in neighbouring slots counts once). Whether items add up or only the highest counts is decided by the game code asking, not by the ability: some readers sum every item's value, others keep the highest. The command pages say which applies.",
+        "Bless effects of the owning player are then added on top, for units that receive them (see the bless entry).",
+        "Last come up to four temporary abilities a unit can carry in battle, combined the same way as items."
+      ]
+    },
+    {
+      "slug": "bless-application",
+      "question": "Which units receive their player's bless effects, and what does darkbless do?",
+      "commands": ["darkbless", "holy"],
+      "confidence": "likely",
+      "answer": [
+        "A unit adds its owner's bless effects when its monster is holy, when it has darkbless above 0, when it carries a runtime 'blessed' status, or when it has an internal ability no mod command sets.",
+        "Bless values are always added on top of whatever the monster and its items give.",
+        "So darkbless lets a unit that is not holy benefit from bless effects. Open detail: where the runtime status comes from was not traced."
+      ]
+    },
+    {
+      "slug": "two-power-lines",
+      "question": "Can a monster carry two power lines, and do both apply?",
+      "commands": ["power", "newritpow"],
+      "confidence": "likely",
+      "answer": [
+        "Yes. Each power N value line is its own entry: different N values add up to several powers that all apply, the same N twice keeps only the last value.",
+        "N from 1 to 499 names a power directly; 0 or a negative N counts back from the newest newritpow (0 is the newest, -1 the one before). N of 500 or more is silently ignored.",
+        "Powers share the monster's ability table (256 entries) with every other ability; a very large N can collide with an unrelated ability.",
+        "Open detail: five of the code paths that read powers were traced, the rest are assumed to work the same way."
+      ]
+    },
+    {
+      "slug": "promotion-transformtarg-pairs",
+      "question": "With several promotion or transformtarg entries, how is the target chosen?",
+      "commands": ["promotion", "transformtarg", "addstring", "promplayer"],
+      "confidence": "likely",
+      "answer": [
+        "Both only do something on rituals. On a monster they are stored (last line wins) but nothing ever reads them.",
+        "A ritual keeps every entry and runs all of them in the order written; the game does not pick one.",
+        "transformtarg's value is only a mode. The new monster comes from the ritual's addstring strings, one chosen per cast, at random when there are several.",
+        "promotion's value caps how many units are promoted: -1 (the default) promotes the first matching unit, a positive N up to N units.",
+        "Open detail: the string-selection chances (sum0chance to sum4chance) were read only in outline."
+      ]
+    },
+    {
+      "slug": "inanimate-undead-banishment",
+      "question": "How do inanimate and undead interact with banishment?",
+      "commands": ["inanimate", "undead", "demonic", "banishsurv"],
+      "confidence": "certain",
+      "answer": [
+        "Inanimate plays no part. A unit can be banished when its monster type is undead or demonic, judged from the monster type itself, not from items.",
+        "Undead cannot be banished while in Hades, demonic units not while in Inferno.",
+        "Normally banishment destroys the unit. With banishsurv the unit is flung to another plane instead."
+      ]
+    },
+    {
+      "slug": "plane-numbers",
+      "question": "Which plane number is Elysium, and how are the planes numbered?",
+      "commands": ["+plane", "randloc"],
+      "confidence": "certain",
+      "answer": [
+        "0 Elysium, 1 Celestial Plane, 2 Sky, 3 Agartha, 4 Inferno, 5 Hades, 6 Aztlan, 7 Primal Plane, 8 Elemental Planes.",
+        "In events, plane -1 (or no argument) matches any plane and plane -2 matches Elysium, Sky and Agartha."
+      ]
+    },
+    {
+      "slug": "ritual-grants-resource",
+      "question": "Can a ritual grant a resource?",
+      "commands": ["cost"],
+      "confidence": "likely",
+      "answer": [
+        "Yes, through a negative cost. cost 0 -100 gives the caster's player 100 gold every cast: the game never rejects a negative amount, and paying subtracts it.",
+        "This works for resource types 0 to 13 (gold, iron, herbs, fungus, sacrifices, hands of glory, weed, rubies, sapphires, diamonds, emeralds, trade, relics, lifeforce); type 15 adds random gems. Types 14, 16, 17 and 18 do nothing with a negative amount.",
+        "The grant is scaled like any cost, so rebates shrink it too.",
+        "Trap: gold, iron, herbs and similar lines inside a ritual block are not costs. They become ritual effects the game does not know and the cast stops with 'unknown ritual fx'.",
+        "Open detail: indirect routes (events, summoned units with gather abilities) were not traced to the end."
+      ]
+    },
+    {
+      "slug": "repeat-ritual-shortfall",
+      "question": "How does a repeated ritual behave when resources run short partway?",
+      "commands": ["cost", "maxcast"],
+      "confidence": "certain",
+      "answer": [
+        "Repeats come from the 'Repeat ritual' checkbox. At the turn change each mage with a repeat tries up to four casts in a row, one action point each.",
+        "Every repetition is checked and paid on its own, against what is left after the previous ones. A cast is all or nothing: if any cost is short, nothing is paid for it.",
+        "The first repetition that cannot be paid stops the series and clears the repeat; it is not retried next turn.",
+        "Casts already paid are never refunded, even if their effect fails. maxcast being reached also stops and clears a repeat."
+      ]
+    },
+    {
+      "slug": "event-trigger-short-circuit",
+      "question": "Do event conditions short-circuit, and in what order are they checked?",
+      "commands": ["playerevent", "squareevent", "+turnnbr", "+minunitshere", "+hascom"],
+      "confidence": "certain",
+      "answer": [
+        "Lines run top to bottom. The first condition line that fails ends the event; every later line is skipped. Actions that already ran stay applied. There is no OR.",
+        "Conditions that do not depend on a square (turn, season, variables, hasunit, minunits and similar) end the event immediately.",
+        "Conditions that depend on a square only drop that square from a squareevent's candidates; the event fails only when no square is left.",
+        "Exception: minunitshere reads the square but ends the whole event on the first square short of units.",
+        "+hascom can never be true in 5.42; -hascom always passes."
+      ]
+    },
+    {
+      "slug": "event-turn-minus-1",
+      "question": "On turn -1, how do player events run for each player?",
+      "commands": ["playerevent", "squareevent", "+turnnbr", "+minturnnbr"],
+      "confidence": "likely",
+      "answer": [
+        "The event code itself never loops over players; the game runs all mod events once per player.",
+        "At game start, after the world is made and with the turn at -1, the game runs every mod's events once for each active player slot, 0 to 31, in order. Then each turn it runs them again once per player.",
+        "So a squareevent also fires once per player each time; add a player condition if it should run once.",
+        "turnnbr with no number is true only during the turn -1 pass. Loading a savegame skips that pass.",
+        "Open detail: which player slots count as active depends on game data."
+      ]
+    },
+    {
+      "slug": "event-newunits-count",
+      "question": "What does the number on a newunits line do?",
+      "commands": ["newunits"],
+      "confidence": "likely",
+      "answer": [
+        "The number is the owner, not a count: 0 to 31 is a player, -2 the event player, -3 the square's owner, -4 the army's owner. A negative result makes the line do nothing.",
+        "Counts go inside the string: \"Name\" is one unit, \"5*Name\" five, \"c*Name\" a commander, \"2d6*Name\" dice. Groups are joined with \" & \".",
+        "Counts of three or more digits are not understood: \"100*Peasant\" makes one Peasant. Use dice or several groups for crowds.",
+        "Units after a c* group follow that commander.",
+        "Open detail: the limits of the unit creator itself were not traced."
+      ]
+    },
+    {
+      "slug": "event-action-order",
+      "question": "Do event actions run in strict listing order?",
+      "commands": ["setloc", "randloc", "scatterloc", "targetunitloc"],
+      "confidence": "certain",
+      "answer": [
+        "Yes. Each line finishes before the next. In a squareevent each action line runs once for every candidate square before the next line starts.",
+        "Actions never fail an event; a failed action is skipped or logged. Only conditions end an event.",
+        "Once a location command sets a square, every later line, and every later repetition in a squareevent, acts on that one square. In a squareevent that means randloc and scatterloc repeat once per candidate square from their own previous result."
+      ]
+    },
+    {
+      "slug": "event-randloc-absent-terrain",
+      "question": "What does randloc do when the terrain is not on the map?",
+      "commands": ["randloc"],
+      "confidence": "certain",
+      "answer": [
+        "It guesses random squares up to 500,000 times, then logs 'event: randloc ... failed' and carries on from the current square. The event does not fail.",
+        "The search is slow; in a squareevent it repeats per candidate square and can stall the turn.",
+        "A terrain that exists but is very rare can also fail by bad luck."
+      ]
+    }
+  ]
+}

@@ -1171,23 +1171,21 @@ const starter = [
     // the game's own "Known X Spells" table. Spell lists come from the
     // community wiki's path->spell mapping (CC BY-SA) joined with the game
     // data's weapon records (range, area, damage type).
-    // aoe values over 100 are encodings; each mapping below is read from the
-    // community wiki's "Area of Effect" wording for the spells that carry
-    // that value (e.g. Hellfire 9999 = entire battlefield, Ring of Flames
-    // 997 = circle, Chain Lightning 9208 = 8 bounces, Chasm 7015 = crack 15).
+    // Area-of-effect codes, decoded exactly as the CoE5 5.42 game prints them
+    // (its weapon-description routine): thousands select the shape, the rest
+    // is the size; 9xyy is yy bounces with range x.
+    const AOE_SHAPES = [[1000, "beam"], [2000, "narrow cone"], [3000, "cone"], [4000, "wide cone"], [5000, "line"], [7000, "crack"]];
     const AOE_TEXT = (aoe) => {
       if (aoe === undefined || aoe === 0) return "single target";
       if (aoe < 0) return `${-aoe} strikes`;
-      if (aoe <= 100) return `burst ${aoe}`;
+      for (const [base, shape] of AOE_SHAPES) if (aoe >= base && aoe < base + 1000) return `${shape} ${aoe - base}`;
+      if (aoe >= 9000 && aoe < 9900) return `${aoe % 100} bounces range ${Math.floor((aoe - 9000) / 100)}`;
       if (aoe === 997) return "circle";
       if (aoe === 998) return "all friends";
       if (aoe === 999) return "all enemies";
       if (aoe === 9997) return "15% of battlefield";
-      if (aoe === 9996 || aoe === 9998 || aoe === 9999) return "entire battlefield";
-      if (aoe >= 9200 && aoe <= 9299) return `${aoe - 9200} bounces`;
-      if (aoe >= 7000 && aoe <= 7099) return `crack ${aoe - 7000}`;
-      if (aoe >= 5000 && aoe <= 5099) return `line ${aoe - 5000}`;
-      return "special area";
+      if (aoe === 9995 || aoe === 9996 || aoe === 9998 || aoe === 9999) return "entire battlefield";
+      return `burst ${aoe}`;
     };
     let creditSpells = false;
     for (const c of combatMagic) {
@@ -1248,7 +1246,7 @@ const starter = [
         const specTd = document.createElement("td");
         specTd.textContent = AOE_TEXT(rec.aoe) + (rec.an ? ", AN" : "");
         if (rec.aoe !== undefined && rec.aoe > 100) {
-          specTd.title = `aoe ${rec.aoe} in the weapon record — wording from the community wiki`;
+          specTd.title = `aoe ${rec.aoe} in the weapon record — decoded as the 5.42 game does`;
         } else if (rec.an) {
           specTd.title = "AN — armor negating";
         }

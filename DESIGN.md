@@ -114,6 +114,15 @@ repo's data (`commands.json` is generated), not in this repo.
 - **Phase 3:** `/tools/sprite`, `/tools/package`, `/tools/format`,
   `/tools/scaffold`. Folder-drop on `/check` (needs the `lintMod` browser
   core) fits here.
+- **Engine data (2026-11):** the CoE5 5.42 game binary was reverse
+  engineered for the toolbox (clean-room: only behaviour facts in our own
+  words leave the workspace, never game code). The validator ships them as
+  `modcheck/data/engine.json` (where the parser accepts each command, enforced
+  bounds, verified quirks, commands the game adds or lacks); command pages
+  show them under "In the game (5.42)", with item stacking from
+  `src/data/engine-stacking.json` (`tools/extract-engine.mjs`). `/known`
+  shipped as "Verified mechanics": `src/data/known.json`, hand-written
+  modder-facing summaries of the verified findings, each with its confidence.
 - **Phase 4:** `/known` (markdown-in-repo verified-mechanics registry, seeded
   from the 314 never-used commands) and `/tools/collisions`. Ask the Steam
   modding community whether `/known` is wanted before building it.
@@ -168,21 +177,16 @@ source attached (see the rules table in play.astro).
   weapons the source itself defines.
 - **Init and Range come from the weapon record** (Bow init 2 / range 5
   match the in-game tab). Needs stats.json.
-- **Weapon-record `aoe` encodings** — decoded by matching each value against
-  the community wiki's "Area of Effect" wording (CC BY-SA) for the spells
-  that carry it: negative N = "N strikes" (Ice Shards −3, Iron Darts −7,
-  Poison Bolts −3, Lashes of Fire −3, Tendrils of Death −7 all match);
-  1–100 = "burst N" (Falling Fires burst 25 also confirmed in-game);
-  997 = circle (Ring of Flames, Aura of Unlife); 998 = all friends (Army of
-  Gold, Legion of Ice/Stone, Strange Dimensions); 999 = all enemies (Arcane
-  Tempest, Iron Storm, Mass Command); 9996/9998/9999 = entire battlefield
-  (Animate Forest/Swamp, Slumbering Army, Hellfire/Blizzard/Gale/Solar
-  Brilliance); 9997 = 15% of battlefield (Meteor Showers); 92NN = NN bounces
-  (Chain Lightning 9208, Lightning Storm 9212); 70NN = crack NN (Maws of the
-  Earth 7005, Chasm 7015); 50NN = line NN (Lightning Bolt 5005). Unmapped
-  values (breath/gaze families 1002–4025) display "special area". The wiki
-  lists Combustion as "burst 4" against the record's aoe −4 — treated as a
-  wiki slip, since five other negative-aoe spells confirm "strikes".
+- **Weapon-record `aoe` encodings** — read from the CoE5 5.42 game binary's
+  own weapon-description routine (2026-11), replacing the earlier wiki match:
+  0 = single target; negative N = "N strikes"; 1000–1999 beam, 2000–2999
+  narrow cone, 3000–3999 cone, 4000–4999 wide cone, 5000–5999 line,
+  7000–7999 crack, each with size = value minus the thousand; 9000–9899 =
+  "yy bounces range x" for 9xyy (Chain Lightning 9208 = 8 bounces, range 2);
+  997 circle, 998 all friends, 999 all enemies; 9995, 9996, 9998, 9999
+  entire battlefield; 9997 15% of battlefield; every other positive value
+  "burst N". This fills the former "special area" breath/gaze families and
+  adds the bounce range. Shared by /play and /data/spells.
 - **Spell data comes from the game data itself (v5.33)** — the
   Spell_Data_v5.33 extraction carries every combat spell's path, level,
   weapon record and dmg as first-party data (1,029 spells, 68 paths),

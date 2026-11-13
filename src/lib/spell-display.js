@@ -1,22 +1,31 @@
 // Display decoding for combat spells, shared by the /data/spells browser.
 // (/play's unit card carries its own copy of the same rules inside its
-// client script.) Provenance: aoe encodings decoded via the community
-// wiki's Area-of-Effect wording (CC BY-SA), damage-die vs effect split per
-// the game data's own annotations — see DESIGN.md.
+// client script.) Area-of-effect codes are decoded exactly as the CoE5 5.42
+// game prints them (its weapon-description routine): thousands select the
+// shape, the rest is the size, and 9xyy is yy bounces with range x. The
+// damage-die vs effect split follows the game data's own annotations — see
+// DESIGN.md.
+
+const AOE_SHAPES = [
+  [1000, "beam"],
+  [2000, "narrow cone"],
+  [3000, "cone"],
+  [4000, "wide cone"],
+  [5000, "line"],
+  [7000, "crack"],
+];
 
 export const aoeText = (aoe) => {
   if (aoe === undefined || aoe === 0) return "single target";
   if (aoe < 0) return `${-aoe} strikes`;
-  if (aoe <= 100) return `burst ${aoe}`;
+  for (const [base, shape] of AOE_SHAPES) if (aoe >= base && aoe < base + 1000) return `${shape} ${aoe - base}`;
+  if (aoe >= 9000 && aoe < 9900) return `${aoe % 100} bounces range ${Math.floor((aoe - 9000) / 100)}`;
   if (aoe === 997) return "circle";
   if (aoe === 998) return "all friends";
   if (aoe === 999) return "all enemies";
   if (aoe === 9997) return "15% of battlefield";
-  if (aoe === 9996 || aoe === 9998 || aoe === 9999) return "entire battlefield";
-  if (aoe >= 9200 && aoe <= 9299) return `${aoe - 9200} bounces`;
-  if (aoe >= 7000 && aoe <= 7099) return `crack ${aoe - 7000}`;
-  if (aoe >= 5000 && aoe <= 5099) return `line ${aoe - 5000}`;
-  return "special area";
+  if (aoe === 9995 || aoe === 9996 || aoe === 9998 || aoe === 9999) return "entire battlefield";
+  return `burst ${aoe}`;
 };
 
 /** Damage cell: die spells show "Type 1-N", effect spells show "special"

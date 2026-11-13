@@ -1,0 +1,103 @@
+---
+import Base from "../../layouts/Base.astro";
+import known from "../../data/known.json";
+import data from "../../../modcheck/data/commands.json";
+import engineData from "../../../modcheck/data/engine.json";
+
+const game = engineData.meta.game;
+const hasPage = (name) => name in data.commands || engineData.added.includes(name);
+---
+
+<Base
+  title="Verified mechanics"
+  description={`How Conquest of Elysium 5 ${game} really handles abilities, rituals and events, verified against the game itself.`}
+>
+  <h1>Verified mechanics</h1>
+  <p class="lede">
+    Answers to mechanics questions the manual leaves open, each checked against the CoE5 {game} game
+    binary. <strong>certain</strong> means every relevant code path was traced; <strong>likely</strong> means
+    one detail was left open, and the entry names it.
+  </p>
+
+  <nav class="toc" aria-label="Questions">
+    <ol>
+      {known.entries.map((e) => (
+        <li><a href={`#${e.slug}`}>{e.question}</a></li>
+      ))}
+    </ol>
+  </nav>
+
+  {known.entries.map((e) => (
+    <section class="entry" id={e.slug}>
+      <h2>{e.question}</h2>
+      <p class="meta">
+        <span class={`badge conf-${e.confidence}`}>{e.confidence}</span>
+        {e.commands.map((c) =>
+          hasPage(c) ? <a class="cmd" href={`/commands/${encodeURIComponent(c)}`}>{c}</a> : <span class="cmd">{c}</span>,
+        )}
+      </p>
+      {e.answer.map((p) => <p>{p}</p>)}
+    </section>
+  ))}
+
+  <h2 id="game-only">Commands only the game knows</h2>
+  <p>
+    The CoE5 {game} game accepts these, but neither the manual nor the base game data mention them:
+  </p>
+  <p class="cmds">
+    {engineData.added.map((c) => <a class="cmd" href={`/commands/${encodeURIComponent(c)}`}>{c}</a>)}
+  </p>
+
+  <h2 id="not-in-game">Listed commands the game does not know</h2>
+  <p>
+    These appear in the manual or the base game data, but the {game} parser does not recognise them; a mod that uses
+    one stops loading with <code>mod command '…' did nothing</code>:
+  </p>
+  <p class="cmds">
+    {engineData.removed.map((c) => <a class="cmd" href={`/commands/${encodeURIComponent(c)}`}>{c}</a>)}
+  </p>
+</Base>
+
+<style>
+  .lede,
+  .entry p {
+    max-width: 44rem;
+  }
+
+  .toc ol {
+    padding-left: 1.2rem;
+    max-width: 44rem;
+  }
+
+  .toc li {
+    margin-bottom: 0.2rem;
+  }
+
+  .entry {
+    margin-top: 2rem;
+    scroll-margin-top: 4.5rem;
+  }
+
+  .meta,
+  .cmds {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.35rem 0.85rem;
+  }
+
+  .cmd {
+    font-family: var(--mono);
+    font-size: 0.92rem;
+  }
+
+  .conf-certain {
+    color: var(--ok);
+    border-color: var(--ok);
+  }
+
+  .conf-likely {
+    color: var(--warning);
+    border-color: var(--warning);
+  }
+</style>

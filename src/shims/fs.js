@@ -1,9 +1,11 @@
 import commands from "../../modcheck/data/commands.json";
 import vanilla from "../../modcheck/data/vanilla.json";
+import engine from "../../modcheck/data/engine.json";
 
 const tables = new Map([
   ["commands.json", commands],
   ["vanilla.json", vanilla],
+  ["engine.json", engine],
 ]);
 
 export function readFileSync(file) {
