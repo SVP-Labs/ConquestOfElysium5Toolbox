@@ -1246,7 +1246,7 @@ const starter = [
         const specTd = document.createElement("td");
         specTd.textContent = AOE_TEXT(rec.aoe) + (rec.an ? ", AN" : "");
         if (rec.aoe !== undefined && rec.aoe > 100) {
-          specTd.title = `aoe ${rec.aoe} in the weapon record — decoded as the 5.42 game does`;
+          specTd.title = `aoe ${rec.aoe} in the weapon record — decoded as the game does`;
         } else if (rec.an) {
           specTd.title = "AN — armor negating";
         }

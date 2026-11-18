@@ -1,6 +1,6 @@
 {
   "meta": {
-    "game": "5.42"
+    "game": "5.43"
   },
   "entries": [
     {
@@ -94,17 +94,18 @@
       "answer": [
         "Top to bottom. The first failing condition ends the event; actions above it have already happened. There is no OR.",
         "In a squareevent, square conditions (terrain, units here, owner) only drop that square; the rest (turn, season, variables, unit counts) end the event at once.",
-        "minunitshere is the exception: one square short of units ends the whole event. +hascom never passes in 5.42."
+        "minunitshere is the exception: one square short of units ends the whole event. +hascom never passes."
       ]
     },
     {
       "slug": "event-turn-minus-1",
-      "question": "How often do events run, and what happens on turn -1?",
+      "question": "When do events run?",
       "commands": ["playerevent", "squareevent", "+turnnbr", "+minturnnbr"],
       "confidence": "likely",
       "answer": [
         "Every event runs once per player per turn, squareevents included; add a player condition if it should fire once.",
-        "At game start, on turn -1, all events run once for each active player in slot order. turnnbr with no number is true only then. Loading a save skips this pass."
+        "At game start, on turn -1, all events run once for each active player in slot order, then again on the first turn. A message sent by an event therefore shows up twice before you play your first turn (seen in game). turnnbr with no number is true only on turn -1. Loading a save skips that pass.",
+        "Events never run while mods are loading. 5.42 also fired every event once at each mod load; 5.43 fixed that."
       ]
     },
     {

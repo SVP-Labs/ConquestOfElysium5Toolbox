@@ -119,10 +119,15 @@ repo's data (`commands.json` is generated), not in this repo.
   words leave the workspace, never game code). The validator ships them as
   `modcheck/data/engine.json` (where the parser accepts each command, enforced
   bounds, verified quirks, commands the game adds or lacks); command pages
-  show them under "In the game (5.42)", with item stacking from
+  show them under "In game", with item stacking from
   `src/data/engine-stacking.json` (`tools/extract-engine.mjs`). `/known`
-  shipped as "Verified mechanics": `src/data/known.json`, hand-written
-  modder-facing summaries of the verified findings, each with its confidence.
+  shipped as "Mechanics": `src/data/known.json`, hand-written
+  modder-facing summaries of the verified findings. The game version shown
+  comes from `engine.json` (`meta.game`); pages never hard-code it.
+  **5.43 (2026-11-18):** re-checked against the 5.43 binary (mod parsing
+  unchanged; events no longer run while mods load). Claims that were also
+  run in the real game (5.43 via Steam) carry `quirk.tested` in engine.json
+  and show "Tested in the real game"; the rest are read from the code.
 - **Phase 4:** `/known` (markdown-in-repo verified-mechanics registry, seeded
   from the 314 never-used commands) and `/tools/collisions`. Ask the Steam
   modding community whether `/known` is wanted before building it.
