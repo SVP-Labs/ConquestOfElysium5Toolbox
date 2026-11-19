@@ -58,7 +58,7 @@ const STACKING_TEXT = {
 // Site wording for the verified quirks (the validator words them as diagnostics).
 const QUIRK_TEXT = {
   removeanimalcorpses: "any use aborts the game with a fatal error.",
-  "+hascom": "never true in 5.42; -hascom always passes.",
+  "+hascom": `never true in ${game}; -hascom always passes.`,
   "+minunitshere": "in a squareevent, one square short of units ends the whole event.",
   newunits: "counts of three or more digits (\"100*Peasant\") create a single unit; use dice or several groups.",
 };
@@ -86,7 +86,7 @@ const purpose = override
   : manualDescriptions[name]
     ? manualDescriptions[name].map((p) => ({ ...p, source: "manual" }))
     : engineDescriptions[name]?.text
-      ? [{ text: engineDescriptions[name].text, source: "authored", label: "read from the CoE5 5.42 game" }]
+      ? [{ text: engineDescriptions[name].text, source: "authored", label: `read from the CoE5 ${game} game` }]
       : [];
 
 const signature = cmd.signature ?? engineDescriptions[name]?.signature ?? null;
@@ -143,7 +143,7 @@ const pagesLabel =
     ))}
     {pagesLabel && <span class="dim pages">{pagesLabel}</span>}
     {cmd.engineOnly ? (
-      <span class="badge accent" title="Not in the manual or the base game data; the 5.42 game accepts it">
+      <span class="badge accent" title={`Not in the manual or the base game data; the ${game} game accepts it`}>
         undocumented
       </span>
     ) : !cmd.documented && (
@@ -258,6 +258,9 @@ const pagesLabel =
           <p class={engineFacts.quirk.level === "error" ? "engine-hazard" : "engine-quirk"}>
             <strong>{engineFacts.quirk.level === "error" ? "Crashes the game:" : "Watch out:"}</strong>{" "}
             {QUIRK_TEXT[name] ?? engineFacts.quirk.message}
+            {engineFacts.quirk.tested && (
+              <span class="dim tested"> Tested in the real game ({engineFacts.quirk.tested.game}, {engineFacts.quirk.tested.date}).</span>
+            )}
           </p>
         )}
         {engineLines.length > 0 && (
